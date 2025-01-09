@@ -25,7 +25,7 @@
 	        <div class="row gy-4 first-row">
 
 	          <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
-                <h2>{{$data->heading}}</h2>
+                <h2 class="post-title">{{$data->heading}}</h2>
                 <div class="post-footer">
                     <p ><i class="bi bi-person"></i> {{$data->author->name}} </p>
                     <p class="date">Published On - {{date('F d, Y', strtotime($data->created_at))}}</p>

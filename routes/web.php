@@ -4,6 +4,13 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\adminAuth;
 
 
+//Migration
+Route::get('/migrate', function () {
+    Artisan::call('migrate');
+    //Artisan::call('migrate', ['--force' => true ]);
+    dd('migrated!');
+});
+
 //Web 
 Route::namespace('App\Http\Controllers\web')->group(function(){
     Route::get('/', 'WebController@index')->name('home');
