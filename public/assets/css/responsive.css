@@ -1,0 +1,39 @@
+@media (max-width: 1200px) {
+	.hide-mobile{
+		display: none;
+	}
+
+	.hero-img {
+	    height: 350px;
+        width: 275px;
+    	padding: 10px;
+    	margin-bottom: -30px;
+	}
+
+	.col-sm-6 {
+		width: 50%;
+	}
+
+	.service-card-last{
+		margin: auto;
+	}
+
+	.service-cards h2 {
+	    font-size: 24px !important;
+	    margin-top: 10px !important;
+	}
+
+	.service-cards .first-row{
+		flex-direction: column-reverse;
+	}
+
+	.clientele-section .container .sub-section {
+        margin-left: -13px;
+        padding: 15px 28px !important;
+        margin-top: -85px !important;
+    }
+    .page-title {
+	    padding: 150px 0 70px 0;
+	}
+
+}
