@@ -4,13 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\adminAuth;
 
 
-//Migration
-Route::get('/migrate', function () {
-    Artisan::call('migrate');
-    //Artisan::call('migrate', ['--force' => true ]);
-    dd('migrated!');
-});
-
 //Web 
 Route::namespace('App\Http\Controllers\web')->group(function(){
     Route::get('/', 'WebController@index')->name('home');
@@ -29,7 +22,7 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
 
     //Blogs
     Route::get('/blogs', 'BlogController@index')->name('blogs');
-    //Route::get('/{blog_slug}', 'BlogController@details')->name('blogs.detail');
+    Route::get('/{blog_slug}', 'BlogController@details')->name('blogs.detail');
 
     //Newsletter
     Route::post('/subscribe', 'NewsletterController@subscribe')->name('newsletter.subscribe');
