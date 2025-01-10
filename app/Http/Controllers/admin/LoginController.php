@@ -31,7 +31,7 @@ class LoginController extends Controller
                 $response['message'] = 'Success!';
             }else{
                 $response['success'] = false;
-                $response['errors'] = json_encode($data);
+                $response['errors'] = "Incorrect Username or Password";
             }
         }
 
