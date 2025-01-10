@@ -39,5 +39,8 @@
 	.faq-sec {
 	    margin-left: 0px !important;
 	}
+	.faq-heading {
+		margin-left: 0 !important;
+	}
 
 }
