@@ -418,3 +418,21 @@
 .post-title {
     font-size: 42px;
 }
+
+.whatsapp-chat {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 99;
+}
+
+.whatsapp-chat img {
+    width: 80px;
+    transition: .3s ease-in-out all;
+}
+
+
+.whatsapp-chat:hover img {
+    width: 85px;
+    filter: grayscale(30%);
+}
