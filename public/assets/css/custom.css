@@ -485,7 +485,9 @@
 .aside-link a small {
     color: #000;
 }
-
+.sent-message, .loading{
+    display: none;
+}
 
 
 

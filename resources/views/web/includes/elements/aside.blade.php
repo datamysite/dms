@@ -1,6 +1,7 @@
 <div class="aside-form">
     <h4>ENQUIRY</h4>
-    <form>
+    <form action="{{route('enquiry.submit')}}" id="enquiry-form" >
+        @csrf
         <input type="text" name="name" placeholder="Name" class="form-control" required>
         
         <input type="text" name="phone" placeholder="Phone" class="form-control" required>
@@ -34,6 +35,7 @@
         <textarea class="form-control" name="description" rows="4" placeholder="Describe Your Requirement" required></textarea>
         
         <button class="btn btn-theme">Submit Your Enquiry</button>
+        <div class="loading"><img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="newsletter-loader"></div>
     </form>
 </div>
 

@@ -7,11 +7,11 @@ var Toast = Swal.mixin({
 });
 
 //Sell With DCM
-$(document).on("submit", "#newsletterForm", function (event) {
+$(document).on("submit", "#enquiry-form", function (event) {
     var form = $(this);
-    var formData = new FormData($("#newsletterForm")[0]);
+    var formData = new FormData($("#enquiry-form")[0]);
     $(".errors").css({ display: "none" });
-    $(".subscribe-btn").html('<img src="'+host+'/public/loader-gif.gif" width="80px" class="newsletter-loader">');
+    $(".loading").css({display:"block"});
     $.ajax({
         type: "POST",
         url: form.attr("action"),
@@ -37,10 +37,10 @@ $(document).on("submit", "#newsletterForm", function (event) {
                     title: data.message,
                 });
             }
-            $(".subscribe-btn").html('SUBSCRIBE');
+            $(".loading").css({display:"none"});
         })
         .fail(function (e) {
-            $(".subscribe-btn").html('SUBSCRIBE');
+            $(".loading").css({display:"none"});
             Toast.fire({
                 icon: "warning",
                 title: data.message,

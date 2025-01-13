@@ -18,3 +18,4 @@
   <script src="{{URL::to('/public')}}/assets/js/counter.js"></script>
   <script src="{{URL::to('/public')}}/assets/js/faq.js"></script>
   <script src="{{URL::to('/public')}}/assets/js/newsletter.js"></script>
+  <script src="{{URL::to('/public')}}/assets/js/enquiry.js"></script>
