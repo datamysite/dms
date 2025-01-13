@@ -37,8 +37,13 @@
                       <hr />
                   @endforeach
 
+                  {!! $data->withQueryString()->links('pagination::bootstrap-5') !!}
                 </div>  
 	        </div>
+
+            <div class="col-lg-3 aside-block" data-aos="fade-up" data-aos-delay="100">
+                @include('web.includes.elements.aside')
+            </div>
 
 	      </div>
 

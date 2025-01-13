@@ -14,7 +14,7 @@ class BlogController extends Controller
         $data['titleImg'] = 'services.jpg';
         $data['title'] = 'Blogs';
         
-        $data['data'] = Blogs::where('status', '1')->orderBy('created_at', 'desc')->get();
+        $data['data'] = Blogs::where('status', '1')->orderBy('created_at', 'desc')->paginate(8);
 
         return view('web.blogs.index')->with($data);
     }

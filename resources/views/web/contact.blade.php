@@ -22,6 +22,9 @@
                         <div class="hide-mobile" style="height: 50px;"></div>
                         @include('web.includes.elements.contact')
                     </div>
+                    <div class="col-lg-5">
+                        @include('web.includes.elements.contact-form')
+                    </div>
                 </div>
               </div><!-- End Card Item -->
 
@@ -29,7 +32,7 @@
 
           </div>
 
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.086584815546!2d55.17229152794556!3d24.997173672037658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f734a5c744f37%3A0x6e047855710d82a6!2sBayan%20Building!5e0!3m2!1sen!2sae!4v1736174170875!5m2!1sen!2sae" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14464.219277779735!2d55.16920962642821!3d24.99825314644458!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f7347c3a1a1d1%3A0xad7a49fd99d3061!2sDataMySite!5e0!3m2!1sen!2sae!4v1736759203303!5m2!1sen!2sae" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </section>
 

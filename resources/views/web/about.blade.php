@@ -88,12 +88,18 @@
             <div class="row gy-4 first-row">
 
               <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100"> 
-                    <span class="text-theme">MAKE APPOINTMENT</span>
-                    <h3 class="text-bold">Get Our Service Easily</h3>
-                <div class="hide-mobile" style="height: 50px;"></div>
+                    
                 <div class="row">
                     <div class="col-lg-7">
+                        <span class="text-theme">MAKE APPOINTMENT</span>
+                        <h3 class="text-bold">Get Our Service Easily</h3>
+                        <div class="hide-mobile" style="height: 50px;"></div>
+
                         @include('web.includes.elements.contact')
+                    </div>
+                    <div class="col-lg-5">
+                        <br>
+                        @include('web.includes.elements.contact-form')
                     </div>
                 </div>
               </div><!-- End Card Item -->
