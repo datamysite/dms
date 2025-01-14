@@ -202,9 +202,7 @@
   padding: 0px;
   padding-left: 30px;
   padding-right: 30px;
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 1px;
+  font-size: 16px;
   color: #3B566E;
   text-decoration: none !important;
   -webkit-transition: all 0.3s ease 0s;
@@ -226,7 +224,7 @@
   -moz-border-radius: 100px;
   border-radius: 100px;
   text-align: center;
-  background: #E91E63;
+  background: #f44d46;
   color: #fff;
   font-size: 12px;
   margin-right: 20px;
@@ -458,6 +456,11 @@
 .aside-form .btn {
     width: 100%;
 }
+.aside-form .btn:hover {
+    background-color: #fff;
+    color: #e04a43;
+    font-weight: 500;
+}
 .btn-theme {
     background-color: #e04a43;
     color: #fff;
@@ -470,26 +473,35 @@
 }
 .aside-link a span {
     color: #000;
-    transition: .2s ease-in-out all;
 }
 .aside-link a {
     padding: 3px 5px;
     border-bottom: 1px solid #e1e1e1;
+    font-size: 14px;
+    transition: .2s ease-in-out all;
 }
 .aside-link a:hover {
     background-color: beige;
-}
-.aside-link a:hover span {
-    margin-right: 5px;
+    padding-left: 10px;
 }
 .aside-link a small {
     color: #000;
+    font-size: 9px;
 }
 .sent-message, .loading{
     display: none;
 }
-
-
+.fa {
+    font-weight: 400 !important;
+}
+.row.service-row.gy-4 {
+    justify-content: center;
+}
+.aside-link a i {
+    width: 22px;
+    color: #000;
+    text-align: center;
+}
 
 
 

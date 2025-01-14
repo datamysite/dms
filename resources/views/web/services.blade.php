@@ -6,7 +6,36 @@
 
 	    @include('web.includes.subheader')
 
-	    @include('web.includes.elements.services')
+	    <!-- Services Section -->
+	    <section id="services" class="services section">
+
+	      <!-- Section Title -->
+	      <div class="container section-title" data-aos="fade-up">
+	        <h2 class="text-theme">Our Services</h2>
+	        <p class="service-p">Elevate Your Brand Visibility and Boost Sales</p>
+	      </div><!-- End Section Title -->
+
+	      <div class="container">
+
+	        <div class="row service-row gy-4">
+
+	        	@foreach($services as $val)
+		          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+		            <div class="icon flex-shrink-0"><i class="{{$val->icon}}" style="color: #f44d46;"></i></div>
+		            <div>
+		              <h4 class="title">{{$val->name}}</h4>
+		              <p class="description">{{$val->description}}</p>
+		              <a href="{{URL::to('/'.$val->slug)}}" class="readmore stretched-link" target="_blank"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+		            </div>
+		          </div>
+		          <!-- End Service Item -->
+	          	@endforeach
+	          
+	        </div>
+
+	      </div>
+
+	    </section><!-- /Services Section -->
 
 
 	    <!-- Call To Action Section -->

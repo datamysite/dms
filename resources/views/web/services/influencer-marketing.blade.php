@@ -25,35 +25,41 @@
             <div class="row gy-4 first-row">
 
               <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="post-title">About Transit Media</h2>
+                <h2 class="post-title">About Influencer Marketing</h2>
                 <div class="detail-post-image">
                     <img src="{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}" alt="{{$service->slug}}">
                 </div>
                 <br>
                 <div class="post-container">
                     <p>
-                        Transit media offers an innovative way to target commuters, tourists, and a wide variety of audiences across Dubai and the UAE. DataMySite provides dynamic transit media solutions that place your brand in front of a captive audience.
+                        In today’s digital age, influencer marketing has become a powerful tool for businesses looking to amplify their brand and connect with a highly engaged audience. At DataMySite, we specialize in leveraging influencer marketing strategies to help your brand reach the right audience, increase credibility, and boost sales across Dubai and the UAE.
                     </p>
-                    <h4>Our Transit Media Services:</h4>
+                    <h4>Our Influencer Marketing Services:</h4>
                     <ul>
                         <li>
-                            <strong>Taxi Advertising</strong>: Taxis are a highly visible and mobile form of advertising. Whether through wraps or taxi-top ads, your brand gets the attention of both passengers and people on the streets.
+                            <strong>Influencer Identification</strong>: We identify the most relevant influencers in your industry, based on their audience demographics, engagement rates, and content style. Whether you're targeting local celebrities, micro-influencers, or niche experts, we ensure that the influencer aligns perfectly with your brand values and goals.
                         </li>
                         <li>
-                            <strong>Bus Advertising</strong>: We place ads on bus stations, ensuring your brand gets noticed by commuters who are waiting for their ride. This provides ample opportunity for your message to resonate with an audience who may have a few moments to engage.
+                            <strong>Campaign Strategy</strong>: We work closely with you to develop a comprehensive influencer marketing strategy that meets your campaign objectives. From product reviews and sponsored content to giveaways and event collaborations, we craft tailored campaigns that resonate with your target audience.
+                        </li>
+                        <li>
+                            <strong>Influencer Management</strong>: From negotiation and contract management to campaign execution and reporting, we handle all aspects of influencer partnerships. We ensure that your brand gets the best value out of its collaborations while maintaining positive relationships with influencers.
+                        </li>
+                        <li>
+                            <strong>Performance Tracking & Reporting</strong>: We track and analyze the performance of each influencer campaign, measuring key metrics like engagement rates, website traffic, and conversions. With this data, we can refine strategies and ensure maximum ROI.
                         </li>
                     </ul>
                     <br>
-                    <h4>Why Choose DataMySite for Transit Media in Dubai?</h4>
+                    <h4>Why Choose DataMySite for Influencer Marketing in Dubai?</h4>
                     <ul>
                         <li>
-                            <strong>High Visibility</strong>: Transit advertising allows your brand to reach a diverse and engaged audience while they’re on the move, ensuring your message is seen by many.
+                            <strong>Expertise in the UAE Market</strong>: We understand the nuances of the Dubai and UAE market and know how to choose influencers whose audience aligns with your brand's objectives.
                         </li>
                         <li>
-                            <strong>Strategic Placement</strong>: We carefully select the most strategic locations and transit routes to maximize the impact of your ad campaign.
+                            <strong>Authentic Partnerships</strong>: We focus on building authentic and long-term relationships between brands and influencers, ensuring genuine content that resonates with audiences.
                         </li>
                         <li>
-                            <strong>Creative Options</strong>: Whether you prefer digital or traditional formats, we offer creative solutions that make your brand stand out.
+                            <strong>Comprehensive Campaign Management</strong>: From strategy development to execution and performance tracking, we offer end-to-end influencer marketing services to ensure your campaigns are successful.
                         </li>
                     </ul>
                     <br>
@@ -78,13 +84,13 @@
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">1</span>How do you choose the right transit media for my campaign?
+                                        <span class="badge">1</span>How do you choose the right influencers for my brand?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We analyze your target audience and select the most effective transit media platforms based on their routes, passenger traffic, and proximity to key locations.</p>
+                                    <p> We evaluate influencers based on their audience demographics, engagement rates, relevance to your industry, and content style. Our goal is to match your brand with influencers who will resonate with their followers.</p>
                                 </div>
                             </div>
                         </div>
@@ -92,13 +98,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">2</span>Can I target specific areas in Dubai with transit media?
+                                        <span class="badge">2</span>Can influencer marketing work for small businesses? 
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, we help you target specific neighborhoods, high-traffic areas, and key business districts by strategically placing your ads on buses, metro lines, and taxis.</p>
+                                    <p>Yes, influencer marketing is scalable and can benefit businesses of all sizes. We offer tailored packages for small businesses that maximize budget efficiency.</p>
                                 </div>
                             </div>
                         </div>
@@ -106,13 +112,13 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">3</span>What is the duration of a transit media campaign?
+                                        <span class="badge">3</span>How do I measure the success of my influencer marketing campaign?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Transit media campaigns can range from a few weeks to several months, depending on your objectives and budget.</p>
+                                    <p>We provide detailed reports tracking key metrics such as engagement rates, reach, conversions, and return on investment, ensuring you can gauge campaign effectiveness.</p>
                                 </div>
                             </div>
                         </div>

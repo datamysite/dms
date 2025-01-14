@@ -5,7 +5,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug).'.png'}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}');">
             <div class="container">
               <h1>{{$service->name}}</h1>
               <nav class="breadcrumbs">
@@ -25,41 +25,31 @@
             <div class="row gy-4 first-row">
 
               <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="post-title">About Transit Media</h2>
+                <h2 class="post-title">Outdoor Advertising in Dubai with DataMySite</h2>
                 <div class="detail-post-image">
                     <img src="{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}" alt="{{$service->slug}}">
                 </div>
                 <br>
                 <div class="post-container">
                     <p>
-                        Transit media offers an innovative way to target commuters, tourists, and a wide variety of audiences across Dubai and the UAE. DataMySite provides dynamic transit media solutions that place your brand in front of a captive audience.
+                        At DataMySite, we specialize in providing innovative outdoor advertising solutions designed to increase brand visibility and engagement across Dubai and the UAE. With the city's vibrant urban landscape and high-traffic areas, outdoor advertising remains one of the most effective ways to reach a broad audience. From billboards to large-format displays, we have the expertise to create dynamic and impactful campaigns that capture attention and leave a lasting impression.
                     </p>
-                    <h4>Our Transit Media Services:</h4>
+                    <h4>Why Choose DataMySite for Outdoor Advertising in Dubai?</h4>
                     <ul>
                         <li>
-                            <strong>Taxi Advertising</strong>: Taxis are a highly visible and mobile form of advertising. Whether through wraps or taxi-top ads, your brand gets the attention of both passengers and people on the streets.
+                            <strong>Strategic Locations</strong>: We understand the importance of placement. Our outdoor advertising options are located in high-traffic areas throughout Dubai, ensuring maximum exposure to your brand.
                         </li>
                         <li>
-                            <strong>Bus Advertising</strong>: We place ads on bus stations, ensuring your brand gets noticed by commuters who are waiting for their ride. This provides ample opportunity for your message to resonate with an audience who may have a few moments to engage.
-                        </li>
-                    </ul>
-                    <br>
-                    <h4>Why Choose DataMySite for Transit Media in Dubai?</h4>
-                    <ul>
-                        <li>
-                            <strong>High Visibility</strong>: Transit advertising allows your brand to reach a diverse and engaged audience while they’re on the move, ensuring your message is seen by many.
+                            <strong>Creative Flexibility</strong>: Whether you need large-scale billboards or creative transit media, we work with you to bring your vision to life. Our creative team ensures your message is engaging and impactful.
                         </li>
                         <li>
-                            <strong>Strategic Placement</strong>: We carefully select the most strategic locations and transit routes to maximize the impact of your ad campaign.
-                        </li>
-                        <li>
-                            <strong>Creative Options</strong>: Whether you prefer digital or traditional formats, we offer creative solutions that make your brand stand out.
+                            <strong>Comprehensive Campaigns</strong>: From planning and designing to placement and monitoring, we provide end-to-end services for all your outdoor advertising needs.
                         </li>
                     </ul>
                     <br>
                     <div class="row services gy-4">
                         @foreach($subservices as $val)
-                          <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
                             <div class="icon flex-shrink-0"><i class="{{$val->icon}}" style="color: #f44d46;"></i></div>
                             <div>
                               <h4 class="title">{{$val->name}}</h4>
@@ -78,13 +68,13 @@
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">1</span>How do you choose the right transit media for my campaign?
+                                        <span class="badge">1</span>What is the best location for outdoor advertising in Dubai?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We analyze your target audience and select the most effective transit media platforms based on their routes, passenger traffic, and proximity to key locations.</p>
+                                    <p>The best locations depend on your target audience. Key areas include Sheikh Zayed Road, Downtown Dubai, Dubai Marina, and other high-traffic districts. We help you choose the right locations based on your campaign goals.</p>
                                 </div>
                             </div>
                         </div>
@@ -92,13 +82,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">2</span>Can I target specific areas in Dubai with transit media?
+                                        <span class="badge">2</span>How long does it take to set up outdoor advertising?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, we help you target specific neighborhoods, high-traffic areas, and key business districts by strategically placing your ads on buses, metro lines, and taxis.</p>
+                                    <p>Setup times vary based on the size and type of the advertisement. Typically, outdoor campaigns can be launched within a week, though larger-scale projects may require additional time.</p>
                                 </div>
                             </div>
                         </div>
@@ -106,17 +96,16 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">3</span>What is the duration of a transit media campaign?
+                                        <span class="badge">3</span>Can outdoor ads be changed or updated frequently?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Transit media campaigns can range from a few weeks to several months, depending on your objectives and budget.</p>
+                                    <p>Yes, especially with digital outdoor advertising. You can update your message or creative content in real-time, ensuring your ads stay fresh and relevant.</p>
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>  
             </div>

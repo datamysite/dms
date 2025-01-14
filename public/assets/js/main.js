@@ -1,13 +1,12 @@
-/**
-* Template Name: Nova
-* Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+var host = $("meta[name='home_url']").attr("content");
+
 
 (function() {
   "use strict";
+
+  $.get(host+"/get-aside", function(data, status){
+      $('.aside-block').html(data);
+  });
 
   /**
    * Apply .scrolled class to the body as the page is scrolled down

@@ -13,16 +13,18 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
     Route::get('/contact-us', 'WebController@contact')->name('contact');
 
     //Services
-        Route::get('/celebrity-and-influencer-marketing', 'ServiceController@celebrity')->name('celebrity');
-        Route::get('/digital-media-buying', 'ServiceController@digitalMedia')->name('digitalMedia');
-        Route::get('/transit-media', 'ServiceController@transitMedia')->name('transitMedia');
-        Route::get('/pr-coverage', 'ServiceController@prCoverage')->name('prCoverage');
-        Route::get('/taxi', 'ServiceController@taxi')->name('taxi');
-        Route::get('/elevators', 'ServiceController@elevators')->name('elevators');
+        Route::get('/outdoor-advertising', 'ServiceController@outdoorAdvertising');
+        Route::get('/digital-advertising', 'ServiceController@digitalAdvertising');
+        Route::get('/public-relations-pr-coverage', 'ServiceController@prCoverage');
+        Route::get('/celebrity-marketing', 'ServiceController@celebrityMarketing');
+        Route::get('/influencer-marketing', 'ServiceController@influencerMarketing');
+        Route::get('/event-marketing', 'ServiceController@eventMarketing');
+        Route::get('/transit-media', 'ServiceController@transitMedia');
+        Route::get('/lead-generation', 'ServiceController@leadGeneration');
+        Route::get('/sponsorships', 'ServiceController@sponsorships');
+        Route::get('/creative-and-cgi-advertising', 'ServiceController@cgiAdvertising');
+        Route::get('/radio-advertising', 'ServiceController@radioAdvertising');
 
-    //Blogs
-    Route::get('/blogs', 'BlogController@index')->name('blogs');
-    Route::get('/{blog_slug}', 'BlogController@details')->name('blogs.detail');
 
     //Newsletter
     Route::post('/subscribe', 'NewsletterController@subscribe')->name('newsletter.subscribe');
@@ -30,6 +32,12 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
     //Enquiry
     Route::post('/enquiry', 'EnquiryController@enquiry')->name('enquiry.submit');
 
+    //Aside
+    Route::get('/get-aside', 'WebController@getAside');
+
+    //Blogs
+    Route::get('/blogs', 'BlogController@index')->name('blogs');
+    Route::get('/{blog_slug}', 'BlogController@details')->name('blogs.detail');
 });
 
 

@@ -994,11 +994,12 @@ section,
 
 .services .service-item .icon {
   margin-right: 20px;
+      margin-top: 20px;
 }
 
 .services .service-item .icon i {
   color: var(--accent-color);
-  font-size: 40px;
+  font-size: 35px;
   line-height: 0;
   transition: 0.3s;
 }
