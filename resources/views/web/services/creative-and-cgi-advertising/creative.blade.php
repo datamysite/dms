@@ -5,14 +5,15 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug).'.png'}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$subservice->slug.'.png')}}');">
             <div class="container">
-              <h1>{{$service->name}}</h1>
+              <h1>{{$subservice->name}}</h1>
               <nav class="breadcrumbs">
                 <ol>
                   <li><a href="{{route('home')}}">Home</a></li>
                   <li><a href="{{route('services')}}">Services</a></li>
-                  <li class="current">{{$service->name}}</li>
+                  <li><a href="{{URL::to('/'.$service->slug)}}">{{$service->name}}</a></li>
+                  <li class="current">{{$subservice->name}}</li>
                 </ol>
               </nav>
             </div>
@@ -25,45 +26,27 @@
             <div class="row gy-4 first-row">
 
               <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="post-title">About Lead Generation</h2>
+                <h2 class="post-title">About Creative Advertising</h2>
                 <div class="detail-post-image">
-                    <img src="{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}" alt="{{$service->slug}}">
+                    <img src="{{URL::to('public/assets/img/service/'.$subservice->slug.'.png')}}" alt="{{$subservice->slug}}">
                 </div>
                 <br>
                 <div class="post-container">
                     <p>
-                        At DataMySite, we specialize in crafting tailored lead-generation strategies that drive results for businesses in Dubai and across the UAE. Lead generation is the lifeline of any successful business, connecting companies with potential customers who are genuinely interested in their products or services. By leveraging innovative tools, creative strategies, and data-driven approaches, we ensure your pipeline is always full of high-quality leads.
+                       DataMySite offers Creative Advertising through CGI (Computer-Generated Imagery), delivering visually captivating and innovative ads that push the limits of imagination. We use CGI to create stunning, high-quality visuals that elevate your brand’s message and engage your audience in ways traditional methods can’t. From futuristic product launches to surreal brand storytelling, our CGI solutions ensure your brand stands out.
                     </p>
-                    <h4>Why Choose DataMySite for Lead Generation?</h4>
+                    <h4>Why Choose CGI Creative Advertising?</h4>
                     <ul>
                         <li>
-                            <strong>Customized Campaigns</strong>: Each strategy is uniquely designed to meet your business goals.
+                            <strong>Limitless Creativity</strong>: Design visually unique, out-of-this-world visuals.
                         </li>
                         <li>
-                            <strong>High-Quality Leads</strong>: We focus on quality over quantity, ensuring every lead has the potential to convert.
+                            <strong>High-Impact</strong>: Catch the audience's attention with stunning, unforgettable imagery.
                         </li>
                         <li>
-                            <strong>Data-Driven Decisions</strong>: We analyze performance metrics to continually refine our strategies.
-                        </li>
-                        <li>
-                            <strong>Proven Results</strong>: With years of experience, we’ve helped countless businesses grow their customer base.
+                            <strong>Cost-Effective</strong>: Eliminate expensive traditional filming and easily scale campaigns across multiple platforms.
                         </li>
                     </ul>
-                    <br>
-                    <div class="row services gy-4">
-                        @foreach($subservices as $val)
-                          <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon flex-shrink-0"><i class="{{$val->icon}}" style="color: #f44d46;"></i></div>
-                            <div>
-                              <h4 class="title">{{$val->name}}</h4>
-                              <p class="description">{{$val->description}}</p>
-                              <a href="{{URL::to('/'.$service->slug.'/'.$val->slug)}}" class="readmore stretched-link" target="_blank"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
-                            </div>
-                          </div>
-                          <!-- End Service Item -->
-                        @endforeach
-                    </div>
-
                     <br><br>
                     <h4>FAQs</h4>
                     <div class="faq " id="accordion">
@@ -71,13 +54,13 @@
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">1</span>How does lead generation work?
+                                        <span class="badge">1</span>What’s the benefit of CGI over traditional advertising?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Lead generation involves identifying and attracting potential customers for your business through targeted marketing strategies. This can include email campaigns, social media ads, and search engine marketing.</p>
+                                    <p>CGI allows for unlimited creativity with visuals that are often impossible to capture with traditional methods.</p>
                                 </div>
                             </div>
                         </div>
@@ -85,13 +68,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">2</span>What industries can benefit from your lead generation services?
+                                        <span class="badge">2</span>Is CGI advertising suitable for all industries?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Our services cater to a wide range of industries, including real estate, technology, healthcare, and retail.</p>
+                                    <p>Yes, it works across various sectors like automotive, fashion, tech, and more.</p>
                                 </div>
                             </div>
                         </div>
@@ -99,13 +82,13 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">3</span>How do you ensure the quality of leads?
+                                        <span class="badge">3</span>How do you ensure CGI aligns with my brand?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We use advanced targeting methods and continuously refine our strategies based on performance data to ensure the leads are highly relevant to your business.</p>
+                                    <p>We collaborate with you to ensure the final ad matches your brand’s style and message.</p>
                                 </div>
                             </div>
                         </div>
@@ -113,17 +96,30 @@
                             <div class="card-header" id="faqHeading-4">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                        <span class="badge">4</span>How long does it take to see results?
+                                        <span class="badge">4</span>How long does it take to create a CGI ad?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Lead generation campaigns typically start showing results within a few weeks, depending on the complexity of the strategy.</p>
+                                    <p>Typically, it takes a few weeks to months, depending on the complexity of the project.</p>
                                 </div>
                             </div>
                         </div>
-                        
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-5">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
+                                        <span class="badge">5</span>Can CGI ads be used across different platforms?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Yes, CGI ads are adaptable for TV, social media, websites, and print.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>  
             </div>

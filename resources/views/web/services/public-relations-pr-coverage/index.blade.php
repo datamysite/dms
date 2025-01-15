@@ -5,7 +5,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug).'.png'}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}');">
             <div class="container">
               <h1>{{$service->name}}</h1>
               <nav class="breadcrumbs">
@@ -25,35 +25,39 @@
             <div class="row gy-4 first-row">
 
               <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="post-title">About Transit Media</h2>
+                <h2 class="post-title">Public Relations (PR) Coverage </h2>
                 <div class="detail-post-image">
                     <img src="{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}" alt="{{$service->slug}}">
                 </div>
                 <br>
                 <div class="post-container">
                     <p>
-                        Transit media offers an innovative way to target commuters, tourists, and a wide variety of audiences across Dubai and the UAE. DataMySite provides dynamic transit media solutions that place your brand in front of a captive audience.
+                        In the fast-paced and highly competitive market of Dubai, having a strong PR strategy is essential for any brand looking to build credibility, trust, and authority. At DataMySite, we offer comprehensive PR services to help your business establish a positive reputation, connect with key stakeholders, and generate media coverage that amplifies your brand’s voice.
                     </p>
-                    <h4>Our Transit Media Services:</h4>
+                    <h4>Our PR Coverage Services:</h4>
                     <ul>
                         <li>
-                            <strong>Taxi Advertising</strong>: Taxis are a highly visible and mobile form of advertising. Whether through wraps or taxi-top ads, your brand gets the attention of both passengers and people on the streets.
+                            <strong>Media Relations</strong> – We have strong relationships with top-tier journalists, editors, and media outlets in Dubai and the UAE. Our team works tirelessly to secure coverage for your brand in print, online, and broadcast media.
                         </li>
                         <li>
-                            <strong>Bus Advertising</strong>: We place ads on bus stations, ensuring your brand gets noticed by commuters who are waiting for their ride. This provides ample opportunity for your message to resonate with an audience who may have a few moments to engage.
+                            <strong>Press Releases</strong> – We write compelling press releases that effectively communicate your brand's message to the media. Our team ensures your press release is newsworthy and reaches the right audience.
+                        </li>
+                        <li>
+                            <strong>Crisis Management</strong>– When unexpected situations arise, our crisis communication services help protect your brand’s reputation. We provide strategic guidance on how to manage and mitigate negative publicity.
                         </li>
                     </ul>
                     <br>
-                    <h4>Why Choose DataMySite for Transit Media in Dubai?</h4>
+
+                    <h4>Why Choose DataMySite for PR Coverage in Dubai?</h4>
                     <ul>
                         <li>
-                            <strong>High Visibility</strong>: Transit advertising allows your brand to reach a diverse and engaged audience while they’re on the move, ensuring your message is seen by many.
+                            <strong>Strong Media Connections:</strong> Our team has built lasting relationships with key media outlets, ensuring your brand gets the coverage it deserves.
                         </li>
                         <li>
-                            <strong>Strategic Placement</strong>: We carefully select the most strategic locations and transit routes to maximize the impact of your ad campaign.
+                            <strong>Tailored PR Strategies:</strong> We customize our PR services to meet your unique needs, whether you're looking to boost brand awareness or handle a crisis.
                         </li>
                         <li>
-                            <strong>Creative Options</strong>: Whether you prefer digital or traditional formats, we offer creative solutions that make your brand stand out.
+                            <strong>Proven Track Record:</strong> With years of experience in the UAE market, we know how to craft PR strategies that resonate with both local and international audiences.
                         </li>
                     </ul>
                     <br>
@@ -78,13 +82,13 @@
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">1</span>How do you choose the right transit media for my campaign?
+                                        <span class="badge">1</span>How long does it take to see results from a PR campaign?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We analyze your target audience and select the most effective transit media platforms based on their routes, passenger traffic, and proximity to key locations.</p>
+                                    <p>PR results can take anywhere from a few weeks to a few months, depending on the scope of the campaign and the media outlets targeted.</p>
                                 </div>
                             </div>
                         </div>
@@ -92,13 +96,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">2</span>Can I target specific areas in Dubai with transit media?
+                                        <span class="badge">2</span>What types of businesses benefit from PR services?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, we help you target specific neighborhoods, high-traffic areas, and key business districts by strategically placing your ads on buses, metro lines, and taxis.</p>
+                                    <p>PR can benefit businesses across all industries, from startups to established brands. Our services are tailored to your specific goals and objectives.</p>
                                 </div>
                             </div>
                         </div>
@@ -106,17 +110,16 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">3</span>What is the duration of a transit media campaign?
+                                        <span class="badge">3</span>Can you help with both traditional and digital PR?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Transit media campaigns can range from a few weeks to several months, depending on your objectives and budget.</p>
+                                    <p>Yes, we provide both traditional and digital PR services to ensure your brand reaches a wide and diverse audience.</p>
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>  
             </div>

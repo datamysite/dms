@@ -5,14 +5,15 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$subservice->slug.'.png')}}');">
             <div class="container">
-              <h1>{{$service->name}}</h1>
+              <h1>{{$subservice->name}}</h1>
               <nav class="breadcrumbs">
                 <ol>
                   <li><a href="{{route('home')}}">Home</a></li>
                   <li><a href="{{route('services')}}">Services</a></li>
-                  <li class="current">{{$service->name}}</li>
+                  <li><a href="{{URL::to('/'.$service->slug)}}">{{$service->name}}</a></li>
+                  <li class="current">{{$subservice->name}}</li>
                 </ol>
               </nav>
             </div>
@@ -25,65 +26,44 @@
             <div class="row gy-4 first-row">
 
               <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="post-title">About Creative and CGI Advertising</h2>
+                <h2 class="post-title">About Cost-Per-Lead (CPL)</h2>
                 <div class="detail-post-image">
-                    <img src="{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}" alt="{{$service->slug}}">
+                    <img src="{{URL::to('public/assets/img/service/'.$subservice->slug.'.png')}}" alt="{{$subservice->slug}}">
                 </div>
                 <br>
                 <div class="post-container">
                     <p>
-                        DataMySite’s Creative and CGI Advertising services transform ordinary campaigns into extraordinary experiences. Using state-of-the-art technology and innovative design, we create visually stunning advertisements that captivate audiences and drive engagement. From 3D animations to immersive visual storytelling, our CGI solutions help your brand stand out in a competitive market.
+                       At DataMySite, we specialize in Cost-Per-Lead (CPL) Lead Generation, providing businesses with high-quality, actionable leads that drive sales and maximize ROI. Our tailored approach ensures that you only pay for the leads that matter, helping you optimize your marketing budget and focus on converting potential customers into loyal clients.
+                       <br><br>
+                       Cost-Per-Lead (CPL) campaigns are a performance-based advertising model where businesses pay for each qualified lead generated. This method ensures measurable results and cost-effective solutions for businesses across industries.
                     </p>
-                    <h4>Our Creative and CGI Advertising Services:</h4>
+                    <h4>Benefits of CPL Campaigns</h4>
                     <ul>
                         <li>
-                            <strong>3D Product Visualizations</strong>: Showcase your products in a realistic and captivating way.
+                            <strong>Cost-Effective</strong>: You only pay for verified leads, ensuring optimal use of your budget.
                         </li>
                         <li>
-                            <strong>Animated Explainer Videos</strong>: Simplify complex ideas with engaging animations.
+                            <strong>Scalable</strong>: CPL campaigns can be adjusted to match your growth goals.
                         </li>
                         <li>
-                            <strong>Augmented Reality (AR) Ads</strong>: Create interactive experiences for your audience.
-                        </li>
-                        <li>
-                            <strong>Virtual Reality (VR) Content</strong>: Immerse your customers in your brand story.
-                        </li>
-                        <li>
-                            <strong>Cinematic Ad Campaigns</strong>: Leverage high-quality CGI to deliver impactful messages.
+                            <strong>Trackable Results</strong>: Clear metrics and analytics to measure campaign success..
                         </li>
                     </ul>
-                    <br>
-
-                    <h4>Why Choose DataMySite for Creative and CGI Advertising?</h4>
+                    <h4>Why Choose Us?</h4>
                     <ul>
                         <li>
-                            <strong>Cutting-Edge Technology: </strong> We use the latest CGI and animation tools to create visually stunning ads.
+                            Expertise across industries.
                         </li>
                         <li>
-                            <strong>Creative Excellence:</strong> Our team of designers and animators are experts in their craft.
+                            Data-driven, performance-focused strategies.
                         </li>
                         <li>
-                            <strong>Custom Solutions:</strong> Every campaign is tailored to reflect your brand’s personality and objectives.
+                            Cost-effective, risk-minimized approach.
                         </li>
                         <li>
-                            <strong>Memorable Experiences:</strong> We create ads that leave a lasting impression on your audience.
+                            Seamless CRM integration for easy follow-up.
                         </li>
                     </ul>
-                    <br>
-                    <div class="row services gy-4">
-                        @foreach($subservices as $val)
-                          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon flex-shrink-0"><i class="{{$val->icon}}" style="color: #f44d46;"></i></div>
-                            <div>
-                              <h4 class="title">{{$val->name}}</h4>
-                              <p class="description">{{$val->description}}</p>
-                              <a href="{{URL::to('/'.$service->slug.'/'.$val->slug)}}" class="readmore stretched-link" target="_blank"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
-                            </div>
-                          </div>
-                          <!-- End Service Item -->
-                        @endforeach
-                    </div>
-
                     <br><br>
                     <h4>FAQs</h4>
                     <div class="faq " id="accordion">
@@ -91,13 +71,13 @@
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">1</span>What industries can benefit from CGI advertising?
+                                        <span class="badge">1</span>What is CPL?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>CGI advertising is versatile and can be used in industries like real estate, automotive, fashion, and technology.</p>
+                                    <p>CPL is a model where you pay for each qualified lead generated.</p>
                                 </div>
                             </div>
                         </div>
@@ -105,13 +85,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">2</span>How long does it take to create a CGI ad?
+                                        <span class="badge">2</span>How do you ensure lead quality?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>The timeline varies depending on the complexity of the project. On average, it takes 4-8 weeks to complete a CGI ad campaign.</p>
+                                    <p>We use advanced targeting, lead scoring, and verification processes.</p>
                                 </div>
                             </div>
                         </div>
@@ -119,27 +99,41 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">3</span>Is CGI advertising expensive?
+                                        <span class="badge">3</span>What platforms do you use?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>While it requires an investment, CGI advertising offers a high ROI by creating impactful and engaging campaigns.</p>
+                                    <p>We utilize Google Ads, Facebook, LinkedIn, and more.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card-header" id="faqHeading-3">
+                            <div class="card-header" id="faqHeading-4">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                        <span class="badge">4</span>Can CGI be used for social media campaigns?
+                                        <span class="badge">4</span>What is the cost per lead?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, CGI ads can be optimized for various platforms, including social media, to maximize engagement and reach.</p>
+                                    <p>Costs vary by industry; contact us for details.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-5">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
+                                        <span class="badge">5</span>Can CPL campaigns be customized?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Yes, campaigns are tailored to your business needs.</p>
                                 </div>
                             </div>
                         </div>

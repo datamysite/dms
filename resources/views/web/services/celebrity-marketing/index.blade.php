@@ -53,6 +53,19 @@
                             <strong>Emotional Connection</strong>: Fans often feel a personal connection to celebrities, translating to a stronger affinity for your brand.
                         </li>
                     </ul>
+                    <div class="row services gy-4">
+                        @foreach($subservices as $val)
+                          <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon flex-shrink-0"><i class="{{$val->icon}}" style="color: #f44d46;"></i></div>
+                            <div>
+                              <h4 class="title">{{$val->name}}</h4>
+                              <p class="description">{{$val->description}}</p>
+                              <a href="{{URL::to('/'.$service->slug.'/'.$val->slug)}}" class="readmore stretched-link" target="_blank"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+                            </div>
+                          </div>
+                          <!-- End Service Item -->
+                        @endforeach
+                    </div>
                     <br>
                     <h3>Bollywood Celebrity Marketing</h3>
                     <p>
@@ -94,19 +107,6 @@
                         </li>
                     </ul>
                     <br>
-                    <div class="row services gy-4">
-                        @foreach($subservices as $val)
-                          <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon flex-shrink-0"><i class="{{$val->icon}}" style="color: #f44d46;"></i></div>
-                            <div>
-                              <h4 class="title">{{$val->name}}</h4>
-                              <p class="description">{{$val->description}}</p>
-                              <a href="{{URL::to('/'.$service->slug.'/'.$val->slug)}}" class="readmore stretched-link" target="_blank"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
-                            </div>
-                          </div>
-                          <!-- End Service Item -->
-                        @endforeach
-                    </div>
                     <p>
                         With DataMySite’s Celebrity Marketing, your brand gets the star treatment it deserves. Connect with us today to collaborate with Bollywood’s finest or iconic sports personalities, and make your next campaign truly unforgettable.
                     </p>

@@ -13,16 +13,70 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
     Route::get('/contact-us', 'WebController@contact')->name('contact');
 
     //Services
-        Route::get('/outdoor-advertising', 'ServiceController@outdoorAdvertising');
-        Route::get('/digital-advertising', 'ServiceController@digitalAdvertising');
-        Route::get('/public-relations-pr-coverage', 'ServiceController@prCoverage');
-        Route::get('/celebrity-marketing', 'ServiceController@celebrityMarketing');
-        Route::get('/influencer-marketing', 'ServiceController@influencerMarketing');
-        Route::get('/event-marketing', 'ServiceController@eventMarketing');
-        Route::get('/transit-media', 'ServiceController@transitMedia');
-        Route::get('/lead-generation', 'ServiceController@leadGeneration');
-        Route::get('/sponsorships', 'ServiceController@sponsorships');
-        Route::get('/creative-and-cgi-advertising', 'ServiceController@cgiAdvertising');
+        Route::prefix('outdoor-advertising')->group(function(){
+            Route::get('/', 'ServiceController@outdoorAdvertising');
+            Route::get('/billboards-advertising', 'ServiceController@outdoorAdvertisingAillboardsAdvertising');
+            Route::get('/flyers-distribution', 'ServiceController@outdoorAdvertisingFlyersDistribution');
+            Route::get('/human-billboards', 'ServiceController@outdoorAdvertisingHumanBillboards');
+        });
+
+        Route::prefix('digital-advertising')->group(function(){
+            Route::get('/', 'ServiceController@digitalAdvertising');
+            Route::get('/ott-advertising', 'ServiceController@digitalAdvertisingOTTAdvertising');
+            Route::get('/dooh-advertising', 'ServiceController@digitalAdvertisingDOOHAdvertising');
+            Route::get('/hotel-digital-screens-advertising', 'ServiceController@digitalAdvertisingHotelAdvertising');
+            Route::get('/elevator-advertising', 'ServiceController@digitalAdvertisingElevetorAdvertising');
+        });
+
+        Route::prefix('public-relations-pr-coverage')->group(function(){
+            Route::get('/', 'ServiceController@prCoverage');
+            Route::get('/gulf-news', 'ServiceController@prCoverageGulfNews');
+            Route::get('/forbes', 'ServiceController@prCoverageForbes');
+            Route::get('/khaleej-time', 'ServiceController@prCoverageKhaleejTime');
+            Route::get('/arabian-news', 'ServiceController@prCoverageArabianNews');
+        });
+
+        Route::prefix('celebrity-marketing')->group(function(){
+            Route::get('/', 'ServiceController@celebrityMarketing');
+            Route::get('/sport-personalities', 'ServiceController@celebrityMarketingSport');
+            Route::get('/bollywood-celebraties', 'ServiceController@celebrityMarketingBollywood');
+        });
+
+        Route::prefix('influencer-marketing')->group(function(){
+            Route::get('/', 'ServiceController@influencerMarketing');
+            Route::get('/nano-influencer', 'ServiceController@influencerMarketingNano');
+            Route::get('/micro-influencer', 'ServiceController@influencerMarketingMicro');
+            Route::get('/macro-influencer', 'ServiceController@influencerMarketingMacro');
+        });
+
+        Route::prefix('event-marketing')->group(function(){
+            Route::get('/', 'ServiceController@eventMarketing');
+            Route::get('/corporate-events', 'ServiceController@eventMarketingCorporate');
+            Route::get('/private-events', 'ServiceController@eventMarketingPrivate');
+        });
+
+        Route::prefix('transit-media')->group(function(){
+            Route::get('/', 'ServiceController@transitMedia');
+            Route::get('/airline-advertising', 'ServiceController@transitMediaAirline');
+            Route::get('/taxi-advertising', 'ServiceController@transitMediaTaxi');
+            Route::get('/bus-advertising', 'ServiceController@transitMediaBus');
+        });
+
+        Route::prefix('lead-generation')->group(function(){
+            Route::get('/', 'ServiceController@leadGeneration');
+            Route::get('/cost-per-lead', 'ServiceController@leadGenerationCPL');
+        });
+
+        Route::prefix('sponsorships')->group(function(){
+            Route::get('/', 'ServiceController@sponsorships');
+            Route::get('/corporate', 'ServiceController@sponsorshipsCorporate');
+            Route::get('/entertainment', 'ServiceController@sponsorshipsEntertainment');
+        });
+
+        Route::prefix('creative-and-cgi-advertising')->group(function(){
+            Route::get('/', 'ServiceController@cgiAdvertising');
+            Route::get('/creative', 'ServiceController@cgiAdvertisingCreative');
+        });
         Route::get('/radio-advertising', 'ServiceController@radioAdvertising');
 
 

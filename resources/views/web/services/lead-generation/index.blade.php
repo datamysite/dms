@@ -5,7 +5,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug).'.png'}}');">
             <div class="container">
               <h1>{{$service->name}}</h1>
               <nav class="breadcrumbs">
@@ -25,45 +25,34 @@
             <div class="row gy-4 first-row">
 
               <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="post-title">Public Relations (PR) Coverage </h2>
+                <h2 class="post-title">About Lead Generation</h2>
                 <div class="detail-post-image">
                     <img src="{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}" alt="{{$service->slug}}">
                 </div>
                 <br>
                 <div class="post-container">
                     <p>
-                        In the fast-paced and highly competitive market of Dubai, having a strong PR strategy is essential for any brand looking to build credibility, trust, and authority. At DataMySite, we offer comprehensive PR services to help your business establish a positive reputation, connect with key stakeholders, and generate media coverage that amplifies your brand’s voice.
+                        At DataMySite, we specialize in crafting tailored lead-generation strategies that drive results for businesses in Dubai and across the UAE. Lead generation is the lifeline of any successful business, connecting companies with potential customers who are genuinely interested in their products or services. By leveraging innovative tools, creative strategies, and data-driven approaches, we ensure your pipeline is always full of high-quality leads.
                     </p>
-                    <h4>Our PR Coverage Services:</h4>
+                    <h4>Why Choose DataMySite for Lead Generation?</h4>
                     <ul>
                         <li>
-                            <strong>Media Relations</strong> – We have strong relationships with top-tier journalists, editors, and media outlets in Dubai and the UAE. Our team works tirelessly to secure coverage for your brand in print, online, and broadcast media.
+                            <strong>Customized Campaigns</strong>: Each strategy is uniquely designed to meet your business goals.
                         </li>
                         <li>
-                            <strong>Press Releases</strong> – We write compelling press releases that effectively communicate your brand's message to the media. Our team ensures your press release is newsworthy and reaches the right audience.
+                            <strong>High-Quality Leads</strong>: We focus on quality over quantity, ensuring every lead has the potential to convert.
                         </li>
                         <li>
-                            <strong>Crisis Management</strong>– When unexpected situations arise, our crisis communication services help protect your brand’s reputation. We provide strategic guidance on how to manage and mitigate negative publicity.
-                        </li>
-                    </ul>
-                    <br>
-
-                    <h4>Why Choose DataMySite for PR Coverage in Dubai?</h4>
-                    <ul>
-                        <li>
-                            <strong>Strong Media Connections:</strong> Our team has built lasting relationships with key media outlets, ensuring your brand gets the coverage it deserves.
+                            <strong>Data-Driven Decisions</strong>: We analyze performance metrics to continually refine our strategies.
                         </li>
                         <li>
-                            <strong>Tailored PR Strategies:</strong> We customize our PR services to meet your unique needs, whether you're looking to boost brand awareness or handle a crisis.
-                        </li>
-                        <li>
-                            <strong>Proven Track Record:</strong> With years of experience in the UAE market, we know how to craft PR strategies that resonate with both local and international audiences.
+                            <strong>Proven Results</strong>: With years of experience, we’ve helped countless businesses grow their customer base.
                         </li>
                     </ul>
                     <br>
                     <div class="row services gy-4">
                         @foreach($subservices as $val)
-                          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                          <div class="col-lg-8 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
                             <div class="icon flex-shrink-0"><i class="{{$val->icon}}" style="color: #f44d46;"></i></div>
                             <div>
                               <h4 class="title">{{$val->name}}</h4>
@@ -82,13 +71,13 @@
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">1</span>How long does it take to see results from a PR campaign?
+                                        <span class="badge">1</span>How does lead generation work?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>PR results can take anywhere from a few weeks to a few months, depending on the scope of the campaign and the media outlets targeted.</p>
+                                    <p>Lead generation involves identifying and attracting potential customers for your business through targeted marketing strategies. This can include email campaigns, social media ads, and search engine marketing.</p>
                                 </div>
                             </div>
                         </div>
@@ -96,13 +85,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">2</span>What types of businesses benefit from PR services?
+                                        <span class="badge">2</span>What industries can benefit from your lead generation services?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>PR can benefit businesses across all industries, from startups to established brands. Our services are tailored to your specific goals and objectives.</p>
+                                    <p>Our services cater to a wide range of industries, including real estate, technology, healthcare, and retail.</p>
                                 </div>
                             </div>
                         </div>
@@ -110,16 +99,31 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">3</span>Can you help with both traditional and digital PR?
+                                        <span class="badge">3</span>How do you ensure the quality of leads?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, we provide both traditional and digital PR services to ensure your brand reaches a wide and diverse audience.</p>
+                                    <p>We use advanced targeting methods and continuously refine our strategies based on performance data to ensure the leads are highly relevant to your business.</p>
                                 </div>
                             </div>
                         </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">4</span>How long does it take to see results?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Lead generation campaigns typically start showing results within a few weeks, depending on the complexity of the strategy.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>  
             </div>

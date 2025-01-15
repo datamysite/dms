@@ -146,7 +146,6 @@
 	        <div class="row">
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
-				      <i class="fab fa-instagram fa-3x"></i>
 				      <div class="counter" data-target="1219"></div><label>+</label>
 				      <span>Succesfull Project</span>
 				    </div>
@@ -154,7 +153,6 @@
 
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
-				      <i class="fab fa-instagram fa-3x"></i>
 				      <div class="counter" data-target="15"></div><label>+</label>
 				      <span>Years Experience</span>
 				    </div>
@@ -162,7 +160,6 @@
 
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
-				      <i class="fab fa-instagram fa-3x"></i>
 				      <div class="counter" data-target="5"></div><label>+</label>
 				      <span>Winning Awards</span>
 				    </div>
@@ -170,7 +167,6 @@
 
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
-				      <i class="fab fa-instagram fa-3x"></i>
 				      <div class="counter" data-target="81"></div><label>+</label>
 				      <span>Satisfied Clients</span>
 				    </div>
@@ -206,7 +202,7 @@
 	            </div>
 	          </div>
 	          <!-- End Service Item -->
-          	@endforeach
+          @endforeach
           
         </div>
 
