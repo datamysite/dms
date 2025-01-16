@@ -8,7 +8,10 @@ use App\Http\Middleware\adminAuth;
 //sitemap
 Route::get('/update-sitemap', function () {
     Artisan::call('app:generate-sitemap');
-    dd('Sitemap Updated!');
+    $response['success'] = 'success';
+    $response['message'] = 'Success! Sitemap Successfully Updated.';
+    
+    return response()->json($response, 200);
 });
 
 //Web 
