@@ -83,6 +83,12 @@
                   <p>Snippet Code</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="javascript:void(0)" id="update-sitemap" class="nav-link">
+                  <i class="fas fa-angle-right nav-icon"></i>
+                  <p>Update Sitemap</p>
+                </a>
+              </li>
 
             </ul>
           </li>
