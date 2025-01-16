@@ -8,6 +8,7 @@
 /vendor
 /email
 /profile
+sitemap.xml
 .env
 .env.backup
 .env.production
