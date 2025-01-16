@@ -58,7 +58,7 @@ class WebController extends Controller
     //Get Aside
     public function getAside(){
 
-        $data['blog_categories'] = Categories::orderBy('name')->get();
+        $data['blog_categories'] = Categories::has('blogs', '>', 0)->with('blogs')->orderBy('name')->get();
         $data['services'] = Services::where('parent_id', '0')->get();
         
         return view('web.includes.elements.aside')->with($data);

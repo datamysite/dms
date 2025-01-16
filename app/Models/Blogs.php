@@ -5,7 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Auth;
-use PhpOffice\PhpSpreadsheet\Calculation\Category;
+use App\Models\Countries;
+use App\Models\Author;
 
 class Blogs extends Model
 {

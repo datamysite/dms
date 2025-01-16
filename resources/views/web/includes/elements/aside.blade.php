@@ -30,11 +30,13 @@
     @endforeach
 </div>
 
+@if(count($blog_categories) > 0)
 <div class="aside-link">
     <h4>Blog Categories</h4>
     @foreach($blog_categories as $val)
-        <a href="">
-            {{$val->name}} <small>(12)</small>
+        <a href="{{URL::to('/blogs/'.$val->slug)}}">
+            {{$val->name}} <small>({{count($val->blogs)}})</small>
         </a>
     @endforeach
 </div>
+@endif

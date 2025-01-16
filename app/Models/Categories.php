@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Auth;
+use App\Models\Blogs;
 
 class Categories extends Model
 {
@@ -33,6 +34,10 @@ class Categories extends Model
 
     public function subCategories(){
         return $this->hasMany(Categories::class, 'parent_id', 'id');
+    }
+
+    public function blogs(){
+        return $this->hasMany(Blogs::class, 'category_id', 'id');
     }
 
 }

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\web;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Blogs;
+use App\Models\Categories;
 
 class BlogController extends Controller
 {
@@ -17,6 +18,25 @@ class BlogController extends Controller
         $data['data'] = Blogs::where('status', '1')->orderBy('created_at', 'desc')->paginate(8);
 
         return view('web.blogs.index')->with($data);
+    }
+
+    public function category($slug){
+        $data['nav'] = 'blogs';
+        $data['titleImg'] = 'services.jpg';
+        $category = Categories::where('slug', $slug)->first();
+        if(!empty($category->id)){
+            $data['title'] = $category->name;
+            $data['type'] = 'category';
+            $data['page'] = '- Blogs';
+            $data['data'] = Blogs::where('status', '1')
+                                    ->where('category_id', $category->id)
+                                    ->orderBy('created_at', 'desc')
+                                    ->paginate(8);
+
+            return view('web.blogs.index')->with($data);
+        }else{
+            return redirect(route('blogs'));
+        }
     }
 
     public function details($blog_slug){

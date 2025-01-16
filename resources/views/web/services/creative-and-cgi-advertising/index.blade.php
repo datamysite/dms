@@ -77,7 +77,7 @@
                             <div>
                               <h4 class="title">{{$val->name}}</h4>
                               <p class="description">{{$val->description}}</p>
-                              <a href="{{URL::to('/'.$service->slug.'/'.$val->slug)}}" class="readmore stretched-link" target="_blank"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+                              <a href="{{URL::to('/'.$service->slug.'/'.$val->slug)}}" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
                             </div>
                           </div>
                           <!-- End Service Item -->
