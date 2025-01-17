@@ -8,6 +8,29 @@
   <meta name="description" content="{{@$metaTags->description}}">
   <meta name="keywords" content="{{@$metaTags->keywords}}">
 
+  <!-- Basic OG Tags -->
+  <meta property="og:title" content="{{@$metaTags->title}}{{empty($metaTags->title) ? env('APP_NAME') : ''}}" />
+  <meta property="og:description" content="{{@$metaTags->description}}" />
+  <meta property="og:url" content="{{@URL::current()}}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="DataMySite" />
+
+  <!-- Image OG Tag -->
+  <meta property="og:image" content="{{empty($og_img) ? URL::to('/public/og-logo.jpeg') : $og_img}}" />
+  <meta property="og:image:alt" content="DataMySite Logo and Services" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="620" />
+  <meta property="og:image:height" content="340" />
+
+  <!-- Additional Tags for Social Platforms -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{@$metaTags->title}}{{empty($metaTags->title) ? env('APP_NAME') : ''}}" />
+  <meta name="twitter:description" content="{{@$metaTags->description}}" />
+  <meta name="twitter:image" content="{{empty($og_img) ? URL::to('/public/og-logo.jpeg') : $og_img}}" />
+  <meta name="twitter:site" content="@DataMySite" />
+
+  <meta property="fb:app_id" content="1234567890" />
+
   <meta name="home_url" content="{{@URL::to('/')}}">
 
   @include('web.includes.style')
