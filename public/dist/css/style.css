@@ -1,3 +1,10 @@
+.bootstrap-tagsinput {
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+}
+.bootstrap-tagsinput input, .bootstrap-tagsinput input:focus-visible{
+    border: none !important;
+}
 .ana-table {
     margin-bottom: 0;
     background-color: transparent;

@@ -43,4 +43,14 @@
 		margin-left: 0px !important;
 	}
 
+	.blog-share .blog-share-content a span{
+		display: none;
+	}
+
+	.blog-share .blog-share-content a{
+		padding: 7px 10px;
+	}
+	.blog-share .blog-share-content p {
+	    margin-bottom: 12px;
+	}
 }

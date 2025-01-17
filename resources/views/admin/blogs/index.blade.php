@@ -180,6 +180,16 @@
               </div>
             </div>
           </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label>Tags</label>
+                <input type="text" class="form-control" id="inputTag" name="tags" data-role="tagsinput" required>
+              </div>
+            </div>
+          </div>
+
           <div class="row">
             <div class="col-md-12">
               <div class="form-group">
@@ -213,6 +223,8 @@
 </div>
 @endsection
 @section('addStyle')
+<link rel="stylesheet" href="{{URL::to('/public/plugins/bootstrap-taginput')}}/bootstrap-tagsinput.css" />
+<link rel="stylesheet" href="{{URL::to('/public/plugins/bootstrap-taginput')}}/app.css" />
 <style type="text/css">
   .ck-editor__editable[role="textbox"] {
     /* editing area */
@@ -231,6 +243,8 @@
 </style>
 @endsection
 @section('addScript')
+<script src="{{URL::to('/public/plugins/bootstrap-taginput')}}/bootstrap-tagsinput.js"></script>
+<script src="{{URL::to('/public/plugins/bootstrap-taginput')}}/app.js"></script>
 <script src="https://cdn.ckeditor.com/ckeditor5/35.1.0/super-build/ckeditor.js"></script>
 <script>
   $(function() {
@@ -311,7 +325,9 @@
           form.trigger("reset");
           $(".ck-blurred p").html("");
           $('#addBlogFormModal').modal('hide');
-          loadBlogs();
+          setTimeout(function(){
+            location.reload(true);
+          }, 1000);
         } else {
           Toast.fire({
             icon: 'error',
@@ -392,6 +408,7 @@
       $.get("{{URL::to('/admin/panel/blogs/edit')}}/" + id, function(data) {
         $('#editBlogFormModal .modal-content').html(data);
         make_editor("content2");
+        $('#edit-tagsinput').tagsinput();
       });
     });
 

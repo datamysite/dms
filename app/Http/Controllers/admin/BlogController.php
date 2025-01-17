@@ -10,6 +10,7 @@ use App\Models\Countries;
 use App\Models\Faq;
 use App\Models\Author;
 use App\Models\MetaTags;
+use App\Models\BlogTags;
 use Auth;
 
 class BlogController extends Controller
@@ -222,7 +223,7 @@ class BlogController extends Controller
         $data = Blogs::find($id);
         $data['categories'] = Categories::where('parent_id', 0)->where('status', 1)->get();
         $data['authors'] = Author::get();
-
+        $data['tags'] = '';
         $meta_url = '';
         if($data->country_id == '1'){
             $meta_url = 'https://dealsandcouponsmena.ae/';
@@ -233,6 +234,15 @@ class BlogController extends Controller
 
         $data['meta_title'] = MetaTags::where('url', $meta_url)->first();
         
+        $tagArr = array();
+        $tags = BlogTags::where('blog_id', $id)->get();
+
+        foreach($tags as $val){
+            $tagArr[] = $val->tag;
+        }
+
+        $data['tags'] = implode(',', $tagArr);
+
 
         return view('admin.blogs.edit', ['data' => $data]);
     }

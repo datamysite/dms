@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Auth;
 use App\Models\Countries;
 use App\Models\Author;
+use App\Models\BlogTags;
 
 class Blogs extends Model
 {
@@ -28,6 +29,14 @@ class Blogs extends Model
         $b->created_by = Auth::guard('admin')->id();
         $b->save();
 
+        $tags = explode(',',$data['tags']);
+        foreach ($tags as $key => $val) {
+            $t = new BlogTags;
+            $t->blog_id = $b->id;
+            $t->tag = $val;
+            $t->save();
+        }
+
         return $b->id;
     }
 
@@ -44,6 +53,15 @@ class Blogs extends Model
         $b->author_id = $data['author_id'];
         $b->save();
 
+        BlogTags::where('blog_id', $id)->delete();
+        $tags = explode(',',$data['tags']);
+        foreach ($tags as $key => $val) {
+            $t = new BlogTags;
+            $t->blog_id = $b->id;
+            $t->tag = $val;
+            $t->save();
+        }
+
         return $b->id;
     }
 
@@ -53,5 +71,9 @@ class Blogs extends Model
 
     public function author(){
         return $this->belongsTo(Author::class, 'author_id', 'id');
+    }
+
+    public function tags(){
+        return $this->hasMany(BlogTags::class, 'blog_id', 'id');
     }
 }

@@ -8,6 +8,20 @@ var host = $("meta[name='home_url']").attr("content");
       $('.aside-block').html(data);
   });
 
+  $('.share-copy').click(function(){
+    var $temp = $("<input>");
+    var val = $(this).data('link');
+    $("body").append($temp);
+    $temp.val(val).select();
+    document.execCommand("copy");
+    $temp.remove();
+
+    Toast.fire({
+        icon: "success",
+        title: "Link Copied",
+    });
+  });
+
   /**
    * Apply .scrolled class to the body as the page is scrolled down
    */
