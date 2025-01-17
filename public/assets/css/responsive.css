@@ -53,4 +53,7 @@
 	.blog-share .blog-share-content p {
 	    margin-bottom: 12px;
 	}
+	.visible-mobile{
+	    display: block;
+	}
 }

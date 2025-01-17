@@ -6,6 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
 use App\Models\SnippetCode;
 use App\Models\MetaTags;
+use App\Models\Services;
 
 class ViewServiceProvider extends ServiceProvider
 {
@@ -37,7 +38,8 @@ class ViewServiceProvider extends ServiceProvider
             $al = explode('?', $actual_link);
             $data['actual_link'] = $al[0];
             $data['metaTags'] = MetaTags::where('url', $data['actual_link'])->first();
-
+            $data['header_services'] = Services::where('parent_id', '0')->get();
+            
             $view->with($data);
         });
     }

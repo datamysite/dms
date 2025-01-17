@@ -553,7 +553,9 @@
 .blog-tags a:hover {
     border-color: #000;
 }
-
+.visible-mobile{
+    display: none;
+}
 
 
 
