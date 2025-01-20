@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\View;
 use App\Models\SnippetCode;
 use App\Models\MetaTags;
 use App\Models\Services;
+use App\Models\Categories;
 
 class ViewServiceProvider extends ServiceProvider
 {

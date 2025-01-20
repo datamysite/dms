@@ -556,6 +556,29 @@
 .visible-mobile{
     display: none;
 }
+.sub-footer {
+        padding: 45px 0px 40px;
+    box-shadow: rgb(0 0 0 / 7%) 0px 6px 8px;
+    margin-bottom: 20px;
+}
+.sub-footer a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    color: #2c2c2c;
+}
+.sub-footer a:hover {
+    color: #e3655f;
+}
+.sub-footer h3 {
+    color: #f25e59;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 22px;
+}
+.sub-footer a i {
+    width: 25px;
+    font-size: 14px;
+}
 
 
 

@@ -1,5 +1,27 @@
 <footer id="footer" class="footer light-background">
-
+    @if(!empty($sub_footer))
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Our Services</h3>
+          </div>
+        </div>
+        <div class="row gy-1">
+          @foreach($header_services as $val)
+            <div class="col-lg-3">
+              <a href="{{URL::to('/'.$val->slug)}}"><i class="{{$val->icon}}"></i> {{$val->name}}</a>
+            </div>
+            @foreach($val->subServices as $sub)
+              <div class="col-lg-3 hide-mobile">
+                <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug)}}"><i class="{{$sub->icon}}"></i> {{$sub->name}}</a>
+              </div>
+            @endforeach
+          @endforeach
+        </div>
+      </div>
+    </div>
+    @endif
     <div class="footer-top">
       <div class="container">
         <div class="row gy-4">
@@ -9,7 +31,7 @@
             <ul>
               <li><a href="{{route('about')}}">About Us</a></li>
               <li><a href="{{route('services')}}">Services</a></li>
-              <li><a href="{{route('contact')}}">Contact US</a></li>
+              <li><a href="{{route('contact')}}">Contact Us</a></li>
             </ul>
           </div>
 

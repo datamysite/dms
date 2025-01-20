@@ -12,7 +12,8 @@ class WebController extends Controller
     public function index(){
         $data['nav'] = 'home';
         $data['services'] = Services::where('parent_id', '0')->get();
-
+        $data['sub_footer'] = 'visible';
+        
         return view('web.index')->with($data);
     }
 
@@ -22,6 +23,7 @@ class WebController extends Controller
         $data['titleImg'] = 'services.jpg';
         $data['title'] = 'Services';
         $data['services'] = Services::where('parent_id', '0')->get();
+        $data['sub_footer'] = 'visible';
         
 
         return view('web.services')->with($data);
@@ -32,6 +34,7 @@ class WebController extends Controller
         $data['nav'] = 'faq';
         $data['titleImg'] = 'faqs.png';
         $data['title'] = 'FAQ';
+        $data['sub_footer'] = 'visible';
         
         return view('web.faq')->with($data);
     }
@@ -41,6 +44,7 @@ class WebController extends Controller
         $data['nav'] = 'about';
         $data['titleImg'] = 'about.png';
         $data['title'] = 'About Us';
+        $data['sub_footer'] = 'visible';
         
         return view('web.about')->with($data);
     }
@@ -50,6 +54,7 @@ class WebController extends Controller
         $data['nav'] = 'contact';
         $data['titleImg'] = 'contact.jpg';
         $data['title'] = 'Contact Us';
+        $data['sub_footer'] = 'visible';
         
         return view('web.contact')->with($data);
     }
