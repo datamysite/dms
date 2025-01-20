@@ -27,7 +27,7 @@
               <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
                 <h2 class="post-title">About Event Marketing</h2>
                 <div class="detail-post-image">
-                    <img src="{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}" alt="{{$service->slug}}">
+                    <img src="{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}" alt="{{$service->img_alt}}">
                 </div>
                 <br>
                 <div class="post-container">

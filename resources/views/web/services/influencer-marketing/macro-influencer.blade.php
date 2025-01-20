@@ -28,7 +28,7 @@
               <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
                 <h2 class="post-title">About Macro Influencer Marketing</h2>
                 <div class="detail-post-image">
-                    <img src="{{URL::to('public/assets/img/service/'.$subservice->slug.'.png')}}" alt="{{$subservice->slug}}">
+                    <img src="{{URL::to('public/assets/img/service/'.$subservice->slug.'.png')}}" alt="{{$subservice->img_alt}}">
                 </div>
                 <br>
                 <div class="post-container">

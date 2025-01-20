@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('slug');
+            $table->string('img_alt');
             $table->longText('description');
             $table->string('icon');
             $table->integer('parent_id')->default(0);
