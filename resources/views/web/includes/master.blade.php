@@ -30,6 +30,8 @@
   <meta name="twitter:site" content="@DataMySite" />
 
   <meta property="fb:app_id" content="1234567890" />
+  
+  <link rel="canonical" href="{{@URL::current()}}" />
 
   <meta name="home_url" content="{{@URL::to('/')}}">
 
