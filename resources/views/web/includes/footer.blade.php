@@ -44,13 +44,13 @@
           </div>
 
           <div class="col-lg-4 col-md-12 footer-about">
-            <a href="{{URL::to('/')}}" class="logo d-flex align-items-center">
+            <a href="{{URL::to('/')}}" class="logo d-flex align-items-center" aria-label="Home">
               <img src="{{URL::to('/public/assets/img/mini-logo-white.png')}}" alt="Footer Logo">
             </a>
             <p>Smarter Marketing, Better Outcomes.<br><br>Boost your brand’s visibility, enhance campaign performance</p>
             <div class="social-links d-flex mt-4">
-              <a href="https://www.linkedin.com/company/datamysite/"><i class="bi bi-linkedin"></i></a>
-              <a href="https://www.instagram.com/datamysite/"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/datamysite/" aria-label="Linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.instagram.com/datamysite/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
             </div>
           </div>
 

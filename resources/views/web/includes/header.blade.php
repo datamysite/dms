@@ -1,7 +1,7 @@
 <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="{{route('home')}}" class="logo d-flex align-items-center">
+      <a href="{{route('home')}}" class="logo d-flex align-items-center" aria-label="Home">
         <img src="{{URL::to('/public')}}/assets/img/logo.png" alt="Logo">
       </a>
 
