@@ -2,7 +2,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="{{route('home')}}" class="logo d-flex align-items-center">
-        <img src="{{URL::to('/public')}}/assets/img/logo.png" alt="">
+        <img src="{{URL::to('/public')}}/assets/img/logo.png" alt="Logo">
       </a>
 
       <nav id="navmenu" class="navmenu">
