@@ -1,3 +1,6 @@
+.post-container ol>li {
+    list-style-type: upper-roman;
+}
 .home-business{
 	z-index: 9;
 	position: relative;

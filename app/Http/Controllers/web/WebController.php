@@ -60,6 +60,22 @@ class WebController extends Controller
     }
 
 
+    public function privacyPolicy(){
+        $data['titleImg'] = 'faqs.png';
+        $data['title'] = 'Privacy Policy';
+        
+        return view('web.privacy-policy')->with($data);
+    }
+
+
+    public function termsCondition(){
+        $data['titleImg'] = 'faqs.png';
+        $data['title'] = 'Terms & Conditions';
+        
+        return view('web.terms')->with($data);
+    }
+
+
     //Get Aside
     public function getAside(){
 

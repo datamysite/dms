@@ -21,6 +21,8 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
     Route::get('/faq', 'WebController@faq')->name('faq');
     Route::get('/about-us', 'WebController@about')->name('about');
     Route::get('/contact-us', 'WebController@contact')->name('contact');
+    Route::get('/privacy-policy', 'WebController@privacyPolicy')->name('privacy');
+    Route::get('/terms-conditions', 'WebController@termsCondition')->name('terms');
 
     //Services
         Route::prefix('outdoor-advertising')->group(function(){
