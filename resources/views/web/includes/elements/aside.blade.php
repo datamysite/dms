@@ -19,7 +19,7 @@
         <textarea class="form-control" name="description" rows="4" placeholder="Describe Your Requirement" required></textarea>
         
         <button class="btn btn-theme">Submit Your Enquiry</button>
-        <div class="loading"><img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="newsletter-loader"></div>
+        <div class="loading" style="display: block;"><img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="newsletter-loader"></div>
     </form>
 </div>
 
