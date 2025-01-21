@@ -15,7 +15,7 @@
               <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
                 <div class="post-container">
                     <p>
-                        Welcome to DMS(DataMySite) Your privacy is critically important to us. DMS(DataMySite), Dubai, UAE is committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy or our practices with regards to your personal information, please contact us at <a href="mailto:contact@datamysite.com">contact@datamysite.com</a>. By using our website, you’re agreeing to be bound by this Policy. If you do not agree with the terms of this privacy policy, please do not access the site.
+                        Welcome to <strong>DMS(DataMySite)</strong> Your privacy is critically important to us. <strong>DMS(DataMySite)</strong>, Dubai, UAE is committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy or our practices with regards to your personal information, please contact us at <a href="mailto:contact@datamysite.com">contact@datamysite.com</a>. By using our website, you’re agreeing to be bound by this Policy. If you do not agree with the terms of this privacy policy, please do not access the site.
                     </p>
                     <h4>1. Information We Collect</h4>
                     
@@ -38,7 +38,7 @@
                     For legal reasons, including to meet government regulations or law enforcement requests.</p>
                     <h4>4. Third-Party Services</h4>
 
-                    <p>Our Site may contain links to third-party websites or services that are not owned or controlled by DMS(DataMySite). We are not responsible for the privacy practices of these third-party entities.</p>
+                    <p>Our Site may contain links to third-party websites or services that are not owned or controlled by <strong>DMS(DataMySite)</strong>. We are not responsible for the privacy practices of these third-party entities.</p>
                     <h4>5. Security</h4>
 
                     <p>We strive to protect your personal information through a system of organizational and technical security measures.</p>
