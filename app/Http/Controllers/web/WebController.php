@@ -76,6 +76,14 @@ class WebController extends Controller
     }
 
 
+    public function caseStudies(){
+        $data['titleImg'] = 'faqs.png';
+        $data['title'] = 'Case Studies';
+        
+        return view('web.case-studies')->with($data);
+    }
+
+
     //Get Aside
     public function getAside(){
 

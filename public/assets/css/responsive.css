@@ -56,4 +56,59 @@
 	.visible-mobile{
 	    display: block;
 	}
+	.case-studies-frame{
+	    width: 100%;
+	    height: 265px;
+	}
+}
+
+@media (max-width: 1399px) {
+	.case-studies-frame{
+	    width: 100%;
+	    height: 265px;
+	}
+
+}
+@media (max-width: 1199px) {
+	.case-studies-frame{
+	    width: 100%;
+	    height: 225px;
+	}
+
+}
+@media (max-width: 767px) {
+	.case-studies-frame{
+	    width: 100%;
+	    height: 325px;
+	}
+
+}
+@media (max-width: 575px) {
+	.case-studies-frame{
+	    width: 100%;
+	    height: 345px;
+	}
+
+}
+@media (max-width: 430px) {
+	.case-studies-frame{
+	    width: 100%;
+	    height: 265px;
+	}
+
+}
+@media (max-width: 390px) {
+	.case-studies-frame{
+	    width: 100%;
+	    height: 245px;
+	}
+
+}
+
+@media (max-width: 375px) {
+	.case-studies-frame{
+	    width: 100%;
+	    height: 235px;
+	}
+
 }
