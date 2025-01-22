@@ -77,6 +77,7 @@ class WebController extends Controller
 
 
     public function caseStudies(){
+        $data['nav'] = 'case-studies';
         $data['titleImg'] = 'faqs.png';
         $data['title'] = 'Case Studies';
         
