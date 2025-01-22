@@ -29,8 +29,9 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li><a href="{{route('about')}}">About Us</a></li>
+              <li><a href="{{route('home')}}">Home</a></li>
               <li><a href="{{route('services')}}">Services</a></li>
+              <li><a href="{{route('about')}}">About Us</a></li>
               <li><a href="{{route('contact')}}">Contact Us</a></li>
             </ul>
           </div>
@@ -39,6 +40,7 @@
             <h4>Support</h4>
             <ul>
               <li><a href="{{route('faq')}}">FAQ</a></li>
+              <li><a href="{{route('caseStudies')}}">Case Studies</a></li>
               <li><a href="{{route('privacy')}}">Privacy Policy</a></li>
               <li><a href="{{route('terms')}}">Terms & Conditions</a></li>
             </ul>
