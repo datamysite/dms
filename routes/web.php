@@ -23,7 +23,7 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
     Route::get('/contact-us', 'WebController@contact')->name('contact');
     Route::get('/privacy-policy', 'WebController@privacyPolicy')->name('privacy');
     Route::get('/terms-conditions', 'WebController@termsCondition')->name('terms');
-    Route::get('/client-case-studies', 'WebController@caseStudies')->name('caseStudies');
+    Route::get('/case-studies', 'WebController@caseStudies')->name('caseStudies');
 
     //Services
         Route::prefix('outdoor-advertising')->group(function(){
