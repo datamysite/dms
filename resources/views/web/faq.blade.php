@@ -11,7 +11,7 @@
 	      <div class="container">
 
 	        <div class="row gy-4 first-row">
-	          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="400">
+	          <div class="col-lg-9" data-aos="fade-up" data-aos-delay="400">
 
                 <div class="faq " id="accordion">
                     <div class="card">
@@ -230,10 +230,12 @@
 
                     <br><br>
                     <h4>Contact Us</h4>
-                    <p>If you have more questions or need tailored marketing solutions for your business in Dubai, reach out to <a href="{{route('contact')}}">DataMySite</a> today!</p>
+                    <p style="padding: 10px 0px;">If you have more questions or need tailored marketing solutions for your business in Dubai, reach out to <a href="{{route('contact')}}">DataMySite</a> today!</p>
                     <br><br>
 	          </div><!-- End Card Item -->
 
+                <div class="col-lg-3 aside-block" data-aos="fade-up" data-aos-delay="100">
+                </div>
 	        </div>
 
 	      </div>

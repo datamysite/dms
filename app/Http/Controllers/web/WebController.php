@@ -34,7 +34,6 @@ class WebController extends Controller
         $data['nav'] = 'faq';
         $data['titleImg'] = 'faqs.png';
         $data['title'] = 'FAQ';
-        $data['sub_footer'] = 'visible';
         
         return view('web.faq')->with($data);
     }
