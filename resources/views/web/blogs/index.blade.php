@@ -36,7 +36,7 @@
                             </div>
                         </div>
                         <div class="col-lg-8">
-                            <a href="{{route('blogs.detail', [$val->slug])}}" target="_blank"><h3>{{$val->heading}}</h3></a>
+                            <a href="{{route('blogs.detail', [$val->slug])}}" target="_blank"><h4>{{$val->heading}}</h4></a>
                             <p class="date">Published On - {{date('F d, Y', strtotime($val->created_at))}}</p>
                             <div class="post-content">
                               <p>{{$val->short_description}}</p> 
