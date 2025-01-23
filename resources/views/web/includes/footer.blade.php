@@ -29,7 +29,7 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li><a href="{{route('home')}}">Home</a></li>
+              <li><a href="{{route('blogs')}}">Blogs</a></li>
               <li><a href="{{route('services')}}">Services</a></li>
               <li><a href="{{route('about')}}">About Us</a></li>
               <li><a href="{{route('contact')}}">Contact Us</a></li>
