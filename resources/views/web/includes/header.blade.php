@@ -29,7 +29,7 @@
             </ul>
           </li>
           <li><a href="{{route('faq')}}" class="{{!empty($nav) && $nav == 'faq' ? 'active' : ''}}">FAQ</a></li>
-          <!-- <li><a href="{{route('blogs')}}" class="{{!empty($nav) && $nav == 'blogs' ? 'active' : ''}}">Blogs</a></li> -->
+          <li><a href="{{route('blogs')}}" class="{{!empty($nav) && $nav == 'blogs' ? 'active' : ''}}">Blogs</a></li>
           <li><a href="{{route('caseStudies')}}" class="{{!empty($nav) && $nav == 'case-studies' ? 'active' : ''}}">Case Studies</a></li>
           <li><a href="{{route('about')}}" class="{{!empty($nav) && $nav == 'about' ? 'active' : ''}}">About Us</a></li>
           <li><a href="{{route('contact')}}" class="{{!empty($nav) && $nav == 'contact' ? 'active' : ''}}">Contact Us</a></li>
