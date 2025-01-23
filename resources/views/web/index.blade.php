@@ -44,7 +44,7 @@
 	          <div class="col-lg-3 business-first" data-aos="fade-up" data-aos-delay="100">
 	            <div>
 	              <h5 class="text-theme">BEST SOLUTIONS</h5>
-	              <h1 class="text-bold">For Your Business</h1>
+	              <h2 class="text-bold" style="font-size:40px">For Your Business</h2>
 	            </div>
 	          </div>
 	          <!-- End Service Item -->
