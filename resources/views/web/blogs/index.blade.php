@@ -32,11 +32,11 @@
                       <div class="post row">
                         <div class="col-lg-4">
                             <div class="post-image">
-                                <img src="{{URL::to('public/storage/blogs/'.$val->banner)}}" alt="{{$val->banner_alt}}">
+                                <a href="{{route('blogs.detail', [$val->slug])}}" target="_blank"><img src="{{URL::to('public/storage/blogs/'.$val->banner)}}" alt="{{$val->banner_alt}}"></a>
                             </div>
                         </div>
                         <div class="col-lg-8">
-                            <h1>{{$val->heading}}</h1>
+                            <a href="{{route('blogs.detail', [$val->slug])}}" target="_blank"><h3>{{$val->heading}}</h3></a>
                             <p class="date">Published On - {{date('F d, Y', strtotime($val->created_at))}}</p>
                             <div class="post-content">
                               <p>{{$val->short_description}}</p> 
