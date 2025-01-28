@@ -15,7 +15,7 @@
 	          </div>
 	          <div class="col-xl-4">
 	          	<div class="hero-img">
-		          	<img src="{{URL::to('/public')}}/assets/img/background/banner2.png">
+		          	<img src="{{URL::to('/public')}}/assets/img/background/banner2.png" alt="DataMySite - Dubai UAE">
 		          </div>
 	          </div>
 	          <div class="col-xl-5">
@@ -51,7 +51,7 @@
 
 	          <div class="col-lg-3 business-item" data-aos="fade-up" data-aos-delay="200">
 
-	          	<img src="{{URL::to('/public/assets/img/service/1.png')}}">
+	          	<img src="{{URL::to('/public/assets/img/service/1.png')}}" alt="Taxi advertising dubai uae">
 	          	<p class="business-title">TAXI</p>
 	          	<p>Mobile billboard that displays your brand to on-the-move audience 24/7.</p>
 	           
@@ -59,7 +59,7 @@
 
 	          <div class="col-lg-3 business-item" data-aos="fade-up" data-aos-delay="200">
 
-	          	<img src="{{URL::to('/public/assets/img/service/2.png')}}">
+	          	<img src="{{URL::to('/public/assets/img/service/2.png')}}" alt="Radio advertising dubai uae">
 	          	<p class="business-title">RADIO</p>
 	          	<p>Connect with audiences across the Emirates and reach them during their daily routines.</p>
 	           
@@ -67,7 +67,7 @@
 
 	          <div class="col-lg-3 business-item" data-aos="fade-up" data-aos-delay="200">
 
-	          	<img src="{{URL::to('/public/assets/img/service/3.png')}}">
+	          	<img src="{{URL::to('/public/assets/img/service/3.png')}}" alt="Transit media advertising dubai uae">
 	          	<p class="business-title">Transit Media</p>
 	          	<p>From airport advertising to in-flight promotions, we've got you covered.</p>
 	           
