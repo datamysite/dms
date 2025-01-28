@@ -28,35 +28,35 @@
 	          <div class="swiper-wrapper">
 
 	            <div class="swiper-slide">
-	            	<img src="{{URL::to('/public/assets/img/brands/logo-1.png')}}">
+	            	<img src="{{URL::to('/public/assets/img/brands/logo-1.png')}}" alt="Clients Logo 1">
 	            </div><!-- End testimonial item -->
 
 	            <div class="swiper-slide">
-	            	<img src="{{URL::to('/public/assets/img/brands/logo-2.png')}}">
+	            	<img src="{{URL::to('/public/assets/img/brands/logo-2.png')}}" alt="Clients Logo 2">
 	            </div><!-- End testimonial item -->
 
 	            <div class="swiper-slide">
-	            	<img src="{{URL::to('/public/assets/img/brands/logo-3.png')}}">
+	            	<img src="{{URL::to('/public/assets/img/brands/logo-3.png')}}" alt="Clients Logo 3">
 	            </div><!-- End testimonial item -->
 
 	            <div class="swiper-slide">
-	            	<img src="{{URL::to('/public/assets/img/brands/logo-4.png')}}">
+	            	<img src="{{URL::to('/public/assets/img/brands/logo-4.png')}}" alt="Clients Logo 4">
 	            </div><!-- End testimonial item -->
 
 	            <div class="swiper-slide">
-	            	<img src="{{URL::to('/public/assets/img/brands/logo-5.png')}}">
+	            	<img src="{{URL::to('/public/assets/img/brands/logo-5.png')}}" alt="Clients Logo 5">
 	            </div><!-- End testimonial item -->
 
 	            <div class="swiper-slide">
-	            	<img src="{{URL::to('/public/assets/img/brands/logo-6.png')}}">
+	            	<img src="{{URL::to('/public/assets/img/brands/logo-6.png')}}" alt="Clients Logo 6">
 	            </div><!-- End testimonial item -->
 
 	            <div class="swiper-slide">
-	            	<img src="{{URL::to('/public/assets/img/brands/logo-7.png')}}">
+	            	<img src="{{URL::to('/public/assets/img/brands/logo-7.png')}}" alt="Clients Logo 7">
 	            </div><!-- End testimonial item -->
 
 	            <div class="swiper-slide">
-	            	<img src="{{URL::to('/public/assets/img/brands/logo-8.png')}}">
+	            	<img src="{{URL::to('/public/assets/img/brands/logo-8.png')}}" alt="Clients Logo 8">
 	            </div><!-- End testimonial item -->
 
 

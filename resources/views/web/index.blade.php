@@ -6,7 +6,7 @@
 	    <!-- Hero Section -->
 	    <section id="hero" class="hero section dark-background">
 
-	      <img src="{{URL::to('/public')}}/assets/img/background/banner.jpeg" alt="" data-aos="fade-in">
+	      <img src="{{URL::to('/public')}}/assets/img/background/banner.jpeg" alt="Hero Image" data-aos="fade-in">
 
 	      <div class="container">
 	        <div class="row">
@@ -214,7 +214,7 @@
 	    <!-- Call To Action Section -->
 	    <section id="call-to-action" class="call-to-action section dark-background">
 
-	      <img src="{{URL::to('/public')}}/assets/img/background/call-to.jpg" alt="">
+	      <img src="{{URL::to('/public')}}/assets/img/background/call-to.jpg" alt="Call to action background">
 
 	      <div class="container">
 	        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
