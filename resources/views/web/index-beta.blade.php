@@ -14,10 +14,18 @@
 	       		@foreach($services as $val)
 	       		<div class="hero-item">
 	          	<img src="{{URL::to('public/assets/img/service/'.$val->slug).'.png'}}" alt="Taxi advertising dubai uae">
+	          	<div class="hero-item-text">
+	          		<i class="hero-item-icon {{$val->icon}}"></i>
+		          	<p class="hero-item-title">{{$val->name}}</p>
+		          	<p class="hero-item-desc">{{$val->description}}</p>
+		          	<a href="{{URL::to('/'.$val->slug)}}" class="hero-item-link">Read More →</a>
+		          </div>
 	       		</div>
 	       		@endforeach
 
 	       	</div>
+	       	<br><br>
+	       	<br><br>
 	      </div>
 
 	    </section><!-- /Hero Section -->
@@ -26,9 +34,9 @@
 
 
 	     <!-- Service Cards Section -->
-	    <section id="service-cards" class="service-cards section">
+	    <section id="service-cards" class="service-cards marketing-section section">
 
-	      <div class="container">
+	      <div class="container sec-section">
 
 	        <div class="row gy-4 first-row">
 

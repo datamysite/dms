@@ -597,11 +597,19 @@
     font-weight: 500;
     margin-top: 5px;
 }
-
+.sec-section {
+    background-color: #ffffff;
+}
+.marketing-section {
+    position: relative;
+    background-color: transparent;
+}
 .new-hero{
     padding-top: 120px;
     position: relative;
     overflow: hidden;
+    margin-bottom: -140px;
+    z-index: 0;
 }
 .hero-background {
   position: absolute;
@@ -650,16 +658,74 @@
     width: 9.09%;
     height: 400px;
     transition: .3s ease-in-out all;
+    position: relative;
 }
 .hero-grid .hero-item:hover {
-    width: 50%;
+    width: 70%;
 }
-.hero-grid:hover .hero-item:not(:hover) {
+.hero-grid:has(.hero-item:hover) .hero-item:not(:hover) {
     filter: grayscale(100%);
-    width: 5%;
+    width: 3%;
 }
 
+.hero-grid:has(.hero-item:hover) .hero-item:not(:hover) > .hero-item-text {
+    display: none;
+}
 
+.hero-item-text {
+    background-image: linear-gradient(#ff000000, #000000);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 4px;
+}
+.hero-item-text p{
+    margin-bottom: 0;
+}
+.hero-item-title {
+}
+.hero-item-desc{
+    display: none;
+    opacity: 0;
+    transition: 13s ease-in-out all;
+}
+.hero-item-link{
+    display: none;
+}
+.hero-grid .hero-item:hover .hero-item-desc {
+    display: block;
+    opacity: 1;
+}
+.hero-grid .hero-item:hover .hero-item-link {
+    display: block;
+}
+
+.hero-grid .hero-item:hover .hero-item-text {
+    padding: 5px 15px;
+}
+.hero-grid .hero-item:hover .hero-item-text .hero-item-title {
+    border-bottom:2px solid #e04a43;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.hero-grid .hero-item:hover .hero-item-text .hero-item-desc {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: lighter;
+}
+.hero-item-icon{
+    display: none;
+    padding: 9px 10px;
+    border-radius: 50%;
+    margin: 13px 10px;
+}
 
 
 
