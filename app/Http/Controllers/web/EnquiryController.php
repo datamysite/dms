@@ -5,6 +5,7 @@ namespace App\Http\Controllers\web;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Enquiry;
+use App\Helpers\Mailer;
 
 class EnquiryController extends Controller
 {
@@ -19,6 +20,9 @@ class EnquiryController extends Controller
             'service' => 'required',
             'description' => 'required'
         ]);
+
+        $mail = Mailer::sendMail('Thank You for Contacting Us | DMS', $data['email'], 'DMS', 'web.emails.response', $data);
+        $mail = Mailer::sendMail('New Inquiry Received! | DMS', ['waseem@datamysite.com', 'satish.b@datamysite', 'abhishek@datamysite.com'], 'DMS', 'web.emails.enquiry', $data);
 
         if($validated){
 
