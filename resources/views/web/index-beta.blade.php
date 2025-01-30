@@ -13,7 +13,7 @@
 	       	<div class="hero-grid" data-aos="fade-up" data-aos-delay="100">
 	       		@foreach($services as $val)
 	       		<div class="hero-item">
-	          	<img src="{{URL::to('public/assets/img/service/'.$val->slug).'.png'}}" alt="Taxi advertising dubai uae">
+	          	<img src="{{URL::to('public/assets/img/service/'.$val->slug).'.png'}}" alt="{{$val->img_alt}}">
 	          	<div class="hero-item-text">
 	          		<i class="hero-item-icon {{$val->icon}}"></i>
 		          	<p class="hero-item-title">{{$val->name}}</p>

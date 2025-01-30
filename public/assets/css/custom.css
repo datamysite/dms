@@ -640,8 +640,7 @@
 
 .hero-grid {
     display: flex;
-    column-gap: 5px;
-    transition: .3s ease-in-out all;
+    column-gap: 4px;
 }
 .hero-grid {
     padding: 7px 0px 0px 7px;
@@ -652,20 +651,20 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: .3s ease-in-out all;
 }
 .hero-grid .hero-item {
     width: 9.09%;
     height: 400px;
-    transition: .3s ease-in-out all;
+    transition: .5s ease-in-out all;
     position: relative;
 }
 .hero-grid .hero-item:hover {
-    width: 70%;
+    transition: .2s ease-in-out all;
+    width: 60%;
 }
 .hero-grid:has(.hero-item:hover) .hero-item:not(:hover) {
     filter: grayscale(100%);
-    width: 3%;
+    width: 4%;
 }
 
 .hero-grid:has(.hero-item:hover) .hero-item:not(:hover) > .hero-item-text {
