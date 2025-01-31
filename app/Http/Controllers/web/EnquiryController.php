@@ -21,9 +21,6 @@ class EnquiryController extends Controller
             'description' => 'required'
         ]);
 
-        $mail = Mailer::sendMail('Thank You for Contacting Us | DMS', $data['email'], 'DMS', 'web.emails.response', $data);
-        $mail = Mailer::sendMail('New Inquiry Received! | DMS', ['waseem@datamysite.com', 'satish.b@datamysite.com', 'abhishek@datamysite.com'], 'DMS', 'web.emails.enquiry', $data);
-
         if($validated){
 
             $n = new Enquiry;
@@ -33,6 +30,12 @@ class EnquiryController extends Controller
             $n->service = $data['service'];
             $n->description = $data['description'];
             $n->save();
+
+
+
+            $mail = Mailer::sendMail('Thank You for Contacting Us | DMS', $data['email'], 'DMS', 'web.emails.response', $data);
+            $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | DMS', ['waseem@datamysite.com', 'satish.b@datamysite.com', 'abhishek@datamysite.com'], 'DMS', 'web.emails.enquiry', $data);
+
 
             $response['success'] = 'success';
             $response['message'] = 'Success! You successfully subscribe our newsletter.';

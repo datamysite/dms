@@ -6,7 +6,7 @@
         
         <input type="text" name="phone" placeholder="Phone" class="form-control" required>
         
-        <input type="email" name="email" placeholder="Email" class="form-control" required>
+        <input type="email" name="email" placeholder="Email" class="form-control aside-email" required>
         
         <select class="form-control" name="service" >
             <option value="">Select Service</option>

@@ -8,19 +8,37 @@ var Toast = Swal.mixin({
 
 //Sell With DCM
 $(document).on("submit", "#enquiry-form", function (event) {
+
     var form = $(this);
     var formData = new FormData($("#enquiry-form")[0]);
-    $(".errors").css({ display: "none" });
-    $(".loading").css({display:"block"});
-    $.ajax({
-        type: "POST",
-        url: form.attr("action"),
-        data: formData,
-        dataType: "json",
-        encode: true,
-        processData: false,
-        contentType: false,
-    })
+
+    let isValid = true;
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Email validation
+    let email = $(".aside-email").val().trim();
+    if (email === "" || !emailPattern.test(email)) {
+        Toast.fire({
+            icon: "warning",
+            title: "Please Enter valid Email address",
+        });
+        isValid = false;
+    } else {
+        isValid = true;
+    }
+
+    if (isValid) {
+        $(".errors").css({ display: "none" });
+        $(".loading").css({display:"block"});
+        $.ajax({
+            type: "POST",
+            url: form.attr("action"),
+            data: formData,
+            dataType: "json",
+            encode: true,
+            processData: false,
+            contentType: false,
+        })
         .done(function (data) {
             if (data.success == "success") {
                 Toast.fire({
@@ -46,6 +64,6 @@ $(document).on("submit", "#enquiry-form", function (event) {
                 title: data.message,
             });
         });
-
+    }
     event.preventDefault();
 });

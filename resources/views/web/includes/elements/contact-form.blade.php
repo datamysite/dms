@@ -7,7 +7,7 @@
     </div>
 
     <div class="col-md-6 ">
-      <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+      <input type="email" class="form-control aside-email" name="email" placeholder="Your Email" required="">
     </div>
 
     <div class="col-md-6">
