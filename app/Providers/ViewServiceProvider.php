@@ -40,6 +40,7 @@ class ViewServiceProvider extends ServiceProvider
             $data['actual_link'] = $al[0];
             $data['metaTags'] = MetaTags::where('url', $data['actual_link'])->first();
             $data['header_services'] = Services::where('parent_id', '0')->get();
+            $data['blog_categories'] = Categories::has('blogs', '>', 0)->with('blogs')->orderBy('name')->get();
             
             $view->with($data);
         });

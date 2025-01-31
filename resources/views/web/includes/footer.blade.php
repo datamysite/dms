@@ -20,6 +20,21 @@
           @endforeach
         </div>
       </div>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Blog Categories</h3>
+          </div>
+        </div>
+        <div class="row gy-1">
+          @foreach($blog_categories as $val)
+            <div class="col-lg-3">
+              <a href="{{URL::to('/'.$val->slug)}}">{{$val->name}} &nbsp;<font class="text-theme"><small><small>({{count($val->blogs)}})</small></small></font></a>
+            </div>
+          @endforeach
+        </div>
+      </div>
     </div>
     @endif
     <div class="footer-top">
