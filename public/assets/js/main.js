@@ -4,9 +4,13 @@ var host = $("meta[name='home_url']").attr("content");
 (function() {
   "use strict";
 
+
   $.get(host+"/get-aside", function(data, status){
       $('.aside-block').html(data);
+      $(".phone-input").inputmask("+\\971-599999999");
   });
+
+
 
   $('.share-copy').click(function(){
     var $temp = $("<input>");

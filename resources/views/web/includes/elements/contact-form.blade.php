@@ -11,7 +11,7 @@
     </div>
 
     <div class="col-md-6">
-      <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
+      <input type="text" class="form-control phone-input" name="phone" placeholder="Phone" required="">
     </div>
 
     <div class="col-md-6">

@@ -40,3 +40,10 @@
 
 
 @endsection
+@section('addScript')
+  <script type="text/javascript">
+    
+    
+      $(".phone-input").inputmask("+\\971-599999999");
+  </script>
+@endsection
