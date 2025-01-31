@@ -17,25 +17,9 @@
     <div class="col-md-6">
       <select class="form-control" name="service" >
           <option value="">Select Service</option>
-          <option value="Google Ads">Google Ads</option>
-          <option value="SEO Services">SEO Services</option>
-          <option value="Email Marketing">Email Marketing</option>
-          <option value="Social Media Marketing">Social Media Marketing</option>
-          <option value="SMS Marketing">SMS Marketing</option>
-          <option value="Website Development">Website Development</option>
-          <option value="Whatsapp Marketing">Whatsapp Marketing</option>
-          <option value="Facebook Ads">Facebook Ads</option>
-          <option value="Instagram Ads">Instagram Ads</option>
-          <option value="Youtube Ads">Youtube Ads</option>
-          <option value="Linkedin Ads">Linkedin Ads</option>
-          <option value="Snapchat Ads">Snapchat Ads</option>
-          <option value="Tiktok Ads">Tiktok Ads</option>
-          <option value="Radio Ads">Radio Ads</option>
-          <option value="Newspaper Ads">Newspaper Ads</option>
-          <option value="Pay Per Lead">Pay Per Lead</option>
-          <option value="Flyers Distribution">Flyers Distribution</option>
-          <option value="Outdoor Ads">Outdoor Ads</option>
-          <option value="Metro Ads">Metro Ads</option>
+          @foreach($header_services as $val)
+              <option value="{{$val->name}}">{{$val->name}}</option>
+          @endforeach
           <option value="Others">Others</option>
       </select>
     </div>
