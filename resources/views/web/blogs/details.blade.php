@@ -95,7 +95,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <br>
-                                <h1>{{$val->heading}}</h1>
+                                <h2 class="related-blog-heading">{{$val->heading}}</h2>
                                 <p class="date">Published On - {{date('F d, Y', strtotime($val->created_at))}}</p>
                                 <div class="post-content">
                                   <p>{{$val->short_description}}</p> 
