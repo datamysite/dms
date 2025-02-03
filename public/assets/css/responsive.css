@@ -87,6 +87,9 @@
 	.hero-grid .hero-item:hover .hero-item-text .hero-item-icon {
 		display: none;
 	}
+	.post.row a h4 {
+	    margin-top: 16px;
+	}
 
 }
 @media (max-width: 767px) {
@@ -101,7 +104,9 @@
 	    margin: 9px -4px;
 	    font-size: 10px;
 	}
-
+	.post.row a h4 {
+	    margin-top: 16px;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
