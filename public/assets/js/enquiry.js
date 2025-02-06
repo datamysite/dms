@@ -61,7 +61,7 @@ $(document).on("submit", "#enquiry-form", function (event) {
             $(".loading").css({display:"none"});
             Toast.fire({
                 icon: "warning",
-                title: data.message,
+                title: 'Something went wrong! Try again later.',
             });
         });
     }
