@@ -1,3 +1,6 @@
+.post-container li {
+    padding-inline-start: 0 !important;
+}
 .text-bold-800{
     font-weight: 800;
 }
