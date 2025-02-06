@@ -14,19 +14,22 @@
 
 	          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
 	          	<p>
-                    Founded in 2021 and based in Dubai, UAE, <strong>datamysite</strong> is a leading marketing agency specializing in cutting-edge digital and out-of-home (OOH) media strategies. Our expertise spans across <strong>Digital Media Buying</strong>, where we leverage data-driven approaches to optimize ad placements on digital platforms, and <strong>OOH Media Buying</strong>, where we ensure impactful visibility across premier outdoor locations.
+                    Founded in 2021 and based in Dubai, UAE, <strong>Datamysite</strong> is a premier marketing agency specializing in <strong>brand storytelling, experiential marketing</strong>, and <strong>strategic brand placement</strong>. We cut through the clutter of advertising to bring brands to life, ensuring they stand out in a competitive landscape.
                     <br><br>
-                    In addition, we work closely with top <strong>PR Media Houses</strong> to craft compelling narratives and secure high-impact media coverage. Our mission is to deliver innovative marketing solutions that drive growth and elevate brand presence.
+                    Our expertise spans across:<br>
+                    <strong>Celebrity Management & Influencers</strong> – Connecting brands with the right celebrities and influencers to amplify reach, enhance credibility, and drive engagement.
+                    <br><br>  
+                    <strong>PR & Media</strong> – Collaborating with top-tier media houses to craft compelling narratives and secure high-impact coverage.  
                     <br><br>
-                    At <strong>datamysite</strong>, we combine local insights with global best practices to help businesses achieve their marketing goals. Let’s connect and explore how we can make your brand stand out.
+                    <strong>OOH Media Buying</strong> – Securing high-visibility placements in prime outdoor locations for greater brand exposure. 
                 </p>
                 <h3>Vision</h3>
                 <p>
-                    We aspire to be the trusted partner that businesses turn to for growth, known for our unwavering commitment to hands-on. We aspire to be the trusted partner that businesses turn to for growth, known for our unwavering commitment to hands-on collaboration and cutting-edge innovation, making a lasting difference in the success of our clients.
+                    We strive to be the <strong>trusted growth partner</strong> that businesses rely on, serving as an <strong>extended arm to their marketing needs.</strong>
                 </p>
                 <h3>Mission</h3>
                 <p>
-                    To empower our clientele to grow their businesses through hands-on support and innovative strategies, delivering tailored solutions that drive success and foster long-term partnerships.
+                    To consistently craft <strong>innovative and impactful media solutions</strong> that resonate with our clients' needs, ensuring their brands they stand out in a competitive landscape.
                 </p>
 	          </div><!-- End Card Item -->
 
