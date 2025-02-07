@@ -126,8 +126,21 @@ class EnquiryRequest extends FormRequest
                             ];
 
                 foreach ($keywords as $keyword) {
-                    if (stripos($value, $keyword) !== false) {
-                        $fail("The description contains a restricted keyword: $keyword");
+                    $val = explode(' ', $keyword);
+                    if(count($val) > 1){
+                        $chk = 0;
+                        foreach($val as $v){
+                            if (stripos($value, $v) !== false) {
+                                $chk++;
+                            } 
+                        }
+                        if ($chk == count($val)) {
+                            $fail("The description contains a restricted keyword: $keyword");
+                        }
+                    }else{
+                        if (stripos($value, $keyword) !== false) {
+                            $fail("The description contains a restricted keyword: $keyword");
+                        }
                     }
                 }
             }],
