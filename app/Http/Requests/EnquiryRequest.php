@@ -82,7 +82,6 @@ class EnquiryRequest extends FormRequest
                                 'Resell opportunity',
                                 'Brand collaboration',
                                 'Sponsored post',
-                                'Influencer marketing request',
                                 'Instagram growth service',
                                 'Paid promotion',
                                 'Free trial offer',
