@@ -23,7 +23,7 @@
 	          	<h6 class="text-theme text-bold">D M S</h6>
 	            <h1 data-aos="fade-up">The New Level For Advertising</h1>
 	            <blockquote data-aos="fade-up" data-aos-delay="100">
-	              <p>Transform your brand’s visibility with cutting-edge advertising solutions that drive success and innovation.</p>
+	              <p>People do not buy goods and services. <br>They buy relations, stories, and magic.</p>
 	            </blockquote>
 
 	          </div>
