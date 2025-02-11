@@ -32,7 +32,9 @@
                 <br>
                 <div class="post-container">
                     <p>
-                        In today's digital world, securing Public Relations (PR Coverage) is crucial for businesses aiming to build credibility and authority. Your brand benefits from increased visibility, which solves customer trust issues and enables you to take leadership in your industry. At datamysite, we specialise in securing high-impact PR coverage UAE that ensures your brand reaches the right audience through powerful storytelling and strategic media placements.
+                        In today's digital world, securing Public Relations (PR Coverage) is crucial for businesses aiming to build credibility and authority. Your brand benefits from increased visibility, which solves customer trust issues and enables you to take leadership in your industry. At datamysite, we specialise in securing high-impact <strong>30 Media houses</strong>, PR coverage UAE that ensures your brand reaches the right audience through powerful storytelling and strategic media placements.
+                        <!-- 
+                        In today's digital world, securing Public Relations (PR Coverage) is crucial for businesses aiming to build credibility and authority. Your brand benefits from increased visibility, which solves customer trust issues and enables you to take leadership in your industry. At datamysite, we specialise in securing high-impact PR coverage UAE that ensures your brand reaches the right audience through powerful storytelling and strategic media placements. -->
                     </p>
                     
                     <br>
