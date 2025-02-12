@@ -48,9 +48,7 @@ $(document).on("submit", "#enquiry-form", function (event) {
 
                 window.dataLayer = window.dataLayer || [];
                 window.dataLayer.push({
-                    event: "ajaxFormSubmission",
-                    requestUrl: form.attr("action"), // URL of your AJAX endpoint
-                    requestMethod: "POST", // Method used (e.g., POST)
+                  event: "formSubmitEvent",       // Name of your custom event
                 });
 
                 setTimeout(function () {
