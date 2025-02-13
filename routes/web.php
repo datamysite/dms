@@ -54,7 +54,7 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
         Route::prefix('celebrity-marketing')->group(function(){
             Route::get('/', 'ServiceController@celebrityMarketing');
             Route::get('/sport-personalities', 'ServiceController@celebrityMarketingSport');
-            Route::get('/bollywood-celebraties', 'ServiceController@celebrityMarketingBollywood');
+            Route::get('/bollywood-celebrities', 'ServiceController@celebrityMarketingBollywood');
         });
 
         Route::prefix('influencer-marketing')->group(function(){
