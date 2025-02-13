@@ -64,6 +64,23 @@ class BlogController extends Controller
                 $id = Blogs::create($data);
 
 
+
+                //Meta Title -- Start
+
+                    $meta_url = 'https://datamysite.com/'.$data['slug'];
+
+                    $mt = new MetaTags;
+                    $mt->url = $meta_url;
+                    $mt->title = $data['heading'];
+                    $mt->keywords = $data['tags'];
+                    $mt->description = $data['short_description'];
+                    $mt->created_by = Auth::guard('admin')->id();
+                    $mt->save();
+
+
+                //Meta Title -- End
+
+
                 if ($request->hasFile('coupon_image')) {
                     $file = $request->file('coupon_image');
                     $ext = $file->getClientOriginalExtension();
@@ -99,6 +116,25 @@ class BlogController extends Controller
         } else {
 
             $id = Blogs::blog_update(base64_decode($data['blog_id']), $data);
+
+
+            //Meta Title -- Start
+
+                $meta_url = 'https://datamysite.com/'.$data['slug'];
+                $mt = MetaTags::where('url', $meta_url)->first();
+                if(empty($mt->id)){
+                    $mt = new MetaTags;
+                    $mt->url = $meta_url;
+                    $mt->created_by = Auth::guard('admin')->id();
+                }
+                $mt->title = $data['heading'];
+                $mt->keywords = $data['tags'];
+                $mt->description = $data['short_description'];
+                $mt->created_by = Auth::guard('admin')->id();
+                $mt->save();
+
+
+            //Meta Title -- End
 
 
             if ($request->hasFile('edit_mblog_image')) {
