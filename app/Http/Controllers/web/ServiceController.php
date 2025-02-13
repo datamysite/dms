@@ -134,7 +134,7 @@ class ServiceController extends Controller
         public function celebrityMarketingBollywood(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'celebrity-marketing')->first();
-            $data['subservice'] = Services::where('slug', 'bollywood-celebraties')->first();
+            $data['subservice'] = Services::where('slug', 'bollywood-celebrities')->first();
 
             return view('web.services.celebrity-marketing.bollywood-celebraties')->with($data);
         }
