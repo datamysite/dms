@@ -107,6 +107,19 @@
 	.post.row a h4 {
 	    margin-top: 16px;
 	}
+	.hero-img{
+		display: none;
+	}
+	.hero-title-sec h1{
+		font-size: 65px;
+		line-height: 70px;
+	}
+	.hero-title-sec {
+	    margin-top: -135px;
+	}
+	.hero-title-sec p {
+	    font-size: 24px;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
