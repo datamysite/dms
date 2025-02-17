@@ -6,7 +6,7 @@
 	    <!-- Hero Section -->
 	    <section id="hero" class="hero section dark-background">
 
-	      <img src="{{URL::to('/public')}}/assets/img/background/banner.jpeg" alt="Hero Image" data-aos="fade-in">
+	      <img src="{{URL::to('/public')}}/assets/img/background/banner.jpeg" alt="Hero Image">
 
 	      <div class="container">
 	        <div class="row">
@@ -192,7 +192,7 @@
 
         <div class="row service-row gy-4">
 
-        	@foreach($services as $val)
+        	@foreach($header_services as $val)
 	          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
 	            <div class="icon flex-shrink-0"><i class="{{$val->icon}}" style="color: #f44d46;"></i></div>
 	            <div>

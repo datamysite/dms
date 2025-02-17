@@ -11,7 +11,6 @@ class WebController extends Controller
 {
     public function index(){
         $data['nav'] = 'home';
-        $data['services'] = Services::where('parent_id', '0')->get();
         $data['sub_footer'] = 'visible';
         
         return view('web.index')->with($data);
