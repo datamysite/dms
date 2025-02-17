@@ -21,7 +21,7 @@
 	          <div class="col-xl-5 hero-title-sec">
 	          	<div class="hero-spacing"></div>
 	          	<h6 class="text-theme text-bold">D M S</h6>
-	            <h1 data-aos="fade-up">The New Level For Advertising</h1>
+	            <h1>The New Level For Advertising</h1>
 	            <blockquote data-aos="fade-up" data-aos-delay="100">
 	              <p>People do not buy goods and services. <br>They buy relations, stories, and magic.</p>
 	            </blockquote>
