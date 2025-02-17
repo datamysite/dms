@@ -55,7 +55,7 @@
   @include('web.includes.footer')
 
   <a href="https://api.whatsapp.com/send/?phone=971525287259" aria-label="Whatsapp Chat" id="whatsapp-chat" class="whatsapp-chat" target="_blank">
-    <img src="{{URL::to('/public/whatsapp2.gif')}}" alt="Whatsapp Chat">
+    <img src="{{URL::to('/public/whatsapp3.gif')}}" alt="Whatsapp Chat">
   </a>
 
   @foreach($bodySnippet as $val)
