@@ -8,7 +8,7 @@
         
         <input type="email" name="email" placeholder="Email" class="form-control aside-email" required>
         
-        <select class="form-control" name="service" >
+        <select class="form-control" name="service" required>
             <option value="">Select Service</option>
             @foreach($services as $val)
                 <option value="{{$val->name}}">{{$val->name}}</option>

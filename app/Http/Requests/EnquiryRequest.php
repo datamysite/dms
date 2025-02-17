@@ -15,9 +15,9 @@ class EnquiryRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'email' => 'required|email',
-            'name' => 'required',
-            'phone' => 'required',
+            'email' => 'required|email:rfc,dns',
+            'name' => ['required', 'regex:/^[a-zA-Z\s]+$/', 'min:3', 'max:50'],
+            'phone' => ['required', 'regex:/^(?:\+971|05)-[0-9]{8,9}$/'],
             'service' => 'required',
             'description' => ['required', 'string', function ($attribute, $value, $fail) {
 
