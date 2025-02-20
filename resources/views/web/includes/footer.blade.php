@@ -93,7 +93,7 @@
     </div>
 
     <div class="container copyright text-center">
-      <p><span>Copyright ©</span> <strong class="px-1 sitename text-theme">DataMySite</strong> {{date('Y')}}. <span>All Rights Reserved. Powered By <a href="https://daralafkarmarketingllc.com/" target="_blank"><strong>Dar Alafkar Marketing LLC.</strong></a></span></p>
+      <p><span>Copyright ©</span> <strong class="px-1 sitename text-theme">DataMySite</strong> {{date('Y')}}. <span>All Rights Reserved. Powered By <a href="https://daralafkarmarketing.ae/" target="_blank"><strong>Dar Alafkar Marketing LLC.</strong></a></span></p>
     </div>
 
   </footer>
