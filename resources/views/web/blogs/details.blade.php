@@ -1,7 +1,12 @@
 @extends('web.includes.master')
 
 @section('content')
-
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: "blogDetailPageVisit",       // Name of your custom event
+        });
+    </script>
 	<main class="main">
 
 	    <!-- Page Title -->
