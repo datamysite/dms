@@ -4,7 +4,7 @@
         @csrf
         <input type="text" name="name" placeholder="Name" class="form-control" required>
         
-        <input type="text" name="phone" placeholder="Phone" class="form-control phone-input" required>
+        <input type="text" name="phone" placeholder="Phone" class="form-control" required>
         
         <input type="email" name="email" placeholder="Email" class="form-control aside-email" required>
         
