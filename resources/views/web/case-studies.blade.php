@@ -32,7 +32,7 @@
                             <br><br>
                         </div>
                         <div class="col-lg-6 col-md-6">
-                            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDouwLSz8MV1jOwh7SSfO0qnaudn5hCkeo8MvGgTdJ7_MbIHjsR1_4MfU9cWi7qA/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="case-studies-frame"></iframe>
+                            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ0jb3IrXb49SK71n0G7HxIm5bY0fCbqygb0rdZZE3onA4nZBU9hQ15p6CI4v2eng/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="case-studies-frame"></iframe>
                             <h5><span>Danube</span> x <span>DMS</span> |  Case Study</h5>
                             <br><br>
                         </div>
