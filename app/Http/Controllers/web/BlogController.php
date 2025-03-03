@@ -55,9 +55,10 @@ class BlogController extends Controller
     public function tags($slug){
         $data['nav'] = 'blogs';
         $data['titleImg'] = 'services.jpg';
+        $slug = str_replace('-', ' ', $slug);
         $tag = BlogTags::where('tag', $slug)->first();
         if(!empty($tag->id)){
-            $data['title'] = 'Blogs Tag: '.$tag->tag;
+            $data['title'] = 'Blog-Tag: '.$tag->tag;
             $data['type'] = 'category';
             $data['page'] = '';
             $data['data'] = Blogs::where('status', '1')
