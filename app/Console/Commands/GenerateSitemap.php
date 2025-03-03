@@ -68,10 +68,10 @@ class GenerateSitemap extends Command
             });
 
 
-            BlogTags::select('tag')->distinct()->get()->each(function (BlogTags $tags) use ($sitmap) {
+           /* BlogTags::select('tag')->distinct()->get()->each(function (BlogTags $tags) use ($sitmap) {
                 $url = str()->slug($tags->tag, '-');
                 $sitmap->add(Url::create("/tag/".$url)->setPriority(0.80)->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)->setLastModificationDate(Carbon::now()));
-            });
+            });*/
 
             $sitmap->writeToFile(base_path('/sitemap.xml'));
     }
