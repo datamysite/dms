@@ -42,7 +42,7 @@
                 <div class="blog-tags">
                     <span>Tags: </span>
                     @foreach($data->tags as $val)
-                        <a href="javascript:void(0)">
+                        <a href="{{URL::to('/tag/'.$val->tag)}}">
                             <span>{{$val->tag}}</span>
                         </a>
                     @endforeach

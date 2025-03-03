@@ -5,6 +5,7 @@ namespace App\Http\Controllers\web;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Blogs;
+use App\Models\BlogTags;
 use App\Models\Categories;
 
 class BlogController extends Controller
@@ -49,5 +50,26 @@ class BlogController extends Controller
             return redirect(route('blogs'));
         }
         return view('web.blogs.details')->with($data);
+    }
+
+    public function tags($slug){
+        $data['nav'] = 'blogs';
+        $data['titleImg'] = 'services.jpg';
+        $tag = BlogTags::where('tag', $slug)->first();
+        if(!empty($tag->id)){
+            $data['title'] = 'Blogs Tag: '.$tag->tag;
+            $data['type'] = 'category';
+            $data['page'] = '';
+            $data['data'] = Blogs::where('status', '1')
+                                    ->whereHas('tags', function($q) use ($tag){
+                                        return $q->where('tag', $tag->tag);
+                                    })
+                                    ->orderBy('created_at', 'desc')
+                                    ->paginate(8);
+
+            return view('web.blogs.index')->with($data);
+        }else{
+            return redirect(route('blogs'));
+        }
     }
 }

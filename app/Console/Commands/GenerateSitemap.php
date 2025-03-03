@@ -9,6 +9,7 @@ use Spatie\Sitemap\Tags\Url;
 use App\Models\Services;
 use App\Models\Categories;
 use App\Models\Blogs;
+use App\Models\BlogTags;
 
 class GenerateSitemap extends Command
 {
@@ -64,6 +65,11 @@ class GenerateSitemap extends Command
         //Blogs
             Blogs::get()->each(function (Blogs $blog) use ($sitmap) {
                 $sitmap->add(Url::create("/".$blog->slug)->setPriority(0.80)->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)->setLastModificationDate(Carbon::now()));
+            });
+
+
+            BlogTags::select('tag')->distinct()->get()->each(function (BlogTags $tags) use ($sitmap) {
+                $sitmap->add(Url::create("/tag/".$tags->tag)->setPriority(0.80)->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)->setLastModificationDate(Carbon::now()));
             });
 
             $sitmap->writeToFile(base_path('/sitemap.xml'));
