@@ -63,7 +63,8 @@ class BlogController extends Controller
             $data['page'] = '';
             $data['data'] = Blogs::where('status', '1')
                                     ->whereHas('tags', function($q) use ($tag){
-                                        return $q->where('tag', $tag->tag);
+                                        return $q->where('tag', $tag->tag)
+                                                    ->orWhere('tag', ' '.$tag->tag);
                                     })
                                     ->orderBy('created_at', 'desc')
                                     ->paginate(8);
