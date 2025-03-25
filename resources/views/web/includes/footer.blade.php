@@ -74,7 +74,7 @@
 
           <div class="col-lg-4 col-md-12 footer-contact text-center text-md-start" style="padding: 30px 20px;">
             <h4>Subscribe Our Newsletter</h4>
-            <p>Stay Ahead in the World of Marketing! <br>Sign up now and get the edge!</p>
+            <p>Sign up now and get the edge!</p>
             <form id="newsletterForm" action="{{route('newsletter.subscribe')}}">
               @csrf
               <div class="row footer-subscribe">
@@ -86,6 +86,21 @@
                 </div>
               </div>
             </form>
+
+            <div class="footer-contact-block">
+              <p>
+                <i class="bi bi-telephone"></i> 
+                <a href="tel:0525287259">+971 525 287 259</a>
+              </p>
+              <p>
+                <i class="bi bi-envelope-at"></i>
+                <a href="mailto:contact@datamysite.com">contact@datamysite.com</a>
+              </p>
+              <p>
+                <i class="bi bi-pin-map"></i> 
+                Office - 205, Al Bayan Building, Dubai Investment Park, Dubai - UAE
+              </p>
+            </div>
           </div>
 
         </div>

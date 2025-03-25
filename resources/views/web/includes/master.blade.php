@@ -73,7 +73,7 @@
                       @csrf
                       <h2>Need a Help?</h2>
                       <p>
-                        <small class="para">Need a Custom Marketing Plan or Pricing Details?
+                        <small class="para">Need a Custom <strong>Marketing Plan</strong> or <strong>Pricing Details</strong>?
                         <br>
                         Get a tailored strategy designed for your brand’s success!</small>
                       </p>

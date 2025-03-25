@@ -873,7 +873,22 @@
     display: none;
     font-weight: bold;
 }
-
+.footer-contact-block {
+    margin-top: 16px;
+}
+.footer-contact-block p {
+    width: 100%;
+    display: flex;
+    color: #585858;
+}
+.footer-contact-block p i {
+    margin-right: 12px;
+    margin-left: 5px;
+}
+.footer-contact-block p a {
+    font-weight: 600;
+    color: #585858;
+}
 
 
 
@@ -888,11 +903,4 @@
 .page-link {
     padding: 5px 15px;
     color: #e04a43;
-}
-
-
-/* Tawk to */
-
-.tawk-card-small {
-    padding: 5px !important;
 }
