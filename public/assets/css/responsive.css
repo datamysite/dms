@@ -126,6 +126,12 @@
 	    width: 100%;
 	    height: 345px;
 	}
+	.header-info{
+		display: none;
+	}
+	.m-phone-link{
+		display: block;
+	}
 
 }
 @media (max-width: 430px) {

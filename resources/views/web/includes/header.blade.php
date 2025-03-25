@@ -1,10 +1,25 @@
-<header id="header" class="header d-flex align-items-center fixed-top">
+<header id="header" class="header fixed-top">
+    <div class="header-info">
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+        <span>
+          <a href="tel:971525287259"><i class="bi bi-telephone"></i>&nbsp; +971 525 287 259</a>
+        </span> 
+
+        <span class="para">
+          FREE 15-Min Marketing Strategy Session worth AED 1500 with our Top Marketing expert
+        </span> 
+
+        <span>
+          <a href="javascript:void(0)" class="open-newsletter">Book Now</a>
+        </span>  
+      </div>
+    </div>
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="{{route('home')}}" class="logo d-flex align-items-center" aria-label="Home">
         <img src="{{URL::to('/public')}}/assets/img/logo.png" alt="Logo">
       </a>
-
+      <a href="tel:971525287259" class="m-phone-link"><i class="bi bi-telephone"></i>&nbsp; +971 525 287 259</a>
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="{{route('home')}}" class="{{!empty($nav) && $nav == 'home' ? 'active' : ''}}">Home<br></a></li>

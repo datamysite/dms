@@ -20,7 +20,7 @@
 	          </div>
 	          <div class="col-xl-5 hero-title-sec">
 	          	<div class="hero-spacing"></div>
-	          	<h6 class="text-theme text-bold"><a href="javascript:void(0)" class="open-newsletter">D M S</a></h6>
+	          	<h6 class="text-theme text-bold">D M S</h6>
 	            <h1>The New Level For Advertising</h1>
 	            <blockquote>
 	              <p>People do not buy goods and services. <br>They buy relations, stories, and magic.</p>
@@ -52,24 +52,24 @@
 	          <div class="col-lg-3 business-item" data-aos="fade-up" data-aos-delay="200">
 
 	          	<img src="{{URL::to('/public/assets/img/service/1.png')}}" alt="Taxi advertising dubai uae">
-	          	<p class="business-title">TAXI</p>
-	          	<p>Mobile billboard that displays your brand to on-the-move audience 24/7.</p>
+	          	<p class="business-title">Billboards Advertising</p>
+	          	<p class="main-service-desc">Billboards dominate outdoor advertising with their commanding presence in high-traffic areas.</p>
 	           
 	          </div><!-- End Service Item -->
 
 	          <div class="col-lg-3 business-item" data-aos="fade-up" data-aos-delay="200">
 
 	          	<img src="{{URL::to('/public/assets/img/service/2.png')}}" alt="Radio advertising dubai uae">
-	          	<p class="business-title">RADIO</p>
-	          	<p>Connect with audiences across the Emirates and reach them during their daily routines.</p>
+	          	<p class="business-title">Influencer Marketing</p>
+	          	<p class="main-service-desc">Access 4,500+ influencers across the GCC to boost your brand and drive targeted engagement.</p>
 	           
 	          </div><!-- End Service Item -->
 
 	          <div class="col-lg-3 business-item" data-aos="fade-up" data-aos-delay="200">
 
 	          	<img src="{{URL::to('/public/assets/img/service/3.png')}}" alt="Transit media advertising dubai uae">
-	          	<p class="business-title">Transit Media</p>
-	          	<p>From airport advertising to in-flight promotions, we've got you covered.</p>
+	          	<p class="business-title">PR Coverage</p>
+	          	<p class="main-service-desc">Elevate your brand’s presence with TOP PR Media houses internationally that secure high-impact media placements and amplify your message.</p>
 	           
 	          </div><!-- End Service Item -->
 

@@ -844,9 +844,35 @@
     width: 85px;
     margin: 20px 0px -10px 56px;
 }
+.main-service-desc{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.header-info {
+    background-color: #023f38;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 0px;
+    margin: -16px 0px 12px 0px;
+    font-weight: 600;
+    padding-bottom: 7px;
+}
+.header-info .open-newsletter {
+    color: #fff;
+    border: 1px solid;
+    padding: 3px 12px;
+    border-radius: 5px;
+}
 
-
-
+.header-info a{
+    color: #fff;
+}
+.m-phone-link{
+    display: none;
+    font-weight: bold;
+}
 
 
 
@@ -862,4 +888,11 @@
 .page-link {
     padding: 5px 15px;
     color: #e04a43;
+}
+
+
+/* Tawk to */
+
+.tawk-card-small {
+    padding: 5px !important;
 }
