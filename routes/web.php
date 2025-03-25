@@ -100,6 +100,7 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
 
     //Enquiry
     Route::post('/enquiry', 'EnquiryController@enquiry')->name('enquiry.submit');
+    Route::post('/enquiryHelp', 'EnquiryController@enquiryHelp')->name('enquiry.help.submit');
 
     //Aside
     Route::get('/get-aside', 'WebController@getAside');

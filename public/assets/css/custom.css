@@ -737,7 +737,113 @@
 }
 
 
+#newsletter-modal .modal-dialog {
+    transform: translate(0, 42%) !important;
+}
+#newsletter-modal.modal,
+#newsletter-modal.fade,
+#newsletter-modal.show {
+    background-color: #000000cc;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#newsletter-modal h2{
 
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #000;
+}
+#newsletter-modal .modal-content {
+    border: none;
+    background: transparent;
+    padding: 0 19px;
+}
+#newsletter-modal .close {
+    position: relative;
+    top: 33px;
+    left: 21px;
+    z-index: 1;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+    color: #023f38;
+    border: none;
+    background-color: transparent;
+}
+#newsletter-modal .modal-header {
+    border: none;
+}
+
+#newsletter-modal .modal-header .close {
+    padding: 0rem 1rem !important;
+    margin: -1rem -1rem -1rem auto;
+
+}
+
+#newsletter-modal .modal-body {
+    border: none;
+    background-color: white;
+    padding-bottom: 5px;
+    box-shadow: 8px 11px 16px 0px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+#newsletter-modal .close.focus,
+#newsletter-modal .close:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+#newsletter-modal .form-control {
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: 3px 5px 5px 1px #dae0e5 !important;
+    color: #63686c;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+#newsletter-modal .form-control.focus{
+
+    border: none;
+    border-color: #fff;
+    border-bottom:1px solid #000;
+    outline: 0;
+        box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+}
+@media (min-width:599px) {
+    #newsletter-modal .modal-dialog {
+        max-width: 47rem;
+    }
+
+    #newsletter-modal .details {
+        padding: 50px 0 30px 35px;
+    }
+
+#newsletter-modal .text-muted a{
+    color: #c0bfbf;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#newsletter-modal small.para{
+    font-weight: bold;
+    font-size: 14px;
+    color: #63686c;
+}}
+
+#newsletter-modal [type=submit] {
+    cursor: pointer;
+    padding: 3px 30px;
+}
+#newsletter-modal .cancel {
+    border: 1px solid #b9b9b9;
+    padding: 3px 15px;
+}
+.help-loading {
+    opacity: 0;
+    width: 85px;
+    margin: 20px 0px -10px 56px;
+}
 
 
 

@@ -68,9 +68,13 @@
                 <strong>Name: </strong>{{$name}}<br>
                 <strong>Phone: </strong>{{$phone}}<br>
                 <strong>Email: </strong>{{$email}}<br>
-                <strong>Service: </strong>{{$service}}<br>
-                <strong>Message:</strong><br>
-                {{$description}}
+                @if(!empty($service))
+                    <strong>Service: </strong>{{$service}}<br>
+                @endif
+                @if(!empty($description))
+                    <strong>Message:</strong><br>
+                    {{$description}}
+                @endif
             </p>
         </div>
         <div class="footer">

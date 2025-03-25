@@ -26,6 +26,27 @@ var host = $("meta[name='home_url']").attr("content");
     });
   });
 
+  $('.open-newsletter').click(function(){
+    openNewsletterModal();
+  });
+
+  $('.close').click(function(){
+    closeNewsletterModal();
+  });
+  $('.cancel').click(function(){
+    closeNewsletterModal();
+  });
+
+  function closeNewsletterModal(){
+
+    $('#newsletter-modal').removeClass('show');
+    $('#newsletter-modal').css({display: 'none'});
+  }
+  function openNewsletterModal(){
+    $('#newsletter-modal').addClass('show');
+    $('#newsletter-modal').css({display: 'block'});
+  }
+
   /**
    * Apply .scrolled class to the body as the page is scrolled down
    */

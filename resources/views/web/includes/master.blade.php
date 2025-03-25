@@ -58,6 +58,47 @@
     <img src="{{URL::to('/public/whatsapp3.gif')}}" alt="Whatsapp Chat">
   </a>
 
+  <div class="modal fade" id="newsletter-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header"> 
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"> 
+                  <span aria-hidden="true">&times;</span> 
+                </button> 
+              </div>
+              <div class="modal-body p-0 row">
+                  <div class="col-12 col-lg-5 ad p-0"> <img src="{{URL::to('/public/popup-min.png')}}" width="100%" height="100%"/> </div>
+                  <div class="details col-12 col-lg-7">
+                    <form action="{{route('enquiry.help.submit')}}" id="enquiry-help-form">
+                      @csrf
+                      <h2>Need a Help?</h2>
+                      <p>
+                        <small class="para">Need a Custom Marketing Plan or Pricing Details?
+                        <br>
+                        Get a tailored strategy designed for your brand’s success!</small>
+                      </p>
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Name" required>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="phone" placeholder="Phone (e.g. +971000000000)" required>
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control help-email" name="email" placeholder="Email" required>
+                      </div>
+                      <br>
+                      <div class="form-group">
+                        <button type="reset" class="btn btn-sm btn-default cancel">&nbsp;&nbsp;Cancel&nbsp;&nbsp;</button>&nbsp;&nbsp;
+                        <input type="submit" class="btn btn-sm btn-theme" value="Proceed">
+                      </div>
+                      <img src="{{URL::to('/public/loader-gif.gif')}}" class="help-loading">
+                    </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
   @foreach($bodySnippet as $val)
 
     <!-- {{$val->name}} // Start -->
