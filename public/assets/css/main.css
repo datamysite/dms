@@ -832,7 +832,7 @@ section,
   font-weight: 700;
 }
 
-.hero blockquote {
+.hero .blockquote {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   padding-left: 20px;
   border-left: 2px solid var(--accent-color);
