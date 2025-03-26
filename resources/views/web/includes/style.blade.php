@@ -17,7 +17,6 @@
   <link href="{{URL::to('/public')}}/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="{{URL::to('/public')}}/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.11/slick.css"/>
-<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
 
   <!-- Main CSS File -->
   <link href="{{URL::to('/public')}}/assets/css/main.css" rel="stylesheet">
