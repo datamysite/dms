@@ -36,7 +36,8 @@
   <meta name="home_url" content="{{@URL::to('/')}}">
 
   @include('web.includes.style')
-
+  @yield('addStyle')
+  
   @foreach($headSnippet as $val)
 
     <!-- {{$val->name}} // Start -->

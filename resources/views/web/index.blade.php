@@ -1,4 +1,14 @@
 @extends('web.includes.master')
+@section('addStyle')
+	<style type="text/css">
+		.hero .blockquote {
+			  color: #fff;
+			  padding-left: 20px;
+			  border-left: 2px solid #e04a43;
+			  margin: 40px 0;
+			}
+	</style>
+@endsection
 @section('content')
 
 	<main class="main">

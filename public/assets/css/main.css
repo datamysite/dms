@@ -832,12 +832,7 @@ section,
   font-weight: 700;
 }
 
-.hero .blockquote {
-  color: #fff;
-  padding-left: 20px;
-  border-left: 2px solid var(--accent-color);
-  margin: 40px 0;
-}
+
 
 .hero .btn-get-started {
   color: var(--contrast-color);
