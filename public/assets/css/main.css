@@ -40,8 +40,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f6fcfe;
-  --surface-color: #ffffff;
+  background-color: #f1f1f1 !important;
 }
 
 .dark-background {
@@ -549,10 +548,18 @@ h6 {
 }
 
 .footer .copyright {
-  border-top: 1px solid color-mix(in srgb, var(--accent-color), transparent 80%);
-  margin-top: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+    margin-top: 25px;
+    padding: 6px 0px;
+    background-color: #023f38;
+    color: #fff;
+    font-weight: 200;
+}
+.footer .copyright strong {
+    font-weight: 800;
+}
+.footer .copyright a {
+    color: #fff;
+    font-weight: 800;
 }
 
 .footer .copyright p {

@@ -107,8 +107,10 @@
       </div>
     </div>
 
-    <div class="container copyright text-center">
-      <p><span>Copyright ©</span> <strong class="px-1 sitename text-theme">DataMySite</strong> {{date('Y')}}. <span>All Rights Reserved. Powered By <a href="https://daralafkarmarketing.ae/" target="_blank"><strong>Dar Alafkar Marketing LLC.</strong></a></span></p>
+    <div class="copyright text-center">
+      <div class="container ">
+        <p><span>Copyright ©</span> <strong class="px-1 sitename">DataMySite</strong> {{date('Y')}}. <span>All Rights Reserved. Powered By <a href="https://daralafkarmarketing.ae/" target="_blank"><strong>Dar Alafkar Marketing LLC.</strong></a></span></p>
+      </div>
     </div>
 
   </footer>
