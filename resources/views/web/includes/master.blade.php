@@ -69,7 +69,7 @@
               <div class="modal-body p-0 row">
                   <div class="col-12 col-lg-5 ad p-0"> 
                     <img src="{{URL::to('/public/popup-min.png')}}" class="popup-des" width="100%"/> 
-                    <img src="{{URL::to('/public/popup-m.jpg')}}" class="popup-mob" width="100%" height="100%"/> 
+                    <img src="{{URL::to('/public/popup-m.jpg')}}" class="popup-mob" width="100%"/> 
                   </div>
                   <div class="details col-12 col-lg-7">
                     <form action="{{route('enquiry.help.submit')}}" id="enquiry-help-form">
