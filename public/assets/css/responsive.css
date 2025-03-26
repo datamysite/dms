@@ -132,8 +132,11 @@
 	.m-phone-link{
 		display: block;
 	}
-	#newsletter-modal img{
+	#newsletter-modal .popup-des{
 		display: none;
+	}
+	#newsletter-modal .popup-mob{
+		display: block;
 	}
 	#newsletter-modal .details {
 	    padding: 30px 20px;
@@ -148,6 +151,12 @@
 	.header-info .para{
 	    width: 75%;
 	    padding-right: 10px;
+	}
+	#newsletter-modal .modal-dialog {
+	    transform: translate(0, 25%) !important;
+	}
+	#newsletter-modal .close{
+		color: #fff;
 	}
 
 }

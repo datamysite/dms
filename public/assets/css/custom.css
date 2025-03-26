@@ -839,6 +839,14 @@
     border: 1px solid #b9b9b9;
     padding: 3px 15px;
 }
+
+#newsletter-modal .popup-des{
+    display: block;
+}
+#newsletter-modal .popup-mob{
+    display: none;
+}
+
 .help-loading {
     opacity: 0;
     width: 85px;
