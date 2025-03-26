@@ -7,6 +7,12 @@
 			  border-left: 2px solid #e04a43;
 			  margin: 14px 0;
 			}
+			@media (max-width: 767px) {
+			    .hero-title-sec h1 {
+			        font-size: 42px;
+			        line-height: 52px;
+			    }
+			}
 	</style>
 @endsection
 @section('content')
