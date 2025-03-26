@@ -119,6 +119,7 @@
 	}
 	.hero-title-sec p {
 	    font-size: 24px;
+	    color: #fff;
 	}
 }
 @media (max-width: 575px) {
