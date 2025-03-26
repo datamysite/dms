@@ -5,7 +5,7 @@
 			  color: #fff;
 			  padding-left: 20px;
 			  border-left: 2px solid #e04a43;
-			  margin: 40px 0;
+			  margin: 14px 0;
 			}
 	</style>
 @endsection
@@ -32,8 +32,9 @@
 	          	<div class="hero-spacing"></div>
 	          	<h6 class="text-theme text-bold">D M S</h6>
 	            <h1>The New Level For Advertising</h1>
-	            
-	            <p class="blockquote">People do not buy goods and services. <br>They buy relations, stories, and magic.</p>
+	            <br>
+	            <p class="blockquote">People do not buy goods and services.</p>
+	            <p class="blockquote">They buy relations, stories, and magic.</p>
 
 	          </div>
 	        </div>
