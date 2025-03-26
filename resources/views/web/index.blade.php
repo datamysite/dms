@@ -16,7 +16,7 @@
 	    <!-- Hero Section -->
 	    <section id="hero" class="hero section dark-background">
 
-	      <img src="{{URL::to('/public')}}/assets/img/background/banner.jpeg" class="hero-img-bg" alt="Hero Image">
+	      <img src="{{URL::to('/public')}}/assets/img/background/banner.jpeg" alt="Hero Image">
 
 	      <div class="container">
 	        <div class="row">
@@ -33,8 +33,8 @@
 	          	<h6 class="text-theme text-bold">D M S</h6>
 	            <h1>The New Level For Advertising</h1>
 	            <br>
-	            <!-- <p class="blockquote">People do not buy goods and services.</p>
-	            <p class="blockquote">They buy relations, stories, and magic.</p> -->
+	            <p class="blockquote">People do not buy goods and services.</p>
+	            <p class="blockquote">They buy relations, stories, and magic.</p>
 
 	          </div>
 	        </div>

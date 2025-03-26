@@ -110,12 +110,13 @@
 	.hero-img{
 		display: none;
 	}
-	.hero-title-sec h1{
-		font-size: 32px;
-		line-height: 40px;
-	}
+	.hero-title-sec h1 {
+        font-size: 42px;
+        line-height: 52px;
+    }
 	.hero-title-sec {
 	    margin-top: -135px;
+        text-align: center;
 	}
 	.hero-title-sec p {
 	    font-size: 28px;
@@ -127,6 +128,9 @@
 	}
 	.hero-img-bg{
 		display: none !important;
+	}
+	.hero .blockquote {
+		display: none;
 	}
 }
 @media (max-width: 575px) {
