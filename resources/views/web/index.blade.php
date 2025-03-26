@@ -16,7 +16,7 @@
 	    <!-- Hero Section -->
 	    <section id="hero" class="hero section dark-background">
 
-	      <img src="{{URL::to('/public')}}/assets/img/background/banner.jpeg" alt="Hero Image">
+	      <img src="{{URL::to('/public')}}/assets/img/background/banner.jpeg" class="hero-img-bg" alt="Hero Image">
 
 	      <div class="container">
 	        <div class="row">
