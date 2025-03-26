@@ -121,6 +121,12 @@
 	    font-size: 24px;
 	    color: #fff;
 	}
+	.home-business{
+		margin-top: 0;
+	}
+	.hero-img-bg{
+		display: none !important;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
