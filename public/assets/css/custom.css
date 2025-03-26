@@ -436,7 +436,6 @@
 }
 
 .whatsapp-chat img {
-    width: 75px;
     transition: .3s ease-in-out all;
 }
 
@@ -817,7 +816,7 @@
     }
 
     #newsletter-modal .details {
-        padding: 50px 0 30px 35px;
+        padding: 50px 0 25px 35px;
     }
 
 #newsletter-modal .text-muted a{
