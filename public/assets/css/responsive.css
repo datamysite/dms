@@ -126,7 +126,7 @@
 	    width: 100%;
 	    height: 345px;
 	}
-	.header-info{
+	.header-info span:first-child{
 		display: none;
 	}
 	.m-phone-link{
@@ -144,6 +144,10 @@
 	.footer-contact-block p {
 	    display: flex;
 	    justify-content: center;
+	}
+	.header-info .para{
+	    width: 75%;
+	    padding-right: 10px;
 	}
 
 }

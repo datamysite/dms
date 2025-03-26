@@ -871,7 +871,9 @@
 }
 .m-phone-link{
     display: none;
-    font-weight: bold;
+    font-weight: 900;
+    color: #023f38;
+    margin-right: -85px;
 }
 .footer-contact-block {
     margin-top: 16px;
