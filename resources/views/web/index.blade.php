@@ -51,7 +51,7 @@
 
 	          <div class="col-lg-3 business-item" data-aos="fade-up" data-aos-delay="200">
 
-	          	<img src="{{URL::to('/public/assets/img/service/1.png')}}" alt="Taxi advertising dubai uae">
+	          	<img src="{{URL::to('/public/assets/img/service/1.png')}}" alt="Billboards Advertising dubai uae">
 	          	<p class="business-title">Billboards Advertising</p>
 	          	<p class="main-service-desc">Billboards dominate outdoor advertising with their commanding presence in high-traffic areas.</p>
 	           
@@ -59,7 +59,7 @@
 
 	          <div class="col-lg-3 business-item" data-aos="fade-up" data-aos-delay="200">
 
-	          	<img src="{{URL::to('/public/assets/img/service/2.png')}}" alt="Radio advertising dubai uae">
+	          	<img src="{{URL::to('/public/assets/img/service/2.png')}}" alt="Influencer Marketing dubai uae">
 	          	<p class="business-title">Influencer Marketing</p>
 	          	<p class="main-service-desc">Access 4,500+ influencers across the GCC to boost your brand and drive targeted engagement.</p>
 	           
@@ -67,7 +67,7 @@
 
 	          <div class="col-lg-3 business-item" data-aos="fade-up" data-aos-delay="200">
 
-	          	<img src="{{URL::to('/public/assets/img/service/3.png')}}" alt="Transit media advertising dubai uae">
+	          	<img src="{{URL::to('/public/assets/img/service/3.png')}}" alt="PR Coverage dubai uae">
 	          	<p class="business-title">PR Coverage</p>
 	          	<p class="main-service-desc">Elevate your brand’s presence with TOP PR Media houses internationally that secure high-impact media placements and amplify your message.</p>
 	           
