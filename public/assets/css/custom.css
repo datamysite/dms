@@ -436,6 +436,7 @@
 }
 
 .whatsapp-chat img {
+    width: 65px;
     transition: .3s ease-in-out all;
 }
 
