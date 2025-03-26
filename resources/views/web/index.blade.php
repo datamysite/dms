@@ -33,8 +33,8 @@
 	          	<h6 class="text-theme text-bold">D M S</h6>
 	            <h1>The New Level For Advertising</h1>
 	            <br>
-	            <p class="blockquote">People do not buy goods and services.</p>
-	            <p class="blockquote">They buy relations, stories, and magic.</p>
+	            <!-- <p class="blockquote">People do not buy goods and services.</p>
+	            <p class="blockquote">They buy relations, stories, and magic.</p> -->
 
 	          </div>
 	        </div>
