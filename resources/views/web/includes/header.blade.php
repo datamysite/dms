@@ -10,7 +10,7 @@
         </span> 
 
         <span>
-          <a href="javascript:void(0)" class="open-newsletter">Book Now</a>
+          <button type="button" class="open-newsletter">Book Now</button>
         </span>  
       </div>
     </div>
