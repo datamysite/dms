@@ -13,7 +13,6 @@
   <!-- Vendor CSS Files -->
   <link href="{{URL::to('/public')}}/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="{{URL::to('/public')}}/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="{{URL::to('/public')}}/assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="{{URL::to('/public')}}/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="{{URL::to('/public')}}/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.11/slick.css"/>

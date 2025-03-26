@@ -1,12 +1,8 @@
 
   <!-- Vendor JS Files -->
   <script src="{{URL::to('/public')}}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="{{URL::to('/public')}}/assets/vendor/php-email-form/validate.js"></script>
-  <script src="{{URL::to('/public')}}/assets/vendor/aos/aos.js"></script>
   <script src="{{URL::to('/public')}}/assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="{{URL::to('/public')}}/assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="{{URL::to('/public')}}/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="{{URL::to('/public')}}/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

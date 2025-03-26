@@ -57,7 +57,7 @@
 
 	        <div class="row gy-4">
 
-	          <div class="col-lg-3 business-first" data-aos="fade-up" data-aos-delay="100">
+	          <div class="col-lg-3 business-first">
 	            <div>
 	              <h5 class="text-theme">BEST SOLUTIONS</h5>
 	              <h2 class="text-bold" style="font-size:40px">For Your Business</h2>
@@ -65,7 +65,7 @@
 	          </div>
 	          <!-- End Service Item -->
 
-	          <div class="col-lg-3 business-item" data-aos="fade-up" data-aos-delay="200">
+	          <div class="col-lg-3 business-item">
 
 	          	<img src="{{URL::to('/public/assets/img/service/1.png')}}" alt="Billboards Advertising dubai uae">
 	          	<p class="business-title">Billboards Advertising</p>
@@ -73,7 +73,7 @@
 	           
 	          </div><!-- End Service Item -->
 
-	          <div class="col-lg-3 business-item" data-aos="fade-up" data-aos-delay="200">
+	          <div class="col-lg-3 business-item"  >
 
 	          	<img src="{{URL::to('/public/assets/img/service/2.png')}}" alt="Influencer Marketing dubai uae">
 	          	<p class="business-title">Influencer Marketing</p>
@@ -81,7 +81,7 @@
 	           
 	          </div><!-- End Service Item -->
 
-	          <div class="col-lg-3 business-item" data-aos="fade-up" data-aos-delay="200">
+	          <div class="col-lg-3 business-item"  >
 
 	          	<img src="{{URL::to('/public/assets/img/service/3.png')}}" alt="PR Coverage dubai uae">
 	          	<p class="business-title">PR Coverage</p>
@@ -102,7 +102,7 @@
 
 	        <div class="row gy-4 first-row">
 
-	          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+	          <div class="col-lg-6"  >
 	          	<div class="row">
 	          		<div class="col-lg-4 col-sm-6 col-xs-6">
 			            <div class="box-circle">
@@ -139,7 +139,7 @@
 	          	</div>
 	          </div><!-- End Card Item -->
 
-	          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+	          <div class="col-lg-6"  >
 	            <span class="text-theme">WHAT WE DO</span>
 	            <h2>Marketing Solutions for Your Business's Growth</h2>
 	          </div><!-- End Card Item -->
@@ -199,7 +199,7 @@
     <section id="services" class="services section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title">
         <h2 class="text-theme">Our Services</h2>
         <p class="service-p">Elevate Your Brand Visibility and Boost Sales</p>
       </div><!-- End Section Title -->
@@ -209,7 +209,7 @@
         <div class="row service-row gy-4">
 
         	@foreach($header_services as $val)
-	          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+	          <div class="col-lg-4 col-md-6 service-item d-flex"  >
 	            <div class="icon flex-shrink-0"><i class="{{$val->icon}}" style="color: #f44d46;"></i></div>
 	            <div>
 	              <h4 class="title">{{$val->name}}</h4>
@@ -233,7 +233,7 @@
 	      <img src="{{URL::to('/public')}}/assets/img/background/call-to.jpg" alt="Call to action background">
 
 	      <div class="container">
-	        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+	        <div class="row justify-content-center">
 	          <div class="col-xl-10">
 	          	<div class="hero-spacing hide-mobile"></div>
 	            <div class="text-center">

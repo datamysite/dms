@@ -1,7 +1,7 @@
 
 	    <!-- Testimonials Section -->
 	    <section id="testimonials" class="testimonials section">
-	      <div class="container" data-aos="fade-up" data-aos-delay="100">
+	      <div class="container">
 
 	        <div class="swiper init-swiper">
 	          <script type="application/json" class="swiper-config">
