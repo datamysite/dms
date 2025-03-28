@@ -136,6 +136,17 @@
 	.services .service-item{
 		margin-bottom: 5px;
 	}
+	.box-circle{
+		width: 60%;
+	}
+	.circle-border{
+		top: 0;
+    	left: 24%;
+    	height: 77%;
+	}
+	.wwd-para {
+	    margin-top: -16px !important;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{

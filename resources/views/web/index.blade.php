@@ -121,7 +121,7 @@
 					        </div>
 					      </div>
 					    </div>
-					    <p>Digital Media Buying</p>
+					    <p class="wwd-para">Digital Media Buying</p>
 	          		</div>
 
 	          		<div class="col-lg-4 col-sm-6 col-xs-6">
@@ -132,7 +132,7 @@
 					        </div>
 					      </div>
 					    </div>
-					    <p>OOH Media Buying</p>
+					    <p class="wwd-para">OOH Media Buying</p>
 	          		</div>
 
 	          		<div class="col-lg-4 col-sm-6 col-xs-6 service-card-last">
@@ -143,7 +143,7 @@
 					        </div>
 					      </div>
 					    </div>
-					    <p>Strategic planning</p>
+					    <p class="wwd-para">Strategic planning</p>
 	          		</div>
 	          	</div>
 	          </div><!-- End Card Item -->
