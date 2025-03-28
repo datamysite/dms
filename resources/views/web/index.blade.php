@@ -66,26 +66,29 @@
 	          <!-- End Service Item -->
 
 	          <div class="col-lg-3 business-item">
-
-	          	<img src="{{URL::to('/public/assets/img/service/1.png')}}" alt="Billboards Advertising dubai uae">
-	          	<p class="business-title">Billboards Advertising</p>
-	          	<p class="main-service-desc">Billboards dominate outdoor advertising with their commanding presence in high-traffic areas.</p>
+	          	<a href="{{URL::to('/outdoor-advertising/billboards-advertising')}}">
+		          	<img src="{{URL::to('/public/assets/img/service/1.png')}}" alt="Billboards Advertising dubai uae">
+		          	<p class="business-title">Billboards Advertising</p>
+		          	<p class="main-service-desc">Billboards dominate outdoor advertising with their commanding presence in high-traffic areas.</p>
+		          </a>
 	           
 	          </div><!-- End Service Item -->
 
 	          <div class="col-lg-3 business-item"  >
-
-	          	<img src="{{URL::to('/public/assets/img/service/2.png')}}" alt="Influencer Marketing dubai uae">
-	          	<p class="business-title">Influencer Marketing</p>
-	          	<p class="main-service-desc">Access 4,500+ influencers across the GCC to boost your brand and drive targeted engagement.</p>
+	          	<a href="{{URL::to('/influencer-marketing')}}">
+		          	<img src="{{URL::to('/public/assets/img/service/2.png')}}" alt="Influencer Marketing dubai uae">
+		          	<p class="business-title">Influencer Marketing</p>
+		          	<p class="main-service-desc">Access 4,500+ influencers across the GCC to boost your brand and drive targeted engagement.</p>
+		          </a>
 	           
 	          </div><!-- End Service Item -->
 
 	          <div class="col-lg-3 business-item"  >
-
-	          	<img src="{{URL::to('/public/assets/img/service/3.png')}}" alt="PR Coverage dubai uae">
-	          	<p class="business-title">PR Coverage</p>
-	          	<p class="main-service-desc">Elevate your brand’s presence with TOP PR Media houses internationally that secure high-impact media placements and amplify your message.</p>
+	          	<a href="{{URL::to('/public-relations-pr-coverage')}}">
+		          	<img src="{{URL::to('/public/assets/img/service/3.png')}}" alt="PR Coverage dubai uae">
+		          	<p class="business-title">PR Coverage</p>
+		          	<p class="main-service-desc">Elevate your brand’s presence with TOP PR Media houses internationally that secure high-impact media placements and amplify your message.</p>
+		          </a>
 	           
 	          </div><!-- End Service Item -->
 
@@ -101,7 +104,7 @@
 	      <!-- Section Title -->
 	      <div class="container section-title">
 	        <h3 class="text-theme">What We Do</h3>
-	        <p class="service-tp">At <strong>DataMySite</strong>, we create powerful marketing solutions that help businesses grow and thrive. From outdoor and digital advertising to influencer marketing, PR coverage, and event promotions, we offer a full suite of services to boost your brand’s visibility. Whether it's billboard ads, OTT advertising, transit media, or celebrity marketing, we craft strategic campaigns tailored to your goals. Our expertise in lead generation, sponsorships, and creative advertising ensures maximum impact and measurable results. Let us help you reach the right audience and take your business to the next level!</p>
+	        <p class="service-tp">We provide <strong>outdoor advertising</strong>, DOOH, PR Coverage, <strong>influencer marketing</strong>, <strong>event marketing</strong>, <strong>transit media</strong>, and more to elevate your brand’s impact and drive success. Let’s craft the perfect strategy together!</p>
 	      </div><!-- End Section Title -->
 
 	      <div class="container">
@@ -165,11 +168,9 @@
 	      <div class="container section-title">
 	        <h2 class="text-theme">Our Services</h2>
 	        <p class="service-p">Elevate Your Brand Visibility and Boost Sales</p>
-	        <p class="service-tp">At <strong>DataMySite</strong>, we provide a comprehensive range of marketing and advertising solutions designed to maximize your brand's visibility and impact. Whether it's traditional <strong>outdoor advertising</strong> like <strong>billboards</strong>, flyers distribution, and human billboards, or cutting-edge <strong>digital advertising</strong> through OTT, DOOH, hotel digital screens, and elevator ads, we ensure your message reaches the right audience.
-					Our <strong>PR coverage</strong> in top publications such as Gulf News, Forbes, Khaleej Times, and Arabian News strengthens brand credibility, while <strong>celebrity</strong> and <strong>influencer marketing</strong>—from sports personalities to Bollywood stars and nano to macro influencers—boosts engagement.
-					We also specialize in <strong>event marketing</strong> for corporate and private events, <strong>transit media advertising</strong> across airlines, taxis, and buses, and <strong>radio advertising</strong> for widespread outreach. Need <strong>lead generation</strong> or <strong>corporate sponsorships</strong>? We’ve got you covered. Plus, our creative and <strong>CGI advertising</strong> brings innovative storytelling to life.
-
-					Explore our services and let’s craft a powerful marketing strategy to drive results for your business!</p>
+	        <p class="service-tp">
+	        	We use services like <strong>outdoor advertising</strong>, <strong>CGI advertising</strong> and more to maximize your brand’s visibility and impact. Let's craft a strategy to drive your business success!
+	        </p>
 	      </div><!-- End Section Title -->
 
 	      <div class="container">
@@ -205,9 +206,10 @@
 	      <div class="container section-title">
 	        <h2 class="text-theme">Our Successful Projects</h2>
 	        <p class="service-tp">
-	        	At <strong>DataMySite</strong>, we take pride in delivering impactful marketing campaigns that drive real business success. From high-visibility billboard advertising to cutting-edge digital and influencer marketing, our projects have helped brands expand their reach and boost engagement.
-						
-						We have successfully executed PR campaigns in top publications, launched celebrity endorsements, and implemented targeted lead generation strategies that deliver measurable results. Our expertise in event marketing, transit media, and sponsorships has empowered businesses to connect with their audience in meaningful ways. Each project reflects our dedication to innovation, strategy, and excellence—turning marketing challenges into success stories. Let’s make your brand our next big success!
+	        	At <strong>DataMySite</strong>, we deliver impactful marketing campaigns across <strong>billboards ads</strong>, DOOH, influencer marketing, PR Coverage, <strong>lead generation</strong>, <strong>event marketing</strong>, and <strong>sponsorships</strong>, driving real business success and measurable results. 
+						<br>
+						Let's make your brand our next success! 
+
 	        </p>
 	      </div><!-- End Section Title -->
 	      <div class="container">

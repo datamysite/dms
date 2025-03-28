@@ -32,11 +32,13 @@
 .business-item img{
 	width: 100%;
 }
-.business-title{
-	margin-top: 25px;
-	margin-bottom: 0px;
-	font-size: 22px;
-	font-weight: bolder;
+.business-title {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-weight: bolder;
+    border-top: 1px solid;
+    padding-top: 10px;
 }
 
 
@@ -908,7 +910,12 @@
 .section-striped {
     background-color: #f1f1f1;
 }
-
+.business-item a {
+    color: #000;
+}
+.business-item a:hover .business-title {
+    color: #e04a43;
+}
 
 
 

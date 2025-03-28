@@ -5,7 +5,7 @@
 	      <div class="container section-title">
 	        <h2 class="text-theme">Our Clients</h2>
 	        <p class="service-tp">
-	        	At <strong>DataMySite</strong>, we are proud to partner with a diverse range of clients across various industries, from startups to established global brands. Our tailored advertising and marketing solutions have helped businesses enhance their visibility, engage their target audience, and achieve measurable growth. Whether it’s through outdoor advertising, digital campaigns, influencer collaborations, or PR coverage, we craft strategies that drive real results. Our commitment to excellence and innovation has earned the trust of leading brands, and we look forward to helping more businesses achieve their marketing goals. Join our growing list of successful clients today!
+	        	At <strong>DataMySite</strong>, we are proud to partner with a diverse range of clients across various industries, from startups to established global brands.
 	        </p>
 	      </div><!-- End Section Title -->
 	      <div class="container">
