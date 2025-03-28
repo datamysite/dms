@@ -96,7 +96,13 @@
 	    </section><!-- /Services Section -->
 
 	     <!-- Service Cards Section -->
-	    <section id="service-cards" class="service-cards section">
+	    <section id="service-cards" class="section-striped service-cards section">
+
+	      <!-- Section Title -->
+	      <div class="container section-title">
+	        <h3 class="text-theme">What We Do</h3>
+	        <p class="service-tp">At <strong>DataMySite</strong>, we create powerful marketing solutions that help businesses grow and thrive. From outdoor and digital advertising to influencer marketing, PR coverage, and event promotions, we offer a full suite of services to boost your brand’s visibility. Whether it's billboard ads, OTT advertising, transit media, or celebrity marketing, we craft strategic campaigns tailored to your goals. Our expertise in lead generation, sponsorships, and creative advertising ensures maximum impact and measurable results. Let us help you reach the right audience and take your business to the next level!</p>
+	      </div><!-- End Section Title -->
 
 	      <div class="container">
 
@@ -139,8 +145,8 @@
 	          	</div>
 	          </div><!-- End Card Item -->
 
-	          <div class="col-lg-6"  >
-	            <span class="text-theme">WHAT WE DO</span>
+	          <div class="col-lg-6 mob-text-center"  >
+	            <span class="text-theme">DataMySite</span>
 	            <h2>Marketing Solutions for Your Business's Growth</h2>
 	          </div><!-- End Card Item -->
 
@@ -151,12 +157,59 @@
 	    </section><!-- /Service Cards Section -->
 
 
-		@include('web.includes.elements.clients')
+	    
+	    <!-- Services Section -->
+	    <section id="services" class="services section">
 
+	      <!-- Section Title -->
+	      <div class="container section-title">
+	        <h2 class="text-theme">Our Services</h2>
+	        <p class="service-p">Elevate Your Brand Visibility and Boost Sales</p>
+	        <p class="service-tp">At <strong>DataMySite</strong>, we provide a comprehensive range of marketing and advertising solutions designed to maximize your brand's visibility and impact. Whether it's traditional <strong>outdoor advertising</strong> like <strong>billboards</strong>, flyers distribution, and human billboards, or cutting-edge <strong>digital advertising</strong> through OTT, DOOH, hotel digital screens, and elevator ads, we ensure your message reaches the right audience.
+					Our <strong>PR coverage</strong> in top publications such as Gulf News, Forbes, Khaleej Times, and Arabian News strengthens brand credibility, while <strong>celebrity</strong> and <strong>influencer marketing</strong>—from sports personalities to Bollywood stars and nano to macro influencers—boosts engagement.
+					We also specialize in <strong>event marketing</strong> for corporate and private events, <strong>transit media advertising</strong> across airlines, taxis, and buses, and <strong>radio advertising</strong> for widespread outreach. Need <strong>lead generation</strong> or <strong>corporate sponsorships</strong>? We’ve got you covered. Plus, our creative and <strong>CGI advertising</strong> brings innovative storytelling to life.
+
+					Explore our services and let’s craft a powerful marketing strategy to drive results for your business!</p>
+	      </div><!-- End Section Title -->
+
+	      <div class="container">
+
+	        <div class="row service-row gy-4">
+
+	        	@foreach($header_services as $val)
+		          <div class="col-lg-4 col-md-6 service-item d-flex"  >
+		            <div class="icon flex-shrink-0"><i class="{{$val->icon}}" style="color: #f44d46;"></i></div>
+		            <div>
+		              <h4 class="title">{{$val->name}}</h4>
+		              <p class="description">{{$val->description}}</p>
+		              <a href="{{URL::to('/'.$val->slug)}}" class="readmore stretched-link"><i class="bi bi-arrow-right"></i></a>
+		            </div>
+		          </div>
+		          <!-- End Service Item -->
+	          @endforeach
+	          
+	        </div>
+
+	      </div>
+
+	    </section><!-- /Services Section -->
+
+
+	    <div class="section-striped">
+				@include('web.includes.elements.clients')
+			</div>
 
 	     <!-- Service Cards Section -->
 	    <section id="service-cards" class="service-cards section">
-
+	    	<!-- Section Title -->
+	      <div class="container section-title">
+	        <h2 class="text-theme">Our Successful Projects</h2>
+	        <p class="service-tp">
+	        	At <strong>DataMySite</strong>, we take pride in delivering impactful marketing campaigns that drive real business success. From high-visibility billboard advertising to cutting-edge digital and influencer marketing, our projects have helped brands expand their reach and boost engagement.
+						
+						We have successfully executed PR campaigns in top publications, launched celebrity endorsements, and implemented targeted lead generation strategies that deliver measurable results. Our expertise in event marketing, transit media, and sponsorships has empowered businesses to connect with their audience in meaningful ways. Each project reflects our dedication to innovation, strategy, and excellence—turning marketing challenges into success stories. Let’s make your brand our next big success!
+	        </p>
+	      </div><!-- End Section Title -->
 	      <div class="container">
 
 	        <div class="row">
@@ -193,39 +246,7 @@
 
 	    </section><!-- /Service Cards Section -->
 
-	    
-	    
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title">
-        <h2 class="text-theme">Our Services</h2>
-        <p class="service-p">Elevate Your Brand Visibility and Boost Sales</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row service-row gy-4">
-
-        	@foreach($header_services as $val)
-	          <div class="col-lg-4 col-md-6 service-item d-flex"  >
-	            <div class="icon flex-shrink-0"><i class="{{$val->icon}}" style="color: #f44d46;"></i></div>
-	            <div>
-	              <h4 class="title">{{$val->name}}</h4>
-	              <p class="description">{{$val->description}}</p>
-	              <a href="{{URL::to('/'.$val->slug)}}" class="readmore stretched-link"><i class="bi bi-arrow-right"></i></a>
-	            </div>
-	          </div>
-	          <!-- End Service Item -->
-          @endforeach
-          
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
+	 
 
 	    <!-- Call To Action Section -->
 	    <section id="call-to-action" class="call-to-action section dark-background">

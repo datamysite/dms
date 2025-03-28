@@ -63,7 +63,7 @@
   width: calc(100% - 10px);
   height: calc(100% - 10px);
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #f1f1f1;
 }
 
 .percentage {
@@ -118,7 +118,7 @@
     font-family: "League Spartan";
     position: absolute;
     margin-top: -50px;
-    margin-left: 113px;
+    margin-left: 98px;
     font-size: 30px;
     font-weight: 600;
     color: #f44d46;
@@ -900,7 +900,14 @@
     font-weight: 600;
     color: #585858;
 }
-
+.service-tp {
+    font-size: 1rem !important;
+    font-weight: normal !important;
+    line-height: inherit !important;
+}
+.section-striped {
+    background-color: #f1f1f1;
+}
 
 
 

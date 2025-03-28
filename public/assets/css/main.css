@@ -723,7 +723,6 @@ h6 {
 section,
 .section {
   color: var(--default-color);
-  background-color: var(--background-color);
   padding: 60px 0;
   scroll-margin-top: 100px;
   overflow: clip;
@@ -752,7 +751,7 @@ section,
     margin-top: -18px;
 }
 
-.section-title h2 {
+.section-title h2, .section-title .text-theme {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
@@ -761,7 +760,7 @@ section,
     position: relative;
 }
 
-.section-title h2:after {
+.section-title h2:after, .section-title .text-theme:after {
   content: "";
   position: absolute;
   display: block;

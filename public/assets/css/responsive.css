@@ -124,6 +124,18 @@
 	.hero-img-bg{
 		display: none !important;
 	}
+	.home-business{
+		display: none;
+	}
+	.mob-text-center{
+		text-align: center;
+	}
+	.section-title{
+		padding-bottom: 20px;
+	}
+	.services .service-item{
+		margin-bottom: 5px;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
