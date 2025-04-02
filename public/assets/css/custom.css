@@ -120,7 +120,7 @@
     font-family: "League Spartan";
     position: absolute;
     margin-top: -50px;
-    margin-left: 98px;
+    margin-left: 10px;
     font-size: 30px;
     font-weight: 600;
     color: #f44d46;
@@ -915,6 +915,12 @@
 }
 .business-item a:hover .business-title {
     color: #e04a43;
+}
+.counter-container > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 

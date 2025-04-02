@@ -217,30 +217,42 @@
 	        <div class="row">
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
-				      <div class="counter" data-target="1219"></div><label>+</label>
-				      <span>Succesful Project</span>
-				    </div>
+		            	<div>
+							      <div class="counter" data-target="1219"></div>
+							      <div><label>+</label></div>
+							    </div>
+						      <span>Succesful Project</span>
+						    </div>
           		</div>
 
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
-				      <div class="counter" data-target="15"></div><label>+</label>
-				      <span>Years Experience</span>
-				    </div>
+		            	<div>
+							      <div class="counter" data-target="15"></div>
+							      <div><label>+</label></div>
+							    </div>
+						      <span>Years Experience</span>
+						    </div>
           		</div>
 
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
-				      <div class="counter" data-target="5"></div><label>+</label>
-				      <span>Winning Awards</span>
-				    </div>
+		            	<div>
+							      <div class="counter" data-target="5"></div>
+							      <div><label>+</label></div>
+							    </div>
+						      <span>Winning Awards</span>
+						    </div>
           		</div>
 
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
-				      <div class="counter" data-target="81"></div><label>+</label>
-				      <span>Satisfied Clients</span>
-				    </div>
+		            	<div>
+							      <div class="counter" data-target="81"></div>
+							      <div><label>+</label></div>
+							    </div>
+						      <span>Satisfied Clients</span>
+						    </div>
           		</div>
           	</div>
 
