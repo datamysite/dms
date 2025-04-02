@@ -954,12 +954,12 @@
     margin-left: -16px;
     font-size: 24px;
 }
-.post-container a > span > span > u, .post-container a {
+.post-container a > span > span > u, .post-container a > span > i > span > u,  .post-container a {
     text-decoration: none;
     color: #e04a43;
     font-weight: 600;
 }
-.post-container a:hover > span > span > u, .post-container a:hover {
+.post-container a:hover > span > span > u, .post-container a:hover > span > i > span > u, .post-container a:hover {
     color: black;
 }
 .post-container h2 span span {
