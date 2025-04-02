@@ -2,7 +2,7 @@
     <div class="header-info">
       <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <span>
-          <a href="tel:971525287259"><i class="bi bi-telephone"></i>&nbsp; +971 525 287 259</a>
+          <a href="tel:971525287259"><i class="bi bi-telephone"></i>&nbsp; +971 52 528 7259</a>
         </span> 
 
         <span class="para">

@@ -917,6 +917,34 @@
     color: #e04a43;
 }
 
+.post-container ol {
+    background-color: #f0f0f0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.post-container ol li {
+    padding-bottom: 12px;
+    font-style: italic;
+}
+.post-container ol li span {
+    font-style: italic !important;
+}
+.post-container p {
+    padding-left: 16px;
+}
+.post-container > p > span > span > strong {
+    margin-left: -16px;
+    font-size: 24px;
+}
+.post-container a > span > span > u {
+    text-decoration: none;
+    color: #e04a43;
+    font-weight: 600;
+}
+.post-container a:hover > span > span > u {
+    color: black;
+}
+
 
 
 /* Pagination */
