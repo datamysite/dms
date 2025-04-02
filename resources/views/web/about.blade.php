@@ -29,7 +29,7 @@
                 </p>
                 <h3>Mission</h3>
                 <p>
-                    To consistently craft <strong>innovative and impactful media solutions</strong> that resonate with our clients' needs, ensuring their brands they stand out in a competitive landscape.
+                    To consistently craft <strong>innovative and impactful media solutions</strong> that resonate with our clients' needs, ensuring their brands stand out in a competitive landscape.
                 </p>
 	          </div><!-- End Card Item -->
 
@@ -55,17 +55,17 @@
                     <div class="col-lg-3 col-sm-6 col-xs-6">
                         <i class="bi bi-list-task" style="color: #cbcbcb;"></i>
                         <p class="working-title">Select Your Service</p>
-                        <p>helps us understand your needs and align our strategies with your business goals.</p>
+                        <p>Helps us understand your needs and aligns our strategies with your business goals.</p>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-xs-6">
                         <i class="bi bi-calendar4-week" style="color: #cbcbcb;"></i>
                         <p class="working-title">Booking & Confirm</p>
-                        <p>we’ll finalize the details and set a timeline to kick off your customized marketing strategy.</p>
+                        <p>We’ll finalize the details and set a timeline to kick off your customized marketing strategy.</p>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-xs-6">
                         <i class="bi bi-credit-card" style="color: #cbcbcb;"></i>
                         <p class="working-title">Booking Payment</p>
-                        <p>ensures your service is reserved and allows us to start preparing for your campaign with full commitment.</p>
+                        <p>Ensures your service is reserved and allows us to start preparing for your campaign with full commitment.</p>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-xs-6">
                         <i class="bi bi-graph-up-arrow" style="color: #cbcbcb;"></i>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <div class="hide-mobile" style="height: 50px;"></div>
-                <p class="text-center">We Ready For More Information <strong>(+971) 42 957 001</strong></p>
+                <p class="text-center">For more information, please call <strong>(+971) 42 957 001</strong></p>
               </div><!-- End Card Item -->
 
             </div>

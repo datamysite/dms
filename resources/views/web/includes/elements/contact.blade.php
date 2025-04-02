@@ -18,7 +18,7 @@
         <div class="about-contact-info">
             <p class="working-title">Phone</p>
             <p class="mb-0">TEL: <a href="tel:042957001">042 957 001</a></p>
-            <p class="mb-0">Cell: <a href="tel:0525287259">+971 525 287 259</a></p>
+            <p class="mb-0">Cell: <a href="tel:0525287259">+971 52 528 7259</a></p>
         </div>
     </div>
     <div class=" col-lg-6">
