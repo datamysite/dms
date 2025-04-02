@@ -218,7 +218,7 @@
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
 				      <div class="counter" data-target="1219"></div><label>+</label>
-				      <span>Succesfull Project</span>
+				      <span>Succesful Project</span>
 				    </div>
           		</div>
 
