@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>{{@$metaTags->title}}{{empty($metaTags->title) ? env('APP_NAME') : ''}}</title>
-  <meta name="description" content="{{@$metaTags->description}}">
-  <meta name="keywords" content="{{@$metaTags->keywords}}">
+  <title>{{@$metaTags->title}}{{@$ametaTags['title']}}{{empty($metaTags->title) && empty($ametaTags['title']) ? env('APP_NAME') : ''}}</title>
+  <meta name="description" content="{{@$metaTags->description}}{{@$ametaTags['description']}}">
+  <meta name="keywords" content="{{@$metaTags->keywords}}{{@$ametaTags['keywords']}}">
 
   <!-- Basic OG Tags -->
-  <meta property="og:title" content="{{@$metaTags->title}}{{empty($metaTags->title) ? env('APP_NAME') : ''}}" />
-  <meta property="og:description" content="{{@$metaTags->description}}" />
+  <meta property="og:title" content="{{@$metaTags->title}}{{@$ametaTags['title']}}{{empty($metaTags->title) && empty($ametaTags['title']) ? env('APP_NAME') : ''}}" />
+  <meta property="og:description" content="{{@$metaTags->description}}{{@$ametaTags['description']}}" />
   <meta property="og:url" content="{{@URL::current()}}" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="DataMySite" />
@@ -24,8 +24,8 @@
 
   <!-- Additional Tags for Social Platforms -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{@$metaTags->title}}{{empty($metaTags->title) ? env('APP_NAME') : ''}}" />
-  <meta name="twitter:description" content="{{@$metaTags->description}}" />
+  <meta name="twitter:title" content="{{@$metaTags->title}}{{@$ametaTags['title']}}{{empty($metaTags->title) && empty($ametaTags['title']) ? env('APP_NAME') : ''}}" />
+  <meta name="twitter:description" content="{{@$metaTags->description}}{{@$ametaTags['description']}}" />
   <meta name="twitter:image" content="{{empty($og_img) ? URL::to('/public/og-logo.jpeg') : $og_img}}" />
   <meta name="twitter:site" content="@DataMySite" />
 
