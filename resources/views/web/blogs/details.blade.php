@@ -42,9 +42,11 @@
                 <div class="blog-tags">
                     <span>Tags: </span>
                     @foreach($data->tags as $val)
-                        <a href="{{URL::to('/tag/'.@$val->data->slug)}}">
-                            <span>{{$val->tag}}</span>
-                        </a>
+                        @if(!empty($val->data->slug))
+                            <a href="{{URL::to('/tag/'.@$val->data->slug)}}">
+                                <span>{{$val->tag}}</span>
+                            </a>
+                        @endif
                     @endforeach
                 </div>
                 <div class="blog-share">
