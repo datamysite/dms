@@ -61,7 +61,7 @@ class BlogController extends Controller
 
             $tag = BlogTags::where('tag', $rdata->tag)->first();
             if(!empty($tag->id)){
-                $data['title'] = $tag->tag.' - Tag';
+                $data['title'] = ucwords($tag->tag).' - Tag';
                 $data['type'] = 'category';
                 $data['page'] = '';
                 $data['data'] = Blogs::where('status', '1')
@@ -73,7 +73,7 @@ class BlogController extends Controller
                                         ->paginate(8);
 
                 $data['ametaTags'] = [
-                    'title' => $tag->tag.' - Tag',
+                    'title' => ucwords($tag->tag).' - Tag',
                     'keywords' => $tag->tag,
                     'description' => $rdata->description
                 ];
