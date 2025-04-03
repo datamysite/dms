@@ -183,9 +183,10 @@
 
           <div class="row">
             <div class="col-md-12">
+
               <div class="form-group">
                 <label>Tags</label>
-                <input type="text" class="form-control" id="inputTag" name="tags" data-role="tagsinput" required>
+                <input class="form-control" id="inputTagfield" name="tags" required>
               </div>
             </div>
           </div>
@@ -225,6 +226,13 @@
 @section('addStyle')
 <link rel="stylesheet" href="{{URL::to('/public/plugins/bootstrap-taginput')}}/bootstrap-tagsinput.css" />
 <link rel="stylesheet" href="{{URL::to('/public/plugins/bootstrap-taginput')}}/app.css" />
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- jQuery UI -->
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
 <style type="text/css">
   .ck-editor__editable[role="textbox"] {
     /* editing area */
@@ -240,14 +248,35 @@
   .ck.ck-reset_all.ck-widget__type-around {
     display: none;
   }
+
+ .ui-autocomplete {
+    z-index: 9999 !important;
+}
 </style>
 @endsection
 @section('addScript')
 <script src="{{URL::to('/public/plugins/bootstrap-taginput')}}/bootstrap-tagsinput.js"></script>
 <script src="{{URL::to('/public/plugins/bootstrap-taginput')}}/app.js"></script>
 <script src="https://cdn.ckeditor.com/ckeditor5/35.1.0/super-build/ckeditor.js"></script>
+
 <script>
+
+  var $j = jQuery.noConflict();
+  $j(document).ready(function() {
+      var availableTags = [
+        @foreach($tagsData as $val)
+          "{{$val->tag}}",
+        @endforeach
+      ];
+      $j("#inputTagfield").tagsinput();
+
+      $j(".bootstrap-tagsinput>input").autocomplete({
+          source: availableTags
+      });
+  });
+
   $(function() {
+
     loadBlogs();
 
     make_editor("content");

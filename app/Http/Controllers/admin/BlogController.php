@@ -11,6 +11,7 @@ use App\Models\Faq;
 use App\Models\Author;
 use App\Models\MetaTags;
 use App\Models\BlogTags;
+use App\Models\TagData;
 use Auth;
 
 class BlogController extends Controller
@@ -21,9 +22,10 @@ class BlogController extends Controller
 
         $data['data'] = Blogs::orderBy('id', 'desc')->with('category')->with('author')->paginate(10);
         $data['categories'] = Categories::where('parent_id', 0)->where('status', 1)->get();
+        $tagsData = TagData::all();
         $data['authors'] = Author::get();
 
-        return view('admin.blogs.index', ['data' => $data, 'menu' => 'blogs']);
+        return view('admin.blogs.index', ['data' => $data, 'menu' => 'blogs', 'tagsData' => $tagsData]);
     }
 
     public function load()

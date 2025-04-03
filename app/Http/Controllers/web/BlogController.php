@@ -73,7 +73,7 @@ class BlogController extends Controller
                                         ->paginate(8);
 
                 $data['ametaTags'] = [
-                    'title' => ucwords($tag->tag).' - Tag',
+                    'title' => ucwords($tag->tag).' - DataMySite Tag Archives',
                     'keywords' => $tag->tag,
                     'description' => $rdata->description
                 ];

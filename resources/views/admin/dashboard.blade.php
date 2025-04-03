@@ -38,6 +38,8 @@
 
 @endsection
 @section('addScript')
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="{{URL::to('/public')}}/dist/js/pages/dashboard.js"></script>
   <script type="text/javascript">
 
   
