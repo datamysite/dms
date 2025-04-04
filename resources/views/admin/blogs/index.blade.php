@@ -227,11 +227,9 @@
 <link rel="stylesheet" href="{{URL::to('/public/plugins/bootstrap-taginput')}}/bootstrap-tagsinput.css" />
 <link rel="stylesheet" href="{{URL::to('/public/plugins/bootstrap-taginput')}}/app.css" />
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <!-- jQuery UI -->
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
 <style type="text/css">
   .ck-editor__editable[role="textbox"] {
@@ -258,24 +256,23 @@
 <script src="{{URL::to('/public/plugins/bootstrap-taginput')}}/bootstrap-tagsinput.js"></script>
 <script src="{{URL::to('/public/plugins/bootstrap-taginput')}}/app.js"></script>
 <script src="https://cdn.ckeditor.com/ckeditor5/35.1.0/super-build/ckeditor.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
 <script>
 
-  var $j = jQuery.noConflict();
-  $j(document).ready(function() {
+
+  $(function() {
+
       var availableTags = [
         @foreach($tagsData as $val)
           "{{$val->tag}}",
         @endforeach
       ];
-      $j("#inputTagfield").tagsinput();
+      $("#inputTagfield").tagsinput();
 
-      $j(".bootstrap-tagsinput>input").autocomplete({
+      $(".bootstrap-tagsinput>input").autocomplete({
           source: availableTags
       });
-  });
-
-  $(function() {
 
     loadBlogs();
 
@@ -438,6 +435,9 @@
         $('#editBlogFormModal .modal-content').html(data);
         make_editor("content2");
         $('#edit-tagsinput').tagsinput();
+        $("#edit_blog_form .bootstrap-tagsinput>input").autocomplete({
+            source: availableTags
+        });
       });
     });
 
