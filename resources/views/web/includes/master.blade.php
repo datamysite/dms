@@ -77,9 +77,10 @@
                       @csrf
                       <h2>Need a Help?</h2>
                       <p>
-                        <small class="para">Need a Custom <strong>Marketing Plan</strong> or <strong>Pricing Details</strong>?
+                        <small class="para">
+                          Looking for a Custom <strong>Marketing Plan</strong>? 
                         <br>
-                        Get a tailored strategy designed for your brand’s success!</small>
+                          Get expert guidance tailored to your brand’s success!</small>
                       </p>
                       <div class="form-group">
                         <input type="text" class="form-control" name="name" placeholder="Name" required>
