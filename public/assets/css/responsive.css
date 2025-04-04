@@ -147,6 +147,9 @@
 	.wwd-para {
 	    margin-top: -16px !important;
 	}
+	.post-container figure, .post-container img {
+	    width: 100% !important;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
