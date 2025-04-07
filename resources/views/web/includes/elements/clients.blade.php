@@ -35,7 +35,7 @@
 	          <div class="swiper-wrapper">
 	          	@for($i = 1; $i<=23; $i++)
 		            <div class="swiper-slide">
-		            	<img src="{{URL::to('/public/assets/img/clients/'.$i.'-min.png')}}" alt="Clients Logo {{$i}}">
+		            	<img src="{{URL::to('/public/assets/img/clients/'.$i.'-min.png')}}" alt="Clients Logo {{$i}}" loading="lazy">
 		            </div><!-- End testimonial item -->
 	            @endfor
 	          </div>
