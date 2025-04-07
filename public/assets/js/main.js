@@ -7,7 +7,7 @@ var host = $("meta[name='home_url']").attr("content");
 
   $.get(host+"/get-aside", function(data, status){
       $('.aside-block').html(data);
-      $(".phone-input").inputmask("+\\971-599999999");
+      /*$(".phone-input").inputmask("+\\971-599999999");*/
   });
 
 
