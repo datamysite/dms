@@ -115,9 +115,9 @@
 	          	<div class="row">
 	          		<div class="col-lg-4 col-sm-6 col-xs-6">
 			            <div class="box-circle">
-					      <div class="circle-border red-background" data-color1="#fff" data-color2="#f44d46">
+					      <div class="circle-border red-background" data-color1="#fff" data-color2="#f44d46" style="background-color: rgb(244, 77, 70); background-image: linear-gradient(223.2deg, transparent 50%, rgb(244, 77, 70) 50%), linear-gradient(90deg, rgb(255, 255, 255) 50%, transparent 50%);"> 
 					        <div class="circle-percentage">
-					          <span class="percentage" data-percentage="87"></span>
+					          <span class="percentage" data-percentage="87">87%</span>
 					        </div>
 					      </div>
 					    </div>
@@ -126,9 +126,9 @@
 
 	          		<div class="col-lg-4 col-sm-6 col-xs-6">
 			            <div class="box-circle">
-					      <div class="circle-border red-background" data-color1="#fff" data-color2="#f44d46">
+					      <div class="circle-border red-background" data-color1="#fff" data-color2="#f44d46" style="background-color: rgb(244, 77, 70); background-image: linear-gradient(255.6deg, transparent 50%, rgb(244, 77, 70) 50%), linear-gradient(90deg, rgb(255, 255, 255) 50%, transparent 50%);">
 					        <div class="circle-percentage">
-					          <span class="percentage" data-percentage="96"></span>
+					          <span class="percentage" data-percentage="96">96%</span>
 					        </div>
 					      </div>
 					    </div>
@@ -137,9 +137,9 @@
 
 	          		<div class="col-lg-4 col-sm-6 col-xs-6 service-card-last">
 			            <div class="box-circle">
-					      <div class="circle-border red-background" data-color1="#fff" data-color2="#f44d46">
+					      <div class="circle-border red-background" data-color1="#fff" data-color2="#f44d46" style="background-color: rgb(244, 77, 70); background-image: linear-gradient(198deg, transparent 50%, rgb(244, 77, 70) 50%), linear-gradient(90deg, rgb(255, 255, 255) 50%, transparent 50%);">
 					        <div class="circle-percentage">
-					          <span class="percentage" data-percentage="80"></span>
+					          <span class="percentage" data-percentage="80">80%</span>
 					        </div>
 					      </div>
 					    </div>

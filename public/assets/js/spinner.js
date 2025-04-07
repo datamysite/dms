@@ -1,4 +1,4 @@
-$(".box-circle").each(function() {
+/*$(".box-circle").each(function() {
         let i = 0,
             that = $(this),
             circleBorder = that.find(".circle-border"),
@@ -41,4 +41,4 @@ $(".box-circle").each(function() {
                 loopIt();
             },1);
         }
-    });
+    });*/
