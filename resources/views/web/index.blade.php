@@ -67,7 +67,7 @@
 
 	          <div class="col-lg-3 business-item">
 	          	<a href="{{URL::to('/outdoor-advertising/billboards-advertising')}}">
-		          	<img src="{{URL::to('/public/assets/img/service/1.png')}}" alt="Billboards Advertising dubai uae">
+		          	<img src="{{URL::to('/public/assets/img/service/1.png')}}" alt="Billboards Advertising dubai uae" loading="lazy">
 		          	<p class="business-title">Billboards Advertising</p>
 		          	<p class="main-service-desc">Billboards dominate outdoor advertising with their commanding presence in high-traffic areas.</p>
 		          </a>
@@ -76,7 +76,7 @@
 
 	          <div class="col-lg-3 business-item"  >
 	          	<a href="{{URL::to('/influencer-marketing')}}">
-		          	<img src="{{URL::to('/public/assets/img/service/2.png')}}" alt="Influencer Marketing dubai uae">
+		          	<img src="{{URL::to('/public/assets/img/service/2.png')}}" alt="Influencer Marketing dubai uae" loading="lazy">
 		          	<p class="business-title">Influencer Marketing</p>
 		          	<p class="main-service-desc">Access 4,500+ influencers across the GCC to boost your brand and drive targeted engagement.</p>
 		          </a>
@@ -85,7 +85,7 @@
 
 	          <div class="col-lg-3 business-item"  >
 	          	<a href="{{URL::to('/public-relations-pr-coverage')}}">
-		          	<img src="{{URL::to('/public/assets/img/service/3.png')}}" alt="PR Coverage dubai uae">
+		          	<img src="{{URL::to('/public/assets/img/service/3.png')}}" alt="PR Coverage dubai uae" loading="lazy">
 		          	<p class="business-title">PR Coverage</p>
 		          	<p class="main-service-desc">Elevate your brand’s presence with TOP PR Media houses internationally that secure high-impact media placements and amplify your message.</p>
 		          </a>
