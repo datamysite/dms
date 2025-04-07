@@ -63,7 +63,7 @@
 
           <div class="col-lg-4 col-md-12 footer-about">
             <a href="{{URL::to('/')}}" class="logo d-flex align-items-center" aria-label="Home">
-              <img src="{{URL::to('/public/assets/img/mini-logo-white.png')}}" alt="Footer Logo">
+              <img src="{{URL::to('/public/assets/img/mini-logo-white.png')}}" alt="Footer Logo" loading="lazy">
             </a>
             <p>Smarter Marketing, Better Outcomes.<br><br>Boost your brand’s visibility, enhance campaign performance</p>
             <div class="social-links d-flex mt-4">
