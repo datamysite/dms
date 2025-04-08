@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   
   <!-- <script src="{{URL::to('/public')}}/assets/js/spinner.js" defer></script> -->
-  <script src="{{URL::to('/public')}}/assets/js/counter.js" defer></script>
+<!--   <script src="{{URL::to('/public')}}/assets/js/counter.js" defer></script> -->
   <script src="{{URL::to('/public')}}/assets/js/faq.js" defer></script>
   <script src="{{URL::to('/public')}}/assets/js/newsletter.js" defer></script>
   <script src="{{URL::to('/public')}}/assets/js/enquiry.js" defer></script>

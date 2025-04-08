@@ -218,7 +218,7 @@
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
 		            	<div>
-							      <div class="counter" data-target="1219"></div>
+							      <div class="counter">1219</div>
 							      <div><label>+</label></div>
 							    </div>
 						      <span>Succesful Project</span>
@@ -228,7 +228,7 @@
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
 		            	<div>
-							      <div class="counter" data-target="15"></div>
+							      <div class="counter">15</div>
 							      <div><label>+</label></div>
 							    </div>
 						      <span>Years Experience</span>
@@ -238,7 +238,7 @@
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
 		            	<div>
-							      <div class="counter" data-target="5"></div>
+							      <div class="counter">5</div>
 							      <div><label>+</label></div>
 							    </div>
 						      <span>Winning Awards</span>
@@ -248,7 +248,7 @@
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
 		            	<div>
-							      <div class="counter" data-target="81"></div>
+							      <div class="counter">81</div>
 							      <div><label>+</label></div>
 							    </div>
 						      <span>Satisfied Clients</span>
