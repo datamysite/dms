@@ -110,7 +110,6 @@
 .counter-container .counter {
     font-size: 48px;
     font-weight: 800;
-    font-family: "League Spartan";
 }
 .counter-container{
   text-align: center;
@@ -119,11 +118,9 @@
 .counter-container label{
     font-size: 48px;
     font-weight: 800;
-    font-family: "League Spartan";
 }
 
 .counter-container label {
-    font-family: "League Spartan";
     position: absolute;
     margin-top: -50px;
     margin-left: 10px;
