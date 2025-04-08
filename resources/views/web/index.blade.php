@@ -2,11 +2,14 @@
 @section('addStyle')
 	<style type="text/css">
 		.hero .blockquote {
-			  color: #fff;
-			  padding-left: 20px;
-			  border-left: 2px solid #e04a43;
-			  margin: 14px 0;
-			}
+		  color: #fff;
+		  padding-left: 20px;
+		  border-left: 2px solid #e04a43;
+		  margin: 14px 0;
+		}
+		.hero-title-sec h1 {
+		    font-family: system-ui !important;
+		}
 			@media (max-width: 767px) {
 			    .hero-title-sec h1 {
 			        font-size: 42px;
