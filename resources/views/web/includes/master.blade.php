@@ -96,7 +96,7 @@
                         <button type="reset" class="btn btn-sm btn-default cancel">&nbsp;&nbsp;Cancel&nbsp;&nbsp;</button>&nbsp;&nbsp;
                         <input type="submit" class="btn btn-sm btn-theme" value="Proceed">
                       </div>
-                      <img src="{{URL::to('/public/loader-gif.gif')}}"  alt="Loader gif" class="help-loading">
+                      <img src="{{URL::to('/public/loader-gif-m.gif')}}"  alt="Loader gif" class="help-loading">
                     </form>
                   </div>
               </div>
