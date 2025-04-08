@@ -60,7 +60,7 @@
 	          <div class="col-lg-3 business-first">
 	            <div>
 	              <h5 class="text-theme">BEST SOLUTIONS</h5>
-	              <h2 class="text-bold" style="font-size:40px">For Your Business</h2>
+	              <h2 class="text-bold-700" style="font-size:40px">For Your Business</h2>
 	            </div>
 	          </div>
 	          <!-- End Service Item -->
@@ -150,7 +150,7 @@
 
 	          <div class="col-lg-6 mob-text-center"  >
 	            <span class="text-theme">DataMySite</span>
-	            <h2>Marketing Solutions for Your Business's Growth</h2>
+	            <h2 class="text-bold-700">Marketing Solutions for Your Business's Growth</h2>
 	          </div><!-- End Card Item -->
 
 	        </div>

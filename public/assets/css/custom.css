@@ -4,8 +4,14 @@
 .text-bold-800{
     font-weight: 800;
 }
+.text-bold-700{
+    font-weight: 700 !important;
+}
 .post-container ol>li {
     list-style-type: upper-roman;
+}
+.post-container p, .post-container h1, .post-container h2, .post-container h3, .post-container h4, .post-container ul, .post-container ul li, .post-container ol li {
+    font-family: "Nunito Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
 }
 .home-business{
 	z-index: 9;

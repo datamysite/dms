@@ -2,9 +2,9 @@
 <link href="{{URL::to('/public')}}/favicon.png" rel="icon">
 
 <!-- Fonts -->
-<link href="https://fonts.googleapis.com" rel="preconnect">
+<!-- <link href="https://fonts.googleapis.com" rel="preconnect">
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
           
           
 
