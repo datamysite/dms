@@ -36,7 +36,7 @@
                   <i class="fas fa-search"></i>
                 </div>
                 <div class="col-md-3">
-                  <a href="javascript:void(0)" class="btn btn-primary pull-right" title="Add Blog" data-toggle="modal" data-target="#addBlogFormModal"><i class="fas fa-plus"></i> Add Blog</a>
+                  <a href="javascript:void(0)" class="btn btn-primary pull-right addblogButton" title="Add Blog"><i class="fas fa-plus"></i> Add Blog</a>
                 </div>
               </div>
             </div>
@@ -74,7 +74,6 @@
                   </tr>
                 </tfoot>
               </table>
-
               <div class="row ">
                 <div class="col-lg-12 text-right">
                   <br>
@@ -157,6 +156,11 @@
               <div class="form-group">
                 <label>Heading</label>
                 <input type="text" class="form-control blogHeading" name="heading" required>
+              </div>
+
+              <div class="form-group">
+                <label>Meta Title:</label>
+                <input type="text" class="form-control blogMetaTitle" name="meta_title" required>
               </div>
             </div>
           </div>
@@ -261,6 +265,9 @@
 <script>
 
 
+
+    
+
   $(function() {
 
       var availableTags = [
@@ -315,6 +322,8 @@
     $(document).on('keyup', '.blogHeading', function() {
       var a = $(this).val();
 
+      $('.blogMetaTitle').val(a);
+
       var b = a.toLowerCase().replace(/ /g, '-')
         .replace(/[^\w-]+/g, '');
       $('.blogSlug').val(b);
@@ -322,6 +331,8 @@
 
     $(document).on('keyup', '.eblogHeading', function() {
       var a = $(this).val();
+
+      $('.eblogMetaTitle').val(a);
 
       var b = a.toLowerCase().replace(/ /g, '-')
         .replace(/[^\w-]+/g, '');
@@ -427,13 +438,22 @@
     });
 
 
+    $(document).on('click', '.addblogButton', function() {
+      $('#addBlogFormModal').modal({
+        focus: false
+      });
+    });
+
     $(document).on('click', '.editBlog', function() {
       var id = $(this).data('id');
       $('#editBlogFormModal .modal-content').html('<img src="{{URL::to('/public/loader.gif')}}" height="50px" style="margin:150px auto;">');
-      $('#editBlogFormModal').modal('show');
+      $('#editBlogFormModal').modal({
+        focus: false
+      });
       $.get("{{URL::to('/admin/panel/blogs/edit')}}/" + id, function(data) {
         $('#editBlogFormModal .modal-content').html(data);
         make_editor("content2");
+        
         $('#edit-tagsinput').tagsinput();
         $("#edit_blog_form .bootstrap-tagsinput>input").autocomplete({
             source: availableTags
@@ -496,7 +516,7 @@
       list: {
         properties: {
           styles: true,
-          startIndex: true,
+          startIndex: false,
           reversed: true
         }
       },
@@ -576,15 +596,8 @@
       },
       link: {
         decorators: {
-          addTargetToExternalLinks: true,
+          addTargetToExternalLinks: false,
           defaultProtocol: 'https://',
-          toggleDownloadable: {
-            mode: 'manual',
-            label: 'Downloadable',
-            attributes: {
-              download: 'file'
-            }
-          }
         }
       },
       mention: {
@@ -612,6 +625,17 @@
         'WProofreader',
       ]
     });
+
+
+    document.addEventListener('focusin', (event) => {
+      const ckEditorEl = event.target.closest('.ck');
+      if (ckEditorEl) {
+        try {
+          event.stopImmediatePropagation();
+        } catch (e) {}
+      }
+    }, true);
   }
+
 </script>
 @endsection

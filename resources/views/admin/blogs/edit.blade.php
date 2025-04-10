@@ -60,6 +60,11 @@
           <label>Heading</label>
           <input type="text" class="form-control eblogHeading" value="{{$data->heading}}" name="heading" required>
         </div>
+
+        <div class="form-group">
+          <label>Meta Title:</label>
+          <input type="text" class="form-control blogMetaTitle" value="{{$data['meta_title']->title}}" name="meta_title" required>
+        </div>
       </div>
     </div>
 

@@ -73,7 +73,7 @@ class BlogController extends Controller
 
                     $mt = new MetaTags;
                     $mt->url = $meta_url;
-                    $mt->title = $data['heading'];
+                    $mt->title = $data['meta_title'];
                     $mt->keywords = $data['tags'];
                     $mt->description = $data['short_description'];
                     $mt->created_by = Auth::guard('admin')->id();
@@ -129,7 +129,7 @@ class BlogController extends Controller
                     $mt->url = $meta_url;
                     $mt->created_by = Auth::guard('admin')->id();
                 }
-                $mt->title = $data['heading'];
+                $mt->title = $data['meta_title'];
                 $mt->keywords = $data['tags'];
                 $mt->description = $data['short_description'];
                 $mt->created_by = Auth::guard('admin')->id();
@@ -262,13 +262,10 @@ class BlogController extends Controller
         $data['categories'] = Categories::where('parent_id', 0)->where('status', 1)->get();
         $data['authors'] = Author::get();
         $data['tags'] = '';
-        $meta_url = '';
-        if($data->country_id == '1'){
-            $meta_url = 'https://dealsandcouponsmena.ae/';
-        }elseif($data->country_id == '2'){
-            $meta_url = 'https://dealsandcouponsmena.com/';
-        }
-        $meta_url .= $data->lang.'/blogs/'.$data->slug;
+        
+        $meta_url = 'https://datamysite.com/';
+        
+        $meta_url .= $data->slug;
 
         $data['meta_title'] = MetaTags::where('url', $meta_url)->first();
         

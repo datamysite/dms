@@ -817,6 +817,10 @@ input[type="file"]{
 .blog-img-alt {
     padding-top: 139px;
 }
+.ck.ck-balloon-panel {
+  z-index: 9999 !important;
+}
+
 .user-profile-block{
     position: relative;
 }
