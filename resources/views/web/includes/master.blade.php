@@ -39,11 +39,11 @@
   @yield('addStyle')
   
   @foreach($headSnippet as $val)
-
-    <!-- {{$val->name}} // Start -->
-        {!! $val->snippet_code !!}
-    <!-- {{$val->name}} // End -->
-
+    @if($val->position == 'Head')
+      <!-- {{$val->name}} // Start -->
+          {!! $val->snippet_code !!}
+      <!-- {{$val->name}} // End -->
+    @endif
   @endforeach
 </head>
 
@@ -105,11 +105,11 @@
   </div>
 
   @foreach($bodySnippet as $val)
-
-    <!-- {{$val->name}} // Start -->
-      {!! $val->snippet_code !!}
-    <!-- {{$val->name}} // End -->
-
+    @if($val->position == 'Body')
+      <!-- {{$val->name}} // Start -->
+          {!! $val->snippet_code !!}
+      <!-- {{$val->name}} // End -->
+    @endif
   @endforeach
   
   @include('web.includes.scripts')
