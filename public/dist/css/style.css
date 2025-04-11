@@ -1,3 +1,17 @@
+.admin h3 {
+    font-size: 52px !important;
+    margin: 0;
+}
+.admin p {
+    margin: 0;
+}
+.admin .small-box {
+    border-bottom: 2px solid #a06c59 !important;
+    border-radius: 13px;
+}
+.bg-dash{
+    background-color: #d9eae6;
+}
 .bootstrap-tagsinput {
     border: 1px solid #ced4da;
     border-radius: 3px;

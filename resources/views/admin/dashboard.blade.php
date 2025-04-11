@@ -26,10 +26,65 @@
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
         <div class="row">
-          <div class="col-lg-12 dashboard-blank">
-                <img src="{{URL::to('/public/dist/img/dashboard.png')}}" width="120px">
-                <h4><br>Analatics Data <small>(Coming Soon)</small></h4>
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6">
+            <br><br><br><br><br><br>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="small-box bg-white text-center" bis_skin_checked="1">
+                  <div class="inner" bis_skin_checked="1">
+                    <p>Main Services</p>
+
+                    <h3 id="w-online-stores">{{number_format($main_services)}}</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="small-box bg-white text-center" bis_skin_checked="1">
+                  <div class="inner" bis_skin_checked="1">
+                    <p>Sub Services</p>
+
+                    <h3 id="w-online-stores">{{number_format($sub_services)}}</h3>
+                  </div>
+                </div>
+              </div>  
+            </div>
+            <div class="row">
+
+              <div class="col-lg-6">
+                <div class="small-box bg-white text-center" bis_skin_checked="1">
+                  <div class="inner" bis_skin_checked="1">
+                    <p>Total Blogs</p>
+
+                    <h3 id="w-online-stores">{{number_format($blogs)}}</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="small-box bg-white text-center" bis_skin_checked="1">
+                  <div class="inner" bis_skin_checked="1">
+                    <p>Newsletter Subscribers</p>
+
+                    <h3 id="w-online-stores">{{number_format($newsletter)}}</h3>
+                  </div>
+                </div>
+              </div> 
+
+              <div class="col-lg-12">
+                <div class="small-box bg-dash text-center" bis_skin_checked="1">
+                  <div class="inner" bis_skin_checked="1">
+                    <p>Total Enquiries</p>
+
+                    <h3 id="w-online-stores">{{number_format($enquiries)}}</h3>
+                  </div>
+                </div>
+              </div>   
+            </div>
           </div>
+
+
+
         </div>
       </div><!-- /.container-fluid -->
     </section>

@@ -4,20 +4,24 @@ namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\ClicksCounter;
-use App\Models\Retailers;
 use App\Models\User;
 use App\Models\Blogs;
-use App\Models\Testimonials;
-use App\Models\WithdrawRequests;
-use App\Models\GenieWishRequests;
+use App\Models\Services;
+use App\Models\Newsletter;
+use App\Models\Enquiry;
 
 class MainController extends Controller
 {
     public function index(){
         $data['menu'] = 'dashboard';
-        $data['start_date'] = date('Y-m-d', strtotime('-30 days'));
-        $data['end_date'] = date('Y-m-d', strtotime('+1 days'));
+
+        $data['main_services'] = Services::where('parent_id', '')->count();
+        $data['sub_services'] = Services::where('parent_id', '!=', '')->count();
+
+        $data['blogs'] = Blogs::count();
+
+        $data['newsletter'] = Newsletter::count();
+        $data['enquiries'] = Enquiry::count();
 
         return view('admin.dashboard')->with($data);
     }
