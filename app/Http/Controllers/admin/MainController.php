@@ -22,7 +22,7 @@ class MainController extends Controller
 
         $data['newsletter'] = Newsletter::count();
         $data['enquiries'] = Enquiry::where('service','!=', '')->count();
-        $data['call_back'] = Enquiry::where('service', '')->count();
+        $data['call_back'] = Enquiry::where('service', null)->count();
 
         return view('admin.dashboard')->with($data);
     }
