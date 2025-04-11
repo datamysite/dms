@@ -71,12 +71,22 @@
                 </div>
               </div> 
 
-              <div class="col-lg-12">
+              <div class="col-lg-6">
                 <div class="small-box bg-dash text-center" bis_skin_checked="1">
                   <div class="inner" bis_skin_checked="1">
                     <p>Total Enquiries</p>
 
                     <h3 id="w-online-stores">{{number_format($enquiries)}}</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="small-box bg-dash text-center" bis_skin_checked="1">
+                  <div class="inner" bis_skin_checked="1">
+                    <p>CallBack Requests</p>
+
+                    <h3 id="w-online-stores">{{number_format($call_back)}}</h3>
                   </div>
                 </div>
               </div>   

@@ -21,7 +21,8 @@ class MainController extends Controller
         $data['blogs'] = Blogs::count();
 
         $data['newsletter'] = Newsletter::count();
-        $data['enquiries'] = Enquiry::count();
+        $data['enquiries'] = Enquiry::where('service','!=', '')->count();
+        $data['call_back'] = Enquiry::where('service', '')->count();
 
         return view('admin.dashboard')->with($data);
     }
