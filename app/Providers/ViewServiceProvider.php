@@ -27,9 +27,6 @@ class ViewServiceProvider extends ServiceProvider
         // Using Closure based composers...
         View::composer('*', function ($view) {
 
-            $data['headSnippet'] = SnippetCode::where('position', 'Head')->get();
-            $data['bodySnippet'] = SnippetCode::where('position', 'Body')->get();
-
             $actual_link = '';
             if(isset($_SERVER['HTTP_HOST']) && !empty($_SERVER['HTTP_HOST'])){
                 $actual_link = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
@@ -39,6 +36,18 @@ class ViewServiceProvider extends ServiceProvider
             $al = explode('?', $actual_link);
             $data['actual_link'] = $al[0];
             $data['metaTags'] = MetaTags::where('url', $data['actual_link'])->first();
+
+            $data['headSnippet'] = SnippetCode::where('position', 'Head')
+                                                ->when(1>0, function($q) use ($data){
+                                                    return $q->where('page_url', '')
+                                                                ->orwhere('page_url', $data['actual_link']);
+                                                })->get();
+            $data['bodySnippet'] = SnippetCode::where('position', 'Body')
+                                                ->when(1>0, function($q) use ($data){
+                                                    return $q->where('page_url', '')
+                                                                ->orwhere('page_url', $data['actual_link']);
+                                                })->get();
+
             $data['header_services'] = Services::where('parent_id', '0')->get();
             $data['blog_categories'] = Categories::has('blogs', '>', 0)->with('blogs')->orderBy('name')->get();
             
