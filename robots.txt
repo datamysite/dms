@@ -6,6 +6,8 @@ User-agent: googlebot-mobile
 Disallow: 
 User-agent: MSNBot
 Disallow: 
+User-agent: *
+Disallow: /tag/
 User-agent: Slurp
 Disallow: /
 User-agent: Teoma

@@ -1,5 +1,9 @@
 @extends('web.includes.master')
-
+@section('metaAddition')
+@if(!empty($tags))
+<meta name="robots" content="noindex, follow">
+@endif
+@endsection
 @section('content')
 
 	<main class="main">

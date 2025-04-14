@@ -57,6 +57,7 @@ class BlogController extends Controller
         $data['nav'] = 'blogs';
         $data['titleImg'] = 'services.jpg';
         $rdata = TagData::where('slug', $slug)->first();
+        $data['tags'] = '1';
         if(!empty($rdata->id)){
 
             $tag = BlogTags::where('tag', $rdata->tag)->first();

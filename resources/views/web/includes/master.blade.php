@@ -7,7 +7,7 @@
   <title>{{@$metaTags->title}}{{@$ametaTags['title']}}{{empty($metaTags->title) && empty($ametaTags['title']) ? env('APP_NAME') : ''}}</title>
   <meta name="description" content="{{@$metaTags->description}}{{@$ametaTags['description']}}">
   <meta name="keywords" content="{{@$metaTags->keywords}}{{@$ametaTags['keywords']}}">
-
+  @yield('metaAddition')
   <!-- Basic OG Tags -->
   <meta property="og:title" content="{{@$metaTags->title}}{{@$ametaTags['title']}}{{empty($metaTags->title) && empty($ametaTags['title']) ? env('APP_NAME') : ''}}" />
   <meta property="og:description" content="{{@$metaTags->description}}{{@$ametaTags['description']}}" />
