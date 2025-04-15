@@ -16,8 +16,10 @@ class BlogController extends Controller
         $data['nav'] = 'blogs';
         $data['titleImg'] = 'services.jpg';
         $data['title'] = 'Blogs';
-        
-        $data['data'] = Blogs::where('status', '1')->orderBy('created_at', 'desc')->paginate(8);
+        if(!empty($_GET['page'])){
+            $data['tags'] = '1';
+        }
+        $data['data'] = Blogs::where('status', '1')->orderBy('created_at', 'desc')->paginate(1);
 
         return view('web.blogs.index')->with($data);
     }
@@ -25,6 +27,9 @@ class BlogController extends Controller
     public function category($slug){
         $data['nav'] = 'blogs';
         $data['titleImg'] = 'services.jpg';
+        if(!empty($_GET['page'])){
+            $data['tags'] = '1';
+        }
         $category = Categories::where('slug', $slug)->first();
         if(!empty($category->id)){
             $data['title'] = $category->name;
@@ -58,6 +63,7 @@ class BlogController extends Controller
         $data['titleImg'] = 'services.jpg';
         $rdata = TagData::where('slug', $slug)->first();
         $data['tags'] = '1';
+
         if(!empty($rdata->id)){
 
             $tag = BlogTags::where('tag', $rdata->tag)->first();
