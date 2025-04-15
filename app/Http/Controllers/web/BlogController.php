@@ -19,7 +19,7 @@ class BlogController extends Controller
         if(!empty($_GET['page'])){
             $data['tags'] = '1';
         }
-        $data['data'] = Blogs::where('status', '1')->orderBy('created_at', 'desc')->paginate(1);
+        $data['data'] = Blogs::where('status', '1')->orderBy('created_at', 'desc')->paginate(8);
 
         return view('web.blogs.index')->with($data);
     }
