@@ -165,6 +165,9 @@
 	.blog-section {
 	    padding-top: 15px;
 	}
+	.page-title h1 {
+		font-size: 28px;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
