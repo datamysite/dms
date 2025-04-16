@@ -150,6 +150,21 @@
 	.post-container figure, .post-container img {
 	    width: 100% !important;
 	}
+	.detail-post-image img{
+		width: 100%;
+	}
+	.detail-post-image .detail-post-summary{
+		width: 100%;
+		border: none;
+		margin-top: 5px;
+	}
+	.detail-post-image{
+		height: auto !important;
+		flex-direction: column;
+	}
+	.blog-section {
+	    padding-top: 15px;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{

@@ -27,13 +27,18 @@
 	        <div class="row gy-4 first-row">
 
 	          <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="post-title">{{$data->heading}}</h2>
                 <div class="post-footer">
-                    <p ><i class="bi bi-person"></i> {{$data->author->name}} </p>
-                    <p class="date">Published On - {{date('F d, Y', strtotime($data->created_at))}}</p>
                 </div>
                 <div class="detail-post-image">
                     <img src="{{URL::to('public/storage/blogs/'.$data->banner)}}" alt="{{$data->banner_alt}}">
+                    <div class="detail-post-summary">
+                        <p class="summary">
+                            <strong>Summary</strong>:<br>
+                            {{ $data->short_description }}
+                        </p>
+                        <p class="author"><i class="bi bi-person"></i> {{$data->author->name}} </p>
+                        <p class="date"><i class="bi bi-calendar2-week"></i> &nbsp;{{date('F d, Y', strtotime($data->created_at))}}</p>
+                    </div>
                 </div>
                 <br>
 	          	<div class="post-container">
