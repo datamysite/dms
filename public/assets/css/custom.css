@@ -417,7 +417,7 @@
 }
 
 .detail-post-image {
-    height: 250px;
+    height: 280px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -428,7 +428,7 @@
 .detail-post-image img {
    object-fit: cover;
     object-position: center;
-    height: 250px;
+    height: 280px;
     width: 70%;
 }
 .detail-post-image .detail-post-summary{
