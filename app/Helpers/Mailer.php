@@ -24,10 +24,10 @@ class Mailer
         $mail->IsHTML(true);
         $mail->CharSet = "UTF-8";
         $mail->setFrom("noreply@mail.datamysite.com", "DataMySite Marketing");
-        $mail->addAddress('waseem@datamysite.com');
+        $mail->addAddress($receiver_email);
         $mail->Body=$htmlContent;
         $mail->Subject= $subject;
-        $mail->SMTPDebug = 1;
+        $mail->SMTPDebug = 0;
         /*$mail->Debugoutput = function($str, $level) {echo "debug level $level; message: $str"; echo "<br>";};*/
         if(!$mail->Send()) {
             
