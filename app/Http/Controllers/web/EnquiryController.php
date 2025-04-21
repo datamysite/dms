@@ -27,7 +27,7 @@ class EnquiryController extends Controller
 
 
 
-        $mail = Mailer::sendMail('Thank You for Contacting Us | DMS', $data['email'], 'DMS', 'web.emails.response', $data);
+        $mail = Mailer::sendMail('Thank You for Contacting Us | DMS', array($data['email']), 'DMS', 'web.emails.response', $data);
         $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | DMS', ['waseem@datamysite.com', 'satish.b@datamysite.com', 'abhishek@datamysite.com'], 'DMS', 'web.emails.enquiry', $data);
 
 
@@ -53,7 +53,7 @@ class EnquiryController extends Controller
 
 
 
-        $mail = Mailer::sendMail('Thank You for Contacting Us | DMS', $data['email'], 'DMS', 'web.emails.response', $data);
+        $mail = Mailer::sendMail('Thank You for Contacting Us | DMS', array($data['email']), 'DMS', 'web.emails.response', $data);
         $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | DMS', ['waseem@datamysite.com', 'satish.b@datamysite.com', 'abhishek@datamysite.com'], 'DMS', 'web.emails.enquiry', $data);
 
 
