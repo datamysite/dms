@@ -23,12 +23,12 @@ class Mailer
         $mail->isSMTP();
         $mail->IsHTML(true);
         $mail->CharSet = "UTF-8";
-        $mail->From = "noreply@mail.datamysite.com";
+        $mail->setFrom("noreply@mail.datamysite.com", "DataMySite Marketing");
         $mail->addAddress('waseem@datamysite.com');
         $mail->Body=$htmlContent;
         $mail->Subject= $subject;
         $mail->SMTPDebug = 1;
-        $mail->Debugoutput = function($str, $level) {echo "debug level $level; message: $str"; echo "<br>";};
+        /*$mail->Debugoutput = function($str, $level) {echo "debug level $level; message: $str"; echo "<br>";};*/
         if(!$mail->Send()) {
             
         } else {
@@ -47,6 +47,6 @@ class Mailer
              $message->from('contact@datamysite.com','DataMySite Marketing');
           });*/
 
-        return true;
+        /*return true;*/
     }
 }
