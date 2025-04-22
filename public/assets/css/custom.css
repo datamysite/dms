@@ -425,11 +425,14 @@
         margin-top: 5px;
 
 }
+.blog-page .detail-post-image img {
+    width: 70% !important;
+}
 .detail-post-image img {
    object-fit: cover;
     object-position: center;
     height: 280px;
-    width: 70%;
+    width: 100%;
 }
 .detail-post-image .detail-post-summary{
     width: 30%;

@@ -20,7 +20,7 @@
             </div>
           </div><!-- End Page Title -->
 
-	    <section id="service-cards" class="blog-section section">
+	    <section id="service-cards" class="blog-section blog-page section">
 
 	      <div class="container">
 

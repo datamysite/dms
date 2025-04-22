@@ -150,8 +150,8 @@
 	.post-container figure, .post-container img {
 	    width: 100% !important;
 	}
-	.detail-post-image img{
-		width: 100%;
+	.blog-page .detail-post-image img, .detail-post-image img{
+		width: 100% !important;
 	}
 	.detail-post-image .detail-post-summary{
 		width: 100%;
@@ -166,6 +166,9 @@
 	    padding-top: 15px;
 	}
 	.page-title h1 {
+		font-size: 28px;
+	}
+	.post-title{
 		font-size: 28px;
 	}
 }
