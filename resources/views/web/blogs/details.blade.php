@@ -59,23 +59,23 @@
                         <p><i class="fa fa-share"></i> Share:</p>
 
                         <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ URL::current() }}" target="_blank" aria-label="Linkedin" class="share-linkedin">
-                            <i class="fa-brands fa-linkedin-in"></i> <span>Linkedin</span>
+                            <i class="bi bi-linkedin"></i> <span>Linkedin</span>
                         </a>
 
                         <a href="https://www.facebook.com/sharer/sharer.php?u={{ URL::current() }}&amp;src=sdkpreparse" target="_blank" data-href="https://developers.facebook.com/docs/plugins/" data-layout="" data-size="" class="share-facebook">
-                            <i class="fa-brands fa-facebook-f"></i> <span>Facebook</span>
+                            <i class="bi bi-facebook"></i> <span>Facebook</span>
                         </a>
 
                         <a href="https://twitter.com/intent/tweet?url={{ urlencode(URL::current()) }}&text={{ urlencode($data->heading) }}" target="_blank" aria-label="twitter" class="share-twitter">
-                            <i class="fa-brands fa-x-twitter"></i> <span>Twitter</span>
+                            <i class="bi bi-twitter"></i> <span>Twitter</span>
                         </a>
 
                         <a href="https://api.whatsapp.com/send?text={{ urlencode(URL::current()) }}" target="_blank" data-action="share/whatsapp/share" class="share-whatsapp">
-                            <i class="fa-brands fa-whatsapp"></i> <span>Whatsapp</span>
+                            <i class="bi bi-whatsapp"></i> <span>Whatsapp</span>
                         </a>
 
                         <a href="javascript:void(0)" data-link="{{ URL::current() }}" class="share-copy">
-                            <i class="fa-regular fa-copy"></i> <span>Copy Link</span>
+                            <i class="bi bi-copy"></i> <span>Copy Link</span>
                         </a>
                     </div>
                 </div>  
