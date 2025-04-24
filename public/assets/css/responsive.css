@@ -175,6 +175,14 @@
 		left: 15px;
 		right: auto;
 	}
+	.m-footer-bg {
+		display: block;
+	    background-image: linear-gradient(#ff000000, #ffffff);
+	    position: fixed;
+	    bottom: 0;
+	    height: 75px;
+	    width: 100%;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{

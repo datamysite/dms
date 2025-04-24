@@ -55,6 +55,7 @@
 
   @include('web.includes.footer')
 
+  <div class="m-footer-bg"></div>
   <a href="https://api.whatsapp.com/send/?phone=971525287259" aria-label="Whatsapp Chat" id="whatsapp-chat" class="whatsapp-chat" target="_blank">
     <img src="{{URL::to('/public/whatsapp-new.gif')}}" alt="Whatsapp Chat">
   </a>

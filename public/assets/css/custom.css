@@ -476,6 +476,9 @@
 .post-container figure {
     margin: auto;
 }
+.m-footer-bg{
+    display: none;
+}
 
 .whatsapp-chat:hover img {
     width: 85px;
