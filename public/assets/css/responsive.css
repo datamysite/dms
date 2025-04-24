@@ -171,6 +171,10 @@
 	.post-title{
 		font-size: 28px;
 	}
+	.whatsapp-chat{
+		left: 15px;
+		right: auto;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
