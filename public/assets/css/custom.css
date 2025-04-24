@@ -470,7 +470,12 @@
     width: 65px;
     transition: .3s ease-in-out all;
 }
-
+.post-container figure img {
+    width: 100%;
+}
+.post-container figure {
+    margin: auto;
+}
 
 .whatsapp-chat:hover img {
     width: 85px;
