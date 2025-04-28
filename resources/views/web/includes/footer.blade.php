@@ -94,7 +94,10 @@
               </p>
               <p>
                 <i class="bi bi-envelope-at"></i>
-                <a href="mailto:contact@datamysite.com">contact@datamysite.com</a>
+                <strong class="email-slot">contact@datamysite.com</strong> 
+                <a href="javascript:void(0)" onclick="copyEmail('contact@datamysite.com', this);" class="copy-email">
+                  <span class="bi bi-copy"></span>&nbsp;&nbsp;Copy
+                </a>
               </p>
               <p>
                 <i class="bi bi-pin-map"></i> 

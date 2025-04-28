@@ -194,3 +194,18 @@ var host = $("meta[name='home_url']").attr("content");
   });
 
 })();
+
+function copyEmail(copytext, ele){
+  var $temp = $("<div>");
+  $("body").append($temp);
+  $temp.attr("contenteditable", true)
+       .html(copytext).select()
+       .on("focus", function() { document.execCommand('selectAll',false,null); })
+       .focus();
+  document.execCommand("copy");
+  $temp.remove();
+  $(ele).html('<span class="bi bi-check"></span>&nbsp;&nbsp;Copied.');
+  setTimeout(function(){
+    $(ele).html('<span class="bi bi-copy"></span>&nbsp;&nbsp;Copy');
+  }, 5000);
+}

@@ -959,7 +959,21 @@
     justify-content: center;
     align-items: flex-end;
 }
-
+.copy-email {
+    background-color: #e04a43;
+    color: #fff !important;
+    padding: 2px 12px;
+    font-size: 11px;
+    margin-left: -6px;
+    border-radius: 5px;
+}
+.email-slot {
+    padding-right: 15px;
+    font-weight: 600 !important;
+}
+#footer .email-slot{
+    border-bottom: 1px solid #e04a43;
+}
 
 
 
