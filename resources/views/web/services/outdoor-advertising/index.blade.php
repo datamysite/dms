@@ -52,6 +52,11 @@
                           <!-- End Service Item -->
                         @endforeach
                     </div>
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <br>
 
                     <h4>Maximise Brand Awareness with Premium Locations</h4>

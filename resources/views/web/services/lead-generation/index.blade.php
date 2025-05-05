@@ -57,6 +57,10 @@
                         @endforeach
                     </div>
 
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Our Lead Generation Services Dubai</h4>
                     <p>Datamysite provides a set of Lead Generation Services in Dubai that helps businesses achieve efficient lead attraction and conversion. Our approach includes:</p>
                     <ul>

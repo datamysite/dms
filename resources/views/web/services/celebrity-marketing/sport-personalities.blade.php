@@ -37,6 +37,11 @@
                     Your products and services deserve that winning advantage in the UAE market. We connect you with sports personalities who reflect your brand values and resonate with your target audience.</p>
                     <h4>Why Partner with Athletes?</h4>
                     <p>Athletes command respect and attention across social platforms and traditional media. Your investment in athlete endorsements in GCC brings measurable returns through increased brand visibility and market penetration.</p>
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Our Approach to Sports Marketing</h4>
                     <p>We at DataMySite study your brand objectives before suggesting suitable sports celebrity brand ambassadors UAE. Your marketing campaigns benefit from our extensive regional and international sports talent network. 
                     Our sports personalities service brings you a complete range of promotional opportunities that go far beyond basic endorsements. Working with athletes requires a sophisticated approach to brand integration, and we've developed proven strategies that consistently deliver results.</p>

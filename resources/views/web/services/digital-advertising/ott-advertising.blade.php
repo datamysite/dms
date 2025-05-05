@@ -38,6 +38,10 @@
                     </p>
                     
 
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Make Every View Count with Us</h4>
                     <p>UAE streaming subscriptions grew exponentially in the past year. Smart businesses in Dubai are moving their ad spend to OTT platform advertising UAE. OTT platform advertising UAE connects you with viewers during their most engaged moments. At DataMySite, we don't just place ads - we create meaningful connections. Your OTT Advertising campaign reaches viewers during their most receptive moments.<br>
                     We place your programmatic OTT campaigns Dubai across leading streaming platforms. Our advertising strategies focus on reaching your ideal customer profile.</p>

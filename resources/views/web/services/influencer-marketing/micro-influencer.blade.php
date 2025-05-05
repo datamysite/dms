@@ -35,6 +35,11 @@
                     
                     <h4>Micro-Influencer Marketing: Originate Authentic Engagement While Bringing Growth to a Brand</h4>
                     <p>Micro-influencer marketing emerged as a decisive agent of change among brands that seek to connect with their audiences in more authentic and targeted ways. Micro-influencers typically command a follower base of anywhere from 10,000 to 100,000: mass communication agents whose numbers balance very little and much. These types of influencers usually manage a bond with the audience, while they can target a broader demographic, a real advantage for a niche-centric campaign. </p>
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Why Micro-Influencers?</h4>
                     <p>Micro-influencers sit in a rare position, combining authenticity, credibility, and targeted reach. Below are some of the most effective reasons to hire micro influencers for promoting brands:</p>
                     <h4>Credibility and Expertise:</h4>

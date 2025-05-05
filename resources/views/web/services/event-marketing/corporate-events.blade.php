@@ -50,7 +50,11 @@
                     </ul>
 
                     <p>That’s what great corporate event planning in Dubai is all about. Not just ticking boxes. Corporate event promotions in the UAE are about making real connections.</p>
-
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>What We Do: Events That Feel Different</h4>
                     <p>Dubai is a city that doesn’t do “average.” Neither do we. We offer the following types of corporate event planning in Dubai. </p>
 

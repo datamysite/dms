@@ -45,7 +45,11 @@
                         <li>Your company will gain cost-efficiency by removing physical shooting expenses while achieving unlimited scalability.</li>
                         <li>Platform Versatility Deploy CGI ads seamlessly across digital, social media, TV, and print.</li>
                     </ul>
-
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>CGI Campaigns Dubai – The Future of Digital Advertising</h4>
                     <p>The technological focus of Dubai makes it ideal for CGI campaigns Dubai to succeed in this market. Brands seeking innovative and attention-grabbing advertising content should use our CGI expertise to make their campaigns rise above industry competition. Through detailed 3D rendering along with realistic animations and immersive experiences, CGI campaigns achieve unmatched brand engagement and recognition.</p>
 

@@ -37,6 +37,11 @@
                        Human billboards in Dubai fall into the second category. They don’t just flash a message—they bring it to life. Whether it’s a brand ambassador walking through Dubai Mall, a team of promoters turning heads at a major event, or a well-placed sign in the busiest part of Sheikh Zayed Road, these campaigns make people stop, look, and engage.<br>
                         For CEOs, CFOs, and Marketing Heads, every advertising dirham has to count. Every campaign needs to drive brand awareness, foot traffic, and conversions—not just impressions on a report. That’s why brands looking for high-visibility, high-impact advertising choose our human billboard advertising in Dubai to create real-world connections that turn into sales.
                     </p>
+
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Why Choose Human Billboards from Data My Service? </h4>
                     <p>Think about the last time an ad truly grabbed your attention. Was it a digital pop-up? A billboard on a highway? Or was it something personal—an experience, a recommendation, a conversation?<br>
                     That’s the power of high-impact street advertising in Dubai. It puts your brand into the hands (literally) of trained brand representatives who don’t just hold a message—they deliver it. Here’s why companies choose our human billboard advertising services. </p>

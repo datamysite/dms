@@ -38,6 +38,11 @@
                     
                     <h4>Why Gulf News PR Coverage Dubai?</h4>
                     <p>The PR service Gulf News provides for Dubai enables strong brand credibility development and broad visibility achievement. Gulf News operates as the top English newspaper in the United Arab Emirates to deliver news to professionals and foreign and local residents. A central feature in Gulf News elevates your brand reputation and functions as exposure in a highly reliable regional media outlet.</p>
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>What We Offer – Gulf News PR Coverage Dubai</h4>
                     <p>At datamysite, we provide comprehensive solutions to help your business secure Gulf News PR Coverage Dubai. When you choose our services, your brand content connects with the suitable audience during their optimal viewing period.</p>
                     <ol>

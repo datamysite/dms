@@ -36,6 +36,11 @@
                     <p>Since its establishment, Khaleej Times has maintained its position as the UAE's most reliable English-language newspaper, serving an important demographic group of different age segments. At datamysite, we are your trusted Khaleej Times PR Agency Dubai, offering comprehensive solutions for your PR needs. </p>
                     <h4>Why the Khaleej Times?</h4>
                     <p>Advancing your brand through Khaleej Times produces enhanced exposure that strengthens both your brand recognition and ties with the UAE population and business sector. And that is exactly what we, at datamysite, offer. As a leading Khaleej Times PR Agency Dubai, we help businesses achieve credibility with a trusted media connection through Khaleej Times, which leads to decision-making recognition and attracts their attention in the region.</p>
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>What We Offer:</h4>
                     <p>Datamysite, a leading Khaleej Times PR Agency Dubai, supports businesses in their media strategies to obtain prime positions in Khaleej Times using multiple promotional methods. Your brand can reach new heights through our services that merge with Khaleej Times' broad audience network to generate a maximised presence on both digital and print platforms.</p>
 

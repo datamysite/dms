@@ -50,7 +50,11 @@
                           <!-- End Service Item -->
                         @endforeach
                     </div>
-
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Why Invest in Event Marketing in Dubai?</h4>
                     <p>Dubai is a bustling business epicentre of innovation as well as connection. Corporate gatherings provide exceptional opportunities to network with influential professionals. Our strategic event planning transforms standard meetings into powerful marketing instruments.<br>
                     Meticulously crafted corporate event marketing in Dubai delivers remarkable outcomes:</p>

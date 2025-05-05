@@ -36,6 +36,12 @@
                     <p>Your brand needs visibility that makes an impact. Your message needs to grab attention in Dubai's busy spaces. DOOH Advertising Dubai puts your brand on brilliant digital screens. These displays catch the eyes across the UAE, making your content impossible to miss. Consult us for this type of advertising solution at DataMySite.</p>
                     <h4>Why Choose Digital Out-of-Home Ads UAE?</h4>
                     <p>Traditional advertising lacks the flexibility modern brands need. DOOH Advertising Dubai changes your content in real-time to match market conditions. Your campaigns adapt to time, weather, and events - keeping your message fresh and relevant.</p>
+
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Premium Locations across Dubai</h4>
                     <p>Your ads need the right spot to work. We pick prime spaces where your ideal customers spend time. We've secured prime spots in Dubai's most influential areas. From Business Bay to Dubai Marina, your DOOH advertising campaigns appear where they matter most. Financial districts, shopping centres, and transit hubs showcase your brand to high-value audiences.</p>
                     <h4>Data-Driven Success</h4>

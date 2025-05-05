@@ -183,6 +183,10 @@
 	    height: 75px;
 	    width: 100%;
 	}
+	.service-call-action {
+	    flex-direction: column;
+	    text-align: center;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{

@@ -1,3 +1,27 @@
+.service-call-action p{
+    font-size: 20px;
+}
+.service-call-action button {
+    background: #023f38;
+    border: none;
+    padding: 6px 20px;
+    color: #fff;
+    border-radius: 6px;
+}
+.service-call-action button:hover {
+    background: #e04a43;
+    color: #fff;
+}
+.service-call-action {
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(233, 30, 99, 0.1) !important;
+    align-items: center;
+        box-shadow: 8px 7px 20px rgb(0 0 0 / .15);
+            margin: 20px 0px;
+}
 .post-container li {
     padding-inline-start: 0 !important;
 }

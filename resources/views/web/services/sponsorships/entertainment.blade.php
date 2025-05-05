@@ -44,6 +44,10 @@
 
                     </ul>
 
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Benefits of Entertainment Sponsorships Dubai</h4>
                     <p>There are a number of benefits of choosing Brand sponsorships in entertainment Dubai. These are as follows: </p>
                     <ul>

@@ -38,6 +38,10 @@
                     <p>Digital billboards UAE brings your marketing vision to life. Your advertisements shine bright on premium displays – drawing attention from business leaders and consumers across the emirate.<br>
                     Static and digital displays work in perfect sync to build your brand recognition. These massive marketing platforms turn heads and hold attention, creating lasting impressions that stick with viewers long after they pass by. With our advertising solutions, we focus on these key essentials</p>
 
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Location Excellence </h4>
                     <p>Our billboard advertising campaign starts with selecting prime spots that match your goals. Business districts buzz with corporate decision-makers, while retail zones capture consumer attention at key shopping moments.</p>
                     <h4>Smart Technology Meets Marketing Innovation</h4>

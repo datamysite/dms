@@ -35,7 +35,11 @@
                     
                     <h4>Nano Influencer Marketing: The Future of Authentic Brand Promotion</h4>
                     <p>Nano influencer marketing is now one of the hottest techniques brands use to enable them to create genuine connections with customers. Unlike well-known celebrity endorsements and macro-influencer campaigns, nano-influencer marketing mainly focuses on people from 1,000 to 10,000 real or engaged followers. Nano influencers have a smaller audience than macro-influencers, but they also carry a huge influence, making them a worthy asset for brands trying to promote trust and authenticity.</p>
-
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Why Consider Nano Influencer Marketing?</h4>
                     <p>Benefits of nano influencers are innumerable. Nano influencers present a range of benefits for cost-effective and well-targeted brands. Here’s why more brands are now turning to nano influencer marketing:</p>
 

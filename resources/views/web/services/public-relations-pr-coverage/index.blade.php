@@ -52,6 +52,10 @@
                         @endforeach
                     </div>
 
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Our Public Relations (PR Coverage) Services</h4>
                     <p>Here's what we offer: </p>
                     <ol>

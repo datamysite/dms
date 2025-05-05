@@ -37,6 +37,10 @@
                     <p>The Forbes name stands for business mastery while promoting progressive enterprise practices along with entrepreneurship. A feature with us, your Forbes PR agency Dubai, not only enhances your brand's reputation but also positions it among the world's top-tier companies. The online platform Forbes provides exceptional business information and serves as the top destination for readers seeking corporate news and business trends.<br> 
                     Your brand benefits from linking with Forbes because it provides access to a well-known platform that features top industry leaders and forward-thinking enterprises throughout the world. The powerful business media presence of Forbes serves as an essential platform for companies that aim to increase their brand reputation. The coverage at Forbes with a prominent Forbes PR agency, Dubai, like ours, delivers exposure through visible public relations opportunities, which simultaneously allows businesses to reach their target audience. </p>
 
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>What We Offer with Our Forbes PR Agency Dubai Services</h4>
                     <p>At datamysite, we help businesses like yours gain the prestigious visibility they deserve by leveraging the power of Forbes PR agency Dubai. Our company provides two main services to assist businesses in obtaining prominent PR exposure on the Forbes platform and additional media outlets.</p>
 

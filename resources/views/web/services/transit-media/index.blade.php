@@ -52,6 +52,10 @@
                         @endforeach
                     </div>
 
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Why Transit Advertising in Dubai Works?</h4>
                     <p>People ignore digital ads. They scroll past them, block them, or just don’t care. But a massive, beautifully designed ad on a bus? A sleek, unmissable wrap on a metro? That sticks. It becomes part of their daily routine, a familiar sight in a city that never slows down.</p>
 

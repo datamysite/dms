@@ -46,6 +46,11 @@
                             Your brand receives greater credibility through news outlet endorsements, which allows it to establish authority and gain more influential status.
                         </li>
                     </ul>
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <br>
                     <h4>What We Offer</h4>
                     <p>Datamysite specialises in obtaining meaningful placements through its services as a prominent Arabian News PR Agency Dubai. Our services include:</p>

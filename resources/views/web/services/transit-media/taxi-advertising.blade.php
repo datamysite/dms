@@ -50,6 +50,11 @@
                             <strong>Interior Ads</strong>: Within vehicles, advertising extends directly to passengers through internal advertisements. Your brand gains attention from people aboard because you provide advertising specifically directed toward them during their trips.
                         </li>
                     </ul>
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Why Choose Taxi Advertising Dubai?</h4>
                     <p>
                         The United Arab Emirates serves as a commercial and touristic centre that depends on taxi transportation for millions of its residents. Taxi Advertising Dubai offers your brand a unique chance to reach a diverse audience. Taxi advertising showcases products effectively to diverse audiences, specifically in transit areas, encompassing airports, malls, and numerous business districts.

@@ -37,7 +37,11 @@
                     <h4>How Elevator Advertising Dubai Works</h4>
                     <p>Elevator advertising Dubai involves placing ads inside or outside elevators in commercial and residential buildings. The target is to deliver advertising messages to people who cannot escape the focused area of limited space. <br>
                     The message becomes more impactful because of its environment having minimal distractions so people can remember it better. The format of advertising varies between static images and digital displays and interactive experiences based on the advertising targets.</p>
-
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Our Elevator Advertising Services</h4>
                     <p>Here's what we offer.<br><br>
                         <strong>Digital Elevator Screens Dubai</strong>: Digital elevator screens Dubai offer dynamic advertising opportunities. Audiences find this format highly efficient for brand engagement since screens show video content along with promotional messages alongside interactive advertising. The combination of real-time updates together with targeted messaging provides businesses an opportunity to improve their audience engagement. It is a major part of Elevator video advertising UAE.

@@ -49,6 +49,11 @@
                           <!-- End Service Item -->
                         @endforeach
                     </div>
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <br>
                     
                     <h4>Why Choose Celebrity Marketing Dubai?</h4>

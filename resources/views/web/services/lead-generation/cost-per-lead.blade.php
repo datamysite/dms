@@ -43,6 +43,10 @@
                         <li><strong>Reduced Financial Risk</strong>: You invest in actual results rather than uncertain impressions.</li>
                     </ul>
 
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Key Factors Affecting Cost-per-lead services Dubai</h4>
                     <p>Let’s take a look at the major factors that influence Cost-per-lead services Dubai. </p>
                     <ul>

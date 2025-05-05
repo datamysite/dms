@@ -70,6 +70,11 @@
                           <!-- End Service Item -->
                         @endforeach
                     </div>
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <br>
 
                     <h4>Radio Campaign Services UAE - What We Bring on Offer at DataMySite</h4>

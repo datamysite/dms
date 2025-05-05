@@ -38,6 +38,10 @@
                     <h4>Why Choose Corporate Sponsorships UAE?</h4>
                     <p>Any company that selects corporate sponsorships UAE gains access to a specific business audience within this growing market sector. The position of Dubai as a worldwide trade centre and entertainment complex with technological prowess enables sponsors to improve brand credibility as they gain substantial investment returns. Datamysite excels at finding perfect sponsorship opportunities that match specific business targets for their clients.</p>
 
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Types of Corporate Sponsorships Dubai</h4>
                     <p>Here are the common types of business sponsorships UAE and Dubai you can avail of. </p>
                     <ul>

@@ -50,6 +50,11 @@
                             <strong>Route Optimization</strong>: To make the most of your advertising visibility, position your ads on the transportation routes with the highest traffic levels.
                         </li>
                     </ul>
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Benefits of Bus Advertising Dubai</h4>
                     <p>The main benefits of bus advertising Dubai are:</p>
                     <ul>

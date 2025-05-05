@@ -51,6 +51,10 @@
                         @endforeach
                     </div>
 
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Influencer Marketing Dubai is Essential to Brands</h4>
                     <p>Now, Dubai is a melting pot of luxury, innovation, and business growth, which makes it an effortless place for influencer-driven campaigns. Thus, it is no wonder that consumers trust recommendations from influencers over traditional paid ads. Thus, some of the distinct advantages that brands get to enjoy while working with social media influencers in Dubai are as follows:</p> 
 

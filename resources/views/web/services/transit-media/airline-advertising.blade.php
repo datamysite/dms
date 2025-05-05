@@ -39,6 +39,10 @@
                     <h4>Turn Your Travel Time into Brand Connection – Strategic Airport Advertising Dubai Solutions</h4>
                     <p>The modern airport is more than a transit point - it's where global business happens. We position your brand throughout Dubai's aviation hubs, creating multiple touchpoints that reinforce your message to an elite audience.</p>
 
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Premium Placement Choices</h4>
                     <p>Your brand message appears across carefully selected locations:</p>
                     <ul>

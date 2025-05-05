@@ -36,6 +36,11 @@
                     <p>Capturing the attention of viewers is critical in a land like Dubai. But now, you can ensure visibility among high-value individuals by placing your brand's message on digital screens in lobbies or elevators (and also conference areas). We at DataMySite bring your brand to life through premium hotel digital screens advertising in Dubai's most prestigious properties. Your message will reach corporate leaders and decision-makers in spaces where influence meets opportunity.</p>
                     <h4>Why Choose Hotel Advertising Screens UAE?</h4>
                     <p>We at DataMySite place your advertisements where they make the strongest impact. Our hotel screen advertising network spans exclusive locations - from grand hotel lobbies to executive lounges and premium conference facilities. We ensure your message receives prime visibility in spaces where business decisions take shape with digital signage in hotels GCC. Your brand connects with high-net-worth individuals and business leaders who appreciate refined marketing approaches.</p>
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Creating Measurable Impact –</h4>
                     <p>Our hotel digital screens advertising solutions deliver concrete results. We track engagement metrics that matter to your business growth. Through our advanced analytics, you'll see how your content performs across different hotel locations and time periods.</p>
                     <h4>Premium Placement in Dubai's Finest Hotels –</h4>

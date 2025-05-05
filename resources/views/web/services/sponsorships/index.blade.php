@@ -49,6 +49,10 @@
                         @endforeach
                     </div>
 
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Our Sponsorship Services</h4>
                     <p>As a company we offer multiple sponsorship programs designed for every marketing requirement.</p>
                     <ul>

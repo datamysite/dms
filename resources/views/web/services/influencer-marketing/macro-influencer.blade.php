@@ -35,6 +35,11 @@
                     
                     <h4>Macro Influencer Marketing: Maximizing Brand Reach and Impact</h4>
                     <p>In digital marketing, macro influencer marketing can be regarded as a compelling marketing strategy that could proffer those brands that want to gain high visibility and influence. Typically, macro influencers have followers numbering between 100,000 and 1 million. This characteristic makes them good candidates for large campaigns targeting brand awareness and market penetration. They are often referred to as industry leaders, celebrities, or well-known public figures who can guide opinions and trends across a reasonably wide demographic spectrum.</p>
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Why Go for Macro Influencers?</h4>
                     <p>Macro influencer marketing's main advantage is its efficacy in amplifying the brand message on a broader scale. Brands often hire macro influencers in a globally oriented campaign.</p>
                     <h4>Extensive Exposure Across Multiple Demographics:</h4>

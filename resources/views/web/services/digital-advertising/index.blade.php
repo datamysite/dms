@@ -53,7 +53,11 @@
                           <!-- End Service Item -->
                         @endforeach
                     </div>
-
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Why Choose Our Digital Advertising Services in Dubai? </h4>
                     <p>Most ads get ignored. People skip them, scroll past them, or tune them out.<br>
                     But what if your ad wasn’t something to avoid? What if it felt natural, relevant, even helpful?<br>

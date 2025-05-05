@@ -39,6 +39,10 @@
                         At Data My Site, we don’t just hand out flyers. We deliver messages that stick in the right hands at the right time. We make sure your brand gets noticed whether it is a door-to-door flyer campaign in the UAE or a targeted flyer marketing strategy in Dubai. 
                     </p>
                     
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Why Direct Marketing Still Rules?</h4>
                     <p>Digital fatigue is real. Your potential clients receive hundreds of emails daily, but a well-designed flyer demands attention. Our flyers distribution in Dubai service capitalises on this psychological advantage. Physical marketing materials create lasting impressions and drive action – that's why 39% of our clients report prospects keeping their flyers for future reference.</p>
                     <h4>Flyers That Find the Right Hands</h4>

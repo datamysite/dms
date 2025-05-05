@@ -47,7 +47,11 @@
                         <li><strong>You Build Trust That Converts</strong> – A conversation over dinner does more for your sales pipeline than months of advertising. People buy from you when they trust you. </li>
 
                     </ul>
-
+                    
+                    <!-- Call to action -->
+                        @include('web.includes.elements.call-to-action')
+                    <!-- Call to action -->
+                    
                     <h4>Private Event Advertising in Dubai: Making Sure the Right People Show Up</h4>
                     <p>An exclusive event only works if the right people are in the room. That is where private event advertising in Dubai comes in. It is not about blasting invites to everyone. It is about carefully curating an audience that brings real value. Here are the ways we get the right eyes on your event.</p>
 
