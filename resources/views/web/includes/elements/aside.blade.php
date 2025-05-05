@@ -1,5 +1,6 @@
 <div class="aside-form">
-    <h4>ENQUIRY</h4>
+    <h3>Want to know more?</h3>
+    <h4>Ask us anything</h4>
     <form action="{{route('enquiry.submit')}}" id="enquiry-form" >
         @csrf
         <input type="text" name="name" placeholder="Name" class="form-control" required>
