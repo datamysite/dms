@@ -8,6 +8,7 @@ use App\Models\Blogs;
 use App\Models\BlogTags;
 use App\Models\TagData;
 use App\Models\Categories;
+use URL;
 
 class BlogController extends Controller
 {
@@ -52,6 +53,7 @@ class BlogController extends Controller
         $data['data'] = Blogs::where('slug', $blog_slug)->where('status', '1')->first();
 
         $data['related'] = Blogs::where('slug', '!=', $blog_slug)->orderBy('created_at', 'desc')->limit(3)->get();
+        $data['og_img'] = URL::to('public/storage/blogs/'.$data['data']->banner);
         if(empty($data['data']->id)){
             return redirect(route('blogs'));
         }

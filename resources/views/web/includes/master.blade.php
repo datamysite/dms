@@ -17,8 +17,8 @@
 
   <!-- Image OG Tag -->
   <meta property="og:image" content="{{empty($og_img) ? URL::to('/public/og-logo.jpeg') : $og_img}}" />
-  <meta property="og:image:alt" content="DataMySite Logo and Services" />
-  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:alt" content="Image - {{@$metaTags->title}}{{@$ametaTags['title']}}{{empty($metaTags->title) && empty($ametaTags['title']) ? env('APP_NAME') : ''}}" />
+  <meta property="og:image:type" content="image/*" />
   <meta property="og:image:width" content="620" />
   <meta property="og:image:height" content="340" />
 
