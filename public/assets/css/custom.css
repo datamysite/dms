@@ -940,12 +940,17 @@
 }
 .header-info .open-newsletter {
     color: #fff;
-    border: 1px solid;
-    padding: 3px 12px 0px 12px;
+    border: none;
+    padding: 2px 12px 3px 12px;
     border-radius: 5px;
-    background-color: transparent;
+    background-color: #e04a43;
+    font-weight: 600;
 }
 
+.header-info .open-newsletter:hover {
+    background-color: #023f38;
+    color: #e04a43;
+}
 .header-info a{
     color: #fff;
 }
