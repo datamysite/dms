@@ -944,12 +944,11 @@
     padding: 2px 12px 3px 12px;
     border-radius: 5px;
     background-color: #e04a43;
-    font-weight: 600;
+    font-weight: bold;
 }
-
 .header-info .open-newsletter:hover {
-    background-color: #023f38;
-    color: #e04a43;
+    background-color: #ffffff;
+    color: #023f38;
 }
 .header-info a{
     color: #fff;
