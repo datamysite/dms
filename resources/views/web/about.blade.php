@@ -63,7 +63,8 @@
             <div class="row gy-4 first-row">
 
               <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                <h3 class="text-center">Our Services</h3>
+                <h2 class="text-center">OUR SERVICES</h2>
+                <hr>
                 <br>
                 <div class="row">
                     <div class="col-lg-6 about-service-block">
