@@ -1010,7 +1010,31 @@
 #footer .email-slot{
     border-bottom: 1px solid #e04a43;
 }
+.about-icon {
+    width: 100px;
+    margin-top: -70px;
+        margin-bottom: 10px;
 
+}
+.about-points {
+    text-align: center;
+    padding: 0 14px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.about-line {
+    border-right: 1px solid #023f38;
+}
+.about-points p {
+    margin-bottom: -20px;
+}
+.about-service-block {
+    padding: 0 35px;
+}
+.about-service-block h3 {
+    margin-left: -30px;
+    color: #e04a43;
+}
 
 
 /* Pagination */
