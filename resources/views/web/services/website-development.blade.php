@@ -27,10 +27,10 @@
               <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h2>Launch Your Digital Presence with Impact</h2>
+                        <h2 class="web-heading">Launch Your Digital Presence with Impact</h2>
                         
                         <div class="post-container">
-                            <h4>Website Development That Grows Your Business</h4>
+                            <h4 class="web-heading2">Website Development That Grows Your Business</h4>
                             <p>
                                 At DataMySite (DMS), we don’t just build websites — we engineer high-performing digital experiences designed to convert visitors into loyal customers. Whether you’re a startup, SME, or a growing enterprise, our expert team is here to turn your vision into a stunning, user-centric, results-driven website.
                             </p>
@@ -150,7 +150,7 @@
                     <div class="row services gy-4">
                         <div class="col-lg-5">
                             <div class="web-step-img">
-                                <img src="{{URL::to('/public/5-steps.png')}}">
+                                <img src="{{URL::to('/public/5-steps-a.png')}}">
                             </div>
                         </div>
 
