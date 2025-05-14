@@ -299,4 +299,16 @@ class ServiceController extends Controller
 
         return view('web.services.radio-advertising')->with($data);
     }
+
+
+//-------------------------------------------------------------------------------------------------------
+
+    public function websiteDevelopment(){
+        $data['nav'] = 'services';
+        $data['service'] = Services::where('slug', 'website-development')->first();
+        $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
+        $data['web_drop'] = '1';
+        
+        return view('web.services.website-development')->with($data);
+    }
 }

@@ -18,7 +18,7 @@
       <select class="form-control" name="service" >
           <option value="">Select Service</option>
           @foreach($header_services as $val)
-              <option value="{{$val->name}}">{{$val->name}}</option>
+              <option value="{{$val->name}}" {{!empty($web_drop) && $val->name == 'Website Development' ? 'selected' : ''}}>{{$val->name}}</option>
           @endforeach
           <option value="Others">Others</option>
       </select>
