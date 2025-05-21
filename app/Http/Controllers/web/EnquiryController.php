@@ -28,7 +28,7 @@ class EnquiryController extends Controller
 
 
         $mail = Mailer::sendMail('Thank You for Contacting Us | DMS', array($data['email']), 'DMS', 'web.emails.response', $data);
-        $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | DMS', ['waseem@datamysite.com', 'satish.b@datamysite.com', 'abhishek@datamysite.com'], 'DMS', 'web.emails.enquiry', $data);
+        $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | DMS', ['waseem@datamysite.com', 'pooja.u@datamysite.com', 'abhishek@datamysite.com'], 'DMS', 'web.emails.enquiry', $data);
 
 
         $response['success'] = 'success';
@@ -54,7 +54,7 @@ class EnquiryController extends Controller
 
 
         $mail = Mailer::sendMail('Thank You for Contacting Us | DMS', array($data['email']), 'DMS', 'web.emails.response', $data);
-        $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | DMS', ['waseem@datamysite.com', 'satish.b@datamysite.com', 'abhishek@datamysite.com'], 'DMS', 'web.emails.enquiry', $data);
+        $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | DMS', ['waseem@datamysite.com', 'pooja.u@datamysite.com', 'abhishek@datamysite.com'], 'DMS', 'web.emails.enquiry', $data);
 
 
         $response['success'] = 'success';
