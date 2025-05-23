@@ -10,7 +10,7 @@ class Mailer
 {
     public static function sendMail($subject, $receiver_email, $receiver_name, $template, $data)
     {
-        $htmlContent = View::make($template, $data)->render();
+        /*$htmlContent = View::make($template, $data)->render();
 
         $mail = new PHPMailer();
         $mail->Encoding = "base64";
@@ -30,25 +30,22 @@ class Mailer
         $mail->Body=$htmlContent;
         $mail->Subject= $subject;
         $mail->SMTPDebug = 0;
-        /*$mail->Debugoutput = function($str, $level) {echo "debug level $level; message: $str"; echo "<br>";};*/
         if(!$mail->Send()) {
             
         } else {
             return true;
-        }
+        }*/
 
 
 
 
-
-/*
 
         Mail::send($template, $data, function($message) use ($receiver_email, $receiver_name, $subject) {
              $message->to($receiver_email, $receiver_name)->subject
                 ($subject);
-             $message->from('contact@datamysite.com','DataMySite Marketing');
-          });*/
+             $message->from('noreply@mailer.datamysite.com','DataMySite Marketing');
+          });
 
-        /*return true;*/
+        return true;
     }
 }
