@@ -23,7 +23,7 @@ class Mailer
         $mail->isSMTP();
         $mail->IsHTML(true);
         $mail->CharSet = "UTF-8";
-        $mail->setFrom("noreply@mail.datamysite.com", "DataMySite Marketing");
+        $mail->setFrom("noreply@mailer.datamysite.com", "DataMySite Marketing");
         foreach ($receiver_email as $key => $value) {
             $mail->addAddress($value);
         }
