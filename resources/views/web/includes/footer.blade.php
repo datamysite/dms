@@ -90,7 +90,7 @@
             <div class="footer-contact-block">
               <p>
                 <i class="bi bi-telephone"></i> 
-                <a href="tel:0525287259">+971 52 528 7259</a>
+                <a href="tel:0525287259" class="webCellPhone">+971 52 528 7259</a>
               </p>
               <p>
                 <i class="bi bi-envelope-at"></i>

@@ -2,7 +2,7 @@
     <div class="header-info">
       <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <span>
-          <a href="tel:971525287259"><i class="bi bi-telephone"></i>&nbsp; +971 52 528 7259</a>
+          <a href="tel:971525287259" class="webCellPhone"><i class="bi bi-telephone"></i>&nbsp; +971 52 528 7259</a>
         </span> 
 
         <span class="para">
@@ -10,7 +10,7 @@
         </span> 
 
         <span>
-          <button type="button" class="open-newsletter">Book Now</button>
+          <button type="button" class="open-newsletter webBookNow">Book Now</button>
         </span>  
       </div>
     </div>
