@@ -115,7 +115,7 @@
   @endforeach
   
   @include('web.includes.scripts')
-
+  @yield('addScript')
 </body>
 
 </html>
