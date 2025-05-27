@@ -11,7 +11,8 @@
     </div>
 
     <div class="col-md-6">
-      <input type="text" class="form-control" name="phone" placeholder="Phone (e.g. +971000000000)" required="">
+      <input type="tel" class="form-control" name="mainphone" id="phone-field" required="">
+      <input type="hidden" name="phone" id="fullphone-field" required="">
     </div>
 
     <div class="col-md-6">

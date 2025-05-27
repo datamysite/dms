@@ -87,7 +87,8 @@
                         <input type="text" class="form-control" name="name" placeholder="Name" required>
                       </div>
                       <div class="form-group">
-                        <input type="text" class="form-control" name="phone" placeholder="Phone (e.g. +971000000000)" required>
+                        <input type="tel" name="mailphone" id="phone-field3" class="form-control" required>
+                        <input type="hidden" name="phone" id="fullphone-field3" required="">
                       </div>
                       <div class="form-group">
                         <input type="email" class="form-control help-email" name="email" placeholder="Email" required>

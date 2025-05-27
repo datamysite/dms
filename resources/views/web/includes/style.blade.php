@@ -19,3 +19,4 @@
 <link href="{{URL::to('/public')}}/assets/css/main.css" rel="stylesheet">
 <link href="{{URL::to('/public')}}/assets/css/custom.css" rel="stylesheet">
 <link href="{{URL::to('/public')}}/assets/css/responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="{{URL::to('/public')}}/assets/input-master/css/intlTelInput.css" />

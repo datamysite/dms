@@ -1102,3 +1102,22 @@
     font-size: 18px;
     font-weight: 600 !important;
 }
+
+
+.iti--inline-dropdown .iti__dropdown-content {
+    width: 300px !important;
+}
+.aside-form .iti {
+    margin-bottom: 14px;
+}
+
+#enquiry-help-form .iti__tel-input{
+    width: 100%;
+}
+#enquiry-help-form .iti {
+    margin-bottom: 14px;
+}
+
+#enquiry-help-form .iti{
+    width: 80%;
+}

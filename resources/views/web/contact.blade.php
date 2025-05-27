@@ -40,3 +40,18 @@
 
 
 @endsection
+@section('addScript')
+<script type="text/javascript">
+  const input = document.querySelector("#phone-field");
+    const hiddenInput = document.querySelector("#fullphone-field");
+    const iti = window.intlTelInput(input, {
+      initialCountry: "ae",
+      separateDialCode: true,
+    });
+
+    input.addEventListener('keyup', () => {
+      const fullNumber = iti.getNumber();
+      hiddenInput.value = fullNumber;
+    });
+</script>
+@endsection
