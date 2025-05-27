@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Looking to connect your brand with a premium audience in the UAE & GCC?</title>
+    <title>You’ve Successfully Unsubscribed!</title>
     <style>
         body {
             font-family: Arial, sans-serif;
