@@ -40,7 +40,7 @@ class NewsletterController extends Controller
 
     public function unsubscribe(){
         
-        return redirect(route('home'));
+        return view('web.includes.elements.unsubscribe');
     }
 
     public function subscribe_amp(Request $request){
