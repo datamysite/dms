@@ -100,6 +100,7 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
 
     //Newsletter
     Route::post('/subscribe', 'NewsletterController@subscribe')->name('newsletter.subscribe');
+    Route::get('/unsubscribe', 'NewsletterController@unsubscribe')->name('newsletter.unsubscribe');
 
     //Enquiry
     Route::post('/enquiry', 'EnquiryController@enquiry')->name('enquiry.submit');

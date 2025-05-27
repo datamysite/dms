@@ -38,6 +38,11 @@ class NewsletterController extends Controller
         return response()->json($response, 200);
     }
 
+    public function unsubscribe(){
+        
+        return redirect(route('home'));
+    }
+
     public function subscribe_amp(Request $request){
         $data = $request->all();
         $response = [];
