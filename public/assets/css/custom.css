@@ -1121,3 +1121,8 @@
 #enquiry-help-form .iti{
     width: 80%;
 }
+
+#phone-field::placeholder , #phone-field2::placeholder , #phone-field3::placeholder {
+    color: #bbbbbb;
+    font-weight: 500;
+}
