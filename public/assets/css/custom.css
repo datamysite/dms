@@ -1126,3 +1126,7 @@
     color: #bbbbbb;
     font-weight: 500;
 }
+
+.needsclick a {
+    display: none !important;
+}
