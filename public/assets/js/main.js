@@ -50,12 +50,12 @@ var host = $("meta[name='home_url']").attr("content");
 
   function closeNewsletterModal(){
 
-    $('#newsletter-modal').removeClass('show');
-    $('#newsletter-modal').css({display: 'none'});
+    $('#newsletter-modal-u').removeClass('show');
+    $('#newsletter-modal-u').css({display: 'none'});
   }
   function openNewsletterModal(){
-    $('#newsletter-modal').addClass('show');
-    $('#newsletter-modal').css({display: 'block'});
+    $('#newsletter-modal-u').addClass('show');
+    $('#newsletter-modal-u').css({display: 'block'});
   }
 
   /**
