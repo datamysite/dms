@@ -143,7 +143,7 @@ $(document).on("submit", "#enquiry-help-form", function (event) {
 
 
 //Newsletter Popup
-document.addEventListener("DOMContentLoaded", function () {
+/*document.addEventListener("DOMContentLoaded", function () {
     const popupKey = "popup_shown_time"; 
 
     function showPopup() {
@@ -164,4 +164,4 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(showPopup, 10000); // Show popup after 20 seconds
     }
 
-});
+});*/
