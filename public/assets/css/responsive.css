@@ -213,16 +213,16 @@
 	.m-phone-link{
 		display: block;
 	}
-	#newsletter-modal .popup-des{
+	#newsletter-modal-u .popup-des{
 		display: none;
 	}
-	#newsletter-modal .popup-mob{
+	#newsletter-modal-u .popup-mob{
 		display: block;
 	}
-	#newsletter-modal .details {
+	#newsletter-modal-u .details {
 	    padding: 30px 20px;
 	}
-	#newsletter-modal .form-control {
+	#newsletter-modal-u .form-control {
 		width: 100%;
 	}
 	.footer-contact-block p {
@@ -233,10 +233,10 @@
 	    width: 75%;
 	    padding-right: 10px;
 	}
-	#newsletter-modal .modal-dialog {
+	#newsletter-modal-u .modal-dialog {
 	    transform: translate(0, 25%) !important;
 	}
-	#newsletter-modal .close{
+	#newsletter-modal-u .close{
 		color: #fff;
 	}
 
