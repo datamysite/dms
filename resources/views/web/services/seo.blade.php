@@ -37,26 +37,23 @@
                     <div class="row gy-4 first-row">
 
                       <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-
-                            <h2 class="web-heading">Launch Your Digital Presence with Impact</h2>
                             
                             <div class="post-container">
-                                <h4 class="web-heading2">Website Development That Grows Your Business</h4>
+                                <h4 class="web-heading2">Leading SEO Company in Dubai Helping You Rank & Grow</h4>
                                 <p>
-                                    At DataMySite (DMS), we don’t just build websites — we engineer high-performing digital experiences designed to convert visitors into loyal customers. Whether you’re a startup, SME, or a growing enterprise, our expert team is here to turn your vision into a stunning, user-centric, results-driven website.
+                                    Looking for a trusted SEO agency in Dubai to skyrocket your search rankings and traffic? At DataMySite, we deliver result-driven SEO services tailored for agencies, startups, and established businesses in the UAE.
+                                    <br>
+                                    Whether you want to dominate Google SERPs, increase leads, or improve online visibility — we’re the best SEO company in Dubai to get it done. Our strategic SEO packages are designed to meet your goals while complying with the latest Google algorithm updates.
                                 </p>
-                                <h6>What We Do</h6>
+                                <h4 class="web-heading2">Why Choose an SEO Agency Like DataMySite?</h4>
+                                <p>As a business in one of the world’s most competitive markets, you need a performance-focused SEO company in Dubai with deep local insight and global best practices.</p>
                                 <ul>
-                                    <li>Custom Website Solutions </li>
-                                    <li>E-Commerce Development</li>
-                                    <li>Mobile-First, Responsive Design</li>
-                                    <li>Easy-to-Manage CMS Integration</li>
-                                    <li>SEO-Ready & Performance Optimized</li>
-                                    <li>Secure, Scalable, and Future-Proof</li>
+                                    <li>We specialize in local SEO in Dubai</li>
+                                    <li>100% white-hat strategies (Google-approved)</li>
+                                    <li>SEO tailored for your industry, market, and location</li>
+                                    <li>Transparent, data-backed reporting</li>
+                                    <li>Affordable and flexible SEO packages for all business sizes</li>
                                 </ul>
-                                <h5>
-                                    Let’s build your future-ready website - <a href="javascript:void(0)" class="open-newsletter">Schedule Your Free Consultation</a>
-                                </h5>
                             </div> 
 
                   </div>
@@ -71,64 +68,78 @@
                     <div class="row gy-4 first-row">
 
                         <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                            <h3 class="text-center">What You’ll Get with DMS Website Development</h3>
-                            <br>
-
                             <div class="row services gy-4">
 
                                   <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
                                     <div class="icon flex-shrink-0"><i class="bi bi-braces-asterisk" style="color: #f44d46;"></i></div>
                                     <div>
-                                      <h4 class="title">Custom Website Solutions </h4>
-                                      <p class="description">Every website we build is custom designed, not templated. We tailor every detail to reflect your brand, engage your audience, and meet your specific business goals.</p>
+                                      <h4 class="title">Keyword Research & Competitive Analysis</h4>
+                                      <p class="description">We begin by identifying the most valuable search terms your audience uses. Whether you're a small business or a digital agency, we customize keywords based on your niche and goals.</p>
+                                      <ul>
+                                          <li>Location-based keyword targeting (e.g., “SEO services near me”)</li>
+                                            <li>Competitor gap analysis in the Dubai market</li>
+                                            <li>High-intent, conversion-focused terms for better ROI</li>
+                                      </ul>
                                     </div>
                                   </div>
-                                  <!-- End Service Item -->
+                                  
 
                                   <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                                    <div class="icon flex-shrink-0"><i class="bi bi-cart" style="color: #f44d46;"></i></div>
+                                    <div class="icon flex-shrink-0"><i class="bi bi-braces-asterisk" style="color: #f44d46;"></i></div>
                                     <div>
-                                      <h4 class="title">E-Commerce Development</h4>
-                                      <p class="description">Want to start selling online or scale your store? We develop secure, scalable e-commerce platforms with smooth UX, mobile-ready layouts, and integrated payment systems.</p>
+                                      <h4 class="title">On-Page SEO Optimization</h4>
+                                      <p class="description">As a seasoned SEO agency, we fine-tune every element of your website for maximum visibility on Google and other search engines.</p>
+                                      <ul>
+                                          <li>Title tags, meta descriptions, headers (H1-H6)</li>
+                                            <li>Optimized content structure and keyword placement</li>
+                                            <li>Internal linking, URL slugs, and multimedia SEO</li>
+                                            <li>Mobile-friendly and Core Web Vitals checks</li>
+                                      </ul>
                                     </div>
                                   </div>
-                                  <!-- End Service Item -->
 
                                   <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                                    <div class="icon flex-shrink-0"><i class="bi bi-phone" style="color: #f44d46;"></i></div>
+                                    <div class="icon flex-shrink-0"><i class="bi bi-braces-asterisk" style="color: #f44d46;"></i></div>
                                     <div>
-                                      <h4 class="title">Mobile-First, Responsive Design</h4>
-                                      <p class="description">From smartphones to large screens, your website will look sharp and load fast on every device.</p>
+                                      <h4 class="title">Technical SEO for Agencies & Businesses</h4>
+                                      <p class="description">Our developers work closely with SEO experts to identify and fix backend issues affecting performance and crawlability.</p>
+                                      <ul>
+                                          <li>XML sitemaps, Robots.txt configuration</li>
+                                            <li>Page speed optimization</li>
+                                            <li>Broken link & 404 error fixes</li>
+                                            <li>Structured data & schema implementation</li>
+                                      </ul>
                                     </div>
                                   </div>
-                                  <!-- End Service Item -->
 
                                   <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                                    <div class="icon flex-shrink-0"><i class="bi bi-wordpress" style="color: #f44d46;"></i></div>
+                                    <div class="icon flex-shrink-0"><i class="bi bi-braces-asterisk" style="color: #f44d46;"></i></div>
                                     <div>
-                                      <h4 class="title">Easy-to-Manage CMS Integration</h4>
-                                      <p class="description">Update your content without the tech stress. We integrate platforms like WordPress, Shopify, Webflow, or create custom CMS solutions tailored to your needs.</p>
+                                      <h4 class="title">Content Creation with Built-in SEO</h4>
+                                      <p class="description">Content is the foundation of search engine rankings. Our SEO agency in Dubai creates compelling content that ranks and converts.</p>
+                                      <ul>
+                                          <li>Blog writing & on-page service content</li>
+                                            <li>Landing pages for local SEO Dubai</li>
+                                            <li>Content optimized for both readers and algorithms</li>
+                                            <li>Focused on E-E-A-T (Experience, Expertise, Authority, Trust)</li>
+                                      </ul>
                                     </div>
                                   </div>
-                                  <!-- End Service Item -->
 
-                                  <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                                    <div class="icon flex-shrink-0"><i class="bi bi-speedometer2" style="color: #f44d46;"></i></div>
-                                    <div>
-                                      <h4 class="title">SEO-Ready & Performance Optimized</h4>
-                                      <p class="description">Speed, structure, and SEO — all in one. We build sites that rank better, load faster, and keep visitors engaged.</p>
-                                    </div>
-                                  </div>
-                                  <!-- End Service Item -->
 
-                                  <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                                    <div class="icon flex-shrink-0"><i class="bi bi-graph-up-arrow" style="color: #f44d46;"></i></div>
+                                  <div class="col-lg-12 col-md-12 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="icon flex-shrink-0"><i class="bi bi-braces-asterisk" style="color: #f44d46;"></i></div>
                                     <div>
-                                      <h4 class="title">Secure, Scalable, and Future-Proof</h4>
-                                      <p class="description">Using the latest tech stacks and security best practices, we make sure your site is safe, scalable, and built to last.</p>
+                                      <h4 class="title">Local SEO Agency in Dubai</h4>
+                                      <p class="description">If your business targets a specific location like Business Bay or JLT, our local SEO services make sure you appear in “near me” searches, Google Maps, and the local 3-pack.</p>
+                                      <ul>
+                                          <li>Google Business Profile (GMB) optimization</li>
+                                            <li>Local citations and listings</li>
+                                            <li>Location-specific landing pages</li>
+                                            <li>Review management and NAP consistency</li>
+                                      </ul>
                                     </div>
                                   </div>
-                                  <!-- End Service Item -->
                             </div>
 
                             <h5 class="text-center">Need a professional website? <a href="javascript:void(0)" class="open-newsletter">Get Started Today</a></h5>
@@ -155,7 +166,7 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                    <h3>Our Simple 5-Step Website Development Process</h3>
+                    <h3>Who We Serve</h3>
                     <br>
 
                     <div class="row services gy-4">
@@ -166,46 +177,24 @@
                         </div>
 
                         <div class="col-lg-7">
+                            <h5>As a versatile web development company in Dubai, we work with:</h5>
+                            <br>
                             <ul>
-                                <li>
-                                    <h6>Discovery & Strategy</h6>
-                                    <p>
-                                        We understand your goals, audience, and competition to align your digital vision with your business objectives.
-                                    </p>
-                                </li>
-
-                                <li>
-                                    <h6>Design & Prototyping</h6>
-                                    <p>
-                                        We turn ideas into visual reality with beautiful, user-friendly design mockups.
-                                    </p>
-                                </li>
-                                
-                                <li>
-                                    <h6>Development</h6>
-                                    <p>
-                                        We bring your site to life using clean, scalable, and modern code.
-                                    </p>
-                                </li>
-                                
-                                <li>
-                                    <h6>Testing & QA</h6>
-                                    <p>
-                                        We test every page, button, and form to ensure smooth performance across browsers and devices.
-                                    </p>
-                                </li>
-                                
-                                <li>
-                                    <h6>Launch & Ongoing Support</h6>
-                                    <p>
-                                        We go live — and stay with you. Our team provides post-launch support to ensure your site performs day in and day out.
-                                    </p>
-                                </li>
+                                <li>Real Estate Agencies</li>
+                                <li>Clinics & Healthcare Providers</li>
+                                <li>Restaurants & Cafés</li>
+                                <li>E-Commerce Stores</li>
+                                <li>Educational Institutions</li>
+                                <li>Travel & Tourism Agencies</li>
+                                <li>Startups & Corporate Enterprises</li>
                             </ul>
+                            <p>Whether you're a local entrepreneur or an international brand expanding to the UAE, we offer web development services that match your needs and goals.</p>
+                            <br>
+
+                            <h5>Book Your Free Strategy Call — <a href="javascript:void(0)" class="open-newsletter">Let’s Bring Your Vision to Life</a></h5>
                         </div>
                     </div>
 
-                    <h5>Book Your Free Strategy Call — <a href="javascript:void(0)" class="open-newsletter">Let’s Bring Your Vision to Life</a></h5>
                 </div>
             </div>
 
@@ -213,6 +202,92 @@
 
         </section>
 
+        
+
+         <section id="service-cards" class="blog-section section">
+
+          <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Why DataMySite is the Best SEO Company in Dubai</h3>
+                    <br>
+
+                    <div class="row services gy-4">
+                        <div class="col-lg-4">
+                          <h4>Trusted by Agencies & Local Businesses</h4>
+                            <p>We're the go-to SEO company in Dubai for businesses looking to grow organically and sustainably.</p>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <h4>Affordable SEO Packages</h4>
+                            <p>Choose from customized SEO packages that meet your budget without sacrificing quality.</p>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <h4>Proven Track Record</h4>
+                            <p>Our work has helped dozens of UAE-based clients rank on Page 1 for competitive keywords.</p>
+                        </div>
+
+                        
+                        <div class="col-lg-4">
+                          <h4>Expertise in Local SEO</h4>
+                            <p>As a local SEO agency in Dubai, we understand the search behavior of your target market and how to tap into it.</p>
+                        </div>
+
+                        
+                        <div class="col-lg-4">
+                          <h4>End-to-End SEO Strategy</h4>
+                            <p>From keyword research to link building and analytics — we handle it all under one roof.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Our SEO Process</h3>
+                    <br>
+
+                    <div class="row services gy-4">
+                        <div class="col-lg-4">
+                          <h4>Website & Market Audit</h4>
+                            <p> We analyze your current SEO status and competitors.</p>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <h4>Strategy Planning</h4>
+                            <p> Identify keywords like “SEO agency Dubai”, prioritize goals, and build a roadmap.</p>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <h4>On-Page & Technical Fixes</h4>
+                            <p>We optimize your existing content and website structure.</p>
+                        </div>
+
+                        
+                        <div class="col-lg-4">
+                          <h4>Content & Link Building</h4>
+                            <p>Develop keyword-rich, high-quality content and authority backlinks.</p>
+                        </div>
+
+                        
+                        <div class="col-lg-4">
+                          <h4>Local SEO Enhancements</h4>
+                            <p>For clients targeting Dubai neighborhoods, we optimize local listings and maps visibility.</p>
+                        </div>
+
+                        
+                        <div class="col-lg-4">
+                          <h4>Monthly Reporting & Growth Tracking</h4>
+                            <p> Get transparent, easy-to-digest insights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          </div>
+
+        </section>
 
         <section id="service-cards" class="blog-section section">
 
@@ -236,13 +311,14 @@
                         <div class="col-lg-5">
 
                             <div class="web-form-div">
-                                <h4>Why Businesses Trust DMS</h4>
+                                <h4>Who Should Use Our SEO Services?</h4>
                                 <ul>
-                                    <li>10+ Years of Web Development Experience</li>
-                                    <li>End-to-End Project Management</li>
-                                    <li>Creative Meets Technical Brilliance</li>
-                                    <li>Transparent Communication & On-Time Delivery</li>
-                                    <li>Ongoing Maintenance & Growth Support</li>
+                                    <li>Digital Agencies looking to outsource or scale with SEO for agencies</li>
+                                    <li>Real Estate Firms in Dubai needing local visibility</li>
+                                    <li>Healthcare Providers wanting to dominate Google Maps</li>
+                                    <li>E-commerce businesses needing better category rankings</li>
+                                    <li>Startups & SMEs needing budget-friendly SEO packages</li>
+                                    <li>Any business searching for “SEO services near me” with a Dubai focus</li>
 
                                 </ul>
 
@@ -256,7 +332,6 @@
           </div>
 
         </section>
-
     </main>
 
 
