@@ -97,6 +97,8 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
 
         Route::get('/website-development', 'ServiceController@websiteDevelopment');
 
+        Route::get('/seo-services', 'ServiceController@seoServices');
+
 
     //Newsletter
     Route::post('/subscribe', 'NewsletterController@subscribe')->name('newsletter.subscribe');

@@ -311,4 +311,16 @@ class ServiceController extends Controller
         
         return view('web.services.website-development')->with($data);
     }
+
+
+//-------------------------------------------------------------------------------------------------------
+
+    public function seoServices(){
+        $data['nav'] = 'services';
+        $data['service'] = Services::where('slug', 'seo-services')->first();
+        $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
+        $data['web_drop'] = '1';
+        
+        return view('web.services.seo')->with($data);
+    }
 }

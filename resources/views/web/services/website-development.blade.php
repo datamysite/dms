@@ -18,118 +18,152 @@
             </div>
           </div><!-- End Page Title -->
 
+
         <section id="service-cards" class="blog-section section">
 
           <div class="container">
 
             <div class="row gy-4 first-row">
 
-              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h2 class="web-heading">Launch Your Digital Presence with Impact</h2>
-                        
-                        <div class="post-container">
-                            <h4 class="web-heading2">Website Development That Grows Your Business</h4>
-                            <p>
-                                At DataMySite (DMS), we don’t just build websites — we engineer high-performing digital experiences designed to convert visitors into loyal customers. Whether you’re a startup, SME, or a growing enterprise, our expert team is here to turn your vision into a stunning, user-centric, results-driven website.
-                            </p>
-                            <h6>What We Do</h6>
-                            <ul>
-                                <li>Custom Website Solutions </li>
-                                <li>E-Commerce Development</li>
-                                <li>Mobile-First, Responsive Design</li>
-                                <li>Easy-to-Manage CMS Integration</li>
-                                <li>SEO-Ready & Performance Optimized</li>
-                                <li>Secure, Scalable, and Future-Proof</li>
-                            </ul>
-                            <h5>
-                                Let’s build your future-ready website - <a href="javascript:void(0)" class="open-newsletter">Schedule Your Free Consultation</a>
-                            </h5>
-                        </div>  
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="web-form-div">
-                            <h3>Let`s Build your website</h3>
-                            @include('web.includes.elements.contact-form')
+              <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
+                <h2 class="post-title">About Website Development</h2>
+                <div class="detail-post-image">
+                    <img src="{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}" alt="{{$service->img_alt}}">
+                </div>
+                <section id="service-cards" class="blog-section section">
+
+                  <div class="container">
+
+                    <div class="row gy-4 first-row">
+
+                      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+                            
+                            <div class="post-container">
+                                <h4 class="web-heading2">Your Trusted Web Design & Web Development Company in Dubai</h4>
+                                <p>
+                                    Looking for a web design company in Dubai that delivers stunning visuals, seamless functionality, and Google-ready performance? At DataMySite, we offer full-service web development services tailored for businesses across Dubai and the UAE.
+                                    <br>
+                                    We don’t just build websites — we create digital experiences that grow your brand, convert visitors, and generate revenue. From custom business websites to powerful e-commerce platforms, DataMySite is the best web design company in Dubai for businesses that want to thrive online.
+                                </p>
+                                <h4 class="web-heading2">Why a High-Performing Website Matters in Dubai’s Digital Market</h4>
+                                <p>Dubai is one of the world’s fastest-growing tech and business hubs — and your website is the first impression many customers will have of you. Here’s why you need a professional website development company in Dubai:</p>
+                                <ul>
+                                    <li>94% of users form first impressions based on web design</li>
+                                    <li>A slow or poorly structured website can cost you customers</li>
+                                    <li>Mobile-first and SEO-friendly sites perform better on Google</li>
+                                    <li>A well-designed website builds trust and credibility instantly</li>
+                                </ul>
+                                <br>
+                                <h4 class="web-heading2">Our Website Design & Web Development Services</h4>
+                                <p>As a leading web development company in Dubai, we offer end-to-end services from strategy to launch and ongoing support.</p>
+                                <h6>Custom Web Design Services</h6>
+                                <p>We create pixel-perfect, user-friendly designs that reflect your brand and engage your visitors.</p>
+                                <ul>
+                                    <li>Modern UI/UX design with intuitive navigation</li>
+                                    <li>Responsive design for mobile, tablet & desktop</li>
+                                    <li>Brand-aligned fonts, color schemes, and imagery</li>
+                                    <li>Conversion-focused layouts and CTAs</li>
+                                </ul>
+                                <p>We position ourselves as the best web design company in Dubai by combining creativity with strategy — not just pretty websites, but websites that perform.</p>
+                            </div> 
+
+                  </div>
+
+                </section>
+
+
+                <section id="service-cards" class="blog-section section section-striped">
+
+                  <div class="container">
+
+                    <div class="row gy-4 first-row">
+
+                        <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+                            <div class="row services gy-4">
+
+                                  <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="icon flex-shrink-0"><i class="bi bi-braces-asterisk" style="color: #f44d46;"></i></div>
+                                    <div>
+                                      <h4 class="title">Full-Stack Web Development</h4>
+                                      <p class="description">Our development team turns designs into fully functional, fast, and secure websites using the latest technologies.</p>
+                                      <ul>
+                                          <li>HTML5, CSS3, JavaScript, PHP, React, Laravel</li>
+                                            <li>WordPress, Shopify, and other CMS integrations</li>
+                                            <li>Custom development with backend logic and APIs</li>
+                                            <li>Clean, scalable, SEO-ready code structure</li>
+                                      </ul>
+                                      <p>We are not just another website development company — we’re a strategic web development agency focused on digital growth.</p>
+                                    </div>
+                                  </div>
+                                  
+
+                                  <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="icon flex-shrink-0"><i class="bi bi-braces-asterisk" style="color: #f44d46;"></i></div>
+                                    <div>
+                                      <h4 class="title">E-Commerce Website Development</h4>
+                                      <p class="description">Sell smarter with a fast, mobile-optimized, and conversion-oriented e-commerce website.</p>
+                                      <ul>
+                                          <li>Shopify, WooCommerce, Magento platforms</li>
+                                            <li>Custom cart, checkout, and payment integrations</li>
+                                            <li>Product filtering, reviews, stock management</li>
+                                            <li>Localized shopping experience for Dubai/UAE</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="icon flex-shrink-0"><i class="bi bi-braces-asterisk" style="color: #f44d46;"></i></div>
+                                    <div>
+                                      <h4 class="title">Responsive & Mobile-First Design</h4>
+                                      <p class="description">With more than 70% of users browsing on mobile in Dubai, we ensure your website performs perfectly across all devices.</p>
+                                      <ul>
+                                          <li>Cross-browser/device compatibility</li>
+                                            <li>Touch-optimized UI/UX</li>
+                                            <li>Mobile speed and performance tuning</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="icon flex-shrink-0"><i class="bi bi-braces-asterisk" style="color: #f44d46;"></i></div>
+                                    <div>
+                                      <h4 class="title">Multilingual Website Support</h4>
+                                      <p class="description">We offer bilingual website development to cater to Dubai’s diverse and multilingual population.</p>
+                                      <ul>
+                                          <li>RTL Arabic support and localization</li>
+                                            <li>Easy language toggling</li>
+                                            <li>SEO for both English and Arabic content</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+
+
+                                  <div class="col-lg-12 col-md-12 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="icon flex-shrink-0"><i class="bi bi-braces-asterisk" style="color: #f44d46;"></i></div>
+                                    <div>
+                                      <h4 class="title">Website Maintenance Services</h4>
+                                      <p class="description">We don’t disappear after launch. Our website maintenance services ensure your website stays fast, secure, and up-to-date.</p>
+                                      <ul>
+                                          <li>CMS/plugin updates</li>
+                                            <li>Backup & recovery</li>
+                                            <li>Speed checks and fixes</li>
+                                            <li>Bug fixes and troubleshooting</li>
+                                      </ul>
+                                      <p>This sets us apart as a website development company that prioritizes long-term success, not just short-term delivery.</p>
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <h5 class="text-center">Need a professional website? <a href="javascript:void(0)" class="open-newsletter">Get Started Today</a></h5>
                         </div>
                     </div>
-                </div>
 
-          </div>
+                  </div>
 
-        </section>
+                </section> 
+            </div>
 
-
-        <section id="service-cards" class="blog-section section section-striped">
-
-          <div class="container">
-
-            <div class="row gy-4 first-row">
-
-                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                    <h3 class="text-center">What You’ll Get with DMS Website Development</h3>
-                    <br>
-
-                    <div class="row services gy-4">
-
-                          <div class="col-lg-4 col-md-4 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon flex-shrink-0"><i class="bi bi-braces-asterisk" style="color: #f44d46;"></i></div>
-                            <div>
-                              <h4 class="title">Custom Website Solutions </h4>
-                              <p class="description">Every website we build is custom designed, not templated. We tailor every detail to reflect your brand, engage your audience, and meet your specific business goals.</p>
-                            </div>
-                          </div>
-                          <!-- End Service Item -->
-
-                          <div class="col-lg-4 col-md-4 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon flex-shrink-0"><i class="bi bi-cart" style="color: #f44d46;"></i></div>
-                            <div>
-                              <h4 class="title">E-Commerce Development</h4>
-                              <p class="description">Want to start selling online or scale your store? We develop secure, scalable e-commerce platforms with smooth UX, mobile-ready layouts, and integrated payment systems.</p>
-                            </div>
-                          </div>
-                          <!-- End Service Item -->
-
-                          <div class="col-lg-4 col-md-4 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon flex-shrink-0"><i class="bi bi-phone" style="color: #f44d46;"></i></div>
-                            <div>
-                              <h4 class="title">Mobile-First, Responsive Design</h4>
-                              <p class="description">From smartphones to large screens, your website will look sharp and load fast on every device.</p>
-                            </div>
-                          </div>
-                          <!-- End Service Item -->
-
-                          <div class="col-lg-4 col-md-4 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon flex-shrink-0"><i class="bi bi-wordpress" style="color: #f44d46;"></i></div>
-                            <div>
-                              <h4 class="title">Easy-to-Manage CMS Integration</h4>
-                              <p class="description">Update your content without the tech stress. We integrate platforms like WordPress, Shopify, Webflow, or create custom CMS solutions tailored to your needs.</p>
-                            </div>
-                          </div>
-                          <!-- End Service Item -->
-
-                          <div class="col-lg-4 col-md-4 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon flex-shrink-0"><i class="bi bi-speedometer2" style="color: #f44d46;"></i></div>
-                            <div>
-                              <h4 class="title">SEO-Ready & Performance Optimized</h4>
-                              <p class="description">Speed, structure, and SEO — all in one. We build sites that rank better, load faster, and keep visitors engaged.</p>
-                            </div>
-                          </div>
-                          <!-- End Service Item -->
-
-                          <div class="col-lg-4 col-md-4 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon flex-shrink-0"><i class="bi bi-graph-up-arrow" style="color: #f44d46;"></i></div>
-                            <div>
-                              <h4 class="title">Secure, Scalable, and Future-Proof</h4>
-                              <p class="description">Using the latest tech stacks and security best practices, we make sure your site is safe, scalable, and built to last.</p>
-                            </div>
-                          </div>
-                          <!-- End Service Item -->
-                    </div>
-
-                    <h5 class="text-center">Need a professional website? <a href="javascript:void(0)" class="open-newsletter">Get Started Today</a></h5>
-                </div>
+            <div class="col-lg-3 aside-block" data-aos="fade-up" data-aos-delay="100">
             </div>
 
           </div>
@@ -144,7 +178,7 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                    <h3>Our Simple 5-Step Website Development Process</h3>
+                    <h3>Who We Serve</h3>
                     <br>
 
                     <div class="row services gy-4">
@@ -155,46 +189,24 @@
                         </div>
 
                         <div class="col-lg-7">
+                            <h5>As a versatile web development company in Dubai, we work with:</h5>
+                            <br>
                             <ul>
-                                <li>
-                                    <h6>Discovery & Strategy</h6>
-                                    <p>
-                                        We understand your goals, audience, and competition to align your digital vision with your business objectives.
-                                    </p>
-                                </li>
-
-                                <li>
-                                    <h6>Design & Prototyping</h6>
-                                    <p>
-                                        We turn ideas into visual reality with beautiful, user-friendly design mockups.
-                                    </p>
-                                </li>
-                                
-                                <li>
-                                    <h6>Development</h6>
-                                    <p>
-                                        We bring your site to life using clean, scalable, and modern code.
-                                    </p>
-                                </li>
-                                
-                                <li>
-                                    <h6>Testing & QA</h6>
-                                    <p>
-                                        We test every page, button, and form to ensure smooth performance across browsers and devices.
-                                    </p>
-                                </li>
-                                
-                                <li>
-                                    <h6>Launch & Ongoing Support</h6>
-                                    <p>
-                                        We go live — and stay with you. Our team provides post-launch support to ensure your site performs day in and day out.
-                                    </p>
-                                </li>
+                                <li>Real Estate Agencies</li>
+                                <li>Clinics & Healthcare Providers</li>
+                                <li>Restaurants & Cafés</li>
+                                <li>E-Commerce Stores</li>
+                                <li>Educational Institutions</li>
+                                <li>Travel & Tourism Agencies</li>
+                                <li>Startups & Corporate Enterprises</li>
                             </ul>
+                            <p>Whether you're a local entrepreneur or an international brand expanding to the UAE, we offer web development services that match your needs and goals.</p>
+                            <br>
+
+                            <h5>Book Your Free Strategy Call — <a href="javascript:void(0)" class="open-newsletter">Let’s Bring Your Vision to Life</a></h5>
                         </div>
                     </div>
 
-                    <h5>Book Your Free Strategy Call — <a href="javascript:void(0)" class="open-newsletter">Let’s Bring Your Vision to Life</a></h5>
                 </div>
             </div>
 
@@ -202,6 +214,86 @@
 
         </section>
 
+        
+
+         <section id="service-cards" class="blog-section section">
+
+          <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Why Choose DataMySite as Your Web Development Partner?</h3>
+                    <br>
+
+                    <div class="row services gy-4">
+                        <div class="col-lg-4">
+                          <h4>Local Market Expertise</h4>
+                            <p>We know the cultural, design, and business preferences of users in Dubai.</p>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <h4>Design + Strategy</h4>
+                            <p>We combine strong visual design with real business strategy for better ROI.</p>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <h4>SEO-Optimized Development</h4>
+                            <p>Our websites are structured to rank — we integrate SEO best practices into every build.</p>
+                        </div>
+
+                        
+                        <div class="col-lg-4">
+                          <h4>Scalable Solutions</h4>
+                            <p>We build for the future — your site can grow with your business.</p>
+                        </div>
+
+                        
+                        <div class="col-lg-4">
+                          <h4>Dedicated Support</h4>
+                            <p>From consultation to launch and ongoing website maintenance services, we’ve got you covered.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Our Web Design & Development Process</h3>
+                    <br>
+
+                    <div class="row services gy-4">
+                        <div class="col-lg-4">
+                          <h4>Discovery & Strategy</h4>
+                            <p>We assess your goals, audience, and competitors in the Dubai market.</p>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <h4>UI/UX Design</h4>
+                            <p> Wireframes, mockups, and branding alignment for the perfect look.</p>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <h4>Web Development</h4>
+                            <p>Coding, CMS setup, testing, and performance optimization.</p>
+                        </div>
+
+                        
+                        <div class="col-lg-4">
+                          <h4>SEO & Launch</h4>
+                            <p>Technical SEO setup + live deployment with analytics integration.</p>
+                        </div>
+
+                        
+                        <div class="col-lg-4">
+                          <h4>Maintenance & Support</h4>
+                            <p>We keep your site running smoothly through our website maintenance services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          </div>
+
+        </section>
 
         <section id="service-cards" class="blog-section section">
 
@@ -225,13 +317,14 @@
                         <div class="col-lg-5">
 
                             <div class="web-form-div">
-                                <h4>Why Businesses Trust DMS</h4>
+                                <h4>Technologies We Use</h4>
                                 <ul>
-                                    <li>10+ Years of Web Development Experience</li>
-                                    <li>End-to-End Project Management</li>
-                                    <li>Creative Meets Technical Brilliance</li>
-                                    <li>Transparent Communication & On-Time Delivery</li>
-                                    <li>Ongoing Maintenance & Growth Support</li>
+                                    <li><strong>Front-End</strong>: React, Bootstrap, Tailwind CSS</li>
+                                    <li><strong>Back-End</strong>: PHP, Node.js, Laravel</li>
+                                    <li><strong>CMS</strong>: WordPress, Shopify, Magento</li>
+                                    <li><strong>E-commerce</strong>: WooCommerce, Shopify Plus</li>
+                                    <li><strong>Hosting</strong>: AWS, SiteGround, cPanel</li>
+                                    <li><strong>Security</strong>: SSL, CDN, firewall configurations</li>
 
                                 </ul>
 
@@ -245,7 +338,6 @@
           </div>
 
         </section>
-
     </main>
 
 
