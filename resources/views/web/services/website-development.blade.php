@@ -26,7 +26,6 @@
             <div class="row gy-4 first-row">
 
               <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="post-title">About Website Development</h2>
                 <div class="detail-post-image">
                     <img src="{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}" alt="{{$service->img_alt}}">
                 </div>
@@ -72,7 +71,7 @@
                 </section>
 
 
-                <section id="service-cards" class="blog-section section section-striped">
+                <section id="service-cards" class="blog-section section section-striped" style="margin-top: -50px;">
 
                   <div class="container">
 
@@ -222,7 +221,7 @@
 
             <div class="row gy-4">
 
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
                     <h3>Why Choose DataMySite as Your Web Development Partner?</h3>
                     <br>
 
@@ -255,8 +254,20 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          </div>
+
+        </section>
+
+
+         <section id="service-cards" class="blog-section section">
+
+          <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
                     <h3>Our Web Design & Development Process</h3>
                     <br>
 
@@ -287,6 +298,82 @@
                           <h4>Maintenance & Support</h4>
                             <p>We keep your site running smoothly through our website maintenance services.</p>
                         </div>
+                    </div>
+
+                    <br><br>
+                    <h4>FAQs</h4>
+                    <div class="faq " id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-1">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+                                        <span class="badge">1</span>How much does a website cost in Dubai?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>It depends on your requirements. A basic website starts at AED 2,500, while e-commerce and custom features increase the cost. Contact us for a free quote.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-2">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                        <span class="badge">2</span>How long does it take to build a website?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Most projects are completed within 2–4 weeks, depending on the complexity.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-3">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                        <span class="badge">3</span>Do you offer support after website launch?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Yes! We offer ongoing website maintenance services including security, updates, and bug fixes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">4</span>What makes you the best web design company in Dubai?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>We combine stunning design with SEO, fast delivery, full transparency, and local market expertise — making us the go-to web development agency in Dubai.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-5">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
+                                        <span class="badge">5</span>Can you redesign an existing website?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Absolutely! We offer full redesign services to upgrade your outdated or underperforming website.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

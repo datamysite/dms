@@ -26,7 +26,6 @@
             <div class="row gy-4 first-row">
 
               <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="post-title">About SEO Services</h2>
                 <div class="detail-post-image">
                     <img src="{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}" alt="{{$service->img_alt}}">
                 </div>
@@ -61,7 +60,7 @@
                 </section>
 
 
-                <section id="service-cards" class="blog-section section section-striped">
+                <section id="service-cards" class="blog-section section section-striped" style="margin-top:-50px">
 
                   <div class="container">
 
@@ -210,7 +209,7 @@
 
             <div class="row gy-4">
 
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
                     <h3>Why DataMySite is the Best SEO Company in Dubai</h3>
                     <br>
 
@@ -243,8 +242,19 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          </div>
+
+        </section>
+
+         <section id="service-cards" class="blog-section section">
+
+          <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
                     <h3>Our SEO Process</h3>
                     <br>
 
@@ -281,6 +291,97 @@
                           <h4>Monthly Reporting & Growth Tracking</h4>
                             <p> Get transparent, easy-to-digest insights.</p>
                         </div>
+                    </div>
+
+
+                    <br><br>
+                    <h4>FAQs</h4>
+                    <div class="faq " id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-1">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+                                        <span class="badge">1</span>How long does it take to rank on Google?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Most clients see ranking improvements in 3–6 months, depending on keyword difficulty and competition in Dubai.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-2">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                        <span class="badge">2</span>Do you provide SEO for other agencies?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Yes, we offer SEO for agencies looking for white-label or outsourcing solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-3">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                        <span class="badge">3</span>What makes you the best SEO company in Dubai?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>We combine local market understanding with expert-level SEO strategy and custom SEO packages — all focused on real results.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">4</span>What’s included in your SEO packages?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Our SEO packages include on-page SEO, technical fixes, content creation, link building, and monthly reporting — all tailored to your goals.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-5">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
+                                        <span class="badge">5</span>How do I know if I need local SEO?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>If you're targeting customers in a specific Dubai area (e.g., JLT, Marina, Downtown), local SEO Dubai is essential to appear in maps and local search.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-6">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
+                                        <span class="badge">6</span>Can I switch from another SEO company to you?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Absolutely! We start with a full audit, fix what’s lacking, and then implement our SEO agency Dubai strategy from there.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
