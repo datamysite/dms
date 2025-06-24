@@ -67,7 +67,7 @@
                                       <i class="bi bi-link"></i> bluntumbrellas.com
                                     </strong>
 
-                                    <span><i class="bi bi-calendar2-week"></i> 3 Years</span>
+                                    <span></span>
                                   </h6>
 
                                   <table class="table">
@@ -111,7 +111,7 @@
                                       <i class="bi bi-link"></i> injury-specialists-direct.com
                                     </strong>
 
-                                    <span><i class="bi bi-calendar2-week"></i> 2 Years</span>
+                                    <span></span>
                                   </h6>
 
                                   <table class="table">
@@ -156,7 +156,7 @@
                                       <i class="bi bi-link"></i> techhivesolutions.com
                                     </strong>
 
-                                    <span><i class="bi bi-calendar2-week"></i> 1 Years</span>
+                                    <span></span>
                                   </h6>
 
                                   <table class="table">
@@ -201,7 +201,7 @@
                                       <i class="bi bi-link"></i> homekart.org
                                     </strong>
 
-                                    <span><i class="bi bi-calendar2-week"></i> 2 Years</span>
+                                    <span></span>
                                   </h6>
 
                                   <table class="table">
@@ -246,7 +246,7 @@
                                       <i class="bi bi-link"></i> housing-disrepair.org
                                     </strong>
 
-                                    <span><i class="bi bi-calendar2-week"></i> 1.5 Years</span>
+                                    <span></span>
                                   </h6>
 
                                   <table class="table">
@@ -291,7 +291,7 @@
                                       <i class="bi bi-link"></i> moneysavingexpert.com
                                     </strong>
 
-                                    <span><i class="bi bi-calendar2-week"></i> Ongoing</span>
+                                    <span></span>
                                   </h6>
 
                                   <table class="table">
