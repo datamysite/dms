@@ -26,41 +26,315 @@
             <div class="row gy-4 first-row">
 
               <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
-                <div class="detail-post-image">
-                    <img src="{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}" alt="{{$service->img_alt}}">
-                </div>
-                <section id="service-cards" class="blog-section section">
+                <section id="service-cards" class="blog-section section seo-case-padding">
 
                   <div class="container">
 
                     <div class="row gy-4 first-row">
 
-                      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                            
-                            <div class="post-container">
-                                <h4 class="web-heading2">Leading SEO Company in Dubai Helping You Rank & Grow</h4>
-                                <p>
-                                    Looking for a trusted SEO agency in Dubai to skyrocket your search rankings and traffic? At DataMySite, we deliver result-driven SEO services tailored for agencies, startups, and established businesses in the UAE.
-                                    <br>
-                                    Whether you want to dominate Google SERPs, increase leads, or improve online visibility — we’re the best SEO company in Dubai to get it done. Our strategic SEO packages are designed to meet your goals while complying with the latest Google algorithm updates.
-                                </p>
-                                <h4 class="web-heading2">Why Choose an SEO Agency Like DataMySite?</h4>
-                                <p>As a business in one of the world’s most competitive markets, you need a performance-focused SEO company in Dubai with deep local insight and global best practices.</p>
-                                <ul>
-                                    <li>We specialize in local SEO in Dubai</li>
-                                    <li>100% white-hat strategies (Google-approved)</li>
-                                    <li>SEO tailored for your industry, market, and location</li>
-                                    <li>Transparent, data-backed reporting</li>
-                                    <li>Affordable and flexible SEO packages for all business sizes</li>
-                                </ul>
-                            </div> 
+                      <div class="col-lg-12" style="margin-top:0px;" data-aos="fade-up" data-aos-delay="100">
+                        <div class="post-container">
+                            <h4 class="web-heading2">Leading SEO Company in Dubai Helping You Rank & Grow</h4>
+                            <p>
+                                Looking for a trusted SEO agency in Dubai to skyrocket your search rankings and traffic? At DataMySite, we deliver result-driven SEO services tailored for agencies, startups, and established businesses in the UAE.
+                                <br>
+                                Whether you want to dominate Google SERPs, increase leads, or improve online visibility — we’re the best SEO company in Dubai to get it done. Our strategic SEO packages are designed to meet your goals while complying with the latest Google algorithm updates.
+                            </p>
+                            <h4 class="web-heading2">Why Choose an SEO Agency Like DataMySite?</h4>
+                            <p>As a business in one of the world’s most competitive markets, you need a performance-focused SEO company in Dubai with deep local insight and global best practices.</p>
+                            <ul>
+                                <li>We specialize in local SEO in Dubai</li>
+                                <li>100% white-hat strategies (Google-approved)</li>
+                                <li>SEO tailored for your industry, market, and location</li>
+                                <li>Transparent, data-backed reporting</li>
+                                <li>Affordable and flexible SEO packages for all business sizes</li>
+                            </ul>
+                        </div> 
+                      </div>
 
-                  </div>
+                      <div class="col-lg-12 pt-12 section-striped " style="margin-top:0px;" data-aos="fade-up" data-aos-delay="100">
+                        <div class="post-container">
+                            <h4 class="web-heading2">Case Studies – SEO Results</h4>
+                            <p>
+                                We drive ROI, traffic, and conversions with white-hat SEO aligned with Google guidelines. Our clients track 100+ optimized keywords daily via a custom reporting system. Results show in top rankings across Dubai and the UAE.
+                            </p>
+
+                            <div class="row">
+                              <div class="col-lg-6">
+                                <div class="seo-case-item">
+                                  <h6>
+                                    <a href="https://bluntumbrellas.com" target="_blank">
+                                      <i class="bi bi-box-arrow-up-right"></i> bluntumbrellas.com
+                                    </a>
+
+                                    <span><i class="bi bi-calendar2-week"></i> 3 Years</span>
+                                  </h6>
+
+                                  <table class="table">
+                                    <tr>
+                                      <th>Keywords</th>
+                                      <th class="text-right">Position</th>
+                                    </tr>
+                                    <tr>
+                                      <td>“windproof umbrella”</td>
+                                      <td class="seo-case-postion"><span>#2</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>“designer umbrella NZ”</td>
+                                      <td class="seo-case-postion"><span>#1</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>“high quality umbrellas”</td>
+                                      <td class="seo-case-postion"><span>#3</span></td>
+                                    </tr>
+
+                                    <tr>
+                                      <th colspan="2">Results</th>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• 175% increase in organic traffic</td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• 3x growth in conversion rate from search traffic</td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• 40+ commercial-intent keywords on Google’s first page</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+
+                              <div class="col-lg-6">
+                                <div class="seo-case-item">
+                                  <h6>
+                                    <a href="https://injury-specialists-direct.com" target="_blank">
+                                      <i class="bi bi-box-arrow-up-right"></i> injury-specialists-direct.com
+                                    </a>
+
+                                    <span><i class="bi bi-calendar2-week"></i> 2 Years</span>
+                                  </h6>
+
+                                  <table class="table">
+                                    <tr>
+                                      <th>Keywords</th>
+                                      <th class="text-right">Position</th>
+                                    </tr>
+                                    <tr>
+                                      <td>“injury claim specialists UK”</td>
+                                      <td class="seo-case-postion"><span>#1</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>“no win no fee solicitors”</td>
+                                      <td class="seo-case-postion"><span>#5</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>“personal injury compensation claims”</td>
+                                      <td class="seo-case-postion"><span>#3</span></td>
+                                    </tr>
+
+                                    <tr>
+                                      <th colspan="2">Results</th>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• 320% growth in organic traffic</td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• Consistent lead generation via organic forms</td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• Top 5 rankings for 20+ legal keywords across the UK</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+
+
+                              <div class="col-lg-6">
+                                <div class="seo-case-item">
+                                  <h6>
+                                    <a href="https://www.techhivesolutions.com" target="_blank">
+                                      <i class="bi bi-box-arrow-up-right"></i> techhivesolutions.com
+                                    </a>
+
+                                    <span><i class="bi bi-calendar2-week"></i> 1 Years</span>
+                                  </h6>
+
+                                  <table class="table">
+                                    <tr>
+                                      <th>Keywords</th>
+                                      <th class="text-right">Position</th>
+                                    </tr>
+                                    <tr>
+                                      <td>“managed IT services USA”</td>
+                                      <td class="seo-case-postion"><span>#4</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>“SaaS development company”</td>
+                                      <td class="seo-case-postion"><span>#6</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>“custom CRM software provider”</td>
+                                      <td class="seo-case-postion"><span>#3</span></td>
+                                    </tr>
+
+                                    <tr>
+                                      <th colspan="2">Results</th>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• 85% increase in monthly organic traffic</td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• 50+ backlinks acquired from tech-authority domains</td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• Surge in inquiries through SEO-focused landing pages</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+
+
+                              <div class="col-lg-6">
+                                <div class="seo-case-item">
+                                  <h6>
+                                    <a href="https://homekart.org" target="_blank">
+                                      <i class="bi bi-box-arrow-up-right"></i> homekart.org
+                                    </a>
+
+                                    <span><i class="bi bi-calendar2-week"></i> 2 Years</span>
+                                  </h6>
+
+                                  <table class="table">
+                                    <tr>
+                                      <th>Keywords</th>
+                                      <th class="text-right">Position</th>
+                                    </tr>
+                                    <tr>
+                                      <td>“affordable furniture online UAE”</td>
+                                      <td class="seo-case-postion"><span>#3</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>“buy sofa set Dubai”</td>
+                                      <td class="seo-case-postion"><span>#2</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>“wooden beds online UAE”</td>
+                                      <td class="seo-case-postion"><span>#4</span></td>
+                                    </tr>
+
+                                    <tr>
+                                      <th colspan="2">Results</th>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• 60% increase in indexed product pages</td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• 70% YoY growth in organic sales</td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• Improved CTR and visibility through structured snippets</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+
+
+                              <div class="col-lg-6">
+                                <div class="seo-case-item">
+                                  <h6>
+                                    <a href="https://housing-disrepair.org" target="_blank">
+                                      <i class="bi bi-box-arrow-up-right"></i> housing-disrepair.org
+                                    </a>
+
+                                    <span><i class="bi bi-calendar2-week"></i> 1.5 Years</span>
+                                  </h6>
+
+                                  <table class="table">
+                                    <tr>
+                                      <th>Keywords</th>
+                                      <th class="text-right">Position</th>
+                                    </tr>
+                                    <tr>
+                                      <td>“housing disrepair solicitors UK”</td>
+                                      <td class="seo-case-postion"><span>#2</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>“claim compensation for housing disrepair”</td>
+                                      <td class="seo-case-postion"><span>#3</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>“tenant rights housing UK”</td>
+                                      <td class="seo-case-postion"><span>#4</span></td>
+                                    </tr>
+
+                                    <tr>
+                                      <th colspan="2">Results</th>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• 280% increase in qualified organic leads</td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• 30+ legal terms ranked on Google’s first page</td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• Conversion-focused landing pages with lead forms delivering consistent results</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+
+
+                              <div class="col-lg-6">
+                                <div class="seo-case-item">
+                                  <h6>
+                                    <a href="https://www.moneysavingexpert.com" target="_blank">
+                                      <i class="bi bi-box-arrow-up-right"></i> moneysavingexpert.com
+                                    </a>
+
+                                    <span><i class="bi bi-calendar2-week"></i> Ongoing</span>
+                                  </h6>
+
+                                  <table class="table">
+                                    <tr>
+                                      <th>Keywords</th>
+                                      <th class="text-right">Position</th>
+                                    </tr>
+                                    <tr>
+                                      <td>“best credit card deals UK”</td>
+                                      <td class="seo-case-postion"><span>#1</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>“how to save money on bills”</td>
+                                      <td class="seo-case-postion"><span>#3</span></td>
+                                    </tr>
+                                    <tr>
+                                      <td>“PPI claims UK”</td>
+                                      <td class="seo-case-postion"><span>#4</span></td>
+                                    </tr>
+
+                                    <tr>
+                                      <th colspan="2">Results</th>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• Strengthened content authority through on-page SEO</td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• Enhanced SERP performance through schema and FAQ</td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2">• Improved click-through rates by optimizing titles/meta across high-traffic pages</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                        </div> 
+                      </div>
 
                 </section>
 
 
-                <section id="service-cards" class="blog-section section section-striped" style="margin-top:-50px">
+                <section id="service-cards" class="blog-section section seo-case-margin" style="margin-top:-50px">
 
                   <div class="container">
 
@@ -158,7 +432,7 @@
         </section>
 
 
-        <section id="service-cards" class="blog-section section">
+        <section id="service-cards" class="blog-section section  section-striped">
 
           <div class="container">
 

@@ -1130,3 +1130,42 @@
 .needsclick a {
     display: none !important;
 }
+
+.seo-case-item {
+    background-color: aliceblue;
+    margin-bottom: 30px;
+    box-shadow: 6px 6px 8px rgb(0 0 0 / 10%);
+}
+.seo-case-item h6 {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #fff;
+}
+.seo-case-item .table th {
+    background-color: aliceblue;
+}
+.seo-case-item .table{
+    padding: 16px 12px 4px 12px;
+}
+.seo-case-postion {
+    text-align: right;
+}
+.seo-case-postion span {
+    background-color: #23b33a;
+    color: #fff;
+    padding: 1px 8px;
+}
+.text-right {
+    text-align: right;
+}
+.seo-case-padding{
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+}
+.pt-12 {
+    padding-top: 12px;
+}
+.seo-case-margin .service-item {
+    margin-bottom: 12px !important;
+}
