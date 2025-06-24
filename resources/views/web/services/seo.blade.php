@@ -63,9 +63,9 @@
                               <div class="col-lg-6">
                                 <div class="seo-case-item">
                                   <h6>
-                                    <a href="https://bluntumbrellas.com" target="_blank">
-                                      <i class="bi bi-box-arrow-up-right"></i> bluntumbrellas.com
-                                    </a>
+                                    <strong class="text-theme">
+                                      <i class="bi bi-link"></i> bluntumbrellas.com
+                                    </strong>
 
                                     <span><i class="bi bi-calendar2-week"></i> 3 Years</span>
                                   </h6>
@@ -107,9 +107,9 @@
                               <div class="col-lg-6">
                                 <div class="seo-case-item">
                                   <h6>
-                                    <a href="https://injury-specialists-direct.com" target="_blank">
-                                      <i class="bi bi-box-arrow-up-right"></i> injury-specialists-direct.com
-                                    </a>
+                                    <strong class="text-theme">
+                                      <i class="bi bi-link"></i> injury-specialists-direct.com
+                                    </strong>
 
                                     <span><i class="bi bi-calendar2-week"></i> 2 Years</span>
                                   </h6>
@@ -152,9 +152,9 @@
                               <div class="col-lg-6">
                                 <div class="seo-case-item">
                                   <h6>
-                                    <a href="https://www.techhivesolutions.com" target="_blank">
-                                      <i class="bi bi-box-arrow-up-right"></i> techhivesolutions.com
-                                    </a>
+                                    <strong class="text-theme">
+                                      <i class="bi bi-link"></i> techhivesolutions.com
+                                    </strong>
 
                                     <span><i class="bi bi-calendar2-week"></i> 1 Years</span>
                                   </h6>
@@ -197,9 +197,9 @@
                               <div class="col-lg-6">
                                 <div class="seo-case-item">
                                   <h6>
-                                    <a href="https://homekart.org" target="_blank">
-                                      <i class="bi bi-box-arrow-up-right"></i> homekart.org
-                                    </a>
+                                    <strong class="text-theme">
+                                      <i class="bi bi-link"></i> homekart.org
+                                    </strong>
 
                                     <span><i class="bi bi-calendar2-week"></i> 2 Years</span>
                                   </h6>
@@ -242,9 +242,9 @@
                               <div class="col-lg-6">
                                 <div class="seo-case-item">
                                   <h6>
-                                    <a href="https://housing-disrepair.org" target="_blank">
-                                      <i class="bi bi-box-arrow-up-right"></i> housing-disrepair.org
-                                    </a>
+                                    <strong class="text-theme">
+                                      <i class="bi bi-link"></i> housing-disrepair.org
+                                    </strong>
 
                                     <span><i class="bi bi-calendar2-week"></i> 1.5 Years</span>
                                   </h6>
@@ -287,9 +287,9 @@
                               <div class="col-lg-6">
                                 <div class="seo-case-item">
                                   <h6>
-                                    <a href="https://www.moneysavingexpert.com" target="_blank">
-                                      <i class="bi bi-box-arrow-up-right"></i> moneysavingexpert.com
-                                    </a>
+                                    <strong class="text-theme">
+                                      <i class="bi bi-link"></i> moneysavingexpert.com
+                                    </strong>
 
                                     <span><i class="bi bi-calendar2-week"></i> Ongoing</span>
                                   </h6>
