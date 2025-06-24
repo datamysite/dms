@@ -58,45 +58,50 @@ class BlogController extends Controller
             $response['success'] = false;
             $response['errors'] = 'Please Fill all required fields.';
         } else {
+            if(str_contains($data['slug'], '--') == false){
+                $blog = Blogs::where('heading', $data['heading'])->where('category_id', $data['category_id'])->get();
 
-            $blog = Blogs::where('heading', $data['heading'])->where('category_id', $data['category_id'])->get();
+                if (count($blog) == 0) {
 
-            if (count($blog) == 0) {
-
-                $id = Blogs::create($data);
-
-
-
-                //Meta Title -- Start
-
-                    $meta_url = 'https://datamysite.com/'.$data['slug'];
-
-                    $mt = new MetaTags;
-                    $mt->url = $meta_url;
-                    $mt->title = $data['meta_title'];
-                    $mt->keywords = $data['tags'];
-                    $mt->description = $data['short_description'];
-                    $mt->created_by = Auth::guard('admin')->id();
-                    $mt->save();
+                    $id = Blogs::create($data);
 
 
-                //Meta Title -- End
+
+                    //Meta Title -- Start
+
+                        $meta_url = 'https://datamysite.com/'.$data['slug'];
+
+                        $mt = new MetaTags;
+                        $mt->url = $meta_url;
+                        $mt->title = $data['meta_title'];
+                        $mt->keywords = $data['tags'];
+                        $mt->description = $data['short_description'];
+                        $mt->created_by = Auth::guard('admin')->id();
+                        $mt->save();
 
 
-                if ($request->hasFile('coupon_image')) {
-                    $file = $request->file('coupon_image');
-                    $ext = $file->getClientOriginalExtension();
-                    $newname = $id . date('dmyhis') . '.' . $ext;
+                    //Meta Title -- End
 
-                    $file->move(public_path() . '/storage/blogs', $newname);
 
-                    $b = Blogs::find($id);
-                    $b->banner = $newname;
-                    $b->save();
+                    if ($request->hasFile('coupon_image')) {
+                        $file = $request->file('coupon_image');
+                        $ext = $file->getClientOriginalExtension();
+                        $newname = $id . date('dmyhis') . '.' . $ext;
+
+                        $file->move(public_path() . '/storage/blogs', $newname);
+
+                        $b = Blogs::find($id);
+                        $b->banner = $newname;
+                        $b->save();
+                    }
+
+                    $response['success'] = 'success';
+                    $response['message'] = 'Success! New Blog Added.';
+                }else{
+
+                    $response['success'] = false;
+                    $response['errors'] = 'Erorr, Slug is invalid.';
                 }
-
-                $response['success'] = 'success';
-                $response['message'] = 'Success! New Blog Added.';
             } else {
 
                 $response['success'] = false;
@@ -116,43 +121,48 @@ class BlogController extends Controller
             $response['success'] = false;
             $response['errors'] = 'Please Fill all required fields.';
         } else {
+            if(str_contains($data['slug'], '--') == false){
+                $id = Blogs::blog_update(base64_decode($data['blog_id']), $data);
 
-            $id = Blogs::blog_update(base64_decode($data['blog_id']), $data);
 
+                //Meta Title -- Start
 
-            //Meta Title -- Start
-
-                $meta_url = 'https://datamysite.com/'.$data['slug'];
-                $mt = MetaTags::where('url', $meta_url)->first();
-                if(empty($mt->id)){
-                    $mt = new MetaTags;
-                    $mt->url = $meta_url;
+                    $meta_url = 'https://datamysite.com/'.$data['slug'];
+                    $mt = MetaTags::where('url', $meta_url)->first();
+                    if(empty($mt->id)){
+                        $mt = new MetaTags;
+                        $mt->url = $meta_url;
+                        $mt->created_by = Auth::guard('admin')->id();
+                    }
+                    $mt->title = $data['meta_title'];
+                    $mt->keywords = $data['tags'];
+                    $mt->description = $data['short_description'];
                     $mt->created_by = Auth::guard('admin')->id();
+                    $mt->save();
+
+
+                //Meta Title -- End
+
+
+                if ($request->hasFile('edit_mblog_image')) {
+                    $file = $request->file('edit_mblog_image');
+                    $ext = $file->getClientOriginalExtension();
+                    $newname = $id . date('dmyhis') . '.' . $ext;
+
+                    $file->move(public_path() . '/storage/blogs', $newname);
+
+                    $b = Blogs::find($id);
+                    $b->banner = $newname;
+                    $b->save();
                 }
-                $mt->title = $data['meta_title'];
-                $mt->keywords = $data['tags'];
-                $mt->description = $data['short_description'];
-                $mt->created_by = Auth::guard('admin')->id();
-                $mt->save();
 
+                $response['success'] = 'success';
+                $response['message'] = 'Success! Blog Successfully Updated.';
+            }else{
 
-            //Meta Title -- End
-
-
-            if ($request->hasFile('edit_mblog_image')) {
-                $file = $request->file('edit_mblog_image');
-                $ext = $file->getClientOriginalExtension();
-                $newname = $id . date('dmyhis') . '.' . $ext;
-
-                $file->move(public_path() . '/storage/blogs', $newname);
-
-                $b = Blogs::find($id);
-                $b->banner = $newname;
-                $b->save();
+                $response['success'] = false;
+                $response['errors'] = 'Erorr, Slug is invalid.';
             }
-
-            $response['success'] = 'success';
-            $response['message'] = 'Success! Blog Successfully Updated.';
         }
 
         echo json_encode($response);
