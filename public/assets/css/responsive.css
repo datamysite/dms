@@ -201,6 +201,16 @@
 	.web-heading2{
 		font-size: 16px;
 	}
+	.seo-main .aside-form {
+	    max-width: 100% !important;
+	    margin-top: 0px !important;
+	    position: relative;
+	    border-radius: 0;
+	}
+	.how-seo-block .col-lg-4{
+		width: 100%;
+		margin-bottom: 10px;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{

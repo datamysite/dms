@@ -99,6 +99,15 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
 
         Route::get('/seo-services', 'ServiceController@seoServices');
 
+        Route::prefix('seo-services')->group(function(){
+            Route::get('/', 'ServiceController@seoServices');
+            Route::get('/local-seo', 'ServiceController@localSEO');
+            Route::get('/tech-support', 'ServiceController@techSupport');
+            Route::get('/free-seo-audit', 'ServiceController@freeAudit');
+            Route::get('/case-studies', 'ServiceController@caseStudies');
+            Route::get('/price-and-package', 'ServiceController@pricePackage');
+        });
+
 
     //Newsletter
     Route::post('/subscribe', 'NewsletterController@subscribe')->name('newsletter.subscribe');

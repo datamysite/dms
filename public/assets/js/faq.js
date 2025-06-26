@@ -8,7 +8,7 @@ $(document).ready(function(){
 	});
 });
 
-$(document).ready(function(){
+/*$(document).ready(function(){
   $('.slick-slider').slick({
 	    dots: true,
 	    infinite: true,
@@ -19,4 +19,4 @@ $(document).ready(function(){
 	    slidesToShow: 1,
 	    slidesToScroll: 1
 	 });
-});
+});*/

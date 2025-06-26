@@ -321,6 +321,38 @@ class ServiceController extends Controller
         $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
         $data['web_drop'] = '1';
         
-        return view('web.services.seo')->with($data);
+        return view('web.services.seo.index')->with($data);
     }
+        public function localSEO(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'seo-services')->first();
+            $data['subservice'] = Services::where('slug', 'local-seo')->first();
+            $data['web_drop'] = '1';
+            
+            return view('web.services.seo.localSEO')->with($data);
+        }
+        public function techSupport(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'seo-services')->first();
+            $data['subservice'] = Services::where('slug', 'tech-support')->first();
+            $data['web_drop'] = '1';
+            
+            return view('web.services.seo.techSupport')->with($data);
+        }
+        public function freeAudit(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'seo-services')->first();
+            $data['subservice'] = Services::where('slug', 'free-seo-audit')->first();
+            $data['web_drop'] = '1';
+            
+            return view('web.services.seo.freeAudit')->with($data);
+        }
+        public function caseStudies(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'seo-services')->first();
+            $data['subservice'] = Services::where('slug', 'case-studies')->first();
+            $data['web_drop'] = '1';
+            
+            return view('web.services.seo.caseStudies')->with($data);
+        }
 }
