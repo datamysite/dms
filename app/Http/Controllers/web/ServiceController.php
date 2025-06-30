@@ -355,4 +355,12 @@ class ServiceController extends Controller
             
             return view('web.services.seo.caseStudies')->with($data);
         }
+        public function pricePackage(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'seo-services')->first();
+            $data['subservice'] = Services::where('slug', 'price-and-package')->first();
+            $data['web_drop'] = '1';
+            
+            return view('web.services.seo.pricePackage')->with($data);
+        }
 }

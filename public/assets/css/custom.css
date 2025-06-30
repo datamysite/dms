@@ -1312,3 +1312,36 @@
     border-left: 2px solid;
     padding: 0px 0px 0px 8px;
 }
+.text-theme2{
+    color: #18a619;
+}
+.pricing-item ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 25px 0;
+}
+.pricing-item {
+    border-top: 10px solid #023f38;
+    border-left: 0;
+    height: 635px;
+    position: relative;
+}
+.pricing-item ul li {
+    margin-bottom: 12px;
+}
+.pricing-item a {
+    border: 1px solid;
+    padding: 2px 30px 4px 30px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 16px;
+    left: 30%;
+}
+.pricing-item a:hover {
+    background-color: #e04a43;
+    color: #fff;
+}
+.pricing-item h3 {
+    text-align: center;
+    margin: 20px 0px;
+}
