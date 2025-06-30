@@ -134,8 +134,8 @@
                             <li><i class="bi bi-check-circle text-theme2"></i> Quarterly strategy reviews + Google Core updates</li>
                             <li><i class="bi bi-check-circle text-theme2"></i> Premium support with dedicated account manager</li>
                         </ul>
-                        <h6>Why Choose This?</h6>
-                        <p>A cost-effective solution, under the mid-market range of AED 1,500–3,500 </p>
+                        <h6>Why It Stands Out:</h6>
+                        <p>This package matches enterprise-level ranges (AED 10,000+) </p>
                         <a href="javascript:void(0)" class="scroll-up">Enquire Now</a>
                     </div>
                 </div>
