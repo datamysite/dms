@@ -27,11 +27,15 @@
             <div class="row gy-4 first-row">
               <div class="col-lg-7" style="margin-top:0px;">
                 <div class="post-container">
-                    <h2 class="web-heading2">Results-Driven SEO Packages Designed for Every Stage of Growth</h2>
+                    <h2 class="web-heading2">Flexible SEO Packages for Every Stage of Growth</h2>
                     <p>
-                        At <strong>DataMySite</strong>, we understand that every business has different goals, budgets, and challenges. That’s why our SEO pricing is built around flexibility, transparency, and performance. 
+                        At <strong>DataMySite</strong>, we know every business is different — that’s why our SEO packages are designed to match your goals and budget at every stage. From startups to established brands, we combine technical SEO, on-page fixes, content strategy, and link building to help you rank higher and grow faster.
+                        
+                        <strong>No hidden fees</strong>. No long-term contracts. Just clear pricing, proven results, and support that scales with you.
                         <br><br>
-                        Whether you're just starting out or looking to scale aggressively, our tailored packages combine technical expertise, on-page optimization, content strategy, and link building — everything you need to rank higher and grow faster. No lock-in contracts, just measurable impact and scalable value.
+                        Ready to attract more traffic, boost your rankings, and turn visitors into loyal customers? 
+                        <br>
+                        <strong>Get in touch with DataMySite today and let’s build an SEO plan that grows with your business.</strong>
 
                     </p>
                 </div> 
@@ -88,6 +92,7 @@
                             <li><i class="bi bi-check-circle text-theme2"></i> Local SEO setup (GMB profile & citations)</li>
                             <li><i class="bi bi-check-circle text-theme2"></i> 1 blog post (500 words) per month</li>
                             <li><i class="bi bi-check-circle text-theme2"></i> Monthly performance report & call</li>
+                            <li><i class="bi bi-check-circle text-theme2"></i> 25–50 quality backlinks/month</li>
                         </ul>
                         <h6>Why Choose This?</h6>
                         <p>A cost-effective solution, under the mid-market range of AED 1,500–3,500 </p>
@@ -110,6 +115,7 @@
                             <li><i class="bi bi-check-circle text-theme2"></i> Link building: 8–10 quality backlinks/month</li>
                             <li><i class="bi bi-check-circle text-theme2"></i> Local SEO advanced (multi-location support)</li>
                             <li><i class="bi bi-check-circle text-theme2"></i> Enhanced monthly reporting with analytics insights</li>
+                            <li><i class="bi bi-check-circle text-theme2"></i> 70–100 quality backlinks/month</li>
                         </ul>
                         <h6>Why It Works:</h6>
                         <p>This aligns with common mid-tier packages (AED 4,000–8,000) and covers deep optimization.</p>
@@ -133,6 +139,7 @@
                             <li><i class="bi bi-check-circle text-theme2"></i> E-commerce SEO support</li>
                             <li><i class="bi bi-check-circle text-theme2"></i> Quarterly strategy reviews + Google Core updates</li>
                             <li><i class="bi bi-check-circle text-theme2"></i> Premium support with dedicated account manager</li>
+                            <li><i class="bi bi-check-circle text-theme2"></i> 120–150 quality backlinks/month</li>
                         </ul>
                         <h6>Why It Stands Out:</h6>
                         <p>This package matches enterprise-level ranges (AED 10,000+) </p>
