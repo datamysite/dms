@@ -319,6 +319,22 @@ class ServiceController extends Controller
             
             return view('web.services.website-development.fullStackDevelopment')->with($data);
         }
+        public function eCommerceDevelopment(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'website-development')->first();
+            $data['subservice'] = Services::where('slug', 'e-commerce-website-development')->first();
+            $data['web_drop'] = '1';
+            
+            return view('web.services.website-development.eCommerceDevelopment')->with($data);
+        }
+        public function websiteMaintenance(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'website-development')->first();
+            $data['subservice'] = Services::where('slug', 'website-maintenance-services')->first();
+            $data['web_drop'] = '1';
+            
+            return view('web.services.website-development.websiteMaintenance')->with($data);
+        }
 
 
 //-------------------------------------------------------------------------------------------------------

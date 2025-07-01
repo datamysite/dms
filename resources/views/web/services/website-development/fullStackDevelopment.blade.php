@@ -50,7 +50,7 @@
                       <input type="hidden" name="phone" id="fullphone-field2" required="">
                       <input type="email" name="email" placeholder="Email" class="form-control aside-email" required>
                       
-                      <input type="hidden" name="service" value="SEO Services">
+                      <input type="hidden" name="service" value="Website Development">
                       
                       <textarea class="form-control" name="description" rows="4" placeholder="Describe Your Requirement" required></textarea>
                       

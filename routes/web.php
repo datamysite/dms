@@ -110,6 +110,8 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
         Route::prefix('website-development')->group(function(){
             Route::get('/', 'ServiceController@websiteDevelopment');
             Route::get('/full-stack-web-development', 'ServiceController@fullStackDevelopment');
+            Route::get('/e-commerce-website-development', 'ServiceController@eCommerceDevelopment');
+            Route::get('/website-maintenance-services', 'ServiceController@websiteMaintenance');
         });
 
 
