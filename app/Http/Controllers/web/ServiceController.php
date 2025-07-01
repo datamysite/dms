@@ -345,7 +345,7 @@ class ServiceController extends Controller
         $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
         $data['web_drop'] = '1';
         
-        return view('web.services.seo.index')->with($data);
+        return view('web.services.seo.index-new')->with($data);
     }
         public function localSEO(){
             $data['nav'] = 'services';

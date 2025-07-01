@@ -1393,3 +1393,10 @@
     background-color: #e04a43;
     color: #fff;
 }
+
+.two-line{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
