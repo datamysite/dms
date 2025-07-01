@@ -95,8 +95,6 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
 
         Route::get('/radio-advertising', 'ServiceController@radioAdvertising');
 
-        Route::get('/website-development', 'ServiceController@websiteDevelopment');
-
         Route::get('/seo-services', 'ServiceController@seoServices');
 
         Route::prefix('seo-services')->group(function(){
@@ -106,6 +104,12 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
             Route::get('/free-seo-audit', 'ServiceController@freeAudit');
             Route::get('/case-studies', 'ServiceController@caseStudies');
             Route::get('/price-and-package', 'ServiceController@pricePackage');
+        });
+
+
+        Route::prefix('website-development')->group(function(){
+            Route::get('/', 'ServiceController@websiteDevelopment');
+            Route::get('/full-stack-web-development', 'ServiceController@fullStackDevelopment');
         });
 
 

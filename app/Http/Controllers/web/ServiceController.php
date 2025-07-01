@@ -309,8 +309,16 @@ class ServiceController extends Controller
         $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
         $data['web_drop'] = '1';
         
-        return view('web.services.website-development')->with($data);
+        return view('web.services.website-development.index')->with($data);
     }
+        public function fullStackDevelopment(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'website-development')->first();
+            $data['subservice'] = Services::where('slug', 'full-stack-web-development')->first();
+            $data['web_drop'] = '1';
+            
+            return view('web.services.website-development.fullStackDevelopment')->with($data);
+        }
 
 
 //-------------------------------------------------------------------------------------------------------
