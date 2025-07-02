@@ -26,7 +26,7 @@
             <div class="row gy-4 first-row">
               <div class="col-lg-8" style="margin-top:0px;">
                 <div class="post-container">
-                    <h2 class="web-heading2"><strong>#1 SEO Agency in Dubai</strong> — Elevate Your Online Visibility with <strong>DataMySite</strong></h2>
+                    <h2 class="web-heading2">#1 <strong>SEO Agency in Dubai</strong> — 1st Page or Money Back Guaranteed</h2>
                     <p>
                         In today’s digital landscape, ranking on Google is not optional — it’s essential. At <strong>DataMySite</strong>, we’re not just another <strong>SEO agency</strong> — we’re your strategic partner in driving organic growth, increasing conversions, and building a strong online presence in the UAE and beyond.
                         <br><br>
@@ -61,9 +61,11 @@
 
         </section>
 
+        <div class="section-striped">
+                @include('web.includes.elements.clients')
+        </div>
 
-
-        <section id="service-cards" class="blog-section section-striped section">
+        <section id="service-cards" class="blog-section section">
 
           <div class="container">
 
@@ -166,7 +168,7 @@
 
         </section>
 
-         <section id="service-cards" class="blog-section section">
+         <section id="service-cards" class="blog-section section-striped section">
 
           <div class="container">
 

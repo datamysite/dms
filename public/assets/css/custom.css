@@ -1400,3 +1400,15 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
+.client-logos img {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10.5px 0;
+    margin-bottom: 11px;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+}
+.client-logos-block {
+    display: flex;
+    justify-content: center;
+}
