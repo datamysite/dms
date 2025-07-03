@@ -201,7 +201,7 @@
 
 	    <div class="section-striped">
 				@include('web.includes.elements.clients')
-			</div>
+		</div>
 
 	     <!-- Service Cards Section -->
 	    <section id="service-cards" class="service-cards section">

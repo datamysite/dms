@@ -48,7 +48,7 @@ class ViewServiceProvider extends ServiceProvider
                                                                 ->orwhere('page_url', $data['actual_link']);
                                                 })->get();
 
-            $data['header_services'] = Services::where('parent_id', '0')->get();
+            $data['header_services'] = Services::where('parent_id', '0')->orderBy('navOrder')->get();
             $data['blog_categories'] = Categories::has('blogs', '>', 0)->with('blogs')->orderBy('name')->get();
             
             $view->with($data);
