@@ -68,6 +68,9 @@
                 <strong>Name: </strong>{{$name}}<br>
                 <strong>Phone: </strong>{{$phone}}<br>
                 <strong>Email: </strong>{{$email}}<br>
+                @if(!empty($website_link))
+                    <strong>Website: </strong>{{$website_link}}<br>
+                @endif
                 @if(!empty($service))
                     <strong>Service: </strong>{{$service}}<br>
                 @endif

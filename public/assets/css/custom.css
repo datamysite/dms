@@ -918,7 +918,130 @@
     display: none;
 }
 
-.help-loading {
+
+
+
+#seo-cta-modal-u .modal-dialog {
+    transform: translate(0, 42%) !important;
+}
+#seo-cta-modal-u.modal,
+#seo-cta-modal-u.fade,
+#seo-cta-modal-u.show {
+    background-color: #000000cc;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#seo-cta-modal-u h2{
+
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #000;
+}
+#seo-cta-modal-u .modal-content {
+    border: none;
+    background: transparent;
+    padding: 0 19px;
+}
+#seo-cta-modal-u .close {
+    position: relative;
+    top: 33px;
+    left: 21px;
+    z-index: 1;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+    color: #023f38;
+    border: none;
+    background-color: transparent;
+}
+#seo-cta-modal-u .modal-header {
+    border: none;
+}
+
+#seo-cta-modal-u .modal-header .close {
+    padding: 0rem 1rem !important;
+    margin: -1rem -1rem -1rem auto;
+
+}
+
+#seo-cta-modal-u .modal-body {
+    border: none;
+    background-color: white;
+    padding-bottom: 5px;
+    box-shadow: 8px 11px 16px 0px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+#seo-cta-modal-u .close.focus,
+#seo-cta-modal-u .close:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+#seo-cta-modal-u .form-control {
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: 3px 5px 5px 1px #dae0e5 !important;
+    color: #63686c;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+#seo-cta-modal-u .form-control.focus{
+
+    border: none;
+    border-color: #fff;
+    border-bottom:1px solid #000;
+    outline: 0;
+        box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+}
+@media (min-width:599px) {
+    #seo-cta-modal-u .modal-dialog {
+        max-width: 47rem;
+    }
+
+    #seo-cta-modal-u .details {
+        padding: 15px 0 0px 20px;
+    }
+
+#seo-cta-modal-u .text-muted a{
+    color: #c0bfbf;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#seo-cta-modal-u small.para{
+    font-weight: bold;
+    font-size: 14px;
+    color: #63686c;
+}}
+
+#seo-cta-modal-u [type=submit] {
+    cursor: pointer;
+    padding: 3px 30px;
+}
+#seo-cta-modal-u .cancel {
+    border: 1px solid #b9b9b9;
+    padding: 3px 15px;
+}
+
+#seo-cta-modal-u .popup-des{
+    display: block;
+}
+#seo-cta-modal-u .popup-mob{
+    display: none;
+}
+.seo-prompt-para {
+    margin-top: -18px;
+    font-size: 12px;
+    padding-right: 30px;
+}
+#seo-help-form .iti {
+    width: 100%;
+        margin-bottom: 14px;
+}
+
+
+.help-loading, .help-loading2 {
     opacity: 0;
     width: 85px;
     margin: 20px 0px -10px 56px;

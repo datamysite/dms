@@ -142,6 +142,74 @@ $(document).on("submit", "#enquiry-help-form", function (event) {
 
 
 
+$(document).on("submit", "#seo-help-form", function (event) {
+
+    var form = $(this);
+    var formData = new FormData($("#seo-help-form")[0]);
+
+    let isValid = true;
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Email validation
+    let email = $(".help-email2").val().trim();
+    if (email === "" || !emailPattern.test(email)) {
+        Toast.fire({
+            icon: "warning",
+            title: "Please Enter valid Email address",
+        });
+        isValid = false;
+    } else {
+        isValid = true;
+    }
+
+    if (isValid) {
+        $(".errors2").css({ display: "none" });
+        $(".help-loading2").css({opacity:"1"});
+        $.ajax({
+            type: "POST",
+            url: form.attr("action"),
+            data: formData,
+            dataType: "json",
+            encode: true,
+            processData: false,
+            contentType: false,
+        })
+        .done(function (data) {
+            if (data.success == "success") {
+                Toast.fire({
+                    icon: "success",
+                    title: data.message,
+                });
+
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                  event: "formSubmitEvent",       // Name of your custom event
+                });
+
+                setTimeout(function () {
+                    location.reload();
+                }, 1000);
+            } else {
+                Toast.fire({
+                    icon: "warning",
+                    title: data.message,
+                });
+            }
+            $(".help-loading2").css({opacity:"0"});
+        })
+        .fail(function (e) {
+            $(".help-loading2").css({opacity:"0"});
+            Toast.fire({
+                icon: "warning",
+                title: 'Something went wrong! Try again later.',
+            });
+        });
+    }
+    event.preventDefault();
+});
+
+
+
 //Newsletter Popup
 /*document.addEventListener("DOMContentLoaded", function () {
     const popupKey = "popup_shown_time"; 

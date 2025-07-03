@@ -44,17 +44,22 @@ class EnquiryController extends Controller
         $response = [];
         $status = 200;
 
+        $recep = ['waseem@datamysite.com', 'pooja.u@datamysite.com', 'abhishek@datamysite.com'];
 
         $n = new Enquiry;
         $n->name = $data['name'];
         $n->email = $data['email'];
         $n->phone = $data['phone'];
+        $n->website_link = empty($data['website_link']) ? '' : $data['website_link'];
         $n->save();
 
+        if(!empty($recep)){
+            array_push($recep,"seodms@datamysite.com");
+        }
 
 
         $mail = Mailer::sendMail('Thank You for Contacting Us | DMS', array($data['email']), 'DMS', 'web.emails.response', $data);
-        $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | DMS', ['waseem@datamysite.com', 'pooja.u@datamysite.com', 'abhishek@datamysite.com'], 'DMS', 'web.emails.enquiry', $data);
+        $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | DMS', $recep, 'DMS', 'web.emails.enquiry', $data);
 
 
         $response['success'] = 'success';

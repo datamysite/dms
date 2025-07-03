@@ -45,11 +45,17 @@ var host = $("meta[name='home_url']").attr("content");
     openNewsletterModal();
   });
 
+  $('.open-seo-cta').click(function(){
+    openSEOModal();
+  });
+  
   $('.close').click(function(){
     closeNewsletterModal();
+    closeSEOModal();
   });
   $('.cancel').click(function(){
     closeNewsletterModal();
+    closeSEOModal();
   });
 
   function closeNewsletterModal(){
@@ -60,6 +66,17 @@ var host = $("meta[name='home_url']").attr("content");
   function openNewsletterModal(){
     $('#newsletter-modal-u').addClass('show');
     $('#newsletter-modal-u').css({display: 'block'});
+  }
+
+
+  function closeSEOModal(){
+
+    $('#seo-cta-modal-u').removeClass('show');
+    $('#seo-cta-modal-u').css({display: 'none'});
+  }
+  function openSEOModal(){
+    $('#seo-cta-modal-u').addClass('show');
+    $('#seo-cta-modal-u').css({display: 'block'});
   }
 
   /**
