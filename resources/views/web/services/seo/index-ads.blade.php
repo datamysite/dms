@@ -58,9 +58,9 @@
               </div>
               <div class="col-lg-4">
                 <div class="aside-form seo-ads-aside-form">
-                  <h3>Want to know more?</h3>
-                  <h4>Ask us anything</h4>
-                  <form action="{{route('enquiry.submit')}}" id="enquiry-form" >
+                  <h3>Zero-Cost SEO Audit</h3>
+                  <h4><small><small>Know Your Rank. Improve.</small></small></h4>
+                  <form action="{{route('enquiry.help.submit')}}" id="enquiry-form" >
                       @csrf
                       <input type="text" name="name" placeholder="Name" class="form-control" required>
                       
@@ -68,11 +68,11 @@
                       <input type="hidden" name="phone" id="fullphone-field2" required="">
                       <input type="email" name="email" placeholder="Email" class="form-control aside-email" required>
                       
+                      <input type="text" class="form-control" name="website_link" placeholder="Website" required>
+                      
                       <input type="hidden" name="service" value="SEO Services">
-                      
-                      <textarea class="form-control" name="description" rows="4" placeholder="Describe Your Requirement" required></textarea>
-                      
-                      <button class="btn btn-theme">Submit Your Enquiry</button>
+                                            
+                      <button class="btn btn-theme">Submit</button>
                       <div class="loading"><img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="newsletter-loader"></div>
                   </form>
                 </div>
