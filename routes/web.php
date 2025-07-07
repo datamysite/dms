@@ -95,7 +95,7 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
 
         Route::get('/radio-advertising', 'ServiceController@radioAdvertising');
 
-        Route::get('/seo-services', 'ServiceController@seoServices');
+        Route::get('/seo-services-dubai', 'ServiceController@seoServicesDubai');
 
         Route::prefix('seo-services')->group(function(){
             Route::get('/', 'ServiceController@seoServices');

@@ -158,6 +158,35 @@
       </div>
   </div>
 
+  <div class="modal fade" id="seo-ads-cta-modal-u" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-body p-0 row">
+                  <div class="aside-form">
+                    <h3>Want to know more?</h3>
+                    <h4>Ask us anything</h4>
+                    <form action="{{route('enquiry.submit')}}" id="seo-ads-form" >
+                        @csrf
+                        <input type="text" name="name" placeholder="Name" class="form-control" required>
+                        
+                        <input type="tel" name="mailphone" id="phone-fieldseo" class="form-control" required>
+                        <input type="hidden" name="phone" id="fullphone-fieldseo" required="">
+                        <input type="email" name="email" placeholder="Email" class="form-control seo-ads-email" required>
+                        
+                        <input type="hidden" name="service" value="SEO Services">
+                        
+                        <textarea class="form-control" name="description" rows="4" placeholder="Describe Your Requirement" required></textarea>
+                        
+                        <button class="btn btn-theme">Submit Your Enquiry</button>
+                        <button type="button" class="btn btn-default close">Close</button>
+                        <img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="help-loading2 seo-loading">
+                    </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
   @foreach($bodySnippet as $val)
     @if($val->position == 'Body')
       <!-- {{$val->name}} // Start -->

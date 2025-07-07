@@ -164,7 +164,7 @@ $(document).on("submit", "#seo-help-form", function (event) {
 
     if (isValid) {
         $(".errors2").css({ display: "none" });
-        $(".help-loading2").css({opacity:"1"});
+        $(".seo-loading").css({opacity:"1"});
         $.ajax({
             type: "POST",
             url: form.attr("action"),
@@ -195,10 +195,78 @@ $(document).on("submit", "#seo-help-form", function (event) {
                     title: data.message,
                 });
             }
-            $(".help-loading2").css({opacity:"0"});
+            $(".seo-loading").css({opacity:"0"});
         })
         .fail(function (e) {
-            $(".help-loading2").css({opacity:"0"});
+            $(".seo-loading").css({opacity:"0"});
+            Toast.fire({
+                icon: "warning",
+                title: 'Something went wrong! Try again later.',
+            });
+        });
+    }
+    event.preventDefault();
+});
+
+
+
+$(document).on("submit", "#seo-ads-form", function (event) {
+
+    var form = $(this);
+    var formData = new FormData($("#seo-ads-form")[0]);
+
+    let isValid = true;
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Email validation
+    let email = $(".seo-ads-email").val().trim();
+    if (email === "" || !emailPattern.test(email)) {
+        Toast.fire({
+            icon: "warning",
+            title: "Please Enter valid Email address",
+        });
+        isValid = false;
+    } else {
+        isValid = true;
+    }
+
+    if (isValid) {
+        $(".errors2").css({ display: "none" });
+        $(".seo-loading").css({opacity:"1"});
+        $.ajax({
+            type: "POST",
+            url: form.attr("action"),
+            data: formData,
+            dataType: "json",
+            encode: true,
+            processData: false,
+            contentType: false,
+        })
+        .done(function (data) {
+            if (data.success == "success") {
+                Toast.fire({
+                    icon: "success",
+                    title: data.message,
+                });
+
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                  event: "formSubmitEvent",       // Name of your custom event
+                });
+
+                setTimeout(function () {
+                    location.reload();
+                }, 1000);
+            } else {
+                Toast.fire({
+                    icon: "warning",
+                    title: data.message,
+                });
+            }
+            $(".seo-loading").css({opacity:"0"});
+        })
+        .fail(function (e) {
+            $(".seo-loading").css({opacity:"0"});
             Toast.fire({
                 icon: "warning",
                 title: 'Something went wrong! Try again later.',

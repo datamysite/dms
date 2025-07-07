@@ -214,6 +214,21 @@
 		width: 100%;
 		margin-bottom: 10px;
 	}
+	.seo-cta{
+	    display: block;
+	    text-align: center;
+	            margin: 28px 0;
+	}
+	.seo-cta-hr, .seo-ads-aside-form{
+		display: none;
+	}
+	.client-logos img {
+	    width: 100%;
+	    height: auto;
+	}
+	.seo-heading {
+	    font-size: 26px;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{

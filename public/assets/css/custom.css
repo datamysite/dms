@@ -1535,3 +1535,43 @@
     display: flex;
     justify-content: center;
 }
+.list-style-none {
+    list-style-type: none;
+    padding-left: 13px;
+}
+.seo-heading {
+    text-transform: uppercase;
+    color: #e04a43;
+    font-weight: 700;
+}
+.seo-ads .case-studies-item img {
+    width: 108% !important;
+}
+.seo-ads .row {
+    display: flex;
+    justify-content: center;
+}
+.seo-cta{
+    display: none;
+}
+.seo-cta a {
+    background-color: #e04a43;
+    color: #fff !important;
+    padding: 10px 28px;
+}
+#seo-ads-cta-modal-u {
+    background-color: #000000b0;
+}
+#seo-ads-cta-modal-u .close {
+    background-color: #ffffffcc;
+    color: #e04a43;
+    margin-top: 8px;
+}
+#seo-ads-cta-modal-u .modal-content {
+    margin-top: 100px;
+}
+#seo-ads-cta-modal-u .modal-content {
+    margin-top: 100px;
+    background-color: transparent;
+    padding: 0 10px;
+}

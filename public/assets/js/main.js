@@ -41,6 +41,16 @@ var host = $("meta[name='home_url']").attr("content");
     });
   });
 
+  $('.seo-cta a').click(function(){
+    $('#seo-ads-cta-modal-u').addClass('show');
+    $('#seo-ads-cta-modal-u').css({display: 'block'});
+  });
+
+  $('#seo-ads-cta-modal-u .close').click(function(){
+    $('#seo-ads-cta-modal-u').removeClass('show');
+    $('#seo-ads-cta-modal-u').css({display: 'none'});
+  });
+
   $('.open-newsletter').click(function(){
     openNewsletterModal();
   });
