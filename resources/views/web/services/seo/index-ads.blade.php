@@ -19,19 +19,11 @@
         <!-- Page Title -->
           <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug).'.png'}}');">
             <div class="container">
-              <h1>{{$service->name}}</h1>
-              <nav class="breadcrumbs">
-                <ol>
-                  <li><a href="{{route('home')}}">Home</a></li>
-                  <li><a href="{{route('services')}}">Services</a></li>
-                  <li class="current">{{$service->name}}</li>
-                </ol>
-              </nav>
             </div>
           </div><!-- End Page Title -->
 
 
-        <section id="service-cards" class="blog-section section">
+        <section id="service-cards" class="blog-section ads-main-section section">
 
           <div class="container">
 
@@ -44,7 +36,8 @@
                     <h4>That’s Why It’s <strong>1st Page</strong> Guaranteed. or Your Money Back. Just <strong>$82/Keyword</strong>.</h4>
                     <div  class="seo-cta"><a href="javascript:void(0)">Get My Free SEO Audit</a></div>
                     <hr class="seo-cta-hr">
-                    <h4>Curious Why Your Website Isn’t Ranking? <strong>Let’s Find Out — At No Cost</strong>.</h4>
+                    <h4>Curious! 
+                        <br>Why Your Website Isn’t Ranking? <strong>Let’s Find Out</strong> — <strong>At No Cost</strong>.</h4>
                     <p>
                         Let us understand your business better and help you outsmart the competition.
                         <br>

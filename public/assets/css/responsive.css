@@ -231,6 +231,22 @@
         margin-top: -14px;
         font-weight: 800;
 	}
+	.ads-main-section{
+		width: 95%;
+	    margin: auto;
+	    margin-top: -40px;
+	    position: relative;
+	    background-color: #fff;
+	    padding: 40px 2px !important;
+	    border-radius: 14px;
+	}
+	.ads-main-section h4 strong {
+	    background-color: #ffeb18 !important;
+	    padding: 1px 10px;
+	}
+	.ads-main-section h4 {
+	    line-height: 32px;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
