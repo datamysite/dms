@@ -2,6 +2,16 @@
 @section('metaAddition')
 <meta name="robots" content="noindex, follow">
 @endsection
+@section('addStyle')
+<style>
+    .header-info {
+        display: none;
+    }
+    .post-container p {
+        padding-left: 0px;
+    }
+</style>
+@endsection
 @section('content')
 
     <main class="main seo-main">
@@ -41,12 +51,12 @@
                         We’re offering a <strong>Free Website Audit</strong> that provides: 
 
                     </p>
-                    <ul class="list-style-none">
+                    <ul>
                         <li>
-                            ✅ A detailed look at your <strong>top competitors</strong> — see what they’re doing right (and wrong).
+                            A detailed look at your <strong>top competitors</strong> — see what they’re doing right (and wrong).
                         </li>
                         <li>
-                            ✅ A tailored <strong>3-month SEO roadmap</strong>, built to move you up in rankings and ahead of your industry.
+                            A tailored <strong>3-month SEO roadmap</strong>, built to move you up in rankings and ahead of your industry.
                         </li>
                     </ul>
                     <p>

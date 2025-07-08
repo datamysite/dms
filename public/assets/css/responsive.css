@@ -214,11 +214,11 @@
 		width: 100%;
 		margin-bottom: 10px;
 	}
-	.seo-cta{
-	    display: block;
-	    text-align: center;
-	            margin: 28px 0;
-	}
+	.seo-cta {
+        display: grid;
+        text-align: center;
+        margin: 22px 0;
+    }
 	.seo-cta-hr, .seo-ads-aside-form{
 		display: none;
 	}
@@ -227,7 +227,9 @@
 	    height: auto;
 	}
 	.seo-heading {
-	    font-size: 26px;
+	    font-size: 22px;
+        margin-top: -14px;
+        font-weight: 800;
 	}
 }
 @media (max-width: 575px) {
