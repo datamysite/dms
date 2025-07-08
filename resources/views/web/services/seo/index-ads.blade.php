@@ -33,7 +33,7 @@
                     <h2 class="web-heading2 seo-heading">
                         We Know You Want Results!
                     </h2>
-                    <h4>That’s Why It’s <strong>1st Page</strong> Guaranteed. or Your Money Back. Just <strong>$82/Keyword</strong>.</h4>
+                    <h4>That’s Why It’s <strong>1st Page Guaranteed</strong>. or Your Money Back. Just <strong>$82/Keyword</strong>.</h4>
                     <div  class="seo-cta"><a href="javascript:void(0)">Get My Free SEO Audit</a></div>
                     <hr class="seo-cta-hr">
                     <h4>Curious! 

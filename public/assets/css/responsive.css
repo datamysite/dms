@@ -227,10 +227,18 @@
 	    height: auto;
 	}
 	.seo-heading {
-	    font-size: 22px;
-        margin-top: -14px;
+        font-size: 22px;
+        margin-top: -38px;
         font-weight: 800;
-	}
+        text-align: center;
+        background-color: #30625c;
+        color: #fff;
+        width: 112%;
+        margin-left: -23px;
+        padding: 16px 0;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+    }
 	.ads-main-section{
 		width: 95%;
 	    margin: auto;
