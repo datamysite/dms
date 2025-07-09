@@ -12,7 +12,6 @@
     }
     #header{
         box-shadow: 8px 7px 20px rgb(0 0 0 / .15);
-            margin: 20px 0px;
     }
 </style>
 @endsection
