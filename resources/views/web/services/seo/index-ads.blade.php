@@ -1,4 +1,4 @@
-@extends('web.includes.master')
+@extends('web.includes.ad-master')
 @section('metaAddition')
 <meta name="robots" content="noindex, follow">
 @endsection
