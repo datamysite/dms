@@ -20,6 +20,9 @@
     .seo-heading{
         margin-top: 0 !important;
     }
+    .seo-main .aside-form{
+        margin-top: -35px !important;
+    }
 </style>
 @endsection
 @section('content')
