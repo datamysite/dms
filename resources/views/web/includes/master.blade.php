@@ -189,9 +189,11 @@
 
   @foreach($bodySnippet as $val)
     @if($val->position == 'Body')
-      <!-- {{$val->name}} // Start -->
-          {!! $val->snippet_code !!}
-      <!-- {{$val->name}} // End -->
+      @if(empty($noPopup) && $val->name != 'Klaviyo Basecode')
+        <!-- {{$val->name}} // Start -->
+            {!! $val->snippet_code !!}
+        <!-- {{$val->name}} // End -->
+      @endif
     @endif
   @endforeach
   

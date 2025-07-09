@@ -345,6 +345,7 @@ class ServiceController extends Controller
         $data['service'] = Services::where('slug', 'seo-services')->first();
         $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
         $data['web_drop'] = '1';
+        $data['noPopup'] = '1';
         
         return view('web.services.seo.index-ads')->with($data);
     }
