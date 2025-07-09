@@ -189,7 +189,7 @@
 
   @foreach($bodySnippet as $val)
     @if($val->position == 'Body')
-      @if(!empty($noPopup) && $val->name == 'Klaviyo Basecode')
+      @if(!empty($noPopup) && ($val->name == 'Klaviyo Basecode' || $val->name == 'Tawk.to Live Chat' || $val->name == 'Tawk.to BaseCode'))
 
       @else
       <!-- {{$val->name}} // Start -->
