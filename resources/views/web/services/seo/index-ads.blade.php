@@ -10,6 +10,10 @@
     .post-container p {
         padding-left: 0px;
     }
+    #header{
+        box-shadow: 8px 7px 20px rgb(0 0 0 / .15);
+            margin: 20px 0px;
+    }
 </style>
 @endsection
 @section('content')
@@ -17,11 +21,11 @@
     <main class="main seo-main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug).'.png'}}');">
+         <!--  <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug).'.png'}}');">
             <div class="container">
             </div>
-          </div><!-- End Page Title -->
-
+          </div>--><!-- End Page Title --> 
+          <br><br><br><br><br><br><br>
 
         <section id="service-cards" class="blog-section ads-main-section section">
 
