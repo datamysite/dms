@@ -14,6 +14,12 @@
         box-shadow: 8px 7px 20px rgb(0 0 0 / .15);
             margin-bottom: 20px;
     }
+    .seo-main .blog-section {
+        padding: 0px 0 !important;
+    }
+    .seo-heading{
+        margin-top: 0 !important;
+    }
 </style>
 @endsection
 @section('content')
@@ -25,7 +31,7 @@
             <div class="container">
             </div>
           </div>--><!-- End Page Title --> 
-          <br><br><br><br><br><br><br>
+          <br><br><br><br><br><br>
 
         <section id="service-cards" class="blog-section ads-main-section section">
 
