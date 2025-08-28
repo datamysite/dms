@@ -179,7 +179,7 @@
                                                 
                         <button class="btn btn-theme">Submit</button>
                         <button type="button" class="btn btn-default close">Close</button>
-                        <img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="help-loading2 seo-loading">
+                        <img src="{{URL::to('/public/loader-gif.gif')}}" alt="loader image" width="80px" class="help-loading2 seo-loading">
                     </form>
                   </div>
               </div>
