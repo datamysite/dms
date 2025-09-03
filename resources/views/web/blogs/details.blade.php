@@ -161,9 +161,14 @@
           "articleSection": "{{@$data->category->name}}",
           "keywords": [
                 <?php 
+                    $i=0;
                     foreach($data->tags as $val){
                         if(!empty($val->data->slug)){
-                            echo '"'.$val->tag.'",';
+                            if($i!=0){
+                                echo ',';
+                            }
+                            echo '"'.$val->tag.'"';
+                            $i++;
                         }
                     }
                 ?>
