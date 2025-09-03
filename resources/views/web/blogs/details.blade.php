@@ -125,5 +125,55 @@
 
 	</main>
 
+
+    <!-- Article Schema -->
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{$actual_link}}"
+          },
+          "url": "{{$actual_link}}",
+          "headline": "{{$data->heading}}",
+          "description": "{{ $data->short_description }}",
+          "image": "{{URL::to('/public/storage/blogs/'.$data->banner)}}",
+          "author": {
+            "@type": "Person",
+            "name": "Osama Usmani",
+            "url": "https://www.linkedin.com/in/osama-usmani/"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "DataMySite",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://datamysite.com/public/assets/img/logo.png"
+            },
+            "sameAs": [
+              "https://www.facebook.com/datamysite",
+              "https://www.linkedin.com/company/datamysite",
+              "https://twitter.com/datamysite"
+            ]
+          },
+          "articleSection": "{{@$data->category->name}}",
+          "keywords": [
+                <?php 
+                    foreach($data->tags as $val){
+                        if(!empty($val->data->slug)){
+                            echo '"'.$val->tag.'",';
+                        }
+                    }
+                ?>
+            ],
+          "wordcount": "1200",
+          "datePublished": "{{$data->created_at}}",
+          "dateModified": "{{$data->updated_at}}"
+        }
+        </script>
+
+    <!-- Article Schemma -->
     
 @endsection
