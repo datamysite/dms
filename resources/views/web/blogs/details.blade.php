@@ -174,8 +174,8 @@
                 ?>
             ],
           "wordcount": "1200",
-          "datePublished": "{{$data->created_at}}",
-          "dateModified": "{{$data->updated_at}}"
+          "datePublished": "{{ date('Y-m-d\TH:i:sP', strtotime($data->created_at)) }}",
+          "dateModified": "{{ date('Y-m-d\TH:i:sP', strtotime($data->updated_at)) }}"
         }
         </script>
 
