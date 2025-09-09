@@ -258,6 +258,9 @@
 	.case-studies-section .case-studies-img-even {
         margin-top: 0px;
     }
+    .header-info{
+    	display: none;
+    }
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
