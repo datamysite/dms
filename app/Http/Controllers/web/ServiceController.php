@@ -85,6 +85,13 @@ class ServiceController extends Controller
 
         return view('web.services.public-relations-pr-coverage.index')->with($data);
     }
+    public function prCoverageNew(){
+        $data['nav'] = 'services';
+        $data['service'] = Services::where('slug', 'public-relations-pr-coverage')->first();
+        $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
+
+        return view('web.services.public-relations-pr-coverage.index-new')->with($data);
+    }
         public function prCoverageGulfNews(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'public-relations-pr-coverage')->first();

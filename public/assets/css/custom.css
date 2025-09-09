@@ -1585,3 +1585,10 @@
   50% { background-color: #FF0000; box-shadow: 0 0 30px #FF0000; }
   100% { background-color: #e04a43; box-shadow: 0 0 3px #e04a43; }
 }
+
+
+
+
+.striped-section {
+    background-color: #d5d5d542;
+}

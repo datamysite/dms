@@ -45,6 +45,7 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
 
         Route::prefix('public-relations-pr-coverage')->group(function(){
             Route::get('/', 'ServiceController@prCoverage');
+            Route::get('/new', 'ServiceController@prCoverageNew');
             Route::get('/gulf-news', 'ServiceController@prCoverageGulfNews');
             Route::get('/forbes', 'ServiceController@prCoverageForbes');
             Route::get('/khaleej-time', 'ServiceController@prCoverageKhaleejTime');
