@@ -168,6 +168,43 @@
         .logo_items-2 img{
           height: 32px;
         }
+
+
+
+        .case-studies-section h5 {
+            font-size: 14px;
+            padding: 8px 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .case-studies-section h5 span {
+            color: #e04a43;
+        }
+        .case-studies-section .case-studies-img-even {
+            margin-top: 45px;
+        }
+
+        .case-studies-section a:hover h5 {
+            box-shadow: 0 0 18px rgb(0 0 0 / .2);
+        }
+
+        .pr-impact-section .col-lg-7 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .why-us-section .col-lg-9 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .faq-new-section .col-lg-4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
     </style>
 @endsection
 @section('content')
@@ -299,17 +336,40 @@
 
 
 
-        <section id="testimonials" class="testimonials section">
+        <section id="testimonials" class="testimonials case-studies-section section">
             <!-- Section Title -->
           <div class="container section-title" style="padding-bottom: 15px;">
-            <h2 class="text-theme">Our Clients</h2>
+            <h2 class="text-theme">Case Studies</h2>
             <p class="service-tp">
-                At <strong>DataMySite</strong>, we are proud to partner with a diverse range of clients across various industries, from startups to established global brands.
+                At <strong>DataMySite</strong>, we believe in transparency and trust. Sharing case studies allows us to demonstrate the tangible impact of our marketing and advertising solutions.
             </p>
           </div><!-- End Section Title -->
           <div class="container">
-            <div class="row client-logos-block">
-                
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="{{URL::to('/public/case-studies/dubai-duty-free.pdf')}}" target="_blank" class="open-case-study">
+                        <img src="{{URL::to('/public/case-studies/dubai-duty-free.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
+                        <h5><span>Dubai Duty Free</span> x <span>DMS</span> |  Case Study</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="{{URL::to('/public/case-studies/lenskart.pdf')}}" target="_blank" class="open-case-study">
+                        <img src="{{URL::to('/public/case-studies/lenskart.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
+                        <h5><span>Dubai Duty Free</span> x <span>DMS</span> |  Case Study</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="{{URL::to('/public/case-studies/danube.pdf')}}" target="_blank" class="open-case-study">
+                        <img src="{{URL::to('/public/case-studies/danube.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
+                        <h5><span>Dubai Duty Free</span> x <span>DMS</span> |  Case Study</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="{{URL::to('/public/case-studies/ksa.pdf')}}" target="_blank" class="open-case-study">
+                        <img src="{{URL::to('/public/case-studies/ksa.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
+                        <h5><span>Dubai Duty Free</span> x <span>DMS</span> |  Case Study</h5>
+                    </a>
+                </div>
             </div>
           </div>
 
@@ -360,55 +420,20 @@
         </section>
 
 
-        <section id="service-cards" class="blog-section section">
+        <section id="service-cards" class="blog-section section pr-impact-section">
 
           <div class="container">
 
             <div class="row gy-4 first-row">
 
-              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="post-title">Public Relations (PR) Coverage </h2>
-                <div class="detail-post-image">
-                    <img src="{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}" alt="{{$service->img_alt}}">
+                <div class="col-lg-5">
+                    <img src="{{URL::to('/public/pr-coverage.png')}}" width="100%" alt="Impact of PR Coverage">
                 </div>
-                <br>
-                <div class="post-container">
-                    <p>
-                        In today's digital world, securing Public Relations (PR Coverage) is crucial for businesses aiming to build credibility and authority. Your brand benefits from increased visibility, which solves customer trust issues and enables you to take leadership in your industry. At datamysite, we specialise in securing high-impact <strong>30 Media houses</strong>, PR coverage UAE that ensures your brand reaches the right audience through powerful storytelling and strategic media placements.
-                        <!-- 
-                        In today's digital world, securing Public Relations (PR Coverage) is crucial for businesses aiming to build credibility and authority. Your brand benefits from increased visibility, which solves customer trust issues and enables you to take leadership in your industry. At datamysite, we specialise in securing high-impact PR coverage UAE that ensures your brand reaches the right audience through powerful storytelling and strategic media placements. -->
-                    </p>
-                    
-                    <br>
-                    <div class="row services gy-4">
-                        @foreach($subservices as $val)
-                          <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon flex-shrink-0"><i class="{{$val->icon}}" style="color: #f44d46;"></i></div>
-                            <div>
-                              <h4 class="title">{{$val->name}}</h4>
-                              <p class="description">{{$val->description}}</p>
-                              <a href="{{URL::to('/'.$service->slug.'/'.$val->slug)}}" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
-                            </div>
-                          </div>
-                          <!-- End Service Item -->
-                        @endforeach
-                    </div>
-
-                    <!-- Call to action -->
-                        @include('web.includes.elements.call-to-action')
-                    <!-- Call to action -->
-                    
-                    <h4>Our Public Relations (PR Coverage) Services</h4>
-                    <p>Here's what we offer: </p>
-                    <ol>
-                        <li><strong>Media Relations</strong>: Our team maintains powerful connections with prominent journalists as well as editors and influential media establishments that operate across the UAE. We aid in establishing brand placements in distinguished newspapers, prominent magazines, and digital outlets to expand your brand exposure considerably. Our expertise extends to Gulf News advertising Dubai and Khaleej Times PR coverage UAE, helping businesses gain premium visibility.</li>
-                        <li><strong>Press Release Writing & Distribution</strong>: We craft compelling press releases designed to capture media attention and generate extensive Public Relations (PR Coverage). Organisations receive enhanced brand awareness while boosting engagement when we transmit their press releases to specialised media institutions.</li>
-                        <li><strong>Crisis Communication</strong>: Reputation management is key. We provide crisis management expertise to control public perception and decrease negative exposure when unforeseen situations occur. The team accepts responsibility for safeguarding both your brand's integrity and its credibility.</li>
-                        <li><strong>Leadership & Executive Positioning</strong>: A quality PR initiative serves more than brand advertisement functions since it establishes executive leaders as industry influencers. Through interviews, opinion pieces, and guest articles in leading publications like Forbes PR campaigns GCC, we help establish authority in your industry.</li>
-                    </ol>
-
+                <div class="col-lg-7">
                     <h4>The Impact of Public Relations (PR Coverage)</h4>
-                    <p>Public Relations (PR Coverage) is the tangible outcome of a well-executed PR strategy. It includes:</p>
+                    <p>
+                        Public Relations (PR Coverage) is the tangible outcome of a well-executed PR strategy. It includes:
+                    </p>
                     <ul>
                         <li>News articles and blog mentions</li>
                         <li>Social media discussions and influencer endorsements</li>
@@ -419,11 +444,27 @@
                     <p>
                         Effective Public Relations (PR Coverage) can be measured through media reach, audience sentiment, and overall brand recognition. Businesses that develop appropriate strategies obtain enhanced credibility alongside market leadership capacity.
                     </p>
+                </div> 
+            </div>
 
+          </div>
+
+        </section>
+
+
+        <section id="service-cards" class="blog-section striped-section section why-us-section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row">
+
+                <div class="col-lg-9">
                     <h4>Why Choose Datamysite for Public Relations (PR Coverage)?</h4>
-                    <p>Below are a few reasons that make us stand out: <br>
-                    Expertise in the Dubai Market: We have in-depth knowledge of the region's media landscape as a leading PR agency in Dubai. By having solid media house relationships, our branding receives maximum visibility in the market.</p>
-
+                    <p>
+                        Below are a few reasons that make us stand out:
+                        <br>
+                        Expertise in the Dubai Market: We have in-depth knowledge of the region's media landscape as a leading PR agency in Dubai. By having solid media house relationships, our branding receives maximum visibility in the market.
+                    </p>
                     <ul>
                         <li><strong>Tailored Strategies</strong>: Our firm adjusts its PR strategies to meet the distinctive characteristics of each business. That's why we customise PR campaigns to align with your business objectives, whether you're looking for high-impact PR coverage UAE or niche audience targeting.</li>
                         <li><strong>Proven Track Record</strong>: Since 2021, datamysite has functioned continually as a leader in digital marketing and PR across the market. We've helped businesses across industries secure Public Relations (PR Coverage) in top-tier publications, enhancing their brand visibility and reputation.</li>
@@ -433,9 +474,28 @@
                     <p>
                         Datamysite combines regional insights and worldwide PR techniques to deliver strong outcomes for brands. Let's connect and discuss how we can drive Public Relations (PR Coverage) success for your business. Contact us today at (+971) 42 957 001.
                     </p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="{{URL::to('/public/assets/img/why-us.png')}}" width="100%" alt="Why choose us">
+                </div> 
+            </div>
+
+          </div>
+
+        </section>
 
 
-                    <br><br>
+        <section id="service-cards" class="blog-section section faq-new-section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row">
+
+                <div class="col-lg-4">
+                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
+                </div> 
+                <div class="col-lg-1"></div>
+                <div class="col-lg-7">
                     <h4>FAQs</h4>
                     <div class="faq " id="accordion">
                         <div class="card">
@@ -495,14 +555,18 @@
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
             </div>
 
           </div>
 
         </section>
 
+
     </main>
 
+@endsection
+
+@section('addScript')
 
 @endsection

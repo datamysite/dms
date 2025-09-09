@@ -255,6 +255,9 @@
 	.ads-main-section h4 {
 	    line-height: 32px;
 	}
+	.case-studies-section .case-studies-img-even {
+        margin-top: 0px;
+    }
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
