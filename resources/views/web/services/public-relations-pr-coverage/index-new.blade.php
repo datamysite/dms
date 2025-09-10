@@ -180,9 +180,6 @@
         .case-studies-section h5 span {
             color: #e04a43;
         }
-        .case-studies-section .case-studies-img-even {
-            margin-top: 45px;
-        }
 
         .case-studies-section a:hover h5 {
             box-shadow: 0 0 18px rgb(0 0 0 / .2);
@@ -204,6 +201,110 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+        }
+
+
+        .pub-item {
+            display: flex;
+            flex-direction: column;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            margin-bottom: 26px;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .pub-item .pub-item-img {
+            width: 100%;   /* square size */
+             height: 120px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              overflow: hidden;
+              background-color: #fff;
+        }
+        .pub-item .pub-item-img img{
+          width: 65%;
+          height: 65%;
+          object-fit: contain;
+        }
+        .pub-item a {
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .pub-item a h5 {
+            font-size: 12px;
+            padding: 14px 0px;
+            margin: 0;
+        }
+        .publications-logos {
+            height: 360px;
+            overflow: hidden;
+        }
+        .pub-see-more {
+            text-align: center;
+            padding: 70px 0 35px 0;
+            margin-top: -103px;
+            position: relative;
+            background-image: linear-gradient(#ffffff21, #ffffffd1, #fffffff7, #ffffff);
+        }
+        .pub-see-more button, .see-all-btn {
+            border: none;
+            background-color: #e04a43;
+            color: #fff !important;
+            padding: 4px 18px;
+            border-radius: 5px;
+        }
+
+        .blog-portrait-card .popular-card {
+            border-bottom: 1px solid rgb(0 0 0 / 20%);
+            padding-bottom: 8px;
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+        }
+        .blog-portrait-card .popular-card .card-image {
+            height: 200px;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            margin-right: 8px;
+        }
+        .blog-portrait-card .popular-card img {
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 200px;
+        }
+        .blog-card-body .popular-card .popular-text {
+            flex-basis: 90%;
+        }
+        .blog-portrait-card .popular-card .popular-text h6 {
+            font-weight: 600;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+        }
+        .blog-portrait-card .popular-card .popular-text p {
+            font-size: 11px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            margin-bottom: 2px;
+        }
+        .blog-portrait-card .popular-card .popular-text small {
+            font-size: 9px;
+        }
+        .blog-portrait-card a {
+            color: #6F8BA4;
+            text-align: left;
+        }
+        .pr-blog-sub {
+            font-size: 44px;
+            margin: -24px 0px 0 0px;
+            font-weight: 500;
         }
     </style>
 @endsection
@@ -257,7 +358,7 @@
 
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
                     <h4>Public Relations (PR) Coverage</h4>
-                    <p>In today's digital world, securing Public Relations (PR Coverage) is crucial for businesses aiming to build credibility and authority. Your brand benefits from increased visibility, which solves customer trust issues and enables you to take leadership in your industry. At datamysite, we specialise in securing high-impact <strong>30 Media houses</strong>, PR coverage UAE that ensures your brand reaches the right audience through powerful storytelling and strategic media placements.</p>
+                    <p>In today's digital world, securing Public Relations (PR Coverage) is crucial for businesses aiming to build credibility and authority. Your brand benefits from increased visibility, which solves customer trust issues and enables you to take leadership in your industry. At datamysite, we specialise in securing high-impact <strong>30+ Media houses</strong>, PR coverage UAE that ensures your brand reaches the right audience through powerful storytelling and strategic media placements.</p>
                 </div>
                 <div class="col-lg-6">
                     <iframe width="100%" height="400" src="https://www.youtube.com/embed/lCs7PpWb05k?si=VJfsZWD2cXKlaHxm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -291,6 +392,37 @@
         </section>
 
 
+
+
+
+        <section id="testimonials" class="testimonials section">
+            <!-- Section Title -->
+          <div class="container section-title" style="padding-bottom: 15px;">
+            <h2 class="text-theme">Available Publications</h2>
+          </div><!-- End Section Title -->
+          <div class="container">
+            <div class="row publications-logos">
+                @foreach($publications as $val)
+                    <div class="col-lg-2">
+                        <div class="pub-item">
+                            <a href="{{$val->link}}" target="_blank" rel="nofollow">
+                                <div class="pub-item-img">
+                                    <img src="{{URL::to('/public/publications/'.$val->image)}}" alt="{{$val->name}} Logo">
+                                </div>
+                            </a>
+                            <a href="{{$val->link}}" target="_blank" rel="nofollow">
+                                <h5>{{$val->name}}</h5>
+                            </a>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+            <div class="pub-see-more">
+                <button>See More</button>
+            </div>
+          </div>
+
+        </section>
 
 
 
@@ -355,19 +487,19 @@
                 <div class="col-lg-3">
                     <a href="{{URL::to('/public/case-studies/lenskart.pdf')}}" target="_blank" class="open-case-study">
                         <img src="{{URL::to('/public/case-studies/lenskart.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
-                        <h5><span>Dubai Duty Free</span> x <span>DMS</span> |  Case Study</h5>
+                        <h5><span>Lenskart</span> x <span>DMS</span> |  Case Study</h5>
                     </a>
                 </div>
                 <div class="col-lg-3">
                     <a href="{{URL::to('/public/case-studies/danube.pdf')}}" target="_blank" class="open-case-study">
                         <img src="{{URL::to('/public/case-studies/danube.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
-                        <h5><span>Dubai Duty Free</span> x <span>DMS</span> |  Case Study</h5>
+                        <h5><span>Danube</span> x <span>DMS</span> |  Case Study</h5>
                     </a>
                 </div>
                 <div class="col-lg-3">
                     <a href="{{URL::to('/public/case-studies/ksa.pdf')}}" target="_blank" class="open-case-study">
                         <img src="{{URL::to('/public/case-studies/ksa.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
-                        <h5><span>Dubai Duty Free</span> x <span>DMS</span> |  Case Study</h5>
+                        <h5><span>KSA Influencers</span> x <span>DMS</span> |  Case Study</h5>
                     </a>
                 </div>
             </div>
@@ -484,6 +616,39 @@
 
         </section>
 
+
+
+
+        <section id="service-cards" class="blog-section section pr-blogs-section">
+
+          <div class="container section-title">
+            <h2 class="text-theme">Blogs</h2>
+            <p class="pr-blog-sub">What’s Going On in the Industry?</p>
+            <div class="row gy-4 blog-portrait-card first-row">
+                @foreach($blogs as $val)
+                    <div class="col-lg-4">
+                        <a href="{{route('blogs.detail', [$val->slug])}}">
+                          <div class="popular-card blog-card-2 flex-grow-1" bis_skin_checked="1">
+                            <div class="card-image" bis_skin_checked="1">
+                              <img src="{{URL::to('public/storage/blogs/'.$val->banner)}}" alt="{{$val->banner_alt}}">
+                            </div>
+                            <div class="popular-text" bis_skin_checked="1">
+                              <h6 class="mt-2" title="{{$val->heading}}">{{$val->heading}}</h6>
+                              <p class="line-break-3">{{$val->short_description}}</p>
+                              <small>by <font class="text-theme2">{{$val->author->name}}</font> - <font class="text-bold">{{date('F d, Y', strtotime($val->created_at))}}</font></small>
+                            </div>
+                          </div>
+                        </a>
+                    </div>
+                @endforeach
+                <div class="col-lg-12">
+                    <a href="{{URL::to('/blogs/pr-and-media-relations')}}" class="see-all-btn" target="_blank">See All Blogs</a>
+                </div>
+            </div>
+
+          </div>
+
+        </section>
 
         <section id="service-cards" class="blog-section section faq-new-section">
 

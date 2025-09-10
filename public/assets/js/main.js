@@ -22,6 +22,11 @@ var host = $("meta[name='home_url']").attr("content");
   });
 
 
+  $('.pub-see-more button').click(function(){
+    $('.pub-see-more').css({display: 'none'});
+    $('.publications-logos').css({height: 'auto'});
+  });
+
 
   $('.scroll-up').click(function(){
     window.scrollTo({ top: 0, behavior: 'smooth' });
