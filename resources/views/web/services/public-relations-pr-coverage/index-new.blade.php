@@ -306,6 +306,10 @@
             margin: -24px 0px 0 0px;
             font-weight: 500;
         }
+
+        .dark-background {
+            --background-color: #000000d1;
+        }
     </style>
 @endsection
 @section('content')
@@ -313,7 +317,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug.'.png')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$service->slug.'.jpg')}}');">
             <div class="container head-container-service">
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
