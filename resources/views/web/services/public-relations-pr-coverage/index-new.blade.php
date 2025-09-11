@@ -381,6 +381,9 @@
             .pub-item .pub-item-img{
                 height:     70px;
             }
+            .mob-not-visible{
+                display: none;
+            }
         }
 
         @media (max-width: 380px) {
@@ -434,9 +437,6 @@
             }
             .case-studies-section h5{
                 font-size: 10px;
-            }
-            .mob-not-visible{
-                display: none;
             }
             .m-footer-bg{
                 background-image: linear-gradient(#00000000, #00000045, #000000c2);
