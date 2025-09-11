@@ -325,7 +325,7 @@
                 font-weight: 600;
                 padding-right: 0px;
             }
-            .head-para-service h2 br {
+            .head-para-service br {
                 display: none;
             }
             .head-para-service p {
