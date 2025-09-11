@@ -319,7 +319,9 @@
 
 
         @media (max-width: 430px) {
-
+            .head-container-service {
+                margin-top: -65px;
+            }
             .head-para-service h2 {
                 font-size: 28px;
                 font-weight: 600;
