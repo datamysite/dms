@@ -69,6 +69,9 @@
             <div class="social-links d-flex mt-4">
               <a href="https://www.linkedin.com/company/datamysite/" aria-label="Linkedin"><i class="bi bi-linkedin"></i></a>
               <a href="https://www.instagram.com/datamysite/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.pinterest.com/DataMySiteDubai/_profile/" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
+              <a href="https://x.com/DataMySite" aria-label="Twitter X"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://www.youtube.com/@DataMySiteMarketing" aria-label="Youtube"><i class="bi bi-youtube"></i></a>
             </div>
           </div>
 
