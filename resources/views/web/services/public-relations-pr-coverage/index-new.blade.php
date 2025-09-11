@@ -10,6 +10,12 @@
             display: flex;
             align-items: center;
         }
+
+        .service-iframe{
+            width: 100%;
+            height: 400px;
+        }
+
         .head-para-service {
             display: flex;
             flex-direction: column;
@@ -290,7 +296,7 @@
             overflow: hidden;
             text-overflow: ellipsis;
             display: -webkit-box;
-            -webkit-line-clamp: 3;
+            -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
             margin-bottom: 2px;
         }
@@ -309,6 +315,158 @@
 
         .dark-background {
             --background-color: #000000d1;
+        }
+
+
+        @media (max-width: 430px) {
+
+            .head-para-service h2 {
+                font-size: 28px;
+                font-weight: 600;
+                padding-right: 0px;
+            }
+            .head-para-service p {
+                font-size: 14px;
+                padding-right: 0;
+            }
+            .head-para-service{
+                padding-right: 14px;
+            }
+            .service-iframe{
+                width: 100%;
+                height: 280px;
+            }
+            .case-studies-section h5{
+                font-size: 10px;
+            }
+            .mob-not-visible{
+                display: none;
+            }
+            .m-footer-bg{
+                background-image: linear-gradient(#00000000, #00000045, #000000c2);
+            }
+            section, .section{
+                    padding: 26px 0;
+            }
+            .logos-2:before, .logos-2:after{
+                width: 70px;
+            }
+            .logos:before, .logos:after{
+                width: 70px;
+            }
+            .pr-icon-section .col-lg-6 {
+                text-align: center;
+            }
+            .pr-blog-sub {
+                font-size: 18px;
+                margin: -12px 0px -10px 0px;
+            }
+            .faq .card .card-header .faq-title {
+                line-height: 22px;
+                font-size: 16px;
+            }
+            .faq .card .card-body{
+                line-height:    17px;
+            }
+            .faq .card .card-header .faq-title{
+                padding:    0 10px;
+            }
+
+            .col-sm-4 {
+                width: 33.3%;
+            }
+            .pub-item .pub-item-img{
+                height:     70px;
+            }
+        }
+
+        @media (max-width: 380px) {
+            body p, body ul li {
+                font-size: 12px;
+            }
+            .service-tp{
+                font-size:  12px !important;
+            }
+            .head-para-service h1 {
+                font-size: 10px;
+                color: #e04a43;
+            }
+            
+            .head-para-service h2 {
+                font-size: 18px;
+                font-weight: 600;
+                padding-right: 0px;
+            }
+            .head-para-service h2 br {
+                display: none;
+            }
+            .head-container-service .aside-form h3{
+                font-size: 16px;
+            }
+            .head-container-service .aside-form .btn {
+                font-size: 11px;
+            }
+            .head-container-service .col-lg-4 {
+                padding: 0 50px;
+            }
+            .head-container-service .form-control{
+                font-size: 12px;
+            }
+            .head-container-service .aside-form{
+                padding:    12px;
+            }
+            .head-para-service p {
+                font-size: 11px;
+                padding-right: 0;
+                margin-top: -24px;
+                text-align: center;
+            }
+            .head-para-service{
+                padding-right: 14px;
+                align-items: center;
+            }
+            .service-iframe{
+                width: 100%;
+                height: 280px;
+            }
+            .case-studies-section h5{
+                font-size: 10px;
+            }
+            .mob-not-visible{
+                display: none;
+            }
+            .m-footer-bg{
+                background-image: linear-gradient(#00000000, #00000045, #000000c2);
+            }
+            section, .section{
+                    padding: 26px 0;
+            }
+            .logos-2:before, .logos-2:after{
+                width: 70px;
+            }
+            .logos:before, .logos:after{
+                width: 70px;
+            }
+            .pr-icon-section .col-lg-6 {
+                text-align: center;
+            }
+            .pr-blog-sub {
+                font-size: 18px;
+                margin: -12px 0px -10px 0px;
+            }
+            .faq .card .card-header .faq-title{
+                line-height:    17px;
+                font-size:  12px;
+            }
+            .faq .card .card-body{
+                line-height:    17px;
+            }
+            .faq .card .card-header .faq-title{
+                padding:    0 10px;
+            }
+            .col-xs-6 {
+                width: 50%;
+            }
         }
     </style>
 @endsection
@@ -365,7 +523,7 @@
                     <p>In today's digital world, securing Public Relations (PR Coverage) is crucial for businesses aiming to build credibility and authority. Your brand benefits from increased visibility, which solves customer trust issues and enables you to take leadership in your industry. At datamysite, we specialise in securing high-impact <strong>30+ Media houses</strong>, PR coverage UAE that ensures your brand reaches the right audience through powerful storytelling and strategic media placements.</p>
                 </div>
                 <div class="col-lg-6">
-                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/WR2HoD0FpyM?si=Ba7ZxHCiRwpc1Hyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="service-iframe" src="https://www.youtube.com/embed/WR2HoD0FpyM?si=Ba7ZxHCiRwpc1Hyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="col-lg-6">
                     <div class="faq " id="accordion">
@@ -407,7 +565,7 @@
           <div class="container">
             <div class="row publications-logos">
                 @foreach($publications as $val)
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-sm-4 col-xs-6">
                         <div class="pub-item">
                             <a href="{{$val->link}}" target="_blank" rel="nofollow">
                                 <div class="pub-item-img">
@@ -482,25 +640,25 @@
           </div><!-- End Section Title -->
           <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <a href="{{URL::to('/public/case-studies/dubai-duty-free.pdf')}}" target="_blank" class="open-case-study">
                         <img src="{{URL::to('/public/case-studies/dubai-duty-free.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
                         <h5><span>Dubai Duty Free</span> x <span>DMS</span> |  Case Study</h5>
                     </a>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <a href="{{URL::to('/public/case-studies/lenskart.pdf')}}" target="_blank" class="open-case-study">
                         <img src="{{URL::to('/public/case-studies/lenskart.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
                         <h5><span>Lenskart</span> x <span>DMS</span> |  Case Study</h5>
                     </a>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <a href="{{URL::to('/public/case-studies/danube.pdf')}}" target="_blank" class="open-case-study">
                         <img src="{{URL::to('/public/case-studies/danube.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
                         <h5><span>Danube</span> x <span>DMS</span> |  Case Study</h5>
                     </a>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <a href="{{URL::to('/public/case-studies/ksa.pdf')}}" target="_blank" class="open-case-study">
                         <img src="{{URL::to('/public/case-studies/ksa.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
                         <h5><span>KSA Influencers</span> x <span>DMS</span> |  Case Study</h5>
@@ -611,7 +769,7 @@
                         Datamysite combines regional insights and worldwide PR techniques to deliver strong outcomes for brands. Let's connect and discuss how we can drive Public Relations (PR Coverage) success for your business. Contact us today at (+971) 42 957 001.
                     </p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 mob-not-visible">
                     <img src="{{URL::to('/public/assets/img/why-us.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
@@ -671,7 +829,7 @@
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">1</span>How long does it take to see results from Public Relations (PR Coverage)?
+                                        <span class="badge">&nbsp;</span>How long does it take to see results from Public Relations (PR Coverage)?
                                     </h5>
                                 </div>
                             </div>
@@ -685,7 +843,7 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">2</span>What types of businesses benefit from PR services?
+                                        <span class="badge">&nbsp;</span>What types of businesses benefit from PR services?
                                     </h5>
                                 </div>
                             </div>
@@ -699,7 +857,7 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">3</span>Can you help with both traditional and digital PR?
+                                        <span class="badge">&nbsp;</span>Can you help with both traditional and digital PR?
                                     </h5>
                                 </div>
                             </div>
@@ -713,7 +871,7 @@
                             <div class="card-header" id="faqHeading-4">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                        <span class="badge">4</span>How do you track the success of a PR campaign?
+                                        <span class="badge">&nbsp;</span>How do you track the success of a PR campaign?
                                     </h5>
                                 </div>
                             </div>
