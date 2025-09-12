@@ -318,6 +318,32 @@
         }
 
 
+        @media (max-width: 768px) {
+            .head-container-service {
+                margin-top: -65px;
+            }
+            .head-para-service h2 {
+                font-size: 32px;
+                font-weight: 600;
+                padding-right: 0px;
+            }
+            .head-para-service br {
+                display: none;
+            }
+            .head-para-service p {
+                font-size: 18px;
+                padding-right: 0;
+            }
+           
+            .pr-icon-section .col-lg-6 {
+                text-align: center;
+            }
+            .mob-not-visible{
+                display: none;
+            }
+        }
+
+
         @media (max-width: 430px) {
             .head-container-service {
                 margin-top: -65px;
