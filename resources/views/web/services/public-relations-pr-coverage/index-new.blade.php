@@ -1,6 +1,6 @@
 @extends('web.includes.master')
 @section('metaAddition')
-    <meta name="robots" content="noindex, follow">
+    
 @endsection
 @section('addStyle')
     <style>
