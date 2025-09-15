@@ -127,56 +127,7 @@
         }
 
 
-        @keyframes slides2 {
-          from {
-            transform: translateX(-90%);
-          }
-          to {
-            transform: translateX(0);
-          }
-        }
-
-        .logos-2 {
-          overflow: hidden;
-          padding: 30px 0px;
-          white-space: nowrap;
-          position: relative;
-        }
-
-        .logos-2:before, .logos-2:after {
-          position: absolute;
-          top: 0;
-          content: '';
-          width: 250px;
-          height: 100%;
-          z-index: 2;
-        }
-
-        .logos-2:before {
-          left: 0;
-          background: linear-gradient(to left, rgba(255,255,255,0), rgb(244 244 244));
-        }
-
-        .logos-2:after {
-          right: 0;
-          background: linear-gradient(to right, rgba(255,255,255,0), rgb(244 244 244));
-        }
-
-        .logo_items-2 {
-          display: inline-block;
-          animation: 35s slides2 infinite linear;
-        }
-
-        .logos-2:hover .logo_items-2 {
-          animation-play-state: paused;
-        }
-
-        .logo_items-2 img{
-          height: 32px;
-        }
-
-
-
+       
         .case-studies-section h5 {
             font-size: 14px;
             padding: 8px 0;
@@ -317,6 +268,11 @@
             --background-color: #000000d1;
         }
 
+        .section-divider{
+            width: 60%;
+            margin: auto;
+        }
+
 
         @media (max-width: 768px) {
             .head-container-service {
@@ -412,6 +368,10 @@
             .mob-not-visible{
                 display: none;
             }
+            .section-divider{
+                width: 80%;
+                margin: auto;
+            }
         }
 
         @media (max-width: 380px) {
@@ -435,7 +395,7 @@
                 display: none;
             }
             .head-container-service .aside-form h3{
-                font-size: 16px;
+                font-size: 10px;
             }
             .head-container-service .aside-form .btn {
                 font-size: 11px;
@@ -444,7 +404,7 @@
                 padding: 0 50px;
             }
             .head-container-service .form-control{
-                font-size: 12px;
+                font-size: 10px;
             }
             .head-container-service .aside-form{
                 padding:    12px;
@@ -452,7 +412,7 @@
             .head-para-service p {
                 font-size: 11px;
                 padding-right: 0;
-                margin-top: -24px;
+                margin-top: 0px;
                 text-align: center;
             }
             .head-para-service{
@@ -497,6 +457,34 @@
             }
             .col-xs-6 {
                 width: 50%;
+            }
+        }
+
+
+        .slider {
+            display: flex;
+            width: 100%;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 2.5rem;
+        }
+        .item {
+            animation: animate 35s linear infinite;
+        }
+        .item img
+            {
+                width: 200px;
+                padding: 0 20px;
+            }
+        .slider:hover .item {
+            animation-play-state: paused;
+        }
+        @keyframes animate {
+            0% {
+                transform: translate3d(0, 0, 0);
+            }
+            100% {
+                transform: translate3d(-2200px, 0, 0);
             }
         }
     </style>
@@ -585,7 +573,7 @@
         </section>
 
 
-
+        <hr  class="section-divider">
 
 
         <section id="testimonials" class="testimonials section">
@@ -629,31 +617,48 @@
           </div><!-- End Section Title -->
           <div class="container">
             <div class="row client-logos-block">
-                <div class="logos">
+                <div class="slider">
+                    @for($i = 1; $i<=11; $i++)
+                        <div class="item"><a href=""><img alt="logo" src="{{URL::to('/public/assets/img/clients/'.$i.'.png')}}"></a></div>
+                    @endfor
+                    @for($i = 1; $i<=11; $i++)
+                        <div class="item"><a href=""><img alt="logo" src="{{URL::to('/public/assets/img/clients/'.$i.'.png')}}"></a></div>
+                    @endfor
+                </div>
+                <div class="slider">
+                    @for($i = 12; $i<=23; $i++)
+                        <div class="item"><a href=""><img alt="logo" src="{{URL::to('/public/assets/img/clients/'.$i.'.png')}}"></a></div>
+                    @endfor
+                    @for($i = 12; $i<=23; $i++)
+                        <div class="item"><a href=""><img alt="logo" src="{{URL::to('/public/assets/img/clients/'.$i.'.png')}}"></a></div>
+                    @endfor
+                </div>
+
+                <!-- <div class="logos">
                     <div class="logo_items">
-                        @for($i = 1; $i<=23; $i++)
+                        @for($i = 1; $i<=11; $i++)
                             <img src="{{URL::to('/public/assets/img/clients/'.$i.'-min.png')}}" class="" height="45px" alt="Clients Logo {{$i}}" loading="lazy">
                         @endfor
                     </div>
                     <div class="logo_items">
-                        @for($i = 1; $i<=23; $i++)
+                        @for($i = 1; $i<=11; $i++)
                             <img src="{{URL::to('/public/assets/img/clients/'.$i.'-min.png')}}" class="" height="45px" alt="Clients Logo {{$i}}" loading="lazy">
                         @endfor
                     </div>
                 </div>
 
-                <div class="logos-2">
-                    <div class="logo_items-2">
-                        @for($i = 23; $i>=1; $i--)
+                <div class="logos">
+                    <div class="logo_items">
+                        @for($i = 11; $i<=23; $i++)
                             <img src="{{URL::to('/public/assets/img/clients/'.$i.'-min.png')}}" class="" height="45px" alt="Clients Logo {{$i}}" loading="lazy">
                         @endfor
                     </div>
-                    <div class="logo_items-2">
-                        @for($i = 23; $i>=1; $i--)
+                    <div class="logo_items">
+                        @for($i = 11; $i<=23; $i++)
                             <img src="{{URL::to('/public/assets/img/clients/'.$i.'-min.png')}}" class="" height="45px" alt="Clients Logo {{$i}}" loading="lazy">
                         @endfor
                     </div>
-                </div>
+                </div> -->
             </div>
           </div>
 
