@@ -12,7 +12,7 @@
 	      	<div class="row client-logos-block">
 	      		@for($i = 1; $i<=23; $i++)
 		            <div class="col-lg-1 client-logos">
-		            	<img src="{{URL::to('/public/assets/img/clients/'.$i.'-min.png')}}" class="" height="45px" alt="Clients Logo {{$i}}" loading="lazy">
+		            	<img src="{{URL::to('/public/assets/img/clients/'.$i.'.png')}}" class="" height="45px" alt="Clients Logo {{$i}}" loading="lazy">
 		            </div><!-- End testimonial item -->
 	            @endfor
 	      	</div>
