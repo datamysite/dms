@@ -1,5 +1,21 @@
 @extends('web.includes.master')
-
+@section('addStyle')
+    <style>
+        .faq .card .card-body {
+            padding: 10px;
+            padding-left: 18px;
+            padding-bottom: 2px;
+        }
+        .faq .card .card-body p {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .faq .card .card-header .faq-title {
+            padding: 14px 16px !important;
+            margin-bottom: 0;
+        }
+    </style>
+@endsection
 @section('content')
 
 	<main class="main">
@@ -12,40 +28,66 @@
 
 	        <div class="row gy-4 first-row">
 
-	          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                <h3>Driving Impactful Brand Visibility Since 2021</h3>
-                <hr>
-	          	<p>
-                    Founded in 2021 and proudly based in <strong>Dubai, UAE, DataMySite</strong> is a full-service marketing and media agency that specializes in high-impact advertising solutions designed to cut through the noise. We are experts in <strong>brand storytelling, experiential marketing</strong>, and <strong>multi-channel media execution</strong> that ensures your brand doesn’t just participate in the conversation — it leads it.
+	           <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Driving Impactful Brand Visibility Since 2021</h3>
+                    <hr>
+                </div>
+                <div class="col-lg-6">
+    	          	<p>
+                        Founded in 2021 and proudly based in <strong>Dubai, UAE, DataMySite</strong> is a full-service marketing and media agency that specializes in high-impact advertising solutions designed to cut through the noise. We are experts in <strong>brand storytelling, experiential marketing</strong>, and <strong>multi-channel media execution</strong> that ensures your brand doesn’t just participate in the conversation — it leads it.
 
-                    <br><br>
+                        <br><br>
 
-                    From large-scale <strong>outdoor campaigns</strong> to cutting-edge <strong>digital innovations</strong>, and from <strong>influencer engagement</strong> to <strong>PR coverage in top-tier media</strong>, DataMySite is your strategic partner for growth in a fast-paced, attention-driven world.
-                </p>
-                <br>
-                <div class="row">
-                    <div class="col-lg-4 about-points about-line">
-                        <img src="{{URL::to('/public/mission.png')}}" class="about-icon" alt="Our Mission">
-                        <h3>Mission</h3>
-                        <p>
-                            To <strong>deliver measurable, innovative, and brand-aligned marketing solutions</strong> that elevate visibility, spark engagement, and drive results across physical and digital channels.
-                        </p>
-                    </div>
-                    <div class="col-lg-4 about-points about-line">
-                        <img src="{{URL::to('/public/vision.png')}}" class="about-icon" alt="Our Vision">
-                        <h3>Vision</h3>
-                        <p>
-                            To become the most trusted and innovative <strong>marketing partner</strong> for brands across the UAE and beyond — providing creativity, strategy, and execution under one roof.
-                        </p>
-                    </div>
-                    <div class="col-lg-4 about-points">
-                        <img src="{{URL::to('/public/values.png')}}" class="about-icon" alt="Our Values">
-                        <h3>Values</h3>
-                        <p>
-                            We value <strong>creativity, integrity, innovation,</strong> and <strong>results—empowering</strong> brands to connect, engage, and grow through bold ideas and strategic execution.
-                        </p>
+                        From large-scale <strong>outdoor campaigns</strong> to cutting-edge <strong>digital innovations</strong>, and from <strong>influencer engagement</strong> to <strong>PR coverage in top-tier media</strong>, DataMySite is your strategic partner for growth in a fast-paced, attention-driven world.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="faq " id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-1">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+                                        <span class="badge">&nbsp;</span>Mission
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>To <strong>deliver measurable, innovative, and brand-aligned marketing solutions</strong> that elevate visibility, spark engagement, and drive results across physical and digital channels.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-2">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                        <span class="badge">&nbsp;</span>Vision
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>To become the most trusted and innovative <strong>marketing partner</strong> for brands across the UAE and beyond — providing creativity, strategy, and execution under one roof.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-3">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                        <span class="badge">&nbsp;</span>Values
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>We value <strong>creativity, integrity, innovation,</strong> and <strong>results—empowering</strong> brands to connect, engage, and grow through bold ideas and strategic execution.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <br>
 	          </div><!-- End Card Item -->
 
 	        </div>
@@ -54,6 +96,151 @@
 
 	    </section>
 
+
+        <div class="section-striped">
+                @include('web.includes.elements.clients')
+            </div>
+
+
+
+
+         <!-- Service Cards Section -->
+        <section id="service-cards" class="service-cards section">
+            <!-- Section Title -->
+          <div class="container section-title">
+            <h2 class="text-theme">Our Successful Projects</h2>
+            <p class="service-tp">
+                At <strong>DataMySite</strong>, we deliver impactful marketing campaigns across <strong>billboards ads</strong>, DOOH, influencer marketing, PR Coverage, <strong>lead generation</strong>, <strong>event marketing</strong>, and <strong>sponsorships</strong>, driving real business success and measurable results. 
+                        <br>
+                        Let's make your brand our next success! 
+
+            </p>
+          </div><!-- End Section Title -->
+          <div class="container">
+
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-xs-6">
+                    <div class="counter-container">
+                        <div>
+                                  <div class="counter">1219</div>
+                                  <div><label>+</label></div>
+                                </div>
+                              <span>Succesful Project</span>
+                            </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-xs-6">
+                    <div class="counter-container">
+                        <div>
+                                  <div class="counter">15</div>
+                                  <div><label>+</label></div>
+                                </div>
+                              <span>Years Experience</span>
+                            </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-xs-6">
+                    <div class="counter-container">
+                        <div>
+                                  <div class="counter">5</div>
+                                  <div><label>+</label></div>
+                                </div>
+                              <span>Winning Awards</span>
+                            </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-xs-6">
+                    <div class="counter-container">
+                        <div>
+                                  <div class="counter">81</div>
+                                  <div><label>+</label></div>
+                                </div>
+                              <span>Satisfied Clients</span>
+                            </div>
+                </div>
+            </div>
+
+          </div>
+
+        </section><!-- /Service Cards Section -->
+
+
+
+
+        <section id="testimonials" class="testimonials section-striped case-studies-section section">
+            <!-- Section Title -->
+          <div class="container section-title" style="padding-bottom: 15px;">
+            <h2 class="text-theme">Case Studies</h2>
+            <p class="service-tp">
+                At <strong>DataMySite</strong>, we believe in transparency and trust. Sharing case studies allows us to demonstrate the tangible impact of our marketing and advertising solutions.
+            </p>
+          </div><!-- End Section Title -->
+          <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <a href="{{URL::to('/public/case-studies/dubai-duty-free.pdf')}}" target="_blank" class="open-case-study">
+                        <img src="{{URL::to('/public/case-studies/dubai-duty-free.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
+                        <h5><span>Dubai Duty Free</span> x <span>DMS</span> |  Case Study</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="{{URL::to('/public/case-studies/lenskart.pdf')}}" target="_blank" class="open-case-study">
+                        <img src="{{URL::to('/public/case-studies/lenskart.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
+                        <h5><span>Lenskart</span> x <span>DMS</span> |  Case Study</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="{{URL::to('/public/case-studies/danube.pdf')}}" target="_blank" class="open-case-study">
+                        <img src="{{URL::to('/public/case-studies/danube.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
+                        <h5><span>Danube</span> x <span>DMS</span> |  Case Study</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="{{URL::to('/public/case-studies/ksa.pdf')}}" target="_blank" class="open-case-study">
+                        <img src="{{URL::to('/public/case-studies/ksa.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
+                        <h5><span>KSA Influencers</span> x <span>DMS</span> |  Case Study</h5>
+                    </a>
+                </div>
+            </div>
+          </div>
+
+        </section>
+
+
+        
+
+        <section id="service-cards" class="about-section section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row">
+
+              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img src="{{URL::to('/public/about.jpg')}}" width="100%" alt="Why Brands Choose DMS">
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>Why Brands Choose DataMySite</h3>
+                        <ul>
+                            <li>Multi-channel expertise in both traditional and digital media</li>
+                            <li>Access to premium media networks across the MENA region</li>
+                            <li>Strategic, creative, and executional excellence under one roof</li>
+                            <li>Proven results with clients across multiple sectors</li>
+                        </ul>
+                        <p>
+                            We don’t just launch campaigns — we create memorable brand experiences that move audiences and generate measurable outcomes.
+                        </p>
+
+                    </div>
+                </div>
+              </div><!-- End Card Item -->
+
+            </div>
+
+          </div>
+
+        </section>
 
 
         <section id="service-cards" class="about-section section section-striped about-service">
@@ -192,39 +379,6 @@
         </section>
 
 
-
-        <section id="service-cards" class="about-section section">
-
-          <div class="container">
-
-            <div class="row gy-4 first-row">
-
-              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <img src="{{URL::to('/public/about.jpg')}}" width="100%" alt="Why Brands Choose DMS">
-                    </div>
-                    <div class="col-lg-7">
-                        <h3>Why Brands Choose DataMySite</h3>
-                        <ul>
-                            <li>Multi-channel expertise in both traditional and digital media</li>
-                            <li>Access to premium media networks across the MENA region</li>
-                            <li>Strategic, creative, and executional excellence under one roof</li>
-                            <li>Proven results with clients across multiple sectors</li>
-                        </ul>
-                        <p>
-                            We don’t just launch campaigns — we create memorable brand experiences that move audiences and generate measurable outcomes.
-                        </p>
-
-                    </div>
-                </div>
-              </div><!-- End Card Item -->
-
-            </div>
-
-          </div>
-
-        </section>
 
 
 
