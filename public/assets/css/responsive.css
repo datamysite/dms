@@ -329,6 +329,10 @@
     .case-studies-section h5{
         font-size: 10px;
     }
+    .pr-blog-sub {
+        font-size: 18px;
+        margin: -12px 0px -10px 0px;
+    }
 
 }
 @media (max-width: 390px) {
