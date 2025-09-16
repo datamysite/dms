@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Categories;
 use App\Models\Services;
+use App\Models\Blogs;
 
 class WebController extends Controller
 {
@@ -15,10 +16,10 @@ class WebController extends Controller
         
         return view('web.index')->with($data);
     }
-    public function index_beta(){
+    public function indexNew(){
         $data['nav'] = 'home';
-        $data['services'] = Services::where('parent_id', '0')->get();
         $data['sub_footer'] = 'visible';
+        $data['blogs'] = Blogs::where('category_id', '6')->orderBy('created_at', 'desc')->limit(3)->get();
         
         return view('web.index-beta')->with($data);
     }

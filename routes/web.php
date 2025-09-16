@@ -18,6 +18,7 @@ Route::get('/update-sitemap', function () {
 
 Route::namespace('App\Http\Controllers\web')->group(function(){
     Route::get('/', 'WebController@index')->name('home');
+    Route::get('/home-new', 'WebController@indexNew');
     //Route::get('/beta', 'WebController@index_beta');
     Route::get('/services', 'WebController@services')->name('services');
     Route::get('/faq', 'WebController@faq')->name('faq');
@@ -45,7 +46,6 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
 
         Route::prefix('public-relations-pr-coverage')->group(function(){
             Route::get('/', 'ServiceController@prCoverage');
-            /*Route::get('/new', 'ServiceController@prCoverageNew');*/
             Route::get('/gulf-news', 'ServiceController@prCoverageGulfNews');
             Route::get('/forbes', 'ServiceController@prCoverageForbes');
             Route::get('/khaleej-time', 'ServiceController@prCoverageKhaleejTime');

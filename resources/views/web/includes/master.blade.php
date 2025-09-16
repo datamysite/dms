@@ -56,8 +56,11 @@
   @include('web.includes.footer')
 
   <div class="m-footer-bg"></div>
+  
   <a href="https://api.whatsapp.com/send/?phone=971525287259" aria-label="Whatsapp Chat" id="whatsapp-chat" class="whatsapp-chat" target="_blank">
-    <img src="{{URL::to('/public/whatsapp-new.gif')}}" alt="Whatsapp Chat">
+    <div class="whatsapp-icon-position">
+      <img src="{{URL::to('/public/whatsapp-icon.png')}}" alt="Whatsapp Chat">
+    </div>
   </a>
 
   <div class="modal fade" id="newsletter-modal-u" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

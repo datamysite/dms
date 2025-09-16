@@ -5,6 +5,20 @@ var host = $("meta[name='home_url']").attr("content");
   "use strict";
 
 
+
+  $(".home-service-btn button").click(function() {
+
+      document.getElementById("services").scrollIntoView({ behavior: "smooth" });
+      
+  });
+
+  $(".home-service-mob-btn button").click(function() {
+
+      document.getElementById("services").scrollIntoView({ behavior: "smooth" });
+      
+  });
+
+
   $.get(host+"/get-aside", function(data, status){
       $('.aside-block').html(data);
       
@@ -20,6 +34,7 @@ var host = $("meta[name='home_url']").attr("content");
         hiddenInput.value = fullNumber;
       });
   });
+
 
 
   $('.pub-see-more button').click(function(){

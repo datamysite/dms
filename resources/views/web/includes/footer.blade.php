@@ -76,7 +76,7 @@
           </div>
 
           <div class="col-lg-4 col-md-12 footer-contact text-center text-md-start" style="padding: 30px 20px;">
-            <h4>Subscribe Our Newsletter</h4>
+            <h4 class="mb-0">Subscribe Our Newsletter</h4>
             <p>Sign up now and get the edge!</p>
             <form id="newsletterForm" action="{{route('newsletter.subscribe')}}">
               @csrf
@@ -103,8 +103,7 @@
                 </a>
               </p>
               <p>
-                <i class="bi bi-pin-map"></i> 
-                Office - 205, Al Bayan Building, Dubai Investment Park, Dubai - UAE
+                <i class="bi bi-pin-map mr-m4"></i>Office - 205, Al Bayan Building, Dubai Investment Park, Dubai - UAE
               </p>
             </div>
           </div>
