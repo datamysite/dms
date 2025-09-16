@@ -1592,3 +1592,32 @@
 .striped-section {
     background-color: #d5d5d542;
 }
+
+
+
+.slider {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 2.5rem;
+}
+.item {
+    animation: animate 35s linear infinite;
+}
+.item img
+    {
+        width: 200px;
+        padding: 0 20px;
+    }
+.slider:hover .item {
+    animation-play-state: paused;
+}
+@keyframes animate {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-2200px, 0, 0);
+    }
+}

@@ -9,13 +9,24 @@
 	        </p>
 	      </div><!-- End Section Title -->
 	      <div class="container">
-	      	<div class="row client-logos-block">
-	      		@for($i = 1; $i<=23; $i++)
-		            <div class="col-lg-1 col-sm-6 client-logos">
-		            	<img src="{{URL::to('/public/assets/img/clients/'.$i.'.png')}}" class="" height="45px" alt="Clients Logo {{$i}}" loading="lazy">
-		            </div><!-- End testimonial item -->
-	            @endfor
-	      	</div>
-	      </div>
+            <div class="row client-logos-block">
+                <div class="slider">
+                    @for($i = 1; $i<=11; $i++)
+                        <div class="item"><a href=""><img alt="logo" src="{{URL::to('/public/assets/img/clients/'.$i.'.png')}}"></a></div>
+                    @endfor
+                    @for($i = 1; $i<=11; $i++)
+                        <div class="item"><a href=""><img alt="logo" src="{{URL::to('/public/assets/img/clients/'.$i.'.png')}}"></a></div>
+                    @endfor
+                </div>
+                <div class="slider">
+                    @for($i = 12; $i<=23; $i++)
+                        <div class="item"><a href=""><img alt="logo" src="{{URL::to('/public/assets/img/clients/'.$i.'.png')}}"></a></div>
+                    @endfor
+                    @for($i = 12; $i<=23; $i++)
+                        <div class="item"><a href=""><img alt="logo" src="{{URL::to('/public/assets/img/clients/'.$i.'.png')}}"></a></div>
+                    @endfor
+                </div>
+            </div>
+          </div>
 
 	    </section><!-- /Testimonials Section -->

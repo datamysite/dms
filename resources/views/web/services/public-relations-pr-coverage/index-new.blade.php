@@ -459,34 +459,6 @@
                 width: 50%;
             }
         }
-
-
-        .slider {
-            display: flex;
-            width: 100%;
-            margin: 0 auto;
-            overflow: hidden;
-            padding: 2.5rem;
-        }
-        .item {
-            animation: animate 35s linear infinite;
-        }
-        .item img
-            {
-                width: 200px;
-                padding: 0 20px;
-            }
-        .slider:hover .item {
-            animation-play-state: paused;
-        }
-        @keyframes animate {
-            0% {
-                transform: translate3d(0, 0, 0);
-            }
-            100% {
-                transform: translate3d(-2200px, 0, 0);
-            }
-        }
     </style>
 @endsection
 @section('content')
@@ -633,32 +605,6 @@
                         <div class="item"><a href=""><img alt="logo" src="{{URL::to('/public/assets/img/clients/'.$i.'.png')}}"></a></div>
                     @endfor
                 </div>
-
-                <!-- <div class="logos">
-                    <div class="logo_items">
-                        @for($i = 1; $i<=11; $i++)
-                            <img src="{{URL::to('/public/assets/img/clients/'.$i.'-min.png')}}" class="" height="45px" alt="Clients Logo {{$i}}" loading="lazy">
-                        @endfor
-                    </div>
-                    <div class="logo_items">
-                        @for($i = 1; $i<=11; $i++)
-                            <img src="{{URL::to('/public/assets/img/clients/'.$i.'-min.png')}}" class="" height="45px" alt="Clients Logo {{$i}}" loading="lazy">
-                        @endfor
-                    </div>
-                </div>
-
-                <div class="logos">
-                    <div class="logo_items">
-                        @for($i = 11; $i<=23; $i++)
-                            <img src="{{URL::to('/public/assets/img/clients/'.$i.'-min.png')}}" class="" height="45px" alt="Clients Logo {{$i}}" loading="lazy">
-                        @endfor
-                    </div>
-                    <div class="logo_items">
-                        @for($i = 11; $i<=23; $i++)
-                            <img src="{{URL::to('/public/assets/img/clients/'.$i.'-min.png')}}" class="" height="45px" alt="Clients Logo {{$i}}" loading="lazy">
-                        @endfor
-                    </div>
-                </div> -->
             </div>
           </div>
 

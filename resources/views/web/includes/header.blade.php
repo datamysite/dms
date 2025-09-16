@@ -19,7 +19,7 @@
       <a href="{{route('home')}}" class="logo d-flex align-items-center" aria-label="Home">
         <img src="{{URL::to('/public')}}/assets/img/logo.png" alt="Logo">
       </a>
-      <a href="tel:971525287259" class="m-phone-link"><i class="bi bi-telephone"></i>&nbsp; +971 525 287 259</a>
+      <a href="https://api.whatsapp.com/send/?phone=971525287259" class="m-phone-link"><i class="bi bi-telephone"></i>&nbsp; +971 525 287 259</a>
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="{{route('home')}}" class="{{!empty($nav) && $nav == 'home' ? 'active' : ''}}">Home<br></a></li>
