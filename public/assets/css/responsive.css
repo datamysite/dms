@@ -122,9 +122,6 @@
 	.home-business{
 		margin-top: 0;
 	}
-	.hero-img-bg{
-		display: none !important;
-	}
 	.home-business{
 		display: none;
 	}
@@ -266,6 +263,14 @@
     	display: block;
     	padding: 40px 0;
     }
+    .nested-menu{
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+    }
+	.about-time-section .working-container{
+		margin: 18px auto !important;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{

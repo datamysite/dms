@@ -1,6 +1,6 @@
 @extends('web.includes.master')
 @section('metaAddition')
-<meta name="robots" content="noindex, follow">
+
 @endsection
 @section('addStyle')
 	<style type="text/css">
@@ -101,7 +101,9 @@
 	           
 	          </div><!-- End Service Item -->
 	          <div class="col-lg-12 home-service-btn">
-	          		<button type="button">See More</button>
+	          		<button type="button">
+	          			<img src="{{URL::to('/public/read-more.png')}}" alt="Read More icon">
+	          		</button>
 	          </div>
 	        </div>
 
@@ -356,9 +358,8 @@
 	    <section id="service-cards" class="service-cards section">
 
 	      <!-- Section Title -->
-	      <div class="container section-title">
+	      <div class="container section-title" style="padding-bottom: 20px">
 	        <h3 class="text-theme">What We Do</h3>
-	        <p class="service-tp">We provide <strong>outdoor advertising</strong>, DOOH, PR Coverage, <strong>influencer marketing</strong>, <strong>event marketing</strong>, <strong>transit media</strong>, and more to elevate your brand’s impact and drive success. Let’s craft the perfect strategy together!</p>
 	      </div><!-- End Section Title -->
 
 	      <div class="container">
@@ -397,7 +398,7 @@
 					        </div>
 					      </div>
 					    </div>
-					    <p class="wwd-para">Strategic planning</p>
+					    <p class="wwd-para">Experiential Marketing</p>
 	          		</div>
 	          	</div>
 	          </div><!-- End Card Item -->
@@ -413,47 +414,9 @@
 
 	    </section><!-- /Service Cards Section -->
 
-
-
-
-
-        <section id="service-cards" class="blog-section section section-striped pr-blogs-section">
-
-          <div class="container section-title pb-0">
-            <h2 class="text-theme">Blogs</h2>
-            <p class="pr-blog-sub">What’s Going On in the Industry?</p>
-          </div>
-          <div class="container">
-            <div class="row gy-4 blog-portrait-card first-row">
-                @foreach($blogs as $val)
-                    <div class="col-lg-4">
-                        <a href="{{route('blogs.detail', [$val->slug])}}">
-                          <div class="popular-card blog-card-2 flex-grow-1" bis_skin_checked="1">
-                            <div class="card-image" bis_skin_checked="1">
-                              <img src="{{URL::to('public/storage/blogs/'.$val->banner)}}" alt="{{$val->banner_alt}}">
-                            </div>
-                            <div class="popular-text" bis_skin_checked="1">
-                              <h6 class="mt-2" title="{{$val->heading}}">{{$val->heading}}</h6>
-                              <p class="line-break-3">{{$val->short_description}}</p>
-                              <small>by <font class="text-theme2">{{$val->author->name}}</font> - <font class="text-bold">{{date('F d, Y', strtotime($val->created_at))}}</font></small>
-                            </div>
-                          </div>
-                        </a>
-                    </div>
-                @endforeach
-                <div class="col-lg-12  text-center">
-                    <a href="{{URL::to('/blogs/pr-and-media-relations')}}" class="see-all-btn" target="_blank">See All Blogs</a>
-                </div>
-            </div>
-
-          </div>
-
-        </section>
-
-
 	    
 	    <!-- Services Section -->
-	    <section id="services" class="services section">
+	    <section id="services" class="services section-striped section">
 
 	      <!-- Section Title -->
 	      <div class="container section-title">
@@ -485,7 +448,45 @@
 	      </div>
 
 	    </section><!-- /Services Section -->
-	 
+
+
+
+        <section id="service-cards" class="blog-section section pr-blogs-section">
+
+          <div class="container pb-0">
+          	<div class="text-center">
+          		<span class="text-theme">BLOGS</span>
+                <h3 class="text-bold">What’s Going On in the Industry?</h3>
+          	</div>
+          </div>
+          <div class="container">
+            <div class="row gy-4 blog-portrait-card first-row">
+                @foreach($blogs as $val)
+                    <div class="col-lg-4">
+                        <a href="{{route('blogs.detail', [$val->slug])}}">
+                          <div class="popular-card blog-card-2 flex-grow-1" bis_skin_checked="1">
+                            <div class="card-image" bis_skin_checked="1">
+                              <img src="{{URL::to('public/storage/blogs/'.$val->banner)}}" alt="{{$val->banner_alt}}">
+                            </div>
+                            <div class="popular-text" bis_skin_checked="1">
+                              <h6 class="mt-2" title="{{$val->heading}}">{{$val->heading}}</h6>
+                              <p class="line-break-3">{{$val->short_description}}</p>
+                              <small>by <font class="text-theme2">{{$val->author->name}}</font> - <font class="text-bold">{{date('F d, Y', strtotime($val->created_at))}}</font></small>
+                            </div>
+                          </div>
+                        </a>
+                    </div>
+                @endforeach
+                <div class="col-lg-12  text-center">
+                    <a href="{{URL::to('/blogs/pr-and-media-relations')}}" class="see-all-btn" target="_blank">See All Blogs</a>
+                </div>
+            </div>
+
+          </div>
+
+        </section>
+
+
 
 	    <!-- Call To Action Section -->
 	    <section id="call-to-action" class="call-to-action section dark-background">

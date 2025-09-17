@@ -190,6 +190,122 @@
       </div>
   </div>
 
+  <div class="service-menu-main">
+      <button class="close-menu">< Back</button>
+      <br>
+      <ul>
+        <li class="nested-menu">
+          <a href="javascript:void(0)" class="">
+            Digital<br>
+          </a>
+          <button class="open-service-second-menu" data-id="digital-service-menu">►</button>
+        </li>
+        <li class="nested-menu">
+          <a href="javascript:void(0)" class="">
+            Outdoor<br>
+          </a>
+          <button class="open-service-second-menu" data-id="outdoor-service-menu">►</button>
+        </li>
+        <li class="nested-menu">
+          <a href="javascript:void(0)" class="">
+            Experiential<br>
+          </a>
+          <button class="open-service-second-menu" data-id="experiential-service-menu">►</button>
+        </li>
+      </ul>
+
+      <div class="service-menu-logo">
+        <img src="{{URL::to('/public/assets/img/logo.png')}}" alt="Menu Logo">
+      </div>
+  </div>
+
+  <div class="service-menu-second">
+      <button class="close-menu">< Back</button>
+      <ul class="service-sub-menu digital-service-menu">
+        <li class="service-menu-heading">DIGITAL</li>
+        @foreach($header_services as $val)
+          @if(in_array($val->id, array(3 , 5, 37, 38, 8, 10, 2)))
+            <li class="nested-menu">
+              <a href="{{URL::to('/'.$val->slug)}}" class="">
+                {{$val->name}}
+              </a>
+              @if(count($val->subServices) == 0)
+                <a href="{{URL::to('/'.$val->slug)}}" class="service-menu-blank-click">&nbsp;</a>
+              @else
+                <button class="open-service-third-menu" data-id="{{$val->slug}}">►</button>
+              @endif
+            </li>
+          @endif
+        @endforeach
+      </ul>
+
+      <ul class="service-sub-menu outdoor-service-menu">
+        <li class="service-menu-heading">OUTDOOR</li>
+        @foreach($header_services as $val)
+          @if(in_array($val->id, array(7, 1, 11)))
+            <li class="nested-menu">
+              <a href="{{URL::to('/'.$val->slug)}}" class="">
+                {{$val->name}}
+              </a>
+              @if(count($val->subServices) == 0)
+                <a href="{{URL::to('/'.$val->slug)}}" class="service-menu-blank-click">&nbsp;</a>
+              @else
+                <button class="open-service-third-menu" data-id="{{$val->slug}}">►</button>
+              @endif
+            </li>
+          @endif
+        @endforeach
+      </ul>
+
+      <ul class="service-sub-menu experiential-service-menu">
+        <li class="service-menu-heading">EXPERIENTIAL</li>
+        @foreach($header_services as $val)
+          @if(in_array($val->id, array(4, 6, 9)))
+            <li class="nested-menu">
+              <a href="{{URL::to('/'.$val->slug)}}" class="">
+                {{$val->name}}
+              </a>
+              @if(count($val->subServices) == 0)
+                <a href="{{URL::to('/'.$val->slug)}}" class="service-menu-blank-click">&nbsp;</a>
+              @else
+                <button class="open-service-third-menu" data-id="{{$val->slug}}">►</button>
+              @endif
+            </li>
+          @endif
+        @endforeach
+      </ul>
+
+      <div class="service-menu-logo">
+        <img src="{{URL::to('/public/assets/img/logo.png')}}" alt="Menu Logo">
+      </div>
+  </div>
+
+  <div class="service-menu-third">
+      <button class="close-menu">< Back</button>
+
+      @foreach($header_services as $val)
+        <ul class="service-sub-menu {{$val->slug}}-third-menu">
+            <li class="service-menu-heading">{{$val->name}}</li>
+            @if(count($val->subServices) == 0)
+            @else
+              @foreach($val->subServices as $sub)
+                <li class="nested-menu">
+                  <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug)}}" class="">
+                    {{$sub->name}}
+                  </a>
+                  <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug)}}" class="service-menu-blank-click">&nbsp;</a>
+                </li>
+              @endforeach
+            @endif
+        </ul>
+      @endforeach
+
+
+      <div class="service-menu-logo">
+        <img src="{{URL::to('/public/assets/img/logo.png')}}" alt="Menu Logo">
+      </div>
+  </div>
+
   @foreach($bodySnippet as $val)
     @if($val->position == 'Body')
       @if(!empty($noPopup) && ($val->name == 'Klaviyo Basecode' || $val->name == 'Tawk.to Live Chat' || $val->name == 'Tawk.to BaseCode'))

@@ -18,6 +18,40 @@ var host = $("meta[name='home_url']").attr("content");
       
   });
 
+  $(".open-service-menu").click(function() {
+
+      $('.service-menu-main').addClass('show');
+      
+  });
+
+  $(".open-service-second-menu").click(function() {
+    let val = $(this).data('id');
+    $('.open-service-second-menu .service-sub-menu').css({display: 'none'});
+
+    $("."+val).css({display: 'block'});
+
+      $('.service-menu-second').addClass('show');
+      
+  });
+
+  $(".open-service-third-menu").click(function() {
+    let val = $(this).data('id');
+    $('.open-service-third-menu .service-sub-menu').css({display: 'none'});
+
+    $("."+val+"-third-menu").css({display: 'block'});
+
+      $('.service-menu-third').addClass('show');
+      
+  });
+
+  $(".close-menu").click(function() {
+
+      $(this).parent().removeClass('show');
+      $(this).parent().children('.service-sub-menu').css({display: 'none'});
+      
+  });
+
+
 
   $.get(host+"/get-aside", function(data, status){
       $('.aside-block').html(data);
@@ -40,6 +74,11 @@ var host = $("meta[name='home_url']").attr("content");
   $('.pub-see-more button').click(function(){
     $('.pub-see-more').css({display: 'none'});
     $('.publications-logos').css({height: 'auto'});
+  });
+
+  $('.ser-see-more button').click(function(){
+    $('.ser-see-more').css({display: 'none'});
+    $('.about-service-section').css({height: 'auto'});
   });
 
 

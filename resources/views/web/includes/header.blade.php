@@ -6,7 +6,7 @@
         </span> 
 
         <span class="para">
-          FREE 15-Min Marketing Strategy Session worth AED 1500 with our Top Marketing expert
+          Call Us Now for Your Personalized Media Plan.
         </span> 
 
         <span>
@@ -23,8 +23,9 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="{{route('home')}}" class="{{!empty($nav) && $nav == 'home' ? 'active' : ''}}">Home<br></a></li>
-          <li class="visible-mobile">
+          <li class="nested-menu">
             <a href="{{route('services')}}" class="{{!empty($nav) && $nav == 'services' ? 'active' : ''}}">Services<br></a>
+            <button class="open-service-menu">►</button>
           </li>
           <li class="dropdown hide-mobile"><a href="{{route('services')}}" class="{{!empty($nav) && $nav == 'services' ? 'active' : ''}}"><span>Services</span> <font style="font-size: 9px;padding: 1px 0px 0px 3px;">▼</font></a>
             <ul>
@@ -32,7 +33,7 @@
                 @if(count($val->subServices) == 0)
                   <li><a href="{{URL::to('/'.$val->slug)}}"><span><i class="{{$val->icon}}"></i> {{$val->name}}</span></a></li>
                 @else
-                  <li class="dropdown"><a href="{{URL::to('/'.$val->slug)}}"><span><i class="{{$val->icon}}"></i> {{$val->name}}</span> <font style="margin-right: -5px;font-size: 8px;padding: 1px 0px 0px 3px;">▶</font></a>
+                  <li class="dropdown"><a href="{{URL::to('/'.$val->slug)}}"><span><i class="{{$val->icon}}"></i> {{$val->name}}</span> <font style="margin-right: -5px;font-size: 8px;padding: 1px 0px 0px 3px;">►</font></a>
                     <ul>
                       @foreach($val->subServices as $sub)
                         <li><a href="{{URL::to('/'.$val->slug.'/'.$sub->slug)}}"><span><i class="{{$sub->icon}}"></i> {{$sub->name}}</span></a></li>

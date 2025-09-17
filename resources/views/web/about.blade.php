@@ -221,7 +221,7 @@
                         <img src="{{URL::to('/public/about.jpg')}}" width="100%" alt="Why Brands Choose DMS">
                     </div>
                     <div class="col-lg-7">
-                        <h3>Why Brands Choose DataMySite</h3>
+                        <h3 style="margin-top: 10px;">Why Brands Choose DataMySite</h3>
                         <ul>
                             <li>Multi-channel expertise in both traditional and digital media</li>
                             <li>Access to premium media networks across the MENA region</li>
@@ -247,15 +247,16 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 first-row about-service-section">
 
               <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="text-center">OUR SERVICES</h2>
-                <hr>
+                <div class="container section-title" style="padding-bottom: 20px">
+                    <h3 class="text-theme">OUR SERVICES</h3>
+                  </div><!-- End Section Title -->
                 <br>
                 <div class="row">
                     <div class="col-lg-6 about-service-block">
-                        <a href="{{URL::to('/outdoor-advertising')}}"><h3>- Outdoor Advertising</h3></a>
+                        <a href="{{URL::to('/outdoor-advertising')}}"><h4>- Outdoor Advertising</h4></a>
                         <p>
                             Our outdoor media strategies ensure your brand stays top-of-mind by dominating high-traffic locations across the UAE.
                         </p>
@@ -272,7 +273,7 @@
                         </p>
                     </div>
                     <div class="col-lg-6 about-service-block">
-                        <a href="{{URL::to('/digital-advertising')}}"><h3>- Digital & DOOH Advertising</h3></a>
+                        <a href="{{URL::to('/digital-advertising')}}"><h4>- Digital & DOOH Advertising</h4></a>
                         <p>
                             We take your digital presence to new heights with performance-driven campaigns across dynamic platforms and real-world digital screens.
                         </p>
@@ -293,7 +294,7 @@
                 <hr>
                 <div class="row">
                     <div class="col-lg-6 about-service-block">
-                        <a href="{{URL::to('/public-relations-pr-coverage')}}"><h3>- Public Relations (PR Coverage)</h3></a>
+                        <a href="{{URL::to('/public-relations-pr-coverage')}}"><h4>- Public Relations (PR Coverage)</h4></a>
                         <p>
                             We specialize in high-impact PR placements that enhance brand credibility and awareness across major regional and global media outlets.
                         </p>
@@ -310,7 +311,7 @@
                         </p>
                     </div>
                     <div class="col-lg-6 about-service-block">
-                        <h3>- Celebrity & Influencer Marketing</h3>
+                        <h4>- Celebrity & Influencer Marketing</h4>
                         <p>
                             Nothing builds trust like the right face promoting your brand. We specialize in aligning your product or service with powerful personalities that your audience already admires.
                         </p>
@@ -339,7 +340,7 @@
                 <hr>
                 <div class="row">
                     <div class="col-lg-6 about-service-block">
-                        <a href="{{URL::to('/event-marketing')}}"><h3>- Event Marketing</h3></a>
+                        <a href="{{URL::to('/event-marketing')}}"><h4>- Event Marketing</h4></a>
                         <p>
                             Leave a lasting impression through unforgettable brand experiences. Whether it’s a private VIP launch or a large-scale corporate function, we bring your vision to life.
                         </p>
@@ -354,7 +355,7 @@
                         </p>
                     </div>
                     <div class="col-lg-6 about-service-block">
-                        <a href="{{URL::to('/transit-media')}}"><h3>- Transit Media Advertising</h3></a>
+                        <a href="{{URL::to('/transit-media')}}"><h4>- Transit Media Advertising</h4></a>
                         <p>
                             Your brand goes places with our powerful transit media solutions, ensuring mobile visibility across diverse audiences.
                         </p>
@@ -373,6 +374,9 @@
               </div>
 
             </div>
+            <div class="ser-see-more">
+                <button>See More</button>
+            </div>
 
           </div>
 
@@ -382,7 +386,7 @@
 
 
 
-        <section class="section" style="background-image:url('{{URL::to('public/assets/img/about-b.jpg')}}'); background-size: cover;">
+        <section class="section about-time-section" style="background:linear-gradient(0deg, #17283bc9, #17283bc9), url('{{URL::to('public/assets/img/about-b.jpg')}}'); background-size: cover; background-position: center;">
 
           <div class="container working-container">
 
@@ -402,12 +406,12 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 col-xs-6">
                         <i class="bi bi-calendar4-week" style="color: #cbcbcb;"></i>
-                        <p class="working-title">Booking & Confirm</p>
+                        <p class="working-title">Media Plan & Approvals</p>
                         <p>We’ll finalize the details and set a timeline to kick off your customized marketing strategy.</p>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-xs-6">
                         <i class="bi bi-credit-card" style="color: #cbcbcb;"></i>
-                        <p class="working-title">Booking Payment</p>
+                        <p class="working-title">Campaign Onboarding</p>
                         <p>Ensures your service is reserved and allows us to start preparing for your campaign with full commitment.</p>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-xs-6">
@@ -463,5 +467,22 @@
 
 	</main>
 
+
+@endsection
+@section('addScript')
+
+    <script>
+        const input = document.querySelector("#phone-field");
+          const hiddenInput = document.querySelector("#fullphone-field");
+          const iti = window.intlTelInput(input, {
+            initialCountry: "ae",
+            separateDialCode: true,
+          });
+
+          input.addEventListener('keyup', () => {
+            const fullNumber = iti.getNumber();
+            hiddenInput.value = fullNumber;
+          });
+    </script>
 
 @endsection

@@ -476,9 +476,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.blog-section {
-    padding-top: 40px;
-}
+
 .post-title {
     font-size: 42px;
 }
@@ -1140,9 +1138,8 @@
 .about-service-block {
     padding: 0 35px;
 }
-.about-service-block h3 {
-    margin-left: -30px;
-    color: #e04a43;
+.about-service-block h4 {
+    margin-left: -18px;
 }
 .web-form-div {
     background-color: #023f3830;
@@ -1716,6 +1713,10 @@
     margin: -24px 0px 0 0px;
     font-weight: 500;
 }
+.about-service-section {
+    height: 580px;
+        overflow: hidden;
+}
 
 .pub-see-more {
     text-align: center;
@@ -1724,7 +1725,14 @@
     position: relative;
     background-image: linear-gradient(#ffffff21, #ffffffd1, #fffffff7, #ffffff);
 }
-.pub-see-more button, .see-all-btn {
+.ser-see-more {
+    text-align: center;
+    padding: 70px 0 35px 0;
+    margin-top: -103px;
+    position: relative;
+    background-image: linear-gradient(#f1f1f191, #f1f1f1e3, #f1f1f1e3, #f1f1f1);
+}
+.pub-see-more button, .see-all-btn, .ser-see-more button {
     border: none;
     background-color: #e04a43;
     color: #fff !important;
@@ -1740,8 +1748,8 @@
     right: -10px;
     top: 170px;
     border: none;
-    height: 61px;
-    width: 65px;
+    height: 58px;
+    width: 60px;
     font-size: 12px;
     border-radius: 50%;
     background-color: #f1f1f1;
@@ -1754,8 +1762,22 @@
     color: #fff;
 }
 
+.home-service-btn button:hover img{
+    filter: brightness(200) grayscale(5);
+}
+
+.home-service-btn button span{
+    display: none;
+}
+.home-service-btn button img {
+    width: 100%;
+}
+
 .home-service-mobile{
     display: none;
+}
+.home-service-btn{
+    margin-top: 0;
 }
 
 .home-service-mob-btn button {
@@ -1820,4 +1842,121 @@
     transform: scale(1.5);
     opacity: 0;
   }
+}
+
+
+.service-menu-main {
+    position: fixed;
+    top: 0;
+    right: -110%;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    background-color: #fff;
+    padding: 26px 16px;
+    transition: .2s ease-in-out all;
+}
+.service-menu-main.show {
+    right: 0;
+}
+
+.nested-menu {
+    display: none;
+}
+.nested-menu button {
+        border: 0;
+    padding: 2px 14px;
+    color: #023f38;
+}
+.navmenu .nested-menu button{
+    margin-right: 12px;
+}
+.close-menu {
+    border: 0;
+    color: #212529;
+    font-family: "Raleway",  sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #fff;
+    margin-bottom: 24px;
+    padding: 10px 23px 10px 0px;
+}
+.service-menu-main ul li, .service-menu-second ul li, .service-menu-third ul li {
+    margin-bottom: 0px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.service-menu-main ul li a, .service-menu-second ul li a, .service-menu-third ul li a {
+    padding: 10px 16px 10px 0px;
+    color: #212529;
+    font-family: "Raleway",  sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.service-menu-main ul, .service-menu-second ul, .service-menu-third ul {
+    padding: 0 0;
+}
+
+.service-menu-second ul li a, .service-menu-third ul li a{
+    text-transform: capitalize !important;
+}
+
+
+.service-menu-second {
+    position: fixed;
+    top: 0;
+    right: -110%;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 26px 16px;
+    transition: .2s ease-in-out all;
+}
+.service-menu-second.show {
+    right: 0;
+}
+
+.service-sub-menu{
+    display: none;
+}
+
+.service-menu-third {
+    position: fixed;
+    top: 0;
+    right: -110%;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999;
+    background-color: #fff;
+    padding: 26px 16px;
+    transition: .2s ease-in-out all;
+}
+.service-menu-third.show {
+    right: 0;
+}
+
+.service-menu-heading{
+    list-style-type: none;
+    text-align: center;
+    background-color: #e6e6e6;
+    padding: 6px 0px !important;
+    color: #212529;
+    font-family: "Raleway",  sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px !important;
+}
+.service-menu-blank-click {
+    width: inherit;
+    flex: 1;
+}
+
+.service-menu-logo {
+    position: absolute;
+    bottom: 85px;
+    padding: 22px 0;
+    width: 92%;
+    text-align: center;
+}
+.service-menu-logo img {
+    width: 70px;
 }
