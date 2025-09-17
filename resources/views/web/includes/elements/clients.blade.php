@@ -5,7 +5,7 @@
 	      <div class="container section-title" style="padding-bottom: 15px;">
 	        <h2 class="text-theme">Our Clients</h2>
 	        <p class="service-tp">
-	        	At <strong>DataMySite</strong>, we are proud to partner with a diverse range of clients across various industries, from startups to established global brands.
+	        	Every great brand has a story. At <strong>DataMySite</strong>, we help you write the next chapter with powerful campaigns across billboards, DOOH, influencer marketing, PR coverage, lead generation, event marketing, and sponsorships. Your success story starts here. 
 	        </p>
 	      </div><!-- End Section Title -->
 	      <div class="container">

@@ -110,9 +110,7 @@
           <div class="container section-title">
             <h2 class="text-theme">Our Successful Projects</h2>
             <p class="service-tp">
-                At <strong>DataMySite</strong>, we deliver impactful marketing campaigns across <strong>billboards ads</strong>, DOOH, influencer marketing, PR Coverage, <strong>lead generation</strong>, <strong>event marketing</strong>, and <strong>sponsorships</strong>, driving real business success and measurable results. 
-                        <br>
-                        Let's make your brand our next success! 
+                Every great brand has a story. At <strong>DataMySite</strong>, we help you write the next chapter with powerful campaigns across billboards, DOOH, influencer marketing, PR coverage, lead generation, event marketing, and sponsorships. Your success story starts here. 
 
             </p>
           </div><!-- End Section Title -->
