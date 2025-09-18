@@ -30,7 +30,7 @@
         <div class="row gy-1">
           @foreach($blog_categories as $val)
             <div class="col-lg-3">
-              <a href="{{URL::to('/blogs/'.$val->slug)}}">{{$val->name}} &nbsp;<font class="text-theme"><small><small>({{count($val->blogs)}})</small></small></font></a>
+              <a href="{{URL::to('/blogs/'.$val->slug)}}">{{$val->name}} &nbsp;<font class="text-theme"><small><small>({{$val->blogs_count}})</small></small></font></a>
             </div>
           @endforeach
         </div>

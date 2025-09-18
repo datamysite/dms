@@ -12,7 +12,7 @@
         
         <select class="form-control" name="service" required>
             <option value="">Select Service</option>
-            @foreach($services as $val)
+            @foreach($header_services as $val)
                 <option value="{{$val->name}}">{{$val->name}}</option>
             @endforeach
             <option value="Others">Others</option>
@@ -27,7 +27,7 @@
 
 <div class="aside-link">
     <h4>Our Services</h4>
-    @foreach($services as $val)
+    @foreach($header_services as $val)
         <a href="{{URL::to('/'.$val->slug)}}"><i class="{{$val->icon}}"></i>&nbsp; {{$val->name}}</a>
     @endforeach
 </div>
