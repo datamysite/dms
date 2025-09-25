@@ -68,7 +68,7 @@
                                 <div class="card-header" id="faqHeading-{{$s}}">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-{{$s}}" data-aria-expanded="true" data-aria-controls="faqCollapse-{{$s}}">
-                                            <i class="bi bi-newspaper"></i> &nbsp; {{$val->name}}
+                                            <i class="{{$val->icon}}"></i> &nbsp; {{$val->name}}
                                         </h5>
                                     </div>
                                 </div>
@@ -123,15 +123,14 @@
 
 
 
-        <div class=" striped-section">
-          @include('web.includes.elements.clients')
-        </div>
+        <section id="testimonials" class="testimonials striped-section section">
+            @include('web.includes.elements.clients')
+        </section>
 
 
 
         <section id="testimonials" class="testimonials case-studies-section section">
-            @include('web.includes.elements.case-studies')
-
+           @include('web.includes.elements.case-studies')
         </section>
 
         <section id="service-cards" class="blog-section section striped-section pr-icon-section">

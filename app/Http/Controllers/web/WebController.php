@@ -13,7 +13,7 @@ class WebController extends Controller
     public function index(){
         $data['nav'] = 'home';
         $data['sub_footer'] = 'visible';
-        $data['blogs'] = Blogs::where('category_id', '6')->orderBy('created_at', 'desc')->limit(3)->get();
+        $data['blogs'] = Blogs::where('status', '1')->orderBy('created_at', 'desc')->limit(3)->get();
         
         return view('web.index-beta')->with($data);
     }
@@ -21,7 +21,7 @@ class WebController extends Controller
     public function indexNew(){
         $data['nav'] = 'home';
         $data['sub_footer'] = 'visible';
-        $data['blogs'] = Blogs::where('category_id', '6')->orderBy('created_at', 'desc')->limit(3)->get();
+        $data['blogs'] = Blogs::where('status', '1')->orderBy('created_at', 'desc')->limit(3)->get();
         
         return view('web.index-beta')->with($data);
     }

@@ -82,6 +82,14 @@ var host = $("meta[name='home_url']").attr("content");
   });
 
 
+  $('.uni-strip-see-more button').click(function(){
+    $('.uni-strip-see-more').css({display: 'none'});
+    var val = $(this).data('class');
+
+    $('.'+val).css({height: 'auto'});
+  });
+
+
   $('.scroll-up').click(function(){
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });

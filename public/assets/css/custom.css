@@ -1585,13 +1585,20 @@
     overflow: hidden;
     padding: 2.5rem;
 }
+.slider.mts{
+    margin-top: -105px;
+    margin-bottom: -60px;
+}
+.slider.mts2{
+    margin-top: -50px;
+}
 .item {
     animation: animate 35s linear infinite;
 }
 .item img
     {
-        width: 200px;
-        padding: 0 20px;
+        width: 190px;
+        padding: 0 25px;
     }
 .slider:hover .item {
     animation-play-state: paused;
@@ -1732,7 +1739,15 @@
     position: relative;
     background-image: linear-gradient(#f1f1f191, #f1f1f1e3, #f1f1f1e3, #f1f1f1);
 }
-.pub-see-more button, .see-all-btn, .ser-see-more button {
+
+.uni-strip-see-more {
+    text-align: center;
+    padding: 70px 0 35px 0;
+    margin-top: -103px;
+    position: relative;
+    background-image: linear-gradient(#f4f4f461, #f4f4f4ba, #f4f4f4eb, #f4f4f4);
+}
+.pub-see-more button, .see-all-btn, .ser-see-more button, .uni-strip-see-more button {
     border: none;
     background-color: #e04a43;
     color: #fff !important;
@@ -1959,4 +1974,21 @@
 }
 .service-menu-logo img {
     width: 70px;
+}
+
+.outdoor-service-col-section {
+    height: 480px;
+    overflow: hidden;
+}
+.why-out-us-section h5 {
+    color: #e04a43;
+}
+
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.side-image{
+    width: 100% !important;
 }

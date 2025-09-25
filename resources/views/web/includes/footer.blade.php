@@ -1,5 +1,4 @@
 <footer id="footer" class="footer light-background">
-    @if(!empty($sub_footer))
     <div class="sub-footer">
       <div class="container">
         <div class="row">
@@ -36,7 +35,7 @@
         </div>
       </div>
     </div>
-    @endif
+    
     <div class="footer-top">
       <div class="container">
         <div class="row gy-4">

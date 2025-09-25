@@ -15,6 +15,7 @@ class ServiceController extends Controller
         $data['nav'] = 'services';
         $data['service'] = Services::where('slug', 'outdoor-advertising')->first();
         $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
+        $data['blogs'] = Blogs::where('category_id', '1')->orderBy('created_at', 'desc')->limit(3)->get();
 
         return view('web.services.outdoor-advertising.index')->with($data);
     }
@@ -22,6 +23,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'outdoor-advertising')->first();
             $data['subservice'] = Services::where('slug', 'billboards-advertising')->first();
+            $data['blogs'] = Blogs::where('category_id', '21')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.outdoor-advertising.billboards-advertising')->with($data);
         }
@@ -29,6 +31,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'outdoor-advertising')->first();
             $data['subservice'] = Services::where('slug', 'flyers-distribution')->first();
+            $data['blogs'] = Blogs::where('category_id', '22')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.outdoor-advertising.flyers-distribution')->with($data);
         }
@@ -36,6 +39,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'outdoor-advertising')->first();
             $data['subservice'] = Services::where('slug', 'human-billboards')->first();
+            $data['blogs'] = Blogs::where('category_id', '1')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.outdoor-advertising.human-billboards')->with($data);
         }
@@ -46,6 +50,7 @@ class ServiceController extends Controller
         $data['nav'] = 'services';
         $data['service'] = Services::where('slug', 'digital-advertising')->first();
         $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
+        $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
 
         return view('web.services.digital-advertising.index')->with($data);
     }
@@ -53,6 +58,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'digital-advertising')->first();
             $data['subservice'] = Services::where('slug', 'ott-advertising')->first();
+            $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.digital-advertising.ott-advertising')->with($data);
         }
@@ -60,6 +66,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'digital-advertising')->first();
             $data['subservice'] = Services::where('slug', 'dooh-advertising')->first();
+            $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.digital-advertising.dooh-advertising')->with($data);
         }
@@ -67,6 +74,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'digital-advertising')->first();
             $data['subservice'] = Services::where('slug', 'hotel-digital-screens-advertising')->first();
+            $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.digital-advertising.hotel-digital-screens-advertising')->with($data);
         }
@@ -74,6 +82,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'digital-advertising')->first();
             $data['subservice'] = Services::where('slug', 'elevator-advertising')->first();
+            $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.digital-advertising.elevator-advertising')->with($data);
         }
@@ -103,6 +112,8 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'public-relations-pr-coverage')->first();
             $data['subservice'] = Services::where('slug', 'gulf-news')->first();
+            $data['publications'] = Publications::all();
+            $data['blogs'] = Blogs::where('category_id', '6')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.public-relations-pr-coverage.gulf-news')->with($data);
         }
@@ -110,6 +121,9 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'public-relations-pr-coverage')->first();
             $data['subservice'] = Services::where('slug', 'forbes')->first();
+            $data['publications'] = Publications::all();
+            $data['blogs'] = Blogs::where('category_id', '6')->orderBy('created_at', 'desc')->limit(3)->get();
+
 
             return view('web.services.public-relations-pr-coverage.forbes')->with($data);
         }
@@ -117,6 +131,8 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'public-relations-pr-coverage')->first();
             $data['subservice'] = Services::where('slug', 'khaleej-time')->first();
+            $data['publications'] = Publications::all();
+            $data['blogs'] = Blogs::where('category_id', '6')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.public-relations-pr-coverage.khaleej-time')->with($data);
         }
@@ -124,6 +140,8 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'public-relations-pr-coverage')->first();
             $data['subservice'] = Services::where('slug', 'arabian-news')->first();
+            $data['publications'] = Publications::all();
+            $data['blogs'] = Blogs::where('category_id', '6')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.public-relations-pr-coverage.arabian-news')->with($data);
         }
@@ -160,6 +178,7 @@ class ServiceController extends Controller
         $data['nav'] = 'services';
         $data['service'] = Services::where('slug', 'influencer-marketing')->first();
         $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
+        $data['blogs'] = Blogs::where('category_id', '8')->orderBy('created_at', 'desc')->limit(3)->get();
 
         return view('web.services.influencer-marketing.index')->with($data);
     }
@@ -167,6 +186,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'influencer-marketing')->first();
             $data['subservice'] = Services::where('slug', 'nano-influencer')->first();
+            $data['blogs'] = Blogs::where('category_id', '8')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.influencer-marketing.nano-influencer')->with($data);
         }
@@ -174,6 +194,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'influencer-marketing')->first();
             $data['subservice'] = Services::where('slug', 'micro-influencer')->first();
+            $data['blogs'] = Blogs::where('category_id', '8')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.influencer-marketing.micro-influencer')->with($data);
         }
@@ -181,6 +202,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'influencer-marketing')->first();
             $data['subservice'] = Services::where('slug', 'macro-influencer')->first();
+            $data['blogs'] = Blogs::where('category_id', '8')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.influencer-marketing.macro-influencer')->with($data);
         }
@@ -217,6 +239,7 @@ class ServiceController extends Controller
         $data['nav'] = 'services';
         $data['service'] = Services::where('slug', 'transit-media')->first();
         $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
+        $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
 
         return view('web.services.transit-media.index')->with($data);
     }
@@ -224,6 +247,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'transit-media')->first();
             $data['subservice'] = Services::where('slug', 'airline-advertising')->first();
+            $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.transit-media.airline-advertising')->with($data);
         }
@@ -231,6 +255,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'transit-media')->first();
             $data['subservice'] = Services::where('slug', 'taxi-advertising')->first();
+            $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.transit-media.taxi-advertising')->with($data);
         }
@@ -238,6 +263,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'transit-media')->first();
             $data['subservice'] = Services::where('slug', 'bus-advertising')->first();
+            $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.transit-media.bus-advertising')->with($data);
         }
@@ -267,6 +293,7 @@ class ServiceController extends Controller
         $data['nav'] = 'services';
         $data['service'] = Services::where('slug', 'sponsorships')->first();
         $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
+        $data['blogs'] = Blogs::where('category_id', '17')->orderBy('created_at', 'desc')->limit(3)->get();
 
         return view('web.services.sponsorships.index')->with($data);
     }
@@ -274,6 +301,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'sponsorships')->first();
             $data['subservice'] = Services::where('slug', 'corporate')->first();
+            $data['blogs'] = Blogs::where('category_id', '17')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.sponsorships.corporate')->with($data);
         }
@@ -281,6 +309,7 @@ class ServiceController extends Controller
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'sponsorships')->first();
             $data['subservice'] = Services::where('slug', 'entertainment')->first();
+            $data['blogs'] = Blogs::where('category_id', '17')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services.sponsorships.entertainment')->with($data);
         }
@@ -310,6 +339,7 @@ class ServiceController extends Controller
         $data['nav'] = 'services';
         $data['service'] = Services::where('slug', 'radio-advertising')->first();
         $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
+        $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
 
         return view('web.services.radio-advertising')->with($data);
     }
