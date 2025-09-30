@@ -97,7 +97,7 @@
                     <p>Not all flyers distribution in Dubai campaigns is created equal. Are you tossing leaflets on random doorsteps? That is a waste. Smart businesses make sure every flyer counts. That is where you can count on us.</p>
                 </div>
                 <div class="col-lg-4">
-                    <img src="{{URL::to('/public/flyer-img.png')}}" class="flyer-img" width="100%" alt="Flyers that find the right hands">
+                    <img src="{{URL::to('/public/section-images/image40.png')}}" class="flyer-img" width="100%" alt="Flyers that find the right hands">
                 </div>
                 <div class="col-lg-8">
                     <div class="faq " id="accordion">
@@ -251,7 +251,7 @@
                     
                 </div>
                 <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/contact-img.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image41.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 

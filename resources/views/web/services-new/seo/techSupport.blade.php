@@ -1,23 +1,53 @@
 @extends('web.includes.master')
 
+@section('addStyle')
+    <link href="{{URL::to('/public')}}/assets/css/service.css" rel="stylesheet">
+@endsection
 @section('content')
 
-    <main class="main seo-main">
+    <main class="main">
 
+        
+        
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug).'.png'}}');">
-            <div class="container">
-              <h1>{{$subservice->name}}</h1>
-              <nav class="breadcrumbs">
-                <ol>
-                  <li><a href="{{route('home')}}">Home</a></li>
-                  <li><a href="{{route('services')}}">Services</a></li>
-                  <li><a href="{{URL::to('/'.$service->slug)}}">{{$service->name}}</a></li>
-                  <li class="current">{{$subservice->name}}</li>
-                </ol>
-              </nav>
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
+            <div class="container head-container-service">
+                <div class="row">
+                    <div class="col-lg-8 head-para-service">
+                        <h1>&#10687; {{$subservice->name}}</h1>
+                        <h2>Expert SEO Tech Support Services</h2>
+                        <h4>in Dubai</h4>
+                        <br>
+                        <p>
+                            Is your website not ranking despite having content and backlinks? The issue might be technical. At DataMySite, we offer specialized SEO tech support to identify and fix the backend issues holding your site back from ranking on Google.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="aside-form">
+                            <h3>Want to know more?</h3>
+                            <form action="{{route('enquiry.submit')}}" id="enquiry-form" >
+                                @csrf
+                                <input type="text" name="name" placeholder="Name" class="form-control" required>
+                                
+                                <input type="tel" name="mailphone" id="phone-field2" class="form-control" required>
+                                <input type="hidden" name="phone" id="fullphone-field2" required="">
+                                <br>
+                                <input type="email" name="email" placeholder="Email" class="form-control aside-email" required>
+                                
+                                <input type="hidden" name="service" value="{{$subservice->name}}" required>
+                                                                
+                                <textarea class="form-control" name="description" rows="4" placeholder="Describe Your Requirement" required></textarea>
+                                
+                                <button class="btn btn-theme">Submit Your Enquiry</button>
+                                <div class="loading"><img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="newsletter-loader"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+              
             </div>
-          </div><!-- End Page Title -->
+        </div><!-- End Page Title -->
+
 
 
         <section id="service-cards" class="blog-section section">
@@ -25,41 +55,32 @@
           <div class="container">
 
             <div class="row gy-4 first-row">
-              <div class="col-lg-7" style="margin-top:0px;">
-                <div class="post-container">
-                    <h2 class="web-heading2">Expert SEO Tech Support Services in Dubai</h2>
+
+                <div class="col-lg-6">
+                    <iframe class="service-iframe cop-iframe" src="https://www.youtube.com/embed/Kbxm_z_ScYU?si=589eks2setWiGTUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
+                    <h4>About SEO Tech Support</h4>
                     <p>
-                        Is your website not ranking despite having content and backlinks? The issue might be technical. At <strong>DataMySite</strong>, we offer specialized SEO tech support to identify and fix the backend issues holding your site back from ranking on Google.
-                        <br><br>
                         Whether you're facing indexing errors, slow load speeds, crawl issues, or Core Web Vitals warnings — our team of technical SEO experts in Dubai is equipped to handle it all. We conduct in-depth audits to identify and fix critical backend issues that may be affecting your website’s performance on search engines. With a strong focus on speed, mobile usability, and structured data, we ensure your site meets Google’s technical standards and delivers a seamless experience for users and bots alike.
                     </p>
-                </div> 
-              </div>
-              <div class="col-lg-1"></div>
-              <div class="col-lg-4">
-                <div class="aside-form">
-                  <h3>Want to know more?</h3>
-                  <h4>Ask us anything</h4>
-                  <form action="{{route('enquiry.submit')}}" id="enquiry-form" >
-                      @csrf
-                      <input type="text" name="name" placeholder="Name" class="form-control" required>
-                      
-                      <input type="tel" name="mailphone" id="phone-field2" class="form-control" required>
-                      <input type="hidden" name="phone" id="fullphone-field2" required="">
-                      <input type="email" name="email" placeholder="Email" class="form-control aside-email" required>
-                      
-                      <input type="hidden" name="service" value="SEO Services">
-                      
-                      <textarea class="form-control" name="description" rows="4" placeholder="Describe Your Requirement" required></textarea>
-                      
-                      <button class="btn btn-theme">Submit Your Enquiry</button>
-                      <div class="loading"><img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="newsletter-loader"></div>
-                  </form>
-              </div>
-              </div>
+                </div>
             </div>
+
           </div>
 
+        </section>
+
+
+        <div class="section-striped">
+                @include('web.includes.elements.clients')
+        </div>
+
+
+
+        <section id="testimonials" class="testimonials case-studies-section section">
+           @include('web.includes.elements.case-studies')
         </section>
 
 
@@ -214,15 +235,65 @@
                 <div class="col-lg-5">
                     <img src="{{URL::to('/public/local-seo2.jpg')}}" alt="Why Choose DataMySite for Technical SEO in Dubai?" width="100%">
                 </div>
+            </div>
+
+          </div>
+
+        </section>
+
+
+
+        <section id="service-cards" class="blog-section section-striped section pr-blogs-section">
+
+          <div class="container section-title">
+            <h2 class="text-theme">Blogs</h2>
+            <p class="pr-blog-sub">What’s Going On in the Industry?</p>
+            <div class="row gy-4 blog-portrait-card first-row">
+                @foreach($blogs as $val)
+                    <div class="col-lg-4">
+                        <a href="{{route('blogs.detail', [$val->slug])}}">
+                          <div class="popular-card blog-card-2 flex-grow-1" bis_skin_checked="1">
+                            <div class="card-image" bis_skin_checked="1">
+                              <img src="{{URL::to('public/storage/blogs/'.$val->banner)}}" alt="{{$val->banner_alt}}">
+                            </div>
+                            <div class="popular-text" bis_skin_checked="1">
+                              <h6 class="mt-2" title="{{$val->heading}}">{{$val->heading}}</h6>
+                              <p class="line-break-3">{{$val->short_description}}</p>
+                              <small>by <font class="text-theme2">{{$val->author->name}}</font> - <font class="text-bold">{{date('F d, Y', strtotime($val->created_at))}}</font></small>
+                            </div>
+                          </div>
+                        </a>
+                    </div>
+                @endforeach
                 <div class="col-lg-12">
-                  
+                    <a href="{{URL::to('/blogs/pr-and-media-relations')}}" class="see-all-btn" target="_blank">See All Blogs</a>
+                </div>
+            </div>
+
+          </div>
+
+        </section>
+
+
+
+        <section id="service-cards" class="blog-section section  faq-new-section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row">
+
+                <div class="col-lg-4">
+                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
+                </div> 
+                <div class="col-lg-1"></div>
+                <div class="col-lg-7 vertical-center">
                     <h4>FAQs</h4>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">1</span>What’s the difference between SEO and technical SEO?
+                                        <span class="badge">&nbsp;</span>What’s the difference between SEO and technical SEO?
                                     </h5>
                                 </div>
                             </div>
@@ -236,7 +307,7 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">2</span>Can I get tech support for an existing SEO campaign?
+                                        <span class="badge">&nbsp;</span>Can I get tech support for an existing SEO campaign?
                                     </h5>
                                 </div>
                             </div>
@@ -250,7 +321,7 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">3</span>Is this a one-time service or monthly?
+                                        <span class="badge">&nbsp;</span>Is this a one-time service or monthly?
                                     </h5>
                                 </div>
                             </div>
@@ -268,7 +339,9 @@
 
         </section>
 
-        <section id="service-cards" class="blog-section section">
+
+
+        <section id="service-cards" class="blog-section section-striped section">
 
           <div class="container">
 

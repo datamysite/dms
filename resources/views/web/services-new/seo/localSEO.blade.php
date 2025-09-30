@@ -1,23 +1,54 @@
 @extends('web.includes.master')
 
+@section('addStyle')
+    <link href="{{URL::to('/public')}}/assets/css/service.css" rel="stylesheet">
+@endsection
 @section('content')
 
-    <main class="main seo-main">
+    <main class="main">
 
+        
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug).'.png'}}');">
-            <div class="container">
-              <h1>{{$subservice->name}}</h1>
-              <nav class="breadcrumbs">
-                <ol>
-                  <li><a href="{{route('home')}}">Home</a></li>
-                  <li><a href="{{route('services')}}">Services</a></li>
-                  <li><a href="{{URL::to('/'.$service->slug)}}">{{$service->name}}</a></li>
-                  <li class="current">{{$subservice->name}}</li>
-                </ol>
-              </nav>
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
+            <div class="container head-container-service">
+                <div class="row">
+                    <div class="col-lg-8 head-para-service">
+                        <h1>&#10687; {{$subservice->name}}</h1>
+                        <h2>Get Discovered by Customers</h2>
+                        <h4>Near You with DataMySite's Local SEO Solutions</h4>
+                        <br>
+                        <p>
+                            If you're a business targeting customers in Dubai, showing up in local search results is essential. At DataMySite, we specialize in local SEO services in Dubai that help you appear where it matters most — Google Maps, “near me” searches, and the top of local search results.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="aside-form">
+                            <h3>Want to know more?</h3>
+                            <form action="{{route('enquiry.submit')}}" id="enquiry-form" >
+                                @csrf
+                                <input type="text" name="name" placeholder="Name" class="form-control" required>
+                                
+                                <input type="tel" name="mailphone" id="phone-field2" class="form-control" required>
+                                <input type="hidden" name="phone" id="fullphone-field2" required="">
+                                <br>
+                                <input type="email" name="email" placeholder="Email" class="form-control aside-email" required>
+                                
+                                <input type="hidden" name="service" value="{{$subservice->name}}" required>
+                                                                
+                                <textarea class="form-control" name="description" rows="4" placeholder="Describe Your Requirement" required></textarea>
+                                
+                                <button class="btn btn-theme">Submit Your Enquiry</button>
+                                <div class="loading"><img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="newsletter-loader"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+              
             </div>
-          </div><!-- End Page Title -->
+        </div><!-- End Page Title -->
+
+
+
 
 
         <section id="service-cards" class="blog-section section">
@@ -25,70 +56,24 @@
           <div class="container">
 
             <div class="row gy-4 first-row">
-              <div class="col-lg-8" style="margin-top:0px;">
-                <div class="post-container">
-                    <h2 class="web-heading2">Get Discovered by Customers Near You with <strong>DataMySite's Local SEO Solutions</strong></h2>
+
+                <div class="col-lg-6">
+                    <iframe class="service-iframe inf-iframe" src="https://www.youtube.com/embed/Kbxm_z_ScYU?si=589eks2setWiGTUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Why Local SEO Matters for Your Business in Dubai</h4>
                     <p>
-                        If you're a business targeting customers in Dubai, showing up in local search results is essential. At DataMySite, we specialize in local SEO services in Dubai that help you appear where it matters most — Google Maps, “near me” searches, and the top of local search results.
-                        <br><br>
-                        As a leading local SEO agency in Dubai, we help small businesses, service providers, and retail locations attract more foot traffic and calls from people nearby — right when they’re searching for what you offer.
+                        In a fast-paced city like Dubai, users rely on Google to find nearby services. If you're not ranking locally, you’re missing real customers.
                     </p>
-                </div> 
-              </div>
-              <div class="col-lg-4">
-                <div class="aside-form">
-                  <h3>Want to know more?</h3>
-                  <h4>Ask us anything</h4>
-                  <form action="{{route('enquiry.submit')}}" id="enquiry-form" >
-                      @csrf
-                      <input type="text" name="name" placeholder="Name" class="form-control" required>
-                      
-                      <input type="tel" name="mailphone" id="phone-field2" class="form-control" required>
-                      <input type="hidden" name="phone" id="fullphone-field2" required="">
-                      <input type="email" name="email" placeholder="Email" class="form-control aside-email" required>
-                      
-                      <input type="hidden" name="service" value="SEO Services">
-                      
-                      <textarea class="form-control" name="description" rows="4" placeholder="Describe Your Requirement" required></textarea>
-                      
-                      <button class="btn btn-theme">Submit Your Enquiry</button>
-                      <div class="loading"><img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="newsletter-loader"></div>
-                  </form>
-              </div>
-              </div>
-            </div>
-          </div>
-
-        </section>
-
-
-        <section id="service-cards" class="blog-section section  section-striped">
-
-          <div class="container">
-
-            <div class="row gy-4 first-row">
-
-                <div class="col-lg-12">
-                    <div class="row services gy-4">
-                        <div class="col-lg-6">
-                            <h3>Why Local SEO Matters for Your Business in Dubai</h3>
-                            <p>In a fast-paced city like Dubai, users rely on Google to find nearby services. If you're not ranking locally, you’re missing real customers.</p>
-                            <br>
-                            <ul>
-                                <li>76% of users who search for something nearby visit a business within 24 hours</li>
-                                <li>Over 50% of mobile searches include location-based intent</li>
-                                <li>Being visible on Google Maps means instant credibility and trust</li>
-                            </ul>
-                            <br>
-
-                            <h5>Book Your Free SEO Audit — <a href="javascript:void(0)" class="scroll-up">Get Started Now</a></h5>
-                        </div>
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-5">
-                            <img src="{{URL::to('/public/local-seo1.png')}}" alt="Why Local SEO Matters for Your Business in Dubai" width="100%">
-                        </div>
-                    </div>
-
+                    <ul>
+                        <li>76% of users who search for something nearby visit a business within 24 hours</li>
+                        <li>Over 50% of mobile searches include location-based intent</li>
+                        <li>Being visible on Google Maps means instant credibility and trust</li>
+                    </ul>
+                    <p>As a leading local SEO agency in Dubai, we help small businesses, service providers, and retail locations attract more foot traffic and calls from people nearby — right when they’re searching for what you offer.</p>
+                    <br>
+                    <h5>Book Your Free SEO Audit — <a href="javascript:void(0)" class="scroll-up">Get Started Now</a></h5>
                 </div>
             </div>
 
@@ -96,9 +81,19 @@
 
         </section>
 
-        
 
-         <section id="service-cards" class="blog-section section">
+        <div class="section-striped">
+                @include('web.includes.elements.clients')
+        </div>
+
+
+
+        <section id="testimonials" class="testimonials case-studies-section section">
+           @include('web.includes.elements.case-studies')
+        </section>
+
+
+         <section id="service-cards" class="blog-section section-striped section">
 
           <div class="container">
 
@@ -179,7 +174,7 @@
 
         </section>
 
-         <section id="service-cards" class="blog-section section-striped section">
+         <section id="service-cards" class="blog-section section">
 
           <div class="container">
 
@@ -233,14 +228,15 @@
 
         </section>
 
-         <section id="service-cards" class="blog-section section">
+
+        <section id="service-cards" class="blog-section section-striped section why-us-section">
 
           <div class="container">
 
-            <div class="row gy-4">
+            <div class="row gy-4 first-row">
 
-                <div class="col-lg-6">
-                    <h3>Why Choose DataMySite as Your Local SEO Agency in Dubai?</h3>
+                <div class="col-lg-9">
+                    <h4>Why Choose DataMySite as Your Local SEO Agency in Dubai?</h4>
                     <p>At DataMySite, we combine deep local market knowledge with proven SEO strategies to help your business rank higher in Dubai’s competitive search landscape. From optimizing your Google Business Profile to targeting location-specific keywords, we ensure more visibility, more traffic, and more local customers for your brand.</p>
                     <br>
 
@@ -256,18 +252,68 @@
                     <p>We don’t just claim to be the best — we back it up with data and results.</p>
                 </div>
                 <div class="col-lg-1"></div>
-                <div class="col-lg-5">
-                    <img src="{{URL::to('/public/local-seo2.jpg')}}" alt="Why Choose DataMySite as Your Local SEO Agency in Dubai?" width="100%">
-                </div>
+                <div class="col-lg-2 mob-not-visible">
+                    <img src="{{URL::to('/public/assets/img/why-us.png')}}" width="100%" alt="Why choose us">
+                </div> 
+            </div>
+
+          </div>
+
+        </section>
+
+
+
+        <section id="service-cards" class="blog-section section pr-blogs-section">
+
+          <div class="container section-title">
+            <h2 class="text-theme">Blogs</h2>
+            <p class="pr-blog-sub">What’s Going On in the Industry?</p>
+            <div class="row gy-4 blog-portrait-card first-row">
+                @foreach($blogs as $val)
+                    <div class="col-lg-4">
+                        <a href="{{route('blogs.detail', [$val->slug])}}">
+                          <div class="popular-card blog-card-2 flex-grow-1" bis_skin_checked="1">
+                            <div class="card-image" bis_skin_checked="1">
+                              <img src="{{URL::to('public/storage/blogs/'.$val->banner)}}" alt="{{$val->banner_alt}}">
+                            </div>
+                            <div class="popular-text" bis_skin_checked="1">
+                              <h6 class="mt-2" title="{{$val->heading}}">{{$val->heading}}</h6>
+                              <p class="line-break-3">{{$val->short_description}}</p>
+                              <small>by <font class="text-theme2">{{$val->author->name}}</font> - <font class="text-bold">{{date('F d, Y', strtotime($val->created_at))}}</font></small>
+                            </div>
+                          </div>
+                        </a>
+                    </div>
+                @endforeach
                 <div class="col-lg-12">
-                  
+                    <a href="{{URL::to('/blogs/pr-and-media-relations')}}" class="see-all-btn" target="_blank">See All Blogs</a>
+                </div>
+            </div>
+
+          </div>
+
+        </section>
+
+
+
+        <section id="service-cards" class="blog-section section section-striped faq-new-section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row">
+
+                <div class="col-lg-4">
+                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
+                </div> 
+                <div class="col-lg-1"></div>
+                <div class="col-lg-7 vertical-center">
                     <h4>FAQs</h4>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">1</span>What is local SEO and how is it different from regular SEO?
+                                        <span class="badge">&nbsp;</span>What is local SEO and how is it different from regular SEO?
                                     </h5>
                                 </div>
                             </div>
@@ -281,7 +327,7 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">2</span>How long does it take to rank locally in Dubai?
+                                        <span class="badge">&nbsp;</span>How long does it take to rank locally in Dubai?
                                     </h5>
                                 </div>
                             </div>
@@ -295,7 +341,7 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">3</span>Can you help my business show up in Google Maps?
+                                        <span class="badge">&nbsp;</span>Can you help my business show up in Google Maps?
                                     </h5>
                                 </div>
                             </div>
@@ -309,7 +355,7 @@
                             <div class="card-header" id="faqHeading-4">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                        <span class="badge">4</span>Do I need a physical address to do local SEO?
+                                        <span class="badge">&nbsp;</span>Do I need a physical address to do local SEO?
                                     </h5>
                                 </div>
                             </div>
@@ -323,7 +369,7 @@
                             <div class="card-header" id="faqHeading-5">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                        <span class="badge">5</span>What’s the cost of local SEO in Dubai?
+                                        <span class="badge">&nbsp;</span>What’s the cost of local SEO in Dubai?
                                     </h5>
                                 </div>
                             </div>
@@ -337,7 +383,7 @@
                             <div class="card-header" id="faqHeading-6">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
-                                        <span class="badge">6</span>Can I switch from another SEO company to you?
+                                        <span class="badge">&nbsp;</span>Can I switch from another SEO company to you?
                                     </h5>
                                 </div>
                             </div>
@@ -355,6 +401,7 @@
           </div>
 
         </section>
+
 
 
         <section id="service-cards" class="blog-section section">

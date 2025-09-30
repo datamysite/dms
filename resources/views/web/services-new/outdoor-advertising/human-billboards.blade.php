@@ -158,10 +158,10 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                    <h4>How It Works: From Brand Message to Human Connection</h4>
-                    <p>We don’t just place people on the street and hope for the best. We engineer campaigns for maximum engagement.</p>
                 </div>
                 <div class="col-lg-8">
+                    <h4>How It Works: From Brand Message to Human Connection</h4>
+                    <p>We don’t just place people on the street and hope for the best. We engineer campaigns for maximum engagement.</p>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-40">
@@ -231,7 +231,7 @@
                     </div>
                 </div> 
                 <div class="col-lg-4">
-                    <img src="{{URL::to('/public/human-bill.png')}}" class="flyer-img" width="100%" alt="human billboard">
+                    <img src="{{URL::to('/public/section-images/image38.png')}}" class="flyer-img" width="100%" alt="human billboard">
                 </div>
             </div>
 
@@ -299,7 +299,7 @@
                     
                 </div>
                 <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/contact-img.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image39.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 

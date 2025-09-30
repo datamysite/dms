@@ -169,7 +169,7 @@
                     
                 </div>
                 <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/contact-img.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image1.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 

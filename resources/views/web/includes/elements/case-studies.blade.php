@@ -8,6 +8,32 @@
           <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
+                    <a href="{{URL::to('/public/case-studies/ays.pdf')}}" target="_blank" class="open-case-study">
+                        <img src="{{URL::to('/public/case-studies/ays.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
+                        <h5><span>AYS Developers</span> x <span>DMS</span> |  Case Study</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="{{URL::to('/public/case-studies/jetour.pdf')}}" target="_blank" class="open-case-study">
+                        <img src="{{URL::to('/public/case-studies/jetour.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
+                        <h5><span>Jetour</span> x <span>DMS</span> |  Case Study</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="{{URL::to('/public/case-studies/tranquil.pdf')}}" target="_blank" class="open-case-study">
+                        <img src="{{URL::to('/public/case-studies/tranquil.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
+                        <h5><span>Tranquil Developers</span> x <span>DMS</span> |  Case Study</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="{{URL::to('/public/case-studies/ilg.pdf')}}" target="_blank" class="open-case-study">
+                        <img src="{{URL::to('/public/case-studies/ilg.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
+                        <h5><span>ILG Luxury Group</span> x <span>DMS</span> |  Case Study</h5>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-3 col-sm-6">
                     <a href="{{URL::to('/public/case-studies/dubai-duty-free.pdf')}}" target="_blank" class="open-case-study">
                         <img src="{{URL::to('/public/case-studies/dubai-duty-free.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
                         <h5><span>Dubai Duty Free</span> x <span>DMS</span> |  Case Study</h5>

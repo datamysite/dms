@@ -100,9 +100,6 @@
                     <h4>The Impact of Bus Advertising</h4>
                     <p>Outdoor bus branding UAE ensures that your business stands out on the city's busiest streets. We capitalise on Dubai's massive bus transport system to position your brand in front of many people, thus creating unparalleled brand impressions. Our experts identify optimal locations for installation while ensuring maximum coverage throughout sections or all of a city to maximise performance.</p>
                 </div>
-                <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/pr-coverage.png')}}" width="100%" alt="Impact of PR Coverage">
-                </div>
                 <div class="col-lg-8">
                     <div class="faq " id="accordion">
                         <div class="card">
@@ -172,6 +169,9 @@
                     </div>
 
                 </div> 
+                <div class="col-lg-4 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image27.png')}}" width="100%" alt="Impact of PR Coverage">
+                </div>
             </div>
 
           </div>

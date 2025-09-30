@@ -109,7 +109,7 @@
                     <p>Your message will reach the right ears at the right time. We analyse listener demographics, peak listening hours, and program preferences to position your ads strategically. The targeted approach maximise your return on investment.</p>
                 </div>
                 <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/pr-coverage.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
+                    <img src="{{URL::to('/public/section-images/image36.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
                 </div>
             </div>
 
@@ -230,7 +230,7 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-4">
-                    <img src="{{URL::to('/public/pr-coverage.png')}}" width="100%" alt="Impact of PR Coverage">
+                    <img src="{{URL::to('/public/section-images/image37.png')}}" width="100%" alt="Impact of PR Coverage">
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-7 vertical-center">

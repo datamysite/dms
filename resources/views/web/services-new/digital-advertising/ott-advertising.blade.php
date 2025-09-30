@@ -168,7 +168,7 @@
                 </div>
 
                 <div class="col-lg-4 mob-not-visible vertical-center">
-                    <img src="{{URL::to('/public/pr-coverage.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
+                    <img src="{{URL::to('/public/section-images/image2.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
                 </div>
 
                 <div class="col-lg-4 vertical-center">

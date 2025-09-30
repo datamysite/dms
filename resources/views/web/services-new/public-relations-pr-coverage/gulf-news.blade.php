@@ -200,7 +200,7 @@
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/pr-coverage.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
+                    <img src="{{URL::to('/public/section-images/image13.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
                 </div>  
             </div>
 
@@ -216,7 +216,7 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-5">
-                    <img src="{{URL::to('/public/pr-coverage.png')}}" width="100%" alt="Impact of PR Coverage">
+                    <img src="{{URL::to('/public/section-images/image14.png')}}" width="100%" alt="Impact of PR Coverage">
                 </div>
                 <div class="col-lg-7">
                     <h4>Benefits of Gulf News PR Coverage Dubai</h4>

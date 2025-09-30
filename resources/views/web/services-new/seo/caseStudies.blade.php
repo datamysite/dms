@@ -1,67 +1,61 @@
 @extends('web.includes.master')
 
+@section('addStyle')
+    <link href="{{URL::to('/public')}}/assets/css/service.css" rel="stylesheet">
+@endsection
 @section('content')
 
-    <main class="main seo-main">
+    <main class="main">
 
+        
+        
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service/'.$service->slug).'.png'}}');">
-            <div class="container">
-              <h1>{{$subservice->name}}</h1>
-              <nav class="breadcrumbs">
-                <ol>
-                  <li><a href="{{route('home')}}">Home</a></li>
-                  <li><a href="{{route('services')}}">Services</a></li>
-                  <li><a href="{{URL::to('/'.$service->slug)}}">{{$service->name}}</a></li>
-                  <li class="current">{{$subservice->name}}</li>
-                </ol>
-              </nav>
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
+            <div class="container head-container-service">
+                <div class="row">
+                    <div class="col-lg-8 head-para-service">
+                        <h1>&#10687; {{$subservice->name}}</h1>
+                        <h2>Proven SEO Results</h2>
+                        <h4>That Drive Real Business Growth</h4>
+                        <br>
+                        <p>
+                            At DataMySite, we believe results speak louder than words. From global e-commerce brands to local legal service providers, we’ve helped businesses across multiple industries improve their online visibility, generate high-converting traffic, and dominate the search results.
+                            <br>
+                            Explore a selection of our SEO success stories below — each tailored with strategy, precision, and a results-first mindset.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="aside-form">
+                            <h3>Want to know more?</h3>
+                            <form action="{{route('enquiry.submit')}}" id="enquiry-form" >
+                                @csrf
+                                <input type="text" name="name" placeholder="Name" class="form-control" required>
+                                
+                                <input type="tel" name="mailphone" id="phone-field2" class="form-control" required>
+                                <input type="hidden" name="phone" id="fullphone-field2" required="">
+                                <br>
+                                <input type="email" name="email" placeholder="Email" class="form-control aside-email" required>
+                                
+                                <input type="hidden" name="service" value="{{$subservice->name}}" required>
+                                                                
+                                <textarea class="form-control" name="description" rows="4" placeholder="Describe Your Requirement" required></textarea>
+                                
+                                <button class="btn btn-theme">Submit Your Enquiry</button>
+                                <div class="loading"><img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="newsletter-loader"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+              
             </div>
-          </div><!-- End Page Title -->
+        </div><!-- End Page Title -->
 
 
-        <section id="service-cards" class="blog-section section">
+        
 
-          <div class="container">
-
-            <div class="row gy-4 first-row">
-              <div class="col-lg-7" style="margin-top:0px;">
-                <div class="post-container">
-                    <h2 class="web-heading2">Proven SEO Results That Drive Real Business Growth</h2>
-                    <p>
-                        At <strong>DataMySite</strong>, we believe results speak louder than words. From global e-commerce brands to local legal service providers, we’ve helped businesses across multiple industries improve their online visibility, generate high-converting traffic, and dominate the search results.
-                        <br><br>
-                        Explore a selection of our SEO success stories below — each tailored with strategy, precision, and a results-first mindset.
-
-                    </p>
-                </div> 
-              </div>
-              <div class="col-lg-1"></div>
-              <div class="col-lg-4">
-                <div class="aside-form">
-                  <h3>Want to know more?</h3>
-                  <h4>Ask us anything</h4>
-                  <form action="{{route('enquiry.submit')}}" id="enquiry-form" >
-                      @csrf
-                      <input type="text" name="name" placeholder="Name" class="form-control" required>
-                      
-                      <input type="tel" name="mailphone" id="phone-field2" class="form-control" required>
-                      <input type="hidden" name="phone" id="fullphone-field2" required="">
-                      <input type="email" name="email" placeholder="Email" class="form-control aside-email" required>
-                      
-                      <input type="hidden" name="service" value="SEO Services">
-                      
-                      <textarea class="form-control" name="description" rows="4" placeholder="Describe Your Requirement" required></textarea>
-                      
-                      <button class="btn btn-theme">Submit Your Enquiry</button>
-                      <div class="loading"><img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="newsletter-loader"></div>
-                  </form>
-              </div>
-              </div>
-            </div>
-          </div>
-
-        </section>
+        <div class="">
+                @include('web.includes.elements.clients')
+        </div>
 
 
         <section id="service-cards" class="blog-section section  section-striped">

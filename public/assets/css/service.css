@@ -305,9 +305,21 @@
 .inf-iframe{
     height: 340px !important;
 }
-
-
-
+.seo-iframe{
+    height: 485px !important;
+}
+.cpl-iframe{
+    height: 340px !important;
+}
+.event-iframe{
+    height: 450px !important;
+}
+.sports-iframe{
+    height: 450px !important;
+}
+.bolly-iframe{
+    height: 490px !important;
+}
 
 
 
@@ -421,6 +433,14 @@
     .section-divider{
         width: 80%;
         margin: auto;
+    }
+    .seo-iframe{
+        height: 210px !important;
+    }
+    #serviceVideo {
+        transform: translate(0, 0);
+        width: 100%;
+        height: 100vh;
     }
 }
 

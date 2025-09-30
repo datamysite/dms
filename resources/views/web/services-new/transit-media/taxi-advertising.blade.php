@@ -94,7 +94,7 @@
 
             <div class="row gy-4 first-row">
                 <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/pr-coverage.png')}}" width="100%" alt="Impact of PR Coverage">
+                    <img src="{{URL::to('/public/section-images/image25.png')}}" width="100%" alt="Impact of PR Coverage">
                 </div>
                 <div class="col-lg-8">
                     <h4>Cost of Taxi Advertising: What You Need to Know</h4>
@@ -151,7 +151,7 @@
             <div class="row gy-4 first-row">
                 
                 <div class="col-lg-4">
-                    <img src="{{URL::to('/public/conclusion.png')}}" width="100%" alt="Conclusion">
+                    <img src="{{URL::to('/public/section-images/image26.png')}}" width="100%" alt="Conclusion">
                 </div> 
 
                 <div class="col-lg-8 vertical-center">
