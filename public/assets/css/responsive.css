@@ -271,7 +271,7 @@
 	.about-time-section .working-container{
 		margin: 18px auto !important;
 	}
-	
+
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
@@ -343,14 +343,26 @@
 	    overflow: hidden;
 	    text-overflow: ellipsis;
 	    display: -webkit-box;
-	    -webkit-line-clamp: 2;
+	    -webkit-line-clamp: 3;
 	    -webkit-box-orient: vertical;
+	}
+	.split-block{
+		flex-direction: column-reverse;
+	}
+	.img-spacing{
+		margin-top: -110px;
+	}
+	.hide-on-mobile{
+		display: none !important;
 	}
 }
 @media (max-width: 390px) {
 	.case-studies-frame{
 	    width: 100%;
 	    height: 245px;
+	}
+	.iti .iti__selected-dial-code{
+		font-size: 10px;
 	}
 
 }
@@ -361,4 +373,24 @@
 	    height: 235px;
 	}
 
+}
+
+
+@media (max-width: 320px) {
+	.service-menu-logo{
+		bottom: 0px;
+	}
+	.service-menu-heading{
+		margin-bottom: 4px !important;
+	}
+	.service-menu-main ul li a, .service-menu-second ul li a, .service-menu-third ul li a{
+		font-size: 15px;
+	}
+	.m-phone-link{
+		font-size: 11px;
+	}
+	.head-para-service h2{
+		font-size: 14px !important;
+		margin-bottom: 0px;
+	}
 }

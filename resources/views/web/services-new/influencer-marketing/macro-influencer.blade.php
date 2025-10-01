@@ -59,7 +59,7 @@
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
                     <h4>Why Go for Macro Influencers?</h4>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 mt-0">
                     <p>
                         This characteristic makes them good candidates for large campaigns targeting brand awareness and market penetration. They are often referred to as industry leaders, celebrities, or well-known public figures who can guide opinions and trends across a reasonably wide demographic spectrum.
                         <br>
@@ -67,7 +67,7 @@
                     </p>
                     <iframe class="service-iframe taxi-iframe" src="https://www.youtube.com/embed/6VvmZY1IGoM?si=VClP2fwz2ZVf-LEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 mt-0">
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-211">

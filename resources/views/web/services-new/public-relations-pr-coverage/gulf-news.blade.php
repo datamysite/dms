@@ -122,7 +122,7 @@
 
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
                     <h4>What We Offer – Gulf News PR Coverage Dubai</h4>
-                    <p>At datamysite, we provide comprehensive solutions to help your business secure Gulf News PR Coverage Dubai. When you choose our services, your brand content connects with the suitable audience during their optimal viewing period.</p>
+                    <p>At Datamysite, we provide comprehensive solutions to help your business secure Gulf News PR Coverage Dubai. When you choose our services, your brand content connects with the suitable audience during their optimal viewing period.</p>
                 </div>
                 <div class="col-lg-7">
                     <div class="faq " id="accordion">

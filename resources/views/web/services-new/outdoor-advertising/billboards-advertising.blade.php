@@ -55,8 +55,8 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Billboard Advertising Solutions – Beyond <br>Old-School Marketing</h4>
-                    <br>
+                    <h4>Billboard Advertising Solutions – Beyond <br class="hide-on-mobile">Old-School Marketing</h4>
+                    <br class="hide-on-mobile">
                     <p>Digital billboards UAE brings your marketing vision to life. Your advertisements shine bright on premium displays – drawing attention from business leaders and consumers across the emirate.
                     <br><br>
                     Static and digital displays work in perfect sync to build your brand recognition. These massive marketing platforms turn heads and hold attention, creating lasting impressions that stick with viewers long after they pass by. With our advertising solutions, we focus on these key essentials</p>

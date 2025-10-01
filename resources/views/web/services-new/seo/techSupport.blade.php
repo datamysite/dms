@@ -125,9 +125,8 @@
                 <div class="col-lg-12">
                     <h3>Our Technical SEO Services Include:</h3>
                     <p>Our Technical SEO services cover site audits, error fixes, speed optimization, mobile responsiveness, and structured data to boost your site’s search performance.</p>
-                    <br>
 
-                    <div class="row services seo-need-block gy-4">
+                    <div class="row services seo-need-block gy-4 mt-0">
                         <div class="col-lg-3 filled">
                           <i class="bi bi-speedometer2"></i>
                           <h4>Site Speed Optimization</h4>
@@ -144,6 +143,8 @@
                           <i class="bi bi-link-45deg"></i>
                           <h4>Broken Links & Redirect Chains Fixes</h4>
                         </div>
+                    </div>
+                    <div class="row services split-block seo-need-block gy-4 mt-0">
                         <div class="col-lg-3">
                           <i class="bi bi-google"></i>
                           <h4>Indexing & Crawling Issues</h4>

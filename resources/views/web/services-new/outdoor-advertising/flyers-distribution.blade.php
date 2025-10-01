@@ -61,7 +61,7 @@
                         Not everything needs to be digital. Sometimes, a simple flyer does what a flashy online ad can’t—it creates a real connection. You can scroll past a banner ad, ignore an email, and skip a sponsored post. But a well-placed flyer? People hold it. They see it. They remember it.
                         <br>
                         That’s why flyer distribution in Dubai still works. It’s personal. It’s direct. And when done right, it gets results.
-                        At Data My Site, we don’t just hand out flyers. We deliver messages that stick in the right hands at the right time. We make sure your brand gets noticed whether it is a door-to-door flyer campaign in the UAE or a targeted flyer marketing strategy in Dubai.
+                        At DataMySite, we don’t just hand out flyers. We deliver messages that stick in the right hands at the right time. We make sure your brand gets noticed whether it is a door-to-door flyer campaign in the UAE or a targeted flyer marketing strategy in Dubai.
                     </p>
 
                 </div>

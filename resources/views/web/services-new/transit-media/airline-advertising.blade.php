@@ -97,7 +97,7 @@
                     <img src="{{URL::to('/public/section-images/image24.png')}}" width="100%" alt="Impact of PR Coverage">
                 </div>
                 <div class="col-lg-7">
-                    <h4>The Impact of “ Airline advertising dubai</h4>
+                    <h4>The Impact of “ Airline Advertising Dubai</h4>
                     <br>
                     <div class="faq " id="accordion">
                         <div class="card">

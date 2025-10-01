@@ -182,9 +182,8 @@
                 <div class="col-lg-12">
                     <h3>We Work With:</h3>
                     <p>Whether you're a local entrepreneur or an international brand expanding to the UAE, we offer web development services that match your needs and goals.</p>
-                    <br>
 
-                    <div class="row services seo-need-block gy-4">
+                    <div class="row services seo-need-block gy-4 mt-0">
                         <div class="col-lg-3 filled">
                           <i class="bi bi-house-heart"></i>
                           <h4>Real Estate Agencies</h4>
@@ -201,6 +200,8 @@
                           <i class="bi bi-cart-check"></i>
                           <h4>E-Commerce Stores</h4>
                         </div>
+                    </div>
+                    <div class="row services split-block seo-need-block gy-4 mt-0">
                         <div class="col-lg-3">
                           <i class="bi bi-book"></i>
                           <h4>Educational Institutions</h4>

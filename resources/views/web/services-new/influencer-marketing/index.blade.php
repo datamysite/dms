@@ -260,30 +260,72 @@
                         <div class="col-lg-12">
                             <h4>Why DataMySite is the Ideal Influencer Marketing Agency in Dubai</h4>
                             <br>
-                        </div>
-                        <div class="col-lg-6">
-                            <h5>Local Market Expertise</h5>
-                            <p>
-                                The consumer market in Dubai is unique, necessitating a very localised approach. Pulling from our wide experience, we curate a list of explorable Dubai social media influencers who are very much aligned with your brand's luxury, lifestyle, or corporate appeal. We know exactly what works and what doesn't with the local population, thereby retaining the reputation of true brand storytelling.
-                            </p>
-                        </div>
-                        <div class="col-lg-6">
-                            <h5>Genuine Influencer Partnerships</h5>
-                            <p>
-                                We concentrate on long-term, genuine partnerships. Our influencer strategy fosters authentic brand advocacy, setting your brand apart in influencer marketing Dubai.
-                            </p>
-                        </div>
-                        <div class="col-lg-6">
-                            <h5>ROI-Driven Campaigns for Maximum Impact</h5>
-                            <p>
-                                Every campaign is built on data analytics and performance tracking. We guarantee your marketing dollars drive real engagement, lead generation, and revenue for all collaborating influencers.
-                            </p>
-                        </div>
-                        <div class="col-lg-6">
-                            <h5>End-to-end management of the Campaign</h5>
-                            <p>
-                                We make it easy to find the right Dubai social media influencers for your brand by taking care of everything from sourcing to execution and reporting. A dedicated account manager provides excellent service at all points, relating to the entire collaboration cycle.
-                            </p>
+                            <div class="faq " id="accordion">
+                                <div class="card">
+                                    <div class="card-header" id="faqHeading-311">
+                                        <div class="mb-0">
+                                            <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-311" data-aria-expanded="false" data-aria-controls="faqCollapse-311">
+                                                <span class="badge">&nbsp;</span>Local Market Expertise
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div id="faqCollapse-311" class="collapse show" aria-labelledby="faqHeading-311" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                The consumer market in Dubai is unique, necessitating a very localised approach. Pulling from our wide experience, we curate a list of explorable Dubai social media influencers who are very much aligned with your brand's luxury, lifestyle, or corporate appeal. We know exactly what works and what doesn't with the local population, thereby retaining the reputation of true brand storytelling.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="faqHeading-312">
+                                        <div class="mb-0">
+                                            <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-312" data-aria-expanded="false" data-aria-controls="faqCollapse-312">
+                                                <span class="badge">&nbsp;</span>Genuine Influencer Partnerships
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div id="faqCollapse-312" class="collapse" aria-labelledby="faqHeading-312" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                We concentrate on long-term, genuine partnerships. Our influencer strategy fosters authentic brand advocacy, setting your brand apart in influencer marketing Dubai.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="faqHeading-313">
+                                        <div class="mb-0">
+                                            <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-313" data-aria-expanded="false" data-aria-controls="faqCollapse-313">
+                                                <span class="badge">&nbsp;</span>ROI-Driven Campaigns for Maximum Impact
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div id="faqCollapse-313" class="collapse" aria-labelledby="faqHeading-313" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                Every campaign is built on data analytics and performance tracking. We guarantee your marketing dollars drive real engagement, lead generation, and revenue for all collaborating influencers.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="faqHeading-314">
+                                        <div class="mb-0">
+                                            <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-314" data-aria-expanded="false" data-aria-controls="faqCollapse-314">
+                                                <span class="badge">&nbsp;</span>End-to-end management of the Campaign
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div id="faqCollapse-314" class="collapse" aria-labelledby="faqHeading-314" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                We make it easy to find the right Dubai social media influencers for your brand by taking care of everything from sourcing to execution and reporting. A dedicated account manager provides excellent service at all points, relating to the entire collaboration cycle.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

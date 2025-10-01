@@ -141,19 +141,88 @@
                     <h4>What We Do: Events That Feel Different</h4>
                     <p>Dubai is a city that doesn’t do “average.” Neither do we. We offer the following types of corporate event planning in Dubai. </p>
 
-                    <ol>
-                        <li><h5>Product Launches That Get People Talking</h5>
-                        You do not want people to see it when you are introducing something new. You want them to feel it. We design launches that create excitement, anticipation, and real engagement.</li>
-                        <li><h5>Conferences & Seminars That People Actually Enjoy</h5>
-                        No one remembers a boring conference. We make sure your corporate event is packed with energy and moments that hold attention.</li>
-                        <li><h5>Team-Building Retreats to Bring People Together</h5>
-                        Teams are not built-in meetings. They’re built through shared experiences. We create retreats that inspire, challenge, and strengthen bonds in a way no email ever could.</li>
-                        <li><h5>Award Ceremonies That Mean Something</h5>
-                        Recognition matters during business event marketing in Dubai. It is a message when done right. We create special award nights for your brand.</li>
-                        <li><h5>Client Engagement Events That Deepen Trust</h5>
-                        Your clients aren’t just numbers. They’re relationships. We design elegant, meaningful experiences that show them just how much they matter.
-                        That’s the power of corporate event management in the UAE. Every detail is handled, every moment feels intentional, and every guest leaves feeling something real.</li>
-                    </ol>
+                    <div class="faq " id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-710">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-710" data-aria-expanded="true" data-aria-controls="faqCollapse-710">
+                                        <span class="badge">&nbsp;</span>Product Launches That Get People Talking
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-710" class="collapse show" aria-labelledby="faqHeading-710" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        You do not want people to see it when you are introducing something new. You want them to feel it. We design launches that create excitement, anticipation, and real engagement. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-711">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-711" data-aria-expanded="false" data-aria-controls="faqCollapse-711">
+                                        <span class="badge">&nbsp;</span>Conferences & Seminars That People Actually Enjoy
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-711" class="collapse" aria-labelledby="faqHeading-711" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        No one remembers a boring conference. We make sure your corporate event is packed with energy and moments that hold attention.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-712">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-712" data-aria-expanded="false" data-aria-controls="faqCollapse-712">
+                                        <span class="badge">&nbsp;</span>Team-Building Retreats to Bring People Together
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-712" class="collapse" aria-labelledby="faqHeading-712" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        Teams are not built-in meetings. They’re built through shared experiences. We create retreats that inspire, challenge, and strengthen bonds in a way no email ever could.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-713">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-713" data-aria-expanded="false" data-aria-controls="faqCollapse-713">
+                                        <span class="badge">&nbsp;</span>Award Ceremonies That Mean Something
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-713" class="collapse" aria-labelledby="faqHeading-713" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        Recognition matters during business event marketing in Dubai. It is a message when done right. We create special award nights for your brand.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-714">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-714" data-aria-expanded="false" data-aria-controls="faqCollapse-714">
+                                        <span class="badge">&nbsp;</span>Client Engagement Events That Deepen Trust
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-714" class="collapse" aria-labelledby="faqHeading-714" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        Your clients aren’t just numbers. They’re relationships. We design elegant, meaningful experiences that show them just how much they matter. That’s the power of corporate event management in the UAE. Every detail is handled, every moment feels intentional, and every guest leaves feeling something real.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     
                 </div>
                 <div class="col-lg-3 mob-not-visible">

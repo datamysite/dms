@@ -56,7 +56,7 @@
 
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
                     <h4>About Transit Media</h4>
-                    <p>At <strong>Data My Site</strong>, we turn everyday journeys into brand experiences. A taxi on Sheikh Zayed Road. A metro train packed with professionals. A bus winding through bustling streets. Each one carries your message and makes sure people see and act on it.</p>
+                    <p>At <strong>DataMySite</strong>, we turn everyday journeys into brand experiences. A taxi on Sheikh Zayed Road. A metro train packed with professionals. A bus winding through bustling streets. Each one carries your message and makes sure people see and act on it.</p>
                 </div>
                 <div class="col-lg-6">
                     <iframe class="service-iframe transit-iframe" src="https://www.youtube.com/embed/Slt71QddNGc?si=Bn768ai2rsCC0YBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -129,7 +129,7 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-7 vertical-center">
-                    <h4>What Makes Data My Site Different?</h4>
+                    <h4>What Makes DataMySite Different?</h4>
                     <p>Here's what we offer:</p>
                     <p>
                        We know Dubai. We know its roads and its people. Our team does not place ads—they create campaigns that stick.
@@ -139,7 +139,7 @@
                         <li><strong>Creative That Stands Out</strong> – We design campaigns that demand attention and spark conversation.</li>
                         <li><strong>End-to-End Service</strong> – We handle everything from concept to execution.</li>
                     </ul>
-                    <p>Dubai is a city of opportunities. Transit media in the UAE ensures your brand is everywhere. Let us create something unforgettable. Contact Data My Site today.</p>
+                    <p>Dubai is a city of opportunities. Transit media in the UAE ensures your brand is everywhere. Let us create something unforgettable. Contact DataMySite today.</p>
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-4">

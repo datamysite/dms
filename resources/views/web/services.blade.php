@@ -39,7 +39,7 @@
 
 
 	    <!-- Call To Action Section -->
-	    <section id="call-to-action" class="call-to-action clientele-section section dark-background">
+	    <section id="call-to-action" class="call-to-action clientele-section section dark-background hide-on-mobile">
 
 	      <img src="{{URL::to('/public')}}/assets/img/clientele.jpg" alt="">
 

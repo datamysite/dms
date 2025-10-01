@@ -1429,7 +1429,7 @@
 .pricing-item {
     border-top: 10px solid #023f38;
     border-left: 0;
-    height: 655px;
+    height: 700px;
     position: relative;
 }
 .pricing-item ul li {
@@ -1991,4 +1991,7 @@
 }
 .side-image{
     width: 100% !important;
+}
+.inline-block {
+    display: inline-block;
 }

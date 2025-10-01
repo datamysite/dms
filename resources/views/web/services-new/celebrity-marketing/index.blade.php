@@ -199,7 +199,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image5.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
+                    <img src="{{URL::to('/public/section-images/image5.png')}}" class="side-image img-spacing" width="100%" alt="Impact of PR Coverage">
                 </div>
             </div>
 

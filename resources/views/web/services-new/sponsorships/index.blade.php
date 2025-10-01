@@ -56,7 +56,7 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Sponsorship Opportunities Dubai for Businesses</h4>
+                    <h4>Sponsorship Opportunities in Dubai for Businesses</h4>
                     <p>
                         The business centre of Dubai provides multiple opportunities to sponsors who wish to expand their market reach. Sponsorship programs provide organisations with a simple approach to reach potential customers and build their brand visibility in various settings, from exhibitions to social initiatives and corporate events.
                         <br>
@@ -110,7 +110,7 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 split-block first-row">
 
                 <div class="col-lg-4 vertical-center">
                     <img src="{{URL::to('/public/section-images/image15.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
@@ -241,7 +241,7 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 split-block first-row">
 
                 <div class="col-lg-4">
                     <img src="{{URL::to('/public/section-images/image17.png')}}" width="100%" alt="Impact of PR Coverage">

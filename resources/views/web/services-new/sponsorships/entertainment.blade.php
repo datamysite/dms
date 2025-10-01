@@ -141,7 +141,7 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 split-block first-row">
 
                 <div class="col-lg-4 vertical-center">
                     <img src="{{URL::to('/public/section-images/image20.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
@@ -150,7 +150,7 @@
                 <div class="col-lg-7 vertical-center">
                     <h4>Our Event Sponsorship Services GCC</h4>
                     <p>
-                    At datamysite, we offer a range of event sponsorship services GCC to help brands connect with the right entertainment platforms. Our services include:
+                    At Datamysite, we offer a range of event sponsorship services GCC to help brands connect with the right entertainment platforms. Our services include:
                     <ul>
                         <li><strong>Concert Sponsorships</strong>: This is when you support a live music event. This helps you to engage with a wider audience base, including both local and international individuals.</li>
                         <li><strong>Film & TV Sponsorships</strong>: We also help you tie up with film premiers and TV shows. This way, you can gain visibility among the entertainment audience.</li>
@@ -201,7 +201,7 @@
                 <div class="col-lg-9">
                     <h4>Why Choose Datamysite for Sponsorship for Entertainment Events UAE?</h4>
                     <p>
-                       At datamysite, we have a team of skilled experts in the field of entertainment sponsorships Dubai. Our services guarantee the best growth and reach for your business. Here’s how we stand out:
+                       At Datamysite, we have a team of skilled experts in the field of entertainment sponsorships Dubai. Our services guarantee the best growth and reach for your business. Here’s how we stand out:
                     </p>
                         <ul>
                             <li><strong>Expert Media Buying</strong>: We optimise ad placements using data-driven insights.</li>

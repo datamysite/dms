@@ -93,7 +93,7 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-12">
-                    <div class="row services gy-4">
+                    <div class="row split-block services gy-4">
                         <div class="col-lg-4">
                             <img src="{{URL::to('/public/free-audit1.png')}}" alt="What You’ll Get in Your Free SEO Audit Report:" width="100%">
                         </div>

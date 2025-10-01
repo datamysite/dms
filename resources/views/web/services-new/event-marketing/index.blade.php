@@ -105,7 +105,7 @@
                         @endforeach
                     </div>
                 </div>  
-                <div class="col-lg-12">
+                <div class="col-lg-12 mt-0">
                     
                     <p>
                         We believe that successful corporate events transcend traditional networking. They represent strategic platforms for establishing market presence, building credibility, and expanding professional horizons in Dubai's dynamic business landscape.

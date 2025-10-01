@@ -211,7 +211,7 @@
                         <li><strong>Proven Expertise</strong>: The leading position of our agency allows us to optimise advertisement performance with the help of data-driven analytical insights.</li>
                     </ul>
                     <p>
-                        Does your brand require an advertising visibility boost? Partner with datamysite for impactful Elevator advertising Dubai campaigns that drive engagement and results. Reach us immediately at +971 525 287 259 to start your project.
+                        Does your brand require an advertising visibility boost? Partner with datamysite for impactful Elevator advertising Dubai campaigns that drive engagement and results. Reach us immediately at <a href="tel:971525287259" class="inline-block">+971 525 287 259</a> to start your project.
                     </p>
                     
                 </div>

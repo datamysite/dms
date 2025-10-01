@@ -183,9 +183,8 @@
                 <div class="col-lg-12">
                     <h3>Who Needs Local SEO Services?</h3>
                     <p>Our local SEO services in Dubai are ideal for:</p>
-                    <br>
 
-                    <div class="row services seo-need-block gy-4">
+                    <div class="row services seo-need-block gy-4 mt-0">
                         <div class="col-lg-3 filled">
                           <i class="bi bi-hospital"></i>
                           <h4>Clinics, Spas, Salons</h4>
@@ -202,6 +201,8 @@
                           <i class="bi bi-house-heart"></i>
                           <h4>Real Estate Agencies</h4>
                         </div>
+                    </div>
+                    <div class="row services split-block seo-need-block gy-4 mt-0">
                         <div class="col-lg-3">
                           <i class="bi bi-truck-flatbed"></i>
                           <h4>Transportation Businesses</h4>

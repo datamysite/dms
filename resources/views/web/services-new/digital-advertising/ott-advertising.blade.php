@@ -163,7 +163,7 @@
                     <h5>What Sets Our Approach Apart?</h5>
                     <p>The Dubai market demands sophistication. That's why we focus on premium placement for your programmatic OTT campaigns. Your OTT Advertising campaign reaches viewers during their most receptive moments. They're watching their preferred shows through streaming services.</p>
 
-                    <h5>Your Brand Deserves Premium Placement –</h5>
+                    <h5>Your Brand Deserves Premium Placement</h5>
                     <p>Our OTT Advertising solutions put your message alongside top-tier content. We have grown relationships with leading streaming platforms. It offers your brand access to prime advertising destinations. That's the kind of impact targeted OTT ads GCC can deliver.</p>
                 </div>
 

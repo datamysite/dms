@@ -203,7 +203,7 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 split-block first-row">
 
                 <div class="col-lg-5">
                     <img src="{{URL::to('/public/section-images/image14.png')}}" width="100%" alt="Impact of PR Coverage">
@@ -216,7 +216,7 @@
                         <li><strong>Better Market Standing</strong>: When your brand obtains coverage in this esteemed publication it enhances its local market standing and generates greater trust from readers. Businesses that target market domination in the UAE must establish this fundamental step. Moreover, with brand promotions in Khaleej Times UAE, you benefit from gaining credibility.</li>
                         <li><strong>Enhanced Visibility</strong>: The news publication Khaleej Times serves a substantial audience that includes both professional workers and executives who make choices for their organisations. The publication of your material through PR services directly raises your brand's visibility among the influential decision-makers operating in the UAE.</li>
                     </ul>
-                    <p>Contact us now to discover how we will elevate your brand's visibility through impactful media exposure initiatives. Call us now at <a href="tel:97142957001">(+971) 42 957 001</a>!</p>
+                    <p>Contact us now to discover how we will elevate your brand's visibility through impactful media exposure initiatives. Call us now at <a href="tel:971525287259" class="inline-block">+971 525 287 259</a>!</p>
                 </div> 
             </div>
 
