@@ -271,6 +271,7 @@
 	.about-time-section .working-container{
 		margin: 18px auto !important;
 	}
+	
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
@@ -338,7 +339,13 @@
         font-size: 18px;
         margin: -12px 0px -10px 0px;
     }
-
+	.head-para-service p {
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    display: -webkit-box;
+	    -webkit-line-clamp: 2;
+	    -webkit-box-orient: vertical;
+	}
 }
 @media (max-width: 390px) {
 	.case-studies-frame{
