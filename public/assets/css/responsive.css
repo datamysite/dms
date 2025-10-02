@@ -271,6 +271,9 @@
 	.about-time-section .working-container{
 		margin: 18px auto !important;
 	}
+	.m-footer-bg{
+		pointer-events: none !important;
+	}
 
 }
 @media (max-width: 575px) {
@@ -343,7 +346,7 @@
 	    overflow: hidden;
 	    text-overflow: ellipsis;
 	    display: -webkit-box;
-	    -webkit-line-clamp: 3;
+	    -webkit-line-clamp: 5;
 	    -webkit-box-orient: vertical;
 	}
 	.split-block{

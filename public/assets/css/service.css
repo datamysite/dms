@@ -334,9 +334,6 @@
 
 
 @media (max-width: 768px) {
-    .head-container-service {
-        margin-top: -65px;
-    }
     .head-para-service h2 {
         font-size: 32px;
         font-weight: 600;
@@ -356,13 +353,15 @@
     .mob-not-visible{
         display: none;
     }
+    .page-title{
+        align-items: flex-start !important;
+        padding: 90px 0 0px 0;
+    }
 }
 
 
 @media (max-width: 430px) {
-    .head-container-service {
-        margin-top: -65px;
-    }
+    
     .head-para-service h2 {
         font-size: 26px;
         font-weight: 600;
@@ -534,4 +533,9 @@
     .col-xs-6 {
         width: 50%;
     }
+}
+
+
+@media (max-width: 768px) {
+
 }
