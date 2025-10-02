@@ -554,4 +554,11 @@
     .page-title{
         padding: 130px 0 0px 0;
     }
+    .head-para-service p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 7 !important;
+        -webkit-box-orient: vertical;
+    }
 }
