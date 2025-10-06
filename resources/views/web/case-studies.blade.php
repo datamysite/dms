@@ -65,3 +65,6 @@
 
 
 @endsection
+@section('addScript')
+  <script src="{{URL::to('/public')}}/assets/js/aside.js"></script>
+@endsection
