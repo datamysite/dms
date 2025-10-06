@@ -38,7 +38,7 @@ class ViewServiceProvider extends ServiceProvider
             $data = Cache::remember($cacheKey, 3600, function () use ($cleanUrl) {
                 $pageData = [];
 
-                $pageData['metaTags'] = MetaTags::where('url', $cleanUrl)->first();
+                $pageData['metaTags'] = MetaTags::where('url', $cleanUrl)->orWhere('url', $cleanUrl.'/')->first();
 
                 $pageData['headSnippet'] = SnippetCode::where('position', 'Head')
                     ->where(function ($q) use ($cleanUrl) {
