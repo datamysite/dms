@@ -49,7 +49,7 @@ class ViewServiceProvider extends ServiceProvider
                                                 })->get();
 
             $data['header_services'] = Services::where('parent_id', '0')->orderBy('navOrder')->get();
-            $data['blog_categories'] = Categories::has('blogs', '>', 0)->withCount('blogs')->orderBy('name')->get();
+            $data['blog_categories'] = Categories::withCount('blogs')->having('blogs_count', '>', 0)->orderBy('name')->get();
             
             $view->with($data);
         });
