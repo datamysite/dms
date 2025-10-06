@@ -42,12 +42,12 @@ class ViewServiceProvider extends ServiceProvider
 
                 $pageData['headSnippet'] = SnippetCode::where('position', 'Head')
                     ->where(function ($q) use ($cleanUrl) {
-                        $q->where('page_url', '')->orWhere('page_url', $cleanUrl);
+                        $q->where('page_url', '')->orWhere('page_url', $cleanUrl)->orWhere('page_url', $cleanUrl.'/');
                     })->get();
 
                 $pageData['bodySnippet'] = SnippetCode::where('position', 'Body')
                     ->where(function ($q) use ($cleanUrl) {
-                        $q->where('page_url', '')->orWhere('page_url', $cleanUrl);
+                        $q->where('page_url', '')->orWhere('page_url', $cleanUrl)->orWhere('page_url', $cleanUrl.'/');
                     })->get();
 
                 return $pageData;
