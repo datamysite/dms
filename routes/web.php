@@ -13,6 +13,17 @@ Route::get('/update-sitemap', function () {
     
     return response()->json($response, 200);
 });
+//Clear Cache
+
+Route::get('/clear-cache', function () {
+    Artisan::call('optimize:clear');
+
+    return response()->json([
+        'status' => 'success',
+        'message' => 'All caches cleared successfully!'
+    ]);
+});
+
 
 //Web 
 
