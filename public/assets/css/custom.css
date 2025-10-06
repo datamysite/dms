@@ -1995,3 +1995,6 @@
 .inline-block {
     display: inline-block;
 }
+#enquiry-form br {
+    display: none;
+}

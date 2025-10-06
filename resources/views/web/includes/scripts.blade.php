@@ -8,6 +8,7 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
   <script src="{{URL::to('/public')}}/assets/input-master/js/intlTelInputWithUtils.js" defer></script>
+  <script src="{{URL::to('/public')}}/assets/js/input.js" defer></script>
 
   
 
@@ -23,29 +24,8 @@
   
   <script>
     
-    const inputh = document.querySelector("#phone-field3");
-    const hiddenInputh = document.querySelector("#fullphone-field3");
-    const itih = window.intlTelInput(inputh, {
-      initialCountry: "ae",
-      separateDialCode: true,
-    });
+    
 
-    inputh.addEventListener('keyup', () => {
-      const fullNumber = itih.getNumber();
-      hiddenInputh.value = fullNumber;
-    });
-
-    const inputh4 = document.querySelector("#phone-field4");
-    const hiddenInputh4 = document.querySelector("#fullphone-field4");
-    const itih4 = window.intlTelInput(inputh4, {
-      initialCountry: "ae",
-      separateDialCode: true,
-    });
-
-    inputh4.addEventListener('keyup', () => {
-      const fullNumber = itih4.getNumber();
-      hiddenInputh4.value = fullNumber;
-    });
   </script>
 
   <script src="{{URL::to('/public')}}/assets/js/enquiry.js" defer></script>
