@@ -89,6 +89,12 @@
                   <p>Update Sitemap</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="javascript:void(0)" id="clear-cache-btn" class="nav-link">
+                  <i class="fas fa-angle-right nav-icon"></i>
+                  <p>Clear Cache</p>
+                </a>
+              </li>
 
             </ul>
           </li>
