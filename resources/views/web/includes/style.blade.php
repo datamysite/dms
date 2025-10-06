@@ -5,7 +5,11 @@
 <!-- <link href="https://fonts.googleapis.com" rel="preconnect">
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
-          
+
+<link rel="preload" as="style" href="{{URL::to('/public')}}/assets/css/main.css">
+<link rel="preload" as="style" href="{{URL::to('/public')}}/assets/css/custom.css">
+<link rel="preload" as="style" href="{{URL::to('/public')}}/assets/vendor/bootstrap/css/bootstrap.min.css">
+<link rel="preload" as="style" href="{{URL::to('/public')}}/assets/vendor/bootstrap-icons/bootstrap-icons.css">
           
 
 <!-- Vendor CSS Files -->
