@@ -13,7 +13,7 @@
   
 
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.9/jquery.inputmask.min.js"></script> -->
-  <script src="{{URL::to('/public')}}/assets/js/main.js"></script>
+  <script src="{{URL::to('/public')}}/assets/js/main.js" defer></script>
  <!--  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.11/slick.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
   
