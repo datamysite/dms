@@ -415,6 +415,15 @@ class ServiceController extends Controller
         
         return view('web.services-new.seo.index-new')->with($data);
     }
+        public function aiOptimization(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'seo-services')->first();
+            $data['subservice'] = Services::where('slug', 'ai-seo-optimization')->first();
+            $data['blogs'] = Blogs::where('category_id', '34')->orderBy('created_at', 'desc')->limit(3)->get();
+            $data['web_drop'] = '1';
+            
+            return view('web.services-new.seo.aiOptimization')->with($data);
+        }
         public function localSEO(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'seo-services')->first();

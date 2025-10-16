@@ -10,6 +10,6 @@ class Services extends Model
 
 
     public function subServices(){
-        return $this->hasMany(Services::class, 'parent_id', 'id');
+        return $this->hasMany(Services::class, 'parent_id', 'id')->orderBy('navOrder');
     }
 }

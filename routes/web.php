@@ -112,6 +112,7 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
         Route::prefix('seo-services')->group(function(){
             Route::get('/', 'ServiceController@seoServices');
             Route::get('/local-seo', 'ServiceController@localSEO');
+            Route::get('/ai-seo-optimization', 'ServiceController@aiOptimization');
             Route::get('/tech-support', 'ServiceController@techSupport');
             Route::get('/free-seo-audit', 'ServiceController@freeAudit');
             Route::get('/case-studies', 'ServiceController@caseStudies');
