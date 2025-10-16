@@ -62,7 +62,7 @@
                     Static and digital displays work in perfect sync to build your brand recognition. These massive marketing platforms turn heads and hold attention, creating lasting impressions that stick with viewers long after they pass by. With our advertising solutions, we focus on these key essentials</p>
                 </div>
                 <div class="col-lg-6">
-                    <iframe class="service-iframe outdoor-iframe" src="https://www.youtube.com/embed/WR2HoD0FpyM?si=Ba7ZxHCiRwpc1Hyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="service-iframe outdoor-iframe" src="https://www.youtube.com/embed/Ny7v7w6dtq4?si=oAHAurPi9RcZjBPT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>  
             </div>
 

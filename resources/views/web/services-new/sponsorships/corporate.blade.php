@@ -64,7 +64,7 @@
                         Any company that selects corporate sponsorships UAE gains access to a specific business audience within this growing market sector. The position of Dubai as a worldwide trade centre and entertainment complex with technological prowess enables sponsors to improve brand credibility as they gain substantial investment returns. Datamysite excels at finding perfect sponsorship opportunities that match specific business targets for their clients. Sponsorship deals enable companies to fortify their market position along with creating enduring business partnerships. At Datamysite, we offer such services and much more.
                     </p>
 
-                    <iframe class="service-iframe cop-iframe" src="https://www.youtube.com/embed/re2nXszkJcI?si=9lATrbRekh8VvaCz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="service-iframe cop-iframe" src="https://www.youtube.com/embed/WO0k1eTFGZQ?si=FWzEFlLrWaObGa4m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="col-lg-6">
                     <div class="faq " id="accordion">
