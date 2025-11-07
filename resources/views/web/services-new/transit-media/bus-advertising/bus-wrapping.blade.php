@@ -4,23 +4,20 @@
 @endsection
 @section('addStyle')
     <link href="{{URL::to('/public')}}/assets/css/service.css" rel="stylesheet">
-    <style>
-    </style>
 @endsection
 @section('content')
 
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$service->slug.'.jpg')}}');">
             <div class="container head-container-service">
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
                         <h1>&#10687; {{$subservice->name}}</h1>
-                        <h2>We Specialize in Strategic</h2>
-                        <h4>flyer distribution services across Dubai</h4>
+                        <h2>High-Impact Bus Wrapping Campaigns</h2>
                         <br>
-                        <p>Whether you want to promote a new product, launch a special offer, or increase brand visibility, our flyer marketing solutions ensure that your message reaches the right people at the right time.</p>
+                        <p>At DataMySite Advertising, we specialize in high-impact bus wrapping campaigns across Dubai and the UAE. From concept to execution, we transform ordinary buses into moving billboards that create lasting impressions and deliver unmatched visibility for your brand.</p>
                     </div>
                     <div class="col-lg-4">
                         <div class="aside-form">
@@ -34,7 +31,7 @@
                                 <br>
                                 <input type="email" name="email" placeholder="Email" class="form-control aside-email" required>
                                 
-                                <input type="hidden" name="service" value="{{$service->name}}" required>
+                                <input type="hidden" name="service" value="{{$mainservice->name}}" required>
                                                                 
                                 <textarea class="form-control" name="description" rows="4" placeholder="Describe Your Requirement" required></textarea>
                                 
@@ -57,17 +54,15 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Why Choose Flyer Distribution in Dubai?</h4>
-                    <br>
+                    <h4>What is Bus Wrapping Advertising?</h4>
                     <p>
-                        Dubai’s dynamic urban landscape, diverse communities, and fast-paced commercial growth make it an ideal place for flyer and leaflet advertising. With thousands of businesses competing for attention, physical marketing like flyers still cuts through the noise — it’s tangible, personal, and memorable.
+                        Bus wrapping involves applying high-quality printed vinyl graphics over the exterior surface of buses — covering sections or even the entire vehicle. These wraps showcase your brand message, product visuals, or marketing campaign in vibrant colors, turning every bus into a mobile advertising platform.
                         <br><br>
-                        At DataMySite, we combine traditional distribution methods with modern tracking and targeting techniques to make sure every flyer counts. Our team understands every area — from Dubai Marina to Business Bay, Downtown, JLT, and Deira — ensuring your campaign hits your ideal audience efficiently..
+                        Each wrapped bus moves through high-traffic routes, residential communities, and business districts, making it a highly effective and cost-efficient advertising solution.
                     </p>
-
                 </div>
-                <div class="col-lg-6">
-                    <iframe class="service-iframe flyer-iframe" src="https://www.youtube.com/embed/Ny7v7w6dtq4?si=oAHAurPi9RcZjBPT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="col-lg-6 vertical-center">
+                    <iframe class="service-iframe airline-iframe" src="https://www.youtube.com/embed/Slt71QddNGc?si=Bn768ai2rsCC0YBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>  
             </div>
 
@@ -87,46 +82,83 @@
            @include('web.includes.elements.case-studies')
         </section>
 
-        <section id="service-cards" class="blog-section section striped-section pr-icon-section">
+        
+
+        <section id="service-cards" class="blog-section section striped-section why-us-section why-out-us-section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row">
+
+                <div class="col-lg-8 vertical-center">
+                    <h4>Why Choose Bus Wrapping Advertising in Dubai?</h4>
+                    <p>
+                        Dubai is one of the busiest cities in the world, with an ever-growing network of public transport. According to the RTA (Roads and Transport Authority), thousands of buses travel across Dubai daily — connecting neighborhoods, business hubs, and tourist destinations.
+                        <br>
+                        That means your brand can travel everywhere your customers do — from Business Bay to Dubai Marina, JLT, Downtown, Deira, and beyond.
+                        <br><br>
+                        <strong>Benefits of Bus Wrapping Advertising:</strong>
+
+                    </p>
+                    <ul>
+                        <li><strong>Massive Reach</strong> – Reach thousands of commuters and pedestrians every day.</li>
+                        <li><strong>High Visibility</strong> – Eye-catching visuals make your brand stand out in traffic and public spaces.</li>
+                        <li><strong>Cost-Effective</strong> – More affordable and longer-lasting than TV or digital billboards.</li>
+                        <li><strong>24/7 Exposure</strong> – Your ad moves through key city locations day and night.</li>
+                        <li><strong>Flexible Campaign Durations</strong> – Choose from weekly, monthly, or long-term campaigns.</li>
+                        <li><strong>Brand Trust</strong> – Being featured on RTA buses boosts credibility and brand perception.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 mob-not-visible">
+                    <img src="{{URL::to('/public/section-images/image41.png')}}" width="100%" alt="Why choose us">
+                </div> 
+            </div>
+
+          </div>
+
+        </section>
+
+
+
+        
+        <section id="service-cards" class="blog-section section pr-icon-section">
 
           <div class="container">
 
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Our Flyer Distribution Services</h4>
-                    <p>We offer a complete range of flyer and leaflet distribution services in Dubai, customized to match your marketing goals and budget.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 vertical-center">
                     <img src="{{URL::to('/public/section-images/image40.png')}}" class="flyer-img" width="100%" alt="Flyers that find the right hands">
                 </div>
                 <div class="col-lg-8">
+                    <h4>Types of Bus Wrap Advertising We Offer</h4>
+                    <p>At DataMySite, we provide a range of customized bus wrap options depending on your marketing goals and budget.</p>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-20">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-20" data-aria-expanded="true" data-aria-controls="faqCollapse-20">
-                                        <span class="badge">&nbsp;</span>Door-to-Door Flyer Distribution
+                                        <span class="badge">&nbsp;</span>Full Bus Wrap
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-20" class="collapse show" aria-labelledby="faqHeading-20" data-parent="#accordion">
                                 <div class="card-body">
                                     <p>
-                                        Door-to-door flyer distribution is one of the most effective ways to ensure your message reaches every household in your target area. Our professional team handles precise delivery, covering residential communities, apartments, and villas across Dubai and other emirates.
+                                        A full bus wrap covers the entire surface — including sides, rear, and sometimes windows — creating a striking 360° visual experience.
                                         <br>
-                                        We carefully segment areas based on your campaign goals — whether you’re targeting specific neighborhoods, income brackets, or customer demographics.
+                                        Perfect for brand launches, events, or high-visibility national campaigns.
                                         <br>
                                         <strong>Benefits:</strong>
                                     </p>
                                     <ul>
-                                        <li>Wide coverage in both residential and business areas</li>
-                                        <li>Direct contact with potential customers</li>
-                                        <li>Highly measurable and cost-effective</li>
-                                        <li>Builds strong local brand awareness</li>
-
+                                        <li>Maximum brand exposure</li>
+                                        <li>Visually dominant and hard to miss</li>
+                                        <li>Creates strong recall value</li>
                                     </ul>
-                                    <p>Popular areas for this service include Jumeirah Village Circle (JVC), Dubai Marina, Mirdif, Al Barsha, Business Bay, and Downtown Dubai.</p>
                                 </div>
                             </div>
                         </div>
@@ -135,27 +167,24 @@
                             <div class="card-header" id="faqHeading-21">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-21" data-aria-expanded="true" data-aria-controls="faqCollapse-21">
-                                        <span class="badge">&nbsp;</span>Digital Flyers Distribution
+                                        <span class="badge">&nbsp;</span>Partial Bus Wrap
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-21" class="collapse" aria-labelledby="faqHeading-21" data-parent="#accordion">
                                 <div class="card-body">
                                     <p>
-                                        In today’s digital-first world, Digital Flyers are transforming traditional marketing into a hybrid online model. With DataMySite’s digital flyer campaigns, you can reach your audience through WhatsApp marketing, email campaigns, and social media platforms like Instagram and Facebook.
+                                        A cost-effective option that covers selected areas of the bus, such as the side panels or back section.
                                         <br>
-                                        We design visually stunning, mobile-friendly flyers that grab attention instantly — perfect for promoting restaurant offers, retail sales, real estate listings, and events.
+                                        Ideal for short-term promotions or targeted messages.
                                         <br>
                                         <strong>Benefits:</strong>
                                     </p>
                                     <ul>
-                                        <li>Instant reach across online platforms</li>
-                                        <li>Cost-effective and easy to track performance</li>
-                                        <li>Ideal for flash sales and limited-time offers</li>
-                                        <li>Eco-friendly — no paper waste</li>
-
+                                        <li>Budget-friendly</li>
+                                        <li>Great for promotions and seasonal offers</li>
+                                        <li>Easier installation and removal</li>
                                     </ul>
-                                    <p>Our team can integrate QR codes, landing pages, or call-to-action buttons to convert engagement into measurable leads.</p>
                                 </div>
                             </div>
                         </div>
@@ -164,25 +193,17 @@
                             <div class="card-header" id="faqHeading-22">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-22" data-aria-expanded="true" data-aria-controls="faqCollapse-22">
-                                        <span class="badge">&nbsp;</span>Handout Flyers Distribution
+                                        <span class="badge">&nbsp;</span>Rear Bus Wrap
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-22" class="collapse" aria-labelledby="faqHeading-22" data-parent="#accordion">
                                 <div class="card-body">
                                     <p>
-                                        Handout flyer distribution targets high-footfall areas where customers are most likely to engage with your brand. This includes malls, exhibitions, trade shows, busy streets, and public events. Our trained promoters hand out flyers directly, ensuring professional representation and meaningful customer interactions.
+                                        The rear of the bus gets direct visibility from vehicles and pedestrians behind it — especially in Dubai’s busy traffic.
                                         <br>
-                                        <strong>Benefits:</strong>
+                                        It’s one of the most effective spots for call-to-action messages, like websites, contact numbers, or QR codes.    
                                     </p>
-                                    <ul>
-                                        <li>Direct, face-to-face engagement</li>
-                                        <li>Ideal for event promotions and product launches</li>
-                                        <li>Great for creating an immediate impact</li>
-                                        <li>Increases brand recognition through human connection</li>
-
-                                    </ul>
-                                    <p>Popular handout locations include Dubai Mall, Mall of the Emirates, City Walk, Expo City Dubai, Global Village, and Downtown Boulevard.</p>
                                 </div>
                             </div>
                         </div>
@@ -196,56 +217,94 @@
         </section>
 
 
-        <section id="service-cards" class="blog-section section why-us-section why-out-us-section">
+        <section id="service-cards" class="blog-section striped-section section why-us-section why-out-us-section">
 
           <div class="container">
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-9">
-                    <h4>Why Choose DataMySite for Flyer Distribution in Dubai?</h4>
+                <div class="col-lg-8 vertical-center">
+                    <h4>Industries That Benefit from Bus Advertising</h4>
                     <p>
-                        At DataMySite Advertising, we believe successful flyer campaigns require more than just distribution — they need strategy, design, and precise execution.
-                        <br>
-                        Here’s what sets us apart:
-
+                        Bus wrapping is suitable for nearly all industries, including:
                     </p>
                     <ul>
-                        <li><strong>Targeted Planning</strong>: We help you identify the most responsive areas and audiences for your flyers.</li>
-                        <li><strong>Professional Team</strong>: Our trained distributors ensure punctual, ethical, and accurate delivery.</li>
-                        <li><strong>Campaign Reporting</strong>: Get detailed reports and performance tracking after completion.</li>
-                        <li><strong>Creative Design Services</strong>: Our in-house design team creates eye-catching flyers that convert.</li>
-                        <li><strong>Dubai-Wide Coverage</strong>: From Sheikh Zayed Road to Jumeirah, Business Bay, and Dubai Marina — we’ve got every corner covered.</li>
+                        <li><strong>Real Estate Developers</strong> – promote new projects or community launches</li>
+                        <li><strong>Retail & Shopping Malls</strong> – advertise seasonal offers and openings</li>
+                        <li><strong>Restaurants & Food Chains</strong> – promote delivery apps or new menus</li>
+                        <li><strong>Events & Exhibitions</strong> – announce upcoming shows and festivals</li>
+                        <li><strong>Education & Training Institutes</strong> – promote admissions and programs</li>
+                        <li><strong>Technology & Telecom Brands</strong> – drive product awareness</li>
+                        <li><strong>Tourism & Hospitality</strong> – promote hotels, destinations, and attractions</li>
                     </ul>
                     <br>
-                    <h4>Flyer Distribution Coverage in Dubai</h4>
+                    <h4>Strategic Bus Routes in Dubai for Advertising</h4>
                     <p>
-                        We provide extensive flyer delivery coverage across all major regions in Dubai and UAE, including:
+                        We operate across all major RTA bus routes to ensure your campaign covers the right audience.
                         <br>
-                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Dubai Marina</span>
+                        Popular advertising routes include:
+                        <br>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Sheikh Zayed Road</span>
                         <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Business Bay</span>
-                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> JLT</span>
-                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Deira</span>
-                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Al Barsha</span>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Dubai Marina & JBR</span>
                         <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Downtown Dubai</span>
-                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Mirdif</span>
-                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Jumeirah</span>
-                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Al Qusais</span>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Al Barsha</span>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Deira & Bur Dubai</span>
                         <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Dubai Silicon Oasis</span>
-                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Dubai Sports City</span>
-                        <br>
-                        Each campaign is customized based on area demographics, traffic density, and audience relevance, ensuring maximum return on investment.
-                    </p>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Mirdif & Al Warqa</span>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i> Jumeirah & Al Wasl</span>
 
+                        <br>
+                        Each route is carefully selected based on demographics, footfall, and visibility to deliver the best ROI.
+                    </p>
                 </div>
+                <div class="col-lg-1"></div>
+
                 <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image41.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
           </div>
 
         </section>
+
+
+        <section id="service-cards" class="blog-section section why-us-section why-out-us-section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row">
+
+
+                <div class="col-lg-3 mob-not-visible">
+                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
+                </div> 
+                <div class="col-lg-1"></div>
+                <div class="col-lg-8 vertical-center">
+                    <h4>Why Choose DataMySite for Bus Wrapping Advertising?</h4>
+                    <p>
+                        With years of experience in outdoor media and transit advertising, DataMySite offers end-to-end solutions — from concept design to production, RTA approval, and installation.
+                        <br>
+                        Our Expertise Includes:
+
+                    </p>
+                    <ul>
+                        <li>Professional campaign planning and creative design</li>
+                        <li>Premium quality 3M-certified vinyl materials</li>
+                        <li>RTA-approved installations</li>
+                        <li>Real-time campaign monitoring</li>
+                        <li>Detailed coverage reports</li>
+                        <li>Nationwide campaign execution</li>
+                    </ul>
+                    <p>We ensure your bus wraps are visually stunning, durable, and strategically placed to deliver measurable brand impact.</p>
+                </div>
+            </div>
+
+          </div>
+
+        </section>
+
 
 
         <section id="service-cards" class="blog-section section striped-section why-us-section why-out-us-section">
@@ -254,38 +313,41 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image41.png')}}" width="100%" alt="Why choose us">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8 vertical-center">
-                    <h4>Industries That Benefit from Flyer Marketing</h4>
-                    <p>
-                        Our flyer distribution services in Dubai cater to a wide range of industries, including:
 
+                <div class="col-lg-6">
+                    <h4>Creative Design & Printing Quality</h4>
+                    <p>
+                        We understand that your brand image deserves perfection. That’s why we use UV-resistant, weatherproof vinyl materials and high-resolution digital printing to ensure vibrant colors and long-lasting performance under Dubai’s climate.
+                        <br>
+                        Our creative team works closely with you to craft visually powerful designs that fit perfectly across bus panels and comply with RTA advertising regulations.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h4>Bus Advertising Packages</h4>
+                    <p>
+                        We offer flexible packages tailored to your needs:
                     </p>
                     <ul>
-                        <li><strong>Real Estate</strong> (project launches, open houses)</li>
-                        <li><strong>Restaurants & Cafés</strong> (new menu promotions, delivery offers)</li>
-                        <li><strong>Retail Stores</strong> (discounts, new arrivals, clearance sales)</li>
-                        <li><strong>Fitness & Gyms</strong> (membership offers, grand openings)</li>
-                        <li><strong>Event Management Companies</strong> (concerts, exhibitions, and community events)</li>
-                        <li><strong>Educational Institutions</strong> (courses, admissions, training programs)</li>
+                        <li>Single Bus Campaigns</li>
+                        <li>Fleet Campaigns</li>
+                        <li>Long-Term Branding</li>
+                        <li>Event-Specific Promotions</li>
                     </ul>
-                    <br>
-                    <h4>Eco-Friendly Flyer Options</h4>
+                    <p>All packages include design support, RTA permissions, printing, wrapping, and installation.</p>
+                </div>
+
+                <div class="col-lg-6">
+                    <h4>Eco-Friendly & Sustainable Options</h4>
+                    <p>At DataMySite, we also care about the environment. We offer eco-friendly printing inks and recyclable vinyl options for clients who prefer sustainable advertising materials — helping your brand stand out responsibly.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h4>Get Your Brand Moving with DataMySite</h4>
                     <p>
-                        We also offer eco-friendly flyer printing options using recycled materials and sustainable inks. This not only helps you reduce environmental impact but also appeals to the growing number of eco-conscious consumers in Dubai.
-                    </p>
-                    <br>
-                    <h4>Get Started with Your Flyer Distribution Campaign Today</h4>
-                    <p>
-                        Ready to take your brand directly to your audience?
+                        Whether you’re launching a new product or building long-term awareness, Bus Wrapping Advertising in Dubai is the most effective way to keep your brand in motion.
                         <br>
-                        Our flyer distribution experts will guide you through the entire process — from campaign planning and creative design to printing, targeting, and reporting.
-                        Whether you need door-to-door, digital, or handout flyer distribution, DataMySite Advertising ensures your message makes a real impact.
+                        Let your brand travel through the city — turning every street into your marketplace.
                         <br><br>
-                        Contact us today to launch your next flyer distribution campaign in Dubai, UAE.
+                        Contact DataMySite Advertising today to start your Bus Wrapping Campaign in Dubai, UAE.
                     </p>
                 </div>
             </div>
@@ -297,7 +359,7 @@
 
 
 
-        <section id="service-cards" class="blog-section  section pr-blogs-section">
+        <section id="service-cards" class="blog-section section pr-blogs-section">
 
           <div class="container section-title">
             <h2 class="text-theme">Blogs</h2>
@@ -334,25 +396,24 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-1"></div>
                 <div class="col-lg-3 vertical-center">
                     <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
                 </div> 
                 <div class="col-lg-1"></div>
-                <div class="col-lg-7">
+                <div class="col-lg-8">
                     <h4>FAQs</h4>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>How much does flyer distribution cost in Dubai?
+                                        <span class="badge">&nbsp;</span>How long does a bus wrap last?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>The cost varies based on quantity, location, and flyer type. Typically, prices range from AED 0.25 to AED 0.75 per flyer, depending on your campaign scope.</p>
+                                    <p>With proper installation and maintenance, a bus wrap can last 6–12 months, even in Dubai’s weather.</p>
                                 </div>
                             </div>
                         </div>
@@ -360,13 +421,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How do you ensure flyers are properly distributed?
+                                        <span class="badge">&nbsp;</span>Is bus advertising approved by RTA?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We use trained distributors, area mapping, and supervisor checks. You’ll receive post-campaign reports and photos for verification.</p>
+                                    <p>Yes. All bus advertisements must be RTA-approved. DataMySite handles all approval processes for you.</p>
                                 </div>
                             </div>
                         </div>
@@ -374,13 +435,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What areas do you cover for flyer distribution in Dubai?
+                                        <span class="badge">&nbsp;</span>Can I advertise on multiple buses at once?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We cover all major residential and commercial areas, including Dubai Marina, Business Bay, JVC, Downtown, and Deira.</p>
+                                    <p>Absolutely. We manage fleet campaigns across Dubai and UAE for maximum coverage.</p>
                                 </div>
                             </div>
                         </div>
@@ -388,13 +449,17 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Can you help design and print the flyers?
+                                        <span class="badge">&nbsp;</span>What’s the cost of bus wrapping in Dubai?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes! We offer complete design and printing services to ensure your flyers are attractive, brand-aligned, and cost-efficient.</p>
+                                    <p>
+                                        Costs depend on coverage type (full, partial, or rear wrap), bus count, and campaign duration.
+                                        <br>
+                                        Typical rates start from AED 8,000 per bus/month.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -402,13 +467,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>Do you offer bulk discounts for large campaigns?
+                                        <span class="badge">&nbsp;</span>Do you handle design and printing?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Absolutely — we provide special rates for high-volume and long-term campaigns.</p>
+                                    <p>Yes — we provide complete creative design, printing, and installation services using high-quality materials.</p>
                                 </div>
                             </div>
                         </div>

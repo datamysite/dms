@@ -1,5 +1,13 @@
 @extends('web.includes.master')
-
+@section('addStyle')
+    <style>
+        .case-studies-new h5 {
+            font-size: 14px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+@endsection
 @section('content')
 
     <main class="main">
@@ -26,25 +34,55 @@
                     </ul>
                     <p>Each case study is a testament to our dedication, creativity, and expertise, offering a glimpse into the innovative solutions we craft to help businesses thrive in Dubai's competitive market.</p>
                     <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS_3OCdyYlZvrSWwz8CvTNMkoggXfhmi1gwa3jcF_JeIXeF2VseirEWauef3VUnyA/embed?start=false&loop=false&delayms=3000" frameborder="0"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="case-studies-frame"></iframe>
-                            <h5><span>Dubai Duty Free</span> x <span>DMS</span> |  Case Study</h5>
-                            <br><br>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 case-studies-new">
+                            <a href="{{URL::to('/public/case-studies/ays.pdf')}}" target="_blank" class="open-case-study">
+                                <img src="{{URL::to('/public/case-studies/cover/ays.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
+                                <h5><span>AYS Developers</span> x <span>DMS</span> |  Case Study</h5>
+                            </a>
                         </div>
-                        <div class="col-lg-6 col-md-6">
-                            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT63me5eQNHB12VECw8Sqpm_sA3y7PwTICbHj5U_UISP_fj7u2rYTqiENoGA7ndRA/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="case-studies-frame"></iframe>
-                            <h5><span>Danube</span> x <span>DMS</span> |  Case Study</h5>
-                            <br><br>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 case-studies-new">
+                            <a href="{{URL::to('/public/case-studies/jetour.pdf')}}" target="_blank" class="open-case-study">
+                                <img src="{{URL::to('/public/case-studies/cover/jetour.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
+                                <h5><span>Jetour</span> x <span>DMS</span> |  Case Study</h5>
+                            </a>
                         </div>
-                        <div class="col-lg-6 col-md-6">
-                            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTiVu_LNKHsGKfRx778124pqwQDnms15vyR_K1mTiEPrLJC1Qw42fXJ81bMyFEp4g/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="case-studies-frame"></iframe>
-                            <h5><span>Lenskart</span> x <span>DMS</span> |  Case Study</h5>
-                            <br><br>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 case-studies-new">
+                            <a href="{{URL::to('/public/case-studies/tranquil.pdf')}}" target="_blank" class="open-case-study">
+                                <img src="{{URL::to('/public/case-studies/cover/tranquil.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
+                                <h5><span>Tranquil Developers</span> x <span>DMS</span> |  Case Study</h5>
+                            </a>
                         </div>
-                        <div class="col-lg-6 col-md-6">
-                            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTH_UU4nQgShSCe9OghZe5VUK_LTsn1hrXhfw-ukl9UBOQS9JMDt0jaGnw1zqa1Xw/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="case-studies-frame"></iframe>
-                            <h5><span>KSA Influencers</span> x <span>DMS</span> |  Case Study</h5>
-                            <br><br>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 case-studies-new">
+                            <a href="{{URL::to('/public/case-studies/ilg.pdf')}}" target="_blank" class="open-case-study">
+                                <img src="{{URL::to('/public/case-studies/cover/ilg.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
+                                <h5><span>ILG Luxury Group</span> x <span>DMS</span> |  Case Study</h5>
+                            </a>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 case-studies-new">
+                            <a href="{{URL::to('/public/case-studies/dubai-duty-free.pdf')}}" target="_blank" class="open-case-study">
+                                <img src="{{URL::to('/public/case-studies/cover/dubai-duty-free.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
+                                <h5><span>Dubai Duty Free</span> x <span>DMS</span> |  Case Study</h5>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 case-studies-new">
+                            <a href="{{URL::to('/public/case-studies/lenskart.pdf')}}" target="_blank" class="open-case-study">
+                                <img src="{{URL::to('/public/case-studies/cover/uae.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
+                                <h5><span>Lenskart</span> x <span>DMS</span> |  Case Study</h5>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 case-studies-new">
+                            <a href="{{URL::to('/public/case-studies/danube.pdf')}}" target="_blank" class="open-case-study">
+                                <img src="{{URL::to('/public/case-studies/cover/danube.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
+                                <h5><span>Danube</span> x <span>DMS</span> |  Case Study</h5>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 case-studies-new">
+                            <a href="{{URL::to('/public/case-studies/ksa.pdf')}}" target="_blank" class="open-case-study">
+                                <img src="{{URL::to('/public/case-studies/cover/ksa.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
+                                <h5><span>KSA Influencers</span> x <span>DMS</span> |  Case Study</h5>
+                            </a>
                         </div>
                     </div>
                     <h4>Transforming Brands Through Comprehensive Marketing Solutions</h4>

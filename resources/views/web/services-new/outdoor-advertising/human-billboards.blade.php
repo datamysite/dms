@@ -21,7 +21,7 @@
                         <h4>with High-Visibility Human Billboards in Dubai</h4>
                         <br>
                         <p>
-                            Human billboards in Dubai fall into the second category. They don’t just flash a message—they bring it to life. Whether it’s a brand ambassador walking through Dubai Mall, a team of promoters turning heads at a major event, or a well-placed sign in the busiest part of Sheikh Zayed Road, these campaigns make people stop, look, and engage.
+                            Human billboard advertising is one of the most eye-catching outdoor advertising formats, perfect for product launches, events, retail promotions, and brand activations. By combining creativity and human interaction, this form of advertising gives your brand a personal, memorable, and high-visibility presence in busy areas of Dubai and the UAE.
                             
                         </p>
                     </div>
@@ -58,79 +58,19 @@
           <div class="container">
 
             <div class="row gy-4 first-row">
-                <div class="col-lg-12">
-                    <h4>Why Choose Human Billboards from DataMySite?</h4>
-                    <p>
-                        Think about the last time an ad truly grabbed your attention. Was it a digital pop-up? A billboard on a highway? Or was it something personal—an experience, a recommendation, a conversation? 
-                        For CEOs, CFOs, and Marketing Heads, every advertising dirham has to count. Every campaign needs to drive brand awareness, foot traffic, and conversions—not just impressions on a report. That’s why brands looking for high-visibility, high-impact advertising choose our human billboard advertising in Dubai to create real-world connections that turn into sales.
-                        That’s the power of high-impact street advertising in Dubai. It puts your brand into the hands (literally) of trained brand representatives who don’t just hold a message—they deliver it. Here’s why companies choose our human billboard advertising services.
-                    </p>
-                </div>
                 <div class="col-lg-6">
-                    <iframe class="service-iframe" src="https://www.youtube.com/embed/Ny7v7w6dtq4?si=oAHAurPi9RcZjBPT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="service-iframe flyer-iframe" src="https://www.youtube.com/embed/Ny7v7w6dtq4?si=oAHAurPi9RcZjBPT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>  
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="faq " id="accordion">
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-30">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-30" data-aria-expanded="true" data-aria-controls="faqCollapse-30">
-                                        <span class="badge">&nbsp;</span>You Can’t Ignore a Human Billboard
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-30" class="collapse show" aria-labelledby="faqHeading-30" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>People scroll past digital ads. They drive by billboards. But when someone stands in front of them, holding a message, making eye contact, or handing them something valuable—they pay attention.</p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
 
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-31">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-31" data-aria-expanded="true" data-aria-controls="faqCollapse-31">
-                                        <span class="badge">&nbsp;</span>Real Interactions = Real Conversions.
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-31" class="collapse" aria-labelledby="faqHeading-31" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>With human billboard advertising in Dubai, customers don’t just see your brand. They experience it. Brand ambassadors answer questions, hand out samples, and create personal connections that drive trust. And trust leads to sales.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-32">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-32" data-aria-expanded="true" data-aria-controls="faqCollapse-32">
-                                        <span class="badge">&nbsp;</span>Flexible and Affordable
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-32" class="collapse" aria-labelledby="faqHeading-32" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Static billboards are expensive and locked in place. Digital ads fight for attention in a crowded space. But cost-effective human billboard campaigns in GCC can go where your audience is—whether that’s a shopping mall, an event, or the heart of a busy district.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-33">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-33" data-aria-expanded="true" data-aria-controls="faqCollapse-33">
-                                        <span class="badge">&nbsp;</span>Perfect for Time-Sensitive Campaigns.
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-33" class="collapse" aria-labelledby="faqHeading-33" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Are you opening a new store? Human billboards put your message on the ground immediately. Unlike traditional ads that take weeks to set up, this strategy is fast, adaptable, and effective from day one.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <h4>What is Human Billboard Advertising?</h4>
+                    <p>
+                        A human billboard is a live, walking or stationary promoter who carries your brand message on a wearable display board. Unlike static advertising on walls or signboards, human billboards move through high-traffic areas — allowing your brand to be seen, noticed, and remembered by thousands of potential customers.
+                        <br>
+                        It’s interactive, versatile, and a smart solution for businesses looking to connect directly with their audience in a fun and attention-grabbing way.
+                        <br>
+                        At DataMySite, we plan and manage customized human billboard campaigns across Dubai, ensuring maximum visibility in key hotspots like Downtown Dubai, Dubai Mall, City Walk, JBR, Dubai Marina, and Expo City.
+                    </p>
 
                 </div>
             </div>
@@ -160,74 +100,99 @@
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
                 </div>
                 <div class="col-lg-8">
-                    <h4>How It Works: From Brand Message to Human Connection</h4>
-                    <p>We don’t just place people on the street and hope for the best. We engineer campaigns for maximum engagement.</p>
+                    
+                    <h4>Types of Human Billboard Advertising</h4>
+                    <p>We offer several forms of human billboard advertising to meet your campaign goals and suit different marketing environments.</p>
                     <div class="faq " id="accordion">
                         <div class="card">
-                            <div class="card-header" id="faqHeading-40">
+                            <div class="card-header" id="faqHeading-30">
                                 <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-40" data-aria-expanded="true" data-aria-controls="faqCollapse-40">
-                                        <span class="badge">&nbsp;</span>Location Strategy: We Go Where the People Are
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-30" data-aria-expanded="true" data-aria-controls="faqCollapse-30">
+                                        <span class="badge">&nbsp;</span>Backpack Billboards
                                     </h5>
                                 </div>
                             </div>
-                            <div id="faqCollapse-40" class="collapse show" aria-labelledby="faqHeading-40" data-parent="#accordion">
+                            <div id="faqCollapse-30" class="collapse show" aria-labelledby="faqHeading-30" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Your audience isn’t just anywhere—they’re in specific high-traffic places. We position your campaign at malls, events, business districts, and tourist hotspots where people are ready to engage.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-41">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-41" data-aria-expanded="true" data-aria-controls="faqCollapse-41">
-                                        <span class="badge">&nbsp;</span>Branding That Stands Out
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-41" class="collapse" aria-labelledby="faqHeading-41" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Our team wears branded uniforms, holds eye-catching signage, and uses custom messaging designed to grab attention. Whether it's day or night, your brand stays visible.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-42">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-42" data-aria-expanded="true" data-aria-controls="faqCollapse-42">
-                                        <span class="badge">&nbsp;</span>Trained Brand Ambassadors Who Make an Impact.
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-42" class="collapse" aria-labelledby="faqHeading-42" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Holding a sign is easy. Engaging people is an art. Our teams are trained to:</p>
+                                    <p>
+                                        Backpack Billboards are a mobile and highly flexible form of human advertising. A brand ambassador wears a lightweight illuminated backpack display that showcases your ad message or creative visual as they move through public areas.
+                                        <br>
+                                        These are ideal for events, exhibitions, festivals, and shopping areas, allowing your brand to move with the crowd and engage directly with people.
+                                        <br>
+                                        Benefits of Backpack Billboards:
+                                    </p>
                                     <ul>
-                                        <li>Answer questions about your product</li>
-                                        <li>Start conversations and build interest</li>
-                                        <li>Hand out flyers, samples, or exclusive promo codes</li>
-                                        <li>Direct people to your store, website, or activation area</li>
+                                        <li>Highly mobile – your ad travels through busy locations</li>
+                                        <li>LED-backlit for maximum visibility, even at night</li>
+                                        <li>Cost-effective compared to traditional outdoor displays</li>
+                                        <li>Perfect for promotional events and product launches</li>
+                                        <li>Eco-friendly and reusable</li>
                                     </ul>
+                                    <p><strong>Best for</strong>: Restaurants, cafés, retail brands, events, concerts, product promotions, and street marketing campaigns.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="card">
-                            <div class="card-header" id="faqHeading-43">
+                            <div class="card-header" id="faqHeading-31">
                                 <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-43" data-aria-expanded="true" data-aria-controls="faqCollapse-43">
-                                        <span class="badge">&nbsp;</span>Integrated with Your Digital Strategy
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-31" data-aria-expanded="true" data-aria-controls="faqCollapse-31">
+                                        <span class="badge">&nbsp;</span>Stationary Billboards (Human Standing Displays)
                                     </h5>
                                 </div>
                             </div>
-                            <div id="faqCollapse-43" class="collapse" aria-labelledby="faqHeading-43" data-parent="#accordion">
+                            <div id="faqCollapse-31" class="collapse" aria-labelledby="faqHeading-31" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Do you want to track campaign performance? We add QR codes, social media links, and exclusive offers so you can measure engagement in real-time.</p>
+                                    <p>
+                                        Stationary Human Billboards are ideal for fixed locations where you want to maximize exposure in a specific area. Promoters stand at store entrances, event venues, or busy pedestrian zones holding customized signage or digital display boards featuring your message.
+                                        <br>
+                                        This format ensures continuous visibility and engagement throughout your campaign period.
+                                        <br>
+                                        Benefits of Stationary Billboards:
+
+                                    </p>
+                                    <ul>
+                                        <li>Eye-catching and hard to ignore</li>
+                                        <li>Ideal for grand openings, exhibitions, and store promotions</li>
+                                        <li>Enables one-on-one brand interaction</li>
+                                        <li>Offers more detailed brand messaging opportunities</li>
+
+                                    </ul>
+                                    <p><strong>Best for</strong>: Retail stores, exhibitions, product displays, and experiential marketing campaigns.</p>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-32">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-32" data-aria-expanded="true" data-aria-controls="faqCollapse-32">
+                                        <span class="badge">&nbsp;</span>Walking Human Billboards
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-32" class="collapse" aria-labelledby="faqHeading-32" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        This is the classic form of human billboard advertising, where trained promoters walk through high-traffic areas wearing double-sided or digital boards that display your ad content. It’s a proven way to attract real attention and spark curiosity among passersby.
+                                        <br>
+                                        Walking billboards combine mobility and human connection, making your campaign stand out in crowded streets, beaches, malls, and public spaces.
+                                        <br>
+                                        Benefits of Walking Human Billboards:
+
+                                    </p>
+                                    <ul>
+                                       <li> Maximum exposure across multiple areas</li>
+                                        <li>Engages the audience directly through human interaction</li>
+                                        <li>Can be combined with flyer handouts or QR code promotions</li>
+                                        <li>Perfect for brand awareness and location-based promotions</li>
+
+                                    </ul>
+                                    <p><strong>Best for</strong>: Food delivery apps, entertainment events, local retail promotions, and new product launches.</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div> 
                 <div class="col-lg-4">
@@ -247,56 +212,31 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-9">
-                    <h4>How Our Human Billboards in Dubai Compare to Traditional Advertising?</h4>
-                    <div class="table-responsive">
-                        <table class="table table-striped">
-                            <tr>
-                                <th>Advertising Type</th>
-                                <th>Visibility</th>
-                                <th>Engagement</th>
-                                <th>Cost</th>
-                                <th>ROI</th>
-                            </tr>
-
-                            <tr>
-                                <td>Human Billboards</td>
-                                <td>High</td>
-                                <td>Direct, face-to-face</td>
-                                <td>Affordable</td>
-                                <td>High</td>
-                            </tr>
-
-                            <tr>
-                                <td>Digital Ads</td>
-                                <td>Medium</td>
-                                <td>Limited interaction</td>
-                                <td>Expensive</td>
-                                <td>Medium</td>
-                            </tr>
-
-                            <tr>
-                                <td>Static Billboards</td>
-                                <td>High</td>
-                                <td>Zero engagement</td>
-                                <td>Very expensive</td>
-                                <td>Low</td>
-                            </tr>
-
-                            <tr>
-                                <td>Social Media Ads</td>
-                                <td>Medium</td>
-                                <td>Passive audience</td>
-                                <td>Variable</td>
-                                <td>Medium</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <p>Do you want to connect with your audience? Do you want not just to be seen but to be remembered? Our human billboards in Dubai deliver that edge.</p>
+                    <h4>Why Choose Human Billboard Advertising in Dubai?</h4>
+                    <p>
+                        Dubai is one of the most visually competitive advertising markets in the world. With countless brands vying for attention, human billboard advertising provides a creative edge that helps your campaign stand out.
+                        <br>
+                        At DataMySite Advertising, we specialize in strategically planned and professionally managed campaigns that deliver measurable results.
+                        <br>
+                        <strong>Key Advantages:</strong>
+                    </p>
+                    <ul>
+                        <li><strong>High Visibility</strong>: Human billboards naturally attract attention in busy areas.</li>
+                        <li><strong>Direct Engagement</strong>: Create face-to-face interactions with potential customers.</li>
+                        <li><strong>Creative Flexibility</strong>: Use LED displays, QR codes, or branded costumes.</li>
+                        <li><strong>Budget-Friendly</strong>: More affordable than digital screens or large static billboards.</li>
+                        <li><strong>Perfect for Events</strong>: Ideal for trade shows, exhibitions, and live marketing.</li>
+                    </ul>
                     <br>
-                    <h4>Get Your Brand on the Streets and in Front of Your Audience</h4>
-                    <p>It is time to explore human billboard advertising in Dubai if you are looking for advertising that grabs attention and drives real results,
-                        <br>Call us today to build a cost-effective human billboard campaign in GCC that delivers real, measurable impact.</p>
-                    
+                    <h4>Industries That Benefit from Human Billboard Advertising</h4>
+                    <ul>
+                        <li><strong>Retail & Shopping Malls</strong> – drive foot traffic and awareness</li>
+                        <li><strong>Restaurants & Cafés</strong> – promote new menus or grand openings</li>
+                        <li><strong>Event Management</strong> – advertise concerts, exhibitions, and entertainment events</li>
+                        <li><strong>Real Estate Developers</strong> – promote new projects or launches</li>
+                        <li><strong>Telecom & Tech Brands</strong> – enhance visibility for product launches</li>
+                        <li><strong>E-commerce & Apps</strong> – promote downloads and online sales</li>
+                    </ul>
                 </div>
                 <div class="col-lg-3 mob-not-visible">
                     <img src="{{URL::to('/public/section-images/image39.png')}}" width="100%" alt="Why choose us">
@@ -307,6 +247,99 @@
 
         </section>
 
+
+
+        <section id="service-cards" class="blog-section section striped-section why-us-section why-out-us-section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row">
+
+                <div class="col-lg-3 mob-not-visible">
+                    <img src="{{URL::to('/public/section-images/image39.png')}}" width="100%" alt="Why choose us">
+                </div> 
+                <div class="col-lg-1"></div>
+                <div class="col-lg-8">
+                    <h4>Our Human Billboard Advertising Process</h4>
+                    <p>
+                        We follow a structured, performance-driven process to ensure your campaign achieves its goals:
+                    </p>
+                    <ul>
+                        <li><strong>Campaign Planning</strong>: Define target areas, timing, and audience demographics.</li>
+                        <li><strong>Creative Design</strong>: We create engaging visuals or digital content for maximum impact.</li>
+                        <li><strong>Team Selection</strong>: Trained and professional promoters represent your brand.</li>
+                        <li><strong>Execution</strong>: Our promoters engage the public while ensuring high visibility.</li>
+                        <li><strong>Reporting</strong>: We provide performance feedback and coverage summaries.</li>
+                    </ul>
+                    <p>Whether you’re launching a new restaurant in Business Bay, promoting an event at Dubai World Trade Centre, or advertising a product in Jumeirah Beach Residence (JBR) — we tailor campaigns to your exact needs.</p>
+                    <br>
+                    <h4>Where We Operate</h4>
+                    <p>
+                        Our human billboard campaigns cover all major areas of Dubai and across the UAE, including:
+                        <br>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i>Dubai Marina</span>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i>Downtown Dubai</span>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i>Business Bay</span>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i>Jumeirah</span>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i>Deira</span>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i>Al Barsha</span>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i>City Walk</span>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i>Mirdif</span>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i>Expo City Dubai</span>
+                        <span class="badge badge-default badge-location"><i class="bi bi-geo-alt"></i>Sharjah & Abu Dhabi (on request)</span>
+                    </p>
+
+                </div>
+            </div>
+
+          </div>
+
+        </section>
+
+
+
+        <section id="service-cards" class="blog-section section  why-us-section why-out-us-section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row">
+
+                <div class="col-lg-8">
+                    <h4>Why Choose DataMySite Advertising?</h4>
+                    <p>
+                        At DataMySite, we go beyond traditional marketing — our goal is to make your brand seen and remembered. With years of experience in outdoor and experiential advertising, we help clients create memorable, high-impact campaigns that deliver results.
+                        <br>
+                        What You Get:
+                    </p>
+                    <ul>
+                        <li>Expert campaign planning and execution</li>
+                        <li>Trained promoters and brand ambassadors</li>
+                        <li>Affordable and customizable packages</li>
+                        <li>Strategic placement for maximum ROI</li>
+                        <li>Detailed post-campaign performance reports</li>
+
+                    </ul>
+                    <br>
+                    <h4>Get Started with Human Billboard Advertising Today</h4>
+                    <p>
+                        Ready to turn heads and boost brand engagement?
+                        <br>
+                        At DataMySite Advertising, we’ll help you design and execute a customized human billboard campaign that reaches your audience in the most creative and effective way possible.
+                        <br><br>
+                        Contact us today to discuss your Human Billboard Advertising campaign in Dubai, UAE.
+                    </p>
+
+                </div>
+                <div class="col-lg-1"></div>
+
+                <div class="col-lg-3 mob-not-visible">
+                    <img src="{{URL::to('/public/section-images/image39.png')}}" width="100%" alt="Why choose us">
+                </div> 
+            </div>
+
+          </div>
+
+        </section>
 
 
 
@@ -359,13 +392,13 @@
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What Tracking Metrics Do You Provide?
+                                        <span class="badge">&nbsp;</span>What is the cost of human billboard advertising in Dubai?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Our comprehensive analytics include engagement rates, lead generation numbers, and ROI calculations. These are presented in weekly detailed reports.</p>
+                                    <p>Pricing depends on duration, number of promoters, and campaign type. Our rates start from AED 400 per promoter per day, including setup and branding materials.</p>
                                 </div>
                             </div>
                         </div>
@@ -373,13 +406,55 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How Do You Ensure Consistency?
+                                        <span class="badge">&nbsp;</span>How effective is human billboard advertising?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We ensure brand consistency through rigorous training programs and quality control measures. We use our proprietary monitoring system.</p>
+                                    <p>Extremely effective — it captures attention, creates brand recall, and engages customers personally, especially in high-traffic locations.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-12">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
+                                        <span class="badge">&nbsp;</span>Where can human billboard campaigns be executed in Dubai?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>We operate in areas such as Downtown Dubai, JBR, City Walk, Dubai Marina, Business Bay, and other popular outdoor zones.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-13">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
+                                        <span class="badge">&nbsp;</span>Do you provide design and printing services for the boards?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Yes, we offer complete design, printing, and branding support — including LED backpack displays and stationary signage.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-14">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
+                                        <span class="badge">&nbsp;</span>Can human billboard campaigns include flyer distribution too?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Absolutely. You can combine walking billboard advertising with flyer handouts or QR code promotions for greater engagement.</p>
                                 </div>
                             </div>
                         </div>

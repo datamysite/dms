@@ -42,9 +42,19 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
     //Services
         Route::prefix('outdoor-advertising')->group(function(){
             Route::get('/', 'ServiceController@outdoorAdvertising');
-            Route::get('/billboards-advertising', 'ServiceController@outdoorAdvertisingAillboardsAdvertising');
+            Route::prefix('billboards-advertising')->group(function(){
+                
+                Route::get('/', 'ServiceController@outdoorAdvertisingAillboardsAdvertising');
+                Route::get('/building-wraps', 'ServiceController@outdoorAdvertisingAillboardsAdvertisingBuildingWraps');
+                Route::get('/hoarding', 'ServiceController@outdoorAdvertisingAillboardsAdvertisingHoarding');
+                Route::get('/wallscapes', 'ServiceController@outdoorAdvertisingAillboardsAdvertisingWallscapes');
+                Route::get('/bridge-panels', 'ServiceController@outdoorAdvertisingAillboardsAdvertisingBridgePanels');
+
+            });
             Route::get('/flyers-distribution', 'ServiceController@outdoorAdvertisingFlyersDistribution');
             Route::get('/human-billboards', 'ServiceController@outdoorAdvertisingHumanBillboards');
+            Route::get('/unipoles', 'ServiceController@outdoorAdvertisingUnipoles');
+            Route::get('/lamp-post', 'ServiceController@outdoorAdvertisingLampPost');
         });
 
         Route::prefix('digital-advertising')->group(function(){
@@ -86,7 +96,13 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
             Route::get('/', 'ServiceController@transitMedia');
             Route::get('/airline-advertising', 'ServiceController@transitMediaAirline');
             Route::get('/taxi-advertising', 'ServiceController@transitMediaTaxi');
-            Route::get('/bus-advertising', 'ServiceController@transitMediaBus');
+            Route::prefix('bus-advertising')->group(function(){
+                
+                Route::get('/', 'ServiceController@transitMediaBus');
+                Route::get('/bus-wrapping', 'ServiceController@transitMediaBusWrapping');
+                Route::get('/bus-stop-wrap', 'ServiceController@transitMediaBusStopWrapping');
+
+            });
         });
 
         Route::prefix('lead-generation')->group(function(){

@@ -25,8 +25,45 @@ class ServiceController extends Controller
             $data['subservice'] = Services::where('slug', 'billboards-advertising')->first();
             $data['blogs'] = Blogs::where('category_id', '21')->orderBy('created_at', 'desc')->limit(3)->get();
 
-            return view('web.services-new.outdoor-advertising.billboards-advertising')->with($data);
+            return view('web.services-new.outdoor-advertising.billboards-advertising.index')->with($data);
         }
+            public function outdoorAdvertisingAillboardsAdvertisingBuildingWraps(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'outdoor-advertising')->first();
+                $data['service'] = Services::where('slug', 'billboards-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'building-wraps')->first();
+                $data['blogs'] = Blogs::where('category_id', '21')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.outdoor-advertising.billboards-advertising.building-wraps')->with($data);
+            }
+            public function outdoorAdvertisingAillboardsAdvertisingHoarding(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'outdoor-advertising')->first();
+                $data['service'] = Services::where('slug', 'billboards-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'hoarding')->first();
+                $data['blogs'] = Blogs::where('category_id', '21')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.outdoor-advertising.billboards-advertising.hoarding')->with($data);
+            }
+            public function outdoorAdvertisingAillboardsAdvertisingWallscapes(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'outdoor-advertising')->first();
+                $data['service'] = Services::where('slug', 'billboards-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'wallscapes')->first();
+                $data['blogs'] = Blogs::where('category_id', '21')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.outdoor-advertising.billboards-advertising.wallscapes')->with($data);
+            }
+            public function outdoorAdvertisingAillboardsAdvertisingBridgePanels(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'outdoor-advertising')->first();
+                $data['service'] = Services::where('slug', 'billboards-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'bridge-panels')->first();
+                $data['blogs'] = Blogs::where('category_id', '21')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.outdoor-advertising.billboards-advertising.bridge-panels')->with($data);
+            }
+
         public function outdoorAdvertisingFlyersDistribution(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'outdoor-advertising')->first();
@@ -42,6 +79,22 @@ class ServiceController extends Controller
             $data['blogs'] = Blogs::where('category_id', '1')->orderBy('created_at', 'desc')->limit(3)->get();
 
             return view('web.services-new.outdoor-advertising.human-billboards')->with($data);
+        }
+        public function outdoorAdvertisingUnipoles(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'outdoor-advertising')->first();
+            $data['subservice'] = Services::where('slug', 'unipoles')->first();
+            $data['blogs'] = Blogs::where('category_id', '1')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.outdoor-advertising.unipoles')->with($data);
+        }
+        public function outdoorAdvertisingLampPost(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'outdoor-advertising')->first();
+            $data['subservice'] = Services::where('slug', 'lamp-post')->first();
+            $data['blogs'] = Blogs::where('category_id', '1')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.outdoor-advertising.lamp-post')->with($data);
         }
 
 
@@ -271,8 +324,17 @@ class ServiceController extends Controller
             $data['subservice'] = Services::where('slug', 'bus-advertising')->first();
             $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
 
-            return view('web.services-new.transit-media.bus-advertising')->with($data);
+            return view('web.services-new.transit-media.bus-advertising.index')->with($data);
         }
+            public function transitMediaBusWrapping(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'transit-media')->first();
+                $data['service'] = Services::where('slug', 'bus-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'bus-wrapping')->first();
+                $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.transit-media.bus-advertising.bus-wrapping')->with($data);
+            }
 
 
 //-------------------------------------------------------------------------------------------------------

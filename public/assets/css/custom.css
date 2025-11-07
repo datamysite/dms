@@ -2006,3 +2006,110 @@
 #preloader::before {
     display: none !important;
 }
+
+
+
+.nav-mega {
+  width: 100%;
+}
+.nav-mega .dropdown {
+  position: static;
+}
+.nav-mega .dropdown-menu.mega-menu {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  min-width: auto;
+  width: 100%;
+  margin-top: 0;
+  padding: 0;
+  border-color: #ccc;
+}
+.nav-mega .dropdown-menu.mega-menu > li {
+  padding: 20px;
+}
+.nav-mega .dropdown-menu.mega-menu .media-list .media {
+  padding: 10px;
+  font-size: 13px;
+}
+.nav-mega .dropdown-menu.mega-menu .media-list .media-heading {
+  font-size: 16px;
+}
+
+.mega-menu{
+    width: 100%;
+    display: none !important;
+    background-color: #fffffff5 !important;
+}
+
+
+.nav-new .nav-item {
+    border-bottom: 1px solid #77777763;
+    padding: 0px 0px 0 7px !important;
+}
+.nav-new .nav-item button {
+  background-color: transparent;
+  color: #777 !important;
+  text-align: left;
+  width: 100%;
+  padding: 7px 0;
+}
+.nav-new .nav-item button.active {
+  background-color: transparent;
+  color: #023f38 !important;
+}
+.nav-new .nav-item button.active::after {
+    content: "";
+    border-right: 4px solid #023f38;
+    height: 100%;
+    position: absolute;
+    right: -5px;
+    top: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.nav-new {
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: unset !important;
+    background: unset !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+.navmenu .dropdown:hover> .mega-menu {
+    display: block !important;
+}
+
+.tab-content a h5 i {
+    font-size: unset !important;
+}
+.mega-menu-subservice {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    padding: 6px 16px !important;
+    color: #023f38 !important;
+}
+.mega-menu-subservice2 {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    padding: 4px 33px !important;
+}
+.mega-menu-subservice-para {
+    padding-left: 21px !important;
+    font-size: 15px !important;
+}
+.badge-location {
+    color: #000000;
+    background-color: #e6e6e6;
+    padding: 5px 8px;
+    margin-bottom: 8px;
+    margin-right: 6px;
+    margin-top: 6px;
+    font-weight: 500;
+}
