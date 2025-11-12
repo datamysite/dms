@@ -103,6 +103,13 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
                 Route::get('/bus-stop-wrap', 'ServiceController@transitMediaBusStopWrapping');
 
             });
+            Route::prefix('metro-ads')->group(function(){
+                
+                Route::get('/', 'ServiceController@transitMediaMetroAds');
+                Route::get('/metro-station-takeover', 'ServiceController@transitMediaMetroAdsStation');
+                Route::get('/metro-pillars', 'ServiceController@transitMediaMetroAdsPillers');
+                Route::get('/dooh-in-metro', 'ServiceController@transitMediaMetroAdsDOOH');
+            });
         });
 
         Route::prefix('lead-generation')->group(function(){

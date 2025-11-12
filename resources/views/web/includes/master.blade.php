@@ -49,7 +49,7 @@
 
 <body class="index-page">
 
-  @include('web.includes.header-old')
+  @include('web.includes.header')
 
   @yield('content')
 

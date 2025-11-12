@@ -81,27 +81,6 @@
                                 </div>
                             </div>
                         @endforeach
-                        <div class="card">
-                            <div class="card-header" id="faqHeading">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#serfaq-ad" data-aria-expanded="true" data-aria-controls="serfaq-ad">
-                                        <i class="bi bi-train-front"></i> &nbsp; Metro & Tram Advertising
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="serfaq-ad" class="collapse {{$s == 0 ? 'show' : ''}}" aria-labelledby="serfaq-ad" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>
-                                        Dubai Metro moves thousands of professionals, residents, and tourists every day. That’s a captive audience—one that sees your brand while they wait, travel, and think. Options include:
-                                    </p>
-                                    <ul>
-                                        <li><strong>In-Train Ads</strong> – Directly in front of passengers for the entire ride.</li>
-                                        <li><strong>Station Branding</strong> – Complete takeovers for total dominance.</li>
-                                        <li><strong>Platform Billboards</strong> – Placed right where people stand and stare.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>  
             </div>

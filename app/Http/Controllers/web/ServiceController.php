@@ -335,6 +335,51 @@ class ServiceController extends Controller
 
                 return view('web.services-new.transit-media.bus-advertising.bus-wrapping')->with($data);
             }
+            public function transitMediaBusStopWrapping(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'transit-media')->first();
+                $data['service'] = Services::where('slug', 'bus-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'bus-stop-wrap')->first();
+                $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.transit-media.bus-advertising.bus-stop-wrap')->with($data);
+            }
+
+        public function transitMediaMetroAds(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'transit-media')->first();
+            $data['subservice'] = Services::where('slug', 'metro-ads')->first();
+            $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.transit-media.metro-ads.index')->with($data);
+        }
+            public function transitMediaMetroAdsStation(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'transit-media')->first();
+                $data['service'] = Services::where('slug', 'metro-ads')->first();
+                $data['subservice'] = Services::where('slug', 'metro-station-takeover')->first();
+                $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.transit-media.metro-ads.metro-station-takeover')->with($data);
+            }
+            public function transitMediaMetroAdsPillers(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'transit-media')->first();
+                $data['service'] = Services::where('slug', 'metro-ads')->first();
+                $data['subservice'] = Services::where('slug', 'metro-pillars')->first();
+                $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.transit-media.metro-ads.metro-pillars')->with($data);
+            }
+            public function transitMediaMetroAdsDOOH(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'transit-media')->first();
+                $data['service'] = Services::where('slug', 'metro-ads')->first();
+                $data['subservice'] = Services::where('slug', 'dooh-in-metro')->first();
+                $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.transit-media.metro-ads.dooh-in-metro')->with($data);
+            }
 
 
 //-------------------------------------------------------------------------------------------------------
