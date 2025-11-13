@@ -52,6 +52,10 @@ class GenerateSitemap extends Command
 
                 foreach ($service->subServices as $key => $val) {  
                     $sitmap->add(Url::create("/".$service->slug."/".$val->slug)->setPriority(0.80)->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)->setLastModificationDate(Carbon::now()));
+
+                    foreach ($val->subServices as $key => $val2) {  
+                        $sitmap->add(Url::create("/".$service->slug."/".$val->slug."/".$val2->slug)->setPriority(0.80)->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)->setLastModificationDate(Carbon::now()));
+                    }
                 }
             });
 

@@ -12,7 +12,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$service->slug.'.jpg')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
             <div class="container head-container-service">
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
@@ -194,8 +194,9 @@
 
                     </div>
                 </div> 
-                <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image38.png')}}" class="flyer-img" width="100%" alt="human billboard">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image54.png')}}" class="flyer-img" width="100%" alt="human billboard">
                 </div>
             </div>
 
@@ -208,10 +209,10 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 first-row split-block">
 
                 <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image38.png')}}" class="flyer-img" width="100%" alt="human billboard">
+                    <img src="{{URL::to('/public/section-images/image55.png')}}" class="flyer-img" width="100%" alt="human billboard">
                 </div>
                 <div class="col-lg-8">
                     
@@ -400,8 +401,8 @@
                     </p>
 
                 </div>
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image39.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image56.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
@@ -415,10 +416,10 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 first-row split-block">
 
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image39.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image57.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
@@ -471,7 +472,7 @@
 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image39.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image58.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 

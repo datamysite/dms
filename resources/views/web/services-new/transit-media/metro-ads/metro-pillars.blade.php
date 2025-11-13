@@ -10,7 +10,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$mainservice->slug.'.jpg')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
             <div class="container head-container-service">
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
@@ -129,7 +129,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-2 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image41.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image72.png')}}" width="100%" alt="Why choose us">
                 </div> 
 
                 <div class="col-lg-5 mt-0">
@@ -169,11 +169,11 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 first-row split-block">
 
 
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image73.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
@@ -233,10 +233,6 @@
             <div class="row gy-4 first-row">
 
 
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
-                </div> 
-                <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
                     <h4>How DataMySite Executes Metro Pillar Campaigns</h4>
                     <p>
@@ -268,6 +264,11 @@
                         </li>
                     </ul>
                 </div>
+
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image74.png')}}" width="100%" alt="Why choose us">
+                </div> 
             </div>
 
           </div>
@@ -278,9 +279,13 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 first-row split-block">
 
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image75.png')}}" width="100%" alt="Why choose us">
+                </div> 
 
+                <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
                     <h4>Why Choose DataMySite for Metro Advertising in Dubai</h4>
                     <p>
@@ -298,10 +303,6 @@
                     </ul>
                     <p>We focus on delivering visibility, creativity, and measurable outcomes that help brands stand out in one of the world’s most dynamic cities.</p>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
-                </div> 
             </div>
 
           </div>
@@ -315,10 +316,6 @@
             <div class="row gy-4 first-row">
 
 
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
-                </div> 
-                <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
                     <h4>Best Practices for Effective Metro Pillar Advertising</h4>
                     <p>
@@ -339,6 +336,10 @@
                         Contact our team today to plan your metro pillar advertising campaign in Dubai and experience the power of continuous commuter visibility.
                     </p>
                 </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image76.png')}}" width="100%" alt="Why choose us">
+                </div> 
             </div>
 
           </div>

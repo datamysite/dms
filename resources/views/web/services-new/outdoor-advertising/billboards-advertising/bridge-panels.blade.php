@@ -165,7 +165,7 @@
                     </ul>
                     <p>Each location is carefully selected based on audience flow, visibility, and strategic value to ensure your message reaches the right audience at the right time.</p>
                 </div>
-                <div class="col-lg-3 mob-not-visible">
+                <div class="col-lg-3 vertical-center">
                     <img src="{{URL::to('/public/section-images/image50.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
@@ -180,7 +180,7 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 mob-not-visible">
+                <div class="col-lg-3 vertical-center">
                     <img src="{{URL::to('/public/section-images/image51.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>
@@ -220,7 +220,7 @@
                     <p>With DataMySite’s location intelligence and OOH media network, you get access to high-performing bridge locations that align with your campaign goals.</p>
                 </div>
                 <div class="col-lg-1"></div>
-                <div class="col-lg-3 mob-not-visible">
+                <div class="col-lg-3 vertical-center">
                     <img src="{{URL::to('/public/section-images/image46.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
@@ -294,7 +294,7 @@
                     <p>We ensure that every campaign delivers maximum impact, visibility, and ROI.</p>
                 </div>
                 <div class="col-lg-1"></div>
-                <div class="col-lg-3 mob-not-visible">
+                <div class="col-lg-3 vertical-center">
                     <img src="{{URL::to('/public/section-images/image22.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
@@ -310,7 +310,7 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 mob-not-visible vertical-center">
+                <div class="col-lg-3 vertical-center">
                     <img src="{{URL::to('/public/section-images/image7.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>

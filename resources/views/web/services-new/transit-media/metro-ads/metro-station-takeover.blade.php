@@ -10,7 +10,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$mainservice->slug.'.jpg')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
             <div class="container head-container-service">
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
@@ -124,9 +124,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image41.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image67.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
@@ -141,14 +141,12 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 first-row split-block">
 
-                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image68.png')}}" class="flyer-img" width="100%" alt="Flyers that find the right hands">
                 </div>
-                <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image40.png')}}" class="flyer-img" width="100%" alt="Flyers that find the right hands">
-                </div>
-                <div class="col-lg-1"></div>
+                <div class="col-lg-2"></div>
                 <div class="col-lg-7">
                     <h4>What Areas Can Be Branded in a Metro Station?</h4>
                     <p>
@@ -211,8 +209,8 @@
                 </div>
                 <div class="col-lg-1"></div>
 
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image69.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
@@ -224,11 +222,11 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 first-row split-block">
 
 
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image70.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
@@ -275,10 +273,6 @@
             <div class="row gy-4 first-row">
 
 
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
-                </div> 
-                <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
                     <h4>Industries That Benefit from Metro Station Advertising</h4>
                     <p>
@@ -304,6 +298,11 @@
                         Contact us today to discuss your metro station takeover strategy and dominate Dubai’s most traveled locations.
                     </p>
                 </div>
+                <div class="col-lg-2"></div>
+
+                <div class="col-lg-2 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image71.png')}}" width="100%" alt="Why choose us">
+                </div> 
             </div>
 
           </div>

@@ -302,6 +302,7 @@ class ServiceController extends Controller
 
         return view('web.services-new.transit-media.index')->with($data);
     }
+
         public function transitMediaAirline(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'transit-media')->first();
@@ -310,14 +311,79 @@ class ServiceController extends Controller
 
             return view('web.services-new.transit-media.airline-advertising')->with($data);
         }
+
+        public function transitMediaAirport(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'transit-media')->first();
+            $data['subservice'] = Services::where('slug', 'airport-advertising')->first();
+            $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.transit-media.airport-advertising.index')->with($data);
+        }
+            public function transitMediaAirportPrivate(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'transit-media')->first();
+                $data['service'] = Services::where('slug', 'airport-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'private-airport')->first();
+                $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.transit-media.airport-advertising.private-airport')->with($data);
+            }
+
         public function transitMediaTaxi(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'transit-media')->first();
             $data['subservice'] = Services::where('slug', 'taxi-advertising')->first();
             $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
 
-            return view('web.services-new.transit-media.taxi-advertising')->with($data);
+            return view('web.services-new.transit-media.taxi-advertising.index')->with($data);
         }
+            public function transitMediaTaxiAbuDhabi(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'transit-media')->first();
+                $data['service'] = Services::where('slug', 'taxi-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'abu-dhabi-taxi')->first();
+                $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.transit-media.taxi-advertising.abu-dhabi-taxi')->with($data);
+            }
+            public function transitMediaTaxiPink(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'transit-media')->first();
+                $data['service'] = Services::where('slug', 'taxi-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'pink-taxi')->first();
+                $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.transit-media.taxi-advertising.pink-taxi')->with($data);
+            }
+            public function transitMediaTaxiBlue(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'transit-media')->first();
+                $data['service'] = Services::where('slug', 'taxi-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'blue-taxi')->first();
+                $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.transit-media.taxi-advertising.blue-taxi')->with($data);
+            }
+            public function transitMediaTaxiRedAirport(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'transit-media')->first();
+                $data['service'] = Services::where('slug', 'taxi-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'red-airport-taxi')->first();
+                $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.transit-media.taxi-advertising.red-airport-taxi')->with($data);
+            }
+            public function transitMediaTaxiRed(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'transit-media')->first();
+                $data['service'] = Services::where('slug', 'taxi-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'red-taxi')->first();
+                $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.transit-media.taxi-advertising.red-taxi')->with($data);
+            }
+
         public function transitMediaBus(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'transit-media')->first();
@@ -379,6 +445,24 @@ class ServiceController extends Controller
                 $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
 
                 return view('web.services-new.transit-media.metro-ads.dooh-in-metro')->with($data);
+            }
+            public function transitMediaMetroWall(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'transit-media')->first();
+                $data['service'] = Services::where('slug', 'metro-ads')->first();
+                $data['subservice'] = Services::where('slug', 'metro-station-wall')->first();
+                $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.transit-media.metro-ads.metro-station-wall')->with($data);
+            }
+            public function transitMediaInsideMetroTrain(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'transit-media')->first();
+                $data['service'] = Services::where('slug', 'metro-ads')->first();
+                $data['subservice'] = Services::where('slug', 'inside-metro-train')->first();
+                $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.transit-media.metro-ads.inside-metro-train')->with($data);
             }
 
 

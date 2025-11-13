@@ -10,7 +10,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$service->slug.'.jpg')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
             <div class="container head-container-service">
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
@@ -109,9 +109,9 @@
                         <li><strong>Brand Trust</strong> – Being featured on RTA buses boosts credibility and brand perception.</li>
                     </ul>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image41.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image59.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
@@ -126,13 +126,11 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
-
-                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="row gy-4 first-row split-block">
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image60.png')}}" class="flyer-img" width="100%" alt="Flyers that find the right hands">
                 </div>
-                <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image40.png')}}" class="flyer-img" width="100%" alt="Flyers that find the right hands">
-                </div>
+                <div class="col-lg-1"></div>
                 <div class="col-lg-8">
                     <h4>Types of Bus Wrap Advertising We Offer</h4>
                     <p>At DataMySite, we provide a range of customized bus wrap options depending on your marketing goals and budget.</p>
@@ -223,7 +221,7 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-8 vertical-center">
+                <div class="col-lg-9 vertical-center">
                     <h4>Industries That Benefit from Bus Advertising</h4>
                     <p>
                         Bus wrapping is suitable for nearly all industries, including:
@@ -260,8 +258,8 @@
                 </div>
                 <div class="col-lg-1"></div>
 
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-2 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image61.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
@@ -274,11 +272,11 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 first-row split-block">
 
 
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image22.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">

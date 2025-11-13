@@ -95,7 +95,6 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
         Route::prefix('transit-media')->group(function(){
             Route::get('/', 'ServiceController@transitMedia');
             Route::get('/airline-advertising', 'ServiceController@transitMediaAirline');
-            Route::get('/taxi-advertising', 'ServiceController@transitMediaTaxi');
             Route::prefix('bus-advertising')->group(function(){
                 
                 Route::get('/', 'ServiceController@transitMediaBus');
@@ -109,6 +108,22 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
                 Route::get('/metro-station-takeover', 'ServiceController@transitMediaMetroAdsStation');
                 Route::get('/metro-pillars', 'ServiceController@transitMediaMetroAdsPillers');
                 Route::get('/dooh-in-metro', 'ServiceController@transitMediaMetroAdsDOOH');
+                Route::get('/metro-station-wall', 'ServiceController@transitMediaMetroWall');
+                Route::get('/inside-metro-train', 'ServiceController@transitMediaInsideMetroTrain');
+            });
+            Route::prefix('taxi-advertising')->group(function(){
+                
+                Route::get('/', 'ServiceController@transitMediaTaxi');
+                Route::get('/abu-dhabi-taxi', 'ServiceController@transitMediaTaxiAbuDhabi');
+                Route::get('/pink-taxi', 'ServiceController@transitMediaTaxiPink');
+                Route::get('/blue-taxi', 'ServiceController@transitMediaTaxiBlue');
+                Route::get('/red-airport-taxi', 'ServiceController@transitMediaTaxiRedAirport');
+                Route::get('/red-taxi', 'ServiceController@transitMediaTaxiRed');
+            });
+            Route::prefix('airport-advertising')->group(function(){
+                
+                Route::get('/', 'ServiceController@transitMediaAirport');
+                Route::get('/private-airport', 'ServiceController@transitMediaAirportPrivate');
             });
         });
 

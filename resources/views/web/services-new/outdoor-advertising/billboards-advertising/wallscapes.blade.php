@@ -169,7 +169,7 @@
                     </ul>
                     <p>Each of these locations offers unique advantages in terms of audience demographics, traffic volume, and brand visibility.</p>
                 </div>
-                <div class="col-lg-3 mob-not-visible">
+                <div class="col-lg-3 vertical-center">
                     <img src="{{URL::to('/public/section-images/image46.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
@@ -244,7 +244,7 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 mob-not-visible">
+                <div class="col-lg-3 vertical-center">
                     <img src="{{URL::to('/public/section-images/image52.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>
@@ -298,7 +298,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-1"></div>
-                <div class="col-lg-3 mob-not-visible">
+                <div class="col-lg-3 vertical-center">
                     <img src="{{URL::to('/public/section-images/image53.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>

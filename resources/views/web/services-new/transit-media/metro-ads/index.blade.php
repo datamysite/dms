@@ -10,7 +10,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$service->slug.'.jpg')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
             <div class="container head-container-service">
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
@@ -241,8 +241,9 @@
                     </p>
 
                 </div> 
-                <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image27.png')}}" width="100%" alt="Impact of PR Coverage">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image65.png')}}" width="100%" alt="Impact of PR Coverage">
                 </div>
             </div>
 
@@ -256,10 +257,10 @@
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 first-row split-block">
 
                 <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image27.png')}}" width="100%" alt="Impact of PR Coverage">
+                    <img src="{{URL::to('/public/section-images/image66.png')}}" width="100%" alt="Impact of PR Coverage">
                 </div>
                 <div class="col-lg-8">
                     <h4>The Power of Metro Advertising for Brand Growth</h4>

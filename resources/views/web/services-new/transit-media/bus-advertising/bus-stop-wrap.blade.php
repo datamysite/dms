@@ -10,7 +10,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$service->slug.'.jpg')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
             <div class="container head-container-service">
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
@@ -110,9 +110,9 @@
                         <li><strong>24/7 Brand Exposure</strong>: Your ad is visible day and night to both commuters and passing vehicles.</li>
                     </ul>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image41.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image62.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
@@ -132,7 +132,7 @@
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
                 </div>
                 <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image40.png')}}" class="flyer-img" width="100%" alt="Flyers that find the right hands">
+                    <img src="{{URL::to('/public/section-images/image63.png')}}" class="flyer-img" width="100%" alt="Flyers that find the right hands">
                 </div>
                 <div class="col-lg-8">
                     <h4>Types of Bus Stop Wrap Advertising</h4>
@@ -292,8 +292,8 @@
                 </div>
                 <div class="col-lg-1"></div>
 
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image64.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
