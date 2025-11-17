@@ -94,7 +94,17 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
 
         Route::prefix('transit-media')->group(function(){
             Route::get('/', 'ServiceController@transitMedia');
-            Route::get('/airline-advertising', 'ServiceController@transitMediaAirline');
+            Route::get('/boat-advertising', 'ServiceController@transitMediaBoat');
+            Route::prefix('airline-advertising')->group(function(){
+                
+                Route::get('/', 'ServiceController@transitMediaAirline');
+                Route::get('/emirates-airline', 'ServiceController@transitMediaAirlineEmirates');
+                Route::get('/etihad-airline', 'ServiceController@transitMediaAirlineEtihad');
+                Route::get('/fly-dubai-airline', 'ServiceController@transitMediaAirlineFlyDubai');
+                Route::get('/spicejet-airline', 'ServiceController@transitMediaAirlineSpicejet');
+                Route::get('/air-arabia-airline', 'ServiceController@transitMediaAirlineAirArabia');
+
+            });
             Route::prefix('bus-advertising')->group(function(){
                 
                 Route::get('/', 'ServiceController@transitMediaBus');
@@ -124,6 +134,9 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
                 
                 Route::get('/', 'ServiceController@transitMediaAirport');
                 Route::get('/private-airport', 'ServiceController@transitMediaAirportPrivate');
+                Route::get('/dubai-airport', 'ServiceController@transitMediaAirportDubai');
+                Route::get('/sharjah-airport', 'ServiceController@transitMediaAirportSharjah');
+                Route::get('/indian-airport', 'ServiceController@transitMediaAirportIndian');
             });
         });
 

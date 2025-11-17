@@ -8,6 +8,7 @@
 /vendor
 /email
 /profile
+/beta
 sitemap.xml
 .env
 .env.backup
