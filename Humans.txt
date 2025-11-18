@@ -1,0 +1,29 @@
+/* TEAM */
+Developer: Development Team
+Contact: hello [at] datamysite.com
+Location: Global
+
+/* SITE */
+Last update: November 18, 2025
+Language: English
+Doctype: HTML5
+IDE: Visual Studio Code
+
+/* THANKS */
+Built with: Modern web technologies
+Framework: Laravel, JavaScript, CSS3
+Database: MySQL
+Standards: HTML5, CSS3, JavaScript ES6+
+
+/* RECOGNITION */
+Design: Modern web design principles
+Typography: Professional web fonts
+Icons: Material Icons
+Images: Professional graphics
+
+/* CONTACT */
+General: hello@datamysite.com
+Support: support@datamysite.com
+Business: business@datamysite.com
+
+/*

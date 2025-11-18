@@ -63,6 +63,7 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
                 
                 Route::get('/', 'ServiceController@digitalAdvertisingOTTAdvertising');
                 Route::get('/netflix-advertising', 'ServiceController@digitalAdvertisingOTTAdvertisingNetflix');
+                Route::get('/starzplay-advertising', 'ServiceController@digitalAdvertisingOTTAdvertisingStarzPlay');
 
             });
             Route::get('/dooh-advertising', 'ServiceController@digitalAdvertisingDOOHAdvertising');

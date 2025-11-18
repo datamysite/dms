@@ -124,6 +124,15 @@ class ServiceController extends Controller
 
                 return view('web.services-new.digital-advertising.ott-advertising.netflix-advertising')->with($data);
             }
+            public function digitalAdvertisingOTTAdvertisingStarzPlay(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'digital-advertising')->first();
+                $data['service'] = Services::where('slug', 'ott-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'starzplay-advertising')->first();
+                $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.digital-advertising.ott-advertising.starzplay-advertising')->with($data);
+            }
 
 
         public function digitalAdvertisingDOOHAdvertising(){
