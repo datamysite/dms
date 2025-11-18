@@ -30,6 +30,21 @@ Disallow: /
 User-agent: ia_archiver
 Disallow: /
 
+# Major AI crawlers - explicit allowance for clarity
+
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
 # General rule for all others
 User-agent: *
 Disallow: /tag/
