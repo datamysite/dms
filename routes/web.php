@@ -95,6 +95,8 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
         Route::prefix('transit-media')->group(function(){
             Route::get('/', 'ServiceController@transitMedia');
             Route::get('/boat-advertising', 'ServiceController@transitMediaBoat');
+            Route::get('/tram-advertising', 'ServiceController@transitMediaTram');
+            Route::get('/truck-advertising', 'ServiceController@transitMediaTruck');
             Route::prefix('airline-advertising')->group(function(){
                 
                 Route::get('/', 'ServiceController@transitMediaAirline');

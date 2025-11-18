@@ -15,11 +15,11 @@
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
                         <h1>&#10687; {{$subservice->name}}</h1>
-                        <h2>Elevate Your Brand</h2>
-                        <h4>on Dubai’s Waterfront</h4>
+                        <h2>Transform Every Journey</h2>
+                        <h4>into a Moving Brand Story</h4>
                         <br>
                         <p>
-                            At DataMySite, we bring creativity to the waves with Boat Advertising in Dubai — a dynamic, high-visibility medium that turns yachts, ferries, and cruise boats into floating billboards. Whether your goal is to capture the attention of beachgoers, tourists, or waterfront communities, our Dubai Sea Route advertising solutions ensure your message sails across the city’s most iconic routes.
+                            At DataMySite, we specialize in Tram Advertising solutions in Dubai that combine strategic creativity with advanced audience targeting. Whether you’re launching a product, building brand awareness, or promoting an event, tram ads make your brand an integral part of Dubai’s vibrant urban lifestyle.
                         </p>
                     </div>
                     <div class="col-lg-4">
@@ -57,11 +57,14 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4>What Is Boat Advertising?</h4>
+                    <h4>What is Tram Advertising?</h4>
                     <p>
-                        Boat advertising (also known as marine or waterway advertising) involves displaying brand messages, graphics, or digital screens on boats, yachts, ferries, and other marine vessels. These branded boats travel along popular coastal routes, attracting thousands of eyes from beaches, promenades, marinas, and sea-view hotels.
+                        Tram advertising involves placing promotional visuals, wraps, and digital displays on trams or tram stations. These can include full exterior wraps, interior panels, digital screens, or platform branding — all designed to attract the attention of commuters, pedestrians, and nearby traffic.
                         <br><br>
-                        In Dubai — home to attractions like Dubai Marina, Palm Jumeirah, Bluewaters Island, and Jumeirah Beach Residence (JBR) — the impact of sea route ads is exceptional. With Dubai’s skyline and beaches as the backdrop, your brand becomes part of the city’s luxury lifestyle imagery.
+                        Dubai’s tram network connects Dubai Marina, Jumeirah Lakes Towers (JLT), Knowledge Village, Media City, and Palm Jumeirah, making it a powerful advertising platform that reaches thousands of residents, professionals, and tourists daily.
+                        <br><br>
+                        With trams gliding through Dubai’s most photographed areas, your brand message becomes part of the city’s daily scenery — seen, remembered, and shared by countless people.
+
                     </p>
                 </div>
                 <div class="col-lg-1"></div>
@@ -98,20 +101,20 @@
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-7">
-                    <h4>Why Choose Boat Advertising in Dubai?</h4>
-                    <p>Dubai’s coastline is not just a scenic attraction — it’s a prime commercial zone with endless advertising potential. Here’s why Boat Advertising in Dubai is becoming one of the most premium and effective marketing channels:</p>
+                    <h4>Why Choose Tram Advertising in Dubai?</h4>
+                    <p>Dubai’s tram system offers advertisers a premium opportunity to connect with both local and international audiences. Here are the key reasons why tram advertising stands out:</p>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-210">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-210" data-aria-expanded="true" data-aria-controls="faqCollapse-210">
-                                        <span class="badge">&nbsp;</span>Unmatched Visibility
+                                        <span class="badge">&nbsp;</span>Uninterrupted Urban Exposure
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-210" class="collapse" aria-labelledby="faqHeading-210" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Boats move along the busiest tourist and residential areas like Dubai Marina, The Palm, and JBR. Your brand is visible to audiences on beaches, waterfront cafes, cruise terminals, and even from passing cars on the roads nearby.</p>
+                                    <p>Trams travel through Dubai’s most scenic and high-traffic locations — including beachfronts, commercial hubs, and residential districts — ensuring your brand is visible throughout the day.</p>
                                 </div>
                             </div>
                         </div>
@@ -119,13 +122,13 @@
                             <div class="card-header" id="faqHeading-211">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-211" data-aria-expanded="false" data-aria-controls="faqCollapse-211">
-                                        <span class="badge">&nbsp;</span>Exclusive & Premium Audience Reach
+                                        <span class="badge">&nbsp;</span>Massive Commuter Audience
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-211" class="collapse" aria-labelledby="faqHeading-211" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Dubai’s sea routes attract a high-income demographic — luxury travelers, yacht owners, hotel guests, and local residents. This means your ads reach a sophisticated and affluent audience that aligns perfectly with premium brands.</p>
+                                    <p>Thousands of professionals, tourists, and residents use or pass by trams daily. With frequent trips along Marina and JBR, your message reaches an active, engaged audience across different demographics.</p>
                                 </div>
                             </div>
                         </div>
@@ -133,14 +136,13 @@
                             <div class="card-header" id="faqHeading-212">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-212" data-aria-expanded="false" data-aria-controls="faqCollapse-212">
-                                        <span class="badge">&nbsp;</span>Creative and Eye-Catching Advertising Medium
+                                        <span class="badge">&nbsp;</span>Dynamic and Eye-Catching Displays
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-212" class="collapse" aria-labelledby="faqHeading-212" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>
-                                        Unlike traditional billboards, boat ads are dynamic, moving, and visually unique. Whether it’s a full boat wrap, a digital LED screen, or a 3D logo display, your message instantly draws attention in a visually crowded cityscape.</p>
+                                    <p>A fully wrapped tram acts as a moving billboard, instantly capturing attention. The unique motion and large size make it impossible to ignore, even from a distance.</p>
                                 </div>
                             </div>
                         </div>
@@ -148,14 +150,13 @@
                             <div class="card-header" id="faqHeading-213">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-213" data-aria-expanded="false" data-aria-controls="faqCollapse-213">
-                                        <span class="badge">&nbsp;</span>Perfect for Brand Launches & Events
+                                        <span class="badge">&nbsp;</span>Long-Term Branding Impact
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-213" class="collapse" aria-labelledby="faqHeading-213" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>
-                                        Boat advertising is often used for brand activations, product launches, and special events. It creates buzz and exclusivity — perfect for luxury, fashion, real estate, or tourism-related promotions.</p>
+                                    <p>Tram campaigns can run for months, maintaining brand consistency and long-term recall among city dwellers. This format is ideal for brands looking for sustainable visibility rather than short-term exposure.</p>
                                 </div>
                             </div>
                         </div>
@@ -163,14 +164,13 @@
                             <div class="card-header" id="faqHeading-214">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-214" data-aria-expanded="false" data-aria-controls="faqCollapse-214">
-                                        <span class="badge">&nbsp;</span>High Recall Value
+                                        <span class="badge">&nbsp;</span>Eco-Friendly Advertising
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-214" class="collapse" aria-labelledby="faqHeading-214" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>
-                                        People remember what they see in extraordinary contexts. Seeing a moving branded yacht under the Burj Al Arab skyline leaves a lasting impression that’s hard to forget.</p>
+                                    <p>Dubai’s tram network is a green mode of transportation, aligning perfectly with brands that value sustainability and innovation — an increasingly important factor for modern consumers.</p>
                                 </div>
                             </div>
                         </div>
@@ -178,13 +178,13 @@
                             <div class="card-header" id="faqHeading-215">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-215" data-aria-expanded="false" data-aria-controls="faqCollapse-215">
-                                        <span class="badge">&nbsp;</span>Ideal for Social Media Exposure
+                                        <span class="badge">&nbsp;</span>Ideal for Premium Brands
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-215" class="collapse" aria-labelledby="faqHeading-215" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Boat advertisements are naturally Instagrammable. Tourists and locals love capturing photos and videos of branded boats cruising along the coast — giving your brand free social media exposure.</p>
+                                    <p>The tram route covers Dubai Marina and JBR — luxury residential and retail zones that attract high-income audiences. This makes Tram Advertising particularly effective for premium and lifestyle brands.</p>
                                 </div>
                             </div>
                         </div>
@@ -206,20 +206,20 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-7">
-                    <h4>Types of Boat Advertising in Dubai</h4>
-                    <p>At DataMySite, we offer customized boat and marine advertising solutions that suit different campaign needs and budgets. Here are the most popular types:</p>
+                    <h4>Types of Tram Advertising</h4>
+                    <p>At DataMySite, we provide a variety of tram advertising formats to suit every marketing objective:</p>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-220">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-220" data-aria-expanded="true" data-aria-controls="faqCollapse-220">
-                                        <span class="badge">&nbsp;</span>Boat Wrap Advertising
+                                        <span class="badge">&nbsp;</span>Full Tram Wraps
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-220" class="collapse" aria-labelledby="faqHeading-220" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Full or partial wraps transform the exterior of boats into stunning visual displays. From corporate logos to large-scale graphics, a fully wrapped yacht or ferry becomes a floating billboard that commands attention wherever it goes.</p>
+                                    <p>Transform an entire tram into a stunning moving billboard. Full wraps cover the exterior with brand imagery, logos, and messaging — offering 360-degree visibility as the tram moves through busy city routes.</p>
                                 </div>
                             </div>
                         </div>
@@ -227,13 +227,13 @@
                             <div class="card-header" id="faqHeading-221">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-221" data-aria-expanded="false" data-aria-controls="faqCollapse-221">
-                                        <span class="badge">&nbsp;</span>Digital LED Boat Screens
+                                        <span class="badge">&nbsp;</span>Partial Tram Wraps
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-221" class="collapse" aria-labelledby="faqHeading-221" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>High-definition LED screens mounted on boats display video ads, brand animations, or promotional messages. This is a great option for nighttime campaigns or event-based advertising during major Dubai festivals and celebrations.</p>
+                                    <p>A more cost-effective option, partial wraps allow you to brand specific sections like doors, panels, or sides. Ideal for targeted promotions or event-based campaigns.</p>
                                 </div>
                             </div>
                         </div>
@@ -241,13 +241,13 @@
                             <div class="card-header" id="faqHeading-222">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-222" data-aria-expanded="false" data-aria-controls="faqCollapse-222">
-                                        <span class="badge">&nbsp;</span>Branded Sails and Flags
+                                        <span class="badge">&nbsp;</span>Interior Branding
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-222" class="collapse" aria-labelledby="faqHeading-222" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Sails, masts, and flags can be branded with company logos, colors, and taglines — offering subtle yet highly visible promotion during sea tours or marina stops.</p>
+                                    <p>Inside trams, advertisers can use seat backs, window decals, grab handles, or digital screens to engage passengers directly during their commute.</p>
                                 </div>
                             </div>
                         </div>
@@ -255,14 +255,13 @@
                             <div class="card-header" id="faqHeading-223">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-223" data-aria-expanded="false" data-aria-controls="faqCollapse-223">
-                                        <span class="badge">&nbsp;</span>Luxury Yacht Branding
+                                        <span class="badge">&nbsp;</span>Station Branding
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-223" class="collapse" aria-labelledby="faqHeading-223" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>
-                                        For high-end events, luxury yacht branding combines elegance and exclusivity. Brands can charter yachts wrapped with their visual identity and even host promotional events onboard for media and influencers.</p>
+                                    <p>Enhance visibility by branding tram stations, shelters, ticket counters, and waiting areas. This combination of static and motion-based advertising maximizes audience impact.</p>
                                 </div>
                             </div>
                         </div>
@@ -270,13 +269,13 @@
                             <div class="card-header" id="faqHeading-224">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-224" data-aria-expanded="false" data-aria-controls="faqCollapse-224">
-                                        <span class="badge">&nbsp;</span>Ferry and Commercial Vessel Ads
+                                        <span class="badge">&nbsp;</span>Digital and LED Tram Screens
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-224" class="collapse" aria-labelledby="faqHeading-224" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Dubai ferries carry thousands of commuters and tourists daily. Branding these ferries provides continuous exposure across key locations like Deira, Al Ghubaiba, and Dubai Marina.</p>
+                                    <p>For brands that want to stand out with animation and video content, digital tram screens offer vibrant displays with dynamic visuals, perfect for high-traffic zones like Dubai Marina Mall or JBR.</p>
                                 </div>
                             </div>
                         </div>
@@ -304,16 +303,16 @@
                     
                 </div>
                 <div class="col-lg-5 vertical-center">
-                    <h4>Popular Routes for Boat Advertising in Dubai</h4>
+                    <h4>Popular Tram Advertising Locations in Dubai</h4>
                     <p>
-                        The Dubai Sea Route Advertising network covers iconic waterways and high-traffic areas where your campaign can achieve maximum visibility:
+                        Dubai’s tram route passes through some of the most active commercial and residential areas, ensuring strong reach and high-value impressions:
                     </p>
                     <ul>
-                        <li><strong>Dubai Marina & JBR</strong> – Perfect for lifestyle and retail brands targeting tourists and residents.</li>
-                        <li><strong>Palm Jumeirah & Atlantis Route</strong> – Ideal for luxury, real estate, and hospitality promotions.</li>
-                        <li><strong>Burj Al Arab & Jumeirah Coastline</strong> – Offers exposure to both beachgoers and hotel visitors.</li>
-                        <li><strong>Bluewaters Island & Ain Dubai Route</strong> – Premium zone for entertainment and lifestyle brands.</li>
-                        <li><strong>Deira Creek & Al Seef Route</strong> – Great for heritage-themed campaigns and local engagement.</li>
+                        <li><strong>Dubai Marina</strong> – A hub of high-end residences, cafes, and shopping centers.</li>
+                        <li><strong>Jumeirah Beach Residence (JBR)</strong> – Perfect for lifestyle and luxury brands targeting tourists and residents.</li>
+                        <li><strong>Media City & Knowledge Village</strong> – Ideal for B2B and corporate branding.</li>
+                       <li><strong> Palm Jumeirah Access Points</strong> – Premium visibility for travel, hospitality, and property promotions.</li>
+                        <li><strong>Al Sufouh & Dubai Internet City</strong> – Reaches working professionals and tech-oriented audiences.</li>
                     </ul>
                 </div>
                 <div class="col-lg-2 vertical-center">
@@ -321,15 +320,17 @@
                 </div> 
 
                 <div class="col-lg-5 vertical-center">
-                    <h4>Industries That Benefit from Boat Advertising</h4>
-                    <p>Boat advertising in Dubai is versatile and impactful across various industries:</p>
+                    <h4>Industries That Benefit from Tram Advertising</h4>
+                    <p>Tram advertising in Dubai is versatile and suitable for multiple industries, including:</p>
                     <ul>
-                        <li><strong>Luxury & Fashion Brands</strong><br> – Showcase elegance and exclusivity.</li>
-                        <li><strong>Real Estate Developers</strong><br> – Promote new waterfront or luxury projects.</li>
-                        <li><strong>Hospitality & Tourism</strong><br> – Boost hotel visibility and travel experiences.</li>
-                        <li><strong>Automotive Brands</strong><br> – Perfect for premium launches and high-end image building.</li>
-                        <li><strong>Tech & Telecom</strong><br> – Target urban consumers in a modern and memorable way.</li>
-                        <li><strong>Entertainment & Events</strong><br> – Amplify visibility during festivals, races, and city events.</li>
+                        <li>Real Estate & Property Developers</li>
+                        <li>Retail & Fashion Brands</li>
+                        <li>Tourism & Hospitality</li>
+                        <li>Telecom & Technology</li>
+                        <li>Automotive & Luxury Brands</li>
+                        <li>Financial Institutions & Banks</li>
+                        <li>Entertainment & Event Companies</li>
+
                     </ul>
                 </div>
             </div>
@@ -349,27 +350,30 @@
                     <img src="{{URL::to('/public/assets/img/why-us.png')}}" width="80%" alt="Why choose us">
                 </div>
                 <div class="col-lg-9">
-                    <h4>Why Choose DataMySite for Boat Advertising?</h4>
+                    <h4>Why Choose DataMySite for Tram Advertising in Dubai?</h4>
                     <p>
-                       At DataMySite, we combine creativity, technology, and strategic media placement to make your campaign unforgettable.
+                       At DataMySite, we understand that outdoor advertising is more than visibility — it’s about creating lasting impressions. Our tram advertising campaigns are designed with precision, creativity, and strategy to ensure your brand connects effectively with Dubai’s urban audience.
                         <br>
-                        <strong>Our team:</strong>
+                        Here’s what makes us different:
                     </p>
                     <ul>
-                        <li>Designs customized boat advertising concepts aligned with your brand identity.</li>
-                        <li>Manages all permissions and marine authority approvals.</li>
-                        <li>Ensures high-quality printing, wrapping, and screen installation.</li>
-                        <li>Provides tracking, reporting, and visual documentation for performance insights.</li>
+                        <li>End-to-End Campaign Management – From creative design to media booking and installation.</li>
+                        <li>Compliance with RTA & Dubai Municipality Regulations.</li>
+                        <li>Custom Campaign Strategies – Tailored based on brand goals and audience demographics.</li>
+                        <li>High-Quality Printing & Wrapping Materials.</li>
+                        <li>Performance Reporting & Campaign Monitoring.</li>
+
                     </ul>
-                    <p>With years of experience in Dubai’s outdoor advertising market, we’ve helped numerous brands make waves — literally — across Dubai’s waterways.</p>
+                    <p>We partner with you every step of the way to ensure your brand rides the tracks of success — quite literally.</p>
                     <br>
-                    <h4>Benefits of Advertising on the Dubai Sea Route</h4>
+                    <h4>Benefits of Tram Advertising with DataMySite</h4>
                     <ul>
-                        <li>Continuous exposure throughout the day.</li>
-                        <li>Ideal for event-based promotions and long-term campaigns.</li>
-                        <li>Reaches diverse audiences — locals, tourists, and international travelers.</li>
-                        <li>Enhances brand perception by associating with Dubai’s luxury coastal lifestyle.</li>
-                        <li>Cost-effective mobility compared to static high-end billboards.</li>
+                        <li>Continuous brand exposure across Dubai’s busiest zones.</li>
+                        <li>Perfect balance between mass reach and premium targeting.</li>
+                        <li>Sustainable and eco-conscious advertising medium.</li>
+                        <li>Enhances brand image through creative, high-impact visuals.</li>
+                        <li>Boosts brand recall due to repeated visibility on daily commutes.</li>
+
                     </ul>
                     
                 </div> 
@@ -430,13 +434,13 @@
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What permissions are needed for boat advertising in Dubai?
+                                        <span class="badge">&nbsp;</span>How effective is tram advertising in Dubai?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Advertising on boats requires approval from the Dubai Maritime Authority and related municipal departments. DataMySite handles all necessary permits for a smooth campaign.</p>
+                                    <p>Extremely effective. Dubai’s tram routes run through high-traffic residential and commercial areas like Marina and JBR, making it one of the most visible and premium outdoor advertising options.</p>
                                 </div>
                             </div>
                         </div>
@@ -444,13 +448,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How long can a boat advertising campaign run?
+                                        <span class="badge">&nbsp;</span>What are the types of tram advertising formats available?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Campaigns can run for a few days (for events) or several months, depending on your marketing objectives and contract terms.</p>
+                                    <p>You can choose from full tram wraps, partial wraps, interior panels, station branding, and digital LED tram screens depending on your campaign goals and budget.</p>
                                 </div>
                             </div>
                         </div>
@@ -458,13 +462,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>Can I advertise on yachts and ferries?
+                                        <span class="badge">&nbsp;</span>How long should a tram advertising campaign run?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, both yachts and commercial ferries can be used for branding, depending on the desired audience reach and visibility level.</p>
+                                    <p>Most campaigns run from one month to six months. Longer durations ensure stronger brand recall and continuous exposure.</p>
                                 </div>
                             </div>
                         </div>
@@ -472,13 +476,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>What is the best location for boat advertising in Dubai?
+                                        <span class="badge">&nbsp;</span>Is tram advertising allowed anywhere in Dubai?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Dubai Marina, Palm Jumeirah, and Jumeirah Beach are the top-performing routes due to their heavy tourist and local footfall.</p>
+                                    <p>Yes, but all tram advertising must follow the RTA (Roads and Transport Authority) guidelines. DataMySite manages the approval process for you.</p>
                                 </div>
                             </div>
                         </div>
@@ -486,13 +490,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>Does boat advertising work at night?
+                                        <span class="badge">&nbsp;</span>What is the cost of tram advertising in Dubai?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Absolutely. With LED-lit boats and digital screens, your ad remains visible and striking even after sunset — perfect for evening campaigns or nightlife events.</p>
+                                    <p>Pricing depends on tram size, ad format, duration, and design. Contact DataMySite for customized packages based on your specific campaign objectives.</p>
                                 </div>
                             </div>
                         </div>
@@ -500,13 +504,27 @@
                             <div class="card-header" id="faqHeading-15">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                        <span class="badge">&nbsp;</span>Is boat advertising suitable for small businesses?
+                                        <span class="badge">&nbsp;</span>Can I combine tram advertising with metro or bus ads?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. DataMySite offers flexible options including short-term branding, partial wraps, or shared campaigns, making it affordable for both SMEs and large corporations.</p>
+                                    <p>Absolutely. Many brands achieve city-wide exposure by combining tram, metro, and bus advertising — a strategy we can fully manage for you.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-16">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-16" data-aria-expanded="false" data-aria-controls="faqCollapse-16">
+                                        <span class="badge">&nbsp;</span>Which industries benefit most from tram ads?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-16" class="collapse" aria-labelledby="faqHeading-16" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Real estate, luxury retail, hospitality, tech, and financial brands benefit greatly due to the affluent and urban audience along the tram route.</p>
                                 </div>
                             </div>
                         </div>

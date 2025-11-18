@@ -312,6 +312,24 @@ class ServiceController extends Controller
             return view('web.services-new.transit-media.boat-advertising')->with($data);
         }
 
+        public function transitMediaTram(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'transit-media')->first();
+            $data['subservice'] = Services::where('slug', 'tram-advertising')->first();
+            $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.transit-media.tram-advertising')->with($data);
+        }
+
+        public function transitMediaTruck(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'transit-media')->first();
+            $data['subservice'] = Services::where('slug', 'truck-advertising')->first();
+            $data['blogs'] = Blogs::where('category_id', '10')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.transit-media.truck-advertising')->with($data);
+        }
+
         public function transitMediaAirline(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'transit-media')->first();

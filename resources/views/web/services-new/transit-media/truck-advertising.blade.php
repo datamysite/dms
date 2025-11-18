@@ -15,11 +15,11 @@
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
                         <h1>&#10687; {{$subservice->name}}</h1>
-                        <h2>Elevate Your Brand</h2>
-                        <h4>on Dubai’s Waterfront</h4>
+                        <h2>Transforms Ordinary Transport</h2>
+                        <h4>vehicles into mobile billboards</h4>
                         <br>
                         <p>
-                            At DataMySite, we bring creativity to the waves with Boat Advertising in Dubai — a dynamic, high-visibility medium that turns yachts, ferries, and cruise boats into floating billboards. Whether your goal is to capture the attention of beachgoers, tourists, or waterfront communities, our Dubai Sea Route advertising solutions ensure your message sails across the city’s most iconic routes.
+                            At DataMySite, we specialize in truck branding and advertising solutions that combine creativity, visibility, and performance. Our goal is simple—to help your brand make a bold statement wherever the road takes you.
                         </p>
                     </div>
                     <div class="col-lg-4">
@@ -57,11 +57,13 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4>What Is Boat Advertising?</h4>
+                    <h4>What is Truck Advertising?</h4>
+                    <br>
                     <p>
-                        Boat advertising (also known as marine or waterway advertising) involves displaying brand messages, graphics, or digital screens on boats, yachts, ferries, and other marine vessels. These branded boats travel along popular coastal routes, attracting thousands of eyes from beaches, promenades, marinas, and sea-view hotels.
+                        Truck advertising (also known as lorry advertising or truck branding) involves wrapping commercial trucks with large-format printed graphics displaying your brand message, logo, and promotional visuals. These branded vehicles act as moving billboards, ensuring your campaign reaches thousands of potential customers daily.
                         <br><br>
-                        In Dubai — home to attractions like Dubai Marina, Palm Jumeirah, Bluewaters Island, and Jumeirah Beach Residence (JBR) — the impact of sea route ads is exceptional. With Dubai’s skyline and beaches as the backdrop, your brand becomes part of the city’s luxury lifestyle imagery.
+                        It’s a dynamic outdoor advertising medium that doesn’t just target one location—it moves with your audience. Whether the trucks are making deliveries, parked at popular retail centers, or cruising through highways, they continuously promote your business 24/7.
+
                     </p>
                 </div>
                 <div class="col-lg-1"></div>
@@ -98,20 +100,20 @@
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-7">
-                    <h4>Why Choose Boat Advertising in Dubai?</h4>
-                    <p>Dubai’s coastline is not just a scenic attraction — it’s a prime commercial zone with endless advertising potential. Here’s why Boat Advertising in Dubai is becoming one of the most premium and effective marketing channels:</p>
+                    <h4>Why Choose Truck Advertising?</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-210">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-210" data-aria-expanded="true" data-aria-controls="faqCollapse-210">
-                                        <span class="badge">&nbsp;</span>Unmatched Visibility
+                                        <span class="badge">&nbsp;</span>Massive Reach & Mobility
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-210" class="collapse" aria-labelledby="faqHeading-210" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Boats move along the busiest tourist and residential areas like Dubai Marina, The Palm, and JBR. Your brand is visible to audiences on beaches, waterfront cafes, cruise terminals, and even from passing cars on the roads nearby.</p>
+                                    <p>Unlike static billboards, truck ads move across different routes daily—covering shopping malls, highways, business districts, and residential areas. This mobility increases brand exposure exponentially.</p>
                                 </div>
                             </div>
                         </div>
@@ -119,13 +121,13 @@
                             <div class="card-header" id="faqHeading-211">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-211" data-aria-expanded="false" data-aria-controls="faqCollapse-211">
-                                        <span class="badge">&nbsp;</span>Exclusive & Premium Audience Reach
+                                        <span class="badge">&nbsp;</span>Cost-Effective Branding
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-211" class="collapse" aria-labelledby="faqHeading-211" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Dubai’s sea routes attract a high-income demographic — luxury travelers, yacht owners, hotel guests, and local residents. This means your ads reach a sophisticated and affluent audience that aligns perfectly with premium brands.</p>
+                                    <p>Compared to other outdoor advertising options, truck advertising delivers high visibility at a fraction of the cost. You pay once for printing and installation, and your brand remains visible for months.</p>
                                 </div>
                             </div>
                         </div>
@@ -133,14 +135,13 @@
                             <div class="card-header" id="faqHeading-212">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-212" data-aria-expanded="false" data-aria-controls="faqCollapse-212">
-                                        <span class="badge">&nbsp;</span>Creative and Eye-Catching Advertising Medium
+                                        <span class="badge">&nbsp;</span>Targeted Audience Reach
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-212" class="collapse" aria-labelledby="faqHeading-212" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>
-                                        Unlike traditional billboards, boat ads are dynamic, moving, and visually unique. Whether it’s a full boat wrap, a digital LED screen, or a 3D logo display, your message instantly draws attention in a visually crowded cityscape.</p>
+                                    <p>You can select routes and schedules that align with your target demographics—from high-income neighborhoods to industrial areas or central business zones.</p>
                                 </div>
                             </div>
                         </div>
@@ -148,14 +149,13 @@
                             <div class="card-header" id="faqHeading-213">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-213" data-aria-expanded="false" data-aria-controls="faqCollapse-213">
-                                        <span class="badge">&nbsp;</span>Perfect for Brand Launches & Events
+                                        <span class="badge">&nbsp;</span>Non-Intrusive Yet Highly Visible
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-213" class="collapse" aria-labelledby="faqHeading-213" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>
-                                        Boat advertising is often used for brand activations, product launches, and special events. It creates buzz and exclusivity — perfect for luxury, fashion, real estate, or tourism-related promotions.</p>
+                                    <p>Truck ads grab attention naturally. With their large, colorful, and creative designs, they attract both pedestrians and motorists without disrupting their daily routine.</p>
                                 </div>
                             </div>
                         </div>
@@ -163,28 +163,13 @@
                             <div class="card-header" id="faqHeading-214">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-214" data-aria-expanded="false" data-aria-controls="faqCollapse-214">
-                                        <span class="badge">&nbsp;</span>High Recall Value
+                                        <span class="badge">&nbsp;</span>Round-the-Clock Visibility
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-214" class="collapse" aria-labelledby="faqHeading-214" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>
-                                        People remember what they see in extraordinary contexts. Seeing a moving branded yacht under the Burj Al Arab skyline leaves a lasting impression that’s hard to forget.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-215">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-215" data-aria-expanded="false" data-aria-controls="faqCollapse-215">
-                                        <span class="badge">&nbsp;</span>Ideal for Social Media Exposure
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-215" class="collapse" aria-labelledby="faqHeading-215" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Boat advertisements are naturally Instagrammable. Tourists and locals love capturing photos and videos of branded boats cruising along the coast — giving your brand free social media exposure.</p>
+                                    <p>Whether it’s daytime traffic or evening rush hours, branded trucks ensure 24/7 brand exposure, making them one of the most persistent forms of outdoor marketing.</p>
                                 </div>
                             </div>
                         </div>
@@ -206,20 +191,20 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-7">
-                    <h4>Types of Boat Advertising in Dubai</h4>
-                    <p>At DataMySite, we offer customized boat and marine advertising solutions that suit different campaign needs and budgets. Here are the most popular types:</p>
+                    <h4>Types of Truck Advertising</h4>
+                    <p>At DataMySite, we offer several customizable formats depending on your brand goals, duration, and budget:</p>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-220">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-220" data-aria-expanded="true" data-aria-controls="faqCollapse-220">
-                                        <span class="badge">&nbsp;</span>Boat Wrap Advertising
+                                        <span class="badge">&nbsp;</span>Full Truck Wrap
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-220" class="collapse" aria-labelledby="faqHeading-220" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Full or partial wraps transform the exterior of boats into stunning visual displays. From corporate logos to large-scale graphics, a fully wrapped yacht or ferry becomes a floating billboard that commands attention wherever it goes.</p>
+                                    <p>The entire vehicle—both sides, rear, and sometimes even the front—is covered in branded vinyl graphics. This offers maximum visibility and strong recall value.</p>
                                 </div>
                             </div>
                         </div>
@@ -227,13 +212,13 @@
                             <div class="card-header" id="faqHeading-221">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-221" data-aria-expanded="false" data-aria-controls="faqCollapse-221">
-                                        <span class="badge">&nbsp;</span>Digital LED Boat Screens
+                                        <span class="badge">&nbsp;</span>Partial Wrap
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-221" class="collapse" aria-labelledby="faqHeading-221" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>High-definition LED screens mounted on boats display video ads, brand animations, or promotional messages. This is a great option for nighttime campaigns or event-based advertising during major Dubai festivals and celebrations.</p>
+                                    <p>Ideal for brands looking for budget-friendly campaigns. It covers specific sections (like side panels or rear doors) while still maintaining an eye-catching look.</p>
                                 </div>
                             </div>
                         </div>
@@ -241,13 +226,13 @@
                             <div class="card-header" id="faqHeading-222">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-222" data-aria-expanded="false" data-aria-controls="faqCollapse-222">
-                                        <span class="badge">&nbsp;</span>Branded Sails and Flags
+                                        <span class="badge">&nbsp;</span>Trailer or Container Branding
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-222" class="collapse" aria-labelledby="faqHeading-222" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Sails, masts, and flags can be branded with company logos, colors, and taglines — offering subtle yet highly visible promotion during sea tours or marina stops.</p>
+                                    <p>For logistics companies or brands using trailers, this option offers large-format visibility—turning cargo carriers into powerful advertising mediums.</p>
                                 </div>
                             </div>
                         </div>
@@ -255,14 +240,13 @@
                             <div class="card-header" id="faqHeading-223">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-223" data-aria-expanded="false" data-aria-controls="faqCollapse-223">
-                                        <span class="badge">&nbsp;</span>Luxury Yacht Branding
+                                        <span class="badge">&nbsp;</span>LED or Digital Truck Advertising
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-223" class="collapse" aria-labelledby="faqHeading-223" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>
-                                        For high-end events, luxury yacht branding combines elegance and exclusivity. Brands can charter yachts wrapped with their visual identity and even host promotional events onboard for media and influencers.</p>
+                                    <p>Modern trucks can be equipped with LED screens or digital billboards to display animated content, videos, and promotional visuals for premium campaigns.</p>
                                 </div>
                             </div>
                         </div>
@@ -270,13 +254,13 @@
                             <div class="card-header" id="faqHeading-224">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-224" data-aria-expanded="false" data-aria-controls="faqCollapse-224">
-                                        <span class="badge">&nbsp;</span>Ferry and Commercial Vessel Ads
+                                        <span class="badge">&nbsp;</span>Event & Campaign Trucks
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-224" class="collapse" aria-labelledby="faqHeading-224" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Dubai ferries carry thousands of commuters and tourists daily. Branding these ferries provides continuous exposure across key locations like Deira, Al Ghubaiba, and Dubai Marina.</p>
+                                    <p>For short-term campaigns, events, or product launches, branded trucks can act as mobile event booths, reaching audiences directly across key city locations.</p>
                                 </div>
                             </div>
                         </div>
@@ -304,16 +288,12 @@
                     
                 </div>
                 <div class="col-lg-5 vertical-center">
-                    <h4>Popular Routes for Boat Advertising in Dubai</h4>
-                    <p>
-                        The Dubai Sea Route Advertising network covers iconic waterways and high-traffic areas where your campaign can achieve maximum visibility:
-                    </p>
+                    <h4>Strategic Impact of Truck Advertising</h4>
                     <ul>
-                        <li><strong>Dubai Marina & JBR</strong> – Perfect for lifestyle and retail brands targeting tourists and residents.</li>
-                        <li><strong>Palm Jumeirah & Atlantis Route</strong> – Ideal for luxury, real estate, and hospitality promotions.</li>
-                        <li><strong>Burj Al Arab & Jumeirah Coastline</strong> – Offers exposure to both beachgoers and hotel visitors.</li>
-                        <li><strong>Bluewaters Island & Ain Dubai Route</strong> – Premium zone for entertainment and lifestyle brands.</li>
-                        <li><strong>Deira Creek & Al Seef Route</strong> – Great for heritage-themed campaigns and local engagement.</li>
+                        <li><strong>Boosts local brand awareness</strong> – Perfect for small and mid-size businesses looking to dominate their local market.</li>
+                        <li><strong>Supports national campaigns</strong> – For larger brands, trucks can complement digital and billboard advertising across multiple emirates.</li>
+                        <li><strong>Enhances brand credibility</strong> – A well-designed truck wrap signals professionalism and trustworthiness.</li>
+                        <li><strong>Drives customer recall</strong> – Repeated exposure from mobile visibility ensures long-term brand remembrance.</li>
                     </ul>
                 </div>
                 <div class="col-lg-2 vertical-center">
@@ -321,16 +301,21 @@
                 </div> 
 
                 <div class="col-lg-5 vertical-center">
-                    <h4>Industries That Benefit from Boat Advertising</h4>
-                    <p>Boat advertising in Dubai is versatile and impactful across various industries:</p>
+                    <h4>Where Truck Advertising Works Best</h4>
                     <ul>
-                        <li><strong>Luxury & Fashion Brands</strong><br> – Showcase elegance and exclusivity.</li>
-                        <li><strong>Real Estate Developers</strong><br> – Promote new waterfront or luxury projects.</li>
-                        <li><strong>Hospitality & Tourism</strong><br> – Boost hotel visibility and travel experiences.</li>
-                        <li><strong>Automotive Brands</strong><br> – Perfect for premium launches and high-end image building.</li>
-                        <li><strong>Tech & Telecom</strong><br> – Target urban consumers in a modern and memorable way.</li>
-                        <li><strong>Entertainment & Events</strong><br> – Amplify visibility during festivals, races, and city events.</li>
+                        <li><strong>Dubai</strong> – Sheikh Zayed Road, Al Quoz, Jebel Ali, Business Bay, Downtown</li>
+                        <li><strong>Abu Dhabi</strong> – Mussafah, Khalifa City, Corniche Road</li>
+                        <li><strong>Sharjah & Ajman</strong> – Industrial areas, highways, and residential routes</li>
+                        <li><strong>Northern Emirates</strong> – Fujairah, Ras Al Khaimah, Umm Al Quwain routes</li>
                     </ul>
+                    <p>Our team at DataMySite collaborates with local transport fleets to ensure your ads travel through high-impact, traffic-dense routes, maximizing impressions and ROI.</p>
+                </div>
+                <div class="col-lg-12">
+                    <h4>Transform Your Fleet into a Moving Billboard</h4>
+                    <p>
+                        Truck advertising is more than just a branding technique—it’s a powerful storytelling tool on wheels. Whether you’re promoting a new product, increasing brand visibility, or launching a seasonal campaign, your message will reach thousands of eyes daily. 
+                        At DataMySite, we make sure every kilometer your truck drives adds value to your brand.
+                    </p>
                 </div>
             </div>
 
@@ -349,28 +334,23 @@
                     <img src="{{URL::to('/public/assets/img/why-us.png')}}" width="80%" alt="Why choose us">
                 </div>
                 <div class="col-lg-9">
-                    <h4>Why Choose DataMySite for Boat Advertising?</h4>
-                    <p>
-                       At DataMySite, we combine creativity, technology, and strategic media placement to make your campaign unforgettable.
-                        <br>
-                        <strong>Our team:</strong>
-                    </p>
+                    <h4>Why Choose DataMySite for Truck Advertising?</h4>
                     <ul>
-                        <li>Designs customized boat advertising concepts aligned with your brand identity.</li>
-                        <li>Manages all permissions and marine authority approvals.</li>
-                        <li>Ensures high-quality printing, wrapping, and screen installation.</li>
-                        <li>Provides tracking, reporting, and visual documentation for performance insights.</li>
+                        <li><strong>Creative Design Team</strong><br> – We conceptualize visually stunning and brand-aligned graphics.</li>
+                        <li><strong>Premium Printing Quality</strong><br> – We use weather-resistant, high-resolution vinyl materials.</li>
+                        <li><strong>Expert Installation</strong><br> – Professional wrapping ensures a clean, bubble-free finish.</li>
+                        <li><strong>Data-Driven Planning</strong><br> – Route analysis and reporting help optimize your campaign reach.</li>
+                        <li><strong>Flexible Packages</strong><br> – From short-term promotions to long-term branding, we offer scalable solutions for every budget.</li>
                     </ul>
-                    <p>With years of experience in Dubai’s outdoor advertising market, we’ve helped numerous brands make waves — literally — across Dubai’s waterways.</p>
                     <br>
-                    <h4>Benefits of Advertising on the Dubai Sea Route</h4>
-                    <ul>
-                        <li>Continuous exposure throughout the day.</li>
-                        <li>Ideal for event-based promotions and long-term campaigns.</li>
-                        <li>Reaches diverse audiences — locals, tourists, and international travelers.</li>
-                        <li>Enhances brand perception by associating with Dubai’s luxury coastal lifestyle.</li>
-                        <li>Cost-effective mobility compared to static high-end billboards.</li>
-                    </ul>
+                    <h4>Get Started with Truck Advertising in the UAE</h4>
+                    <p>
+                        Contact DataMySite today to plan your truck advertising campaign in Dubai, Abu Dhabi, or anywhere across the UAE.
+                        <br>
+                        Let’s get your brand rolling on the roads—literally!
+                        <br><br>
+                        Contact Us to learn more about pricing, truck availability, and creative design options.
+                    </p>
                     
                 </div> 
             </div>
@@ -430,13 +410,13 @@
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What permissions are needed for boat advertising in Dubai?
+                                        <span class="badge">&nbsp;</span>What is truck advertising?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Advertising on boats requires approval from the Dubai Maritime Authority and related municipal departments. DataMySite handles all necessary permits for a smooth campaign.</p>
+                                    <p>Truck advertising involves wrapping or branding a truck with your company’s logo, message, and visuals. The truck then acts as a moving billboard, promoting your brand while it travels through high-traffic areas in cities like Dubai, Abu Dhabi, and Sharjah.</p>
                                 </div>
                             </div>
                         </div>
@@ -444,13 +424,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How long can a boat advertising campaign run?
+                                        <span class="badge">&nbsp;</span>How effective is truck advertising in Dubai?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Campaigns can run for a few days (for events) or several months, depending on your marketing objectives and contract terms.</p>
+                                    <p>Truck advertising is highly effective because it reaches thousands of people daily on highways, business districts, and residential areas. With the UAE’s busy road network, your brand gains continuous visibility and strong recall among both drivers and pedestrians.</p>
                                 </div>
                             </div>
                         </div>
@@ -458,13 +438,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>Can I advertise on yachts and ferries?
+                                        <span class="badge">&nbsp;</span>What types of truck advertising are available?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, both yachts and commercial ferries can be used for branding, depending on the desired audience reach and visibility level.</p>
+                                    <p>You can choose from full wraps, partial wraps, trailer branding, LED digital trucks, or campaign-based mobile trucks. Each format offers a different level of exposure and cost flexibility depending on your goals and budget.</p>
                                 </div>
                             </div>
                         </div>
@@ -472,13 +452,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>What is the best location for boat advertising in Dubai?
+                                        <span class="badge">&nbsp;</span>How much does truck advertising cost in the UAE?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Dubai Marina, Palm Jumeirah, and Jumeirah Beach are the top-performing routes due to their heavy tourist and local footfall.</p>
+                                    <p>The cost depends on factors like truck size, wrap design, campaign duration, and route coverage. On average, a basic truck wrap campaign can start from a few thousand dirhams per month, while larger digital or event trucks cost more. DataMySite offers customized pricing packages to fit your needs.</p>
                                 </div>
                             </div>
                         </div>
@@ -486,13 +466,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>Does boat advertising work at night?
+                                        <span class="badge">&nbsp;</span>How long does a truck wrap last?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Absolutely. With LED-lit boats and digital screens, your ad remains visible and striking even after sunset — perfect for evening campaigns or nightlife events.</p>
+                                    <p>High-quality vinyl wraps can last between 12 to 24 months depending on weather conditions and maintenance. We use durable, UV-resistant materials to ensure your branding remains vibrant even under UAE’s hot climate.</p>
                                 </div>
                             </div>
                         </div>
@@ -500,13 +480,13 @@
                             <div class="card-header" id="faqHeading-15">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                        <span class="badge">&nbsp;</span>Is boat advertising suitable for small businesses?
+                                        <span class="badge">&nbsp;</span>Can I choose specific routes for my branded trucks?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. DataMySite offers flexible options including short-term branding, partial wraps, or shared campaigns, making it affordable for both SMEs and large corporations.</p>
+                                    <p>Yes. We work with our logistics partners to plan route-specific campaigns. You can target certain areas—like Sheikh Zayed Road, Jebel Ali, or Dubai Marina—to align with your target audience’s location and travel behavior.</p>
                                 </div>
                             </div>
                         </div>
