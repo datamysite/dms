@@ -59,7 +59,12 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
 
         Route::prefix('digital-advertising')->group(function(){
             Route::get('/', 'ServiceController@digitalAdvertising');
-            Route::get('/ott-advertising', 'ServiceController@digitalAdvertisingOTTAdvertising');
+            Route::prefix('ott-advertising')->group(function(){
+                
+                Route::get('/', 'ServiceController@digitalAdvertisingOTTAdvertising');
+                Route::get('/netflix-advertising', 'ServiceController@digitalAdvertisingOTTAdvertisingNetflix');
+
+            });
             Route::get('/dooh-advertising', 'ServiceController@digitalAdvertisingDOOHAdvertising');
             Route::get('/hotel-digital-screens-advertising', 'ServiceController@digitalAdvertisingHotelAdvertising');
             Route::get('/elevator-advertising', 'ServiceController@digitalAdvertisingElevetorAdvertising');

@@ -113,8 +113,19 @@ class ServiceController extends Controller
             $data['subservice'] = Services::where('slug', 'ott-advertising')->first();
             $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
 
-            return view('web.services-new.digital-advertising.ott-advertising')->with($data);
+            return view('web.services-new.digital-advertising.ott-advertising.index')->with($data);
         }
+            public function digitalAdvertisingOTTAdvertisingNetflix(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'digital-advertising')->first();
+                $data['service'] = Services::where('slug', 'ott-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'netflix-advertising')->first();
+                $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.digital-advertising.ott-advertising.netflix-advertising')->with($data);
+            }
+
+
         public function digitalAdvertisingDOOHAdvertising(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'digital-advertising')->first();
