@@ -133,6 +133,15 @@ class ServiceController extends Controller
 
                 return view('web.services-new.digital-advertising.ott-advertising.starzplay-advertising')->with($data);
             }
+            public function digitalAdvertisingOTTAdvertisingAbuDhabiTV(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'digital-advertising')->first();
+                $data['service'] = Services::where('slug', 'ott-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'abudhabitv-advertising')->first();
+                $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.digital-advertising.ott-advertising.abudhabitv-advertising')->with($data);
+            }
 
 
         public function digitalAdvertisingDOOHAdvertising(){
@@ -141,8 +150,28 @@ class ServiceController extends Controller
             $data['subservice'] = Services::where('slug', 'dooh-advertising')->first();
             $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
 
-            return view('web.services-new.digital-advertising.dooh-advertising')->with($data);
+            return view('web.services-new.digital-advertising.dooh-advertising.index')->with($data);
         }
+            public function digitalAdvertisingDOOHAdvertisingUnipole(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'digital-advertising')->first();
+                $data['service'] = Services::where('slug', 'dooh-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'digital-unipole')->first();
+                $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.digital-advertising.dooh-advertising.digital-unipole')->with($data);
+            }
+            public function digitalAdvertisingDOOHAdvertisingPetrolStation(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'digital-advertising')->first();
+                $data['service'] = Services::where('slug', 'dooh-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'petrol-station-digital-screen')->first();
+                $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.digital-advertising.dooh-advertising.petrol-station-digital-screen')->with($data);
+            }
+
+            
         public function digitalAdvertisingHotelAdvertising(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'digital-advertising')->first();

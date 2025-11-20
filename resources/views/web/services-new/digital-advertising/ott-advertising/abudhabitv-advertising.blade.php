@@ -15,11 +15,11 @@
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
                         <h1>&#10687; {{$subservice->name}}</h1>
-                        <h2>Reach Engaged Audiences</h2>
-                        <h4>Across the Middle East with Premium OTT Campaigns</h4>
+                        <h2>Connect with the UAE Audience</h2>
+                        <h4>through Premium Local OTT and Broadcast Campaigns</h4>
                         <br>
                         <p>
-                            In the fast-evolving world of digital entertainment, StarzPlay has become one of the most influential OTT streaming platforms in the Middle East and North Africa (MENA) region. Known for its premium Arabic, Hollywood, Bollywood, and regional content, StarzPlay attracts millions of viewers across UAE, Saudi Arabia, Egypt, and other GCC countries — making it an ideal platform for brands seeking meaningful, localized connections.
+                            For businesses looking to reach viewers across the Emirates, GCC, and Arabic-speaking markets, advertising on Abu Dhabi TV offers both scale and prestige. Whether through traditional TV spots or digital streaming on ADTV’s OTT platform, your brand can engage millions of viewers with high-impact visuals and storytelling.
                         </p>
                     </div>
                     <div class="col-lg-4">
@@ -57,13 +57,12 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4>What is StarzPlay Advertising?</h4>
+                    <h4>About Abu Dhabi TV</h4>
+                    <br>
                     <p class="mb-2">
-                        StarzPlay Advertising enables brands to display video ads, display banners, and sponsored placements directly within the platform’s streaming experience. These ads are shown to users watching movies, TV shows, and live sports, offering brands a unique way to reach customers who are highly engaged and attentive.
+                        Launched under the Abu Dhabi Media Network, Abu Dhabi TV has grown into one of the UAE’s leading broadcasters, offering a blend of news, entertainment, drama, sports, and cultural programming. With a strong reputation for professionalism and local relevance, it attracts a loyal audience base across the UAE, Saudi Arabia, Oman, Bahrain, and Egypt.
                         <br><br>
-                        Unlike traditional TV ads, OTT (Over-The-Top) advertising on StarzPlay uses advanced data targeting to deliver your message to specific audience groups — by location, language preference, content category, and viewing behavior.
-                        <br><br>
-                        In the UAE, where digital content consumption is at an all-time high, advertising on StarzPlay is a cost-effective way to boost awareness, engagement, and conversions.
+                        In addition to its satellite channel, Abu Dhabi TV operates a digital OTT platform that allows viewers to stream live and on-demand content anytime, anywhere. This dual-channel presence makes it ideal for hybrid advertising strategies that combine the power of television with the precision of digital targeting.
                     </p>
                 </div>
                 <div class="col-lg-6 vertical-center">
@@ -102,19 +101,19 @@
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
-                    <h4>Why StarzPlay Advertising Works in the UAE</h4>
+                    <h4>Why Choose Abu Dhabi TV Advertising</h4>
+                    <br>
                     <p>
-                        With over 2 million subscribers in the region, StarzPlay has built strong loyalty among Middle Eastern audiences. It provides both Arabic and English content, appealing to locals and expats alike — making it a diverse advertising ecosystem for brands targeting multiple segments.
-                        <br>
-                        Here’s why brands in Dubai and across the UAE choose StarzPlay for OTT advertising:
+                        Advertising on Abu Dhabi TV offers brands a chance to associate with trusted media, high-quality content, and strong Emirati identity. Here’s why it’s a preferred choice among UAE marketers:
                     </p>
                     <ul>
-                        <li><strong>High Engagement</strong>: Viewers on StarzPlay spend long durations watching uninterrupted content, which increases ad recall and emotional connection.</li>
-                        <li><strong>Localized Reach</strong>: Perfect for targeting Arabic-speaking users, expats, and niche audiences across the UAE, Saudi Arabia, and GCC markets.</li>
-                        <li><strong>Data-Driven Targeting</strong>: Advertisers can reach specific audience segments by age, gender, interests, and content preferences.</li>
-                        <li><strong>Premium, Brand-Safe Environment</strong>: Ads are displayed alongside high-quality licensed content, ensuring your brand is associated with trusted entertainment.</li>
-                        <li><strong>Cost-Effective Exposure</strong>: Compared to global OTT platforms, StarzPlay offers competitive advertising rates while delivering regional visibility and impact.</li>
+                        <li><strong>Unmatched Local Reach</strong><br> – Connect with Arabic-speaking audiences across the Emirates and GCC.</li>
+                        <li><strong>Credibility & Authority</strong><br> – Partner with a media house backed by the Abu Dhabi government, ensuring reliability and brand safety.</li>
+                        <li><strong>Multichannel Exposure</strong><br> – Combine traditional broadcast ads with OTT streaming and digital banner placements.</li>
+                        <li><strong>Flexible Ad Solutions</strong><br> – Choose from TV commercials, digital videos, sponsored segments, or branded storytelling.</li>
+                        <li><strong>High Engagement Rates</strong><br> – Abu Dhabi TV’s diverse content lineup ensures high viewer retention and brand recall.</li>
                     </ul>
+                    <p>For advertisers seeking to build long-term awareness and trust among UAE residents, Abu Dhabi TV provides the perfect platform for local and regional impact.</p>
                 </div>
             </div>
 
@@ -130,46 +129,59 @@
             <div class="row gy-4 first-row">
 
 
-                <div class="col-lg-8 vertical-center">
-                    <h4>Popular StarzPlay Ad Formats</h4>
+                <div class="col-lg-5 vertical-center">
+                    <h4>Ad Formats on Abu Dhabi TV</h4>
                     <ul>
                         <li>
-                            <strong>Pre-Roll Video Ads</strong><br>
-                            These ads appear before the user’s selected content begins. Pre-roll ads offer the highest visibility and are perfect for launching new products, offers, or brand awareness campaigns.
+                            <strong>Television Commercials (TVCs)</strong><br>
+                            Broadcast on prime-time shows, news hours, and popular dramas, TVCs remain a powerful way to showcase your brand message to mass audiences. With production-quality storytelling, these ads deliver emotional impact and broad awareness.
                         </li>
                         <li>
-                            <strong>Mid-Roll Ads</strong><br>
-                            Displayed during natural breaks within longer video content, these ads enjoy strong attention as viewers are already engaged with the content.
+                            <strong>OTT Video Ads</strong><br>
+                            Abu Dhabi TV’s OTT platform allows you to run pre-roll, mid-roll, and post-roll ads on streaming content. This enables precise targeting based on viewer data such as location, age, interests, and viewing habits.
                         </li>
                         <li>
-                            <strong>Display Banners</strong><br>
-                            Strategically placed banners on the StarzPlay interface increase brand visibility while users browse content. These banners are ideal for reinforcing brand identity and driving click-through actions.
+                            <strong>Sponsored Content & Program Integration</strong><br>
+                            Brands can partner with Abu Dhabi TV to sponsor shows, segments, or special reports. These integrations enhance brand credibility and allow deeper audience connection through contextual storytelling.
                         </li>
                         <li>
-                            <strong>Sponsored Content</strong><br>
-                            Brands can collaborate with StarzPlay for sponsored segments, branded shows, or co-branded entertainment experiences that resonate deeply with local audiences.
+                            <strong>Banner & Display Ads</strong><br>
+                            For digital exposure, banner placements within the ADTV website or app drive traffic and reinforce brand identity while users browse or stream content.
                         </li>
                         <li>
-                            <strong>Contextual Targeting</strong><br>
-                            With StarzPlay’s advanced data technology, your ads can appear alongside specific genres — from Arabic drama and Hollywood blockbusters to live sports — ensuring contextual alignment and relevance.
+                            <strong>Event & Campaign Collaborations</strong><br>
+                            Abu Dhabi TV frequently covers major cultural, sporting, and national events. Partnering during these occasions allows your brand to reach highly engaged local audiences in real time.
                         </li>
 
-                    </ul>
-                    <br>
-                    <h4>Key Benefits Summary</h4>
-                    <ul>
-                        <li>Reach highly engaged viewers in a brand-safe environment</li>
-                        <li>Target audiences by region, language, and content genre</li>
-                        <li>Enjoy flexible campaign budgets and real-time reporting</li>
-                        <li>Build brand authority across UAE and wider MENA markets</li>
-                        <li>Seamlessly integrate campaigns with other OTT and digital platforms</li>
 
                     </ul>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3 vertical-center">
+                <div class="col-lg-2 vertical-center">
                     <img src="{{URL::to('/public/section-images/image108.png')}}" width="100%" alt="Why choose us">
                 </div> 
+                <div class="col-lg-5 vertical-center">
+                    <h4>Industries that Benefit from Abu Dhabi TV Advertising</h4>
+                    <p>Because of its broad demographic reach, Abu Dhabi TV serves as an effective platform for a wide range of industries:</p>
+                    <ul>
+                        <li><strong>Real Estate Developers</strong>: Showcase premium residential or commercial projects to affluent local buyers.</li>
+
+
+                        <li><strong>Tourism & Hospitality</strong>: Promote travel experiences, hotels, and cultural destinations across UAE and GCC.</li>
+
+
+                        <li><strong>Government & Public Sector</strong>: Communicate public awareness campaigns and national initiatives.</li>
+
+
+                        <li><strong>Automotive Brands</strong>: Launch new models or highlight dealership offers with high-quality TV spots.</li>
+
+
+                        <li><strong>Education & Training Institutes</strong>: Attract parents and students through regional exposure.</li>
+
+
+                        <li><strong>Retail & E-commerce</strong>: Drive awareness for promotions, seasonal sales, and online shopping campaigns.</li>
+                    </ul>
+                    <p>With its mix of credibility and wide audience base, Abu Dhabi TV Advertising is ideal for both corporate branding and product marketing.</p>
+                </div>
             </div>
 
           </div>
@@ -189,33 +201,42 @@
 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
-                    <h4>Advantages of Advertising on StarzPlay with DataMySite</h4>
-                    <p>
-                        Partnering with DataMySite, one of the UAE’s leading digital marketing agencies, ensures your campaign is planned, executed, and optimized for success.
-                        <br>
-                        Our team specializes in OTT advertising strategies that deliver measurable results. Here’s how we help:
-                    </p>
+                    <h4>Why Abu Dhabi TV Advertising is a Strategic Choice for Brands</h4>
                     <ul>
-                        <li><strong>Customized Strategy</strong>: We create campaigns that match your goals, budget, and target audience.</li>
-                        <li><strong>Precise Targeting</strong>: Reach specific demographics and regions with advanced analytics and audience segmentation.</li>
-                        <li><strong>Creative Development</strong>: From video script to production, we design ads that resonate with StarzPlay viewers.</li>
-                        <li><strong>Campaign Optimization</strong>: Monitor and refine performance in real time for better ROI.</li>
-                        <li><strong>Cross-Platform Integration</strong>: Combine your StarzPlay campaign with Netflix, YouTube, and social media ads for consistent visibility.</li>
+                        <li>
+                            <strong>Cultural Relevance:</strong>
+                             Abu Dhabi TV aligns with the UAE’s values, traditions, and vision — helping your brand build emotional connections through culturally resonant messages.
+                         </li>
+
+                        <li>
+                            <strong>Trusted Platform:</strong>
+                             Viewers perceive ads on Abu Dhabi TV as more credible compared to online-only platforms, enhancing brand trust.
+                         </li>
+
+                        <li>
+                            <strong>Targeted Reach:</strong>
+                             Through its OTT streaming service, advertisers can select specific audience segments — blending mass reach with digital precision.
+                         </li>
+
+                        <li>
+                            <strong>Cross-Platform Visibility:</strong>
+                             Brands can synchronize TV campaigns with digital ads for maximum reach and engagement across devices.
+                         </li>
+
+                        <li>
+                            <strong>High Production Standards:</strong>
+                             Abu Dhabi TV’s in-house production teams and advertising partners ensure that every campaign meets premium media standards.
+                         </li>
+
+
                     </ul>
-                    <p>At DataMySite, we understand the UAE audience — their viewing habits, cultural preferences, and digital behavior. Our data-driven OTT campaigns ensure your brand gets noticed by the right people at the right time.</p>
                     <br>
-                    <h4>Industries That Benefit from StarzPlay Advertising</h4>
+                    <h4>The Future of OTT and TV Advertising in the UAE</h4>
                     <p>
-                        StarzPlay’s wide audience base makes it suitable for almost every industry. Some key sectors leveraging OTT ads on StarzPlay in Dubai and the UAE include:
+                        As more viewers shift from cable to digital streaming, the future of advertising in the UAE lies in hybrid media strategies. Platforms like Abu Dhabi TV, which bridge the gap between traditional broadcasting and digital OTT streaming, are leading this transformation.
+                        <br><br>
+                        For advertisers, this means more control, measurable results, and flexible spending options. Whether you’re a local business in Dubai or a global brand expanding into the Middle East, Abu Dhabi TV advertising ensures your brand story reaches the right audience — with the right impact.
                     </p>
-                    <ul>
-                        <li><strong>Real Estate</strong>: Promote new developments and property launches to high-income families and investors.</li>
-                        <li><strong>Automotive</strong>: Showcase vehicle launches or brand campaigns to urban audiences.</li>
-                        <li><strong>E-commerce</strong>: Drive traffic to online stores with compelling video campaigns.</li>
-                        <li><strong>Hospitality & Tourism</strong>: Target travelers and expats exploring UAE attractions or staycation offers.</li>
-                        <li><strong>Education & Technology</strong>: Reach families and professionals interested in online learning or innovation.</li>
-                        <li><strong>Finance & Banking</strong>: Build trust through professional, brand-safe video advertising.</li>
-                    </ul>
                 </div> 
             </div>
 
@@ -231,24 +252,35 @@
 
 
                 <div class="col-lg-8 vertical-center">
-                    <h4>Why StarzPlay Advertising is the Future of Digital Branding in MENA</h4>
+                    <h4>Advertising with DataMySite – Your Partner in OTT & TV Marketing</h4>
                     <p>
-                        As audiences continue to shift from cable TV to streaming platforms, StarzPlay has positioned itself as the region’s most accessible OTT platform for advertisers. Its combination of Arabic and international content, affordable pricing, and growing subscriber base gives brands a scalable solution for long-term engagement.
+                        At DataMySite, we specialize in helping brands navigate and leverage the power of OTT and broadcast media in the UAE. Our marketing experts handle everything — from concept creation, media planning, audience targeting, and campaign optimization — ensuring your message stands out in a competitive advertising space.
                         <br>
-                        For businesses in Dubai, Abu Dhabi, Sharjah, and across GCC, advertising on StarzPlay offers a perfect mix of local impact and digital innovation.
+                        We understand that every business has unique goals, whether it’s building brand awareness, increasing leads, or driving foot traffic. That’s why we customize your Abu Dhabi TV campaign to align perfectly with your objectives and budget.
+                        <br>
+                        <strong>Our services include:</strong>
+
                     </p>
-                    <br>
-                    <h4>Partner with DataMySite for StarzPlay Advertising in Dubai</h4>
-                    <p>
-                        Whether you want to launch a short-term video campaign or build a long-term OTT advertising strategy, DataMySite provides end-to-end campaign management tailored to your business goals.
-                        <br><br>
-                        From creative storytelling to media buying and performance analysis, we ensure every impression counts. With our strategic insights and local expertise, your brand can gain massive exposure on StarzPlay, connecting you with premium audiences across the UAE and beyond.
-                        <br><br>
-                        Contact our OTT specialists today to start your StarzPlay Advertising campaign and take your digital presence to the next level.
-                    </p>
+                    <ul>
+                        <li>Media planning and channel selection</li>
+
+
+                        <li>Scriptwriting and ad production</li>
+
+
+                        <li>Campaign scheduling and placement</li>
+
+
+                        <li>Real-time performance tracking and reporting</li>
+
+
+                        <li>Cross-platform retargeting across digital and social media</li>
+
+                    </ul>
+                    <p>With our expertise, your brand can make a lasting impression on both traditional viewers and OTT audiences through one integrated campaign.</p>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3 vertical-center">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2 vertical-center">
                     <img src="{{URL::to('/public/section-images/image108.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
@@ -306,13 +338,13 @@
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What is StarzPlay Advertising?
+                                        <span class="badge">&nbsp;</span>What is Abu Dhabi TV Advertising?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>StarzPlay Advertising allows brands to display video and banner ads within the platform’s streaming experience, targeting regional audiences across the UAE and MENA.</p>
+                                    <p>It’s the promotion of your brand through commercials or digital ads on Abu Dhabi TV’s broadcast and OTT streaming platforms, reaching audiences across the UAE and GCC.</p>
                                 </div>
                             </div>
                         </div>
@@ -320,13 +352,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How effective is advertising on StarzPlay in Dubai?
+                                        <span class="badge">&nbsp;</span>Can I target specific audiences on Abu Dhabi TV’s digital platform?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>It’s highly effective due to localized reach, premium content, and long watch times. Brands enjoy stronger visibility and engagement compared to traditional TV.</p>
+                                    <p>Yes. The OTT platform allows demographic, geographic, and behavioral targeting to ensure your ads reach the most relevant viewers.</p>
                                 </div>
                             </div>
                         </div>
@@ -334,13 +366,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What are the available ad formats?
+                                        <span class="badge">&nbsp;</span>What types of ads can I run?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>You can choose pre-roll, mid-roll, and display banner ads, as well as branded or sponsored content integrations.</p>
+                                    <p>You can run TV commercials, sponsored content, display banners, or video ads on the OTT platform, depending on your campaign goals.</p>
                                 </div>
                             </div>
                         </div>
@@ -348,14 +380,14 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Can I target specific audiences on StarzPlay?
+                                        <span class="badge">&nbsp;</span>How much does Abu Dhabi TV Advertising cost?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
                                     <p>
-                                        Yes. You can target by country, age, gender, language, interests, and content type — ensuring your message reaches the most relevant audience.
+                                        Pricing depends on factors like ad length, time slot, and campaign duration. DataMySite offers flexible packages for businesses of all sizes.
                                     </p>
                                 </div>
                             </div>
@@ -364,13 +396,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>How can DataMySite help with my StarzPlay campaign?
+                                        <span class="badge">&nbsp;</span>Why choose DataMySite for Abu Dhabi TV Advertising?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>DataMySite manages the entire process — from ad design and targeting setup to campaign optimization and performance tracking — helping you get maximum ROI from OTT advertising.</p>
+                                    <p>We manage your entire campaign — from creative production to placement and reporting — ensuring maximum visibility, compliance, and ROI.</p>
                                 </div>
                             </div>
                         </div>

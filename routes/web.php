@@ -64,9 +64,15 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
                 Route::get('/', 'ServiceController@digitalAdvertisingOTTAdvertising');
                 Route::get('/netflix-advertising', 'ServiceController@digitalAdvertisingOTTAdvertisingNetflix');
                 Route::get('/starzplay-advertising', 'ServiceController@digitalAdvertisingOTTAdvertisingStarzPlay');
+                Route::get('/abudhabitv-advertising', 'ServiceController@digitalAdvertisingOTTAdvertisingAbuDhabiTV');
 
             });
-            Route::get('/dooh-advertising', 'ServiceController@digitalAdvertisingDOOHAdvertising');
+            Route::prefix('/dooh-advertising')->group(function(){
+
+                Route::get('/', 'ServiceController@digitalAdvertisingDOOHAdvertising');
+                Route::get('/digital-unipole', 'ServiceController@digitalAdvertisingDOOHAdvertisingUnipole');
+                Route::get('/petrol-station-digital-screen', 'ServiceController@digitalAdvertisingDOOHAdvertisingPetrolStation');
+            });
             Route::get('/hotel-digital-screens-advertising', 'ServiceController@digitalAdvertisingHotelAdvertising');
             Route::get('/elevator-advertising', 'ServiceController@digitalAdvertisingElevetorAdvertising');
         });
