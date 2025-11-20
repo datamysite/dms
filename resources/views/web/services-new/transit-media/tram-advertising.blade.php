@@ -10,7 +10,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$service->slug.'.jpg')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
             <div class="container head-container-service">
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
@@ -97,7 +97,7 @@
             <div class="row gy-4 first-row split-block">
 
                 <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image24.png')}}" width="100%" alt="Impact of PR Coverage">
+                    <img src="{{URL::to('/public/section-images/image141.png')}}" width="100%" alt="Impact of PR Coverage">
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-7">
@@ -285,7 +285,7 @@
 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image24.png')}}" width="100%" alt="Impact of PR Coverage">
+                    <img src="{{URL::to('/public/section-images/image142.png')}}" width="100%" alt="Impact of PR Coverage">
                 </div>
             </div>
 
@@ -316,7 +316,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-2 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image41.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image143.png')}}" width="100%" alt="Why choose us">
                 </div> 
 
                 <div class="col-lg-5 vertical-center">

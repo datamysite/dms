@@ -10,7 +10,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$service->slug.'.jpg')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
             <div class="container head-container-service">
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
@@ -221,7 +221,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-2 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image41.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image132.png')}}" width="100%" alt="Why choose us">
                 </div> 
 
                 <div class="col-lg-5 vertical-center">
@@ -257,7 +257,7 @@
 
 
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image133.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
@@ -329,7 +329,7 @@
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image134.png')}}" width="90%" alt="Why choose us">
                 </div> 
             </div>
 

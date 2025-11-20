@@ -173,8 +173,8 @@
                     </ul>
                     
                 </div>
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/assets/img/why-us.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image110.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
@@ -191,10 +191,11 @@
             <div class="row gy-4 first-row split-block">
 
 
-                <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image24.png')}}" width="100%" alt="Impact of PR Coverage">
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image108.png')}}" width="90%" alt="Impact of PR Coverage">
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-8 vertical-center">
                     <h4>Benefits of Partnering with DataMySite</h4>
                     <ul>
                         <li><strong>Nationwide Coverage</strong>: Access to Dubai, Sharjah, Abu Dhabi, and Indian airports.</li>

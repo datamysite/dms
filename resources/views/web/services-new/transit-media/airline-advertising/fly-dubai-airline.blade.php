@@ -10,7 +10,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$service->slug.'.jpg')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.png')}}');">
             <div class="container head-container-service">
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
@@ -189,7 +189,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-2 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image41.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image129.png')}}" width="100%" alt="Why choose us">
                 </div> 
 
                 <div class="col-lg-5 vertical-center">
@@ -219,11 +219,11 @@
             <div class="row gy-4 first-row split-block">
 
 
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-2 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image130.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>
-                <div class="col-lg-8 vertical-center">
+                <div class="col-lg-9 vertical-center">
                     <h4>How DataMySite Helps You Achieve Maximum Impact</h4>
                     <p>
                         As one of Dubai’s trusted advertising agencies, DataMySite combines creativity, strategy, and data-driven execution to maximize the impact of your airline campaign.
@@ -254,7 +254,7 @@
             <div class="row gy-4 first-row">
 
 
-                <div class="col-lg-8 vertical-center">
+                <div class="col-lg-9 vertical-center">
                     <h4>Why Choose DataMySite for Fly Dubai Advertising</h4>
                     <ul>
                         <li><strong>Expert Team</strong>: We understand Dubai’s advertising landscape and airline media dynamics.</li>
@@ -272,8 +272,8 @@
                     </p>
                 </div>
                 <div class="col-lg-1"></div>
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image47.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-2 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image131.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
