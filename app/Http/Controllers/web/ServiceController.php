@@ -178,8 +178,37 @@ class ServiceController extends Controller
             $data['subservice'] = Services::where('slug', 'hotel-digital-screens-advertising')->first();
             $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
 
-            return view('web.services-new.digital-advertising.hotel-digital-screens-advertising')->with($data);
+            return view('web.services-new.digital-advertising.hotel-digital-screens-advertising.index')->with($data);
         }
+            public function digitalAdvertisingHotelAdvertisingDubai(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'digital-advertising')->first();
+                $data['service'] = Services::where('slug', 'hotel-digital-screens-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'dubai-hotels-advertising')->first();
+                $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.digital-advertising.hotel-digital-screens-advertising.dubai-hotels-advertising')->with($data);
+            }
+            public function digitalAdvertisingHotelAdvertisingAbuDhabi(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'digital-advertising')->first();
+                $data['service'] = Services::where('slug', 'hotel-digital-screens-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'abu-dhabi-hotels-advertising')->first();
+                $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.digital-advertising.hotel-digital-screens-advertising.abu-dhabi-hotels-advertising')->with($data);
+            }
+            public function digitalAdvertisingHotelAdvertisingRAK(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'digital-advertising')->first();
+                $data['service'] = Services::where('slug', 'hotel-digital-screens-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'rak-hotels-advertising')->first();
+                $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.digital-advertising.hotel-digital-screens-advertising.rak-hotels-advertising')->with($data);
+            }
+
+
         public function digitalAdvertisingElevetorAdvertising(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'digital-advertising')->first();
