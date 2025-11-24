@@ -81,7 +81,12 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
                 Route::get('/rak-hotels-advertising', 'ServiceController@digitalAdvertisingHotelAdvertisingRAK');
             });
 
-            Route::get('/elevator-advertising', 'ServiceController@digitalAdvertisingElevetorAdvertising');
+            Route::prefix('elevator-advertising')->group(function(){
+
+                Route::get('/', 'ServiceController@digitalAdvertisingElevetorAdvertising');
+                Route::get('/residential-lift', 'ServiceController@digitalAdvertisingElevetorAdvertisingResidential');
+                Route::get('/commercial-lift', 'ServiceController@digitalAdvertisingElevetorAdvertisingCommercial');
+            });
         });
 
         Route::prefix('public-relations-pr-coverage')->group(function(){
@@ -177,7 +182,15 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
             Route::get('/creative', 'ServiceController@cgiAdvertisingCreative');
         });
 
-        Route::get('/radio-advertising', 'ServiceController@radioAdvertising');
+
+        Route::prefix('radio-advertising')->group(function(){
+
+            Route::get('/', 'ServiceController@radioAdvertising');
+            Route::get('/english-stations', 'ServiceController@radioAdvertisingEnglish');
+            Route::get('/arabic-stations', 'ServiceController@radioAdvertisingArabic');
+            Route::get('/hindi-urdu-stations', 'ServiceController@radioAdvertisingHindiUrdu');
+            Route::get('/other-stations', 'ServiceController@radioAdvertisingOther');
+        });
 
         Route::get('/seo-services-dubai', 'ServiceController@seoServicesDubai');
 

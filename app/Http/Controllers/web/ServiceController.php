@@ -215,8 +215,26 @@ class ServiceController extends Controller
             $data['subservice'] = Services::where('slug', 'elevator-advertising')->first();
             $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
 
-            return view('web.services-new.digital-advertising.elevator-advertising')->with($data);
+            return view('web.services-new.digital-advertising.elevator-advertising.index')->with($data);
         }
+            public function digitalAdvertisingElevetorAdvertisingResidential(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'digital-advertising')->first();
+                $data['service'] = Services::where('slug', 'elevator-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'residential-lift')->first();
+                $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.digital-advertising.elevator-advertising.residential-lift')->with($data);
+            }
+            public function digitalAdvertisingElevetorAdvertisingCommercial(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'digital-advertising')->first();
+                $data['service'] = Services::where('slug', 'elevator-advertising')->first();
+                $data['subservice'] = Services::where('slug', 'commercial-lift')->first();
+                $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.digital-advertising.elevator-advertising.commercial-lift')->with($data);
+            }
 
 
 //-------------------------------------------------------------------------------------------------------
@@ -720,8 +738,41 @@ class ServiceController extends Controller
         $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
         $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
 
-        return view('web.services-new.radio-advertising')->with($data);
+        return view('web.services-new.radio-advertising.index')->with($data);
     }
+        public function radioAdvertisingEnglish(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'radio-advertising')->first();
+            $data['subservice'] = Services::where('slug', 'english-stations')->first();
+            $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.radio-advertising.english-stations')->with($data);
+        }
+        public function radioAdvertisingArabic(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'radio-advertising')->first();
+            $data['subservice'] = Services::where('slug', 'arabic-stations')->first();
+            $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.radio-advertising.arabic-stations')->with($data);
+        }
+        public function radioAdvertisingHindiUrdu(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'radio-advertising')->first();
+            $data['subservice'] = Services::where('slug', 'hindi-urdu-stations')->first();
+            $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.radio-advertising.hindi-urdu-stations')->with($data);
+        }
+        public function radioAdvertisingOther(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'radio-advertising')->first();
+            $data['subservice'] = Services::where('slug', 'other-stations')->first();
+            $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.radio-advertising.other-stations')->with($data);
+        }
+
 
 
 //-------------------------------------------------------------------------------------------------------
