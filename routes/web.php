@@ -183,6 +183,16 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
         });
 
 
+        Route::prefix('experiential-marketing')->group(function(){
+
+            Route::get('/', 'ServiceController@experientialMarketing');
+            Route::get('/top-golf', 'ServiceController@experientialMarketingGolf');
+            Route::get('/mall-activations-dubai', 'ServiceController@experientialMarketingMall');
+            Route::get('/hot-air-balloon', 'ServiceController@experientialMarketingBalloon');
+            Route::get('/tesla-wrap', 'ServiceController@experientialMarketingTesla');
+        });
+
+
         Route::prefix('radio-advertising')->group(function(){
 
             Route::get('/', 'ServiceController@radioAdvertising');

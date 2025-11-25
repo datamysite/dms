@@ -773,6 +773,48 @@ class ServiceController extends Controller
             return view('web.services-new.radio-advertising.other-stations')->with($data);
         }
 
+//-------------------------------------------------------------------------------------------------------
+
+    public function experientialMarketing(){
+        $data['nav'] = 'services';
+        $data['service'] = Services::where('slug', 'experiential-marketing')->first();
+        $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
+        $data['blogs'] = Blogs::where('status', '1')->orderBy('created_at', 'desc')->limit(3)->get();
+
+        return view('web.services-new.experiential-marketing.index')->with($data);
+    }
+        public function experientialMarketingGolf(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'experiential-marketing')->first();
+            $data['subservice'] = Services::where('slug', 'top-golf')->first();
+            $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.experiential-marketing.top-golf')->with($data);
+        }
+        public function experientialMarketingMall(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'experiential-marketing')->first();
+            $data['subservice'] = Services::where('slug', 'mall-activations-dubai')->first();
+            $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.experiential-marketing.mall-activations-dubai')->with($data);
+        }
+        public function experientialMarketingBalloon(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'experiential-marketing')->first();
+            $data['subservice'] = Services::where('slug', 'hot-air-balloon')->first();
+            $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.experiential-marketing.hot-air-balloon')->with($data);
+        }
+        public function experientialMarketingTesla(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'experiential-marketing')->first();
+            $data['subservice'] = Services::where('slug', 'tesla-wrap')->first();
+            $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.experiential-marketing.tesla-wrap')->with($data);
+        }
 
 
 //-------------------------------------------------------------------------------------------------------
