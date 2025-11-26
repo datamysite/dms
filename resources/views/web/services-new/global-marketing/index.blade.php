@@ -218,8 +218,8 @@
                     </p>
                 </div>
                 <div class="col-lg-2"></div>
-                <div class="col-lg-2 vertical-center mob-not-visible">
-                    <img src="{{URL::to('/public/assets/img/why-us.png')}}" class="side-image" width="100%" alt="Why choose us">
+                <div class="col-lg-2 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image176.png')}}" class="side-image" width="100%" alt="Why choose us">
                 </div>
             </div>
 
@@ -236,10 +236,10 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/section-images/image37.png')}}" width="100%" alt="Impact of PR Coverage">
+                <div class="col-lg-3">
+                    <img src="{{URL::to('/public/section-images/image165.png')}}" width="100%" alt="Impact of PR Coverage">
                 </div>
-                <div class="col-lg-1"></div>
+                <div class="col-lg-2"></div>
                 <div class="col-lg-7 vertical-center">
                     <h4>Who We Work With</h4>
                     <ul>

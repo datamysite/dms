@@ -96,7 +96,7 @@
 
 
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image107.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image160.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
@@ -183,7 +183,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image108.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image161.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
@@ -225,7 +225,7 @@
                     </ul>
                 </div> 
                 <div class="col-lg-2 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image109.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image162.png')}}" width="100%" alt="Why choose us">
                 </div>
                 <div class="col-lg-5 vertical-center">
                     <h4>Industries That Benefit from Dubai Hotel Advertising</h4>
@@ -294,7 +294,7 @@
                 </div>
                 <div class="col-lg-2"></div>
                 <div class="col-lg-2 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image108.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image163.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
@@ -310,7 +310,7 @@
             <div class="row gy-4 first-row split-block">
 
                 <div class="col-lg-2 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image109.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image164.png')}}" width="100%" alt="Why choose us">
                 </div>
 
                 <div class="col-lg-2"></div>

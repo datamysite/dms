@@ -101,7 +101,7 @@
 
 
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image107.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image156.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
@@ -194,8 +194,8 @@
                     </ul>
                 </div>
                 <div class="col-lg-1"></div>
-                <div class="col-lg-2 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image108.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image157.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
@@ -211,7 +211,7 @@
             <div class="row gy-4 first-row split-block">
 
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image109.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image158.png')}}" width="100%" alt="Why choose us">
                 </div>
 
                 <div class="col-lg-1"></div>
@@ -299,7 +299,7 @@
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image108.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image159.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 

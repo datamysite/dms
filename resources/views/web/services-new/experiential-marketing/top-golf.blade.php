@@ -222,7 +222,7 @@
 
 
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image107.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image160.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
@@ -307,7 +307,7 @@
                     </p>
                 </div>
                 <div class="col-lg-1"></div>
-                <div class="col-lg-2 mob-not-visible">
+                <div class="col-lg-2 vertical-center mob-not-visible">
                     <img src="{{URL::to('/public/assets/img/why-us.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>

@@ -97,11 +97,11 @@
             <div class="row gy-4 first-row split-block">
 
 
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image107.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-2 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image147.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>
-                <div class="col-lg-8 vertical-center">
+                <div class="col-lg-9 vertical-center">
                     <h4>Why StarzPlay Advertising Works in the UAE</h4>
                     <p>
                         With over 2 million subscribers in the region, StarzPlay has built strong loyalty among Middle Eastern audiences. It provides both Arabic and English content, appealing to locals and expats alike — making it a diverse advertising ecosystem for brands targeting multiple segments.
@@ -168,7 +168,7 @@
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image108.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image148.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
@@ -184,7 +184,7 @@
             <div class="row gy-4 first-row split-block">
 
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image109.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image149.png')}}" width="100%" alt="Why choose us">
                 </div>
 
                 <div class="col-lg-1"></div>
@@ -249,7 +249,7 @@
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image108.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image150.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 

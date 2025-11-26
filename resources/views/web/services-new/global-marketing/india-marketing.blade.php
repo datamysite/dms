@@ -227,7 +227,7 @@
 
 
                 <div class="col-lg-2 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image107.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image179.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 vertical-center">
@@ -262,7 +262,7 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-9">
+                <div class="col-lg-8">
                     <h4>Why Choose DataMySite for India Marketing</h4>
                     <p>
                         We combine India’s local market intelligence with Dubai’s strategic marketing expertise to deliver flawless, ROI-focused campaigns.
@@ -286,8 +286,8 @@
                     </ul>
                 </div>
                 <div class="col-lg-1"></div>
-                <div class="col-lg-2 mob-not-visible">
-                    <img src="{{URL::to('/public/assets/img/why-us.png')}}" width="100%" alt="Why choose us">
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image163.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 

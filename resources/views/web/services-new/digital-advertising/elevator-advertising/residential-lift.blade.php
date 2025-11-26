@@ -100,7 +100,7 @@
 
 
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image107.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image174.png')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
@@ -171,7 +171,7 @@
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-2 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image108.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image175.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
@@ -295,7 +295,7 @@
                     <p>Essentially, if your target audience lives in residential buildings — this platform puts your message right in front of them, every day.</p>
                 </div> 
                 <div class="col-lg-2 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image109.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image176.png')}}" width="100%" alt="Why choose us">
                 </div>
                 <div class="col-lg-5 vertical-center">
                     <h4>Where Can You Advertise?</h4>
@@ -396,7 +396,7 @@
                 </div>
                 <div class="col-lg-2"></div>
                 <div class="col-lg-2 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image108.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image177.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
@@ -412,7 +412,7 @@
             <div class="row gy-4 first-row split-block">
 
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image109.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image178.png')}}" width="100%" alt="Why choose us">
                 </div>
 
                 <div class="col-lg-1"></div>
