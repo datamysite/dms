@@ -386,7 +386,59 @@ class ServiceController extends Controller
 
             return view('web.services-new.event-marketing.private-events')->with($data);
         }
+        public function eventMarketingEntertainment(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'event-marketing')->first();
+            $data['subservice'] = Services::where('slug', 'entertainment-events')->first();
+            $data['blogs'] = Blogs::where('category_id', '9')->orderBy('created_at', 'desc')->limit(3)->get();
 
+            return view('web.services-new.event-marketing.entertainment-events')->with($data);
+        }
+
+
+
+//-------------------------------------------------------------------------------------------------------
+
+    public function globalMarketing(){
+        $data['nav'] = 'services';
+        $data['service'] = Services::where('slug', 'global-marketing')->first();
+        $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
+        $data['blogs'] = Blogs::where('status', '1')->orderBy('created_at', 'desc')->limit(3)->get();
+
+        return view('web.services-new.global-marketing.index')->with($data);
+    }
+        public function globalMarketingChina(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'global-marketing')->first();
+            $data['subservice'] = Services::where('slug', 'china-marketing')->first();
+            $data['blogs'] = Blogs::where('category_id', '9')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.global-marketing.china-marketing')->with($data);
+        }
+        public function globalMarketingSaudi(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'global-marketing')->first();
+            $data['subservice'] = Services::where('slug', 'saudi-marketing')->first();
+            $data['blogs'] = Blogs::where('category_id', '9')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.global-marketing.saudi-marketing')->with($data);
+        }
+        public function globalMarketingIndia(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'global-marketing')->first();
+            $data['subservice'] = Services::where('slug', 'india-marketing')->first();
+            $data['blogs'] = Blogs::where('category_id', '9')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.global-marketing.india-marketing')->with($data);
+        }
+        public function globalMarketingLondon(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'global-marketing')->first();
+            $data['subservice'] = Services::where('slug', 'london-marketing')->first();
+            $data['blogs'] = Blogs::where('category_id', '9')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.global-marketing.london-marketing')->with($data);
+        }
 
 //-------------------------------------------------------------------------------------------------------
 

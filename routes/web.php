@@ -114,6 +114,7 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
             Route::get('/', 'ServiceController@eventMarketing');
             Route::get('/corporate-events', 'ServiceController@eventMarketingCorporate');
             Route::get('/private-events', 'ServiceController@eventMarketingPrivate');
+            Route::get('/entertainment-events', 'ServiceController@eventMarketingEntertainment');
         });
 
         Route::prefix('transit-media')->group(function(){
@@ -200,6 +201,14 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
             Route::get('/arabic-stations', 'ServiceController@radioAdvertisingArabic');
             Route::get('/hindi-urdu-stations', 'ServiceController@radioAdvertisingHindiUrdu');
             Route::get('/other-stations', 'ServiceController@radioAdvertisingOther');
+        });
+
+        Route::prefix('global-marketing')->group(function(){
+            Route::get('/', 'ServiceController@globalMarketing');
+            Route::get('/china-marketing', 'ServiceController@globalMarketingChina');
+            Route::get('/saudi-marketing', 'ServiceController@globalMarketingSaudi');
+            Route::get('/india-marketing', 'ServiceController@globalMarketingIndia');
+            Route::get('/london-marketing', 'ServiceController@globalMarketingLondon');
         });
 
         Route::get('/seo-services-dubai', 'ServiceController@seoServicesDubai');
