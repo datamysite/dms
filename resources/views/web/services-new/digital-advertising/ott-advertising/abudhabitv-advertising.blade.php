@@ -196,7 +196,7 @@
             <div class="row gy-4 first-row split-block">
 
                 <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image109.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image164.png')}}" width="100%" alt="Why choose us">
                 </div>
 
                 <div class="col-lg-1"></div>
@@ -281,7 +281,7 @@
                 </div>
                 <div class="col-lg-2"></div>
                 <div class="col-lg-2 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image108.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image109.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
 
