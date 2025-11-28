@@ -43,10 +43,10 @@
                         @foreach($header_services as $key => $val)
                           <div class="tab-pane fade {{$key == 0 ? 'show active' : ''}}" id="pills-{{$val->slug}}" role="tabpanel" aria-labelledby="pills-{{$val->slug}}-tab">
                             <a href="{{URL::to('/'.$val->slug)}}" class="m-0 p-0"><h5 class="text-theme"><i class="{{$val->icon}}"></i>&nbsp;{{$val->name}}</h5></a>
-                            <br>
+                            <br class="mega-sm-hide">
                             <div class="row">
                               @foreach($val->subServices as $sub)
-                                <div class="{{count($sub->subServices) !== 0 && $val->id == '7' ? 'col-lg-3' : 'col-lg-4'}} mb-4">
+                                <div class="{{count($sub->subServices) !== 0 && $val->id == '7' ? 'col-lg-3' : 'col-lg-4'}} mb-4 mb-sm-mega">
                                   <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug)}}" class="mega-menu-subservice"><span><i class="mega-menu-subservice-icon {{$sub->icon}}"></i>&nbsp; {{$sub->name}}</span></a>
                                   @if(count($sub->subServices) == 0)
                                     <p class="text-black mega-menu-subservice-para">

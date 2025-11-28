@@ -69,6 +69,34 @@
 	    height: 265px;
 	}
 
+	.nav-new .nav-item button {
+	    padding: 6px 0;
+	    font-size: 14px;
+	    line-height: 16px;
+	}
+	.mega-menu-subservice {
+	    font-size: 14px !important;
+	}
+	.mega-menu-subservice2 {
+	    padding: 2px 0px !important;
+	    padding-left: 18px !important;
+	    font-size: 11px !important;
+	}
+	.mega-menu-subservice-para {
+	    font-size: 11px !important;
+	    display: -webkit-box;
+	   -webkit-line-clamp: 3;
+	   -webkit-box-orient: vertical;
+	   overflow: hidden;
+	   text-overflow: ellipsis;
+	}
+	.mb-sm-mega {
+	    margin-bottom: 10px !important;
+	}
+	.mega-sm-hide {
+	    display: none;
+	}
+
 }
 @media (max-width: 1199px) {
 	.case-studies-frame{
