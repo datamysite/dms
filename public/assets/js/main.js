@@ -4,7 +4,22 @@ var host = $("meta[name='home_url']").attr("content");
 (function() {
   "use strict";
 
+  $('.swiper').each(function () {
 
+      let swiperOptions = $(this).data('swiper');
+      let swiper = new Swiper(this, swiperOptions);
+
+      // Pause on hover
+      $(this).hover(
+          function () {
+              swiper.autoplay.stop();
+          },
+          function () {
+              swiper.autoplay.start();
+          }
+      );
+
+  });
 
   $(".home-service-btn button").click(function() {
 

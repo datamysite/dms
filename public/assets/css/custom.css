@@ -2119,3 +2119,10 @@
     margin-top: 6px;
     font-weight: 500;
 }
+
+.case-studies-swiper .swiper-slide{
+    padding: 0px !important;
+}
+.case-studies-swiper .swiper-slide-next{
+    transform: unset !important;
+}

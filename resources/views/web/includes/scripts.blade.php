@@ -1,5 +1,6 @@
 
   <!-- Vendor JS Files -->
+  <script src="{{URL::to('/public')}}/assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="{{URL::to('/public')}}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
   <script src="{{URL::to('/public')}}/assets/vendor/glightbox/js/glightbox.min.js" defer></script>
   <script src="{{URL::to('/public')}}/assets/vendor/swiper/swiper-bundle.min.js" defer></script>
