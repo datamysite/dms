@@ -46,7 +46,7 @@
                             <br>
                             <div class="row">
                               @foreach($val->subServices as $sub)
-                                <div class="col-lg-4 mb-4">
+                                <div class="{{count($sub->subServices) !== 0 && $val->id == '7' ? 'col-lg-3' : 'col-lg-4'}} mb-4">
                                   <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug)}}" class="mega-menu-subservice"><span><i class="mega-menu-subservice-icon {{$sub->icon}}"></i>&nbsp; {{$sub->name}}</span></a>
                                   @if(count($sub->subServices) == 0)
                                     <p class="text-black mega-menu-subservice-para">
