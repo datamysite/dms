@@ -217,7 +217,7 @@
       @foreach($header_services as $val)
         @if(in_array($val->id, array(1 , 2, 3, 37, 10, 94, 100)))
           <ul class="service-sub-menu digital-service-menu-{{$val->id}}">
-            <li class="service-menu-heading">{{$val->name}}</li>
+            <li class="service-menu-heading"><a href="{{URL::to('/'.$val->slug)}}"> {{$val->name}}</a></li>
 
             @if($val->id == 1)
               @foreach($header_services as $val1)
@@ -295,7 +295,7 @@
 
       @foreach($header_services as $val)
         <ul class="service-sub-menu {{$val->slug}}-third-menu">
-            <li class="service-menu-heading">{{$val->name}}</li>
+            <li class="service-menu-heading"><a href="{{URL::to('/'.$val->slug)}}">{{$val->name}}</a></li>
             @if(count($val->subServices) == 0)
             @else
               @foreach($val->subServices as $sub)
@@ -315,7 +315,7 @@
         @if(count($val->subServices) !== 0)
           @foreach($val->subServices as $sub)
             <ul class="service-sub-menu {{$sub->slug}}-third-menu">
-                <li class="service-menu-heading">{{$sub->name}}</li>
+                <li class="service-menu-heading"><a href="{{URL::to('/'.$val->slug.'/'.$sub->slug)}}">{{$sub->name}}</a></li>
                 @if(count($sub->subServices) == 0)
                 @else
                   @foreach($sub->subServices as $sub2)
@@ -336,7 +336,7 @@
             @if(count($sub->subServices) !== 0)
               @foreach($sub->subServices as $sub2)
                 <ul class="service-sub-menu {{$sub2->slug}}-third-menu">
-                  <li class="service-menu-heading">{{$sub2->name}}</li>
+                  <li class="service-menu-heading"><a href="{{URL::to('/'.$val->slug.'/'.$sub->slug.'/'.$sub2->slug)}}">{{$sub2->name}}</a></li>
                   @if(count($sub2->subServices) == 0)
                   @else
                     @foreach($sub2->subServices as $sub3)
