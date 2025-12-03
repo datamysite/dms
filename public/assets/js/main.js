@@ -41,7 +41,7 @@ var host = $("meta[name='home_url']").attr("content");
 
   $(".open-service-second-menu").click(function() {
     let val = $(this).data('id');
-    $('.open-service-second-menu .service-sub-menu').css({display: 'none'});
+    $('.service-menu-second .service-sub-menu').css({display: 'none'});
 
     $("."+val).css({display: 'block'});
 
@@ -51,11 +51,22 @@ var host = $("meta[name='home_url']").attr("content");
 
   $(".open-service-third-menu").click(function() {
     let val = $(this).data('id');
-    $('.open-service-third-menu .service-sub-menu').css({display: 'none'});
+
+    $('.service-menu-third .service-sub-menu').css({display: 'none'});
 
     $("."+val+"-third-menu").css({display: 'block'});
 
       $('.service-menu-third').addClass('show');
+      
+  });
+
+  $(".open-service-forth-menu").click(function() {
+    let val = $(this).data('id');
+    $('.open-service-forth-menu .service-sub-menu').css({display: 'none'});
+
+    $("."+val+"-forth-menu").css({display: 'block'});
+
+      $('.service-menu-forth').addClass('show');
       
   });
 

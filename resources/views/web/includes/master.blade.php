@@ -194,24 +194,16 @@
       <button class="close-menu">< Back</button>
       <br>
       <ul>
-        <li class="nested-menu">
-          <a href="javascript:void(0)" class="">
-            Digital<br>
-          </a>
-          <button class="open-service-second-menu" data-id="digital-service-menu">►</button>
-        </li>
-        <li class="nested-menu">
-          <a href="javascript:void(0)" class="">
-            Outdoor<br>
-          </a>
-          <button class="open-service-second-menu" data-id="outdoor-service-menu">►</button>
-        </li>
-        <li class="nested-menu">
-          <a href="javascript:void(0)" class="">
-            Experiential<br>
-          </a>
-          <button class="open-service-second-menu" data-id="experiential-service-menu">►</button>
-        </li>
+        @foreach($header_services as $val)
+          @if(in_array($val->id, array(1 , 2, 3, 37, 10, 94, 100)))
+            <li class="nested-menu">
+              <a href="javascript:void(0)" class="">
+                {{$val->name}}<br>
+              </a>
+              <button class="open-service-second-menu" data-id="digital-service-menu-{{$val->id}}">►</button>
+            </li>
+          @endif
+        @endforeach
       </ul>
 
       <div class="service-menu-logo">
@@ -221,59 +213,77 @@
 
   <div class="service-menu-second">
       <button class="close-menu">< Back</button>
-      <ul class="service-sub-menu digital-service-menu">
-        <li class="service-menu-heading">DIGITAL</li>
-        @foreach($header_services as $val)
-          @if(in_array($val->id, array(3 , 5, 37, 38, 8, 10, 2)))
-            <li class="nested-menu">
-              <a href="{{URL::to('/'.$val->slug)}}" class="">
-                {{$val->name}}
-              </a>
-              @if(count($val->subServices) == 0)
-                <a href="{{URL::to('/'.$val->slug)}}" class="service-menu-blank-click">&nbsp;</a>
-              @else
-                <button class="open-service-third-menu" data-id="{{$val->slug}}">►</button>
-              @endif
-            </li>
-          @endif
-        @endforeach
-      </ul>
 
-      <ul class="service-sub-menu outdoor-service-menu">
-        <li class="service-menu-heading">OUTDOOR</li>
-        @foreach($header_services as $val)
-          @if(in_array($val->id, array(7, 1, 11)))
-            <li class="nested-menu">
-              <a href="{{URL::to('/'.$val->slug)}}" class="">
-                {{$val->name}}
-              </a>
-              @if(count($val->subServices) == 0)
-                <a href="{{URL::to('/'.$val->slug)}}" class="service-menu-blank-click">&nbsp;</a>
-              @else
-                <button class="open-service-third-menu" data-id="{{$val->slug}}">►</button>
-              @endif
-            </li>
-          @endif
-        @endforeach
-      </ul>
+      @foreach($header_services as $val)
+        @if(in_array($val->id, array(1 , 2, 3, 37, 10, 94, 100)))
+          <ul class="service-sub-menu digital-service-menu-{{$val->id}}">
+            <li class="service-menu-heading">{{$val->name}}</li>
 
-      <ul class="service-sub-menu experiential-service-menu">
-        <li class="service-menu-heading">EXPERIENTIAL</li>
-        @foreach($header_services as $val)
-          @if(in_array($val->id, array(4, 6, 9)))
-            <li class="nested-menu">
-              <a href="{{URL::to('/'.$val->slug)}}" class="">
-                {{$val->name}}
-              </a>
-              @if(count($val->subServices) == 0)
-                <a href="{{URL::to('/'.$val->slug)}}" class="service-menu-blank-click">&nbsp;</a>
-              @else
-                <button class="open-service-third-menu" data-id="{{$val->slug}}">►</button>
-              @endif
-            </li>
+            @if($val->id == 1)
+              @foreach($header_services as $val1)
+                @if(in_array($val1->id, array(7)))
+                  <li class="nested-menu">
+                    <a href="{{URL::to('/'.$val1->slug)}}" class="">
+                      {{$val1->name}}
+                    </a>
+                    @if(count($val1->subServices) == 0)
+                      <a href="{{URL::to('/'.$val1->slug)}}" class="service-menu-blank-click">&nbsp;</a>
+                    @else
+                      <button class="open-service-third-menu" data-id="{{$val1->slug}}">►</button>
+                    @endif
+                  </li>
+                @endif
+              @endforeach
+
+            @elseif($val->id == 2)
+              @foreach($header_services as $val1)
+                @if(in_array($val1->id, array(5, 8, 38)))
+                  <li class="nested-menu">
+                    <a href="{{URL::to('/'.$val1->slug)}}" class="">
+                      {{$val1->name}}
+                    </a>
+                    @if(count($val1->subServices) == 0)
+                      <a href="{{URL::to('/'.$val1->slug)}}" class="service-menu-blank-click">&nbsp;</a>
+                    @else
+                      <button class="open-service-third-menu" data-id="{{$val1->slug}}">►</button>
+                    @endif
+                  </li>
+                @endif
+              @endforeach
+
+            @elseif($val->id == 3)
+              @foreach($header_services as $val1)
+                @if(in_array($val1->id, array(11)))
+                  <li class="nested-menu">
+                    <a href="{{URL::to('/'.$val1->slug)}}" class="">
+                      {{$val1->name}}
+                    </a>
+                    @if(count($val1->subServices) == 0)
+                      <a href="{{URL::to('/'.$val1->slug)}}" class="service-menu-blank-click">&nbsp;</a>
+                    @else
+                      <button class="open-service-third-menu" data-id="{{$val1->slug}}">►</button>
+                    @endif
+                  </li>
+                @endif
+              @endforeach
+            @endif
+
+            @foreach($val->subServices as $sub)
+              <li class="nested-menu">
+                <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug)}}" class="">
+                  {{$sub->name}}
+                </a>
+                @if(count($sub->subServices) == 0)
+                <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug)}}" class="service-menu-blank-click">&nbsp;</a>
+                @else
+                  <button class="open-service-third-menu" data-id="{{$sub->slug}}">►</button>
+                @endif
+              </li>
+            @endforeach
+
+          </ul>
           @endif
         @endforeach
-      </ul>
 
       <div class="service-menu-logo">
         <img src="{{URL::to('/public/assets/img/logo.png')}}" alt="Menu Logo">
@@ -293,11 +303,60 @@
                   <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug)}}" class="">
                     {{$sub->name}}
                   </a>
-                  <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug)}}" class="service-menu-blank-click">&nbsp;</a>
+                  @if(count($sub->subServices) == 0)
+                    <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug)}}" class="service-menu-blank-click">&nbsp;</a>
+                  @else
+                    <button class="open-service-third-menu" data-id="{{$sub->slug}}">►</button>
+                  @endif
                 </li>
               @endforeach
             @endif
         </ul>
+        @if(count($val->subServices) !== 0)
+          @foreach($val->subServices as $sub)
+            <ul class="service-sub-menu {{$sub->slug}}-third-menu">
+                <li class="service-menu-heading">{{$sub->name}}</li>
+                @if(count($sub->subServices) == 0)
+                @else
+                  @foreach($sub->subServices as $sub2)
+                    <li class="nested-menu">
+                      <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug.'/'.$sub2->slug)}}" class="">
+                        {{$sub2->name}}
+                      </a>
+                      @if(count($sub2->subServices) == 0)
+                        <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug.'/'.$sub2->slug)}}" class="service-menu-blank-click">&nbsp;</a>
+                      @else
+                        <button class="open-service-third-menu" data-id="{{$sub2->slug}}">►</button>
+                      @endif
+                    </li>
+                  @endforeach
+                @endif
+            </ul>
+
+            @if(count($sub->subServices) !== 0)
+              @foreach($sub->subServices as $sub2)
+                <ul class="service-sub-menu {{$sub2->slug}}-third-menu">
+                  <li class="service-menu-heading">{{$sub2->name}}</li>
+                  @if(count($sub2->subServices) == 0)
+                  @else
+                    @foreach($sub2->subServices as $sub3)
+                      <li class="nested-menu">
+                        <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug.'/'.$sub2->slug.'/'.$sub3->slug)}}" class="">
+                          {{$sub3->name}}
+                        </a>
+                        @if(count($sub3->subServices) == 0)
+                          <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug.'/'.$sub2->slug.'/'.$sub3->slug)}}" class="service-menu-blank-click">&nbsp;</a>
+                        @else
+                          <button class="open-service-third-menu" data-id="{{$sub3->slug}}">►</button>
+                        @endif
+                      </li>
+                    @endforeach
+                  @endif
+                </ul>
+              @endforeach
+            @endif
+          @endforeach
+        @endif
       @endforeach
 
 
