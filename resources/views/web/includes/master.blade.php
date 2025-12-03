@@ -197,7 +197,7 @@
         @foreach($header_services as $val)
           @if(in_array($val->id, array(1 , 2, 3, 37, 10, 94, 100)))
             <li class="nested-menu">
-              <a href="javascript:void(0)" class="">
+              <a href="{{URL::to('/'.$val->slug)}}" class="">
                 {{$val->name}}<br>
               </a>
               <button class="open-service-second-menu" data-id="digital-service-menu-{{$val->id}}">►</button>
