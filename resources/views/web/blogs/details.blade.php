@@ -180,8 +180,18 @@
         </script>
 
     <!-- Article Schemma -->
+
+    @if(!empty($data->faq_schema))
+
+        <!-- FAQs Schema -->
+
+        {!! $data->faq_schema !!}
+
+        <!-- FAQs Schema -->
+
+    @endif
     
 @endsection
 @section('addScript')
-  <script src="{{URL::to('/public')}}/assets/js/aside.js"></script>
+  <script src="{{URL::to('/public')}}/assets/js/aside.js" defer></script>
 @endsection

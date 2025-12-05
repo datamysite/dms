@@ -105,6 +105,15 @@
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label>FAQ Schema <small>(Optional)</small></label>
+          <textarea class="form-control" name="faq_schema" rows="4">{{$data->faq_schema}}</textarea>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="modal-footer justify-content-between">
     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

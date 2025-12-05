@@ -23,6 +23,7 @@ class Blogs extends Model
         $b->description = $data['description'];
         $b->read_time = $data['read_time'];
         $b->short_description = $data['short_description'];
+        $b->faq_schema = $data['faq_schema'];
         $b->category_id = $data['category_id'];
         $b->author_id = $data['author_id'];
         $b->status = '1';
@@ -49,6 +50,7 @@ class Blogs extends Model
         $b->description = $data['description'];
         $b->read_time = $data['read_time'];
         $b->short_description = $data['short_description'];
+        $b->faq_schema = $data['faq_schema'];
         $b->category_id = $data['category_id'];
         $b->author_id = $data['author_id'];
         $b->save();
