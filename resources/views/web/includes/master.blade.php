@@ -59,7 +59,7 @@
   
   <a href="https://api.whatsapp.com/send/?phone=971525287259" aria-label="Whatsapp Chat" id="whatsapp-chat" class="whatsapp-chat" target="_blank">
     <div class="whatsapp-icon-position">
-      <img src="{{URL::to('/public/whatsapp-icon.png')}}" alt="Whatsapp Chat">
+      <img src="{{URL::to('/public/whatsapp-icon2.png')}}" alt="Whatsapp Chat">
     </div>
   </a>
 
