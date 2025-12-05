@@ -877,7 +877,7 @@ class ServiceController extends Controller
         $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
         $data['web_drop'] = '1';
         
-        return view('web.services.website-development.index')->with($data);
+        return view('web.services-new.website-development.index')->with($data);
     }
         public function fullStackDevelopment(){
             $data['nav'] = 'services';
@@ -885,7 +885,7 @@ class ServiceController extends Controller
             $data['subservice'] = Services::where('slug', 'full-stack-web-development')->first();
             $data['web_drop'] = '1';
             
-            return view('web.services.website-development.fullStackDevelopment')->with($data);
+            return view('web.services-new.website-development.fullStackDevelopment')->with($data);
         }
         public function eCommerceDevelopment(){
             $data['nav'] = 'services';
@@ -893,7 +893,7 @@ class ServiceController extends Controller
             $data['subservice'] = Services::where('slug', 'e-commerce-website-development')->first();
             $data['web_drop'] = '1';
             
-            return view('web.services.website-development.eCommerceDevelopment')->with($data);
+            return view('web.services-new.website-development.eCommerceDevelopment')->with($data);
         }
         public function websiteMaintenance(){
             $data['nav'] = 'services';
@@ -901,7 +901,7 @@ class ServiceController extends Controller
             $data['subservice'] = Services::where('slug', 'website-maintenance-services')->first();
             $data['web_drop'] = '1';
             
-            return view('web.services.website-development.websiteMaintenance')->with($data);
+            return view('web.services-new.website-development.websiteMaintenance')->with($data);
         }
 
 

@@ -429,3 +429,7 @@
 
 
 @endsection
+@section('addScript')
+
+  <script src="{{URL::to('/public')}}/assets/js/aside.js" defer></script>
+@endsection

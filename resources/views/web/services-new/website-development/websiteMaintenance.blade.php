@@ -384,6 +384,7 @@
     <link rel="stylesheet" media="screen" href="{{URL::to('/public/assets/particles.js-master')}}/css/style.css">
 @endsection
 @section('addScript')
+
     <!-- scripts -->
     <script src="{{URL::to('/public/assets/particles.js-master')}}/particles.js"></script>
     <script src="{{URL::to('/public/assets/particles.js-master')}}/js/app.js"></script>
