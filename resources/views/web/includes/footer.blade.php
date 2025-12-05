@@ -122,5 +122,5 @@
 
   <!-- Preloader -->
   <div id="preloader">
-    <img src="{{URL::to('/public/new-loader3.gif')}}" alt="DMS Loader" width="220px">
+    <img src="{{URL::to('/public/new-loader4.webp')}}" alt="DMS Loader" width="220px">
   </div>
