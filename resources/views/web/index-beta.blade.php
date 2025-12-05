@@ -544,7 +544,7 @@
 	    <!-- Call To Action Section -->
 	    <section id="call-to-action" class="call-to-action section dark-background">
 
-	      <img src="{{URL::to('/public')}}/assets/img/background/call-to.jpg" alt="Call to action background">
+	      <img src="{{URL::to('/public')}}/assets/img/background/call-to.webp" alt="Call to action background">
 
 	      <div class="container">
 	        <div class="row justify-content-center">
