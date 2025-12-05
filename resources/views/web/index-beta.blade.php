@@ -1,7 +1,7 @@
 @extends('web.includes.master')
 @section('metaAddition')
-	<link rel="preload" as="image" href="{{URL::to('/public')}}/assets/img/background/banner.webp" />
-	<link rel="preload" as="image" href="{{URL::to('/public')}}/assets/img/background/banner2.webp" />
+	<link rel="preload" as="image" href="{{URL::to('/public')}}/assets/img/background/banner.webp" fetchpriority="high"/>
+	<link rel="preload" as="image" href="{{URL::to('/public')}}/assets/img/background/banner2.webp" fetchpriority="high"/>
 	<link rel="preload" as="image" href="{{URL::to('/public/loader-gif-m.gif')}}">
 @endsection
 @section('addStyle')
@@ -34,7 +34,7 @@
 	    <!-- Hero Section -->
 	    <section id="hero" class="hero section dark-background">
 
-	      <img src="{{URL::to('/public')}}/assets/img/background/banner.webp" fetchpriority="high" class="hero-img-bg" alt="Hero Image" loading="lazy">
+	      <img src="{{URL::to('/public')}}/assets/img/background/banner.webp"  class="hero-img-bg" alt="Hero Image" loading="lazy">
 
 	      <div class="container">
 	        <div class="row">
@@ -43,7 +43,7 @@
 	          </div>
 	          <div class="col-xl-4">
 	          	<div class="hero-img">
-		          	<img src="{{URL::to('/public')}}/assets/img/background/banner2.webp" fetchpriority="high" alt="DataMySite - Dubai UAE" loading="lazy">
+		          	<img src="{{URL::to('/public')}}/assets/img/background/banner2.webp" alt="DataMySite - Dubai UAE" loading="lazy">
 		          </div>
 	          </div>
 	          <div class="col-xl-5 hero-title-sec">
