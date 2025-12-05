@@ -2,7 +2,7 @@
 @section('metaAddition')
 	<link rel="preload" as="image" href="{{URL::to('/public')}}/assets/img/background/banner.webp" />
 	<link rel="preload" as="image" href="{{URL::to('/public')}}/assets/img/background/banner2.webp" />
-	<link rel="preload" as="image" href="{{URL::to('/public/new-loader4.gif')}}">
+	<link rel="preload" as="image" href="{{URL::to('/public/loader-gif-m.gif')}}">
 @endsection
 @section('addStyle')
 
