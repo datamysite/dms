@@ -49,7 +49,7 @@
 	          <div class="col-xl-5 hero-title-sec">
 	          	<div class="hero-spacing"></div>
 	          	<h6 class="text-theme text-bold">D M S</h6>
-	            <h1>The New Level For Advertising</h1>
+	            <h1>Top Advertising Agency in Dubai</h1>
 	            <br>
 	            <p class="blockquote">People do not buy goods and services.</p>
 	            <p class="blockquote">They buy relations, stories, and magic.</p>
