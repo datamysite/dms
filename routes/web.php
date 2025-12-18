@@ -57,6 +57,14 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
             Route::get('/lamp-post', 'ServiceController@outdoorAdvertisingLampPost');
         });
 
+
+        Route::prefix('/digital-marketing')->group(function(){
+
+            Route::get('/', 'ServiceController@digitalMarketing');
+            Route::get('/social-media-marketing', 'ServiceController@digitalMarketingSocialMedia');
+            Route::get('/content-marketing', 'ServiceController@digitalMarketingContentMarketing');
+        });
+
         Route::prefix('digital-advertising')->group(function(){
             Route::get('/', 'ServiceController@digitalAdvertising');
             Route::prefix('ott-advertising')->group(function(){

@@ -237,6 +237,35 @@ class ServiceController extends Controller
             }
 
 
+
+//-------------------------------------------------------------------------------------------------------
+    public function digitalMarketing(){
+        $data['nav'] = 'services';
+        $data['service'] = Services::where('slug', 'digital-marketing')->first();
+        $data['subservices'] = Services::where('parent_id', $data['service']->id)->get();
+        $data['publications'] = Publications::all();
+        $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
+
+        return view('web.services-new.digital-marketing.index')->with($data);
+    }
+        public function digitalMarketingSocialMedia(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'digital-marketing')->first();
+            $data['subservice'] = Services::where('slug', 'social-media-marketing')->first();
+            $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.digital-marketing.social-media-marketing')->with($data);
+        }
+        public function digitalMarketingContentMarketing(){
+            $data['nav'] = 'services';
+            $data['service'] = Services::where('slug', 'digital-marketing')->first();
+            $data['subservice'] = Services::where('slug', 'content-marketing')->first();
+            $data['blogs'] = Blogs::where('category_id', '2')->orderBy('created_at', 'desc')->limit(3)->get();
+
+            return view('web.services-new.digital-marketing.content-marketing')->with($data);
+        }
+
+
 //-------------------------------------------------------------------------------------------------------
     public function prCoverage(){
         $data['nav'] = 'services';
