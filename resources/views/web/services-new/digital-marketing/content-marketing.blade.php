@@ -10,7 +10,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.png')}}');">
             <div class="container head-container-service">
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
@@ -343,8 +343,9 @@
                         Whether you are targeting B2B clients in Dubai’s business districts or lifestyle consumers in the UAE, our content marketing company Dubai ensures your message is delivered effectively.
                     </p>
                 </div>
-                <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image12.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image177.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
                 </div>
             </div>
 

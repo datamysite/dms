@@ -10,7 +10,7 @@
     <main class="main">
 
         <!-- Page Title -->
-          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.jpg')}}');">
+          <div class="page-title dark-background" data-aos="fade" style="background-image: url('{{URL::to('public/assets/img/service-new/'.$subservice->slug.'.png')}}');">
             <div class="container head-container-service">
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
@@ -143,7 +143,7 @@
             <div class="row gy-4 first-row split-block">
 
                 <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image12.png')}}" width="100%" alt="Why choose us">
+                    <img src="{{URL::to('/public/section-images/image191.webp')}}" width="100%" alt="Why choose us">
                 </div> 
                 <div class="col-lg-8">
                     <h4>Our Social Media Agency Services</h4>
