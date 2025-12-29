@@ -55,6 +55,11 @@
 
   @include('web.includes.footer')
 
+
+  <div class="reviews-sidebar hide">
+        
+  </div>
+
   <div class="m-footer-bg"></div>
   
   <a href="https://api.whatsapp.com/send/?phone=971525287259" aria-label="Whatsapp Chat" id="whatsapp-chat" class="whatsapp-chat" target="_blank">
@@ -63,6 +68,8 @@
     </div>
   </a>
 
+
+  
   <div class="modal fade" id="newsletter-modal-u" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -189,6 +196,7 @@
           </div>
       </div>
   </div>
+
 
   <div class="service-menu-main">
       <button class="close-menu">< Back</button>

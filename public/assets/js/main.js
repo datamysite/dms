@@ -4,6 +4,27 @@ var host = $("meta[name='home_url']").attr("content");
 (function() {
   "use strict";
 
+  $('.google-reviews').click(function(){
+    $('.reviews-sidebar').html('<div  class="newsletter-loader"><img src="'+host+'/public/loader-gif.gif" width="80px"></div>');
+    $('.reviews-sidebar').toggleClass('hide');
+    $.get(host+"/get-google-reviews", function(data){
+      $('.reviews-sidebar').html(data);
+      let swiperOptions = $('.reviews-swiper').data('swiper');
+      let swiper = new Swiper('.reviews-swiper', swiperOptions);
+      $('.reviews-swiper').hover(
+          function () {
+              swiper.autoplay.stop();
+          },
+          function () {
+              swiper.autoplay.start();
+          }
+      );
+    });
+  });
+  $(document).on('click', '.review-close', function(){
+    $('.reviews-sidebar').toggleClass('hide');
+  });
+
   $('.swiper').each(function () {
 
       let swiperOptions = $(this).data('swiper');

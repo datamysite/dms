@@ -40,24 +40,37 @@
       <div class="container">
         <div class="row gy-4">
 
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="{{route('blogs')}}">Blogs</a></li>
-              <li><a href="{{route('services')}}">Services</a></li>
-              <li><a href="{{route('about')}}">About Us</a></li>
-              <li><a href="{{route('contact')}}">Contact Us</a></li>
-            </ul>
-          </div>
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col-lg-6 mb-0 footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="{{route('blogs')}}">Blogs</a></li>
+                  <li><a href="{{route('services')}}">Services</a></li>
+                  <li><a href="{{route('about')}}">About Us</a></li>
+                  <li><a href="{{route('contact')}}">Contact Us</a></li>
+                </ul>
+              </div>
 
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Support</h4>
-            <ul>
-              <li><a href="{{route('faq')}}">FAQ</a></li>
-              <li><a href="{{route('caseStudies')}}">Case Studies</a></li>
-              <li><a href="{{route('privacy')}}">Privacy Policy</a></li>
-              <li><a href="{{route('terms')}}">Terms & Conditions</a></li>
-            </ul>
+              <div class="col-lg-6 mb-0 footer-links">
+                <h4>Support</h4>
+                <ul>
+                  <li><a href="{{route('faq')}}">FAQ</a></li>
+                  <li><a href="{{route('caseStudies')}}">Case Studies</a></li>
+                  <li><a href="{{route('privacy')}}">Privacy Policy</a></li>
+                  <li><a href="{{route('terms')}}">Terms & Conditions</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-12 text-center">
+                <div class="social-links d-flex mt-4">
+                  <a href="https://www.linkedin.com/company/datamysite/" aria-label="Linkedin"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.instagram.com/datamysite/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.pinterest.com/DataMySiteDubai/_profile/" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
+                  <a href="https://x.com/DataMySite" aria-label="Twitter X"><i class="bi bi-twitter-x"></i></a>
+                  <a href="https://www.youtube.com/@DataMySiteMarketing" aria-label="Youtube"><i class="bi bi-youtube"></i></a>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="col-lg-4 col-md-12 footer-about">
@@ -65,12 +78,24 @@
               <img src="{{URL::to('/public/assets/img/mini-logo-white.png')}}" alt="Footer Logo" loading="lazy">
             </a>
             <p>Smarter Marketing, Better Outcomes.<br><br>Boost your brand’s visibility, enhance campaign performance</p>
-            <div class="social-links d-flex mt-4">
-              <a href="https://www.linkedin.com/company/datamysite/" aria-label="Linkedin"><i class="bi bi-linkedin"></i></a>
-              <a href="https://www.instagram.com/datamysite/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.pinterest.com/DataMySiteDubai/_profile/" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
-              <a href="https://x.com/DataMySite" aria-label="Twitter X"><i class="bi bi-twitter-x"></i></a>
-              <a href="https://www.youtube.com/@DataMySiteMarketing" aria-label="Youtube"><i class="bi bi-youtube"></i></a>
+            <div class="google-reviews">
+              <div class="google-text">
+                <span class="google-logo g-blue">G</span>
+                <span class="google-logo o-red">o</span>
+                <span class="google-logo o-yellow">o</span>
+                <span class="google-logo g-blue">g</span>
+                <span class="google-logo l-green">l</span>
+                <span class="google-logo e-red">e</span>
+                <span class="reviews">Reviews</span>
+              </div>
+
+              <div class="rating">
+                <span class="score">5.0</span>
+                <div class="stars">
+                  ★★★★★
+                </div>
+                <span class="count">(29 reviews)</span>
+              </div>
             </div>
           </div>
 

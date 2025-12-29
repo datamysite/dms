@@ -39,6 +39,9 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
     Route::get('/terms-conditions', 'WebController@termsCondition')->name('terms');
     Route::get('/client-case-studies', 'WebController@caseStudies')->name('caseStudies');
 
+
+    Route::get('/get-google-reviews', 'ReviewController@index');
+
     //Services
         Route::prefix('outdoor-advertising')->group(function(){
             Route::get('/', 'ServiceController@outdoorAdvertising');

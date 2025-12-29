@@ -302,7 +302,20 @@
 	.m-footer-bg{
 		pointer-events: none !important;
 	}
-
+	.reviews-sidebar{
+		height: 520px;
+	}
+	.reviews-sidebar.hide {
+	    bottom: -525px;
+	}
+	.review-close {
+	    position: absolute;
+	    top: 15px;
+	    right: 15px;
+	}
+	.reviews-sidebar .vertical-center {
+	    padding-bottom: 35px;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
