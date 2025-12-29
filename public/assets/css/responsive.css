@@ -317,7 +317,7 @@
 	    padding-bottom: 35px;
 	}
 	.footer-about{
-		margin-top: unset !important;
+		margin-top: 15px !important;
 	}
 }
 @media (max-width: 575px) {
