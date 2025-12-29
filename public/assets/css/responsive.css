@@ -316,6 +316,9 @@
 	.reviews-sidebar .vertical-center {
 	    padding-bottom: 35px;
 	}
+	.footer-about{
+		margin-top: unset !important;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{
