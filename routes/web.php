@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\adminAuth;
-
+use App\Models\Blogs;
 
 
 //sitemap

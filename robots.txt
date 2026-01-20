@@ -1,53 +1,141 @@
-# Allow Google and major crawlers full access
+# ========================================
+# MAJOR SEARCH ENGINES - Full Access
+# ========================================
+
 User-agent: Googlebot
-Disallow:
+Allow: /
 
-User-agent: googlebot-image
-Disallow:
+User-agent: Googlebot-Image
+Allow: /
 
-User-agent: googlebot-mobile
-Disallow:
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
 
 User-agent: Bingbot
-Disallow:
+Allow: /
 
 User-agent: Slurp
-Disallow:
+Allow: /
 
-# Block low-quality or obsolete bots
-User-agent: psbot
-Disallow: /
-User-agent: baiduspider
-Disallow: /
-User-agent: naverbot
-Disallow: /
-User-agent: yeti
-Disallow: /
-User-agent: Teoma
-Disallow: /
-User-agent: Gigabot
-Disallow: /
-User-agent: ia_archiver
-Disallow: /
+User-agent: DuckDuckBot
+Allow: /
 
-# Major AI crawlers - explicit allowance for clarity
+User-agent: Baiduspider
+Allow: /
 
+User-agent: YandexBot
+Allow: /
+
+User-agent: Sogou
+Allow: /
+
+# ========================================
+# AI CRAWLERS - Full Access
+# ========================================
+
+# OpenAI
 User-agent: GPTBot
 Allow: /
+
 User-agent: ChatGPT-User
 Allow: /
-User-agent: ClaudeBot
-Allow: /
+
+# Anthropic (Claude)
 User-agent: Claude-Web
 Allow: /
-User-agent: PerplexityBot
+
+User-agent: ClaudeBot
 Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google AI Training
 User-agent: Google-Extended
 Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Common Crawl (used by many AI systems)
+User-agent: CCBot
+Allow: /
+
+# Apple AI
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+# ========================================
+# ARCHIVING & RESEARCH BOTS - Allowed
+# ========================================
+
+User-agent: ia_archiver
+Allow: /
+
+User-agent: archive.org_bot
+Allow: /
+
+# ========================================
+# BLOCK LOW-QUALITY/SCRAPER BOTS
+# ========================================
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: psbot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Teoma
+Disallow: /
+
+User-agent: Gigabot
+Disallow: /
+
+User-agent: linkdexbot
+Disallow: /
+
+User-agent: spbot
+Disallow: /
+
+User-agent: Uptimebot
+Disallow: /
 
 # General rule for all others
 User-agent: *
 Disallow: /tag/
 
-# Sitemap location
+# ========================================
+# SITEMAPS
+# ========================================
+
 Sitemap: https://datamysite.com/sitemap.xml
