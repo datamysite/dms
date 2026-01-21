@@ -11,11 +11,6 @@
             <div class="col-lg-3">
               <a href="{{URL::to('/'.$val->slug)}}"><i class="{{$val->icon}}"></i> {{$val->name}}</a>
             </div>
-            @foreach($val->subServices as $sub)
-              <div class="col-lg-3 hide-mobile">
-                <a href="{{URL::to('/'.$val->slug.'/'.$sub->slug)}}"><i class="{{$sub->icon}}"></i> {{$sub->name}}</a>
-              </div>
-            @endforeach
           @endforeach
         </div>
       </div>
