@@ -271,7 +271,7 @@
 							      <div class="counter">1219</div>
 							      <div><label>+</label></div>
 							    </div>
-						      <span>Succesful Project</span>
+						      <span>Successful Project</span>
 						    </div>
           		</div>
 

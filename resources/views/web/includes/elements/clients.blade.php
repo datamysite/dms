@@ -2,7 +2,7 @@
           <div class="container section-title" style="padding-bottom: 15px;">
             <h2 class="text-theme">Our Clients</h2>
             <p class="service-tp">
-                At <strong>DataMySite</strong>, we are proud to partner with a diverse range of clients across various industries, from startups to established global brands.
+                At DataMySite, we are proud to partner with a diverse range of clients across various industries, from startups to established global brands.
             </p>
           </div><!-- End Section Title -->
           <div class="container">
