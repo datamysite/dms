@@ -35,6 +35,8 @@
 
   <meta name="home_url" content="{{@URL::to('/')}}">
 
+  <link rel="alternate" type="text/markdown" href="{{URL::to('/')}}/llms.txt" title="AI-optimized site summary">
+
   @include('web.includes.style')
   @yield('addStyle')
   

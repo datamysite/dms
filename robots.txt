@@ -139,3 +139,4 @@ Disallow: /tag/
 # ========================================
 
 Sitemap: https://datamysite.com/sitemap.xml
+LLMS: https://datamysite.com/llms.txt  
