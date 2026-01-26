@@ -280,7 +280,7 @@
 	              <br>
 	              <p><span class="text-theme">Smarter Marketing, Better Outcomes.</span>
 					<br>Boost your brand’s visibility, enhance campaign performance</p>
-	              <a class="cta-btn" href="{{route('contact')}}">Contact Us</a>
+	              <a class="cta-btn" href="{{route('contact')}}">Get Started - Free Consultation →</a>
 	            </div>
 	          	<div class="hero-spacing hide-mobile"></div>
 	          </div>

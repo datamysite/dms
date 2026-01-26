@@ -258,7 +258,7 @@
 	      <div class="container section-title">
 	        <h2 class="text-theme">Our Successful Projects</h2>
 	        <p class="service-tp">
-	        	Every great brand has a story. At <strong>DataMySite</strong>, we help you write the next chapter with powerful campaigns across billboards, DOOH, influencer marketing, PR coverage, lead generation, event marketing, and sponsorships. Your success story starts here. 
+	        	Every great brand has a story. At DataMySite, we help you write the next chapter with powerful campaigns across billboards, DOOH, influencer marketing, PR coverage, lead generation, event marketing, and sponsorships. Your success story starts here. 
 
 	        </p>
 	      </div><!-- End Section Title -->
@@ -319,7 +319,7 @@
           <div class="container section-title" style="padding-bottom: 15px;">
             <h2 class="text-theme">Case Studies</h2>
             <p class="service-tp">
-                At <strong>DataMySite</strong>, we believe in transparency and trust. Sharing case studies allows us to demonstrate the tangible impact of our marketing and advertising solutions.
+                At DataMySite, we believe in transparency and trust. Sharing case studies allows us to demonstrate the tangible impact of our marketing and advertising solutions.
             </p>
           </div><!-- End Section Title -->
           <div class="container case-studies-swiper">
@@ -476,7 +476,7 @@
 	        <h2 class="text-theme">Our Services</h2>
 	        <p class="service-p">Elevate Your Brand Visibility and Boost Sales</p>
 	        <p class="service-tp">
-	        	We use services like <strong>outdoor advertising</strong>, <strong>CGI advertising</strong> and more to maximize your brand’s visibility and impact. Let's craft a strategy to drive your business success!
+	        	We use services like outdoor advertising, CGI advertising and more to maximize your brand’s visibility and impact. Let's craft a strategy to drive your business success!
 	        </p>
 	      </div><!-- End Section Title -->
 
@@ -556,7 +556,7 @@
 	              <br>
 	              <p><span class="text-theme">Smarter Marketing, Better Outcomes.</span>
 					<br>Boost your brand’s visibility, enhance campaign performance</p>
-	              <a class="cta-btn" href="{{route('contact')}}">Contact Us</a>
+	              <a class="cta-btn" href="{{route('contact')}}">Get Started - Free Consultation →</a>
 	            </div>
 	          	<div class="hero-spacing hide-mobile"></div>
 	          </div>

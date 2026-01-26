@@ -6,7 +6,7 @@
         </span> 
 
         <span class="para">
-          Call Us Now for Your Personalized Media Plan.
+          Get Your Free Dubai Marketing Strategy Call
         </span> 
 
         <span>
