@@ -34,11 +34,11 @@
                 </div>
                 <div class="col-lg-6">
     	          	<p>
-                        Founded in 2021 and proudly based in <strong>Dubai, UAE, DataMySite</strong> is a full-service marketing and media agency that specializes in high-impact advertising solutions designed to cut through the noise. We are experts in <strong>brand storytelling, experiential marketing</strong>, and <strong>multi-channel media execution</strong> that ensures your brand doesn’t just participate in the conversation — it leads it.
+                        Founded in 2021 and proudly based in Dubai, UAE, DataMySite is a full-service marketing and media agency delivering results-driven solutions for ambitious brands. Over the past 5+ years, we have been providing high-quality marketing and advertising services, supported by a team with 20+ years of combined industry experience across marketing strategy, media planning, and brand growth.
 
                         <br><br>
 
-                        From large-scale <strong>outdoor campaigns</strong> to cutting-edge <strong>digital innovations</strong>, and from <strong>influencer engagement</strong> to <strong>PR coverage in top-tier media</strong>, DataMySite is your strategic partner for growth in a fast-paced, attention-driven world.
+                        We specialize in high-impact advertising solutions designed to cut through market noise and create lasting brand influence. Our expertise spans brand storytelling, experiential marketing, and multi-channel media execution, ensuring your brand doesn’t just participate in the conversation—it leads it.
                     </p>
                 </div>
                 <div class="col-lg-6">
@@ -130,10 +130,10 @@
                 <div class="col-lg-3 col-sm-6 col-xs-6">
                     <div class="counter-container">
                         <div>
-                                  <div class="counter">15</div>
+                                  <div class="counter">20</div>
                                   <div><label>+</label></div>
                                 </div>
-                              <span>Years Experience</span>
+                              <span>Team Experience</span>
                             </div>
                 </div>
 

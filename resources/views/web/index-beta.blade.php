@@ -278,10 +278,10 @@
           		<div class="col-lg-3 col-sm-6 col-xs-6">
 		            <div class="counter-container">
 		            	<div>
-							      <div class="counter">15</div>
+							      <div class="counter">20</div>
 							      <div><label>+</label></div>
 							    </div>
-						      <span>Years Experience</span>
+						      <span>Team Experience</span>
 						    </div>
           		</div>
 
