@@ -347,24 +347,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What is wallscape advertising?
+                                        <span class="badge">&nbsp;</span>How do Wallscapes differ from traditional billboards?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Wallscape advertising is a large-format outdoor advertisement installed on a building’s wall or facade. It can cover part or all of the wall, showcasing your brand message to thousands daily.</p>
+                                    <p>Wallscapes are custom-fitted to a building's unique shape and are often located in high-density urban areas where traditional billboards are not permitted.</p>
                                 </div>
                             </div>
                         </div>
@@ -372,13 +369,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How is wallscape advertising different from billboard advertising?
+                                        <span class="badge">&nbsp;</span>Are Wallscapes hand-painted or vinyl?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>While billboards are standalone structures, wallscapes use existing building walls, making them ideal for areas where space is limited but visibility is high.</p>
+                                    <p>We offer both. Hand-painted murals offer a "prestige" feel and often go viral on social media, while vinyl allows for photographic detail and faster installation.</p>
                                 </div>
                             </div>
                         </div>
@@ -386,13 +383,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>Do I need permission for wallscape advertising in Dubai?
+                                        <span class="badge">&nbsp;</span>What is the lead time for a Wallscape campaign?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. Dubai Municipality approval is mandatory for all outdoor media displays. At DataMySite, we handle all legal and safety compliance for you.</p>
+                                    <p>Because they are custom-sized, they require about 3–4 weeks for site survey, production, and specialized rigging installation.</p>
                                 </div>
                             </div>
                         </div>
@@ -400,13 +397,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>What materials are used for wallscapes?
+                                        <span class="badge">&nbsp;</span>Can Wallscapes be illuminated at night?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We use PVC vinyl, mesh banners, and fabric materials that are UV-protected, wind-resistant, and durable enough to withstand the UAE climate.</p>
+                                    <p>Yes, we can install external spot lighting to ensure your message dominates the city skyline even after the sun goes down.</p>
                                 </div>
                             </div>
                         </div>
@@ -414,44 +411,17 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>How long can a wallscape remain installed?
+                                        <span class="badge">&nbsp;</span>Are Wallscapes effective for "Call to Action" (CTA) ads?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Depending on location and campaign duration, wallscapes can stay in place for 3 to 12 months or longer, offering sustained brand visibility.</p>
+                                    <p>They are better suited for "Brand Dominance." Because of their scale, they create massive brand authority and trust in a specific geographic area.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-15">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                        <span class="badge">&nbsp;</span>How much does wallscape advertising cost in Dubai?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Costs vary based on size, location, and materials. Typically, wallscape advertising in Dubai ranges from AED 60,000 to AED 250,000 for premium areas and large installations.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-16">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-16" data-aria-expanded="false" data-aria-controls="faqCollapse-16">
-                                        <span class="badge">&nbsp;</span>Why choose DataMySite for wallscape campaigns?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-16" class="collapse" aria-labelledby="faqHeading-16" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>We combine strategic planning, creative execution, premium printing, and municipality compliance to ensure your wallscape campaign delivers maximum exposure and brand impact.</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

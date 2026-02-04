@@ -483,24 +483,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">&nbsp;</span>Why hire a social media marketing agency in Dubai?
+                                        <span class="badge">&nbsp;</span>Which platforms should my business be on?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>A local agency understands UAE audiences, trends, platforms, and regulations — ensuring better engagement and ROI.</p>
+                                    <p>We don't believe in being everywhere. We analyze your target demographic’s behavior to determine if you should focus on LinkedIn (B2B), Instagram/TikTok (B2C), or specialized platforms like X or Pinterest.</p>
                                 </div>
                             </div>
                         </div>
@@ -508,13 +505,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">&nbsp;</span>What platforms do you manage?
+                                        <span class="badge">&nbsp;</span>How do you handle negative comments or brand crises on social media?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Instagram, Facebook, TikTok, LinkedIn, Snapchat, X, and YouTube.</p>
+                                    <p>We establish a clear "Crisis Management Protocol" with you beforehand, ensuring we respond to concerns within minutes to protect your brand reputation.</p>
                                 </div>
                             </div>
                         </div>
@@ -522,13 +519,13 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">&nbsp;</span>Do you offer social media management UAE-wide?
+                                        <span class="badge">&nbsp;</span>Is organic reach dead? Do I have to pay for ads?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, we provide social media management UAE services across Dubai, Abu Dhabi, Sharjah, and other Emirates.</p>
+                                    <p>Organic reach is challenging but not dead. We use high-engagement "reels" and community-building tactics to maintain organic growth, supplemented by paid boosts for maximum ROI.</p>
                                 </div>
                             </div>
                         </div>
@@ -536,13 +533,13 @@
                             <div class="card-header" id="faqHeading-4">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                        <span class="badge">&nbsp;</span>Are influencer campaigns included?
+                                        <span class="badge">&nbsp;</span>How often will you post on my profiles?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, we are also a social media influencer agency Dubai offering complete influencer marketing solutions.</p>
+                                    <p>Posting frequency is determined by your goals and platform. Generally, we recommend 3–5 high-quality posts per week to maintain consistency without "spamming" your followers.</p>
                                 </div>
                             </div>
                         </div>
@@ -550,13 +547,13 @@
                             <div class="card-header" id="faqHeading-5">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                        <span class="badge">&nbsp;</span>Do you provide customized social media marketing packages?
+                                        <span class="badge">&nbsp;</span>Do you provide monthly reports on follower growth and engagement?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Absolutely. All social media marketing packages UAE are tailored to business goals and budgets.</p>
+                                    <p>Yes, we provide detailed monthly reports that break down follower demographics, top-performing content, and direct conversions from social channels.</p>
                                 </div>
                             </div>
                         </div>

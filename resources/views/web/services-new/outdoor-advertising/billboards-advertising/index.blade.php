@@ -217,25 +217,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>How are billboard locations chosen?
+                                        <span class="badge">&nbsp;</span>What is the difference between Static and Digital Billboards?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Your billboard location matches your specific marketing goals through data-driven analysis. We examine each site's traffic counts, viewer demographics, and visibility duration. Our team evaluates driving patterns, speed zones, and viewing angles to pick spots with maximum impact.</p>
+                                    <p>Static billboards offer 100% "SOV" (Share of Voice) because your ad is always there. Digital billboards are shared with other brands but allow for motion graphics and instant creative updates.</p>
                                 </div>
                             </div>
                         </div>
@@ -243,13 +239,57 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Can digital billboards display video ads?
+                                        <span class="badge">&nbsp;</span>How do I know how many people saw my billboard?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Digital billboards support rich content (including motion graphics, animations, and dynamic messaging). You can schedule different creative content throughout the day. Our LED displays maintain crystal-clear visibility in all lighting conditions, ensuring your dynamic content captures attention.</p>
+                                    <p>We provide "Audience Impressions" data based on traffic counts, GPS data, and historical transit patterns provided by municipal authorities.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-12">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
+                                        <span class="badge">&nbsp;</span>Can I change my artwork mid-campaign?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>On Digital Billboards, you can change it almost instantly. For Static Billboards, a "re-skinning" fee applies for the printing and physical installation of the new vinyl.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-13">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
+                                        <span class="badge">&nbsp;</span>What design tips do you recommend for billboard effectiveness?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>We recommend the "Rule of Seven": no more than seven words, high-contrast colors, and one single, bold image that is legible from a distance.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-14">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
+                                        <span class="badge">&nbsp;</span>Do billboards work for B2B companies?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Yes. Placing billboards near business hubs, airports, or major trade centers is a highly effective way to build "Top-of-Mind" awareness among executive decision-makers.</p>
                                 </div>
                             </div>
                         </div>

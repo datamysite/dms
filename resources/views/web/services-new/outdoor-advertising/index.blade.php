@@ -267,24 +267,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>How long does it take to set up outdoor advertising?
+                                        <span class="badge">&nbsp;</span>What is the minimum duration for an outdoor campaign?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Your campaign can go live within two or three weeks after approval. This includes design finalisation, location confirmation, and installation. Rush installations are possible for urgent campaigns, though standard timelines ensure quality execution.</p>
+                                    <p>Most outdoor placements require a minimum of 2 to 4 weeks, but we offer "Tactical Placements" for shorter events or product launches.</p>
                                 </div>
                             </div>
                         </div>
@@ -292,13 +289,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Can outdoor ads be changed or updated frequently?
+                                        <span class="badge">&nbsp;</span>How do you ensure high visibility for my outdoor ads?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>You can update digital displays instantly and traditional billboards within 48 hours. Regular updates keep your message fresh and relevant. Consider seasonal changes or promotional periods when planning update schedules.</p>
+                                    <p>We select sites based on "Deceleration Zones"—areas where traffic slows down or pedestrians dwell—to ensure your ad is seen for more than just a split second.</p>
                                 </div>
                             </div>
                         </div>
@@ -306,13 +303,42 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What are the locations for outdoor advertising in Dubai?
+                                        <span class="badge">&nbsp;</span>Are outdoor ads only for big brands with huge budgets?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>You can find advertising locations in Downtown Dubai and Dubai Marina (also Sheikh Zayed Road). These areas offer high visibility and consistent traffic flow.</p>
+                                    <p>Not at all. We offer hyper-local OOH options that allow smaller businesses to dominate a specific neighborhood or street at a fraction of the cost of a city-wide campaign.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-13">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
+                                        <span class="badge">&nbsp;</span>What happens if my outdoor ad is vandalized or damaged?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>We provide a maintenance guarantee. Any damage reported is addressed within 24–48 hours to ensure your brand image remains pristine.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-14">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
+                                        <span class="badge">&nbsp;</span>Do you handle the government permits required for outdoor ads?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Yes, we manage the entire legal and permitting process with local authorities, so you don’t have to worry about compliance.</p>
                                 </div>
                             </div>
                         </div>

@@ -428,24 +428,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">&nbsp;</span>What services does a content creation agency in Dubai provide?
+                                        <span class="badge">&nbsp;</span>How do you ensure the content matches my brand’s unique voice?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>A content creation agency in Dubai offers services like blog writing, social media content, website copy, video scripts, infographics, and SEO-optimized content to boost your brand visibility.</p>
+                                    <p>We begin with a "Brand Voice Workshop" to document your tone, vocabulary, and values, ensuring every piece of content feels like it came directly from you.</p>
                                 </div>
                             </div>
                         </div>
@@ -453,13 +450,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">&nbsp;</span>How can content marketing benefit my business in Dubai?
+                                        <span class="badge">&nbsp;</span>What is the difference between content creation and content marketing?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Content marketing improves online visibility, builds brand authority, engages your audience, generates leads, and increases conversions, helping your business grow in Dubai and across the UAE.</p>
+                                    <p>Creation is the "what" (blogs, videos, graphics), while marketing is the "how"—the strategic distribution of that content to ensure it actually reaches and converts your audience.</p>
                                 </div>
                             </div>
                         </div>
@@ -467,13 +464,13 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">&nbsp;</span>What is the difference between a content creation agency and a content marketing agency in Dubai?
+                                        <span class="badge">&nbsp;</span>Do you offer video production as part of your content services?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>A content creation agency focuses on producing high-quality content, while a content marketing agency also strategizes, distributes, and optimizes content for SEO, social media, and overall marketing performance.</p>
+                                    <p>Yes, we specialize in "Social-First" video content, including short-form vertical videos (TikTok/Reels) and high-production brand stories.</p>
                                 </div>
                             </div>
                         </div>
@@ -481,13 +478,13 @@
                             <div class="card-header" id="faqHeading-4">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                        <span class="badge">&nbsp;</span>Can content marketing services help with SEO in Dubai?
+                                        <span class="badge">&nbsp;</span>How do you choose topics for blogs and articles?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. Professional content marketing services Dubai include SEO optimization, keyword research, and link-building strategies to improve search engine rankings and organic traffic.</p>
+                                    <p>We use "Search Intent" data. We look for the exact questions your customers are asking on Google and create content that answers those needs better than your competitors.</p>
                                 </div>
                             </div>
                         </div>
@@ -495,58 +492,17 @@
                             <div class="card-header" id="faqHeading-5">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                        <span class="badge">&nbsp;</span>How do I choose the best content writing agency in Dubai?
+                                        <span class="badge">&nbsp;</span>Can you refresh my old, existing website content?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Look for agencies with experience, proven results, a diverse content portfolio, expertise in SEO, and the ability to create content tailored to your target audience and business goals.</p>
+                                    <p>Yes, we offer "Content Audits" where we update and optimize your old posts to improve their current SEO rankings and relevance.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-6">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
-                                        <span class="badge">&nbsp;</span>What industries do you serve for content marketing in the UAE?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>We serve a wide range of industries including tech, e-commerce, healthcare, hospitality, real estate, and lifestyle brands, providing customized strategies for each sector.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-7">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7" data-aria-expanded="false" data-aria-controls="faqCollapse-7">
-                                        <span class="badge">&nbsp;</span>How long does it take to see results from content marketing in Dubai?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Results vary depending on the strategy and goals, but most businesses start seeing measurable improvements in engagement, traffic, and leads within 3–6 months of consistent content marketing efforts.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-8">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-8" data-aria-expanded="false" data-aria-controls="faqCollapse-8">
-                                        <span class="badge">&nbsp;</span>Do you provide multi-channel content marketing services?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-8" class="collapse" aria-labelledby="faqHeading-8" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Yes. We distribute content across websites, blogs, social media platforms, email campaigns, and video channels to maximize reach and engagement for your brand.</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                         
                     </div>
                 </div>

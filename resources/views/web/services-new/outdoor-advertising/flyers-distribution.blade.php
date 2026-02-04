@@ -333,26 +333,21 @@
           <div class="container">
 
             <div class="row gy-4 first-row">
-
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>How much does flyer distribution cost in Dubai?
+                                        <span class="badge">&nbsp;</span>How do you prevent "dumping" of flyers?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>The cost varies based on quantity, location, and flyer type. Typically, prices range from AED 0.25 to AED 0.75 per flyer, depending on your campaign scope.</p>
+                                    <p>Every distribution team is tracked via GPS in real-time. We provide "Heat Maps" showing exactly where and when your flyers were delivered.</p>
                                 </div>
                             </div>
                         </div>
@@ -360,13 +355,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How do you ensure flyers are properly distributed?
+                                        <span class="badge">&nbsp;</span>Can you target specific villa communities or apartment buildings?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We use trained distributors, area mapping, and supervisor checks. You’ll receive post-campaign reports and photos for verification.</p>
+                                    <p>Yes, we have specialized permits for various residential zones, allowing us to target by neighborhood, income level, or property type.</p>
                                 </div>
                             </div>
                         </div>
@@ -374,13 +369,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What areas do you cover for flyer distribution in Dubai?
+                                        <span class="badge">&nbsp;</span>Do you provide the design and printing of the flyers as well?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We cover all major residential and commercial areas, including Dubai Marina, Business Bay, JVC, Downtown, and Deira.</p>
+                                    <p>Yes, we offer end-to-end packages including professional copywriting, high-speed printing, and strategic distribution.</p>
                                 </div>
                             </div>
                         </div>
@@ -388,13 +383,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Can you help design and print the flyers?
+                                        <span class="badge">&nbsp;</span>What is the typical conversion rate for flyer distribution?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes! We offer complete design and printing services to ensure your flyers are attractive, brand-aligned, and cost-efficient.</p>
+                                    <p>This varies by industry, but we see the highest ROI when flyers offer a "scannable" discount code or a time-sensitive "limited offer."</p>
                                 </div>
                             </div>
                         </div>
@@ -402,13 +397,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>Do you offer bulk discounts for large campaigns?
+                                        <span class="badge">&nbsp;</span>Can you distribute flyers at specific events?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Absolutely — we provide special rates for high-volume and long-term campaigns.</p>
+                                    <p>Yes, we can deploy "Street Teams" to distribute collateral at trade shows, concerts, or high-traffic metro exits.</p>
                                 </div>
                             </div>
                         </div>

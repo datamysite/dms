@@ -404,24 +404,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What services does a digital marketing agency in Dubai provide?
+                                        <span class="badge">&nbsp;</span>What specific metrics do you use to measure the success of a campaign?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>A digital marketing agency in Dubai offers SEO, PPC, social media marketing, content creation, email marketing, web design, and analytics to grow your business online.</p>
+                                    <p>We focus on "North Star" metrics like Return on Ad Spend (ROAS), Cost Per Acquisition (CPA), and Conversion Rate, rather than just "vanity metrics" like likes or impressions.</p>
                                 </div>
                             </div>
                         </div>
@@ -429,13 +426,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How can digital marketing benefit my business in Dubai?
+                                        <span class="badge">&nbsp;</span>How long does it take to see tangible results?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Digital marketing boosts online visibility, engages targeted audiences, generates leads, improves brand authority, and delivers measurable ROI for businesses in Dubai and the UAE.</p>
+                                    <p>While PPC and paid ads can drive traffic instantly, a comprehensive strategy (including SEO and brand building) typically shows significant scaling within 3 to 6 months.</p>
                                 </div>
                             </div>
                         </div>
@@ -443,13 +440,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What makes a digital marketing company in Dubai the best?
+                                        <span class="badge">&nbsp;</span>Do you handle the creative side or just the data and placement?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>The best agencies combine experience, innovative strategies, multi-channel expertise, proven results, and a data-driven approach tailored to your business goals.</p>
+                                    <p>We are a full-service agency. We handle everything from the initial data-driven strategy and copywriting to the final graphic design and technical execution.</p>
                                 </div>
                             </div>
                         </div>
@@ -457,13 +454,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Can digital marketing services help my business rank higher on Google?
+                                        <span class="badge">&nbsp;</span>How do you stay ahead of privacy changes like the phase-out of third-party cookies?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. SEO and content marketing strategies implemented by a professional digital marketing agency Dubai improve search rankings, attract organic traffic, and increase conversions.</p>
+                                    <p>We prioritize first-party data collection strategies and use AI-driven contextual targeting to ensure your ads reach the right people without violating privacy norms.</p>
                                 </div>
                             </div>
                         </div>
@@ -471,58 +468,17 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>How long does it take to see results from digital marketing in Dubai?
+                                        <span class="badge">&nbsp;</span>Can you work alongside my in-house marketing team?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Results vary by campaign type, but businesses typically see measurable improvements in traffic, engagement, and leads within 3–6 months of consistent marketing efforts.</p>
+                                    <p>Absolutely. We can act as a specialized extension of your team, handling technical execution or high-level strategy while your team manages internal communications.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-15">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                        <span class="badge">&nbsp;</span>Do you provide digital marketing services for companies outside Dubai?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Yes. Our services cater to businesses across the UAE and internationally, focusing on audience targeting, SEO, and multi-channel campaigns for maximum impact.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-16">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-16" data-aria-expanded="false" data-aria-controls="faqCollapse-16">
-                                        <span class="badge">&nbsp;</span>What industries do you serve for digital marketing in the UAE?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-16" class="collapse" aria-labelledby="faqHeading-16" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>We serve a wide range of industries including retail, tech, healthcare, hospitality, real estate, and lifestyle brands, providing customized digital marketing solutions for each sector.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-17">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-17" data-aria-expanded="false" data-aria-controls="faqCollapse-17">
-                                        <span class="badge">&nbsp;</span>How do I choose the right digital marketing agency in Dubai?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-17" class="collapse" aria-labelledby="faqHeading-17" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Look for proven experience, multi-channel expertise, a data-driven approach, creative campaign strategies, and a transparent reporting process to ensure ROI.</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                         
                     </div>
                 </div>

@@ -312,25 +312,21 @@
           <div class="container">
 
             <div class="row gy-4 first-row">
-
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What is the cost of building wrap advertising in Dubai?
+                                        <span class="badge">&nbsp;</span>Will a building wrap damage the exterior of the property?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>The cost depends on factors like building size, location, duration, and material type. On average, building wrap campaigns in Dubai can range from AED 50,000 to AED 250,000 or more, depending on scope and visibility.</p>
+                                    <p>No. We use specialized, building-safe adhesives and perforated vinyl that allow the building to "breathe" and ensure no residue is left upon removal.</p>
                                 </div>
                             </div>
                         </div>
@@ -338,13 +334,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How long can a building wrap remain installed?
+                                        <span class="badge">&nbsp;</span>Can people inside the building see out through the wrap?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Most wraps last 3 to 12 months, depending on material durability and campaign duration. Our premium materials are designed to endure Dubai’s weather while maintaining color and clarity.</p>
+                                    <p>Yes. We use perforated window film (One-Way Vision) that allows occupants to see out clearly while the public only sees the vibrant advertisement.</p>
                                 </div>
                             </div>
                         </div>
@@ -352,13 +348,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>Are permissions required for building wraps in Dubai?
+                                        <span class="badge">&nbsp;</span>How long can a building wrap stay up?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, Dubai Municipality approval is mandatory before installation. At DataMySite, we handle all regulatory permissions and safety checks for you.</p>
+                                    <p>Our high-grade materials are UV-resistant and weather-proof, typically lasting 6 months to 2 years depending on the location and sun exposure.</p>
                                 </div>
                             </div>
                         </div>
@@ -366,13 +362,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Can building wraps be used for temporary events or product launches?
+                                        <span class="badge">&nbsp;</span>Are there size limitations for building wraps?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Absolutely. Building wraps are ideal for short-term promotional campaigns, event branding, and product launches, providing high-impact exposure within a short period.</p>
+                                    <p>We can cover anything from a small storefront to a 50-story skyscraper. The only limits are the building's structural integrity and local zoning laws.</p>
                                 </div>
                             </div>
                         </div>
@@ -380,27 +376,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>What materials are used in building wrap advertising?
+                                        <span class="badge">&nbsp;</span>Is insurance included in the installation?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We use perforated mesh PVC, vinyl banners, and eco-solvent prints — all UV-resistant and flame-retardant to meet UAE safety standards.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-15">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                        <span class="badge">&nbsp;</span>Why choose DataMySite for building wrap advertising?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Because we combine local experience, premium materials, and creative design expertise to deliver visually stunning, regulation-compliant, and result-driven campaigns across the UAE.</p>
+                                    <p>Yes, we carry comprehensive liability insurance for all large-scale installations to protect both our clients and the property owners.</p>
                                 </div>
                             </div>
                         </div>

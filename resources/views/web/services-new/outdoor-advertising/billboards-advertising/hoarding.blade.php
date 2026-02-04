@@ -359,25 +359,21 @@
           <div class="container">
 
             <div class="row gy-4 first-row">
-
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What is hoarding advertising used for?
+                                        <span class="badge">&nbsp;</span>Why should I advertise on construction hoarding?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Hoarding advertising is used to promote ongoing or upcoming construction projects, products, or brands around a site’s perimeter — turning safety fences into marketing opportunities.</p>
+                                    <p>It turns a "work-in-progress" area into a massive, eye-level billboard. It’s perfect for generating excitement for a new retail opening or residential project.</p>
                                 </div>
                             </div>
                         </div>
@@ -385,13 +381,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>What materials are used for hoardings in Dubai?
+                                        <span class="badge">&nbsp;</span>Can you add 3D elements to hoarding?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Common materials include ACP panels, PVC vinyl, and perforated mesh, all designed for outdoor durability and compliance with Dubai Municipality standards.</p>
+                                    <p>Yes, we can add "2D-plus" or 3D elements, such as cut-outs or integrated lighting, to make the hoarding stand out even more to pedestrians.</p>
                                 </div>
                             </div>
                         </div>
@@ -399,13 +395,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>How long does a hoarding last?
+                                        <span class="badge">&nbsp;</span>Is the material durable enough for construction sites?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Depending on material and weather exposure, hoardings can last 6 to 18 months, maintaining their color and quality throughout.</p>
+                                    <p>We use heavy-duty Dibond or reinforced PVC panels that are scratch-resistant and easy to clean from construction dust.</p>
                                 </div>
                             </div>
                         </div>
@@ -413,13 +409,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Is municipality approval required?
+                                        <span class="badge">&nbsp;</span>Can you include QR codes on hoarding?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, hoardings in Dubai must comply with municipality advertising regulations. DataMySite assists clients in securing all necessary permits and approvals.</p>
+                                    <p>We highly recommend it. It’s a great way to bridge the gap between physical advertising and your digital sales funnel for people passing by.</p>
                                 </div>
                             </div>
                         </div>
@@ -427,44 +423,17 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>What’s the cost of hoarding advertising in Dubai?
+                                        <span class="badge">&nbsp;</span>How quickly can you install hoarding graphics?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Costs vary based on size, materials, and location. On average, construction site hoardings range from AED 100 – AED 350 per square meter, including printing and installation.</p>
+                                    <p>Once the design is approved, we can usually complete the printing and installation within 5 to 10 business days.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-15">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                        <span class="badge">&nbsp;</span>Can hoardings include lighting or 3D effects?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Absolutely. We can enhance your hoarding with LED backlighting, spotlights, or 3D lettering to make it more eye-catching, especially for night visibility.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-16">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-16" data-aria-expanded="false" data-aria-controls="faqCollapse-16">
-                                        <span class="badge">&nbsp;</span>Why choose DataMySite for my hoarding campaign?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-16" class="collapse" aria-labelledby="faqHeading-16" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>We provide creative design, high-quality materials, regulatory compliance, and on-time delivery, making us one of the most trusted names for hoarding advertising in Dubai.</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
