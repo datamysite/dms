@@ -378,24 +378,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What is Dubai Hotels Advertising?
+                                        <span class="badge">&nbsp;</span>Why should I choose Dubai hotels specifically for my campaign?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>It refers to brand promotion inside or around hotel properties through digital screens, lobby displays, in-room marketing, and other formats targeting hotel guests.</p>
+                                    <p>Dubai hotels host a massive international audience with high disposable income. It’s an ideal gateway to reach global tourists and regional business leaders in one location.</p>
                                 </div>
                             </div>
                         </div>
@@ -403,13 +400,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Which hotels in Dubai offer advertising opportunities?
+                                        <span class="badge">&nbsp;</span>Do you cover both 5-star and 4-star properties?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Many luxury and business hotels such as Address, Marriott, Sofitel, Atlantis, Jumeirah Group, and Rotana allow strategic ad placements through authorized partners like DataMySite.</p>
+                                    <p>Yes, we have a network ranging from iconic 5-star luxury landmarks to high-occupancy 4-star business hubs, allowing for budget flexibility.</p>
                                 </div>
                             </div>
                         </div>
@@ -417,13 +414,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>Who should advertise in Dubai hotels?
+                                        <span class="badge">&nbsp;</span>Can I place physical brochures alongside the digital ads?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Luxury brands, real estate developers, tourism boards, automotive, and retail companies benefit most from high-profile hotel advertising.</p>
+                                    <p>In many partner hotels, we can arrange "Cross-Channel" placement where digital ads are supported by physical collateral at the concierge desk.</p>
                                 </div>
                             </div>
                         </div>
@@ -431,14 +428,14 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>What are the available formats?
+                                        <span class="badge">&nbsp;</span>Is there a seasonal peak for hotel advertising in Dubai?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
                                     <p>
-                                        Lobby branding, digital screens, in-room ads, elevator wraps, key cards, restaurant displays, and outdoor hotel signage.
+                                        While Dubai is year-round, the "Winter Season" (October–April) sees peak occupancy, making it the most competitive and high-impact time to advertise.
                                     </p>
                                 </div>
                             </div>
@@ -447,13 +444,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>Why partner with DataMySite?
+                                        <span class="badge">&nbsp;</span>Can I target specific areas like Downtown or Palm Jumeirah?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We have local expertise, partnerships with hotel media providers, and a proven record of delivering high-impact campaigns across Dubai’s hospitality network.</p>
+                                    <p>Yes, our network is geographically segmented so you can dominate specific districts based on your brand’s relevance.</p>
                                 </div>
                             </div>
                         </div>

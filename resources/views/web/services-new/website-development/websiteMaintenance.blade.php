@@ -250,19 +250,20 @@
                 </div>
                 <div class="col-lg-12">
                   
-                    <h4>FAQs</h4>
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">1</span>What if my website was built by another agency?
+                                        <span class="badge">1</span>Why do I need a maintenance plan if my site is already finished?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>No problem! We audit and maintain websites built by others. Our process starts with a technical review.</p>
+                                    <p>Websites require regular "Health Checks"—including plugin updates, security patches, and database optimization—to prevent slow speeds or hacking.</p>
                                 </div>
                             </div>
                         </div>
@@ -270,13 +271,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">2</span>Will maintenance affect my site’s SEO?
+                                        <span class="badge">2</span>What happens if my website goes down?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>No — in fact, it helps SEO. We fix issues, improve performance, and prevent downtime which boosts rankings.</p>
+                                    <p>Our maintenance plans include 24/7 uptime monitoring. If your site goes offline, our team is alerted immediately to bring it back up.</p>
                                 </div>
                             </div>
                         </div>
@@ -284,13 +285,13 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">3</span>Do you monitor websites 24/7?
+                                        <span class="badge">3</span>Do you offer content updates as part of the monthly fee?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. Our team uses uptime monitoring tools and performance dashboards to track your site in real time.</p>
+                                    <p>Most of our plans include a set number of "Support Hours" which you can use for adding new blogs, changing banners, or updating staff bios.</p>
                                 </div>
                             </div>
                         </div>
@@ -298,13 +299,13 @@
                             <div class="card-header" id="faqHeading-4">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                        <span class="badge">4</span>What happens if my site is hacked?
+                                        <span class="badge">4</span>Do you perform regular backups of my data?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We offer immediate malware removal, security patching, and site restoration as part of our support scope.</p>
+                                    <p>Yes, we perform daily off-site backups, so even in a worst-case scenario, we can restore your entire website with a single click.</p>
                                 </div>
                             </div>
                         </div>
@@ -312,13 +313,13 @@
                             <div class="card-header" id="faqHeading-5">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                        <span class="badge">5</span>Can I request changes anytime?
+                                        <span class="badge">5</span>How does maintenance help with my Google ranking?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. You can request updates through email, WhatsApp, or our client portal — typically processed within 24–48 hours.</p>
+                                    <p>Google penalizes sites that are slow or have broken links. Regular maintenance ensures your "Core Web Vitals" remain high, keeping you in Google's good books.</p>
                                 </div>
                             </div>
                         </div>

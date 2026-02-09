@@ -334,19 +334,20 @@
                 </div>
                 <div class="col-lg-12">
                   
-                    <h4>FAQs</h4>
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">1</span>What does full-stack mean in web development?
+                                        <span class="badge">1</span>What does "Full-Stack" actually mean for my business?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Full-stack covers both the front-end (what users see) and back-end (what powers your website). It's a complete development approach from UI to server/database.</p>
+                                    <p>It means we handle both the "Front-End" (what users see) and the "Back-End" (server, database, and logic), ensuring a seamless and high-performance user experience.</p>
                                 </div>
                             </div>
                         </div>
@@ -354,13 +355,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">2</span>How long does it take to build a full-stack website?
+                                        <span class="badge">2</span>Can you build custom features that aren't available in standard templates?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Depending on complexity, it can range from 3–12 weeks. We provide a project timeline after scoping your requirements.</p>
+                                    <p>Yes. We specialize in custom coding for unique business needs, such as booking engines, client portals, or complex data calculators.</p>
                                 </div>
                             </div>
                         </div>
@@ -368,13 +369,13 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">3</span>Can you integrate payment systems and third-party tools?
+                                        <span class="badge">3</span>Which programming languages do you use?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. We specialize in integrating CRMs, payment gateways, analytics, inventory systems, and more.</p>
+                                    <p>We choose the best "Stack" for your project, commonly using modern frameworks like React, Node.js, Python, or PHP (Laravel) for scalability.</p>
                                 </div>
                             </div>
                         </div>
@@ -382,13 +383,13 @@
                             <div class="card-header" id="faqHeading-4">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                        <span class="badge">4</span>Will my website be SEO-friendly and mobile-responsive?
+                                        <span class="badge">4</span>How do you ensure the security of a custom-built site?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Absolutely. Every full-stack project is built with SEO best practices and full mobile responsiveness.</p>
+                                    <p>We implement multi-layered security protocols, including SSL encryption, SQL injection protection, and regular automated security audits.</p>
                                 </div>
                             </div>
                         </div>
@@ -396,13 +397,13 @@
                             <div class="card-header" id="faqHeading-5">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                        <span class="badge">5</span>Do you offer ongoing maintenance?
+                                        <span class="badge">5</span>Is a custom Full-Stack site better for SEO?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. We provide website maintenance, updates, and support post-launch as part of our extended services.</p>
+                                    <p>Usually, yes. Because the code is "clean" and optimized specifically for your needs, these sites typically load faster—a major Google ranking factor.</p>
                                 </div>
                             </div>
                         </div>

@@ -481,24 +481,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What is Residential Lift Advertising?
+                                        <span class="badge">&nbsp;</span>How do I know if my target audience lives in these buildings?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>It’s the placement of ads inside elevators and residential building common areas to reach residents multiple times daily in a trusted, localized environment.</p>
+                                    <p>We provide detailed "Building Profiles" including the neighborhood's average household income and demographic data.</p>
                                 </div>
                             </div>
                         </div>
@@ -506,13 +503,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Where can I advertise in residential buildings?
+                                        <span class="badge">&nbsp;</span>Is this a good channel for local services (like laundries or clinics)?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Ads can be placed inside elevators, lift lobbies, corridors, or reception areas depending on available space and permissions.</p>
+                                    <p>It is one of the best. Advertising in the lift of a building where your shop is located creates immediate, high-trust local awareness.</p>
                                 </div>
                             </div>
                         </div>
@@ -520,13 +517,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>How long do campaigns typically run?
+                                        <span class="badge">&nbsp;</span>Can I use QR codes on residential lift ads?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Most campaigns run for 4 to 12 weeks, ensuring continuous exposure and strong brand recall.</p>
+                                    <p>Yes! Residents often have their phones in hand, making them highly likely to scan a QR code for a "Home Delivery" app or a local discount.</p>
                                 </div>
                             </div>
                         </div>
@@ -534,14 +531,14 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Can I target specific communities or areas?
+                                        <span class="badge">&nbsp;</span>What is the lead time for installation?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
                                     <p>
-                                        Yes. DataMySite allows location-specific targeting across Dubai, Abu Dhabi, Sharjah, and other Emirates based on your desired audience profile.
+                                        Once the design is approved, we can have your brand inside the elevators of your chosen towers within 5 to 7 business days.
                                     </p>
                                 </div>
                             </div>
@@ -550,13 +547,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>Why choose DataMySite?
+                                        <span class="badge">&nbsp;</span>Are the ads safe from vandalism?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We provide end-to-end management, from planning and design to execution and reporting, ensuring high-quality, localized campaigns with measurable impact.</p>
+                                    <p>Our frames are made of tempered glass or high-grade acrylic and are securely mounted to ensure they remain in perfect condition.</p>
                                 </div>
                             </div>
                         </div>

@@ -225,23 +225,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-9 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>Are nano influencers good for big brands?
+                                        <span class="badge">&nbsp;</span>Why should I work with someone who has a small following?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes! Even larger brands can effectively use nano influencer marketing to tap their target audiences in niche markets or certain demographics. This allows brands to maintain that personable touch even within vast campaigns.</p>
+                                    <p>Nano-influencers often have the highest engagement rates (often over 5%) and a very loyal, "friend-like" relationship with their audience, leading to higher trust.</p>
                                 </div>
                             </div>
                         </div>
@@ -249,13 +247,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How do I locate suitable nano influencers?
+                                        <span class="badge">&nbsp;</span>Is this a cost-effective option for startups? 
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>To locate appropriate influencers, brands analyze audience demographics, usually select those with decent engagement rates, and find content pertinent to their brand message. Many brands also adopt influencer marketing platforms or agencies specialized in nano influencer marketing to streamline this process.</p>
+                                    <p>Yes, Nano-influencers are highly affordable and often accept "Product-for-Post" arrangements, making them ideal for high-volume, grassroots campaigns.</p>
                                 </div>
                             </div>
                         </div>
@@ -263,13 +261,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>Which platforms are best to pursue for establishing nano influencer campaigns?
+                                        <span class="badge">&nbsp;</span>Can I hire multiple Nano-influencers at once?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Social platforms such as Instagram, TikTok, and YouTube confer varying forms of interaction and broad consumer bases. Which one to use depends on your brand goals and target audience.</p>
+                                    <p>We recommend it. Using 10–20 Nano-influencers simultaneously creates a "Viral Bubble" effect within a specific community or niche.</p>
                                 </div>
                             </div>
                         </div>
@@ -277,13 +275,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>What is the average cost of nano influencer campaigns?
+                                        <span class="badge">&nbsp;</span>Are Nano-influencers professional to work with?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Nano influencer marketing is affordable, especially for budding companies and small enterprises. The combination of lower initial costs and high engagement rates allows for a sweet return on investment.</p>
+                                    <p>We vet all our influencers for reliability. While they may be smaller, we ensure they follow our strict brief and delivery timelines.</p>
                                 </div>
                             </div>
                         </div>
@@ -291,44 +289,17 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>Can nano influencers assist with product launches?
+                                        <span class="badge">&nbsp;</span>Can I use their content for my own social media ads?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Of course! When you hire nano influencers it helps generate hype for new product launches with sincere reviews, unboxings, and demos. Their loyal followers usually cannot wait to try the products suggested by trusted influencers.</p>
+                                    <p>We negotiate "Whitelisting" rights, allowing you to turn their high-trust organic content into a paid ad on your own brand's channel.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-15">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                        <span class="badge">&nbsp;</span>What strategies do nano influencers employ to remain authentic in their promotional activities?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>These nano influencers remain authentic by working with brands with which they share similar values and producing content in their own voice. This authentic connection with an audience enables them to do promotions in a more natural way without being overly commercial.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-16">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-16" data-aria-expanded="false" data-aria-controls="faqCollapse-16">
-                                        <span class="badge">&nbsp;</span>What are some of the challenges in working with nano influencers?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-16" class="collapse" aria-labelledby="faqHeading-16" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>While nano influencer marketing comes with several perks, challenges include managing multiple influencers on a larger scale and maintaining a consistent message through campaigns. Furthermore, some influencers do not have any marketing experience, which would add to the burden on brands to guide and assist such influencers more.</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

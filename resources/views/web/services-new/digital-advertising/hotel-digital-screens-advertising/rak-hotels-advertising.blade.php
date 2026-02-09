@@ -426,25 +426,21 @@
           <div class="container">
 
             <div class="row gy-4 first-row">
-
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What is RAK Hotels Advertising?
+                                        <span class="badge">&nbsp;</span>Is RAK a good location for luxury brand advertising?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>It’s a marketing solution that places your brand’s visuals or messages inside luxury and business hotels in Ras Al Khaimah, targeting guests through digital and static media formats.</p>
+                                    <p>Definitely. Ras Al Khaimah (RAK) has become a premier "Staycation" and luxury resort destination, attracting affluent residents from across the UAE.</p>
                                 </div>
                             </div>
                         </div>
@@ -452,13 +448,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Why advertise in Ras Al Khaimah hotels?
+                                        <span class="badge">&nbsp;</span>Can I target the "Adventure Tourism" segment?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>RAK hotels attract high-value tourists, adventure travelers, and business guests in a relaxed environment, offering long dwell time and strong brand recall.</p>
+                                    <p>Yes, by placing ads in hotels near Jebel Jais and the coastal resorts, you reach an active, high-spending demographic.</p>
                                 </div>
                             </div>
                         </div>
@@ -466,13 +462,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What advertising options are available?
+                                        <span class="badge">&nbsp;</span>Are there opportunities for poolside or outdoor screen placement?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Lobby screens, elevator branding, in-room promotions, outdoor signage, and spa or restaurant placements are the most popular.</p>
+                                    <p>Some RAK resorts offer specialized outdoor digital displays near leisure areas, which are highly effective for F&B and apparel brands.</p>
                                 </div>
                             </div>
                         </div>
@@ -480,14 +476,14 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Who should advertise in RAK hotels?
+                                        <span class="badge">&nbsp;</span>How does the cost compare to Dubai hotel advertising?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
                                     <p>
-                                        Ideal for luxury, lifestyle, automotive, tourism, real estate, and technology brands targeting premium UAE visitors.
+                                        RAK generally offers a more cost-effective "Entry Point" while still providing access to a very high-quality, relaxed audience.
                                     </p>
                                 </div>
                             </div>
@@ -496,13 +492,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>How can DataMySite help?
+                                        <span class="badge">&nbsp;</span>Can I run ads for local real estate projects?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We manage the entire campaign — from hotel partnerships and creative design to ad placement and performance tracking — ensuring a smooth and effective advertising experience.</p>
+                                    <p>Yes, RAK hotel advertising is a proven winner for real estate developers looking to capture the attention of weekend visitors.</p>
                                 </div>
                             </div>
                         </div>

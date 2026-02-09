@@ -386,24 +386,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What is Digital Unipole Advertising?
+                                        <span class="badge">&nbsp;</span>What is the advantage of a Digital Unipole over a static one?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>It’s a form of outdoor media that uses LED digital screens mounted on unipoles along major roads to display high-quality, animated advertisements.</p>
+                                    <p>Motion! A Digital Unipole allows for subtle movement or full-motion video, which is proven to catch the human eye 400% more effectively than a static image.</p>
                                 </div>
                             </div>
                         </div>
@@ -411,13 +408,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Where are digital unipoles located in Dubai?
+                                        <span class="badge">&nbsp;</span>Can I update my creative remotely?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>They’re found on major highways and high-traffic areas such as Sheikh Zayed Road, Al Khail Road, and Business Bay.</p>
+                                    <p>Yes, we can swap your artwork within minutes via our centralized CMS. This is perfect for countdowns, live score updates, or changing offers.</p>
                                 </div>
                             </div>
                         </div>
@@ -425,13 +422,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What is the cost of digital unipole advertising in the UAE?
+                                        <span class="badge">&nbsp;</span>Are Digital Unipoles visible in direct sunlight?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Pricing varies based on location, campaign duration, and display frequency. DataMySite provides flexible packages to suit all budgets.</p>
+                                    <p>We use ultra-high-brightness LED panels (measured in Nits) specifically designed to remain vibrant and clear even in the harshest midday sun.</p>
                                 </div>
                             </div>
                         </div>
@@ -439,14 +436,14 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Can I change my ad content during the campaign?
+                                        <span class="badge">&nbsp;</span>Do Digital Unipoles run 24/7?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
                                     <p>
-                                        Yes. Digital unipoles support instant updates, allowing you to modify creatives anytime without physical installation.
+                                        Most do, though some locations have "dimming" policies late at night to comply with local light pollution regulations. Your ad will still be visible but at a comfortable brightness.
                                     </p>
                                 </div>
                             </div>
@@ -455,13 +452,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>Why should I choose DataMySite for my campaign?
+                                        <span class="badge">&nbsp;</span>Can I share a Digital Unipole with other brands?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We handle the full process — from strategy, design, and media buying to performance tracking — ensuring maximum brand exposure and ROI.</p>
+                                    <p>Yes, these usually operate on a "Loop." Your ad will appear for a set number of seconds (e.g., 10-15s) every few minutes, giving you multiple "hits" per hour.</p>
                                 </div>
                             </div>
                         </div>

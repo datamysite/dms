@@ -301,19 +301,20 @@
                     </div>
 
                     <br><br>
-                    <h4>FAQs</h4>
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">1</span>How much does a website cost in Dubai?
+                                        <span class="badge">1</span>Will my website be mobile-responsive?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>It depends on your requirements. A basic website starts at AED 2,500, while e-commerce and custom features increase the cost. Contact us for a free quote.</p>
+                                    <p>Absolutely. Every site we build follows a "Mobile-First" philosophy, ensuring it looks and functions perfectly on smartphones, tablets, and desktops.</p>
                                 </div>
                             </div>
                         </div>
@@ -321,13 +322,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">2</span>How long does it take to build a website?
+                                        <span class="badge">2</span>Do I own the website and code once it’s finished?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Most projects are completed within 2–4 weeks, depending on the complexity.</p>
+                                    <p>Yes. Unlike "rental" platforms, once the project is complete and paid for, you own 100% of the files, code, and intellectual property.</p>
                                 </div>
                             </div>
                         </div>
@@ -335,13 +336,13 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">3</span>Do you offer support after website launch?
+                                        <span class="badge">3</span>How long does it take to build a standard business website?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes! We offer ongoing website maintenance services including security, updates, and bug fixes.</p>
+                                    <p>A standard professional site typically takes 4 to 8 weeks, depending on the complexity of the features and the speed of content approval.</p>
                                 </div>
                             </div>
                         </div>
@@ -349,13 +350,13 @@
                             <div class="card-header" id="faqHeading-4">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                        <span class="badge">4</span>What makes you the best web design company in Dubai?
+                                        <span class="badge">4</span>Will I be able to update the content myself?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We combine stunning design with SEO, fast delivery, full transparency, and local market expertise — making us the go-to web development agency in Dubai.</p>
+                                    <p>Yes, we primarily build on user-friendly Content Management Systems (CMS) and provide a training session so your team can edit text and images easily.</p>
                                 </div>
                             </div>
                         </div>
@@ -363,13 +364,13 @@
                             <div class="card-header" id="faqHeading-5">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                        <span class="badge">5</span>Can you redesign an existing website?
+                                        <span class="badge">5</span>Do you handle website hosting and domain registration?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Absolutely! We offer full redesign services to upgrade your outdated or underperforming website.</p>
+                                    <p>We can manage everything for you, including securing high-speed servers and professional email setups, so you have a single point of contact.</p>
                                 </div>
                             </div>
                         </div>

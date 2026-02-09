@@ -239,24 +239,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What types of businesses benefit most from DOOH?
+                                        <span class="badge">&nbsp;</span>What makes DOOH different from standard digital ads?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Luxury brands, financial services, and property developers thrive with DOOH Advertising Dubai. B2B companies targeting C-suite executives find particular success through strategic placement in business districts.</p>
+                                    <p>DOOH is "Digital Out-Of-Home"—think large digital screens in malls or streets. It combines the impact of OOH with the flexibility of digital (video, animation, real-time updates).</p>
                                 </div>
                             </div>
                         </div>
@@ -264,13 +261,59 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Can DOOH screens display real-time updates?
+                                        <span class="badge">&nbsp;</span>Can I trigger my DOOH ads based on the weather?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Our DOOH Advertising systems integrate live data feeds seamlessly. Your displays update automatically with stock prices, social media, weather, and custom content. This keeps your message current and engaging.</p>
+                                    <p>Yes! We can program your ads to change based on live data. For example, a beverage brand can show a "Cold Drink" ad only when the temperature exceeds 35°C.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-12">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
+                                        <span class="badge">&nbsp;</span>Is DOOH more expensive than static billboards?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>While the "per-slot" cost is lower because you share the screen, the production is more cost-effective as there are no printing or installation fees.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-13">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
+                                        <span class="badge">&nbsp;</span>How do you track who sees a digital screen?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>We use anonymous sensor technology and mobile signal data to provide "Impression" reports, showing how many people were in the "viewing cone" of the screen.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-14">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
+                                        <span class="badge">&nbsp;</span>Can I run a DOOH campaign for just one day?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Yes. One of the biggest benefits of DOOH is the ability to run "Short-Burst" or "Flash" campaigns for 24-hour sales or specific events.</p>
                                 </div>
                             </div>
                         </div>

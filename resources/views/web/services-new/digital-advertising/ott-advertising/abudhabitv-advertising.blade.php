@@ -327,24 +327,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What is Abu Dhabi TV Advertising?
+                                        <span class="badge">&nbsp;</span>Does Abu Dhabi TV reach a local or international audience?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>It’s the promotion of your brand through commercials or digital ads on Abu Dhabi TV’s broadcast and OTT streaming platforms, reaching audiences across the UAE and GCC.</p>
+                                    <p>It has a massive local Emirati and expat following, but it also broadcasts via satellite to the entire Arab world, giving you both local and regional reach.</p>
                                 </div>
                             </div>
                         </div>
@@ -352,13 +349,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Can I target specific audiences on Abu Dhabi TV’s digital platform?
+                                        <span class="badge">&nbsp;</span>Can I advertise during specific news segments or high-rated dramas?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. The OTT platform allows demographic, geographic, and behavioral targeting to ensure your ads reach the most relevant viewers.</p>
+                                    <p>Yes, we can book "Spot Buys" during peak viewership windows, such as the evening news or popular Ramadan series.</p>
                                 </div>
                             </div>
                         </div>
@@ -366,13 +363,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What types of ads can I run?
+                                        <span class="badge">&nbsp;</span>Do you provide translation or dubbing for my ads?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>You can run TV commercials, sponsored content, display banners, or video ads on the OTT platform, depending on your campaign goals.</p>
+                                    <p>Yes, our creative team can adapt your existing English ads into high-quality Arabic (including local dialects) to resonate with the ADTV audience.</p>
                                 </div>
                             </div>
                         </div>
@@ -380,14 +377,14 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>How much does Abu Dhabi TV Advertising cost?
+                                        <span class="badge">&nbsp;</span>Is TV advertising still effective in the age of social media?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
                                     <p>
-                                        Pricing depends on factors like ad length, time slot, and campaign duration. DataMySite offers flexible packages for businesses of all sizes.
+                                        Absolutely. For "Mass Market" reach and building high-level trust and authority, a spot on a government-backed channel like ADTV is unparalleled.
                                     </p>
                                 </div>
                             </div>
@@ -396,13 +393,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>Why choose DataMySite for Abu Dhabi TV Advertising?
+                                        <span class="badge">&nbsp;</span>What is the lead time for booking a TV slot?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We manage your entire campaign — from creative production to placement and reporting — ensuring maximum visibility, compliance, and ROI.</p>
+                                    <p>For regular programming, 1–2 weeks is sufficient. However, for major events or Ramadan, we recommend booking 1–2 months in advance.</p>
                                 </div>
                             </div>
                         </div>

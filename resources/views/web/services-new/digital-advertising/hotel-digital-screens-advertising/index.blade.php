@@ -227,24 +227,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What types of businesses benefit from hotel ads?
+                                        <span class="badge">&nbsp;</span>Where exactly are these screens located within the hotel?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Travel brands, hotels, and industry influences can benefit from hotel ads. Our solutions integrate seamlessly with our high-impact hotel advertising UAE to create comprehensive campaigns that reach your desired audience.</p>
+                                    <p>We place screens in high-traffic "dwell zones" such as the main lobby, reception desks, near the concierge, and inside business centers to ensure maximum exposure.</p>
                                 </div>
                             </div>
                         </div>
@@ -252,13 +249,57 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Can I run seasonal campaigns?
+                                        <span class="badge">&nbsp;</span>Can I target specific types of travelers?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>You can run seasonal campaigns in hotel environments. We can deliver your complete message effectively through our advertising solutions at DataMySite.</p>
+                                    <p>Yes. We can select hotels based on their profile—choosing "Business Hotels" for B2B services or "Luxury Resorts" for high-end retail and lifestyle brands.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-12">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
+                                        <span class="badge">&nbsp;</span>Are the ads silent or do they have audio?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Most lobby screens are silent to maintain the hotel’s ambiance, so we focus on high-impact visual storytelling and clear text overlays.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-13">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
+                                        <span class="badge">&nbsp;</span>Can I run a "welcome" message for specific event attendees?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Absolutely. If a major conference is staying at the hotel, we can sync your campaign to run specifically during their event dates.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-14">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
+                                        <span class="badge">&nbsp;</span>How long is the typical ad loop?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>The loop is generally kept short (3–5 minutes) to ensure that even a guest walking through the lobby sees your ad at least once.</p>
                                 </div>
                             </div>
                         </div>

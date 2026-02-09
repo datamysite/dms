@@ -221,19 +221,20 @@
                 </div>
                 <div class="col-lg-12">
                   
-                    <h4>FAQs</h4>
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">1</span>How long does it take to build an e-commerce website?
+                                        <span class="badge">1</span>Which E-commerce platform is best for my store?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Timelines range from 3 to 8 weeks depending on your requirements, platform, and number of products.</p>
+                                    <p>We recommend platforms based on your SKU count and goals—Shopify for ease of use, WooCommerce for flexibility, or Magento for enterprise-scale operations.</p>
                                 </div>
                             </div>
                         </div>
@@ -241,13 +242,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">2</span>Can you integrate payment gateways for the UAE?
+                                        <span class="badge">2</span>Can you integrate local payment gateways?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, we integrate PayTabs, Telr, Stripe, Checkout.com, and others based on your business needs.</p>
+                                    <p>Yes, we have extensive experience integrating regional favorites like Telr, Checkout.com, and Network International, as well as Apple Pay and Google Pay.</p>
                                 </div>
                             </div>
                         </div>
@@ -255,13 +256,13 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">3</span>Will my site be SEO-ready?
+                                        <span class="badge">3</span>Is the checkout process optimized to prevent "Cart Abandonment"?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Absolutely. We implement technical and on-page SEO best practices for product, category, and CMS pages.</p>
+                                    <p>We design high-conversion checkouts with minimal steps, guest checkout options, and "Trust Signals" to ensure customers complete their purchases.</p>
                                 </div>
                             </div>
                         </div>
@@ -269,13 +270,13 @@
                             <div class="card-header" id="faqHeading-4">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                        <span class="badge">4</span>What if I need help after launch?
+                                        <span class="badge">4</span>Can the site handle "Flash Sales" with high traffic?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We offer ongoing maintenance, support, and marketing (SEO/PPC) services post-launch.</p>
+                                    <p>We build on scalable infrastructure that can automatically handle traffic spikes, ensuring your site doesn't crash during your biggest sales events.</p>
                                 </div>
                             </div>
                         </div>
@@ -283,13 +284,13 @@
                             <div class="card-header" id="faqHeading-5">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                        <span class="badge">5</span>Do you support multi-language or multi-currency sites?
+                                        <span class="badge">5</span>Do you provide inventory management tools?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes! We can build e-commerce websites with Arabic/English versions and AED, USD, or global currencies.</p>
+                                    <p>Yes, your dashboard will allow you to track stock levels, manage shipping labels, and view detailed sales reports in real-time.</p>
                                 </div>
                             </div>
                         </div>

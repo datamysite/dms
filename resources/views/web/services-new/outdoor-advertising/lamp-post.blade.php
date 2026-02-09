@@ -519,25 +519,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What are lamp post ads made of?
+                                        <span class="badge">&nbsp;</span>How many lamp posts do I need for an effective campaign?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Static lamp post banners are usually printed on vinyl or fabric materials designed to resist heat and UV rays. Digital lamp posts use LED display panels for dynamic advertising.</p>
+                                    <p>Lamp post ads work best in "sequences." We usually recommend a minimum of 5 to 10 poles in a row to create a "repetition effect" that reinforces brand recall.</p>
                                 </div>
                             </div>
                         </div>
@@ -545,13 +541,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Do I need government approval for lamp post advertising in Dubai?
+                                        <span class="badge">&nbsp;</span>Can I choose specific streets for my lamp post ads?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. Dubai Municipality and RTA approval are required. DataMySite handles all necessary permits on your behalf.</p>
+                                    <p>Yes, you can target specific high-prestige boulevards, areas near shopping malls, or roads leading directly to your business location.</p>
                                 </div>
                             </div>
                         </div>
@@ -559,13 +555,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>How long does it take to install a lamp post campaign?
+                                        <span class="badge">&nbsp;</span>What is the standard size for a lamp post banner?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Most static lamp post campaigns are installed within 2–5 days after approval and printing. Digital campaigns can go live within 24–48 hours.</p>
+                                    <p>While sizes can vary by municipality, the standard is usually a double-sided vertical banner. We handle all the custom printing to fit the specific brackets of your chosen zone.</p>
                                 </div>
                             </div>
                         </div>
@@ -573,13 +569,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Can I run a mix of static and digital lamp post ads?
+                                        <span class="badge">&nbsp;</span>How often are the banners checked for wear and tear?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Absolutely. Many clients use a hybrid approach, combining static branding across long stretches with digital screens in premium zones.</p>
+                                    <p>We conduct weekly "route checks" to ensure no banners have sagged or been damaged, keeping your campaign looking professional throughout its duration.</p>
                                 </div>
                             </div>
                         </div>
@@ -587,27 +583,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>Are lamp post ads suitable for short-term promotions?
+                                        <span class="badge">&nbsp;</span>Is there a limit to how many brands can be on one street?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. They are excellent for events, retail sales, exhibitions, or government awareness campaigns lasting from one week to several months.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-15">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                        <span class="badge">&nbsp;</span>What are the best locations for lamp post advertising in Dubai?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>High-traffic routes like Sheikh Zayed Road, Downtown, Jumeirah, and Dubai Marina deliver the strongest visibility and audience reach.</p>
+                                    <p>We offer "category exclusivity" options for certain premium routes, ensuring your brand isn't placed directly next to a competitor.</p>
                                 </div>
                             </div>
                         </div>

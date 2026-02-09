@@ -345,24 +345,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What is Petrol Station Digital Screen Advertising?
+                                        <span class="badge">&nbsp;</span>Why are petrol stations a good place to advertise?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>It’s a form of outdoor advertising that displays video or image content on digital screens at fuel stations — targeting drivers and customers during refueling or shopping.</p>
+                                    <p>Dwell time. Drivers spend an average of 3 to 5 minutes refueling, providing a "Captive Audience" with nothing to do but look at the screens around them.</p>
                                 </div>
                             </div>
                         </div>
@@ -370,13 +367,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Where can these digital screens be found?
+                                        <span class="badge">&nbsp;</span>Can I target specific petrol station brands (like ADNOC or ENOC)?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>They’re installed at pump tops, inside convenience stores, forecourts, and entrance/exit points of major petrol stations like ENOC and ADNOC.</p>
+                                    <p>Yes, we can select specific networks or even specific locations based on the surrounding neighborhood’s demographics.</p>
                                 </div>
                             </div>
                         </div>
@@ -384,13 +381,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What is the duration of ads shown on these screens?
+                                        <span class="badge">&nbsp;</span>Are the screens located at the pump or inside the convenience store?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Typically, each ad lasts between 10 to 20 seconds, playing multiple times per hour depending on campaign scheduling.</p>
+                                    <p>We offer both! Pump-side screens reach the driver, while in-store screens reach the foot traffic buying snacks or coffee.</p>
                                 </div>
                             </div>
                         </div>
@@ -398,14 +395,14 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>What are the benefits of this advertising format?
+                                        <span class="badge">&nbsp;</span>Can I use audio with my petrol station ads?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
                                     <p>
-                                        High dwell time, guaranteed attention, location targeting, and real-time creative flexibility make it one of the most effective DOOH channels.
+                                        Many pump-side screens support audio, allowing you to "speak" to the customer while they refuel, creating a multi-sensory brand experience.
                                     </p>
                                 </div>
                             </div>
@@ -414,13 +411,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>How can DataMySite help?
+                                        <span class="badge">&nbsp;</span>Is this effective for local businesses? 
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We manage the entire campaign — from creative design and site selection to ad placement, monitoring, and performance reporting — ensuring maximum visibility and ROI.</p>
+                                    <p>It’s one of the best tools for local "Hyper-Targeting." If you own a restaurant or service nearby, you are reaching people who are already physically in your area.</p>
                                 </div>
                             </div>
                         </div>

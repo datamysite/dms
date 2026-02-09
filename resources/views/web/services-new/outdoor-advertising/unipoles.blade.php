@@ -511,25 +511,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What is the difference between unipole and billboard advertising?
+                                        <span class="badge">&nbsp;</span>What is the primary advantage of a Unipole over a standard billboard?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>While both are outdoor formats, unipoles are mounted on a single tall pole, providing higher elevation and longer visibility than traditional billboards.</p>
+                                    <p>Unipoles are mounted on a single high pillar, giving them significant height. This ensures your ad is visible from a great distance and stays above the line of sight of other roadside distractions.</p>
                                 </div>
                             </div>
                         </div>
@@ -537,13 +533,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How long can a unipole advertisement stay active in Dubai?
+                                        <span class="badge">&nbsp;</span>Are your Unipoles located on major highways?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Campaigns typically run from 1 month up to 12 months, depending on your marketing goals and permit duration.</p>
+                                    <p>Yes, we have a network of Unipoles positioned along high-traffic arteries and expressways, ensuring maximum "dwell time" for commuters in traffic.</p>
                                 </div>
                             </div>
                         </div>
@@ -551,13 +547,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>Do I need special permissions for unipole advertising in Dubai?
+                                        <span class="badge">&nbsp;</span>Can a Unipole be double-sided?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. Dubai Municipality and RTA approval are required for outdoor advertising. Our team at DataMySite handles all necessary permits and documentation.</p>
+                                    <p>Absolutely. We offer V-shaped or double-sided Unipoles so your brand message can be seen by traffic moving in both directions.</p>
                                 </div>
                             </div>
                         </div>
@@ -565,13 +561,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Can I display multiple creatives on a single digital unipole?
+                                        <span class="badge">&nbsp;</span>How do you ensure the lighting is consistent at night?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, digital unipoles allow you to schedule multiple ads or time-based rotations throughout the day.</p>
+                                    <p>We use high-intensity, uniform LED floodlighting systems that prevent "hot spots" or shadows, ensuring your creative is perfectly legible 24/7.</p>
                                 </div>
                             </div>
                         </div>
@@ -579,27 +575,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>Which areas of Dubai are most effective for unipole advertising?
+                                        <span class="badge">&nbsp;</span>What wind speeds can your Unipole structures withstand?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Sheikh Zayed Road, Downtown Dubai, Business Bay, and Al Khail Road are prime locations for maximum exposure.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-15">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                        <span class="badge">&nbsp;</span>What is the ideal ad size for a unipole?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Sizes vary, but the most common range from 12m x 6m to 18m x 8m, depending on the structure and local regulations.</p>
+                                    <p>Our structures are engineered to meet strict municipal safety standards, capable of withstanding extreme weather conditions and high wind loads common in the region.</p>
                                 </div>
                             </div>
                         </div>

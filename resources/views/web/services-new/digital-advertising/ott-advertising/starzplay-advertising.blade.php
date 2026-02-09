@@ -295,24 +295,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What is StarzPlay Advertising?
+                                        <span class="badge">&nbsp;</span>Why should I choose StarzPlay over other streaming platforms?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>StarzPlay Advertising allows brands to display video and banner ads within the platform’s streaming experience, targeting regional audiences across the UAE and MENA.</p>
+                                    <p>StarzPlay has a massive footprint in the MENA region and exclusive sports rights (like Serie A). It’s perfect for brands targeting a regional or sports-focused audience.</p>
                                 </div>
                             </div>
                         </div>
@@ -320,13 +317,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How effective is advertising on StarzPlay in Dubai?
+                                        <span class="badge">&nbsp;</span>Can I target specific countries within the StarzPlay network?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>It’s highly effective due to localized reach, premium content, and long watch times. Brands enjoy stronger visibility and engagement compared to traditional TV.</p>
+                                    <p>Yes, we can geo-fence your campaign to specific countries (e.g., UAE only or KSA only) to ensure your local offers are relevant.</p>
                                 </div>
                             </div>
                         </div>
@@ -334,13 +331,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What are the available ad formats?
+                                        <span class="badge">&nbsp;</span>Are there "Live Sports" ad opportunities on StarzPlay?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>You can choose pre-roll, mid-roll, and display banner ads, as well as branded or sponsored content integrations.</p>
+                                    <p>Yes, we can place your brand during high-stakes live football matches and sporting events, which offer some of the highest engagement rates in digital media.</p>
                                 </div>
                             </div>
                         </div>
@@ -348,14 +345,14 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Can I target specific audiences on StarzPlay?
+                                        <span class="badge">&nbsp;</span>What ad formats are available on StarzPlay?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
                                     <p>
-                                        Yes. You can target by country, age, gender, language, interests, and content type — ensuring your message reaches the most relevant audience.
+                                        Options include pre-roll (before the content), mid-roll (during breaks), and branded "pauses" where your ad appears when a user pauses their show.
                                     </p>
                                 </div>
                             </div>
@@ -364,13 +361,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>How can DataMySite help with my StarzPlay campaign?
+                                        <span class="badge">&nbsp;</span>How do you measure the ROI on StarzPlay?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>DataMySite manages the entire process — from ad design and targeting setup to campaign optimization and performance tracking — helping you get maximum ROI from OTT advertising.</p>
+                                    <p>We track brand lift and attribution, showing a direct correlation between your ad flight and increases in web traffic or app installs.</p>
                                 </div>
                             </div>
                         </div>

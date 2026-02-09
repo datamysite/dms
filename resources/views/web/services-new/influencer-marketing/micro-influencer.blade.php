@@ -207,23 +207,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-9 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>Which industries benefit the most from micro-influencer campaigns?
+                                        <span class="badge">&nbsp;</span>What is the "Sweet Spot" of a Micro-influencer?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Beauty, fitness, technology, fashion, and travel industries record the greatest successes with micro influencer marketing. These are visually appealing industries driven by subjective recommendations, making them ideally suited for influencer campaigns.</p>
+                                    <p>They offer the perfect balance of "Professional Content" and "Relatability." They have enough reach to move the needle but are still seen as authentic experts in their niche.</p>
                                 </div>
                             </div>
                         </div>
@@ -231,13 +229,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How do micro-influencers build trust with their audiences?
+                                        <span class="badge">&nbsp;</span>How do you verify that their followers are real?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Micro influencers for brand promotions build profound trust with their audience because of the authenticity of their posts, the quality of their content, and its relevance to their niche. Followers see them as human and relatable; therefore, they take the influencer's recommendations seriously as opposed to just a commercial promotion.</p>
+                                    <p>We use advanced auditing software to check for "Follower Growth Spikes" and "Engagement Bots," ensuring your budget is spent on reaching real humans.</p>
                                 </div>
                             </div>
                         </div>
@@ -245,13 +243,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>Can I use more than one micro-influencer for my campaign?
+                                        <span class="badge">&nbsp;</span>Are Micro-influencers better for awareness or conversions?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Sure! Partnering with multiple influencers can increase your brand reach and engagement. This will allow you to target a wider and more diverse audience across various niches, maximizing the benefit of your micro influencer marketing campaign.</p>
+                                    <p>They excel at both. Because they are often "Subject Matter Experts" (e.g., Tech Reviewers, Beauty Gurus), their recommendations carry high conversion weight.</p>
                                 </div>
                             </div>
                         </div>
@@ -259,13 +257,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>What are the measures of success in micro-influencer campaigns?
+                                        <span class="badge">&nbsp;</span>Do Micro-influencers expect creative freedom?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Key performance indicators such as engagement measures, conversion rates, website referrals, brand mentions, and total ROI on the campaign can measure success in micro influencer marketing. Based on these metrics, it can then analyze a successful partnership between a brand and its influencer.</p>
+                                    <p>We find the best results come from "Collaborative Briefs"—we provide the key message, but we let them deliver it in their own unique style that their audience loves.</p>
                                 </div>
                             </div>
                         </div>
@@ -273,27 +271,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>What payment will have to be made for hiring the micro-influencer?
+                                        <span class="badge">&nbsp;</span>How long does a Micro-influencer campaign take to set up?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Hiring micro influencers for brand promotions can cost anywhere from a few hundred to several thousand dollars per post, depending upon factors like follower count, engagement rates, niche, and content type. They tend to be more reasonable than their macro counterparts, and such pricing ranges mainly depend on the influence and campaign requirements.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-15">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                        <span class="badge">&nbsp;</span>What criteria do I have to follow to select the best micro influencer for my company?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>While selecting the micro influencers for brand promotions, consider the demographics of their audience, engagement metrics, quality of their content, and how their values align with your brand. It is crucial to work with an influencer whose audience can treat your brand as relevant to their target audiences.</p>
+                                    <p>Usually 2 to 3 weeks, which includes vetting, product shipping, content creation, and final approval.</p>
                                 </div>
                             </div>
                         </div>

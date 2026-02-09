@@ -253,25 +253,21 @@
           <div class="container">
 
             <div class="row gy-4 first-row">
-
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>Can you target specific areas in Dubai with OTT ads?
+                                        <span class="badge">&nbsp;</span>What exactly is OTT advertising? 
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We target viewers by business district and residential area. We also take the demographic profile in Dubai into consideration.</p>
+                                    <p>OTT refers to "Over-The-Top" media services like streaming apps. Your ads are delivered via the internet directly into the viewer's TV or device, bypassing traditional cable.</p>
                                 </div>
                             </div>
                         </div>
@@ -279,13 +275,56 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Which video length works best for OTT platforms?
+                                        <span class="badge">&nbsp;</span>Can I target users based on what they are watching?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Our campaigns perform best with 15-30-second spots, though we adjust based on your specific message.</p>
+                                    <p>Yes. We can target specific genres (e.g., Action, Documentaries, Sports) or demographic data, ensuring your ad reaches a highly engaged audience.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-12">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
+                                        <span class="badge">&nbsp;</span>Are OTT ads skippable?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Many OTT formats are "Non-Skippable," meaning the viewer must watch your 15 or 30-second spot to continue their show, resulting in near 100% completion rates.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-13">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
+                                        <span class="badge">&nbsp;</span>How is OTT better than traditional TV commercials?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>OTT offers "Clickable" elements on mobile/desktop and provides precise data on who watched the ad, which traditional TV cannot match.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-14">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
+                                        <span class="badge">&nbsp;</span>Do I need a huge production budget for an OTT ad?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Not necessarily. While high-quality video is key, even well-produced 15-second "snackable" content can perform exceptionally well on streaming platforms.</p>
                                 </div>
                             </div>
                         </div>

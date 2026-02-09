@@ -263,25 +263,21 @@
           <div class="container">
 
             <div class="row gy-4 first-row">
-
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>How long do people spend in an elevator?
+                                        <span class="badge">&nbsp;</span>Why is elevator advertising so effective?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>An elevator journey lasts between thirty seconds to two minutes, which provides sufficient time for delivering concise messages.</p>
+                                    <p>It offers a "Captive Audience" in a distraction-free environment. For 20 to 40 seconds, your ad is the only thing the passenger has to look at.</p>
                                 </div>
                             </div>
                         </div>
@@ -289,13 +285,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Can I target specific buildings for Elevator advertising Dubai?
+                                        <span class="badge">&nbsp;</span>Are the ads static frames or digital screens? 
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes, we can place ads in high-rise buildings, corporate offices, and residential towers based on your target audience.</p>
+                                    <p>We offer both. You can choose classic high-quality printed frames or modern digital screens that support video and animation.</p>
                                 </div>
                             </div>
                         </div>
@@ -303,13 +299,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What businesses benefit most from lift advertising UAE?
+                                        <span class="badge">&nbsp;</span>How do you choose which buildings to advertise in? 
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Lift Advertising UAE works best for businesses targeting professionals, real estate developers, luxury brands, and service providers in commercial and residential areas.</p>
+                                    <p>We filter buildings by "Tenant Profile"—selecting high-end residential towers for B2C or Grade-A commercial towers for B2B campaigns.</p>
                                 </div>
                             </div>
                         </div>
@@ -317,13 +313,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>What is elevator advertising?
+                                        <span class="badge">&nbsp;</span>Can I change the creative during the campaign?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Elevator advertising presents some form of advertisement signage visible within elevator compartments. These particular advertising methods reach broad groups, starting with executive workers and continuing to shoppers found in shopping centres.</p>
+                                    <p>For digital elevator screens, updates are remote and instant. For static frames, a small maintenance fee covers the physical swap.</p>
                                 </div>
                             </div>
                         </div>
@@ -331,13 +327,13 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>How much does Elevator advertising Dubai cost?
+                                        <span class="badge">&nbsp;</span>What is the typical "view frequency" per person?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>The cost of Elevator advertising Dubai varies depending on factors such as ad format, location, and campaign duration. You can contact datamysite to receive a personalised price estimate.</p>
+                                    <p>Residents or office workers typically see your ad 4 to 6 times a day, leading to incredibly high brand recall and "top-of-mind" awareness.</p>
                                 </div>
                             </div>
                         </div>

@@ -207,23 +207,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-3 vertical-center">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-9 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What are macro influencers in comparison to traditional celebrities?
+                                        <span class="badge">&nbsp;</span>What is the main goal of hiring a Macro Influencer?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Celebrities rely on their showbiz, sports, or music fame, whereas macro influencers manage to build their reputation by creating content for platforms like Instagram, YouTube, and TikTok. Since they constantly connect with their followers, this generates higher engagement and credibility.</p>
+                                    <p>Macro influencers are primarily used for mass awareness and "Social Proof." They have the reach to put your brand in front of hundreds of thousands of people in a single day.</p>
                                 </div>
                             </div>
                         </div>
@@ -231,13 +229,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Are macro influencers worth the extra penny?
+                                        <span class="badge">&nbsp;</span>Are Macro influencers too "expensive" for a standard campaign?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Indeed, hiring macro influencers is highly cost-effective for brands looking for extensive awareness and professional content. Their high follower count, along with their high-quality production, pays great dividends through increased visibility and engagement.</p>
+                                    <p>While their fees are higher, their Cost Per Mille (CPM) is often very competitive because they reach such a vast audience instantly compared to smaller tiers.</p>
                                 </div>
                             </div>
                         </div>
@@ -245,13 +243,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>When will results begin to be visible from macro influencers?
+                                        <span class="badge">&nbsp;</span>How do you ensure the content doesn't feel like a "forced" ad?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Depending on the intent and platforms used to launch the macro influencer marketing campaign, results can be noticeable soon after the launch. Metrics concerning audience engagement, such as likes, shares, comments, and website traffic, usually grow fast.</p>
+                                    <p>We work with influencers who already align with your industry, ensuring the product integration feels like a natural part of their lifestyle or content routine.</p>
                                 </div>
                             </div>
                         </div>
@@ -259,13 +257,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Is it possible for the macro influencers to work in a campaign with nano or micro-influencers?
+                                        <span class="badge">&nbsp;</span>Can a Macro influencer help with my brand's SEO?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>For sure! Many brands employ different tiers of influencers to obtain an ideal blend of wider reach and more targeted engagement. Macro influencer collaborations with micro or nano influencers can create a multi-layered campaign that resonates on a personal and mass level.</p>
+                                    <p>Indirectly, yes. Their posts often drive a massive surge in "Branded Search" (people Googling your name), which signals to search engines that your brand is high-authority.</p>
                                 </div>
                             </div>
                         </div>
@@ -273,58 +271,17 @@
                             <div class="card-header" id="faqHeading-14">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                        <span class="badge">&nbsp;</span>Which industries can benefit most from employing macro influencer marketing?
+                                        <span class="badge">&nbsp;</span>Do they provide detailed analytics after the post?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Macro influencer marketing gains traction in industries such as fashion, beauty, tech, travel, and entertainment, the sectors in which visual storytelling blooms and appeals over a broad genre-the strengths of macro influencers.</p>
+                                    <p>Yes, we require Macro influencers to provide "Behind-the-Scenes" screenshots of reach, saves, and link clicks to verify the campaign's impact.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-15">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                        <span class="badge">&nbsp;</span>How to choose the right macro-influencer for my brand?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>When bringing macro-influencers on board, consider factors like audience demographics, engagement rates, content style, and harmony with your brand's values. An influencer whose personal brand resonates with your target audience will yield more authentic and impactful results.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-15">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                        <span class="badge">&nbsp;</span>Which platforms are best for macro-influencer marketing?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Instagram, YouTube, and TikTok are the main platforms for macro-influencer marketing. These platforms leverage their immense user bases and versatility of content. The choice of platform should be based on campaign objectives and content types that best present the brand.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-15">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                        <span class="badge">&nbsp;</span>How do macro-influencers ensure content authenticity with such a wide audience?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Many top macro influencers for campaigns retain their authenticity by being very discerning about their partner brands, aligning closely with their values. Even discussing sponsored products, they create real, relatable content that their audiences can embrace.</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

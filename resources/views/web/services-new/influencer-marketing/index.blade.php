@@ -416,24 +416,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>How to choose the right influencers for my brand?
+                                        <span class="badge">&nbsp;</span>How do you select the right influencers for my brand?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We rate influencers based on audience demographics, engagement rates, and how they fit your brand values. We aim to connect you with Dubai-based social media influencers who will truly resonate with your target audience.</p>
+                                    <p>We don't just look at follower counts; we use AI tools to analyze "Engagement Quality," "Audience Authenticity," and "Interest Alignment" to ensure a genuine fit.</p>
                                 </div>
                             </div>
                         </div>
@@ -441,13 +438,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Can this work for small businesses?
+                                        <span class="badge">&nbsp;</span>Do you handle the contract negotiations?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Absolutely! Influencer Marketing in Dubai is scalable and can be done on any budget. Micro-influencers often bring in high engagement and trust, which is the best option a small business can have.</p>
+                                    <p>Yes, we manage everything from the initial outreach and fee negotiation to the legal contracts and usage rights for the content.</p>
                                 </div>
                             </div>
                         </div>
@@ -455,13 +452,44 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What metrics or key performance indicators measure influencer marketing success?
+                                        <span class="badge">&nbsp;</span>How do you track the ROI of an influencer campaign?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We generate detailed reports against key metrics tracking reach, engagement rates, website traffic, and conversions. By optimising based on data-driven insights, we ensure a great overall return on investment from all campaigns.</p>
+                                    <p>We use trackable "Affiliate Links," unique promo codes, and "Pixel Tracking" to see exactly how much revenue or traffic each influencer generates.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-13">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
+                                        <span class="badge">&nbsp;</span>Can I approve the content before it goes live?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Absolutely. Every post, story, or video goes through a mandatory approval process to ensure it meets your brand guidelines.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-14">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
+                                        <span class="badge">&nbsp;</span>What happens if an influencer receives negative comments on a branded post? 
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Our team monitors the comments in real-time to manage the conversation and provide the influencer with "Approved FAQ" responses.</p>
                                 </div>
                             </div>
                         </div>

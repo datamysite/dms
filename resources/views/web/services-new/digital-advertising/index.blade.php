@@ -299,24 +299,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>Why is OTT Advertising Beneficial?
+                                        <span class="badge">&nbsp;</span>How do you prevent my ads from appearing on "junk" websites?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>OTT ads designed by us target specific demographics. It makes them more effective than traditional TV commercials.</p>
+                                    <p>We use strict "Brand Safety" filters and "Whitelisting" to ensure your ads only appear on reputable, high-traffic websites that align with your brand values.</p>
                                 </div>
                             </div>
                         </div>
@@ -324,13 +321,56 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Is DOOH Advertising Expensive?
+                                        <span class="badge">&nbsp;</span>What is the difference between Programmatic and Direct Buying?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Our DOOH ads offer dynamic content, higher engagement, and real-time updates—all at a competitive cost.</p>
+                                    <p>Programmatic uses AI to buy ad space in real-time auctions for efficiency, while Direct Buying secures a guaranteed spot on a specific premium website. We offer both based on your goals.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-12">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
+                                        <span class="badge">&nbsp;</span>How do you handle "Ad-Blindness"?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>We use "Native Advertising" and interactive rich-media formats that blend into the user's experience rather than interrupting it, leading to higher click-through rates.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-13">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
+                                        <span class="badge">&nbsp;</span>Can you retarget people who visited my site but didn't buy?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Yes, we implement "Remarketing" pixels to serve tailored ads to previous visitors, gently nudging them back to complete their purchase.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-14">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
+                                        <span class="badge">&nbsp;</span>How do you optimize the budget mid-campaign?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Our AI tools analyze performance daily. If one creative or platform is underperforming, we automatically shift that budget to the highest-converting assets.</p>
                                 </div>
                             </div>
                         </div>
