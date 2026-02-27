@@ -5,7 +5,9 @@
 	<link rel="preload" as="image" href="{{URL::to('/public/loader-gif-m.gif')}}">
 @endsection
 @section('addStyle')
-
+	
+	<link rel="preload" as="style" href="{{URL::to('/public')}}/assets/css/home-faq.css">
+	<link href="{{URL::to('/public')}}/assets/css/home-faq.css" rel="stylesheet">
 	<style type="text/css">
 		.hero .blockquote {
 		  color: #fff;
@@ -467,6 +469,7 @@
 
 	    </section><!-- /Service Cards Section -->
 
+
 	    
 	    <!-- Services Section -->
 	    <section id="services" class="services section-striped section">
@@ -501,6 +504,8 @@
 	      </div>
 
 	    </section><!-- /Services Section -->
+
+
 
 
 
@@ -540,6 +545,14 @@
         </section>
 
 
+	    
+	    <!-- Home FAQs Section -->
+	    <section id="services" class="services  section-striped section">
+
+	      @include('web.includes.elements.home-faq')
+
+	    </section><!-- /Home FAQs Section -->
+
 
 	    <!-- Call To Action Section -->
 	    <section id="call-to-action" class="call-to-action section dark-background">
@@ -567,5 +580,10 @@
 
 	</main>
 
+
+@endsection
+@section('addScript')
+	
+  <script src="{{URL::to('/public')}}/assets/js/home-faq.js" defer></script>
 
 @endsection

@@ -297,24 +297,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">&nbsp;</span>How much do SEO services cost in Dubai?
+                                        <span class="badge">&nbsp;</span>How long does it take to get to the first page of Google?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Costs vary based on your goals and competition, but we offer flexible packages for startups, SMEs, and enterprises. Contact us for a custom quote.</p>
+                                    <p>SEO is a marathon. Depending on competition, you can expect to see movement in 3 months, with significant "Page 1" results typically appearing between 6 to 12 months.</p>
                                 </div>
                             </div>
                         </div>
@@ -322,13 +319,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">&nbsp;</span>How long will it take to see results?
+                                        <span class="badge">&nbsp;</span>Do you guarantee the #1 spot on Google?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>While SEO is a long-term strategy, many clients see noticeable improvements within 3–6 months.</p>
+                                    <p>No ethical SEO agency can guarantee #1 because Google's algorithm is proprietary. However, we guarantee increased organic traffic and improved rankings for your target keywords.</p>
                                 </div>
                             </div>
                         </div>
@@ -336,13 +333,13 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">&nbsp;</span>Do you guarantee first-page rankings?
+                                        <span class="badge">&nbsp;</span>What is the difference between On-Page and Off-Page SEO?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>No ethical SEO company can guarantee rankings. We focus on sustainable growth using proven strategies that align with Google’s best practices.</p>
+                                    <p>On-Page is optimizing your actual website (speed, keywords, code). Off-Page is building your "Reputation" through backlinks and social signals from other websites.</p>
                                 </div>
                             </div>
                         </div>
@@ -350,13 +347,13 @@
                             <div class="card-header" id="faqHeading-4">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                        <span class="badge">&nbsp;</span>Can you help with multilingual SEO?
+                                        <span class="badge">&nbsp;</span>Will you provide a list of the keywords you are targeting?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Absolutely! We can optimize your website for English, Arabic, or any target language to reach Dubai’s diverse audience.</p>
+                                    <p>Yes. We start with a "Keyword Discovery" phase where we identify high-volume, low-competition terms that your actual customers are searching for.</p>
                                 </div>
                             </div>
                         </div>
@@ -364,13 +361,13 @@
                             <div class="card-header" id="faqHeading-5">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                        <span class="badge">&nbsp;</span>Do you offer SEO for agencies too?
+                                        <span class="badge">&nbsp;</span>How do I know if the SEO is actually working?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes! Our white-label solutions make it easy for agencies to deliver high-quality SEO to their clients.</p>
+                                    <p>We provide monthly reports showing your ranking positions, the amount of organic traffic you’ve received, and—most importantly—how many leads those visitors generated.</p>
                                 </div>
                             </div>
                         </div>

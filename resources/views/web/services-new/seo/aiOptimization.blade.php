@@ -276,6 +276,99 @@
         </section>
 
 
+        <section id="service-cards" class="blog-section section faq-new-section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row">
+
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
+                    <div class="faq " id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-10">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
+                                        <span class="badge">&nbsp;</span>What is "AI SEO" and how is it different from traditional SEO?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>AI SEO uses machine learning tools to predict algorithm shifts, analyze competitor content at scale, and optimize "User Intent" much faster than manual methods.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-11">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
+                                        <span class="badge">&nbsp;</span>Will AI-generated content hurt my Google rankings?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Not if it's done correctly. We use AI to generate data-driven drafts which are then refined by human editors to ensure high "E-E-A-T" (Experience, Expertise, Authoritativeness, and Trustworthiness).</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-12">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
+                                        <span class="badge">&nbsp;</span>How does AI help with keyword research?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>AI can identify "Semantic Clusters"—groups of related topics that humans might miss—allowing us to build total "Topical Authority" in your niche.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-13">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
+                                        <span class="badge">&nbsp;</span>Can AI help optimize my site's technical structure?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Yes, we use AI-driven crawlers that find technical errors, broken links, and site-speed bottlenecks that traditional tools often overlook.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-14">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
+                                        <span class="badge">&nbsp;</span>Is AI SEO more expensive?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Actually, it can be more cost-effective. AI allows us to perform massive amounts of data analysis in seconds, focusing our human experts on the high-level strategy that wins rankings.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+          </div>
+
+        </section>
+
+
+
 
         <section id="service-cards" class="blog-section section">
 
