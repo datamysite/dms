@@ -21,7 +21,7 @@ class EnquiryController extends Controller
         $n->name = $data['name'];
         $n->email = $data['email'];
         $n->phone = $data['phone'];
-        $n->service = $data['service'];
+        $n->service = empty($data['service']) ? '' : $data['service'];
         $n->description = $data['description'];
         $n->save();
 
@@ -32,7 +32,7 @@ class EnquiryController extends Controller
 
 
         $response['success'] = 'success';
-        $response['message'] = 'Success! You successfully subscribe our newsletter.';
+        $response['message'] = 'Thank you for your enquiry - We’ve received your enquiry and our team will contact you shortly.';
 
 
 
