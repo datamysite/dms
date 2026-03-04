@@ -14,12 +14,12 @@
 	    <!-- LEFT NAV -->
 	    <nav class="faq-nav" aria-label="FAQ Categories">
 	      <p class="nav-label">Browse by service</p>
-	      <button class="nav-btn active" data-cat="all">
+	      <button class="nav-btn " data-cat="all">
 	        <span class="nav-dot"></span> All Questions
 	        <span class="nav-count">28</span>
 	      </button>
 	      <div class="nav-sep"></div>
-	      <button class="nav-btn" data-cat="general">
+	      <button class="nav-btn active" data-cat="general">
 	        <span class="nav-dot"></span> General
 	        <span class="nav-count">4</span>
 	      </button>
@@ -96,7 +96,7 @@
 	        </div>
 
 	        <!-- ── OUTDOOR ── -->
-	        <div class="faq-group" data-group="outdoor">
+	        <div class="faq-group" data-group="outdoor" style="display: none;">
 	          <div class="group-label">Outdoor Advertising</div>
 
 	          <div class="faq-item" data-cat="outdoor" data-q="types outdoor advertising OOH Dubai billboards hoardings building wraps unipoles">
@@ -126,7 +126,7 @@
 	        </div>
 
 	        <!-- ── DIGITAL & DOOH ── -->
-	        <div class="faq-group" data-group="digital">
+	        <div class="faq-group" data-group="digital" style="display: none;">
 	          <div class="group-label">Digital &amp; DOOH Advertising</div>
 
 	          <div class="faq-item" data-cat="digital" data-q="what is DOOH digital out of home advertising how does it work Dubai">
@@ -151,7 +151,7 @@
 	        </div>
 
 	        <!-- ── TRANSIT ── -->
-	        <div class="faq-group" data-group="transit">
+	        <div class="faq-group" data-group="transit" style="display: none;">
 	          <div class="group-label">Transit Media</div>
 
 	          <div class="faq-item" data-cat="transit" data-q="best transit advertising options commuters Dubai metro bus taxi">
@@ -176,7 +176,7 @@
 	        </div>
 
 	        <!-- ── INFLUENCER & CELEBRITY ── -->
-	        <div class="faq-group" data-group="influencer">
+	        <div class="faq-group" data-group="influencer" style="display: none;">
 	          <div class="group-label">Influencer &amp; Celebrity Marketing</div>
 
 	          <div class="faq-item" data-cat="influencer" data-q="benefits influencer marketing brands UAE Dubai social media ROI">
@@ -196,7 +196,7 @@
 	        </div>
 
 	        <!-- ── PR, EVENTS & SPONSORSHIPS ── -->
-	        <div class="faq-group" data-group="pr">
+	        <div class="faq-group" data-group="pr" style="display: none;">
 	          <div class="group-label">PR, Events &amp; Sponsorships</div>
 
 	          <div class="faq-item" data-cat="pr" data-q="featured Gulf News Forbes Middle East value brand PR coverage publications">
@@ -216,7 +216,7 @@
 	        </div>
 
 	        <!-- ── DIGITAL MARKETING & SEO ── -->
-	        <div class="faq-group" data-group="seo">
+	        <div class="faq-group" data-group="seo" style="display: none;">
 	          <div class="group-label">Digital Marketing &amp; SEO</div>
 
 	          <div class="faq-item" data-cat="seo" data-q="improve website Google ranking Dubai local SEO GMB optimization">
