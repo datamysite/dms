@@ -4,10 +4,9 @@
 	}
 
 	.hero-img {
-	    height: 350px;
-        width: 275px;
     	padding: 10px;
     	margin-bottom: -30px;
+    	width: 100%;
 	}
 
 	.col-sm-6 {
@@ -122,6 +121,108 @@
 
 }
 @media (max-width: 767px) {
+	.hero-img{
+		background-color: #fefefe33 !important;
+	}
+	.hero-img .form1-headline{
+		color: #fff !important;
+	}
+	.hero-img .form1-sub{
+		color: #fff !important;
+	}
+
+
+
+	  .hero-img .form1-badge {
+	    background: rgba(255,90,30,0.15) !important;
+	    border: 1px solid rgba(255,90,30,0.3) !important;
+	  }
+
+	  .hero-img .form1-badge::before {
+	    background: #ff6b35 !important;
+	  }
+
+	  @keyframes pulse1 {
+	    0%, 100% { opacity: 1; transform: scale(1); }
+	    50% { opacity: 0.4; transform: scale(0.7); }
+	  }
+
+	  .hero-img .form1-headline span {
+	    color: #e04a43 !important;
+	  }
+
+	  .hero-img .form1-field .iti .iti__selected-dial-code{
+	      color: rgba(255, 255, 255) !important;
+	  }
+
+	  .hero-img .form1-field .iti__country-list .iti__flag, .iti__country-name{
+	    color: #000 !important;
+	  }
+
+	  .hero-img .form1-field input, .hero-img .form1-field textarea {
+	      background: rgba(255, 255, 255, 0.06) !important;
+	      border: 1px solid rgb(255 255 255 / 70%) !important;
+	      color: #ffffff !important;
+	  }
+
+	  .hero-img .form1-field input::placeholder,
+	  .hero-img .form1-field textarea::placeholder {
+	    color: rgba(255,255,255,0.7) !important;
+	  }
+
+	  .hero-img .form1-field input:focus,
+	  .hero-img .form1-field textarea:focus {
+	    border-color: rgba(255,107,53,0.6) !important;
+	    background: rgba(255,107,53,0.07) !important;
+	    box-shadow: 0 0 0 3px rgba(255,107,53,0.12) !important;
+	  }
+
+	  .hero-img .form1-phone {
+	    background: rgba(255,255,255,0.06) !important;
+	    border: 1px solid rgba(255,255,255,0.1) !important;
+	  }
+
+	  .hero-img .form1-phone:focus-within {
+	    border-color: rgba(255,107,53,0.6) !important;
+	    background: rgba(255,107,53,0.07) !important;
+	    box-shadow: 0 0 0 3px rgba(255,107,53,0.12) !important;
+	  }
+
+	  .hero-img .form1-phone .code {
+	    color: #ff6b35 !important;
+	  }
+
+	  .hero-img .form1-phone input {
+	    background: transparent !important;
+	    color: rgba(255,255,255,0.5) !important;
+	  }
+
+	  .hero-img .form1-phone input::placeholder { color: rgba(255,255,255,0.35) !important; }
+
+	  .hero-img .form1-divider {
+	    background: rgba(255,255,255,0.15) !important;
+	  }
+
+
+	  .hero-img .form1-btn {
+	    background: #e04a43 !important;
+	    color: #fff !important;
+	    box-shadow: 0 8px 24px rgba(255,107,53,0.4), 0 2px 6px rgba(255,107,53,0.2) !important;
+	  }
+
+	  .hero-img .form1-btn::after {
+	    background: linear-gradient(135deg, rgba(255,255,255,0.12) 0%, transparent 100%) !important;
+	  }
+
+	  .hero-img .form1-trust-item {
+	    color: #fff !important;
+	  }
+	  .hero-img .form1-trust{
+	  	gap: 34px !important;
+	  }
+
+
+
 	.case-studies-frame{
 	    width: 100%;
 	    height: 325px;
@@ -136,15 +237,18 @@
 	.post.row a h4 {
 	    margin-top: 16px;
 	}
-	.hero-img{
-		display: none;
-	}
 	.hero-title-sec {
-	    margin-top: -135px;
+	    margin-top: -45px;
+	}
+	.hero-title-sec h1{
+		font-size: 24px !important;
+        line-height: 30px !important;
+        margin-bottom: -18px;
 	}
 	.hero-title-sec p {
-	    font-size: 28px;
-	    line-height: 36px;
+	    font-size: 16px;
+        line-height: 16px;
+        padding-left: 10px !important;
 	    color: #fff;
 	}
 	.home-business{
