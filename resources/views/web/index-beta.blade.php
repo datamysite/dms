@@ -39,7 +39,7 @@
 	      <img src="{{URL::to('/public')}}/assets/img/background/banner.webp"  class="hero-img-bg" alt="Hero Image" loading="lazy">
 
 	      <div class="container">
-	        <div class="row">
+	        <div class="row split-block">
 	          <div class="col-xl-1 hide-mobile">
 	          	<p class="hero-title">DataMySite</p>
 	          </div>
@@ -98,7 +98,7 @@
 		        </div>
 	          </div>
 	          <div class="col-xl-5 hero-title-sec">
-	          	<div class="hero-spacing"></div>
+	          	<div class="hero-spacing hide-mobile"></div>
 	          	<h6 class="text-theme text-bold">D M S</h6>
 	            <h1>Top Advertising Agency in Dubai</h1>
 	            <br>
