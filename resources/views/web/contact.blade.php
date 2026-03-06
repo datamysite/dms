@@ -36,6 +36,25 @@
 
         </section>
 
+        <!-- Call To Action Section -->
+        <section id="call-to-action" class="call-to-action section dark-background" style="margin-top:-80px;">
+
+          <img src="{{URL::to('/public')}}/assets/img/background/call-to.webp" alt="Call to action background">
+
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-xl-10">
+                <div class="text-center">
+                  <h3 class="text-theme">COMPANY PROFILE</h3>
+                  <br>
+                  <p>A full overview of the services we provide, tailored for partners and clients.</p>
+                  <a class="cta-btn" href="https://datamysite.com/profile/">View Profile →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section><!-- /Call To Action Section -->
 	</main>
 
 
