@@ -424,6 +424,15 @@
 	.footer-about{
 		margin-top: 15px !important;
 	}
+
+	.company-profile-btn {
+    background-color: #e04a43;
+	    color: #ffffff !important;
+	    padding: unset !important;
+	    border-radius: unset;
+	    padding: 6px 10px !important;
+	            margin: 14px 20px;
+	}
 }
 @media (max-width: 575px) {
 	.case-studies-frame{

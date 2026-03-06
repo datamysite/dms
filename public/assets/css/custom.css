@@ -2326,3 +2326,18 @@
     top: 25px;
     right: 35px;
 }
+
+.company-profile-btn {
+    background-color: #e04a43;
+    color: #fff !important;
+    padding: 6px 10px !important;
+    border-radius: 6px;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.company-profile-btn:hover {
+    background-color: #ffffff;
+    color: #000 !important;
+}

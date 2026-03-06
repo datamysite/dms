@@ -73,6 +73,7 @@
           <li><a href="{{route('about')}}" class="{{!empty($nav) && $nav == 'about' ? 'active' : ''}}">About Us</a></li>
           <li><a href="{{route('faq')}}" class="{{!empty($nav) && $nav == 'faq' ? 'active' : ''}}">FAQ</a></li>
           <li><a href="{{route('contact')}}" class="{{!empty($nav) && $nav == 'contact' ? 'active' : ''}}">Contact Us</a></li>
+          <li><a href="https://datamysite.com/profile/" class="company-profile-btn" target="_blank">Company Profile <i class="bi bi-arrow-right"></i></a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
