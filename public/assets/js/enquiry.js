@@ -74,6 +74,73 @@ $(document).on("submit", "#enquiry-form", function (event) {
 });
 
 
+$(document).on("submit", "#enquiry-form-exit", function (event) {
+
+    var form = $(this);
+    var formData = new FormData($("#enquiry-form-exit")[0]);
+
+    let isValid = true;
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Email validation
+    let email = $(".exit-email").val().trim();
+    if (email === "" || !emailPattern.test(email)) {
+        Toast.fire({
+            icon: "warning",
+            title: "Please Enter valid Email address",
+        });
+        isValid = false;
+    } else {
+        isValid = true;
+    }
+
+    if (isValid) {
+        $(".errors").css({ display: "none" });
+        $(".exit-loading").css({display:"block"});
+        $.ajax({
+            type: "POST",
+            url: form.attr("action"),
+            data: formData,
+            dataType: "json",
+            encode: true,
+            processData: false,
+            contentType: false,
+        })
+        .done(function (data) {
+            if (data.success == "success") {
+                Toast.fire({
+                    icon: "success",
+                    title: data.message,
+                });
+
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                  event: "formSubmitEvent",       // Name of your custom event
+                });
+
+                setTimeout(function () {
+                    location.reload();
+                }, 1000);
+            } else {
+                Toast.fire({
+                    icon: "warning",
+                    title: data.message,
+                });
+            }
+            $(".exit-loading").css({display:"none"});
+        })
+        .fail(function (e) {
+            $(".exit-loading").css({display:"none"});
+            Toast.fire({
+                icon: "warning",
+                title: 'Something went wrong! Try again later.',
+            });
+        });
+    }
+    event.preventDefault();
+});
+
+
 $(document).on("submit", "#enquiry-help-form", function (event) {
 
     var form = $(this);

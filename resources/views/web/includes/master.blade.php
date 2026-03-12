@@ -199,6 +199,75 @@
       </div>
   </div>
 
+  <div class="ov" id="ov">
+    <div class="pop" role="dialog" aria-modal="true">
+
+      <button class="xbtn" onclick="closeExitPopup()">✕</button>
+
+      <!-- HEADER -->
+      <div class="hd">
+        <div class="pill"><span class="dot"></span> Before You Leave</div>
+        <h2>Get a <em>Free Strategy</em><br>From Dubai's Top Ad Agency</h2>
+        <p>Our experts respond in 60 min — no commitment, no cost.</p>
+      </div>
+
+      <!-- FORM BODY -->
+      <div class="bd">
+
+        <form action="{{route('enquiry.lite.submit')}}" id="enquiry-form-exit">
+            @csrf
+            <div class="urg">
+              <span class="ui">⚡</span>
+              <span class="ut"><strong>Free slots</strong> available today</span>
+              <span class="ucd" id="cd">29:59</span>
+            </div>
+
+            <div class="fw" id="fw">
+              <div style="display:flex;flex-direction:column;gap:8px">
+                <div class="row2">
+                  <input type="text" name="name" placeholder="Your Name" required>
+                  <div>
+                      <input type="tel" name="mainphone" id="phone-field7" required="">
+                      <input type="hidden" name="phone" id="fullphone-field7" required="">
+                  </div>
+                </div>
+                <div class="row2 row3">
+                  <input type="email" class="exit-email" name="email" placeholder="Your Email" required>
+                </div>
+                <select name="service" required>
+                  <option value="" disabled selected>I need help with…</option>
+                  <option>Billboard Advertising</option>
+                  <option>Transit Media (Metro, Bus, Taxi, Airport)</option>
+                  <option>PR Coverage (Gulf News, Forbes, Khaleej Times)</option>
+                  <option>Influencer Marketing</option>
+                  <option>Digital Marketing</option>
+                  <option>SEO &amp; Website</option>
+                  <option>Experiential Marketing</option>
+                  <option>Lead Generation</option>
+                  <option>Radio Advertising</option>
+                  <option>CGI / Creative Ads</option>
+                  <option>Celebrity Marketing</option>
+                  <option>Event Marketing &amp; Sponsorships</option>
+                  <option>Global Marketing (Saudi, India, London)</option>
+                  <option>Full 360° Strategy</option>
+                </select>
+                <button class="cta" type="submit">Claim My Free Strategy Call <span class="ar">→</span></button>
+              </div>
+
+              <div style="display:flex;flex-direction:column;gap:6px;margin-top:8px">
+                <a href="https://api.whatsapp.com/send/?phone=971525287259" class="wa" target="_blank" rel="noopener">
+                  <span class="wad"></span> WhatsApp: +971 52 528 7259
+                </a>
+                <p class="prv">🔒 No spam · 100% free · ⭐ 5.0 Google rated</p>
+                <div class="skip"><button onclick="closeExitPopup()">No thanks, I'll figure it out myself</button></div>
+
+                <div class="loading exit-loading"><img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="newsletter-loader"></div>
+              </div>
+            </div>
+          </form>
+      </div>
+    </div>
+  </div>
 
   <div class="service-menu-main">
       <button class="close-menu">< Back</button>

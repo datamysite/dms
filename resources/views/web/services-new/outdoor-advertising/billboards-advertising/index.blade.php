@@ -177,7 +177,54 @@
         </section>
 
 
-        <section id="service-cards" class="blog-section section why-us-section why-out-us-section">
+        <section class="bb-locs section testimonials">
+            <div class="container">
+              <div class="in">
+                <div class="top">
+                  <div>
+                    <div class="tag">Prime Locations</div>
+                    <h2>Dubai's Highest-Traffic<br><em>Billboard Spots</em></h2>
+                  </div>
+                  <a href="https://datamysite.com/contact-us" class="bbtn btn-r">Check Location Availability <span class="arr">→</span></a>
+                </div>
+                <div class="loc-grid">
+                  <div class="loc-card">
+                    <div class="icon">🛣️</div>
+                    <div class="loc">Sheikh Zayed Rd</div>
+                    <div class="imp">2M+ daily impressions</div>
+                    <div class="tag-pill">Premium</div>
+                  </div>
+                  <div class="loc-card">
+                    <div class="icon">🏙️</div>
+                    <div class="loc">Downtown Dubai</div>
+                    <div class="imp">Tourist & business hub</div>
+                    <div class="tag-pill">High Footfall</div>
+                  </div>
+                  <div class="loc-card">
+                    <div class="icon">🌊</div>
+                    <div class="loc">JBR / Marina</div>
+                    <div class="imp">Lifestyle & F&B audience</div>
+                    <div class="tag-pill">Expat Reach</div>
+                  </div>
+                  <div class="loc-card">
+                    <div class="icon">✈️</div>
+                    <div class="loc">DXB Airport Rd</div>
+                    <div class="imp">Global traveller exposure</div>
+                    <div class="tag-pill">Int'l Audience</div>
+                  </div>
+                  <div class="loc-card">
+                    <div class="icon">🏗️</div>
+                    <div class="loc">Business Bay</div>
+                    <div class="imp">Corporate decision-makers</div>
+                    <div class="tag-pill">B2B</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+
+
+        <section id="service-cards" class="blog-section section striped-section why-us-section why-out-us-section">
 
           <div class="container">
 
@@ -211,9 +258,32 @@
         </section>
 
 
+        <section class="bb-roi">
+            <div class="container">
+              <div class="in">
+                <div>
+                  <div class="tag white">Why Billboards Work in Dubai</div>
+                  <h2>2 Million Eyes on Your<br>Brand <em>Every Single Day</em></h2>
+                  <p>Dubai's commuter culture means billboards on Sheikh Zayed Road alone reach 2M+ daily impressions. Combined with our strategic placement expertise, your brand becomes impossible to ignore.</p>
+                  <div class="roi-stats">
+                    <div class="roi-stat"><div class="v">2M+</div><div class="l">Daily impressions SZR</div></div>
+                    <div class="roi-stat"><div class="v">96%</div><div class="l">OOH buying expertise</div></div>
+                    <div class="roi-stat"><div class="v">48hrs</div><div class="l">Availability confirmed</div></div>
+                  </div>
+                </div>
+                <div class="r">
+                  <a href="https://datamysite.com/contact-us" class="bbtn btn-w">Get My Billboard Quote <span class="arr">→</span></a>
+                  <a href="https://api.whatsapp.com/send/?phone=971525287259" class="bbtn btn-ow">💬 Check Availability Now</a>
+                  <span style="font-size:11px;color:rgba(255,255,255,.35);align-self:center">Free quote · No commitment</span>
+                </div>
+              </div>
+          </div>
+        </section>
 
 
-        <section id="service-cards" class="blog-section striped-section section pr-blogs-section">
+
+
+        <section id="service-cards" class="blog-section section pr-blogs-section">
 
           <div class="container section-title">
             <h2 class="text-theme">Blogs</h2>
@@ -244,7 +314,7 @@
 
         </section>
 
-        <section id="service-cards" class="blog-section section faq-new-section">
+        <section id="service-cards" class="blog-section section striped-section faq-new-section">
 
           <div class="container">
 

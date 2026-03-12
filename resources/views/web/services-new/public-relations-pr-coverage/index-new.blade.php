@@ -77,8 +77,6 @@
             </div>
           </div><!-- End Page Title -->
 
-
-
         <section id="service-cards" class="blog-section section">
 
           <div class="container">
@@ -121,7 +119,58 @@
         </section>
 
 
-        <hr  class="section-divider">
+        
+        <section class="pr-pubs section">
+            <div class="container">
+              <div class="in">
+                <div class="top">
+                  <div class="tag" style="justify-content:center">Our Media Partners</div>
+                  <h2>Get Featured in <em>UAE's Most Trusted</em> Publications</h2>
+                  <p class="sub">Editorial placements that build credibility money simply can't buy through paid ads.</p>
+                </div>
+                <div class="pub-grid">
+                  <div class="pub-feat-card">
+                    <div class="pf-icon">📰</div>
+                    <div class="pf-name">Gulf News</div>
+                    <div class="pf-type">English Daily · UAE</div>
+                    <div class="pf-reach">2M+ monthly readers</div>
+                    <div class="pf-cred">DA 82 · High Trust</div>
+                  </div>
+                  <div class="pub-feat-card">
+                    <div class="pf-icon">💼</div>
+                    <div class="pf-name">Forbes ME</div>
+                    <div class="pf-type">Business Magazine · Global</div>
+                    <div class="pf-reach">Exec & HNW audience</div>
+                    <div class="pf-cred">DA 94 · Global Authority</div>
+                  </div>
+                  <div class="pub-feat-card">
+                    <div class="pf-icon">🗞️</div>
+                    <div class="pf-name">Khaleej Times</div>
+                    <div class="pf-type">English Daily · 1976</div>
+                    <div class="pf-reach">1.8M+ monthly readers</div>
+                    <div class="pf-cred">DA 78 · Legacy Brand</div>
+                  </div>
+                  <div class="pub-feat-card">
+                    <div class="pf-icon">🌍</div>
+                    <div class="pf-name">Arabian News</div>
+                    <div class="pf-type">Digital Media · GCC</div>
+                    <div class="pf-reach">GCC business audience</div>
+                    <div class="pf-cred">Regional Influence</div>
+                  </div>
+                </div>
+                <div class="pub-cta">
+                  <div>
+                    <h3>Not sure which publication fits your brand?</h3>
+                    <p>Our PR team recommends the right editorial placement for your industry and goals — free.</p>
+                  </div>
+                  <div style="display:flex;gap:12px;flex-wrap:wrap;flex-shrink:0">
+                    <a href="https://datamysite.com/contact-us" class="btn btn-w">Get a Free PR Plan <span class="arr">→</span></a>
+                    <a href="https://api.whatsapp.com/send/?phone=971525287259" class="btn btn-ow">💬 WhatsApp Us</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
 
 
         <section id="testimonials" class="testimonials section">

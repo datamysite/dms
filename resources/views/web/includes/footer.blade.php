@@ -58,7 +58,7 @@
                 <div class="stars">
                   ★★★★★
                 </div>
-                <span class="count">(29 reviews)</span>
+                <span class="count">(30 reviews)</span>
               </div>
             </div>
           </div>

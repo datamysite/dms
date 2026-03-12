@@ -87,10 +87,11 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                    <h4>About Transit Media</h4>
-                    <p>At <strong>DataMySite</strong>, we turn everyday journeys into brand experiences. A taxi on Sheikh Zayed Road. A metro train packed with professionals. A bus winding through bustling streets. Each one carries your message and makes sure people see and act on it.</p>
                 </div>
                 <div class="col-lg-6">
+                    <h4>About Transit Media</h4>
+                    <br>
+                    <p>At <strong>DataMySite</strong>, we turn everyday journeys into brand experiences. A taxi on Sheikh Zayed Road. A metro train packed with professionals. A bus winding through bustling streets. Each one carries your message and makes sure people see and act on it.</p>
                     <iframe class="service-iframe transit-iframe" src="https://www.youtube.com/embed/Slt71QddNGc?si=Bn768ai2rsCC0YBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="col-lg-6">
@@ -105,7 +106,7 @@
                                         </h5>
                                     </div>
                                 </div>
-                                <div id="faqCollapse-{{$s}}" class="collapse {{$s == 0 ? 'show' : ''}}" aria-labelledby="faqHeading-{{$s}}" data-parent="#accordion">
+                                <div id="faqCollapse-{{$s}}" class="collapse" aria-labelledby="faqHeading-{{$s}}" data-parent="#accordion">
                                     <div class="card-body">
                                         <p>{{$val->description}}</p>
                                         <a href="{{URL::to('/'.$service->slug.'/'.$val->slug)}}" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
@@ -133,7 +134,47 @@
            @include('web.includes.elements.case-studies')
         </section>
 
-        <section id="service-cards" class="blog-section section striped-section pr-icon-section">
+        <section class="tm-stats striped-section">
+            <div class="container">
+              <div class="in">
+                <div class="top">
+                  <div>
+                    <div class="tag">Unmatched Reach</div>
+                    <h2>Dubai Transit by the<br><em>Numbers</em></h2>
+                  </div>
+                  <a href="https://datamysite.com/contact-us" class="btn btn-r">Plan My Campaign <span class="arr">→</span></a>
+                </div>
+                <div class="reach-grid">
+                  <div class="reach-card">
+                    <div class="ric">🚇</div>
+                    <div class="rv">650K+</div>
+                    <div class="rn">Metro Daily Riders</div>
+                    <div class="rs">RTA Dubai Metro — Red & Green Lines</div>
+                  </div>
+                  <div class="reach-card">
+                    <div class="ric">✈️</div>
+                    <div class="rv">90M+</div>
+                    <div class="rn">Airport Passengers / Year</div>
+                    <div class="rs">DXB — world's busiest int'l airport</div>
+                  </div>
+                  <div class="reach-card">
+                    <div class="ric">🚕</div>
+                    <div class="rv">30K+</div>
+                    <div class="rn">Taxis on Dubai Roads</div>
+                    <div class="rs">Full city coverage, 24/7 impressions</div>
+                  </div>
+                  <div class="reach-card">
+                    <div class="ric">🚌</div>
+                    <div class="rv">1,500+</div>
+                    <div class="rn">Bus Routes UAE-wide</div>
+                    <div class="rs">Wraps, bus stops & interior panels</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <section id="service-cards" class="blog-section section pr-icon-section">
 
           <div class="container">
 
@@ -165,7 +206,7 @@
 
 
 
-        <section id="service-cards" class="blog-section section pr-impact-section">
+        <section id="service-cards" class="blog-section section striped-section pr-impact-section">
 
           <div class="container">
 
@@ -252,7 +293,7 @@
         </section>
 
 
-        <section id="service-cards" class="blog-section section striped-section why-us-section why-out-us-section">
+        <section id="service-cards" class="blog-section section why-us-section why-out-us-section">
 
           <div class="container">
 
@@ -293,9 +334,31 @@
         </section>
 
 
+        <section class="tm-captive">
+            <div class="container">
+              <div class="in">
+                <div>
+                  <div class="tag w">Why Transit Media Works</div>
+                  <h2>Captive Audiences.<br><em>Zero Scroll-Past.</em></h2>
+                  <p>Unlike digital ads that get skipped, transit media audiences are stationary, attentive, and repeatedly exposed to your brand — with no ability to close or skip.</p>
+                  <div class="cap-list">
+                    <div class="cap-item"><span class="cck">✓</span> Metro riders commute 2x daily — same ad, every day</div>
+                    <div class="cap-item"><span class="cck">✓</span> In-flight passengers have zero distractions for 3–6 hrs</div>
+                    <div class="cap-item"><span class="cck">✓</span> Elevator ads deliver 30–90 sec undivided attention</div>
+                    <div class="cap-item"><span class="cck">✓</span> Airport lounges attract high-income, decision-making audiences</div>
+                  </div>
+                </div>
+                <div class="cap-r">
+                  <a href="https://datamysite.com/contact-us" class="bbtn btn-w">Get Transit Media Plan <span class="arr">→</span></a>
+                  <a href="https://api.whatsapp.com/send/?phone=971525287259" class="bbtn btn-ow">💬 WhatsApp for Rates</a>
+                  <span style="font-size:11px;color:rgba(255,255,255,.3);align-self:center">Free · Rates sent in 60 min</span>
+                </div>
+              </div>
+          </div>
+        </section>
 
 
-        <section id="service-cards" class="blog-section section pr-blogs-section">
+        <section id="service-cards" class="blog-section section striped-section pr-blogs-section">
 
           <div class="container section-title">
             <h2 class="text-theme">Blogs</h2>
@@ -326,7 +389,7 @@
 
         </section>
 
-        <section id="service-cards" class="blog-section section striped-section faq-new-section">
+        <section id="service-cards" class="blog-section section faq-new-section">
 
           <div class="container">
 

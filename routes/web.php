@@ -208,7 +208,9 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
         Route::prefix('radio-advertising')->group(function(){
 
             Route::get('/', 'ServiceController@radioAdvertising');
-            Route::get('/english-stations', 'ServiceController@radioAdvertisingEnglish');
+            Route::prefix('english-stations')->group(function(){
+                Route::get('/', 'ServiceController@radioAdvertisingEnglish');
+            });
             Route::get('/arabic-stations', 'ServiceController@radioAdvertisingArabic');
             Route::get('/hindi-urdu-stations', 'ServiceController@radioAdvertisingHindiUrdu');
             Route::get('/other-stations', 'ServiceController@radioAdvertisingOther');
@@ -250,6 +252,7 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
     //Enquiry
     Route::post('/enquiry', 'EnquiryController@enquiry')->name('enquiry.submit');
     Route::post('/enquiryHelp', 'EnquiryController@enquiryHelp')->name('enquiry.help.submit');
+    Route::post('/enquiryLite', 'EnquiryController@enquiryLite')->name('enquiry.lite.submit');
 
     //Aside
     Route::get('/get-aside', 'WebController@getAside');

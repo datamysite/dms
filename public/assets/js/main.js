@@ -1,8 +1,23 @@
 var host = $("meta[name='home_url']").attr("content");
 
+var exitShown = false;
 
+$(document).mouseleave(function(e) {
+    if (e.clientY <= 0 && !exitShown) {
+        openExitPopup();
+        exitShown = true;
+    }
+});
+
+function openExitPopup(){document.getElementById('ov').classList.add('show');document.body.style.overflow='hidden'}
+function closeExitPopup(){document.getElementById('ov').classList.remove('show');document.body.style.overflow=''}
+(function(){const el=document.getElementById('cd');let s=1799;(function t(){el.textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');if(s-->0)setTimeout(t,1000)})()})();
 (function() {
   "use strict";
+
+
+
+
 
   $('.google-reviews').click(function(){
     $('.reviews-sidebar').html('<div  class="newsletter-loader"><img src="'+host+'/public/loader-gif.gif" width="80px"></div>');
@@ -274,3 +289,15 @@ function copyEmail(copytext, ele){
     $(ele).html('<span class="bi bi-copy"></span>&nbsp;&nbsp;Copy');
   }, 5000);
 }
+
+const input7 = document.querySelector("#phone-field7");
+const hiddenInput7 = document.querySelector("#fullphone-field7");
+const iti7 = window.intlTelInput(input7, {
+  initialCountry: "ae",
+  separateDialCode: true,
+});
+
+input7.addEventListener('keyup', () => {
+  const fullNumber = iti7.getNumber();
+  hiddenInput7.value = fullNumber;
+});

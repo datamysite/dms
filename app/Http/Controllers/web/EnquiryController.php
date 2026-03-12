@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Enquiry;
 use App\Helpers\Mailer;
 use App\Http\Requests\EnquiryRequest;
+use App\Http\Requests\EnquiryLiteRequest;
 use App\Http\Requests\HelpRequest;
 
 class EnquiryController extends Controller
@@ -22,7 +23,35 @@ class EnquiryController extends Controller
         $n->email = $data['email'];
         $n->phone = $data['phone'];
         $n->service = empty($data['service']) ? '' : $data['service'];
-        $n->description = $data['description'];
+        $n->description = empty($data['description']) ? '' : $data['description'];
+        $n->save();
+
+
+
+        $mail = Mailer::sendMail('Thank You for Contacting Us | DMS', array($data['email']), 'DMS', 'web.emails.response', $data);
+        $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | DMS', ['waseem@datamysite.com', 'pooja.u@datamysite.com', 'abhishek@datamysite.com'], 'DMS', 'web.emails.enquiry', $data);
+
+
+        $response['success'] = 'success';
+        $response['message'] = 'Thank you for your enquiry - We’ve received your enquiry and our team will contact you shortly.';
+
+
+
+        return response()->json($response, 200);
+    }
+
+    public function enquiryLite(EnquiryLiteRequest $request){
+        $data = $request->all();
+        $response = [];
+        $status = 200;
+
+
+        $n = new Enquiry;
+        $n->name = $data['name'];
+        $n->email = $data['email'];
+        $n->phone = $data['phone'];
+        $n->service = empty($data['service']) ? '' : $data['service'];
+        $n->description = empty($data['description']) ? '' : $data['description'];
         $n->save();
 
 

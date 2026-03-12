@@ -121,7 +121,57 @@
         </section>
 
 
-        <hr  class="section-divider">
+        <section class="pr-pubs striped-section section">
+            <div class="container">
+              <div class="in">
+                <div class="top">
+                  <div class="tag" style="justify-content:center">Our Media Partners</div>
+                  <h2>Get Featured in <em>UAE's Most Trusted</em> Publications</h2>
+                  <p class="sub">Editorial placements that build credibility money simply can't buy through paid ads.</p>
+                </div>
+                <div class="pub-grid">
+                  <div class="pub-feat-card">
+                    <div class="pf-icon">📰</div>
+                    <div class="pf-name">Gulf News</div>
+                    <div class="pf-type">English Daily · UAE</div>
+                    <div class="pf-reach">2M+ monthly readers</div>
+                    <div class="pf-cred">DA 82 · High Trust</div>
+                  </div>
+                  <div class="pub-feat-card">
+                    <div class="pf-icon">💼</div>
+                    <div class="pf-name">Forbes ME</div>
+                    <div class="pf-type">Business Magazine · Global</div>
+                    <div class="pf-reach">Exec & HNW audience</div>
+                    <div class="pf-cred">DA 94 · Global Authority</div>
+                  </div>
+                  <div class="pub-feat-card">
+                    <div class="pf-icon">🗞️</div>
+                    <div class="pf-name">Khaleej Times</div>
+                    <div class="pf-type">English Daily · 1976</div>
+                    <div class="pf-reach">1.8M+ monthly readers</div>
+                    <div class="pf-cred">DA 78 · Legacy Brand</div>
+                  </div>
+                  <div class="pub-feat-card">
+                    <div class="pf-icon">🌍</div>
+                    <div class="pf-name">Arabian News</div>
+                    <div class="pf-type">Digital Media · GCC</div>
+                    <div class="pf-reach">GCC business audience</div>
+                    <div class="pf-cred">Regional Influence</div>
+                  </div>
+                </div>
+                <div class="pub-cta">
+                  <div>
+                    <h3>Not sure which publication fits your brand?</h3>
+                    <p>Our PR team recommends the right editorial placement for your industry and goals — free.</p>
+                  </div>
+                  <div style="display:flex;gap:12px;flex-wrap:wrap;flex-shrink:0">
+                    <a href="https://datamysite.com/contact-us" class="bbtn btn-w">Get a Free PR Plan <span class="arr">→</span></a>
+                    <a href="https://api.whatsapp.com/send/?phone=971525287259" class="bbtn btn-ow">💬 WhatsApp Us</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
 
 
         <section id="testimonials" class="testimonials section">
@@ -166,7 +216,34 @@
 
         </section>
 
-        <section id="service-cards" class="blog-section section striped-section pr-icon-section">
+
+        <section class="pr-cred  striped-section ">
+            <div class="container">
+              <div class="in">
+                <div class="left">
+                  <div class="tag">Why PR Coverage Matters</div>
+                  <h2>Editorial Coverage Builds<br>Trust <em>Ads Simply Can't Buy</em></h2>
+                  <p>Being featured in Gulf News or Forbes isn't just a vanity win — it signals legitimacy, generates high-authority SEO backlinks, and permanently positions your brand as an industry leader in the UAE.</p>
+                  <div class="cred-points">
+                    <div class="cp"><span class="ck">✓</span> Earns high-DA backlinks that boost your Google ranking permanently</div>
+                    <div class="cp"><span class="ck">✓</span> Trusted editorial coverage converts sceptical buyers better than paid ads</div>
+                    <div class="cp"><span class="ck">✓</span> Positions your CEO or founder as a recognised industry voice</div>
+                    <div class="cp"><span class="ck">✓</span> Repurposable across your website, social media and sales materials</div>
+                  </div>
+                  <div style="margin-top:28px;display:flex;gap:12px;flex-wrap:wrap">
+                    <a href="https://datamysite.com/contact-us" class="bbtn btn-r">Get PR Coverage Now <span class="arr">→</span></a>
+                    <a href="https://api.whatsapp.com/send/?phone=971525287259" class="bbtn btn-ro">💬 WhatsApp Us</a>
+                  </div>
+                </div>
+                <div class="cred-right">
+                  <div class="cred-stat"><div class="cv">82+</div><div class="cl">Average Domain Authority of our media partners</div></div>
+                  <div class="cred-stat"><div class="cv">4M+</div><div class="cl">Combined monthly readers reached</div></div>
+                  <div class="cred-stat"><div class="cv">48hrs</div><div class="cl">Average story submission turnaround</div></div>
+                </div>
+              </div>
+          </div>
+        </section>
+        <section id="service-cards" class="blog-section section pr-icon-section">
 
           <div class="container">
 
@@ -211,7 +288,7 @@
         </section>
 
 
-        <section id="service-cards" class="blog-section section pr-impact-section">
+        <section id="service-cards" class="blog-section section  striped-section pr-impact-section">
 
           <div class="container">
 
@@ -243,7 +320,7 @@
         </section>
 
 
-        <section id="service-cards" class="blog-section striped-section section why-us-section">
+        <section id="service-cards" class="blog-section  section why-us-section">
 
           <div class="container">
 
@@ -278,7 +355,7 @@
 
 
 
-        <section id="service-cards" class="blog-section section pr-blogs-section">
+        <section id="service-cards" class="blog-section section striped-section pr-blogs-section">
 
           <div class="container section-title">
             <h2 class="text-theme">Blogs</h2>
