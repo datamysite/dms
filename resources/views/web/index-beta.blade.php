@@ -38,7 +38,7 @@
 
 	      <img src="{{URL::to('/public')}}/assets/img/background/banner.webp"  class="hero-img-bg" alt="Hero Image" loading="lazy">
 
-          	<div class="hide-desktop">
+          	<div class="hide-desktop hide-click">
           		<div class="float-badge">
 			      <div class="badge-num">20+</div>
 			      <div class="badge-label">Years</div>
