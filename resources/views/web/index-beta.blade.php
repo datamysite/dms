@@ -38,7 +38,22 @@
 
 	      <img src="{{URL::to('/public')}}/assets/img/background/banner.webp"  class="hero-img-bg" alt="Hero Image" loading="lazy">
 
+          	<div class="hide-desktop">
+          		<div class="float-badge">
+			      <div class="badge-num">20+</div>
+			      <div class="badge-label">Years</div>
+			    </div>
+
+          		<div class="float-badge2">
+			      <div class="badge-inner">
+			        <div class="badge-dot"></div>
+			        <span class="badge-txt">Dubai's #1 Agency</span>
+			      </div>
+			    </div>
+          	</div>
+
 	      <div class="container">
+
 	        <div class="row split-block">
 	          <div class="col-xl-1 hide-mobile">
 	          	<p class="hero-title">DataMySite</p>
@@ -105,10 +120,15 @@
 	            <p class="blockquote">People do not buy goods and services.</p>
 	            <p class="blockquote">They buy relations, stories, and magic.</p>
 
-	            <button class="form1-btn home-btn" type="button">
-			        Schedule a call
-			        <span class="form1-btn-arrow">→</span>
-		      	</button>
+	            <div class="home-btns">
+		            <button class="form1-btn home-btn" type="button">
+				        Schedule a call
+				        <span class="form1-btn-arrow">→</span>
+			      	</button>
+			      	<a href="{{route('caseStudies')}}" class="btn btn-secondary">
+			          Our Work ↗
+			        </a>
+			    </div>
 	          </div>
 	        </div>
 	      </div>

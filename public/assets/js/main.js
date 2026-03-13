@@ -58,7 +58,7 @@ function closeExitPopup(){document.getElementById('ov').classList.remove('show')
   });
 
   $(document).on('click', '.home-btn', function(){
-    $('.home-btn').remove();
+    $('.home-btns').remove();
     $('.hero-img').css({display: 'block'});
     $('.hero').css({alignItems: 'center'});
   });
