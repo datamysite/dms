@@ -1,3 +1,6 @@
+.home-btn{
+    display: none !important;
+}
 .service-call-action p{
     font-size: 20px;
 }

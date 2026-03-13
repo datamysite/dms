@@ -57,6 +57,12 @@ function closeExitPopup(){document.getElementById('ov').classList.remove('show')
 
   });
 
+  $(document).on('click', '.home-btn', function(){
+    $('.home-btn').remove();
+    $('.hero-img').css({display: 'block'});
+    $('.hero').css({alignItems: 'center'});
+  });
+
   $(".home-service-btn button").click(function() {
 
       document.getElementById("services").scrollIntoView({ behavior: "smooth" });

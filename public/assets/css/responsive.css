@@ -121,7 +121,17 @@
 
 }
 @media (max-width: 767px) {
+	.hero {
+		align-items: flex-end;
+	}
+	.home-btn {
+		display: block !important;
+	    width: unset !important;
+	    padding: 10px 16px;
+	    margin-top: 33px !important;
+	}
 	.hero-img{
+		display: none;
 		background-color: #fefefe33 !important;
 	}
 	.hero-img .form1-headline{
