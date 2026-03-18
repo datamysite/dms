@@ -2959,3 +2959,6 @@ input::placeholder{color:#b5bdc7}
   .hide-desktop{
     display: none;
   }
+.align-content-center{
+  align-content: center;
+}

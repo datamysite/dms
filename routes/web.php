@@ -210,6 +210,8 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
             Route::get('/', 'ServiceController@radioAdvertising');
             Route::prefix('english-stations')->group(function(){
                 Route::get('/', 'ServiceController@radioAdvertisingEnglish');
+                Route::get('/tag-91-1', 'ServiceController@radioAdvertisingEnglishtag911');
+                Route::get('/hit-96-7', 'ServiceController@radioAdvertisingEnglishhit967');
             });
             Route::get('/arabic-stations', 'ServiceController@radioAdvertisingArabic');
             Route::get('/hindi-urdu-stations', 'ServiceController@radioAdvertisingHindiUrdu');

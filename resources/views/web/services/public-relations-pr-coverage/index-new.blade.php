@@ -17,7 +17,7 @@
                         <h1>&#10687; {{$service->name}}</h1>
                         <h2>The Impact of <br>Public Relations</h2>
                         <br>
-                        <p>Effective Public Relations (PR Coverage) can be measured through media reach, audience sentiment, and overall brand recognition. Businesses that develop appropriate strategies obtain enhanced credibility alongside market leadership capacity.</p>
+                        <p>At DataMySite, we secure editorial placements, media features, and press coverage across 30+ of the UAE's and the world's most respected publications. From Gulf News and Khaleej Times to Forbes Middle East and Business Insider — we get your story in front of the audiences that matter most.</p>
                     </div>
                     <div class="col-lg-4">
                         <div class="aside-form">
@@ -86,8 +86,20 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Public Relations (PR) Coverage</h4>
-                    <p>In today's digital world, securing Public Relations (PR Coverage) is crucial for businesses aiming to build credibility and authority. Your brand benefits from increased visibility, which solves customer trust issues and enables you to take leadership in your industry. At datamysite, we specialise in securing high-impact <strong>30+ Media houses</strong>, PR coverage UAE that ensures your brand reaches the right audience through powerful storytelling and strategic media placements.</p>
+                    <h4>What Is PR Coverage and Why Does It Matter in the UAE?</h4>
+                    <p>
+                        PR coverage refers to editorial mentions of your brand in news publications, magazines, digital media, and broadcast outlets. Unlike paid advertising, editorial coverage carries implicit third-party validation — a journalist or editor chose to feature your brand because it was credible and newsworthy.
+                        <br>
+                        In the UAE, where consumers and B2B buyers are highly media-literate and trust-driven, this distinction is enormous:
+                    </p>
+                    <ul>
+                        <li>Editorial coverage generates 3x higher trust than equivalent paid advertising</li>
+                        <li>A feature in Forbes or Gulf News permanently elevates brand perception</li>
+                        <li>High-DA media backlinks directly improve your Google search rankings</li>
+                        <li>PR coverage is repurposable across your website, pitch decks, and social media as social proof</li>
+                        <li>CEO or founder features establish personal brand authority and open B2B doors</li>
+
+                    </ul>
                 </div>
                 <div class="col-lg-6">
                     <iframe class="service-iframe" src="https://www.youtube.com/embed/WR2HoD0FpyM?si=Ba7ZxHCiRwpc1Hyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -243,75 +255,30 @@
               </div>
           </div>
         </section>
-        <section id="service-cards" class="blog-section section pr-icon-section">
+        
+
+
+
+        <section id="service-cards" class="blog-section section  pr-impact-section">
 
           <div class="container">
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Our Public Relations (PR Coverage) Services</h4>
-                    <p>Here's what we offer:</p>
-                </div>
-                <div class="col-lg-6">
-                    <img src="{{URL::to('/public/assets/img/pr-icon1.png')}}" alt="Pr Icon">
-                    <h5>Media Relations</h5>
-                    <p>
-                        Our team maintains powerful connections with prominent journalists as well as editors and influential media establishments that operate across the UAE. We aid in establishing brand placements in distinguished newspapers, prominent magazines, and digital outlets to expand your brand exposure considerably. Our expertise extends to Gulf News advertising Dubai and Khaleej Times PR coverage UAE, helping businesses gain premium visibility.
-                    </p>
-                </div>
-                <div class="col-lg-6">
-                    <img src="{{URL::to('/public/assets/img/pr-icon2.png')}}" alt="Pr Icon">
-                    <h5>Press Release Writing & Distribution</h5>
-                    <p>
-                        We craft compelling press releases designed to capture media attention and generate extensive Public Relations (PR Coverage). Organisations receive enhanced brand awareness while boosting engagement when we transmit their press releases to specialised media institutions.
-                    </p>
-                </div>
-                <div class="col-lg-6">
-                    <img src="{{URL::to('/public/assets/img/pr-icon3.png')}}" alt="Pr Icon">
-                    <h5>Crisis Communication</h5>
-                    <p>
-                        Reputation management is key. We provide crisis management expertise to control public perception and decrease negative exposure when unforeseen situations occur. The team accepts responsibility for safeguarding both your brand's integrity and its credibility.
-                    </p>
-                </div>
-                <div class="col-lg-6">
-                    <img src="{{URL::to('/public/assets/img/pr-icon4.png')}}" alt="Pr Icon">
-                    <h5>Leadership & Executive Positioning</h5>
-                    <p>
-                        A quality PR initiative serves more than brand advertisement functions since it establishes executive leaders as industry influencers. Through interviews, opinion pieces, and guest articles in leading publications like Forbes PR campaigns GCC, we help establish authority in your industry.
-                    </p>
-                </div>  
-            </div>
-
-          </div>
-
-        </section>
-
-
-        <section id="service-cards" class="blog-section section  striped-section pr-impact-section">
-
-          <div class="container">
-
-            <div class="row gy-4 first-row">
-
-                <div class="col-lg-5">
+                <div class="col-lg-4">
                     <img src="{{URL::to('/public/pr-coverage.png')}}" width="100%" alt="Impact of PR Coverage">
                 </div>
+                <div class="col-lg-1"></div>
                 <div class="col-lg-7">
-                    <h4>The Impact of Public Relations (PR Coverage)</h4>
-                    <p>
-                        Public Relations (PR Coverage) is the tangible outcome of a well-executed PR strategy. It includes:
-                    </p>
+                    <h4>The Business Impact of PR Coverage — What You Can Expect</h4>
                     <ul>
-                        <li>News articles and blog mentions</li>
-                        <li>Social media discussions and influencer endorsements</li>
-                        <li>TV, radio, and podcast appearances</li>
-                        <li>Featured interviews in top publications</li>
-                    </ul>
+                        <li><strong>Permanent SEO value</strong><br> — high-DA editorial backlinks from Gulf News, Forbes, and Forbes ME improve your domain authority and search rankings long-term<br><br></li>
+                        <li><strong>Increased conversion rates</strong><br> — prospects who have 'seen you in Forbes' convert at significantly higher rates than cold leads<br><br></li>
+                        <li><strong>Investor and partner credibility</strong><br> — enterprise clients and investors actively research brands before meetings; PR coverage provides powerful pre-meeting validation<br><br></li>
+                        <li><strong>Talent attraction</strong><br> — top candidates prefer joining brands they've seen featured in respected media<br><br></li>
+                        <li><strong>Event and speaking invitations</strong><br> — media visibility generates inbound speaking and partnership opportunities<br><br></li>
 
-                    <p>
-                        Effective Public Relations (PR Coverage) can be measured through media reach, audience sentiment, and overall brand recognition. Businesses that develop appropriate strategies obtain enhanced credibility alongside market leadership capacity.
-                    </p>
+                    </ul>
                 </div> 
             </div>
 
@@ -319,6 +286,70 @@
 
         </section>
 
+
+
+
+        <section id="service-cards" class="blog-section section striped-section pr-icon-section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row outdoor-service-col-section">
+
+                <div class="col-lg-6">
+                    <h4>Our Media Network: 30+ Publications We Place Your Brand In</h4>
+                    <p>DataMySite has built active editorial relationships across an extensive portfolio of regional and global publications. Key placements include:</p>
+
+                    <h5>UAE & GCC Publications</h5>
+                    <p>Gulf News (DA 82, 2M+ monthly readers), Khaleej Times (DA 78, UAE's oldest English daily), Arabian Business, Gulf Times, and Esquire Middle East. These publications are the go-to sources for UAE residents, business decision-makers, and expat professionals. A feature here positions your brand as part of the UAE's business and lifestyle conversation.</p>
+                    <h5>Global Business & Finance</h5>
+                    <p>Forbes Middle East (DA 94), Financial Times, Business Insider, Entrepreneur, Fast Company, and International Business Times. Global publications carry enormous credibility weight with investors, enterprise clients, and international partners. A Forbes feature, in particular, signals that your brand has achieved a standard of excellence recognised worldwide.</p>
+                    <h5>Technology & Innovation Media</h5>
+                    <p>Hackernoon, GeekWire Middle East, Analytics Insight, and Digital Journal. For technology companies, SaaS platforms, and fintech brands, coverage in tech media builds credibility with technical buyers and investors.</p>
+                    <h5>Lifestyle & Luxury Media</h5>
+                    <p>Luxury Lifestyle Magazine UK, Esquire ME, and LA Weekly. For premium consumer brands, hospitality groups, and luxury real estate developers, lifestyle media coverage reaches high-net-worth audiences in the right context.</p>
+                    <h5>Newswire Distribution</h5>
+                    <p>Associated Press and Apple News distribution ensures your press releases and stories are indexed across thousands of downstream platforms — multiplying reach with a single submission.</p>
+
+                </div>
+                <div class="col-lg-6">
+                    <h4>Our PR Services in Dubai</h4>
+                    
+                    <h5>Media Relations & Editorial Placement</h5>
+                    <p>We pitch your brand story, product launches, company milestones, and expert commentary to journalists and editors at UAE and international publications. Our existing editorial relationships with reporters at Gulf News, Forbes, Khaleej Times, and 27 other outlets mean your story lands in the right inbox — not a general submissions queue.
+                    <br>
+                    Editorial placements are secured on merit and newsworthiness. We guide you on the angles, timing, and narrative framing that gives your story the highest chance of publication.</p>
+                    <h5>Press Release Writing & Distribution</h5>
+                    <p>A well-written press release is the foundation of earned media. Our editorial team writes release copy to journalistic standards — clean, factual, newsworthy, and formatted for maximum pickup. We then distribute to a curated list of UAE and international media contacts relevant to your industry.
+                    <br>
+                    Typical press release triggers: company launches, funding rounds, product launches, key hires, awards, partnerships, event sponsorships, and milestone announcements.</p>
+
+                    <h5>CEO & Executive Thought Leadership</h5>
+                    <p>Personal brand authority is among the most valuable business assets in today's UAE market. We place your CEO, founder, or senior executives in:</p>
+                    <ul>
+                        <li>Expert op-eds and opinion articles in Gulf News, Forbes, and Entrepreneur</li>
+                        <li>Industry panel discussions and conference speaking slots</li>
+                        <li>Podcast appearances and broadcast interview placements</li>
+                        <li>LinkedIn thought leadership articles syndicated to media platforms</li>
+                    </ul>
+                    <p>Executive positioning is particularly powerful for B2B companies, professional service firms, and brands looking to attract high-value partnership or investment conversations.</p>
+
+                    <h5>Crisis Communication & Reputation Management</h5>
+                    <p>When something goes wrong — and in business, it eventually does — how you communicate defines your brand's long-term reputation. DataMySite provides crisis communication strategy and media management to protect your brand's integrity, control the narrative, and restore stakeholder trust.
+                    <br>
+                    Our crisis services include: media monitoring, holding statement preparation, journalist response management, social media crisis response, and reputation recovery planning.</p>
+                    <h5>Award Nominations & Rankings</h5>
+                    <p>UAE and GCC business media publish multiple prestigious annual award lists — Forbes 30 Under 30, Entrepreneur's 100, Gulf News Business Awards, and more. Being nominated and featured in these rankings creates lasting credibility. We identify the right awards for your brand and manage the nomination and submission process.</p>
+
+                </div>
+                  
+            </div>
+            <div class="uni-strip-see-more">
+                <button data-class="outdoor-service-col-section">See More</button>
+            </div>
+
+          </div>
+
+        </section>
 
         <section id="service-cards" class="blog-section  section why-us-section">
 
@@ -326,26 +357,27 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-9">
-                    <h4>Why Choose Datamysite for Public Relations (PR Coverage)?</h4>
+                <div class="col-lg-12">
+                    <h4>PR Coverage Packages at DataMySite</h4>
                     <p>
-                        Below are a few reasons that make us stand out:
-                        <br>
-                        Expertise in the Dubai Market: We have in-depth knowledge of the region's media landscape as a leading PR agency in Dubai. By having solid media house relationships, our branding receives maximum visibility in the market.
+                        We offer three service tiers to suit businesses at different stages:
                     </p>
-                    <ul>
-                        <li><strong>Tailored Strategies</strong>: Our firm adjusts its PR strategies to meet the distinctive characteristics of each business. That's why we customise PR campaigns to align with your business objectives, whether you're looking for high-impact PR coverage UAE or niche audience targeting.</li>
-                        <li><strong>Proven Track Record</strong>: Since 2021, datamysite has functioned continually as a leader in digital marketing and PR across the market. We've helped businesses across industries secure Public Relations (PR Coverage) in top-tier publications, enhancing their brand visibility and reputation.</li>
-                        <li><strong>Data-Driven Approach</strong>: Data analytics powers our PR tracking system, which generates measurable performance results. The team watches media coverage alongside measuring audience relationships and branding feedback to optimise outcome-based strategies.</li>
-                    </ul>
-
-                    <p>
-                        Datamysite combines regional insights and worldwide PR techniques to deliver strong outcomes for brands. Let's connect and discuss how we can drive Public Relations (PR Coverage) success for your business. Contact us today at (+971) 42 957 001.
-                    </p>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h5>Starter PR</h5>
+                            <p> — Press release writing and distribution to UAE newswires + 1 editorial placement in a UAE publication. <br>Ideal for: new businesses, product launches.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5>Growth PR</h5>
+                            <p> — Monthly media outreach + 2–3 editorial placements per month across UAE and regional publications + executive positioning content. Ideal for: scaling businesses with active news flow.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5>Authority PR</h5>
+                            <p> — Full-service monthly retainer including media relations, press releases, executive thought leadership, award nominations, crisis monitoring, and 5+ placements per month across UAE, GCC, and global publications.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 mob-not-visible">
-                    <img src="{{URL::to('/public/assets/img/why-us.png')}}" width="100%" alt="Why choose us">
-                </div> 
             </div>
 
           </div>
@@ -392,24 +424,21 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-1">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                        <span class="badge">&nbsp;</span>How long does it take to see results from Public Relations (PR Coverage)?
+                                        <span class="badge">&nbsp;</span>Is editorial coverage guaranteed?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse show" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>PR results vary depending on the campaign's scope. Media placements require between weeks and months to complete their publication process.</p>
+                                    <p>We do not guarantee specific editorial placements, as editorial decisions rest with journalists and editors. However, our relationships and track record mean we have an exceptionally high placement success rate. We will always be transparent about which outlets are realistic targets for your story.</p>
                                 </div>
                             </div>
                         </div>
@@ -417,13 +446,13 @@
                             <div class="card-header" id="faqHeading-2">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                        <span class="badge">&nbsp;</span>What types of businesses benefit from PR services?
+                                        <span class="badge">&nbsp;</span>How long does it take to get published?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>PR services deliver unquestionable value to launching startups just as much as they serve established small businesses. Any company, regardless of size, can multiply its value through PR by establishing trustworthiness, which generates business partnership opportunities and market growth.</p>
+                                    <p>Timelines vary by publication. Digital outlets can publish within 48–72 hours of receiving a story. Print publications typically have a 2–4 week lead time. For newswire distribution, your story goes live within 24 hours.</p>
                                 </div>
                             </div>
                         </div>
@@ -431,13 +460,13 @@
                             <div class="card-header" id="faqHeading-3">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                        <span class="badge">&nbsp;</span>Can you help with both traditional and digital PR?
+                                        <span class="badge">&nbsp;</span>Can PR coverage replace paid advertising?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Our approach brings together traditional media outreach with digital PR. This helps increase your brand's visibility across different channels.</p>
+                                    <p>PR and advertising serve different functions. Advertising delivers reach and frequency. PR delivers credibility and trust. The most effective marketing strategies combine both — using advertising to drive awareness and PR to convert that awareness into conviction.</p>
                                 </div>
                             </div>
                         </div>
@@ -445,13 +474,13 @@
                             <div class="card-header" id="faqHeading-4">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                        <span class="badge">&nbsp;</span>How do you track the success of a PR campaign?
+                                        <span class="badge">&nbsp;</span>Do you offer one-off placements or only retainers?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Success measurement of PR campaigns relies on counting media appearances, tracking audience response and publication circulation, and examining positive or negative feedback. Our data-driven method guarantees powerful news coverage for your brand.</p>
+                                    <p>Both. We offer one-off placements for specific campaign moments (product launches, funding announcements) and monthly retainers for ongoing media presence. We'll recommend the right approach based on your goals.</p>
                                 </div>
                             </div>
                         </div>

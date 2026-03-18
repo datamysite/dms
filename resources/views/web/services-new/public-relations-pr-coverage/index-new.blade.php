@@ -17,7 +17,7 @@
                         <h1>&#10687; {{$service->name}}</h1>
                         <h2>The Impact of <br>Public Relations</h2>
                         <br>
-                        <p>Effective Public Relations (PR Coverage) can be measured through media reach, audience sentiment, and overall brand recognition. Businesses that develop appropriate strategies obtain enhanced credibility alongside market leadership capacity.</p>
+                        <p>At DataMySite, we secure editorial placements, media features, and press coverage across 30+ of the UAE's and the world's most respected publications. From Gulf News and Khaleej Times to Forbes Middle East and Business Insider — we get your story in front of the audiences that matter most.</p>
                     </div>
                     <div class="col-lg-4">
                         <div class="aside-form">

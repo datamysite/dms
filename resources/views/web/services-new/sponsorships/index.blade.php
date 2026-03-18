@@ -18,7 +18,7 @@
                         <h2>The Impact of Sponsorships</h2>
                         <br>
                         <p>
-                            Brand visibility, together with credibility enhancement, along with targeted audience engagement, are all three traits that sponsorships can efficiently deliver. Datamysite provides sponsorship opportunities Dubai, which fulfil your brand's vision and strategic goals.
+                            At DataMySite, we identify, negotiate, activate, and manage sponsorship partnerships that deliver measurable brand value — not just a logo on a banner. From Dubai's largest corporate conferences to entertainment festivals, sports tournaments, and cultural initiatives, we connect your brand to the stages that matter.
                         </p>
                     </div>
                     <div class="col-lg-4">
@@ -87,18 +87,25 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Sponsorship Opportunities in Dubai for Businesses</h4>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Why Sponsorship in Dubai Delivers Superior Brand Value</h4>
                     <p>
-                        The business centre of Dubai provides multiple opportunities to sponsors who wish to expand their market reach. Sponsorship programs provide organisations with a simple approach to reach potential customers and build their brand visibility in various settings, from exhibitions to social initiatives and corporate events.
+                        Dubai hosts more international events per capita than almost any other city in the world. GITEX, Expo City, ADIPEC, Art Dubai, Dubai World Cup, Dubai Shopping Festival, and dozens of conferences, concerts, and sporting events draw millions of local and international attendees annually.
                         <br>
-                        Our team takes care of your brand visibility by connecting you to events as well as influencers and community projects to achieve maximum exposure.
+                        Sponsoring the right event in Dubai offers a fundamentally different brand experience from advertising:
                     </p>
+                    <ul>
+                        <li><strong>Emotional association</strong> — your brand connects with audiences at moments of excitement, community, and celebration</li>
+                        <li><strong>Audience quality</strong> — event attendees are pre-qualified by their interest in the event's category</li>
+                        <li><strong>Networking access</strong> — sponsorship typically includes VIP access and executive networking opportunities</li>
+                        <li><strong>Media value</strong> — sponsored events generate PR coverage, social media content, and photo/video assets</li>
+                        <li><strong>Long-term brand memory</strong> — people remember sponsored experiences far longer than ads</li>
+
+                    </ul>
                 </div>
                 <div class="col-lg-6">
-                    <iframe class="service-iframe spons-iframe" src="https://www.youtube.com/embed/WO0k1eTFGZQ?si=FWzEFlLrWaObGa4m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="col-lg-6">
+                    <iframe class="service-iframe outdoor-iframe" src="https://www.youtube.com/embed/WO0k1eTFGZQ?si=FWzEFlLrWaObGa4m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
                     <div class="faq " id="accordion">
                         @foreach($subservices as $key => $val)
                             @php $s = $key; @endphp
@@ -110,7 +117,7 @@
                                         </h5>
                                     </div>
                                 </div>
-                                <div id="faqCollapse-{{$s}}" class="collapse show" aria-labelledby="faqHeading-{{$s}}" data-parent="#accordion">
+                                <div id="faqCollapse-{{$s}}" class="collapse" aria-labelledby="faqHeading-{{$s}}" data-parent="#accordion">
                                     <div class="card-body">
                                         <p>{{$val->description}}</p>
                                         <a href="{{URL::to('/'.$service->slug.'/'.$val->slug)}}" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
@@ -138,27 +145,53 @@
            @include('web.includes.elements.case-studies')
         </section>
 
-         <section id="service-cards" class="blog-section section striped-section pr-icon-section">
+        
+        <section id="service-cards" class="blog-section section striped-section pr-icon-section">
 
           <div class="container">
 
-            <div class="row gy-4 split-block first-row">
+            <div class="row gy-4 first-row outdoor-service-col-section">
 
-                <div class="col-lg-4 vertical-center">
-                    <img src="{{URL::to('/public/section-images/image15.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
+                <div class="col-lg-12">
+                    <h4>Our Sponsorship Services in Dubai</h4>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7 vertical-center">
-                    <h4>Our Sponsorship Services</h4>
-                    <p>As a company we offer multiple sponsorship programs designed for every marketing requirement.</p>
-                    <ul>
-                        <li><strong>Event Sponsorships</strong>: Businesses gain greater brand visibility by linking up with prestigious events.</li>
-                        <li><strong>Media Sponsorships</strong>: Collaborating with media platforms to showcase your brand.</li>
-                        <li><strong>Community Sponsorships</strong>: This involves backing neighbourhood programs which develop good relations and brand appreciation among residents.</li>
-                       <li> <strong>Influencer Sponsorships</strong>: Leveraging the reach of key influencers in your industry.</li>
-                       <li> <strong>Corporate Sponsorships</strong>: Your business can expand its reach through Corporate Sponsorships by matching up with respected companies.</li>
-                    </ul>
+                <div class="col-lg-6">
+                    <h5>Corporate Event Sponsorships</h5>
+                    <p>Corporate event sponsorships position your brand alongside industry leaders, decision-makers, and enterprise buyers. We identify the right conferences, summits, trade expos, and networking events for your category — whether that's fintech, real estate, healthcare, technology, or retail.
+                    What corporate sponsorship delivers: logo placement at venue and on all event collateral, branded speaking slots and panel moderation opportunities, exhibition space and product demonstrations, branded lanyards, bags, or event app integrations, delegate list access (where applicable), and post-event media coverage attribution.
+                    Key Dubai corporate sponsorship opportunities we work with include: GITEX Global, Cityscape Dubai, UAE PropTech Forum, Arab Health, ADIPEC, and the numerous industry summits hosted at Dubai World Trade Centre.</p>
                 </div>
+                <div class="col-lg-6">
+                    <h5>Entertainment & Cultural Sponsorships</h5>
+                    <p>Entertainment sponsorships connect your brand to concerts, festivals, theatre productions, film screenings, and cultural events. In Dubai — where entertainment options range from international concerts at Coca-Cola Arena to beach festivals, Comedy Nights, and the Dubai Film Festival — entertainment sponsorships deliver mass audience engagement.
+                    Entertainment sponsorship activations we execute: branded stage experiences and photo walls, product sampling and on-site activations, digital and social media co-branded content, influencer activation at the event, and VIP hospitality packages for client entertainment.
+                    Ideal for: consumer brands, FMCG, food and beverage, automotive, lifestyle, banking, and telecom companies.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Sports Sponsorships</h5>
+                    <p>Sport is the universal language of passion in the UAE. Sponsoring sports teams, tournaments, or individual athletes puts your brand in front of one of the most emotionally engaged, loyal audiences in existence.
+                    We facilitate sponsorships for: Dubai Rugby 7s, UAE cricket tournaments, the Dubai Marathon, padel and tennis tournaments, fitness events and CrossFit competitions, as well as regional grassroots sports initiatives.
+                    Sports sponsorship formats include: shirt and kit branding, stadium and pitch-side advertising, match-day programme advertising, athlete endorsement integrations, and digital content partnerships with sports media channels.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Community & CSR Sponsorships</h5>
+                    <p>Community sponsorships — supporting schools, charitable causes, environmental initiatives, and social programmes — build genuine brand affection with local communities. In the UAE, where CSR alignment is increasingly important to corporate buyers and consumers, community sponsorships signal that your brand stands for more than profit.
+                    We identify community programmes and NGO partnerships aligned with your brand values and manage the activation, publicity, and reporting.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Influencer & Content Creator Sponsorships</h5>
+                    <p>Sponsoring influential content creators in the UAE is one of the highest-ROI forms of sponsorship. Instead of a one-off post, we structure content creator sponsorship deals that integrate your brand authentically into an influencer's ongoing content — across Instagram, YouTube, TikTok, and podcast platforms.
+                    We work with nano, micro, and macro influencers across lifestyle, business, food, travel, fashion, fitness, and tech verticals — with follower bases ranging from 10,000 to 1M+.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Media Sponsorships</h5>
+                    <p>Sponsoring media properties — radio shows, podcast series, digital publications, or YouTube channels — delivers consistent brand mentions to a loyal, niche audience. We identify UAE media properties aligned with your target audience and negotiate sponsorship packages that include verbal endorsements, branded segments, and social media integration.</p>
+
+                </div>
+                  
+            </div>
+            <div class="uni-strip-see-more">
+                <button data-class="outdoor-service-col-section">See More</button>
             </div>
 
           </div>
@@ -172,90 +205,17 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-8 vertical-center">
-                    <h4>TYPES OF SPONSORSHIPS</h4>
-                    <p>Here’s what we offer:</p>
-                    <div class="faq " id="accordion">
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-211">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-211" data-aria-expanded="false" data-aria-controls="faqCollapse-211">
-                                        <span class="badge">&nbsp;</span>Corporate Sponsorships UAE
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-211" class="collapse show" aria-labelledby="faqHeading-211" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>
-                                        Through corporate sponsorships, UAE organisations enable businesses to link up with respected organisations while boosting their brand reliability factor. Through these strategic alliances, businesses achieve exposure across expert industry-based conferences, meetings, and networking functions.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-212">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-212" data-aria-expanded="false" data-aria-controls="faqCollapse-212">
-                                        <span class="badge">&nbsp;</span>Event Sponsorships Dubai
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-212" class="collapse" aria-labelledby="faqHeading-212" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>
-                                        The sponsorship of events in Dubai presents organisations with dedicated opportunities to connect directly with their desired market sector. Businesses can capitalise on their unique sponsorship potential through trade shows mixed with sports tournaments and music festivals, which deliver marketing tools ranging from interactive site exhibits to digital communication and face-to-face audience engagement.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-213">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-213" data-aria-expanded="false" data-aria-controls="faqCollapse-213">
-                                        <span class="badge">&nbsp;</span>Brand Sponsorships UAE
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-213" class="collapse" aria-labelledby="faqHeading-213" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>
-                                        Brand sponsorships UAE facilitates partnerships between companies and appropriate entities to build matching brand images. Companies should use their resources to support influencers while also backing media outlets and major industry conferences which work to increase brand presence among customers.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-214">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-214" data-aria-expanded="false" data-aria-controls="faqCollapse-214">
-                                        <span class="badge">&nbsp;</span>Sponsorship Activation Services
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-214" class="collapse" aria-labelledby="faqHeading-214" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>
-                                        The Sponsorship Activation Services Dubai allows businesses to achieve maximum return from their sponsorship investments. Strategic placements of the brand and digital engagement solutions with experiential marketing help build interactive moments that stick with target audiences..
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-215">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-215" data-aria-expanded="false" data-aria-controls="faqCollapse-215">
-                                        <span class="badge">&nbsp;</span>Sponsorship Marketing UAE
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-215" class="collapse" aria-labelledby="faqHeading-215" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>
-                                        The sponsorship marketing model UAE allows companies to implement sponsorships within their unified marketing approaches. Businesses expand their brand visibility along with increasing audience interaction when they use sponsorships across digital advertising, social media platforms, and PR activities.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <h4>Sponsorship Activation — Maximising Your Investment</h4>
+                    <p>Signing a sponsorship deal is only the beginning. The real value is created through activation — how you bring your brand to life at the event and in the surrounding media environment. DataMySite provides full sponsorship activation services:</p>
+                    <ul>
+                        <li>On-site brand experience design — branded booths, experiential zones, product demos, and interactive installations</li>
+                        <li>Pre-event PR and social media campaigns building anticipation</li>
+                        <li>Influencer coverage at the event for social amplification</li>
+                        <li>Lead capture and data collection integrated into your activation</li>
+                        <li>Post-event content production — reels, highlight videos, case study assets</li>
+                        <li>Measuring ROI — media value tracking, lead attribution, and engagement metrics</li>
+
+                    </ul>
                 </div>
                 <div class="col-lg-4 vertical-center">
                     <img src="{{URL::to('/public/section-images/image16.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
@@ -275,18 +235,20 @@
 
             <div class="row gy-4 split-block first-row">
 
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <img src="{{URL::to('/public/section-images/image17.png')}}" width="100%" alt="Impact of PR Coverage">
                 </div>
                 <div class="col-lg-1"></div>
-                <div class="col-lg-7 vertical-center">
-                    <h4>Benefits of Sponsorship Opportunities Dubai</h4>
+                <div class="col-lg-8 vertical-center">
+                    <h4>How We Find and Negotiate the Right Sponsorship for Your Brand</h4>
                     <ul>
-                        <li><strong>Brand Exposure</strong>: Sponsorships enable your brand to appear frequently in the media,, so you achieve broader audience visibility.</li>
-                        <li><strong>Authentic Connections</strong>: Recognisable affiliations allow businesses to form genuine associations with consumers who share their brand principles.</li>
-                        <li><strong>Competitive Edge</strong>: A well-placed sponsorship grants businesses superior market positioning when they work with important industry players.</li>
-                        <li><strong>Community Engagement</strong>: The support of community events, along with fundamental initiatives, allows brands to improve their public reputation and develop strong connections with their community.</li>
-                        <li><strong>Increased Sales</strong>: Your brand recognition from sponsorships leads to enhanced sales performance through increased customer acquisition numbers.</li>
+                        <li><strong>Step 1</strong> — Briefing: We understand your brand values, target audience, budget, and campaign goals.</li>
+                        <li><strong>Step 2</strong> — Opportunity Mapping: We identify sponsorship properties — events, teams, causes, media, or individuals — that align with your audience and values.</li>
+                        <li><strong>Step 3</strong> — Due Diligence: We evaluate each opportunity on audience quality, media value, competitor exclusivity, and activation potential.</li>
+                        <li><strong>Step 4</strong> — Negotiation: We negotiate the best sponsorship terms on your behalf, including exclusivity clauses, branding rights, and activation support.</li>
+                        <li><strong>Step 5</strong> — Activation & Management: We design and execute the on-site and digital brand activation around the sponsorship.</li>
+                        <li><strong>Step 6</strong> — Reporting: Post-campaign ROI report covering reach, media value equivalence, lead generation, and brand sentiment.</li>
+
                     </ul>
                     
 
@@ -305,11 +267,17 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-9">
-                    <h4>Why Choose Datamysite for Sponsorships?</h4>
-                    <p>
-                       Our team finds the sponsorship possibilities that serve your business goals in the sponsorship opportunities Dubai sector. Sponsorship activities help businesses gain better visibility within their choice markets. The company designs individual strategies for every sponsorship plan to maximise its effectiveness. We work with the most respected event creators alongside influential people and prominent media venues.
-                    
-                        <br><br>
+                    <h4>Who Should Invest in Sponsorships in Dubai?</h4>
+                    <ul>
+                        <li>New market entrants — sponsorship rapidly builds brand awareness and credibility in a new market</li>
+                        <li>B2B companies — corporate event sponsorships provide direct access to target clients</li>
+                        <li>Luxury and premium brands — cultural and entertainment sponsorships align with aspirational audiences</li>
+                        <li>Consumer brands — entertainment and sports sponsorships deliver emotional connection at scale</li>
+                        <li>Financial services — sports and business event sponsorships build trust with high-value audiences</li>
+                        <li>Real estate developers — expo, property, and lifestyle event sponsorships reach active buyers</li>
+
+                    </ul>
+                    <p><br>
                     
                         Are you ready to explore sponsorship opportunities Dubai for your brand?
                         <br>
@@ -366,25 +334,21 @@
           <div class="container">
 
             <div class="row gy-4 first-row">
-
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7 vertical-center">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12 vertical-center">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>When choosing the proper business sponsorship, which selection criteria should I follow?
+                                        <span class="badge">&nbsp;</span>What is a realistic sponsorship budget for Dubai events?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>The analysis of your target market allows our experts to recommend sponsorship opportunities Dubai which will best fulfil your business aims.</p>
+                                    <p>Sponsorship investments in Dubai range significantly — from AED 15,000 for community events and local activations to AED 500,000+ for major festivals or GITEX-level conference partnerships. DataMySite will identify opportunities that match your budget and deliver measurable ROI at every tier.</p>
                                 </div>
                             </div>
                         </div>
@@ -392,13 +356,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>What type of events does Datamysite partner with?
+                                        <span class="badge">&nbsp;</span>How do I measure the ROI of a sponsorship?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We partner with trade shows, business conferences, sports events, cultural festivals, and more.</p>
+                                    <p>We track: media value equivalence (the cost equivalent of all PR and media generated), lead generation and enquiries attributed to the event, social media impressions and engagement from event content, brand recall surveys (pre/post where applicable), and direct revenue attribution where possible.</p>
                                 </div>
                             </div>
                         </div>
@@ -406,13 +370,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>Can small businesses obtain benefits through sponsorship engagements?
+                                        <span class="badge">&nbsp;</span>Can we sponsor an event that a competitor is already involved in?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Small businesses can effectively raise their visibility along with building credibility through sponsorships.</p>
+                                    <p>It depends on whether the event has category exclusivity clauses. We conduct thorough due diligence on competitive sponsorship landscape before recommending any opportunity, and actively seek category exclusivity for our clients where available.</p>
                                 </div>
                             </div>
                         </div>
@@ -420,13 +384,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>What are the anticipated financial returns on sponsorships?
+                                        <span class="badge">&nbsp;</span>Do you handle international sponsorship opportunities outside the UAE?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>The return on investment depends on what type of sponsorship has been chosen together with the chosen activation strategy. We concentrate on achieving quantifiable results while monitoring our accomplishments successfully.</p>
+                                    <p>Yes. We have experience facilitating sponsorship activations in Saudi Arabia, India, the UK (London), and across the GCC. If your target audience is global, we can structure a multi-market sponsorship strategy.</p>
                                 </div>
                             </div>
                         </div>

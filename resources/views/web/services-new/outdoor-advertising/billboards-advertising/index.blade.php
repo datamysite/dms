@@ -18,7 +18,10 @@
                         <h2>Transform Your Brand Presence</h2>
                         <h4>with Billboards Advertising Dubai</h4>
                         <br>
-                        <p>Your brand message should stand tall above Dubai's bustling streets and highways. Through strategic billboard advertising Dubai, you can broadcast your message to millions of potential customers daily. We at DataMySite can turn your brand presence to a newer height with our customised billboard advertising solutions.</p>
+                        <p>
+                            At DataMySite, we help brands — from startups to Fortune 500 companies — own Dubai's most premium outdoor advertising spaces. Our end-to-end billboard advertising solutions cover strategy, creative design, location booking, permit handling, installation, and campaign performance reporting.
+
+                        </p>
                     </div>
                     <div class="col-lg-4">
                         <div class="aside-form">
@@ -88,13 +91,22 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Billboard Advertising Solutions – Beyond <br class="hide-on-mobile">Old-School Marketing</h4>
-                    <br class="hide-on-mobile">
-                    <p>Digital billboards UAE brings your marketing vision to life. Your advertisements shine bright on premium displays – drawing attention from business leaders and consumers across the emirate.
-                    <br><br>
-                    Static and digital displays work in perfect sync to build your brand recognition. These massive marketing platforms turn heads and hold attention, creating lasting impressions that stick with viewers long after they pass by. With our advertising solutions, we focus on these key essentials</p>
+                    <h4>Why Billboard Advertising in Dubai Delivers Unmatched ROI</h4>
+                    <p>
+                        Unlike digital ads that get skipped or blocked, a billboard works 24/7. It cannot be muted, closed, or scrolled past. In Dubai's car-centric culture — where the average commuter spends 54 minutes daily on the road — billboards on Sheikh Zayed Road alone generate over 2 million daily impressions.
+                        <br>
+                        Here's what makes outdoor billboard advertising in Dubai uniquely powerful:
+                    </p>
+                    <ul>
+                        <li><strong>Zero ad fatigue</strong> — your creative runs continuously without audience burnout</li>
+                        <li><strong>Massive reach</strong> — one placement reaches both residents and 16+ million annual tourists</li>
+                        <li><strong>Premium brand perception</strong> — association with Dubai's iconic skyline elevates brand status</li>
+                        <li><strong>Non-skippable</strong> — 100% share-of-voice on static boards; no competition for attention</li>
+                        <li><strong>Complements digital</strong> — OOH + digital campaigns generate up to 80% higher recall</li>
+
+                    </ul>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 vertical-center">
                     <iframe class="service-iframe outdoor-iframe" src="https://www.youtube.com/embed/Ny7v7w6dtq4?si=oAHAurPi9RcZjBPT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>  
             </div>
@@ -122,51 +134,41 @@
             <div class="row gy-4 first-row outdoor-service-col-section">
 
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Our Billboard Advertising  Services</h4>
-                    <p>Here's what we offer:</p>
+                    <h4>Our Billboard Advertising Services in Dubai</h4>
+                    <p>We provide a complete suite of outdoor advertising formats, strategically selected to match your campaign goals, budget, and target audience:</p>
                 </div>
                 <div class="col-lg-6">
-                    <h5>Location Excellence</h5>
+                    <h5>Static Billboard Advertising</h5>
                     <p>
-                        Our billboard advertising campaign starts with selecting prime spots that match your goals. Business districts buzz with corporate decision-makers, while retail zones capture consumer attention at key shopping moments.
+                        The classic — and still the most powerful format for brand recall. Our static billboards offer 100% share of voice: when your creative is live, it's all anyone sees. Available in standard (6m x 3m) and super-site formats. Ideal for: product launches, brand awareness, real estate, automotive, and FMCG.
                     </p>
                 </div>
                 <div class="col-lg-6">
-                    <h5>Smart Technology Meets Marketing Innovation</h5>
+                    <h5>Digital Billboard Advertising (DOOH)</h5>
                     <p>
-                       Our digital billboards UAE solutions include advanced display capabilities with precise targeting. You can adjust your message throughout the day. Real-time updates keep your campaigns fresh and relevant.
-                        <br>
-                        High-impact billboard campaigns UAE deliver measurable results for your marketing investment. We monitor daily views, peak exposure times, and audience engagement patterns through detailed analytics.
+                       High-definition LED digital billboards let you run video content, rotate creatives throughout the day, and update messaging in real time. Perfect for time-sensitive campaigns such as promotions, events, or Ramadan specials. Multiple brands can share a digital screen, reducing cost-per-campaign significantly.
                     </p>
                 </div>
                 <div class="col-lg-6">
-                    <h5>Billboard Marketing Services Dubai – Top Ways We Benefit You with Our Advertising Solutions</h5>
+                    <h5>Building Wraps</h5>
                     <p>
-                        Your billboard advertising investment includes full-service campaign management. We guide you from initial planning through design, placement, and performance tracking. Digital billboards deliver tangible benefits for your brand –
+                        Turn an entire building façade into your brand's canvas. Building wraps in Dubai create an unmissable, high-impact presence — particularly during construction periods in Business Bay, DIFC, and Downtown Dubai. They offer extraordinary size, making them visible from hundreds of metres away.
                     </p>
                 </div>
                 <div class="col-lg-6">
-                    <h5>Constant Visibility – 24/7 (A Round the Clock Solution)</h5>
+                    <h5>Hoardings</h5>
                     <p>
-                        Billboards maintain a continuous presence, unlike digital ads, which can be skipped, or social media posts, which get buried. Your advertisement remains in sight – whether it's rush-hour traffic or late-night travel.
+                        Site hoardings surrounding construction projects represent long-duration, high-visibility advertising in premium locations across Dubai. Campaigns run for months, delivering continuous brand exposure in key growth corridors like Dubai Hills, Emaar South, and the Expo City district.
                     </p>
                 </div>  
 
 
-                <div class="col-lg-6">
-                    <h5>Targets both Commuters & Pedestrians</h5>
+                <div class="col-lg-12">
+                    <h5>Wallscapes</h5>
                     <p>
-                        Billboards are placed in high-traffic areas that capture drivers' attention. It lets your brand engage with a diverse audience – from daily commuters to shoppers. Billboards (unlike online ads that rely on user engagement) can naturally attract attention.
+                        Large-scale murals and wallscapes on building exteriors command attention in high-footfall urban areas. They combine creative storytelling with outdoor media — making your brand feel like an authentic part of the city.
                     </p>
-                </div>
-                <div class="col-lg-6">
-                    <h5>Builds Long-Term Brand Recall</h5>
-                    <p>
-                        Repetition is key to brand recognition – and billboards offer consistent exposure. People who see the same ad multiple times develop familiarity with the brand. It makes it simpler for them to recall information while making a purchase. Billboards (whether it's a catchy slogan, a memorable image, or a bold logo) can create lasting impressions.
-                        <br>
-                        Your message reaches viewers twenty-four hours a day. Repeated exposure builds strong brand recall. Premium locations demonstrate market leadership. Wide reach connects with diverse audience segments.
-                    </p>
-                </div>   
+                </div>  
             </div>
             <div class="uni-strip-see-more">
                 <button data-class="outdoor-service-col-section">See More</button>
@@ -182,47 +184,144 @@
               <div class="in">
                 <div class="top">
                   <div>
-                    <div class="tag">Prime Locations</div>
+                    <div class="tag">Prime Billboard Locations in Dubai</div>
                     <h2>Dubai's Highest-Traffic<br><em>Billboard Spots</em></h2>
                   </div>
                   <a href="https://datamysite.com/contact-us" class="bbtn btn-r">Check Location Availability <span class="arr">→</span></a>
                 </div>
-                <div class="loc-grid">
-                  <div class="loc-card">
-                    <div class="icon">🛣️</div>
-                    <div class="loc">Sheikh Zayed Rd</div>
-                    <div class="imp">2M+ daily impressions</div>
-                    <div class="tag-pill">Premium</div>
-                  </div>
-                  <div class="loc-card">
-                    <div class="icon">🏙️</div>
-                    <div class="loc">Downtown Dubai</div>
-                    <div class="imp">Tourist & business hub</div>
-                    <div class="tag-pill">High Footfall</div>
-                  </div>
-                  <div class="loc-card">
-                    <div class="icon">🌊</div>
-                    <div class="loc">JBR / Marina</div>
-                    <div class="imp">Lifestyle & F&B audience</div>
-                    <div class="tag-pill">Expat Reach</div>
-                  </div>
-                  <div class="loc-card">
-                    <div class="icon">✈️</div>
-                    <div class="loc">DXB Airport Rd</div>
-                    <div class="imp">Global traveller exposure</div>
-                    <div class="tag-pill">Int'l Audience</div>
-                  </div>
-                  <div class="loc-card">
-                    <div class="icon">🏗️</div>
-                    <div class="loc">Business Bay</div>
-                    <div class="imp">Corporate decision-makers</div>
-                    <div class="tag-pill">B2B</div>
-                  </div>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <p>
+                            Location is everything. Our media planning team identifies and secures the highest-impact spots based on your target audience, daily impressions data, and competitor placements. Key corridors we operate in:
+                        </p>
+                        <ul>
+                            <li><strong>Sheikh Zayed Road (SZR)</strong><br> — Dubai's main artery. 2M+ daily impressions. Premium for B2C and B2B.<br><br></li>
+                            <li><strong>Downtown Dubai & Burj Khalifa Boulevard</strong><br> — luxury, tourism, and lifestyle brands.<br><br></li>
+                            <li><strong>Business Bay</strong><br> — corporate decision-makers, finance, real estate, and professional services.<br><br></li>
+                            <li><strong>JBR & Dubai Marina</strong><br> — expat lifestyle, F&B, retail, entertainment, and hospitality.<br><br></li>
+                            <li><strong>Al Maktoum International Airport Road</strong><br> — global travellers, logistics, and aviation sector.<br><br></li>
+                            <li><strong>Jumeirah Beach Road</strong><br> — premium residential, luxury fashion, and automotive brands.<br><br></li>
+                            <li><strong>Dubai Investment Park & Al Quoz</strong><br> — industrial, B2B, and logistics campaigns.<br><br></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 align-content-center">
+                        <div class="loc-grid">
+                          <div class="loc-card">
+                            <div class="icon">🛣️</div>
+                            <div class="loc">Sheikh Zayed Rd</div>
+                            <div class="imp">2M+ daily impressions</div>
+                            <div class="tag-pill">Premium</div>
+                          </div>
+                          <div class="loc-card">
+                            <div class="icon">🏙️</div>
+                            <div class="loc">Downtown Dubai</div>
+                            <div class="imp">Tourist & business hub</div>
+                            <div class="tag-pill">High Footfall</div>
+                          </div>
+                          <div class="loc-card">
+                            <div class="icon">🌊</div>
+                            <div class="loc">JBR / Marina</div>
+                            <div class="imp">Lifestyle & F&B audience</div>
+                            <div class="tag-pill">Expat Reach</div>
+                          </div>
+                          <div class="loc-card">
+                            <div class="icon">✈️</div>
+                            <div class="loc">DXB Airport Rd</div>
+                            <div class="imp">Global traveller exposure</div>
+                            <div class="tag-pill">Int'l Audience</div>
+                          </div>
+                          <div class="loc-card">
+                            <div class="icon">🏗️</div>
+                            <div class="loc">Business Bay</div>
+                            <div class="imp">Corporate decision-makers</div>
+                            <div class="tag-pill">B2B</div>
+                          </div>
+                          <div class="loc-card">
+                            <div class="icon">🏙️</div>
+                            <div class="loc">Dubai Investment Park</div>
+                            <div class="imp">logistics campaigns</div>
+                            <div class="tag-pill">B2B</div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
               </div>
           </div>
         </section>
 
+        <section id="service-cards" class="blog-section section striped-section why-us-section why-out-us-section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row">
+
+                <div class="col-lg-9">
+                    <h4>Who Should Advertise on Billboards in Dubai?</h4>
+                    <p>
+                        Billboard advertising in Dubai works for virtually every industry. Our clients include:
+                    </p>
+                    <ul>
+                        <li>Real estate developers launching off-plan or ready projects</li>
+                        <li>Automotive brands — showroom launches, test drive CTAs</li>
+                        <li>F&B and hospitality — restaurant openings, hotel promotions</li>
+                        <li>Retail and fashion — seasonal sales, new store openings</li>
+                        <li>Finance and banking — product launches, brand credibility</li>
+                        <li>Healthcare and wellness — clinic openings, health campaigns</li>
+                        <li>Technology and SaaS — awareness campaigns in business hubs</li>
+                        <li>Events — concerts, exhibitions, Expo, and GITEX</li>
+
+                    </ul>
+                    <br>
+                    <h4>Our Billboard Advertising Process: From Brief to Launch in 5 Steps</h4>
+                    <ul>
+                        <li><strong>Step 1</strong> — Strategy & Briefing: We understand your campaign goals, budget, target audience, and KPIs.</li>
+                        <li><strong>Step 2</strong> — Location Scouting & Recommendation: We shortlist premium sites with daily traffic data and availability windows.</li>
+                        <li><strong>Step 3</strong> — Creative Design: Our design team produces billboard artwork optimised for distance, contrast, and message retention (following the Rule of 7 — max 7 words, one bold visual, one CTA).</li>
+                        <li><strong>Step 4</strong> — Permit Management & Installation: We handle all RTA and municipality approvals and manage professional printing and installation.</li>
+                        <li><strong>Step 5</strong> — Reporting & Performance: You receive a post-campaign report covering verified impressions, audience data, and recommendations for optimisation.</li>
+
+                    </ul>
+                    
+                </div>
+                <div class="col-lg-3 mob-not-visible">
+                    <img src="{{URL::to('/public/section-images/image1.png')}}" width="100%" alt="Why choose us">
+                </div> 
+            </div>
+
+          </div>
+
+        </section>
+        <section id="service-cards" class="blog-section section why-us-section why-out-us-section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row">
+
+                <div class="col-lg-3 vertical-center">
+                    <img src="{{URL::to('/public/section-images/image48.png')}}" width="100%" alt="Why choose us">
+                </div> 
+                <div class="col-lg-1"></div>
+                <div class="col-lg-8">
+                    <h4>Billboard Advertising Formats Comparison</h4>
+                    <p>
+                        Not sure which format suits your campaign? Here's a quick guide:
+                    </p>
+                    <ul>
+                        <li><strong>Static Billboard</strong> — Best for:<br> Brand awareness, long-duration campaigns | Duration: 2–12 weeks<br><br></li>
+                        <li><strong>Digital LED Board</strong> — Best for:<br> Promotions, time-sensitive content, dynamic creative | Duration: 1–4 weeks<br><br></li>
+                        <li><strong>Building Wrap</strong> — Best for:<br> Large-scale brand statements, real estate launches | Duration: 3–24 months<br><br></li>
+                        <li><strong>Hoarding</strong> — Best for:<br> Long-duration campaigns near high-footfall construction zones | Duration: 3–12 months<br><br></li>
+                        <li><strong>Wallscape</strong> — Best for:<br> Cultural, lifestyle, and luxury brands in pedestrian zones | Duration: Custom<br><br></li>
+
+                    </ul>
+                    
+                </div>
+            </div>
+
+          </div>
+
+        </section>
 
         <section id="service-cards" class="blog-section section striped-section why-us-section why-out-us-section">
 
@@ -328,13 +427,13 @@
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>What is the difference between Static and Digital Billboards?
+                                        <span class="badge">&nbsp;</span>How much does billboard advertising cost in Dubai?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Static billboards offer 100% "SOV" (Share of Voice) because your ad is always there. Digital billboards are shared with other brands but allow for motion graphics and instant creative updates.</p>
+                                    <p>Costs vary based on location, format, and duration. Sheikh Zayed Road super-sites represent the premium end; roadside boards in emerging areas are more affordable. Contact DataMySite for a custom quote with multiple location options across your target budget.</p>
                                 </div>
                             </div>
                         </div>
@@ -342,13 +441,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How do I know how many people saw my billboard?
+                                        <span class="badge">&nbsp;</span>How do I measure billboard advertising ROI?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We provide "Audience Impressions" data based on traffic counts, GPS data, and historical transit patterns provided by municipal authorities.</p>
+                                    <p>We provide Audience Impression data based on traffic counts, GPS data, and transit patterns. Combined with concurrent digital campaign data, we track brand search lift, enquiry volume, and footfall attribution where applicable.</p>
                                 </div>
                             </div>
                         </div>
@@ -358,13 +457,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>Can I change my artwork mid-campaign?
+                                        <span class="badge">&nbsp;</span>What is the lead time to book a billboard in Dubai?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>On Digital Billboards, you can change it almost instantly. For Static Billboards, a "re-skinning" fee applies for the printing and physical installation of the new vinyl.</p>
+                                    <p>Most bookings require 5–10 working days for processing and permits. For prime locations like SZR and Downtown, we recommend 2–4 weeks advance booking as premium spots fill quickly — especially during Ramadan, DSF, and the December season.</p>
                                 </div>
                             </div>
                         </div>
@@ -372,13 +471,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>What design tips do you recommend for billboard effectiveness?
+                                        <span class="badge">&nbsp;</span>Can I run a billboard campaign during Ramadan?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We recommend the "Rule of Seven": no more than seven words, high-contrast colors, and one single, bold image that is legible from a distance.</p>
+                                    <p>Absolutely. Ramadan is one of the highest-spending periods in the UAE. However, creative must comply with UAE advertising guidelines regarding imagery and messaging. Our team handles all compliance review as part of the campaign service.</p>
                                 </div>
                             </div>
                         </div>

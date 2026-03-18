@@ -18,7 +18,7 @@
                         <h2>Make Your Brand Unmissable</h2>
                         <h4>with Transit Media in the UAE</h4>
                         <br>
-                        <p>Dubai moves fast, and so do its people. Commuters and tourists rush from one place to another each day. Their eyes scan the world around them. That is where transit media in the UAE comes in. You can position your brand right in front of them when they least expect it but need it most with transit media.</p>
+                        <p>At DataMySite, we are the UAE's most comprehensive transit media partner. From full taxi wraps on Dubai's fleet to metro station takeovers, airport advertising, and boat branding on the waterfront — we plan, execute, and manage end-to-end transit advertising campaigns that deliver citywide visibility and measurable results.</p>
                     </div>
                     <div class="col-lg-4">
                         <div class="aside-form">
@@ -140,35 +140,52 @@
                 <div class="top">
                   <div>
                     <div class="tag">Unmatched Reach</div>
-                    <h2>Dubai Transit by the<br><em>Numbers</em></h2>
+                    <h2>Why <em>Transit Media Advertising</em> <br>in Dubai is a Strategic Advantage</h2>
                   </div>
-                  <a href="https://datamysite.com/contact-us" class="btn btn-r">Plan My Campaign <span class="arr">→</span></a>
+                  <a href="https://datamysite.com/contact-us" class="bbtn btn-r">Plan My Campaign <span class="arr">→</span></a>
                 </div>
-                <div class="reach-grid">
-                  <div class="reach-card">
-                    <div class="ric">🚇</div>
-                    <div class="rv">650K+</div>
-                    <div class="rn">Metro Daily Riders</div>
-                    <div class="rs">RTA Dubai Metro — Red & Green Lines</div>
-                  </div>
-                  <div class="reach-card">
-                    <div class="ric">✈️</div>
-                    <div class="rv">90M+</div>
-                    <div class="rn">Airport Passengers / Year</div>
-                    <div class="rs">DXB — world's busiest int'l airport</div>
-                  </div>
-                  <div class="reach-card">
-                    <div class="ric">🚕</div>
-                    <div class="rv">30K+</div>
-                    <div class="rn">Taxis on Dubai Roads</div>
-                    <div class="rs">Full city coverage, 24/7 impressions</div>
-                  </div>
-                  <div class="reach-card">
-                    <div class="ric">🚌</div>
-                    <div class="rv">1,500+</div>
-                    <div class="rn">Bus Routes UAE-wide</div>
-                    <div class="rs">Wraps, bus stops & interior panels</div>
-                  </div>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <p>
+                            Transit advertising works where other channels struggle: in the physical world, at scale, with no ad blockers. Here's why the UAE's most successful brands consistently invest in transit media:
+                        </p>
+                        <ul>
+                            <li>Can't be skipped — transit ads exist in the real world; no close button, no scroll</li>
+                            <li>Massive citywide reach — a single taxi wrap travels an average of 200 km per day across all 33 districts of Dubai</li>
+                            <li>Repeated exposure — commuters on the Dubai Metro take an average of 22 journeys per month, seeing platform and carriage ads every ride</li>
+                            <li>Contextual relevance — your brand reaches audiences while they travel to offices, hotels, shopping malls, and business districts</li>
+                            <li>Complements digital marketing — transit ads dramatically increase the recall rate of concurrent digital campaigns</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="reach-grid">
+                          <div class="reach-card">
+                            <div class="ric">🚇</div>
+                            <div class="rv">650K+</div>
+                            <div class="rn">Metro Daily Riders</div>
+                            <div class="rs">RTA Dubai Metro — Red & Green Lines</div>
+                          </div>
+                          <div class="reach-card">
+                            <div class="ric">✈️</div>
+                            <div class="rv">90M+</div>
+                            <div class="rn">Airport Passengers / Year</div>
+                            <div class="rs">DXB — world's busiest int'l airport</div>
+                          </div>
+                          <div class="reach-card">
+                            <div class="ric">🚕</div>
+                            <div class="rv">30K+</div>
+                            <div class="rn">Taxis on Dubai Roads</div>
+                            <div class="rs">Full city coverage, 24/7 impressions</div>
+                          </div>
+                          <div class="reach-card">
+                            <div class="ric">🚌</div>
+                            <div class="rv">1,500+</div>
+                            <div class="rn">Bus Routes UAE-wide</div>
+                            <div class="rs">Wraps, bus stops & interior panels</div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
               </div>
           </div>
@@ -181,17 +198,18 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-7 vertical-center">
-                    <h4>What Makes DataMySite Different?</h4>
-                    <p>Here's what we offer:</p>
-                    <p>
-                       We know Dubai. We know its roads and its people. Our team does not place ads—they create campaigns that stick.
-                    </p>
+                    <h4>Who Benefits Most from Transit Advertising in Dubai?</h4>
+                    <br>
                     <ul>
-                        <li><strong>Smart Targeting</strong> – We place your ads where they will have the highest impact. This makes sure they are seen by the right people at the right time.</li>
-                        <li><strong>Creative That Stands Out</strong> – We design campaigns that demand attention and spark conversation.</li>
-                        <li><strong>End-to-End Service</strong> – We handle everything from concept to execution.</li>
+                        <li><strong>Real estate developers</strong> — targeting commuters on routes near project locations<br><br></li>
+                        <li><strong>Hospitality and tourism</strong> — airport and hotel zone campaigns<br><br></li>
+                        <li><strong>Retail and FMCG</strong> — mass-reach commuter campaigns across all demographics<br><br></li>
+                        <li><strong>Luxury brands</strong> — premium taxi, tram, and marina advertising<br><br></li>
+                        <li><strong>Technology and telecom</strong> — metro and business district transit<br><br></li>
+                        <li><strong>Food delivery and restaurant chains</strong> — bus and taxi coverage in residential areas<br><br></li>
+                        <li><strong>Government and public sector</strong> — citywide awareness campaigns<br><br></li>
+
                     </ul>
-                    <p>Dubai is a city of opportunities. Transit media in the UAE ensures your brand is everywhere. Let us create something unforgettable. Contact DataMySite today.</p>
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-4">
@@ -206,86 +224,90 @@
 
 
 
-        <section id="service-cards" class="blog-section section striped-section pr-impact-section">
+        <section id="service-cards" class="blog-section section striped-section pr-icon-section">
 
           <div class="container">
 
-            <div class="row gy-4 first-row">
+            <div class="row gy-4 first-row outdoor-service-col-section">
 
-                <div class="col-lg-5">
-                    <img src="{{URL::to('/public/section-images/image23.png')}}" width="100%" alt="Impact of PR Coverage">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Our Transit Media Advertising Services</h4>
                 </div>
-                <div class="col-lg-7">
-                    <h4>How We Differentiate Your Brand with Transit Advertising in Dubai?</h4>
+                <div class="col-lg-6">
+                    <h5>Taxi Advertising in Dubai</h5>
                     <p>
-                        We do not believe in putting ads on vehicles and calling it a day. We create transit media campaigns in Dubai that demand attention.
-                    </p>
-                    <div class="faq " id="accordion">
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-210">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-210" data-aria-expanded="true" data-aria-controls="faqCollapse-210">
-                                        <span class="badge">&nbsp;</span>Taxi Advertising – Your Brand, Citywide
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-210" class="collapse show" aria-labelledby="faqHeading-210" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Taxis are everywhere. They move through the busiest streets and pick up clients from five-star hotels. Your brand travels through Dubai and grabs eyeballs with full taxi wraps and rooftop ads.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-211">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-211" data-aria-expanded="false" data-aria-controls="faqCollapse-211">
-                                        <span class="badge">&nbsp;</span>Bus Advertising – Large and Impossible to Miss
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-211" class="collapse" aria-labelledby="faqHeading-211" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Buses do not move people—they move brands. Buses ensure your message gets seen, whether it is a full bus wrap dominating the road or side panel ads reinforcing your brand’s presence. What about bus shelters? That’s premium ad space right where commuters wait, giving them time to absorb your message.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-212">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-212" data-aria-expanded="false" data-aria-controls="faqCollapse-212">
-                                        <span class="badge">&nbsp;</span>Metro & Tram Advertising – High Traffic, High Impact
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-212" class="collapse" aria-labelledby="faqHeading-212" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Dubai Metro moves thousands of professionals, residents, and tourists every day. That’s a captive audience—one that sees your brand while they wait, travel, and think. Options include:</p>
-                                    <ul>
-                                        <li><strong>In-Train Ads</strong> – Directly in front of passengers for the entire ride.</li>
-                                        <li><strong>Station Branding</strong> – Complete takeovers for total dominance.</li>
-                                        <li><strong>Platform Billboards</strong> – Placed right where people stand and stare.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-213">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-213" data-aria-expanded="false" data-aria-controls="faqCollapse-213">
-                                        <span class="badge">&nbsp;</span>RTA Fleet Branding – Moving Billboards That Work
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-213" class="collapse" aria-labelledby="faqHeading-213" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>From trams to government transport fleets, these vehicles travel through high-value areas, ensuring maximum exposure for your brand.</p>
-                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        Dubai's RTA taxi fleet is one of the largest in the world, operating 24/7 across all areas of the emirate. Taxi advertising delivers your brand into every corner of Dubai — from five-star hotel drop-offs to business parks, residential communities, and the airport.
+                        <br>
+                        Formats available: full body wraps, rear panel ads, door ads, rooftop light boxes, and in-cabin screen advertising.
+                        <br>
+                        We offer placements across all RTA-approved taxi fleets including the Red Taxi, Blue Taxi, Pink Taxi (female-only), Red Airport Taxi, and Abu Dhabi Taxi. Ideal for brands targeting high-income professionals, tourists, and business travellers.
 
-                </div> 
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Dubai Metro Advertising</h5>
+                    <p>
+                       The Dubai Metro carries over 700,000 passengers daily across the Red and Green lines. These are professional commuters, residents, and tourists — a captive, engaged audience with high purchasing power.
+                        <br>
+                        Metro advertising options include: in-carriage ads (directly in front of passengers for the full journey), platform billboards (where passengers stand and wait), station wall wraps (large-format murals at key stations), DOOH screens inside the metro system, metro station takeovers (100% brand domination at a chosen station), and metro pillar branding.
+                        <br>
+                        Landmark stations for advertising include Mall of the Emirates, Dubai Mall/Burj Khalifa, DMCC (JLT), and Union Station — among the highest-traffic hubs in the network.
+
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Bus Advertising in Dubai</h5>
+                    <p>
+                        RTA buses cover routes that the metro doesn't reach — serving suburban communities, industrial areas, labour camps, and key residential corridors. Bus advertising delivers your message across the full breadth of Dubai's geography.
+                        <br>
+                        Formats: full bus wraps (entire exterior), side panel ads, rear panel ads, and bus shelter advertising. Full bus wraps in particular are among the most visually impactful outdoor formats available — turning a vehicle into a moving billboard visible to thousands of pedestrians and motorists daily.
+
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Airport Advertising in Dubai</h5>
+                    <p>
+                        Dubai International Airport (DXB) is one of the world's busiest airports — handling over 86 million passengers per year. Airport advertising places your brand in front of a globally diverse, high-net-worth, decision-making audience at a moment of peak attention.
+                        <br>
+                        We manage advertising placements across DXB Terminal 1, 2, and 3, as well as Al Maktoum International Airport, Sharjah Airport, and connections to major Indian airports. Formats: baggage belt branding, departure gate displays, terminal wall wraps, digital screens, and walkway wraps.
+                        <br>
+                        Airport advertising is particularly effective for: luxury brands, real estate, financial services, automotive, tourism, hospitality, and B2B solutions.
+
+                    </p>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <h5>Airline Advertising</h5>
+                    <p>
+                        Your brand can fly with the passengers. We offer advertising placements aboard Emirates, Etihad, flydubai, Air Arabia, and SpiceJet — through in-flight magazine ads, boarding pass branding, seat-back screen advertising, and tray table mats. Airline advertising reaches a captive, high-attention audience during long-haul and regional flights — with dwell times of 1–14 hours.
+
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Tram Advertising in Dubai</h5>
+                    <p>
+                        The Dubai Tram connects JBR, Dubai Marina, Media City, and Internet City — servicing one of Dubai's most affluent and technology-forward catchment areas. Tram ads — including full exterior wraps, window vinyls, and interior cards — deliver premium brand visibility to high-income residents, media professionals, and tourists. Ideal for luxury, lifestyle, tech, and F&B brands.
+
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Boat & Waterfront Advertising</h5>
+                    <p>
+                        Dubai's waterfront — from the Marina and JBR Beach to the Dubai Creek and Palm Jumeirah — is one of the city's most premium leisure environments. Boat advertising (full yacht wraps, ferry branding, dhow wraps) delivers your brand to beach crowds, waterfront diners, hotel guests, and tourists on water taxi routes. A genuinely unique and premium format.
+
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Truck & Fleet Branding</h5>
+                    <p>
+                        Transform your company's vehicles — or partner with our fleet network — into moving billboards across Dubai's main highways and industrial corridors. Truck advertising is a cost-effective, long-duration format with exceptional citywide coverage. Ideal for: logistics, FMCG, construction, and B2B suppliers.
+
+                    </p>
+                </div>   
+            </div>
+            <div class="uni-strip-see-more">
+                <button data-class="outdoor-service-col-section">See More</button>
             </div>
 
           </div>
@@ -300,31 +322,20 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-9">
-                    <h4>Why Transit Advertising in Dubai Works?</h4>
-                    <p>
-                       People ignore digital ads. They scroll past them, block them, or just don’t care. But a massive, beautifully designed ad on a bus? A sleek, unmissable wrap on a metro? That sticks. It becomes part of their daily routine, a familiar sight in a city that never slows down.
-                    </p>
-                    <ul>
-                        <li><strong>You Can’t Skip It</strong> – No “close” button. No ad blocker. Just pure, in-your-face brand visibility.</li>
-                        <li><strong>People Actually Pay Attention</strong> – When you’re stuck in traffic or waiting for a bus, you look around. Your brand becomes part of their world.</li>
-                        <li><strong>It Reaches the Right People</strong> – Whether it’s a CEO heading to a meeting or a shopper planning their next big purchase, our transit media campaigns in the UAE put your message exactly where it needs to be.</li>
-                    </ul>
+                    <h4>How We Plan and Execute Your Transit Media Campaign</h4>
                     <br>
-                    <h4>Why Transit Media Advertising Delivers Real ROI?</h4>
-                    <p>
-                       This is not about putting up an ad. It is about creating an experience as well as a brand memory that stays. Here is why our Dubai transit media services bring results.
-                    </p>
                     <ul>
-                        <li><strong>Longer Exposure</strong> – Transit ads stay in sight for months, unlike digital ads that disappear in seconds.</li>
-                        <li><strong>Citywide Coverage</strong> – Your brand is not stuck in one place. It moves and reaches different areas.</li>
-                        <li><strong>Perfect for Any Business</strong> – Transit media works whether you sell luxury watches or coffee. It builds trust and awareness.</li>
-                        <li><strong>Affordable Advertising</strong> – Transit media gives long-term visibility for a one-time cost compared to online ads.</li>
+                        <li><strong>Step 1</strong> — Campaign Briefing: Define objectives (awareness, consideration, or conversion), audience, geography, and budget.<br><br></li>
+                        <li><strong>Step 2</strong> — Media Planning: We recommend the optimal transit formats and coverage based on your audience's daily routes and touchpoints.<br><br></li>
+                        <li><strong>Step 3</strong> — Creative Production: We design campaign artwork compliant with RTA and UAE advertising guidelines for each format.<br><br></li>
+                        <li><strong>Step 4</strong> — Permit Management: We handle all RTA approvals, permits, and compliance paperwork.<br><br></li>
+                        <li><strong>Step 5</strong> — Installation & Activation: Professional installation across all vehicles, stations, or airports.<br><br></li>
+                        <li><strong>Step 6</strong> — Monitoring & Reporting: Campaign performance reports including verified impressions, coverage maps, and photographic documentation.<br><br></li>
+
                     </ul>
-                    
-                    
-                    
                 </div>
-                <div class="col-lg-3 mob-not-visible">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-2 mob-not-visible">
                     <img src="{{URL::to('/public/assets/img/why-us.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
@@ -394,25 +405,21 @@
           <div class="container">
 
             <div class="row gy-4 first-row">
-
-                <div class="col-lg-4">
-                    <img src="{{URL::to('/public/assets/img/faq-new.png')}}" width="100%" alt="FAQs">
-                </div> 
-                <div class="col-lg-1"></div>
-                <div class="col-lg-7">
-                    <h4>FAQs</h4>
+                <div class="col-lg-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <br>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>Is Transit Advertising in Dubai Effective for Luxury Brands?
+                                        <span class="badge">&nbsp;</span>Can I combine multiple transit formats in one campaign?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Several luxury brands use transit advertising to market their products. Luxury brands gain significant exposure with premium placement.</p>
+                                    <p>Absolutely — and we strongly recommend it. Multi-format campaigns (e.g., taxi wraps + metro station advertising + bus wraps) create a 360° brand presence that dramatically increases recall and conversion. DataMySite specialises in integrated transit media planning across all formats.</p>
                                 </div>
                             </div>
                         </div>
@@ -420,13 +427,27 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Can I Choose Which Areas My Transit Ads Appear In?
+                                        <span class="badge">&nbsp;</span>Is transit advertising approved by the RTA?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We help you target specific business districts or residential areas to reach the right audience.</p>
+                                    <p>Yes. All our transit advertising solutions are executed through RTA-approved channels and comply fully with Dubai Municipality and UAE National Media Council advertising guidelines. We manage all permits as part of our service.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-12">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
+                                        <span class="badge">&nbsp;</span>What is the minimum campaign period for transit advertising?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Campaign minimums vary by format: taxi wraps typically require a minimum of 4 weeks; metro advertising is available from 2-week campaigns; airport advertising is available for shorter durations depending on format and terminal.</p>
                                 </div>
                             </div>
                         </div>

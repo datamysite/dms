@@ -16,9 +16,10 @@
                     <div class="col-lg-8 head-para-service">
                         <h1>&#10687; {{$subservice->name}}</h1>
                         <h2>The Impact of Elevator Advertising</h2>
+                        <h4>With over 45,000 residential and commercial towers</h4>
                         <br>
                         <p>
-                            The elevator advertising sector presents viewers with a distinct marketing opportunity in the intimate elevator environment. With Dubai's skyscrapers and high-rise buildings, Elevator advertising Dubai is an innovative way to reach people during their short journey between floors. At datamysite, we offer elevator advertising solutions catered to your business needs.
+                            At DataMySite, we provide end-to-end elevator advertising solutions across residential towers, commercial office buildings, hotels, and malls — with both static and digital screen options to suit every campaign objective.
                         </p>
                     </div>
                     <div class="col-lg-4">
@@ -89,15 +90,22 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4>How Elevator Advertising Dubai Works</h4>
+                    <h4>How Elevator Advertising Works in Dubai</h4>
                     <p>
-                        Elevator advertising Dubai involves placing ads inside or outside elevators in commercial and residential buildings. The target is to deliver advertising messages to people who cannot escape the focused area of limited space.
-                        <br><br>
-                        The message becomes more impactful because of its environment having minimal distractions so people can remember it better. The format of advertising varies between static images and digital displays and interactive experiences based on the advertising targets.
+                        Unlike most advertising channels, elevators create a controlled, distraction-free environment. Passengers cannot skip, scroll, or look away. This captive audience dynamic makes elevator ads one of the highest-recall formats in out-of-home advertising.
+                        <br>
+                        Here's how the media works:
                     </p>
+                    <ul>
+                        <li><strong>Placement</strong>: Ads are installed inside elevator cabins, in lift lobbies, or on digital screens mounted in elevator waiting areas.</li>
+                        <li><strong>Frequency</strong>: Residents and office workers typically use the same elevator 4–6 times per day, creating very high repeat exposure.</li>
+                        <li><strong>Targeting</strong>: Buildings are selected based on tenant or resident demographics — enabling precise targeting of income segments, professions, and lifestyles.</li>
+                        <li><strong>Formats</strong>: Static poster frames, backlit displays, digital LCD/LED screens, floor graphics, and door stickers.</li>
+
+                    </ul>
                 </div>
                 <div class="col-lg-1"></div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 vertical-center">
                     <iframe class="service-iframe airline-iframe" src="https://www.youtube.com/embed/bfcE9AMwrrM?si=c-GXCMSK669sV8qn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div> 
             </div>
@@ -125,24 +133,30 @@
 
             <div class="row gy-4 first-row">
 
-                <div class="col-lg-5">
+                <div class="col-lg-4">
                     <img src="{{URL::to('/public/section-images/image3.png')}}" width="100%" alt="Impact of PR Coverage">
                 </div>
+                <div class="col-lg-1"></div>
                 <div class="col-lg-7">
-                    <h4>Our Elevator Advertising Services</h4>
+                    <h4>Our Elevator Advertising Services in Dubai</h4>
                     <p>Here's what we offer:</p>
                     <div class="faq " id="accordion">
                         <div class="card">
                             <div class="card-header" id="faqHeading-210">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-210" data-aria-expanded="true" data-aria-controls="faqCollapse-210">
-                                        <span class="badge">&nbsp;</span>Digital Elevator Screens Dubai
+                                        <span class="badge">&nbsp;</span>Digital Elevator Screen Advertising
                                     </h5>
                                 </div>
                             </div>
-                            <div id="faqCollapse-210" class="collapse show" aria-labelledby="faqHeading-210" data-parent="#accordion">
+                            <div id="faqCollapse-210" class="collapse" aria-labelledby="faqHeading-210" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Digital elevator screens Dubai offer dynamic advertising opportunities. Audiences find this format highly efficient for brand engagement since screens show video content along with promotional messages alongside interactive advertising. The combination of real-time updates together with targeted messaging provides businesses an opportunity to improve their audience engagement. It is a major part of Elevator video advertising UAE.</p>
+                                    <p>
+                                        High-definition digital screens inside elevators display your video ads, motion graphics, promotional content, and branded messaging. Digital elevator screens allow real-time creative updates, day-parting (running different ads at morning vs. evening), and interactive QR code integration. This format is particularly effective for property developers, luxury brands, retailers, and food delivery platforms targeting specific building profiles.
+                                        <br>
+                                        Key advantages: Video-capable, QR code integration for instant lead capture, remote content management, and high dwell-time engagement.
+
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -150,13 +164,15 @@
                             <div class="card-header" id="faqHeading-211">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-211" data-aria-expanded="false" data-aria-controls="faqCollapse-211">
-                                        <span class="badge">&nbsp;</span>Poster Advertising
+                                        <span class="badge">&nbsp;</span>Static Poster Frame Advertising
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-211" class="collapse" aria-labelledby="faqHeading-211" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Brand visibility through poster advertisements becomes certain because everyone entering the elevator space will see them. Brand recall effectiveness and impactful messaging work best when using this format.</p>
+                                    <p>
+                                        Premium-quality printed ads mounted in elevator frames deliver 100% share of voice for your campaign. Static posters are ideal for brand awareness, product launches, and ongoing campaigns that benefit from consistent creative. Cost-effective with long campaign durations available.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -164,14 +180,31 @@
                             <div class="card-header" id="faqHeading-212">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-212" data-aria-expanded="false" data-aria-controls="faqCollapse-212">
-                                        <span class="badge">&nbsp;</span>Floor Graphics & Window Clings
+                                        <span class="badge">&nbsp;</span>Lift Lobby & Waiting Area Displays
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-212" class="collapse" aria-labelledby="faqHeading-212" data-parent="#accordion">
                                 <div class="card-body">
                                     <p>
-                                        The interior space of elevators makes floor graphics and window clings an advanced advertising medium that exists beyond traditional print formats. Additional contact points enable engagement when advertising inside elevators.</p>
+                                        The time passengers spend waiting for elevators is prime advertising real estate. Lobby displays, A-frames, and wall-mounted screens in lift lobbies extend your brand's presence beyond the cabin itself — adding to total dwell time and impression frequency.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-213">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-213" data-aria-expanded="false" data-aria-controls="faqCollapse-213">
+                                        <span class="badge">&nbsp;</span>Floor Graphics & Door Wraps
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-213" class="collapse" aria-labelledby="faqHeading-213" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        Elevator floors and doors create unexpected, highly engaging touch points. Floor graphics and full-door wraps turn the entire elevator into a branded experience — particularly effective for experiential campaigns, real estate launches, and premium lifestyle brands.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -184,6 +217,7 @@
 
         </section>
 
+
         <section id="service-cards" class="blog-section section pr-icon-section">
 
           <div class="container">
@@ -191,29 +225,28 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-8 vertical-center">
-                    <h4>Benefits of Elevator Ads Dubai</h4>
+                    <h4>Benefits of Elevator Advertising in Dubai</h4>
                     <ul>
-                        <li><strong>Captive Audience</strong>: People in an elevator have limited distractions, ensuring higher ad engagement.</li>
-                        <li><strong>High Recall Rate</strong>: Multiple exposures to the same advertisement in one environment create an environment where memory recall becomes higher.</li>
-                        <li><strong>Excellent ROI</strong>: Compared to traditional advertising methods, elevator ads Dubai offer excellent ROI.</li>
-                        <li><strong>Cost-Effective</strong>: The advertising platform allows you to place your ad in areas that target your specific audience, such as commercial buildings and malls, as well as hotels and residential towers.</li>
-                        <li><strong>Brand Visibility</strong>: With elevator video advertising UAE, businesses can showcase their brand in high-traffic locations.</li>
+                        <li><strong>Captive Audience</strong> — passengers cannot skip or exit mid-ad; attention is guaranteed</li>
+                        <li><strong>Ultra-High Frequency</strong> — the same residents and workers see your ad 4–6 times daily</li>
+                        <li><strong>Precise Demographic Targeting</strong> — building-level selection by income, profession, and lifestyle</li>
+                        <li><strong>Cost-Effective</strong> — lower CPM than outdoor billboards or digital display, with superior recall rates</li>
+                        <li><strong>Hyperlocal Reach</strong> — perfect for businesses that want to dominate specific buildings, communities, or districts</li>
+                        <li><strong>Measurable Impact</strong> — impressions calculated from verified building occupancy and daily foot traffic data</li>
+                        <li><strong>Low Clutter</strong> — your ad is the only brand in the elevator; no competitor noise</li>
+
                     </ul>
                     <br>
-                    <h4>The Role of Lift Media Dubai in Brand Growth</h4>
-                    <p>Lift advertising Dubai plays a crucial role in brand positioning by reaching people in a distraction-free environment. The lift advertising solutions from our company achieve maximal audience engagement while making brands visible to the public.</p>
-                    <br>
-                    <h4>Elevator Video Advertising UAE – The Future of Out-of-Home Advertising</h4>
-                    <p>
-                        Elevator video advertising UAE is an advanced marketing solution that allows businesses to run engaging video ads inside elevators. These screens can display:
-                        <ul>
-                            <li>Brand commercials</li>
-                            <li>Event promotions</li>
-                            <li>Special offers</li>
-                            <li>Interactive ads with QR codes for instant engagement</li>
-                        </ul>
-                        Video ads play through high-definition display mechanisms and motion graphics to preserve a deep impact on people watching.
-                    </p>
+                    <h4>Elevator Advertising Packages We Offer</h4>
+                    <ul>
+                        <li><strong>Single Building Package</strong> — ideal for hyperlocal campaigns; restaurants, clinics, home services</li>
+                        <li><strong>Building Cluster Package</strong> — 10–50 buildings in a specific community or district</li>
+                        <li><strong>Residential Network Package</strong> — 100+ residential towers across Dubai for mass B2C reach</li>
+                        <li><strong>Corporate Network Package</strong> — office buildings in key business districts for B2B campaigns</li>
+                        <li><strong>Hotel Network Package</strong> — premium hotel properties in Dubai and Abu Dhabi</li>
+                        <li><strong>Full City Coverage</strong> — maximum reach across all building types and districts</li>
+
+                    </ul>
                 </div>
                 <div class="col-lg-4 vertical-center">
                     <img src="{{URL::to('/public/section-images/image4.png')}}" class="side-image" width="100%" alt="Impact of PR Coverage">
@@ -226,29 +259,75 @@
 
 
 
-        <section id="service-cards" class="blog-section section striped-section why-us-section why-out-us-section">
+
+        <section id="service-cards" class="blog-section section striped-section pr-icon-section">
+
+          <div class="container">
+
+            <div class="row gy-4 first-row outdoor-service-col-section">
+
+                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Elevator Advertising by Building Type</h4>
+                    <p>One of the most powerful aspects of elevator advertising is demographic precision. We segment our building portfolio so you reach exactly the right audience:</p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Residential Tower Advertising</h5>
+                    <p>
+                        Target affluent homeowners and tenants in premium residential communities including Dubai Marina, JBR, Downtown Dubai, Business Bay, and Jumeirah Lakes Towers. Ideal for: F&B delivery, home services, insurance, luxury lifestyle, and property investment offers. Average residential building impressions: 800–1,500 per day per building.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Commercial Office Building Advertising</h5>
+                    <p>
+                       Reach corporate decision-makers, senior executives, and business professionals inside Grade-A office towers in DIFC, Business Bay, JLT, and Deira. Ideal for: B2B services, financial products, SaaS solutions, corporate training, and executive recruitment. Average office building impressions: 1,200–2,500 per day per building.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Hotel Elevator Advertising</h5>
+                    <p>
+                        Capture a premium, high-spending audience of both leisure and business travellers in 4-star and 5-star hotels across Dubai and Abu Dhabi. Ideal for: luxury retail, dining, experiences, tours, and automotive. Audience profile: high-net-worth, international, and decision-makers.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h5>Mall Elevator Advertising</h5>
+                    <p>
+                        Shoppers in malls are already in a buying mindset. Mall elevator advertising in Dubai's flagship malls — The Dubai Mall, Mall of the Emirates, Ibn Battuta Mall — reaches millions of active consumers every month. Ideal for: retail brands, restaurants, promotions, and entertainment.
+                    </p>
+                </div>   
+            </div>
+
+          </div>
+
+        </section>
+
+        <section id="service-cards" class="blog-section section why-us-section why-out-us-section">
 
           <div class="container">
 
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-9">
-                    <h4>Why Choose Datamysite for Elevator Advertising Dubai?</h4>
+                    <h4>Who Benefits Most from Elevator Advertising in Dubai?</h4>
                     <p>
-                       At datamysite, we specialise in elevator advertising campaigns UAE that drive engagement and brand awareness. Here's why businesses trust us:
+                       Elevator advertising delivers outsized results for businesses that benefit from hyperlocal or demographic precision:
                     </p>
                     <ul>
-                        <li><strong>Innovative Approach</strong>: The company merges technology with creative concepts to generate successful elevator advertisement strategies.</li>
-                        <li><strong>Strategic Locations</strong>: We place your ads in high-rise buildings, corporate offices, and premium residential areas for maximum visibility.</li>
-                        <li><strong>Custom Solutions</strong>: Whether you need static posters, digital Elevator screens Dubai, or interactive media, we tailor campaigns to fit your needs.</li>
-                        <li><strong>Proven Expertise</strong>: The leading position of our agency allows us to optimise advertisement performance with the help of data-driven analytical insights.</li>
+                        <li>Real estate developers and brokers — targeting residential community residents</li>
+                        <li>Restaurants and food delivery apps — reaching residents within delivery zones</li>
+                        <li>Healthcare clinics and wellness centres — targeting nearby residents and professionals</li>
+                        <li>Financial services and insurance — reaching working professionals in office buildings</li>
+                        <li>Luxury retail and fashion — hotel and premium residential tower campaigns</li>
+                        <li>Education and training providers — B2B in commercial buildings; B2C in family communities</li>
+                        <li>Home services — targeting building residents directly</li>
+
                     </ul>
                     <p>
                         Does your brand require an advertising visibility boost? Partner with datamysite for impactful Elevator advertising Dubai campaigns that drive engagement and results. Reach us immediately at <a href="tel:971525287259" class="inline-block">+971 525 287 259</a> to start your project.
                     </p>
                     
                 </div>
-                <div class="col-lg-3 mob-not-visible">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-2 mob-not-visible">
                     <img src="{{URL::to('/public/assets/img/why-us.png')}}" width="100%" alt="Why choose us">
                 </div> 
             </div>
@@ -260,7 +339,7 @@
 
 
 
-        <section id="service-cards" class="blog-section section pr-blogs-section">
+        <section id="service-cards" class="blog-section section striped-section pr-blogs-section">
 
           <div class="container section-title">
             <h2 class="text-theme">Blogs</h2>
@@ -291,7 +370,7 @@
 
         </section>
 
-        <section id="service-cards" class="blog-section section striped-section faq-new-section">
+        <section id="service-cards" class="blog-section section faq-new-section">
 
           <div class="container">
 
@@ -304,13 +383,13 @@
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>Why is elevator advertising so effective?
+                                        <span class="badge">&nbsp;</span>How many buildings does DataMySite have access to?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>It offers a "Captive Audience" in a distraction-free environment. For 20 to 40 seconds, your ad is the only thing the passenger has to look at.</p>
+                                    <p>We have an active network spanning 500+ buildings across Dubai, Abu Dhabi, and Sharjah. This includes premium residential towers, Grade-A commercial buildings, 4 and 5-star hotels, and major retail malls.</p>
                                 </div>
                             </div>
                         </div>
@@ -318,13 +397,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Are the ads static frames or digital screens? 
+                                        <span class="badge">&nbsp;</span>Can I target a specific community, like Dubai Marina or JLT?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We offer both. You can choose classic high-quality printed frames or modern digital screens that support video and animation.</p>
+                                    <p>Yes. We offer community-level and district-level targeting. You can run a campaign in all buildings within a specific community, along a specific road, or within a defined radius of your business.</p>
                                 </div>
                             </div>
                         </div>
@@ -332,13 +411,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>How do you choose which buildings to advertise in? 
+                                        <span class="badge">&nbsp;</span>What is the minimum campaign duration? 
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>We filter buildings by "Tenant Profile"—selecting high-end residential towers for B2C or Grade-A commercial towers for B2B campaigns.</p>
+                                    <p>Most campaigns run for a minimum of 4 weeks. Longer durations (8–12 weeks) deliver higher cumulative frequency and significantly stronger brand recall.</p>
                                 </div>
                             </div>
                         </div>
@@ -346,13 +425,13 @@
                             <div class="card-header" id="faqHeading-13">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>Can I change the creative during the campaign?
+                                        <span class="badge">&nbsp;</span>How quickly can a campaign go live?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>For digital elevator screens, updates are remote and instant. For static frames, a small maintenance fee covers the physical swap.</p>
+                                    <p>Digital screen campaigns can go live within 48–72 hours of creative approval. Static poster campaigns typically require 5–7 business days for printing and installation.</p>
                                 </div>
                             </div>
                         </div>

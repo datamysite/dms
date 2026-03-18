@@ -121,6 +121,12 @@
 
 }
 @media (max-width: 767px) {
+	.pub-grid{
+		grid-template-columns: repeat(1, 1fr) !important;
+	}
+	.pub-cta{
+		flex-direction: column;
+	}
 	.hide-desktop{
 		display: block;
 	}

@@ -829,6 +829,25 @@ class ServiceController extends Controller
 
             return view('web.services-new.radio-advertising.english-stations.index')->with($data);
         }
+            public function radioAdvertisingEnglishtag911(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'radio-advertising')->first();
+                $data['service'] = Services::where('slug', 'english-stations')->first();
+                $data['subservice'] = Services::where('slug', 'tag-91-1')->first();
+                $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.radio-advertising.english-stations.tag-91-1')->with($data);
+            }
+            public function radioAdvertisingEnglishhit967(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'radio-advertising')->first();
+                $data['service'] = Services::where('slug', 'english-stations')->first();
+                $data['subservice'] = Services::where('slug', 'hit-96-7')->first();
+                $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.radio-advertising.english-stations.hit-96-7')->with($data);
+            }
+
         public function radioAdvertisingArabic(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'radio-advertising')->first();
