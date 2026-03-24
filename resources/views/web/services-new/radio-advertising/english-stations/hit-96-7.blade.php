@@ -136,29 +136,32 @@
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
-                    <h4>Who Listens to TAG 91.1 FM?</h4>
+
+                    <h4>Who Listens to HIT 96.7 FM?</h4>
                     <p>
-                        Understanding the audience is the first step to a successful campaign. TAG 91.1 FM primarily attracts:
+                        HIT 96.7 FM draws a vibrant and spending-active audience:
                     </p>
                     <ul>
-                        <li>English-speaking expatriates from Western countries, South Asia, the Philippines, and beyond</li>
-                        <li>Working professionals aged 25 to 50 living in Dubai, Sharjah, and Ajman</li>
-                        <li>Families who rely on the station for daily lifestyle, entertainment, and local news</li>
-                        <li>Commuters driving to and from business districts such as DIFC, Business Bay, and JLT</li>
-                        <li>General Dubai audience tuned in for music and morning shows</li>
+                        <li>Young professionals aged 18 to 35 working across Dubai's diverse industries</li>
+                        <li>University students and recent graduates</li>
+                        <li>English-speaking expats from Western countries, South Asia, and the Philippines</li>
+                        <li>Fashion and lifestyle consumers who follow global trends</li>
+                        <li>Gym-goers, active individuals, and entertainment seekers</li>
+                        <li>Mainstream pop music fans who are constantly connected to digital platforms</li>
+
+
                     </ul>
-                    <p>This makes TAG 91.1 FM a perfect fit for brands targeting Dubai's mainstream consumer market.</p>
                     <br>
-                    <h4>Types of Radio Ads Available on TAG 91.1</h4>
+                    <h4>Ad Formats on HIT 96.7 FM</h4>
                     <p>
-                        When you partner with DataMySite, you get access to multiple advertising formats on TAG 91.1 FM:
+                        DataMySite gives you access to flexible and engaging ad formats on HIT 96.7 FM:
                     </p>
                     <ul>
-                        <li><strong>Standard Spot Ads</strong>: 15, 30, or 60-second commercials placed during commercial breaks</li>
-                        <li><strong>Sponsored Segments</strong>: Have your brand sponsor a weather update, traffic report, or music countdown</li>
-                        <li><strong>Live Reads</strong>: On-air presenters personally deliver your brand message for added authenticity</li>
-                        <li><strong>Competitions and Giveaways</strong>: Engage listeners directly by sponsoring on-air contests</li>
-                        <li><strong>Morning Show Integrations</strong>: Get your brand featured during the highest-traffic listening window</li>
+                        <li>30 and 60-Second Spot Ads: Broadcast during commercial breaks throughout the day</li>
+                        <li>Morning Show Integrations: Get featured during the highest-traffic listening window of the day</li>
+                        <li>Sponsored Countdowns: Sponsor the weekly top hits countdown for maximum listener association</li>
+                        <li>Presenter Mentions and Live Reads: Young, relatable hosts personally mention your brand</li>
+                        <li>Event and Concert Sponsorships: Partner with HIT 96.7 for live events and concerts to amplify brand presence</li>
 
                     </ul>
                 </div>
@@ -177,32 +180,31 @@
 
 
                 <div class="col-lg-8 vertical-center">
-                    <h4>How DataMySite Manages Your TAG 91.1 Campaign</h4>
-                    <p>Running a successful radio campaign is not just about buying airtime. It requires the right strategy, creative approach, and precise execution. Here is what we do for you:</p>
+                    <h4>How DataMySite Handles Your HIT 96.7 Campaign</h4>
+                    <p>We manage every detail of your campaign so it sounds polished, feels authentic, and delivers real results:</p>
                     <ul>
-                        <li><strong>Campaign Strategy</strong>: We study your business goals, target audience, and budget to build a custom campaign plan</li>
-                        <li><strong>Script Writing</strong>: Our creative team writes punchy, attention-grabbing scripts tailored to the TAG 91.1 audience</li>
-                        <li><strong>Voice Production</strong>: We work with professional voice artists who match your brand tone</li>
-                        <li><strong>Time Slot Booking</strong>: We secure peak-hour placements to maximise listener exposure</li>
-                        <li><strong>Performance Monitoring</strong>: We track call volumes, website visits, and other response indicators</li>
-                        <li><strong>Campaign Optimisation</strong>: We refine your ads mid-campaign based on real performance data</li>
+                        <li><strong>Audience Research</strong>: We identify the exact listener segment most relevant to your brand</li>
+                        <li><strong>Creative Scripting</strong>: Our team writes youthful, energetic scripts that match the station's vibe</li>
+                        <li><strong>Voice Casting</strong>: We select voice artists who sound natural and relatable to a young audience</li>
+                        <li><strong>Prime Slot Booking</strong>: We lock in the best time slots to maximise your reach and impressions</li>
+                        <li><strong>Response Tracking</strong>: We monitor website traffic, call volumes, and other key performance indicators</li>
+
                     </ul>
 
                     <br>
-                    <h4>What Types of Businesses Benefit Most?</h4>
+                    <h4>Which Brands Work Best on HIT 96.7 FM?</h4>
                     <p>
-                        TAG 91.1 FM advertising works particularly well for businesses targeting Dubai's general English-speaking consumer base, including:
+                        HIT 96.7 FM is ideal for brands that want to capture the attention of Dubai's young, aspirational consumers:
                     </p>
                     <ul>
-                        <li>Real estate developers and property agents</li>
-                        <li>Retail stores, malls, and e-commerce brands</li>
-                        <li>Restaurants, cafes, and food delivery services</li>
-                        <li>Healthcare clinics and wellness centres</li>
-                        <li>Automotive dealerships and car service centres</li>
-                        <li>Banks, financial advisors, and insurance companies</li>
-                        <li>Travel agencies, hotels, and tourism brands</li>
-                        <li>Education institutions and training centres</li>
-
+                        <li>Fashion and streetwear brands</li>
+                        <li>Technology, gadgets, and smartphones</li>
+                        <li>Food delivery apps and quick-service restaurants</li>
+                        <li>Entertainment venues, cinemas, and nightlife</li>
+                        <li>Fitness centres, gyms, and wellness brands</li>
+                        <li>Travel and experience companies targeting younger travellers</li>
+                        <li>Education platforms, online learning, and career development</li>
+                        <li>Beauty, personal care, and grooming products</li>
                     </ul>
                 </div>
                 <div class="col-lg-1"></div>
@@ -221,10 +223,10 @@
               <div class="in">
                 <div>
                   <div class="tag w">Get Started</div>
-                  <h2>Start Advertising on<br><em>TAG 91.1 FM</em> Today</h2>
-                  <p>Ready to get your brand in front of Dubai's English-speaking audience? DataMySite makes it simple to launch a professional radio advertising campaign on TAG 91.1 FM. Whether you are a startup with a limited budget or an established brand looking to scale visibility, we have the right package for you.</p>
+                  <h2>Connect with Young Dubai Listeners via<br><em>HIT 96.7 FM</em></h2>
+                  <p>HIT 96.7 FM gives your brand direct access to Dubai's young, trend-setting English-speaking audience. With DataMySite's expertise in radio advertising, you get a campaign that is creatively sharp, strategically placed, and built to deliver results.</p>
                   <div class="cap-list">
-                    <div class="cap-item"><span class="cck">✓</span> Contact DataMySite today for a free consultation and customised radio advertising proposal.</div>
+                    <div class="cap-item"><span class="cck">✓</span> Get in touch with DataMySite today for a free quote on HIT 96.7 FM advertising.</div>
                   </div>
                 </div>
                 <div class="cap-r">
@@ -282,13 +284,13 @@
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>How much does it cost to advertise on TAG 91.1 FM?
+                                        <span class="badge">&nbsp;</span>Is HIT 96.7 FM right for a small business?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Advertising costs on TAG 91.1 depend on the time slot, ad duration, campaign length, and frequency. Morning drive-time slots are premium-priced due to higher listenership. Contact DataMySite for a custom quote tailored to your budget.</p>
+                                    <p>Yes. HIT 96.7 FM works well for both small and large businesses. If your product or service targets a young English-speaking audience in Dubai, this station offers great reach at a competitive cost. DataMySite can build a campaign that fits your specific budget.</p>
                                 </div>
                             </div>
                         </div>
@@ -296,13 +298,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How long should my radio ad be?
+                                        <span class="badge">&nbsp;</span>Can I run a short-burst campaign for a product launch?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>A 30-second ad is the most common and effective format. It is long enough to deliver a clear message while short enough to hold listener attention. We can also produce 15-second ads for reminders or 60-second storytelling formats for more detailed campaigns.</p>
+                                    <p>Absolutely. Short, high-frequency bursts are actually very effective on pop radio stations like HIT 96.7 FM. We can design a campaign specifically for product launches, seasonal promotions, or event awareness with a start and end date.</p>
                                 </div>
                             </div>
                         </div>
@@ -310,27 +312,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>Can DataMySite handle everything including production?
+                                        <span class="badge">&nbsp;</span>Do you write the radio script?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. DataMySite is a full-service radio advertising agency. We manage strategy, script writing, voice production, airtime booking, and post-campaign reporting. You do not need to work with multiple vendors.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-13">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>How quickly can a campaign go live?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Once your brief and budget are confirmed, a standard campaign can be live within 5 to 7 business days. Rush options may be available depending on station availability.</p>
+                                    <p>Yes, DataMySite handles full creative production, including scriptwriting, voice talent, and audio production. You simply provide your brief and key messages, and our team brings your ad to life.</p>
                                 </div>
                             </div>
                         </div>

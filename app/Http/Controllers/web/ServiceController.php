@@ -847,6 +847,33 @@ class ServiceController extends Controller
 
                 return view('web.services-new.radio-advertising.english-stations.hit-96-7')->with($data);
             }
+            public function radioAdvertisingEnglishcity1016(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'radio-advertising')->first();
+                $data['service'] = Services::where('slug', 'english-stations')->first();
+                $data['subservice'] = Services::where('slug', 'city-101-6')->first();
+                $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.radio-advertising.english-stations.city-101-6')->with($data);
+            }
+            public function radioAdvertisingEnglishdubaieye1038(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'radio-advertising')->first();
+                $data['service'] = Services::where('slug', 'english-stations')->first();
+                $data['subservice'] = Services::where('slug', 'dubai-eye-103-8')->first();
+                $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.radio-advertising.english-stations.dubai-eye-103-8')->with($data);
+            }
+            public function radioAdvertisingEnglishvirginradio(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'radio-advertising')->first();
+                $data['service'] = Services::where('slug', 'english-stations')->first();
+                $data['subservice'] = Services::where('slug', 'virgin-radio-dubai-104-4')->first();
+                $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.radio-advertising.english-stations.virgin-radio-dubai-104-4')->with($data);
+            }
 
         public function radioAdvertisingArabic(){
             $data['nav'] = 'services';
@@ -856,6 +883,34 @@ class ServiceController extends Controller
 
             return view('web.services-new.radio-advertising.arabic-stations.index')->with($data);
         }
+            public function radioAdvertisingArabicdubai92(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'radio-advertising')->first();
+                $data['service'] = Services::where('slug', 'arabic-stations')->first();
+                $data['subservice'] = Services::where('slug', 'dubai-92')->first();
+                $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.radio-advertising.arabic-stations.dubai-92')->with($data);
+            }
+            public function radioAdvertisingArabicalarabiya99(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'radio-advertising')->first();
+                $data['service'] = Services::where('slug', 'arabic-stations')->first();
+                $data['subservice'] = Services::where('slug', 'al-arabiya-99')->first();
+                $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.radio-advertising.arabic-stations.al-arabiya-99')->with($data);
+            }
+            public function radioAdvertisingArabicalkhaleejiya1009(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'radio-advertising')->first();
+                $data['service'] = Services::where('slug', 'arabic-stations')->first();
+                $data['subservice'] = Services::where('slug', 'al-khaleejiya-100-9')->first();
+                $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.radio-advertising.arabic-stations.al-khaleejiya-100-9')->with($data);
+            }
+            
         public function radioAdvertisingHindiUrdu(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'radio-advertising')->first();
@@ -864,6 +919,16 @@ class ServiceController extends Controller
 
             return view('web.services-new.radio-advertising.hindi-urdu-stations.index')->with($data);
         }
+            public function radioAdvertisingHindiUrduradioshoma(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'radio-advertising')->first();
+                $data['service'] = Services::where('slug', 'hindi-urdu-stations')->first();
+                $data['subservice'] = Services::where('slug', 'radio-shoma-93-4')->first();
+                $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.radio-advertising.hindi-urdu-stations.radio-shoma-93-4')->with($data);
+            }
+            
         public function radioAdvertisingOther(){
             $data['nav'] = 'services';
             $data['service'] = Services::where('slug', 'radio-advertising')->first();
@@ -872,6 +937,15 @@ class ServiceController extends Controller
 
             return view('web.services-new.radio-advertising.other-stations.index')->with($data);
         }
+            public function radioAdvertisingOthermpn(){
+                $data['nav'] = 'services';
+                $data['mainservice'] = Services::where('slug', 'radio-advertising')->first();
+                $data['service'] = Services::where('slug', 'other-stations')->first();
+                $data['subservice'] = Services::where('slug', 'mpn')->first();
+                $data['blogs'] = Blogs::where('category_id', '5')->orderBy('created_at', 'desc')->limit(3)->get();
+
+                return view('web.services-new.radio-advertising.other-stations.mpn')->with($data);
+            }
 
 //-------------------------------------------------------------------------------------------------------
 

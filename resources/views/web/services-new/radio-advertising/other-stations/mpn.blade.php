@@ -15,11 +15,11 @@
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
                         <h1>&#10687; {{$subservice->name}}</h1>
-                        <h2>Dedicated English-language</h2>
-                        <h4>talk radio and business news station</h4>
+                        <h2>Multilingual and niche programming</h2>
+                        <h4>that connects with communities that mainstream stations often overlook.</h4>
                         <br>
                         <p>
-                            DataMySite helps businesses run powerful advertising campaigns on Dubai Eye 103.8 FM that deliver real credibility and strong response from a business-focused audience.
+                            At DataMySite, we help brands reach these underserved but highly engaged niche audiences through targeted radio advertising campaigns on MPN Radio. Whether your product speaks to a specific linguistic community or a particular lifestyle segment, we can put your message where it will be heard, understood, and acted upon.
                         </p>
                     </div>
                     <div class="col-lg-4">
@@ -90,17 +90,16 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Why Dubai Eye 103.8 FM is a Premium Advertising Platform</h4>
+                    <h4>Why Advertise on MPN Radio?</h4>
                     <br>
-                    <p>Dubai Eye 103.8 FM stands apart from music-led stations by delivering a deeply engaged and intellectually active audience:</p>
+                    <p>MPN Radio's multilingual and niche approach offers a distinct set of advantages for advertisers:</p>
                     <ul>
-                        <li>Only English-language talk radio and business news station in the UAE</li>
-                        <li>Listeners are actively engaged, not passively listening — they tune in for information and insight</li>
-                        <li>Attracts high-net-worth individuals, C-suite executives, investors, and senior business professionals</li>
-                        <li>Business and news content creates a credible, trustworthy environment for brand advertising</li>
-                        <li>Strong audience overlap with financial, property, and premium consumer markets</li>
-                        <li>Ideal for brands where trust and authority are essential to the sales process</li>
-
+                        <li>Reaches audience segments that are largely untouched by mainstream radio advertising</li>
+                        <li>Lower competition means your ad is less likely to be lost among heavy brand clutter</li>
+                        <li>Highly targeted reach allows for more precise and efficient use of your advertising budget</li>
+                        <li>Multilingual content builds stronger community trust and higher brand loyalty</li>
+                        <li>Niche audiences are often more brand-receptive due to their specific interests and needs</li>
+                        <li>Ideal for brands looking to serve specific diaspora communities, cultural groups, or interest-based audiences</li>
                     </ul>
                 </div>
                 <div class="col-lg-6 vertical-center">
@@ -137,33 +136,28 @@
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
-                    <h4>Who Listens to Dubai Eye 103.8 FM?</h4>
+                    <h4>Who Listens to MPN Radio?</h4>
                     <p>
-                        The Dubai Eye 103.8 FM audience is one of the most valuable in UAE media:
+                        MPN Radio's audience is defined by its diversity and specificity:
                     </p>
                     <ul>
-                        <li>Senior business executives, CEOs, CFOs, and senior managers</li>
-                        <li>Entrepreneurs and business owners looking for insights and opportunities</li>
-                        <li>Investors and wealth managers following regional and global markets</li>
-                        <li>Professionals in finance, law, consulting, real estate, and technology</li>
-                        <li>English-speaking expats with high disposable income and decision-making authority</li>
-                        <li>News consumers who are highly analytical, brand-aware, and responsive to well-targeted advertising</li>
-
+                        <li>Community members from various diaspora groups seeking content in their native or preferred language</li>
+                        <li>Niche interest groups not adequately served by mainstream radio programming</li>
+                        <li>Multilingual UAE residents who switch between languages depending on content</li>
+                        <li>Cultural community leaders and influencers within specific nationality groups</li>
+                        <li>Consumers who actively seek out content that reflects their unique cultural identity</li>
                     </ul>
                     <br>
-                    <h4>Advertising Formats on Dubai Eye 103.8 FM</h4>
+                    <h4>Ad Formats Available Through MPN Radio</h4>
                     <p>
-                        DataMySite offers a range of strategic advertising placements on Dubai Eye 103.8 FM:
+                        DataMySite works with MPN Radio to offer flexible advertising solutions for niche campaigns:
                     </p>
                     <ul>
-                        <li>News Bulletin Sponsorships: Your brand introduced before or after key news updates throughout the day</li>
-                        <li>Programme Sponsorships: Sponsor popular shows covering business, finance, technology, or lifestyle topics</li>
-                        <li>Spot Commercials: 15, 30, or 60-second ads placed within commercial breaks</li>
-                        <li>Presenter Live Reads: Credible, authoritative hosts personally deliver your brand message</li>
-                        <li>Business Interview Integrations: Have your brand aligned with thought-leadership and industry expert interviews</li>
-                        <li>Breakfast Show Placements: Reach the highest-concentration of professional listeners in the morning</li>
-
-
+                        <li>Community Spot Ads: Short commercial messages broadcast within community-specific programming</li>
+                        <li>Cultural Programme Sponsorships: Sponsor shows dedicated to specific languages, cultures, or lifestyle interests</li>
+                        <li>Event Announcements and Community Ads: Promote events, services, or offers directly relevant to specific audience groups</li>
+                        <li>Live Community Reads: Trusted hosts within specific communities personally deliver your message for maximum authenticity</li>
+                        <li>Festival and Cultural Occasion Campaigns: Target audiences during their most engaged cultural periods</li>
                     </ul>
                 </div>
             </div>
@@ -181,31 +175,30 @@
 
 
                 <div class="col-lg-8 vertical-center">
-                    <h4>How DataMySite Manages Your Dubai Eye Campaign</h4>
-                    <p>We approach Dubai Eye 103.8 FM campaigns with the same level of professionalism the station demands:</p>
+                    <h4>How DataMySite Plans Your MPN Radio Campaign</h4>
+                    <p>Niche and multilingual radio advertising requires a more bespoke approach. Here is how we manage it:</p>
                     <ul>
-                        <li>Authority-First Messaging: We develop advertising messages that establish credibility and build trust with a discerning business audience</li>
-                        <li>Business-Register Script Writing: Our creative team writes intelligent, well-crafted scripts suitable for a talk radio environment</li>
-                        <li>Experienced Voice Talent: We select voice artists who sound professional, confident, and informed</li>
-                        <li>Targeted Time Slot Booking: We prioritise breakfast, mid-morning, and drive-time slots where professional listener concentration peaks</li>
-                        <li>Campaign Performance Reporting: We provide detailed post-campaign reports tracking reach, frequency, and audience response</li>
-
+                        <li>Audience Profiling: We identify which specific community or niche segment your brand should target and match it to the right programming</li>
+                        <li>Multilingual Creative Production: We produce ad scripts in the relevant language or dialect, with cultural authenticity built into every </li>
+                        <li>Community Voice Talent: We source voice artists from within specific communities for maximum listener trust and relatability</li>
+                        <li>Precision Scheduling: We book time slots within the specific programmes and broadcast windows most relevant to your target audience</li>
+                        <li>Performance Reporting: We track how your campaign performs against reach and response goals</li>
                     </ul>
 
                     <br>
-                    <h4>Best Industries for Dubai Eye 103.8 FM Advertising</h4>
+                    <h4>Top Industries for Al Khaleejiya 100.9 FM Advertising</h4>
                     <p>
-                        Dubai Eye 103.8 FM delivers outstanding results for brands targeting business professionals and high-income consumers:
+                        MPN Radio advertising is particularly effective for businesses that serve or target specific community groups in the UAE:
                     </p>
                     <ul>
-                        <li>Financial services, investment firms, and private banking</li>
-                        <li>Real estate — both commercial and luxury residential property</li>
-                        <li>Business software, enterprise technology, and SaaS platforms</li>
-                        <li>Legal, accounting, and professional services firms</li>
-                        <li>Premium automotive brands targeting executive buyers</li>
-                        <li>Business education, MBA programmes, and leadership training</li>
-                        <li>Airlines, premium hotels, and business travel services</li>
-                        <li>Corporate events, conferences, and exhibitions</li>
+                        <li>Restaurants and food brands catering to specific cuisines and cultural tastes</li>
+                        <li>Cultural fashion, traditional clothing, and ethnic product retailers</li>
+                        <li>Money transfer and remittance services targeting specific diaspora communities</li>
+                        <li>Community-specific healthcare services with multilingual staff</li>
+                        <li>Religious services, community centres, and cultural events</li>
+                        <li>Travel agencies specialising in specific regional routes</li>
+                        <li>Education services catering to specific language communities</li>
+                        <li>Small businesses serving niche consumer markets in the UAE</li>
 
                     </ul>
                 </div>
@@ -225,10 +218,10 @@
               <div class="in">
                 <div>
                   <div class="tag w">Get Started</div>
-                  <h2>Advertise Where Business Gets Done</h2>
-                  <p>Dubai Eye 103.8 FM is where Dubai's most influential and economically active professionals tune in every day. Placing your brand in this environment does not just generate awareness — it builds credibility and trust that directly influence purchasing decisions.</p>
+                  <h2>Reach Every Community in Dubai with <br><em>MPN Radio Advertising</em></h2>
+                  <p>Dubai's diversity is one of its greatest strengths — and MPN Radio gives you the tools to tap into that diversity in a meaningful and effective way. Whether you want to reach a specific linguistic community, cultural group, or niche interest segment, DataMySite can plan and execute a targeted campaign that delivers real results.</p>
                   <div class="cap-list">
-                    <div class="cap-item"><span class="cck">✓</span> Reach out to DataMySite today for a free consultation and a customised Dubai Eye 103.8 FM advertising strategy.</div>
+                    <div class="cap-item"><span class="cck">✓</span> Contact DataMySite today for a free consultation on MPN Radio advertising and niche audience targeting in the UAE.</div>
                   </div>
                 </div>
                 <div class="cap-r">
@@ -286,13 +279,13 @@
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>Is Dubai Eye 103.8 FM effective for B2B campaigns?
+                                        <span class="badge">&nbsp;</span>Which languages does MPN Radio broadcast in?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Dubai Eye 103.8 FM is arguably the best radio station in the UAE for B2B advertising. Its listener base is made up of exactly the kind of people who make business purchasing decisions — executives, managers, business owners, and professionals. If you want to reach decision-makers in a credible environment, Dubai Eye 103.8 FM is one of the strongest options available.</p>
+                                    <p>MPN Radio broadcasts in multiple languages serving different community segments in the UAE. For the most up-to-date information on available language programming relevant to your campaign, contact DataMySite and we will advise on the best fit for your target audience.</p>
                                 </div>
                             </div>
                         </div>
@@ -300,13 +293,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Can you create a thought leadership-style radio ad?
+                                        <span class="badge">&nbsp;</span>Is MPN Radio suitable for small budgets?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. Dubai Eye 103.8 FM's format supports more sophisticated and information-rich advertising messages. DataMySite can produce ads that position your brand as an industry authority, which works particularly well for professional services, technology, and financial companies.</p>
+                                    <p>Yes. Niche radio advertising often delivers strong value for smaller budgets because you are reaching a highly specific and engaged audience rather than paying for mass reach. DataMySite can build effective MPN Radio campaigns that work even for businesses with modest advertising budgets.</p>
                                 </div>
                             </div>
                         </div>
@@ -314,13 +307,27 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What is the ideal frequency for a Dubai Eye 103.8 FM campaign?
+                                        <span class="badge">&nbsp;</span>Can I advertise to a very specific community within the UAE?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>For a business and news station like Dubai Eye 103.8 FM, frequency of 3 to 5 times per day over several weeks tends to work best. This keeps your brand consistently present without overwhelming the audience. DataMySite recommends a minimum campaign length of 4 weeks for meaningful brand recall.</p>
+                                    <p>That is exactly what MPN Radio is designed for. If you want to reach a specific cultural, linguistic, or interest-based community in the UAE, MPN Radio and DataMySite together can build a highly targeted campaign that speaks directly to that audience in their own language and cultural context.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-13">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
+                                        <span class="badge">&nbsp;</span>How does niche radio advertising compare to social media for reaching specific communities?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Both have their strengths. Niche radio offers a level of trust and cultural authenticity that can be difficult to replicate with digital ads. Radio is also consumed passively, meaning your message reaches listeners even when they are not actively searching. Combining niche radio with targeted social media advertising is often the most effective approach, and DataMySite can help you build an integrated strategy.</p>
                                 </div>
                             </div>
                         </div>

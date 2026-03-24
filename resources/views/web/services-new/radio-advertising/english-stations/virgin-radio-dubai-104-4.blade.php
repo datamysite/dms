@@ -15,10 +15,10 @@
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
                         <h1>&#10687; {{$subservice->name}}</h1>
-                        <h2>One of the UAE's most-listened-to English radio stations</h2>
+                        <h2>Most recognised and exciting radio brands in the UAE</h2>
                         <br>
                         <p>
-                            At DataMySite, we help businesses of all sizes run strategic, results-driven radio advertising campaigns on TAG 91.1 FM. From writing your script to booking the right time slots and tracking performance, we handle everything end-to-end.
+                            DataMySite partners with businesses to create bold, energetic, and creative radio advertising campaigns on Virgin Radio Dubai 104.4 FM that genuinely connect with a young and engaged audience.
                         </p>
                     </div>
                     <div class="col-lg-4">
@@ -89,16 +89,17 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Why Advertise on TAG 91.1 FM?</h4>
+                    <h4>Why Advertise on Virgin Radio Dubai 104.4 FM?</h4>
                     <br>
-                    <p>TAG 91.1 FM has built a loyal listener base over the years. It is known for a mix of chart-topping music, local news, lifestyle segments, and engaging morning shows. Here is why it works so well for advertisers:</p>
+                    <p>The Virgin Radio brand carries enormous recognition and loyalty. Here is why advertisers love it:</p>
                     <ul>
-                        <li>Reaches a large, loyal base of English-speaking expats across Dubai and greater UAE</li>
-                        <li>Listeners tune in during peak commute hours — morning and evening drive time — when attention is high</li>
-                        <li>Strong listenership among mid-to-high income professionals who make purchasing decisions</li>
-                        <li>Great brand recall due to consistent music format and trusted on-air personalities</li>
-                        <li>Competitive ad rates compared to TV or digital display, with strong ROI</li>
-                        <li>Ideal for retail, real estate, hospitality, automotive, healthcare, and finance brands</li>
+                        <li>One of the UAE's most popular English radio stations with a strong youth and entertainment following</li>
+                        <li>Globally recognised Virgin brand brings instant credibility and premium perception</li>
+                        <li>High listener engagement driven by exclusive celebrity content, concerts, and competitions</li>
+                        <li>Strong cross-platform presence — radio, social media, and live events create multi-touchpoint brand exposure</li>
+                        <li>Vibrant, aspirational format that creates powerful emotional associations with your brand</li>
+                        <li>Ideal for lifestyle, entertainment, fashion, and technology brands</li>
+
                     </ul>
                 </div>
                 <div class="col-lg-6 vertical-center">
@@ -135,29 +136,31 @@
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
-                    <h4>Who Listens to TAG 91.1 FM?</h4>
+                    <h4>Who Listens to Virgin Radio Dubai 104.4 FM?</h4>
                     <p>
-                        Understanding the audience is the first step to a successful campaign. TAG 91.1 FM primarily attracts:
+                        Virgin Radio Dubai 104.4 FM draws a youthful and digitally connected audience:
                     </p>
                     <ul>
-                        <li>English-speaking expatriates from Western countries, South Asia, the Philippines, and beyond</li>
-                        <li>Working professionals aged 25 to 50 living in Dubai, Sharjah, and Ajman</li>
-                        <li>Families who rely on the station for daily lifestyle, entertainment, and local news</li>
-                        <li>Commuters driving to and from business districts such as DIFC, Business Bay, and JLT</li>
-                        <li>General Dubai audience tuned in for music and morning shows</li>
+                        <li>Young English-speaking adults aged 18 to 35 across Dubai and the UAE</li>
+                        <li>Entertainment and music fans who closely follow global and regional pop culture</li>
+                        <li>Trendsetters and early adopters who are first to try new products and experiences</li>
+                        <li>University students, young professionals, and creatives</li>
+                        <li>Social media-active individuals who amplify brand messages organically</li>
+                        <li>Expats and UAE residents who consume a mix of local and global entertainment content</li>
+
                     </ul>
-                    <p>This makes TAG 91.1 FM a perfect fit for brands targeting Dubai's mainstream consumer market.</p>
                     <br>
-                    <h4>Types of Radio Ads Available on TAG 91.1</h4>
+                    <h4>Advertising Formats on Virgin Radio Dubai 104.4 FM</h4>
                     <p>
-                        When you partner with DataMySite, you get access to multiple advertising formats on TAG 91.1 FM:
+                        Virgin Radio Dubai 104.4 FM offers a range of creative and engaging advertising formats:
                     </p>
                     <ul>
-                        <li><strong>Standard Spot Ads</strong>: 15, 30, or 60-second commercials placed during commercial breaks</li>
-                        <li><strong>Sponsored Segments</strong>: Have your brand sponsor a weather update, traffic report, or music countdown</li>
-                        <li><strong>Live Reads</strong>: On-air presenters personally deliver your brand message for added authenticity</li>
-                        <li><strong>Competitions and Giveaways</strong>: Engage listeners directly by sponsoring on-air contests</li>
-                        <li><strong>Morning Show Integrations</strong>: Get your brand featured during the highest-traffic listening window</li>
+                        <li>Spot Commercials: High-energy 15, 30, or 60-second ads placed in commercial breaks</li>
+                        <li>Morning Drive Integrations: Reach the highest-volume listener window of the day</li>
+                        <li>Presenter Endorsements: Beloved Virgin Radio hosts personally mention and endorse your brand</li>
+                        <li>Competitions and Giveaways: Your brand sponsors exclusive prize competitions that drive massive listener engagement</li>
+                        <li>Event and Concert Sponsorships: Align your brand with Virgin Radio Dubai's live events and celebrity appearances</li>
+                        <li>Social Media Amplification Packages: Combined on-air and digital campaign packages for maximum reach</li>
 
                     </ul>
                 </div>
@@ -176,31 +179,32 @@
 
 
                 <div class="col-lg-8 vertical-center">
-                    <h4>How DataMySite Manages Your TAG 91.1 Campaign</h4>
-                    <p>Running a successful radio campaign is not just about buying airtime. It requires the right strategy, creative approach, and precise execution. Here is what we do for you:</p>
+                    <h4>How DataMySite Creates Your Virgin Radio Dubai Campaign</h4>
+                    <p>We make sure your campaign captures the energy and excitement of the Virgin Radio Dubai brand:</p>
                     <ul>
-                        <li><strong>Campaign Strategy</strong>: We study your business goals, target audience, and budget to build a custom campaign plan</li>
-                        <li><strong>Script Writing</strong>: Our creative team writes punchy, attention-grabbing scripts tailored to the TAG 91.1 audience</li>
-                        <li><strong>Voice Production</strong>: We work with professional voice artists who match your brand tone</li>
-                        <li><strong>Time Slot Booking</strong>: We secure peak-hour placements to maximise listener exposure</li>
-                        <li><strong>Performance Monitoring</strong>: We track call volumes, website visits, and other response indicators</li>
-                        <li><strong>Campaign Optimisation</strong>: We refine your ads mid-campaign based on real performance data</li>
+                        <li>Creative Strategy: We develop campaign concepts that match the fun, bold, and trendy personality of Virgin Radio Dubai</li>
+                        <li>Youthful Script Writing: Our team writes scripts with the right tone — exciting, relatable, and action-driven</li>
+                        <li>Dynamic Voice Casting: We select voice artists who bring high energy and personality to your ad</li>
+                        <li>Prime Slot Booking: We secure placement in the highest-listening windows, including the famous morning show</li>
+                        <li>Multi-Platform Packages: We can combine radio with digital and social media amplification for even greater reach</li>
+                        <li>Performance Tracking: We monitor campaign results and provide actionable post-campaign insights</li>
+
                     </ul>
 
                     <br>
-                    <h4>What Types of Businesses Benefit Most?</h4>
+                    <h4>Top Industries for Virgin Radio Dubai 104.4 FM Advertising</h4>
                     <p>
-                        TAG 91.1 FM advertising works particularly well for businesses targeting Dubai's general English-speaking consumer base, including:
+                        Virgin Radio Dubai 104.4 FM works best for brands that target Dubai's youth and entertainment culture:
                     </p>
                     <ul>
-                        <li>Real estate developers and property agents</li>
-                        <li>Retail stores, malls, and e-commerce brands</li>
-                        <li>Restaurants, cafes, and food delivery services</li>
-                        <li>Healthcare clinics and wellness centres</li>
-                        <li>Automotive dealerships and car service centres</li>
-                        <li>Banks, financial advisors, and insurance companies</li>
-                        <li>Travel agencies, hotels, and tourism brands</li>
-                        <li>Education institutions and training centres</li>
+                        <li>Fashion, streetwear, and lifestyle brands</li>
+                        <li>Entertainment venues, concerts, and nightlife</li>
+                        <li>Food delivery, quick-service restaurants, and cafes</li>
+                        <li>Smartphones, gaming, and consumer electronics</li>
+                        <li>Travel, holiday packages, and experience brands</li>
+                        <li>Beauty, wellness, and personal care products</li>
+                        <li>Fitness clubs, gyms, and active lifestyle brands</li>
+                        <li>Apps, streaming services, and digital platforms</li>
 
                     </ul>
                 </div>
@@ -220,10 +224,10 @@
               <div class="in">
                 <div>
                   <div class="tag w">Get Started</div>
-                  <h2>Start Advertising on<br><em>TAG 91.1 FM</em> Today</h2>
-                  <p>Ready to get your brand in front of Dubai's English-speaking audience? DataMySite makes it simple to launch a professional radio advertising campaign on TAG 91.1 FM. Whether you are a startup with a limited budget or an established brand looking to scale visibility, we have the right package for you.</p>
+                  <h2>Make Your Brand a Part of Dubai's <br>Entertainment Scene</h2>
+                  <p>Virgin Radio Dubai 104.4 FM is where the energy of Dubai's youth culture comes alive every day. Advertising on this station gives your brand access to a passionate, engaged, and socially influential audience that drives trends across the city.</p>
                   <div class="cap-list">
-                    <div class="cap-item"><span class="cck">✓</span> Contact DataMySite today for a free consultation and customised radio advertising proposal.</div>
+                    <div class="cap-item"><span class="cck">✓</span> Contact DataMySite today for a free consultation and a creative advertising proposal for Virgin Radio Dubai 104.4 FM.</div>
                   </div>
                 </div>
                 <div class="cap-r">
@@ -281,13 +285,13 @@
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>How much does it cost to advertise on TAG 91.1 FM?
+                                        <span class="badge">&nbsp;</span>Can I sponsor a Virgin Radio Dubai celebrity interview segment?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Advertising costs on TAG 91.1 depend on the time slot, ad duration, campaign length, and frequency. Morning drive-time slots are premium-priced due to higher listenership. Contact DataMySite for a custom quote tailored to your budget.</p>
+                                    <p>Yes, programme sponsorships and integrations are available on Virgin Radio Dubai 104.4 FM. Celebrity interview segments and exclusive show integrations are particularly popular with lifestyle brands looking for premium content association. Contact DataMySite to find out about current availability.</p>
                                 </div>
                             </div>
                         </div>
@@ -295,13 +299,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How long should my radio ad be?
+                                        <span class="badge">&nbsp;</span>Does Virgin Radio Dubai have good social media reach?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>A 30-second ad is the most common and effective format. It is long enough to deliver a clear message while short enough to hold listener attention. We can also produce 15-second ads for reminders or 60-second storytelling formats for more detailed campaigns.</p>
+                                    <p>Yes. Virgin Radio Dubai has a significant social media following that extends your ad campaign beyond the broadcast itself. DataMySite can build integrated packages that combine on-air advertising with social media shoutouts and digital activations to amplify your brand message across multiple touchpoints.</p>
                                 </div>
                             </div>
                         </div>
@@ -309,27 +313,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>Can DataMySite handle everything including production?
+                                        <span class="badge">&nbsp;</span>Is Virgin Radio Dubai 104.4 FM right for a global brand entering the UAE market?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. DataMySite is a full-service radio advertising agency. We manage strategy, script writing, voice production, airtime booking, and post-campaign reporting. You do not need to work with multiple vendors.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-13">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>How quickly can a campaign go live?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Once your brief and budget are confirmed, a standard campaign can be live within 5 to 7 business days. Rush options may be available depending on station availability.</p>
+                                    <p>Absolutely. Virgin Radio Dubai is one of the best entry points for global brands launching in the UAE's English-speaking youth market. The Virgin brand's global recognition creates an immediately familiar and trusted environment for your advertising.</p>
                                 </div>
                             </div>
                         </div>

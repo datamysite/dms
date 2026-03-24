@@ -15,11 +15,10 @@
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
                         <h1>&#10687; {{$subservice->name}}</h1>
-                        <h2>Dedicated English-language</h2>
-                        <h4>talk radio and business news station</h4>
+                        <h2>UAE's most beloved Arabic radio stations</h2>
                         <br>
                         <p>
-                            DataMySite helps businesses run powerful advertising campaigns on Dubai Eye 103.8 FM that deliver real credibility and strong response from a business-focused audience.
+                            DataMySite specialises in helping brands create advertising campaigns on Al Khaleejiya 100.9 FM that feel genuine, culturally appropriate, and effective — whether you are targeting Emirati consumers, GCC nationals living in the UAE, or Arabic music lovers across the region.
                         </p>
                     </div>
                     <div class="col-lg-4">
@@ -90,17 +89,16 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Why Dubai Eye 103.8 FM is a Premium Advertising Platform</h4>
+                    <h4>Why Advertise on Al Khaleejiya 100.9 FM?</h4>
                     <br>
-                    <p>Dubai Eye 103.8 FM stands apart from music-led stations by delivering a deeply engaged and intellectually active audience:</p>
+                    <p>Al Khaleejiya 100.9 FM holds a special place in Gulf culture, making it a uniquely powerful advertising environment:</p>
                     <ul>
-                        <li>Only English-language talk radio and business news station in the UAE</li>
-                        <li>Listeners are actively engaged, not passively listening — they tune in for information and insight</li>
-                        <li>Attracts high-net-worth individuals, C-suite executives, investors, and senior business professionals</li>
-                        <li>Business and news content creates a credible, trustworthy environment for brand advertising</li>
-                        <li>Strong audience overlap with financial, property, and premium consumer markets</li>
-                        <li>Ideal for brands where trust and authority are essential to the sales process</li>
-
+                        <li>Dedicated to Khaleeji Arabic music and culture, with deep loyalty among UAE and GCC nationals</li>
+                        <li>Strong listenership among Emirati families and GCC expats across the UAE</li>
+                        <li>Cultural relevance that generic mainstream stations simply cannot replicate</li>
+                        <li>High listener trust and emotional engagement with station content and presenters</li>
+                        <li>Excellent platform for reaching high-income Emirati and Gulf Arab consumers</li>
+                        <li>Ideal for campaigns around UAE National Day, Eid, and cultural occasions</li>
                     </ul>
                 </div>
                 <div class="col-lg-6 vertical-center">
@@ -137,33 +135,28 @@
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
-                    <h4>Who Listens to Dubai Eye 103.8 FM?</h4>
+                    <h4>Who Listens to Al Khaleejiya 100.9 FM?</h4>
                     <p>
-                        The Dubai Eye 103.8 FM audience is one of the most valuable in UAE media:
+                        Al Khaleejiya 100.9 FM serves a specific and highly valuable audience:
                     </p>
                     <ul>
-                        <li>Senior business executives, CEOs, CFOs, and senior managers</li>
-                        <li>Entrepreneurs and business owners looking for insights and opportunities</li>
-                        <li>Investors and wealth managers following regional and global markets</li>
-                        <li>Professionals in finance, law, consulting, real estate, and technology</li>
-                        <li>English-speaking expats with high disposable income and decision-making authority</li>
-                        <li>News consumers who are highly analytical, brand-aware, and responsive to well-targeted advertising</li>
-
+                        <li>UAE nationals who strongly identify with Khaleeji culture and music</li>
+                        <li>GCC nationals from Saudi Arabia, Kuwait, Bahrain, Qatar, and Oman living in the UAE</li>
+                        <li>Gulf Arab families tuning in for cultural content, traditional music, and local news</li>
+                        <li>Middle to upper-income listeners who are key decision-makers for major purchases</li>
+                        <li>Arabic music enthusiasts who prefer traditional Gulf sounds over mainstream Western pop</li>
                     </ul>
                     <br>
-                    <h4>Advertising Formats on Dubai Eye 103.8 FM</h4>
+                    <h4>Ad Formats Available on Al Khaleejiya 100.9 FM</h4>
                     <p>
-                        DataMySite offers a range of strategic advertising placements on Dubai Eye 103.8 FM:
+                        DataMySite connects you with the right advertising formats for your campaign:
                     </p>
                     <ul>
-                        <li>News Bulletin Sponsorships: Your brand introduced before or after key news updates throughout the day</li>
-                        <li>Programme Sponsorships: Sponsor popular shows covering business, finance, technology, or lifestyle topics</li>
-                        <li>Spot Commercials: 15, 30, or 60-second ads placed within commercial breaks</li>
-                        <li>Presenter Live Reads: Credible, authoritative hosts personally deliver your brand message</li>
-                        <li>Business Interview Integrations: Have your brand aligned with thought-leadership and industry expert interviews</li>
-                        <li>Breakfast Show Placements: Reach the highest-concentration of professional listeners in the morning</li>
-
-
+                        <li>Spot Commercials: 15, 30, or 60-second Arabic ads placed within programme breaks</li>
+                        <li>Cultural Show Sponsorships: Align your brand with Khaleeji music programmes, poetry shows, or cultural features</li>
+                        <li>Presenter Live Reads: Station hosts deliver your message in a warm, culturally appropriate Khaleeji tone</li>
+                        <li>Seasonal Campaign Packages: Special Eid, National Day, and Ramadan advertising packages</li>
+                        <li>Weekend and Family Programme Integrations: Reach families during high-engagement weekend listening periods</li>
                     </ul>
                 </div>
             </div>
@@ -181,32 +174,30 @@
 
 
                 <div class="col-lg-8 vertical-center">
-                    <h4>How DataMySite Manages Your Dubai Eye Campaign</h4>
-                    <p>We approach Dubai Eye 103.8 FM campaigns with the same level of professionalism the station demands:</p>
+                    <h4>How DataMySite Handles Your Al Khaleejiya Campaign</h4>
+                    <p>Advertising on a culturally specific station requires the right approach. We bring both the expertise and cultural sensitivity needed:</p>
                     <ul>
-                        <li>Authority-First Messaging: We develop advertising messages that establish credibility and build trust with a discerning business audience</li>
-                        <li>Business-Register Script Writing: Our creative team writes intelligent, well-crafted scripts suitable for a talk radio environment</li>
-                        <li>Experienced Voice Talent: We select voice artists who sound professional, confident, and informed</li>
-                        <li>Targeted Time Slot Booking: We prioritise breakfast, mid-morning, and drive-time slots where professional listener concentration peaks</li>
-                        <li>Campaign Performance Reporting: We provide detailed post-campaign reports tracking reach, frequency, and audience response</li>
-
+                        <li>Cultural Insight Strategy: We tailor your campaign messaging to resonate with Gulf Arab cultural values and sensitivities</li>
+                        <li>Khaleeji Arabic Script Writing: Our team writes in the appropriate Gulf Arabic dialect and tone</li>
+                        <li>Voice Talent Selection: We use voice artists with authentic Gulf Arabic accents and delivery styles</li>
+                        <li>Time Slot Planning: We identify peak listening hours specific to Khaleeji audience habits</li>
+                        <li>Campaign Tracking: We measure response rates and provide post-campaign performance reports</li>
                     </ul>
 
                     <br>
-                    <h4>Best Industries for Dubai Eye 103.8 FM Advertising</h4>
+                    <h4>Top Industries for Al Khaleejiya 100.9 FM Advertising</h4>
                     <p>
-                        Dubai Eye 103.8 FM delivers outstanding results for brands targeting business professionals and high-income consumers:
+                        Al Khaleejiya 100.9 FM is particularly effective for businesses targeting UAE nationals and Gulf Arab consumers:
                     </p>
                     <ul>
-                        <li>Financial services, investment firms, and private banking</li>
-                        <li>Real estate — both commercial and luxury residential property</li>
-                        <li>Business software, enterprise technology, and SaaS platforms</li>
-                        <li>Legal, accounting, and professional services firms</li>
-                        <li>Premium automotive brands targeting executive buyers</li>
-                        <li>Business education, MBA programmes, and leadership training</li>
-                        <li>Airlines, premium hotels, and business travel services</li>
-                        <li>Corporate events, conferences, and exhibitions</li>
-
+                        <li>Real estate and luxury property developments targeting Emirati buyers</li>
+                        <li>Automotive brands targeting high-income Gulf Arab consumers</li>
+                        <li>Islamic banking and financial products</li>
+                        <li>Jewellery, luxury goods, and premium retail</li>
+                        <li>Traditional fashion, abayas, and Khaleeji clothing brands</li>
+                        <li>Healthcare, hospitals, and wellness brands</li>
+                        <li>Government and public sector awareness campaigns</li>
+                        <li>Tourism, hospitality, and cultural events in the UAE</li>
                     </ul>
                 </div>
                 <div class="col-lg-1"></div>
@@ -225,10 +216,10 @@
               <div class="in">
                 <div>
                   <div class="tag w">Get Started</div>
-                  <h2>Advertise Where Business Gets Done</h2>
-                  <p>Dubai Eye 103.8 FM is where Dubai's most influential and economically active professionals tune in every day. Placing your brand in this environment does not just generate awareness — it builds credibility and trust that directly influence purchasing decisions.</p>
+                  <h2>Connect Authentically with <br>Gulf Arab Consumers</h2>
+                  <p>Al Khaleejiya 100.9 FM offers something no other station can — genuine cultural connection with UAE nationals and Gulf Arabs. If your brand wants to build real trust and recognition within this valuable audience, advertising here is a smart investment.</p>
                   <div class="cap-list">
-                    <div class="cap-item"><span class="cck">✓</span> Reach out to DataMySite today for a free consultation and a customised Dubai Eye 103.8 FM advertising strategy.</div>
+                    <div class="cap-item"><span class="cck">✓</span> Contact DataMySite today for a free consultation on Al Khaleejiya 100.9 FM radio advertising.</div>
                   </div>
                 </div>
                 <div class="cap-r">
@@ -286,13 +277,13 @@
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>Is Dubai Eye 103.8 FM effective for B2B campaigns?
+                                        <span class="badge">&nbsp;</span>Why is it important to use Gulf Arabic dialect specifically?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Dubai Eye 103.8 FM is arguably the best radio station in the UAE for B2B advertising. Its listener base is made up of exactly the kind of people who make business purchasing decisions — executives, managers, business owners, and professionals. If you want to reach decision-makers in a credible environment, Dubai Eye 103.8 FM is one of the strongest options available.</p>
+                                    <p>Gulf Arabic, or Khaleeji Arabic, is the native dialect of Emirati and GCC nationals. Using a different Arabic dialect in advertising can feel foreign or out of place to this audience and significantly reduce the effectiveness of your message. Al Khaleejiya 100.9 FM listeners respond best to content that feels culturally authentic, which is why our scripts and voice productions are specifically crafted in the Khaleeji dialect.</p>
                                 </div>
                             </div>
                         </div>
@@ -300,13 +291,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Can you create a thought leadership-style radio ad?
+                                        <span class="badge">&nbsp;</span>Can international brands advertise on Al Khaleejiya 100.9 FM?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. Dubai Eye 103.8 FM's format supports more sophisticated and information-rich advertising messages. DataMySite can produce ads that position your brand as an industry authority, which works particularly well for professional services, technology, and financial companies.</p>
+                                    <p>Yes, international brands regularly advertise on Gulf Arabic stations. The key is ensuring your message is adapted — not just translated — for the Khaleeji audience. DataMySite handles the localisation process to make sure your brand feels relevant and credible to this audience.</p>
                                 </div>
                             </div>
                         </div>
@@ -314,13 +305,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What is the ideal frequency for a Dubai Eye 103.8 FM campaign?
+                                        <span class="badge">&nbsp;</span>When is the best time to advertise on Al Khaleejiya 100.9 FM?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>For a business and news station like Dubai Eye 103.8 FM, frequency of 3 to 5 times per day over several weeks tends to work best. This keeps your brand consistently present without overwhelming the audience. DataMySite recommends a minimum campaign length of 4 weeks for meaningful brand recall.</p>
+                                    <p>Like all radio stations, peak listening hours are typically morning and evening drive times. However, Al Khaleejiya 100.9 FM also sees strong weekend listenership when Gulf Arab families are relaxing at home or visiting friends and relatives. DataMySite advises on the best time slots based on your campaign objectives.</p>
                                 </div>
                             </div>
                         </div>

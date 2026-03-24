@@ -212,10 +212,26 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
                 Route::get('/', 'ServiceController@radioAdvertisingEnglish');
                 Route::get('/tag-91-1', 'ServiceController@radioAdvertisingEnglishtag911');
                 Route::get('/hit-96-7', 'ServiceController@radioAdvertisingEnglishhit967');
+                Route::get('/city-101-6', 'ServiceController@radioAdvertisingEnglishcity1016');
+                Route::get('/dubai-eye-103-8', 'ServiceController@radioAdvertisingEnglishdubaieye1038');
+                Route::get('/virgin-radio-dubai-104-4', 'ServiceController@radioAdvertisingEnglishvirginradio');
             });
-            Route::get('/arabic-stations', 'ServiceController@radioAdvertisingArabic');
-            Route::get('/hindi-urdu-stations', 'ServiceController@radioAdvertisingHindiUrdu');
-            Route::get('/other-stations', 'ServiceController@radioAdvertisingOther');
+            Route::prefix('arabic-stations')->group(function(){
+                Route::get('/', 'ServiceController@radioAdvertisingArabic');
+                Route::get('/dubai-92', 'ServiceController@radioAdvertisingArabicdubai92');
+                Route::get('/al-arabiya-99', 'ServiceController@radioAdvertisingArabicalarabiya99');
+                Route::get('/al-khaleejiya-100-9', 'ServiceController@radioAdvertisingArabicalkhaleejiya1009');
+            });
+            Route::prefix('hindi-urdu-stations')->group(function(){
+
+                Route::get('/', 'ServiceController@radioAdvertisingHindiUrdu');
+                Route::get('/radio-shoma-93-4', 'ServiceController@radioAdvertisingHindiUrduradioshoma');
+            });
+            Route::prefix('other-stations')->group(function(){
+                
+                Route::get('/', 'ServiceController@radioAdvertisingOther');
+                Route::get('/mpn', 'ServiceController@radioAdvertisingOthermpn');
+            });
         });
 
         Route::prefix('global-marketing')->group(function(){

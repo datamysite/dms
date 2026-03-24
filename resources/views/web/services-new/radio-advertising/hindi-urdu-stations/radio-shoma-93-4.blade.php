@@ -15,11 +15,11 @@
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
                         <h1>&#10687; {{$subservice->name}}</h1>
-                        <h2>Dedicated English-language</h2>
-                        <h4>talk radio and business news station</h4>
+                        <h2>South Asian community</h2>
+                        <h4>represents one of the largest and most economically active populations in the UAE</h4>
                         <br>
                         <p>
-                            DataMySite helps businesses run powerful advertising campaigns on Dubai Eye 103.8 FM that deliver real credibility and strong response from a business-focused audience.
+                            If your brand wants to reach Hindi and Urdu-speaking audiences in the UAE, advertising on Radio Shoma 93.4 is one of the most direct and powerful ways to do it. DataMySite helps you plan, produce, and run effective radio campaigns on this platform with full end-to-end support.
                         </p>
                     </div>
                     <div class="col-lg-4">
@@ -90,17 +90,16 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Why Dubai Eye 103.8 FM is a Premium Advertising Platform</h4>
+                    <h4>Why Advertise on Radio Shoma 93.4 FM?</h4>
                     <br>
-                    <p>Dubai Eye 103.8 FM stands apart from music-led stations by delivering a deeply engaged and intellectually active audience:</p>
+                    <p>Radio Shoma 93.4 FM has earned consistent loyalty among the South Asian diaspora in the UAE. Here is why it is a smart advertising choice:</p>
                     <ul>
-                        <li>Only English-language talk radio and business news station in the UAE</li>
-                        <li>Listeners are actively engaged, not passively listening — they tune in for information and insight</li>
-                        <li>Attracts high-net-worth individuals, C-suite executives, investors, and senior business professionals</li>
-                        <li>Business and news content creates a credible, trustworthy environment for brand advertising</li>
-                        <li>Strong audience overlap with financial, property, and premium consumer markets</li>
-                        <li>Ideal for brands where trust and authority are essential to the sales process</li>
-
+                        <li>Reaches a massive South Asian listener base including Indians, Pakistanis, Sri Lankans, and Bangladeshis</li>
+                        <li>Broadcasts in Hindi and Urdu, the most widely spoken South Asian languages in the UAE</li>
+                        <li>Strong listenership among working professionals, blue-collar workers, and business owners</li>
+                        <li>Popular Bollywood music format keeps listeners engaged for extended periods</li>
+                        <li>Trusted news and cultural segments build a loyal daily audience</li>
+                        <li>Very cost-effective for reaching a community that is often underserved by mainstream advertising</li>
                     </ul>
                 </div>
                 <div class="col-lg-6 vertical-center">
@@ -137,33 +136,28 @@
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
-                    <h4>Who Listens to Dubai Eye 103.8 FM?</h4>
+                    <h4>Who Listens to Radio Shoma 93.4?</h4>
                     <p>
-                        The Dubai Eye 103.8 FM audience is one of the most valuable in UAE media:
+                        Radio Shoma 93.4 FM serves a broad cross-section of the South Asian community in the UAE:
                     </p>
                     <ul>
-                        <li>Senior business executives, CEOs, CFOs, and senior managers</li>
-                        <li>Entrepreneurs and business owners looking for insights and opportunities</li>
-                        <li>Investors and wealth managers following regional and global markets</li>
-                        <li>Professionals in finance, law, consulting, real estate, and technology</li>
-                        <li>English-speaking expats with high disposable income and decision-making authority</li>
-                        <li>News consumers who are highly analytical, brand-aware, and responsive to well-targeted advertising</li>
-
+                        <li>Indian and Pakistani professionals working in corporate, medical, and IT sectors</li>
+                        <li>South Asian business owners and entrepreneurs running SMEs across the UAE</li>
+                        <li>Blue-collar and semi-skilled workers from India, Pakistan, Nepal, and Bangladesh</li>
+                        <li>South Asian families tuning in for entertainment, music, and news from back home</li>
+                        <li>Young adults aged 18 to 35 who enjoy Bollywood music and popular Hindi content</li>
                     </ul>
                     <br>
-                    <h4>Advertising Formats on Dubai Eye 103.8 FM</h4>
+                    <h4>Ad Formats Available on Radio Shoma 93.4</h4>
                     <p>
-                        DataMySite offers a range of strategic advertising placements on Dubai Eye 103.8 FM:
+                        Through DataMySite, you can run a range of advertising formats on Radio Shoma 93.4 FM to match your campaign objectives:
                     </p>
                     <ul>
-                        <li>News Bulletin Sponsorships: Your brand introduced before or after key news updates throughout the day</li>
-                        <li>Programme Sponsorships: Sponsor popular shows covering business, finance, technology, or lifestyle topics</li>
-                        <li>Spot Commercials: 15, 30, or 60-second ads placed within commercial breaks</li>
-                        <li>Presenter Live Reads: Credible, authoritative hosts personally deliver your brand message</li>
-                        <li>Business Interview Integrations: Have your brand aligned with thought-leadership and industry expert interviews</li>
-                        <li>Breakfast Show Placements: Reach the highest-concentration of professional listeners in the morning</li>
-
-
+                        <li>Spot Ads: 15, 30, or 60-second commercial breaks broadcast throughout the day</li>
+                        <li>Sponsored Bollywood Countdowns: Align your brand with popular music chart shows</li>
+                        <li>Live Presenter Endorsements: Trusted Hindi and Urdu-speaking hosts personally recommend your product</li>
+                        <li>Festival and Holiday Campaigns: Dedicated packages for Diwali, Eid, Holi, and Independence Day</li>
+                        <li>Community Announcement Spots: Ideal for events, new store openings, and limited-time offers</li>
                     </ul>
                 </div>
             </div>
@@ -181,32 +175,30 @@
 
 
                 <div class="col-lg-8 vertical-center">
-                    <h4>How DataMySite Manages Your Dubai Eye Campaign</h4>
-                    <p>We approach Dubai Eye 103.8 FM campaigns with the same level of professionalism the station demands:</p>
+                    <h4>How DataMySite Delivers Your Radio Shoma 93.4 Campaign</h4>
+                    <p>We make sure your campaign connects with the right audience in the right language and tone:</p>
                     <ul>
-                        <li>Authority-First Messaging: We develop advertising messages that establish credibility and build trust with a discerning business audience</li>
-                        <li>Business-Register Script Writing: Our creative team writes intelligent, well-crafted scripts suitable for a talk radio environment</li>
-                        <li>Experienced Voice Talent: We select voice artists who sound professional, confident, and informed</li>
-                        <li>Targeted Time Slot Booking: We prioritise breakfast, mid-morning, and drive-time slots where professional listener concentration peaks</li>
-                        <li>Campaign Performance Reporting: We provide detailed post-campaign reports tracking reach, frequency, and audience response</li>
-
+                        <li>Campaign Strategy: We plan your campaign around the listening habits and preferences of South Asian audiences in the UAE</li>
+                        <li>Hindi and Urdu Scriptwriting: Our team writes authentic scripts in conversational Hindi or Urdu that feel natural to the audience</li>
+                        <li>Multilingual Voice Production: Professional voice artists record your ad with the right accent, energy, and emotion</li>
+                        <li>Prime Time Booking: We secure peak slots during morning commute, lunch hours, and evening drive times</li>
+                        <li>Performance Reporting: We track response rates and provide clear campaign insights after broadcast</li>
                     </ul>
 
                     <br>
-                    <h4>Best Industries for Dubai Eye 103.8 FM Advertising</h4>
+                    <h4>Industries That Perform Best on Radio Shoma 93.4</h4>
                     <p>
-                        Dubai Eye 103.8 FM delivers outstanding results for brands targeting business professionals and high-income consumers:
+                        Brands targeting South Asian consumers in the UAE see excellent results with Radio Shoma 93.4 advertising, especially in:
                     </p>
                     <ul>
-                        <li>Financial services, investment firms, and private banking</li>
-                        <li>Real estate — both commercial and luxury residential property</li>
-                        <li>Business software, enterprise technology, and SaaS platforms</li>
-                        <li>Legal, accounting, and professional services firms</li>
-                        <li>Premium automotive brands targeting executive buyers</li>
-                        <li>Business education, MBA programmes, and leadership training</li>
-                        <li>Airlines, premium hotels, and business travel services</li>
-                        <li>Corporate events, conferences, and exhibitions</li>
-
+                        <li>Money transfer and remittance services</li>
+                        <li>Telecom plans and mobile phone deals</li>
+                        <li>South Asian grocery stores and food brands</li>
+                        <li>Real estate targeting South Asian investors and renters</li>
+                        <li>Gold jewellery, wedding services, and cultural fashion</li>
+                        <li>Healthcare clinics with multilingual staff</li>
+                        <li>Travel agencies offering India and Pakistan route packages</li>
+                        <li>Education, professional training, and certification programmes</li>
                     </ul>
                 </div>
                 <div class="col-lg-1"></div>
@@ -225,10 +217,10 @@
               <div class="in">
                 <div>
                   <div class="tag w">Get Started</div>
-                  <h2>Advertise Where Business Gets Done</h2>
-                  <p>Dubai Eye 103.8 FM is where Dubai's most influential and economically active professionals tune in every day. Placing your brand in this environment does not just generate awareness — it builds credibility and trust that directly influence purchasing decisions.</p>
+                  <h2>Reach Dubai's South Asian Community <br>Through <em>Radio Shoma 93.4</em></h2>
+                  <p>Radio Shoma 93.4 FM gives your brand a direct line to one of the UAE's largest and most engaged consumer communities. With DataMySite managing your campaign, you get professional creative production, smart scheduling, and clear reporting — all in one place.</p>
                   <div class="cap-list">
-                    <div class="cap-item"><span class="cck">✓</span> Reach out to DataMySite today for a free consultation and a customised Dubai Eye 103.8 FM advertising strategy.</div>
+                    <div class="cap-item"><span class="cck">✓</span> Contact DataMySite today for a free consultation on Radio Shoma 93.4 FM advertising.</div>
                   </div>
                 </div>
                 <div class="cap-r">
@@ -286,13 +278,13 @@
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>Is Dubai Eye 103.8 FM effective for B2B campaigns?
+                                        <span class="badge">&nbsp;</span>Can you produce ads in both Hindi and Urdu?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Dubai Eye 103.8 FM is arguably the best radio station in the UAE for B2B advertising. Its listener base is made up of exactly the kind of people who make business purchasing decisions — executives, managers, business owners, and professionals. If you want to reach decision-makers in a credible environment, Dubai Eye 103.8 FM is one of the strongest options available.</p>
+                                    <p>Yes. DataMySite produces ads in Hindi, Urdu, or both, depending on your target audience. Our creative team understands the subtle differences in tone, vocabulary, and cultural context between the two languages.</p>
                                 </div>
                             </div>
                         </div>
@@ -300,13 +292,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Can you create a thought leadership-style radio ad?
+                                        <span class="badge">&nbsp;</span>Is Radio Shoma 93.4 available outside Dubai?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. Dubai Eye 103.8 FM's format supports more sophisticated and information-rich advertising messages. DataMySite can produce ads that position your brand as an industry authority, which works particularly well for professional services, technology, and financial companies.</p>
+                                    <p>Radio Shoma 93.4 FM broadcasts across the UAE, which means your ad can reach listeners in Sharjah, Abu Dhabi, Ajman, and other emirates where large South Asian communities reside.</p>
                                 </div>
                             </div>
                         </div>
@@ -314,13 +306,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What is the ideal frequency for a Dubai Eye 103.8 FM campaign?
+                                        <span class="badge">&nbsp;</span>What is the minimum budget to start a campaign?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>For a business and news station like Dubai Eye 103.8 FM, frequency of 3 to 5 times per day over several weeks tends to work best. This keeps your brand consistently present without overwhelming the audience. DataMySite recommends a minimum campaign length of 4 weeks for meaningful brand recall.</p>
+                                    <p>Budget requirements vary based on frequency, time slots, and campaign duration. Contact DataMySite for a free quote. We offer flexible packages suitable for small businesses and large brands alike.</p>
                                 </div>
                             </div>
                         </div>

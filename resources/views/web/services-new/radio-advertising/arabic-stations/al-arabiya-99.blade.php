@@ -15,11 +15,11 @@
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
                         <h1>&#10687; {{$subservice->name}}</h1>
-                        <h2>Dedicated English-language</h2>
-                        <h4>talk radio and business news station</h4>
+                        <h2>With a Pan-Arab audience tuning</h2>
+                        <h4>in for reliable news, current affairs, and in-depth analysis</h4>
                         <br>
                         <p>
-                            DataMySite helps businesses run powerful advertising campaigns on Dubai Eye 103.8 FM that deliver real credibility and strong response from a business-focused audience.
+                            DataMySite helps businesses place strategic advertising campaigns on Al Arabiya 99 FM, ensuring your brand is associated with one of the most credible Arabic media names in the region.
                         </p>
                     </div>
                     <div class="col-lg-4">
@@ -90,16 +90,16 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Why Dubai Eye 103.8 FM is a Premium Advertising Platform</h4>
+                    <h4>Why Advertise on Al Arabiya 99 FM?</h4>
                     <br>
-                    <p>Dubai Eye 103.8 FM stands apart from music-led stations by delivering a deeply engaged and intellectually active audience:</p>
+                    <p>The combination of Al Arabiya's global news brand and the intimacy of radio creates a uniquely powerful advertising environment:</p>
                     <ul>
-                        <li>Only English-language talk radio and business news station in the UAE</li>
-                        <li>Listeners are actively engaged, not passively listening — they tune in for information and insight</li>
-                        <li>Attracts high-net-worth individuals, C-suite executives, investors, and senior business professionals</li>
-                        <li>Business and news content creates a credible, trustworthy environment for brand advertising</li>
-                        <li>Strong audience overlap with financial, property, and premium consumer markets</li>
-                        <li>Ideal for brands where trust and authority are essential to the sales process</li>
+                        <li>Reaches a premium Pan-Arab audience that is educated, affluent, and highly informed</li>
+                        <li>Associated with breaking news, which creates a sense of urgency and high attention from listeners</li>
+                        <li>Business and current affairs programming attracts professionals and decision-makers</li>
+                        <li>Broadcast reach extends beyond the UAE to include listeners across the Arab world</li>
+                        <li>Brand association with a trusted and authoritative news platform elevates your credibility</li>
+                        <li>Effective for B2B advertising, financial services, real estate, and premium consumer brands</li>
 
                     </ul>
                 </div>
@@ -137,32 +137,30 @@
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
-                    <h4>Who Listens to Dubai Eye 103.8 FM?</h4>
+                    <h4>Who Listens to Al Arabiya 99 FM?</h4>
                     <p>
-                        The Dubai Eye 103.8 FM audience is one of the most valuable in UAE media:
+                        Al Arabiya 99 FM attracts a sophisticated and influential Arabic-speaking audience:
                     </p>
                     <ul>
-                        <li>Senior business executives, CEOs, CFOs, and senior managers</li>
-                        <li>Entrepreneurs and business owners looking for insights and opportunities</li>
-                        <li>Investors and wealth managers following regional and global markets</li>
-                        <li>Professionals in finance, law, consulting, real estate, and technology</li>
-                        <li>English-speaking expats with high disposable income and decision-making authority</li>
-                        <li>News consumers who are highly analytical, brand-aware, and responsive to well-targeted advertising</li>
+                        <li>Business executives, investors, and senior professionals</li>
+                        <li>Government officials and public sector decision-makers</li>
+                        <li>Educated middle and upper-class Arab consumers</li>
+                        <li>News-oriented listeners who value reliable, unbiased reporting</li>
+                        <li>Pan-Arab expats in the UAE who want to stay connected with regional developments</li>
+                        <li>Arabic-speaking opinion leaders and influencers in business and politics</li>
 
                     </ul>
                     <br>
-                    <h4>Advertising Formats on Dubai Eye 103.8 FM</h4>
+                    <h4>Advertising Formats on Al Arabiya 99 FM</h4>
                     <p>
-                        DataMySite offers a range of strategic advertising placements on Dubai Eye 103.8 FM:
+                        With DataMySite managing your campaign, you can access a range of advertising formats:
                     </p>
                     <ul>
-                        <li>News Bulletin Sponsorships: Your brand introduced before or after key news updates throughout the day</li>
-                        <li>Programme Sponsorships: Sponsor popular shows covering business, finance, technology, or lifestyle topics</li>
-                        <li>Spot Commercials: 15, 30, or 60-second ads placed within commercial breaks</li>
-                        <li>Presenter Live Reads: Credible, authoritative hosts personally deliver your brand message</li>
-                        <li>Business Interview Integrations: Have your brand aligned with thought-leadership and industry expert interviews</li>
-                        <li>Breakfast Show Placements: Reach the highest-concentration of professional listeners in the morning</li>
-
+                        <li>News Bulletin Sponsorships: Your brand accompanies hourly or prime-time news updates</li>
+                        <li>Spot Commercials: 15 to 60-second Arabic ads placed within regular programming breaks</li>
+                        <li>Programme Sponsorships: Sponsor specific shows or special news features</li>
+                        <li>Expert Commentary Segments: Sponsored business or financial analysis segments aligned with your industry</li>
+                        <li>Breaking News Adjacencies: Premium placements immediately before or after breaking news segments</li>
 
                     </ul>
                 </div>
@@ -181,31 +179,31 @@
 
 
                 <div class="col-lg-8 vertical-center">
-                    <h4>How DataMySite Manages Your Dubai Eye Campaign</h4>
-                    <p>We approach Dubai Eye 103.8 FM campaigns with the same level of professionalism the station demands:</p>
+                    <h4>How DataMySite Runs Your Al Arabiya 99 FM Campaign</h4>
+                    <p>Running an effective campaign on a premium news station requires precision and brand-appropriate messaging. We take care of everything:</p>
                     <ul>
-                        <li>Authority-First Messaging: We develop advertising messages that establish credibility and build trust with a discerning business audience</li>
-                        <li>Business-Register Script Writing: Our creative team writes intelligent, well-crafted scripts suitable for a talk radio environment</li>
-                        <li>Experienced Voice Talent: We select voice artists who sound professional, confident, and informed</li>
-                        <li>Targeted Time Slot Booking: We prioritise breakfast, mid-morning, and drive-time slots where professional listener concentration peaks</li>
-                        <li>Campaign Performance Reporting: We provide detailed post-campaign reports tracking reach, frequency, and audience response</li>
+                        <li>Brand Alignment Strategy: We ensure your campaign tone matches Al Arabiya's authoritative, professional environment</li>
+                        <li>Arabic Script Development: We craft premium-quality scripts in formal or business-register Arabic</li>
+                        <li>Professional Voice Recording: We use experienced Arabic voice artists suited to a news broadcast environment</li>
+                        <li>Strategic Time Slot Booking: We target high-news-consumption windows like morning briefings and evening updates</li>
+                        <li>Campaign Analytics: We measure reach, frequency, and response to refine ongoing performance</li>
 
                     </ul>
 
                     <br>
-                    <h4>Best Industries for Dubai Eye 103.8 FM Advertising</h4>
+                    <h4>Best Industries for Al Arabiya 99 FM Advertising</h4>
                     <p>
-                        Dubai Eye 103.8 FM delivers outstanding results for brands targeting business professionals and high-income consumers:
+                        Al Arabiya 99 FM is a particularly strong platform for brands targeting decision-makers and high-net-worth individuals:
                     </p>
                     <ul>
-                        <li>Financial services, investment firms, and private banking</li>
-                        <li>Real estate — both commercial and luxury residential property</li>
-                        <li>Business software, enterprise technology, and SaaS platforms</li>
-                        <li>Legal, accounting, and professional services firms</li>
-                        <li>Premium automotive brands targeting executive buyers</li>
-                        <li>Business education, MBA programmes, and leadership training</li>
-                        <li>Airlines, premium hotels, and business travel services</li>
-                        <li>Corporate events, conferences, and exhibitions</li>
+                        <li>Financial services, banking, and investment companies</li>
+                        <li>Real estate developers and luxury property brands</li>
+                        <li>Automotive brands targeting executives and premium car buyers</li>
+                        <li>Business services, consulting, and professional firms</li>
+                        <li>Healthcare and premium private hospitals</li>
+                        <li>Luxury retail and high-end consumer goods</li>
+                        <li>Government and semi-government entities</li>
+                        <li>Technology companies and enterprise software brands</li>
 
                     </ul>
                 </div>
@@ -225,10 +223,10 @@
               <div class="in">
                 <div>
                   <div class="tag w">Get Started</div>
-                  <h2>Advertise Where Business Gets Done</h2>
-                  <p>Dubai Eye 103.8 FM is where Dubai's most influential and economically active professionals tune in every day. Placing your brand in this environment does not just generate awareness — it builds credibility and trust that directly influence purchasing decisions.</p>
+                  <h2>Make Your Brand a Part of <br>the News Conversation</h2>
+                  <p>Al Arabiya 99 FM is where the Arab world tunes in to stay informed. Advertising here positions your brand alongside content that people trust, value, and pay close attention to every day.</p>
                   <div class="cap-list">
-                    <div class="cap-item"><span class="cck">✓</span> Reach out to DataMySite today for a free consultation and a customised Dubai Eye 103.8 FM advertising strategy.</div>
+                    <div class="cap-item"><span class="cck">✓</span> Contact DataMySite today to explore advertising opportunities on Al Arabiya 99 FM and get a customised campaign proposal.</div>
                   </div>
                 </div>
                 <div class="cap-r">
@@ -286,13 +284,13 @@
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>Is Dubai Eye 103.8 FM effective for B2B campaigns?
+                                        <span class="badge">&nbsp;</span>Is Al Arabiya 99 FM suitable for small businesses?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Dubai Eye 103.8 FM is arguably the best radio station in the UAE for B2B advertising. Its listener base is made up of exactly the kind of people who make business purchasing decisions — executives, managers, business owners, and professionals. If you want to reach decision-makers in a credible environment, Dubai Eye 103.8 FM is one of the strongest options available.</p>
+                                    <p>Al Arabiya 99 FM is best suited for brands targeting premium, educated, and decision-making audiences. It works especially well for businesses where brand authority and trust matter — such as finance, real estate, healthcare, and professional services. We advise on whether this station is the right fit for your specific goals.</p>
                                 </div>
                             </div>
                         </div>
@@ -300,13 +298,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>Can you create a thought leadership-style radio ad?
+                                        <span class="badge">&nbsp;</span>Can I sponsor specific news segments?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. Dubai Eye 103.8 FM's format supports more sophisticated and information-rich advertising messages. DataMySite can produce ads that position your brand as an industry authority, which works particularly well for professional services, technology, and financial companies.</p>
+                                    <p>Yes, news bulletin sponsorships are one of the most prestigious advertising formats available on Al Arabiya 99 FM. Your brand is introduced just before a major news update, creating strong association with reliability and authority. Contact DataMySite for current availability and pricing.</p>
                                 </div>
                             </div>
                         </div>
@@ -314,13 +312,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>What is the ideal frequency for a Dubai Eye 103.8 FM campaign?
+                                        <span class="badge">&nbsp;</span>Do you offer multilingual campaigns covering both Al Arabiya 99 and English stations?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>For a business and news station like Dubai Eye 103.8 FM, frequency of 3 to 5 times per day over several weeks tends to work best. This keeps your brand consistently present without overwhelming the audience. DataMySite recommends a minimum campaign length of 4 weeks for meaningful brand recall.</p>
+                                    <p>Yes. DataMySite can plan and manage simultaneous campaigns across multiple radio stations in different languages. This is ideal for brands that want to reach both Arabic and English-speaking audiences across the UAE at the same time.</p>
                                 </div>
                             </div>
                         </div>

@@ -15,10 +15,10 @@
                 <div class="row">
                     <div class="col-lg-8 head-para-service">
                         <h1>&#10687; {{$subservice->name}}</h1>
-                        <h2>One of the UAE's most-listened-to English radio stations</h2>
+                        <h2>One of Dubai's leading English radio stations</h2>
                         <br>
                         <p>
-                            At DataMySite, we help businesses of all sizes run strategic, results-driven radio advertising campaigns on TAG 91.1 FM. From writing your script to booking the right time slots and tracking performance, we handle everything end-to-end.
+                            DataMySite helps businesses build and execute strategic City 101.6 FM advertising campaigns that connect with Dubai's working professional community — the people who drive the city's economy and hold significant purchasing power.
                         </p>
                     </div>
                     <div class="col-lg-4">
@@ -89,16 +89,17 @@
             <div class="row gy-4 first-row">
 
                 <div class="col-lg-6 vertical-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4>Why Advertise on TAG 91.1 FM?</h4>
+                    <h4>Why Advertise on City 101.6 FM?</h4>
                     <br>
-                    <p>TAG 91.1 FM has built a loyal listener base over the years. It is known for a mix of chart-topping music, local news, lifestyle segments, and engaging morning shows. Here is why it works so well for advertisers:</p>
+                    <p>City 101.6 FM has established itself as a trusted companion for Dubai's professional community. Here is what makes it a strong advertising platform:</p>
                     <ul>
-                        <li>Reaches a large, loyal base of English-speaking expats across Dubai and greater UAE</li>
-                        <li>Listeners tune in during peak commute hours — morning and evening drive time — when attention is high</li>
-                        <li>Strong listenership among mid-to-high income professionals who make purchasing decisions</li>
-                        <li>Great brand recall due to consistent music format and trusted on-air personalities</li>
-                        <li>Competitive ad rates compared to TV or digital display, with strong ROI</li>
-                        <li>Ideal for retail, real estate, hospitality, automotive, healthcare, and finance brands</li>
+                        <li>Reaches urban professionals across key Dubai business districts — DIFC, Business Bay, Downtown, and JLT</li>
+                        <li>Strong engagement during morning and evening commutes when professional listeners are highly attentive</li>
+                        <li>Mix of music, news, and professional lifestyle content that keeps listeners tuned in longer</li>
+                        <li>Affluent audience with significant spending power across real estate, automotive, travel, and luxury categories</li>
+                        <li>Credible and sophisticated brand environment that elevates advertiser perception</li>
+                        <li>Effective for B2B and premium B2C campaigns alike</li>
+
                     </ul>
                 </div>
                 <div class="col-lg-6 vertical-center">
@@ -135,29 +136,29 @@
                 </div> 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-8 vertical-center">
-                    <h4>Who Listens to TAG 91.1 FM?</h4>
+                    <h4>Who Listens to City 101.6 FM?</h4>
                     <p>
-                        Understanding the audience is the first step to a successful campaign. TAG 91.1 FM primarily attracts:
+                        City 101.6 FM attracts Dubai's career-driven, lifestyle-conscious population:
                     </p>
                     <ul>
-                        <li>English-speaking expatriates from Western countries, South Asia, the Philippines, and beyond</li>
-                        <li>Working professionals aged 25 to 50 living in Dubai, Sharjah, and Ajman</li>
-                        <li>Families who rely on the station for daily lifestyle, entertainment, and local news</li>
-                        <li>Commuters driving to and from business districts such as DIFC, Business Bay, and JLT</li>
-                        <li>General Dubai audience tuned in for music and morning shows</li>
+                        <li>Corporate professionals and managers working in finance, technology, marketing, and consulting</li>
+                        <li>Business owners and entrepreneurs based in Dubai's business districts</li>
+                        <li>High-income English-speaking expats and long-term UAE residents</li>
+                        <li>Professionals aged 28 to 50 with active purchasing habits in property, travel, automotive, and lifestyle</li>
+                        <li>Decision-makers in both consumer and business purchasing contexts</li>
+
                     </ul>
-                    <p>This makes TAG 91.1 FM a perfect fit for brands targeting Dubai's mainstream consumer market.</p>
                     <br>
-                    <h4>Types of Radio Ads Available on TAG 91.1</h4>
+                    <h4>Ad Formats on City 101.6 FM</h4>
                     <p>
-                        When you partner with DataMySite, you get access to multiple advertising formats on TAG 91.1 FM:
+                        DataMySite gives you flexible options to reach City 101.6 FM's professional audience:
                     </p>
                     <ul>
-                        <li><strong>Standard Spot Ads</strong>: 15, 30, or 60-second commercials placed during commercial breaks</li>
-                        <li><strong>Sponsored Segments</strong>: Have your brand sponsor a weather update, traffic report, or music countdown</li>
-                        <li><strong>Live Reads</strong>: On-air presenters personally deliver your brand message for added authenticity</li>
-                        <li><strong>Competitions and Giveaways</strong>: Engage listeners directly by sponsoring on-air contests</li>
-                        <li><strong>Morning Show Integrations</strong>: Get your brand featured during the highest-traffic listening window</li>
+                        <li>Spot Ads: 30 or 60-second commercials running during commercial breaks throughout the day</li>
+                        <li>Drive Time Sponsorships: Premium placements in the morning and evening commute programming</li>
+                        <li>Presenter Live Reads: Professional, credible host endorsements that lend authority to your message</li>
+                        <li>Business News Sponsorships: Align your brand with business updates and market news segments</li>
+                        <li>Lifestyle and Entertainment Show Integrations: Reach professionals during after-work listening hours</li>
 
                     </ul>
                 </div>
@@ -176,31 +177,31 @@
 
 
                 <div class="col-lg-8 vertical-center">
-                    <h4>How DataMySite Manages Your TAG 91.1 Campaign</h4>
-                    <p>Running a successful radio campaign is not just about buying airtime. It requires the right strategy, creative approach, and precise execution. Here is what we do for you:</p>
+                    <h4>How DataMySite Plans and Executes Your City 101.6 Campaign</h4>
+                    <p>We handle every aspect of your radio campaign to ensure it lands with the right impact on City 101.6 FM:</p>
                     <ul>
-                        <li><strong>Campaign Strategy</strong>: We study your business goals, target audience, and budget to build a custom campaign plan</li>
-                        <li><strong>Script Writing</strong>: Our creative team writes punchy, attention-grabbing scripts tailored to the TAG 91.1 audience</li>
-                        <li><strong>Voice Production</strong>: We work with professional voice artists who match your brand tone</li>
-                        <li><strong>Time Slot Booking</strong>: We secure peak-hour placements to maximise listener exposure</li>
-                        <li><strong>Performance Monitoring</strong>: We track call volumes, website visits, and other response indicators</li>
-                        <li><strong>Campaign Optimisation</strong>: We refine your ads mid-campaign based on real performance data</li>
+                        <li>Strategic Planning: We align your campaign message with the professional values and lifestyle of the City 101.6 audience</li>
+                        <li>Script Writing: We create polished, sophisticated scripts that feel appropriate for a professional audience</li>
+                        <li>Voice Production: We select professional voice artists who sound credible, clear, and authoritative</li>
+                        <li>Optimal Scheduling: We book time slots that maximise exposure during professional commute and working hours</li>
+                        <li>Campaign Measurement: We track and report on key performance indicators throughout and after your campaign</li>
+
                     </ul>
 
                     <br>
-                    <h4>What Types of Businesses Benefit Most?</h4>
+                    <h4>Industries That Thrive on City 101.6 FM Advertising</h4>
                     <p>
-                        TAG 91.1 FM advertising works particularly well for businesses targeting Dubai's general English-speaking consumer base, including:
+                        City 101.6 FM is especially effective for brands that need to reach Dubai's professional and business community:
                     </p>
                     <ul>
-                        <li>Real estate developers and property agents</li>
-                        <li>Retail stores, malls, and e-commerce brands</li>
-                        <li>Restaurants, cafes, and food delivery services</li>
-                        <li>Healthcare clinics and wellness centres</li>
-                        <li>Automotive dealerships and car service centres</li>
-                        <li>Banks, financial advisors, and insurance companies</li>
-                        <li>Travel agencies, hotels, and tourism brands</li>
-                        <li>Education institutions and training centres</li>
+                        <li>Real estate and property investments</li>
+                        <li>Banking, wealth management, and insurance</li>
+                        <li>Professional services including legal, accounting, and HR</li>
+                        <li>Business travel, airlines, and premium hotels</li>
+                        <li>Automotive brands targeting professional buyers</li>
+                        <li>Technology and SaaS solutions for professionals</li>
+                        <li>Executive education, MBA programmes, and professional certifications</li>
+                        <li>Premium lifestyle and luxury brands</li>
 
                     </ul>
                 </div>
@@ -220,10 +221,10 @@
               <div class="in">
                 <div>
                   <div class="tag w">Get Started</div>
-                  <h2>Start Advertising on<br><em>TAG 91.1 FM</em> Today</h2>
-                  <p>Ready to get your brand in front of Dubai's English-speaking audience? DataMySite makes it simple to launch a professional radio advertising campaign on TAG 91.1 FM. Whether you are a startup with a limited budget or an established brand looking to scale visibility, we have the right package for you.</p>
+                  <h2>Put Your Brand in Front of <br>Dubai's Professionals</h2>
+                  <p>City 101.6 FM is the station of choice for Dubai's driven, educated, and high-earning professional class. Advertising here positions your brand in a smart, sophisticated environment and puts your message in front of the people most likely to act on it.</p>
                   <div class="cap-list">
-                    <div class="cap-item"><span class="cck">✓</span> Contact DataMySite today for a free consultation and customised radio advertising proposal.</div>
+                    <div class="cap-item"><span class="cck">✓</span> Contact DataMySite today for a free consultation and a tailored City 101.6 FM advertising strategy.</div>
                   </div>
                 </div>
                 <div class="cap-r">
@@ -281,13 +282,13 @@
                             <div class="card-header" id="faqHeading-10">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="true" data-aria-controls="faqCollapse-10">
-                                        <span class="badge">&nbsp;</span>How much does it cost to advertise on TAG 91.1 FM?
+                                        <span class="badge">&nbsp;</span>Is City 101.6 FM better for B2B or B2C advertising?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-10" class="collapse show" aria-labelledby="faqHeading-10" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Advertising costs on TAG 91.1 depend on the time slot, ad duration, campaign length, and frequency. Morning drive-time slots are premium-priced due to higher listenership. Contact DataMySite for a custom quote tailored to your budget.</p>
+                                    <p>City 101.6 FM is strong for both. Its professional listener base makes it excellent for B2B campaigns reaching decision-makers and business owners. At the same time, the high-income consumer profile of its audience makes it highly effective for premium B2C brands in property, automotive, travel, and luxury retail.</p>
                                 </div>
                             </div>
                         </div>
@@ -295,13 +296,13 @@
                             <div class="card-header" id="faqHeading-11">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                        <span class="badge">&nbsp;</span>How long should my radio ad be?
+                                        <span class="badge">&nbsp;</span>How long should a professional-focused radio ad be?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>A 30-second ad is the most common and effective format. It is long enough to deliver a clear message while short enough to hold listener attention. We can also produce 15-second ads for reminders or 60-second storytelling formats for more detailed campaigns.</p>
+                                    <p>For professional audiences, 30 seconds is usually optimal — long enough to communicate a clear and credible message without overstaying your welcome. For more complex messages, such as event invitations or product launches, 60-second spots can work well when the script is well-structured and engaging.</p>
                                 </div>
                             </div>
                         </div>
@@ -309,27 +310,13 @@
                             <div class="card-header" id="faqHeading-12">
                                 <div class="mb-0">
                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                        <span class="badge">&nbsp;</span>Can DataMySite handle everything including production?
+                                        <span class="badge">&nbsp;</span>Do you handle repeat campaigns and seasonal refreshes?
                                     </h5>
                                 </div>
                             </div>
                             <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Yes. DataMySite is a full-service radio advertising agency. We manage strategy, script writing, voice production, airtime booking, and post-campaign reporting. You do not need to work with multiple vendors.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="faqHeading-13">
-                                <div class="mb-0">
-                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                        <span class="badge">&nbsp;</span>How quickly can a campaign go live?
-                                    </h5>
-                                </div>
-                            </div>
-                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Once your brief and budget are confirmed, a standard campaign can be live within 5 to 7 business days. Rush options may be available depending on station availability.</p>
+                                    <p>Yes. Many DataMySite clients run ongoing campaigns on City 101.6 FM with periodic creative refreshes. We recommend updating your ad creatives every 6 to 8 weeks to maintain listener freshness and avoid message fatigue.</p>
                                 </div>
                             </div>
                         </div>
