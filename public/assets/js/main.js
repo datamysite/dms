@@ -2,12 +2,12 @@ var host = $("meta[name='home_url']").attr("content");
 
 var exitShown = false;
 
-$(document).mouseleave(function(e) {
+/*$(document).mouseleave(function(e) {
     if (e.clientY <= 0 && !exitShown) {
         openExitPopup();
         exitShown = true;
     }
-});
+});*/
 
 function openExitPopup(){document.getElementById('ov').classList.add('show');document.body.style.overflow='hidden'}
 function closeExitPopup(){document.getElementById('ov').classList.remove('show');document.body.style.overflow=''}
