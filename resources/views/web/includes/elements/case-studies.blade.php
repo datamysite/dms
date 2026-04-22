@@ -75,7 +75,7 @@
                     </div>
                     <div class="swiper-slide">
                         <a href="{{URL::to('/public/case-studies/ksa.pdf')}}" target="_blank" class="open-case-study">
-                            <img src="{{URL::to('/public/case-studies/cover/lenskart.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
+                            <img src="{{URL::to('/public/case-studies/cover/lenskart-p.png')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
                             <h5><span>KSA Influencers</span> x <span>DMS</span> |  Case Study</h5>
                         </a>
                     </div>
