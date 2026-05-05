@@ -38,6 +38,12 @@
                 }'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
+                        <a href="{{URL::to('/public/case-studies/bnw.pdf')}}" target="_blank" class="open-case-study">
+                            <img src="{{URL::to('/public/case-studies/cover/bnw.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
+                            <h5><span>BNW Developers</span> x <span>DMS</span> |  Case Study</h5>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
                         <a href="{{URL::to('/public/case-studies/ays.pdf')}}" target="_blank" class="open-case-study">
                             <img src="{{URL::to('/public/case-studies/cover/ays.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
                             <h5><span>AYS Developers</span> x <span>DMS</span> |  Case Study</h5>

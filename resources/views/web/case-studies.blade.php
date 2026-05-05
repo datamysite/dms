@@ -35,6 +35,12 @@
                     <p>Each case study is a testament to our dedication, creativity, and expertise, offering a glimpse into the innovative solutions we craft to help businesses thrive in Dubai's competitive market.</p>
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 case-studies-new">
+                            <a href="{{URL::to('/public/case-studies/bnw.pdf')}}" target="_blank" class="open-case-study">
+                                <img src="{{URL::to('/public/case-studies/cover/bnw.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
+                                <h5><span>BNW Developers</span> x <span>DMS</span> |  Case Study</h5>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 case-studies-new">
                             <a href="{{URL::to('/public/case-studies/ays.pdf')}}" target="_blank" class="open-case-study">
                                 <img src="{{URL::to('/public/case-studies/cover/ays.jpg')}}" class="case-studies-img" width="100%" alt="Case Studies">
                                 <h5><span>AYS Developers</span> x <span>DMS</span> |  Case Study</h5>
@@ -80,7 +86,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 case-studies-new">
                             <a href="{{URL::to('/public/case-studies/ksa.pdf')}}" target="_blank" class="open-case-study">
-                                <img src="{{URL::to('/public/case-studies/cover/ksa.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
+                                <img src="{{URL::to('/public/case-studies/cover/lenkart.jpg')}}" class="case-studies-img-even" width="100%" alt="Case Studies">
                                 <h5><span>KSA Influencers</span> x <span>DMS</span> |  Case Study</h5>
                             </a>
                         </div>
