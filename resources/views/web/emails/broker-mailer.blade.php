@@ -57,7 +57,7 @@ make this in html for emailer
             <td style="padding:40px 35px; color:#333333; font-size:16px; line-height:1.7;">
 
               <p style="margin-top:0;">
-                Dear {{$name}},
+                Hi,
               </p>
 
               <p>
