@@ -1,30 +1,3 @@
-
-
-
-Claim offer
-Dear [Name],
-Thank you for confirming your attendance for the Broker Growth Event powered by Forex.com by StoneX.
-
-We are excited to welcome you to an exclusive networking and growth-focused event designed for brokers, industry professionals, and business leaders.
-Event Details:
-📍 Venue: Capital Club Dubai, Gate Village, Zaa'beel Second - DIFC - Dubai 
-📅 Date: 21st May,2026
-⏰ Time:  11am
-
-The event will feature:
-• Industry networking opportunities
-• Business growth insights
-• Expert discussions and collaborations
-• Opportunities to connect with key decision-makers
-
-Please arrive 15–20 minutes prior to the event.
-
-We look forward to seeing you at the event.
-Regards,
-DMS Team
-
-make this in html for emailer
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
