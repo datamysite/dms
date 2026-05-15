@@ -27,8 +27,9 @@ Route::get('/clear-cache', function () {
 
 Route::get('/broker-growth-mailer', function(){
 
+    $email = filter_var($_GET['email'], FILTER_VALIDATE_EMAIL);
     $data = array('name', $_GET['name']);
-    $mail = Mailer::sendMail('Thank you for confirming your attendance for the Broker Growth Event | DMS x Forex.com', array($_GET['email']), 'DMS', 'broker-mailer', $data);
+    $mail = Mailer::sendMail('Thank you for confirming your attendance for the Broker Growth Event | DMS x Forex.com', array($email), 'DMS', 'broker-mailer', $data);
 });
 
 //Web 
