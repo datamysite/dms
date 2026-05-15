@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\adminAuth;
 use App\Models\Blogs;
+use App\Helpers\Mailer;
 
 
 //sitemap
@@ -24,6 +25,11 @@ Route::get('/clear-cache', function () {
     ]);
 });
 
+Route::get('/broker-growth-mailer', function(){
+
+    $data = array('name', $_GET['name']);
+    $mail = Mailer::sendMail('Thank you for confirming your attendance for the Broker Growth Event | DMS x Forex.com', array($_GET['email']), 'DMS', 'broker-mailer', $data);
+});
 
 //Web 
 
