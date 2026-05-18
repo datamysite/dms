@@ -60,7 +60,7 @@
                     </p>
 
                     <p style="margin:8px 0;">
-                      ⏰ <strong>Time:</strong> 11:00 AM
+                      ⏰ <strong>Time:</strong> 02:00 PM
                     </p>
 
                   </td>
